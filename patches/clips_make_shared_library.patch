@@ -1,0 +1,11 @@
+32c32
+< 	gcc -c -Wall -x c++ -O3 -fPIC -fno-strict-aliasing -Wundef -Wpointer-arith -Wshadow -Wcast-qual \
+---
+> 	gcc -c -Wall -x c++ -O3 -fno-strict-aliasing -Wundef -Wpointer-arith -Wshadow -Wcast-qual \
+36,39c36
+< 	gcc -o clips $(OBJS) -lstdc++ -lm  
+< 
+< libclips.so : $(OBJS)
+< 	g++ -shared -o libclips.so $(OBJS) -lstdc++ -lm
+---
+> 	gcc -o clips $(OBJS) -lstdc++   
