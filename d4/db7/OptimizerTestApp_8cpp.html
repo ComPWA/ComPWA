@@ -86,8 +86,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">OptimizerTestApp.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -101,117 +100,42 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;memory&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/d15/MinuitIF_8hpp_source.html">Optimizer/Minuit2/MinuitIF.hpp</a>&quot;</code><br/>
+<code>#include &lt;boost/lexical_cast.hpp&gt;</code><br/>
 <code>#include &quot;<a class="el" href="../../db/dad/GenevaIF_8hpp_source.html">Optimizer/Geneva/GenevaIF.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../da/d15/MinuitIF_8hpp_source.html">Optimizer/Minuit2/MinuitIF.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../df/d9f/ParameterList_8hpp_source.html">Core/ParameterList.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../db/dce/Parameter_8hpp_source.html">Core/Parameter.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d88/FitResult_8hpp_source.html">Core/FitResult.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/db4/Logging_8hpp_source.html">Core/Logging.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d41/RunManager_8hpp_source.html">Core/RunManager.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">Core/TwoBodyKinematics.hpp</a>&quot;</code><br/>
-<code>#include &quot;DataReader/RootGenerator/RootGenerator.hpp&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../df/d53/RootReader_8hpp_source.html">DataReader/RootReader/RootReader.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">Estimator/MinLogLH/MinLogLH.hpp</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Core/Amplitude.hpp</a>&quot;</code><br/>
-<code>#include &quot;TH1D.h&quot;</code><br/>
-<code>#include &quot;TCanvas.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="../../d2/dcb/PolyFit_8hpp_source.html">executables/test/PolyFit.hpp</a>&quot;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6a4995c5d672968e7788e8cae7e22eaf"><td class="memItemLeft" align="right" valign="top">h_minuit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a6a4995c5d672968e7788e8cae7e22eaf">Fill</a> (sqrt(p.getVal(0)))</td></tr>
-<tr class="separator:a6a4995c5d672968e7788e8cae7e22eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88855e1241c7d665855764fc031f9fee"><td class="memItemLeft" align="right" valign="top">h_data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a88855e1241c7d665855764fc031f9fee">Draw</a> ()</td></tr>
-<tr class="separator:a88855e1241c7d665855764fc031f9fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3fb3a2de4b64db947ea24055d31b13c"><td class="memItemLeft" align="right" valign="top">h_minuit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#af3fb3a2de4b64db947ea24055d31b13c">Draw</a> (&quot;Sames&quot;)</td></tr>
-<tr class="separator:af3fb3a2de4b64db947ea24055d31b13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f656c7b820491b8a1c52ea68bee66b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a518135d9222e8ed6d81fe82af01dd031">s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a7f656c7b820491b8a1c52ea68bee66b6">Print</a> (&quot;OptimizerTest.root&quot;)</td></tr>
-<tr class="separator:a7f656c7b820491b8a1c52ea68bee66b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:af227856dd3bc036ba3a26ad82444320d"><td class="memItemLeft" align="right" valign="top">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEADintmain(intargc, <br class="typebreak"/>
-char **argv){std::cout<br class="typebreak"/>
-&lt;&lt;&quot;ComPWACopyright(C)2013MathiasMichel&quot;&lt;&lt; std::endl;std::cout&lt;&lt;&quot;ThisprogramcomeswithABSOLUTELYNOWARRANTY;fordetailsseelicense.txt&quot;&lt;&lt; std::endl;std::cout&lt;&lt; std::endl;TwoBodyKinematics::createInstance(&quot;D0&quot;,&quot;K-&quot;,&quot;pi+&quot;, 0.1);std::shared_ptr&lt; Generator &gt;gen=std::shared_ptr&lt; Generator &gt;(newUniformTwoBodyGenerator(1.8 *1.8, 2.0 *2.0, 1234567));RunManagerrun;run.setGenerator(gen);DoubleParametertrue_mass(&quot;mean&quot;, 1.865, 1.5, 2.0, 0.1);DoubleParametertrue_width(&quot;width&quot;, 0.004, 0, 0.1, 0.01);DoubleParametermass(&quot;mean&quot;, 1.8, 1.5, 2.0, 0.1);DoubleParameterwidth(&quot;width&quot;, 0.05, 0, 0.1, 0.01);ParameterListtruePar, fitPar, initialPar;std::shared_ptr&lt; Amplitude &gt;truegaus(newGaussAmp(&quot;gaus&quot;, true_mass, true_width));truegaus-&gt;FillParameterList(truePar);std::shared_ptr&lt; Amplitude &gt;gaus(newGaussAmp(&quot;gaus&quot;, mass, width));gaus-&gt;FillParameterList(fitPar);gaus-&gt;FillParameterList(initialPar);run.setAmplitude(truegaus);std::shared_ptr&lt; Data &gt;toyData(newRootReader());run.setData(toyData);run.generate(1000);run.setAmplitude(gaus);std::shared_ptr&lt; Data &gt;toyPhsp(newRootReader());run.setPhspSample(toyPhsp);run.generatePhsp(100000);std::shared_ptr&lt; ControlParameter &gt;myFit(MinLogLH::createInstance(gaus, toyData, toyPhsp));std::shared_ptr&lt; Optimizer &gt;geneva_opti(newGenevaIF(myFit));std::shared_ptr&lt; Optimizer &gt;minuit_opti(newMinuitIF(myFit, fitPar));BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;StartingParameters:&quot;;BOOST_LOG_TRIVIAL(info)&lt;&lt; fitPar.to_str();BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningGenevaoptimizer:&quot;;std::shared_ptr&lt; FitResult &gt;geneva_result=geneva_opti-&gt;exec(fitPar);geneva_result-&gt;setInitialParameters(initialPar);geneva_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt; Data &gt;geneva_fit(newRootReader());run.setData(geneva_fit);run.generate(1000);gaus-&gt;FillParameterList(initialPar);BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningMinuitoptimizer:&quot;;std::shared_ptr&lt; FitResult &gt;minuit_result=minuit_opti-&gt;exec(fitPar);minuit_result-&gt;setInitialParameters(initialPar);minuit_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt; Data &gt;minuit_fit(newRootReader());run.setData(minuit_fit);run.generate(1000);geneva_result-&gt;print();minuit_result-&gt;print();TH1D *h_data=newTH1D(&quot;data&quot;,&quot;data&quot;, 100, 1.8, 2.0);TH1D *h_minuit=newTH1D(&quot;minuit&quot;,&quot;minuit&quot;, 100, 1.8, 2.0);h_minuit-&gt;SetLineColor(kGreen);TH1D *h_geneva=newTH1D(&quot;geneva&quot;,&quot;geneva&quot;, 100, 1.8, 2.0);h_minuit-&gt;SetLineColor(kBlue);for(inti=0;i&lt; toyData-&gt;getNEvents();i++){dataPointp(toyData-&gt;getEvent(i));h_data-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt; geneva_fit-&gt;getNEvents();i++){dataPointp(geneva_fit-&gt;getEvent(i));h_geneva-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt; minuit_fit-&gt;getNEvents();i++){dataPointp(minuit_fit-&gt;getEvent(i));h_minuit-&gt;Fill(sqrt(p.getVal(0)));}TCanvass;h_data-&gt;Draw();h_minuit-&gt;Draw(&quot;Sames&quot;);h_geneva-&gt;Draw(&quot;Sames&quot;);s.Print(&quot;OptimizerTest.root&quot;);return0;=======intmain(intargc, char **argv){std::cout&lt;&lt;&quot;ComPWACopyright(C)2013MathiasMichel&quot;&lt;&lt; std::endl;std::cout&lt;&lt;&quot;ThisprogramcomeswithABSOLUTELYNOWARRANTY;fordetailsseelicense.txt&quot;&lt;&lt; std::endl;std::cout&lt;&lt; std::endl;TwoBodyKinematics::createInstance(&quot;D0&quot;,&quot;K-&quot;,&quot;pi+&quot;, 0.1);std::shared_ptr&lt; Generator &gt;gen=std::shared_ptr&lt; Generator &gt;(newComPWA::DataReader::RootGenerator::UniformTwoBodyGenerator(1.8 *1.8, 2.0 *2.0, 1234567));ComPWA::RunManagerrun;run.setGenerator(gen);DoubleParametertrue_mass(&quot;mean&quot;, 1.865, 1.5, 2.0, 0.1);DoubleParametertrue_width(&quot;width&quot;, 0.004, 0, 0.1, 0.01);DoubleParametermass(&quot;mean&quot;, 1.8, 1.5, 2.0, 0.1);DoubleParameterwidth(&quot;width&quot;, 0.05, 0, 0.1, 0.01);ParameterListtruePar, fitPar, initialPar;std::shared_ptr&lt; Amplitude &gt;truegaus(newComPWA::GaussAmp(&quot;gaus&quot;, true_mass, true_width));truegaus-&gt;copyParameterList(truePar);std::shared_ptr&lt; Amplitude &gt;gaus(newComPWA::GaussAmp(&quot;gaus&quot;, mass, width));gaus-&gt;copyParameterList(fitPar);gaus-&gt;copyParameterList(initialPar);run.setAmplitude(truegaus);std::shared_ptr&lt; Data &gt;toyData(newRootReader());run.setData(toyData);run.generate(1000);run.setAmplitude(gaus);std::shared_ptr&lt; Data &gt;toyPhsp(newRootReader());run.setPhspSample(toyPhsp);run.generatePhsp(100000);std::shared_ptr&lt; ComPWA::Optimizer::ControlParameter &gt;myFit(ComPWA::Estimator::MinLogLH::MinLogLH::createInstance(gaus, toyData, toyPhsp));std::shared_ptr&lt; Optimizer &gt;geneva_opti(newComPWA::Optimizer::Geneva::GenevaIF(myFit));std::shared_ptr&lt; Optimizer &gt;minuit_opti(newComPWA::Optimizer::Minuit2::MinuitIF(myFit, fitPar));BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;StartingParameters:&quot;;BOOST_LOG_TRIVIAL(info)&lt;&lt; fitPar.to_str();BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningGenevaoptimizer:&quot;;std::shared_ptr&lt; FitResult &gt;geneva_result=geneva_opti-&gt;exec(fitPar);geneva_result-&gt;setInitialParameters(initialPar);geneva_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt; Data &gt;geneva_fit(newRootReader());run.setData(geneva_fit);run.generate(1000);gaus-&gt;copyParameterList(initialPar);BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningMinuitoptimizer:&quot;;std::shared_ptr&lt; FitResult &gt;minuit_result=minuit_opti-&gt;exec(fitPar);minuit_result-&gt;setInitialParameters(initialPar);minuit_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt; Data &gt;minuit_fit(newRootReader());run.setData(minuit_fit);run.generate(1000);geneva_result-&gt;print();minuit_result-&gt;print();TH1D *h_data=newTH1D(&quot;data&quot;,&quot;data&quot;, 100, 1.8, 2.0);TH1D *h_minuit=newTH1D(&quot;minuit&quot;,&quot;minuit&quot;, 100, 1.8, 2.0);h_minuit-&gt;SetLineColor(kGreen);TH1D *h_geneva=newTH1D(&quot;geneva&quot;,&quot;geneva&quot;, 100, 1.8, 2.0);h_minuit-&gt;SetLineColor(kBlue);for(inti=0;i&lt; toyData-&gt;getNEvents();i++){dataPointp(toyData-&gt;getEvent(i));h_data-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt; geneva_fit-&gt;getNEvents();i++){dataPointp(geneva_fit-&gt;getEvent(i));h_geneva-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt; minuit_fit-&gt;getNEvents();i++){dataPointp(minuit_fit-&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#af227856dd3bc036ba3a26ad82444320d">getEvent</a> (i))</td></tr>
-<tr class="separator:af227856dd3bc036ba3a26ad82444320d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a518135d9222e8ed6d81fe82af01dd031"><td class="memItemLeft" align="right" valign="top">TCanvas&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a518135d9222e8ed6d81fe82af01dd031">s</a></td></tr>
-<tr class="separator:a518135d9222e8ed6d81fe82af01dd031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9717e7bbecb906637e86cef6da3d83c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></td></tr>
-<tr class="separator:a9717e7bbecb906637e86cef6da3d83c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Test-Application of the Optimizer-IF. </p>
 <p>This tiny application tests the interface to the Optimizers Minuit2 and Geneva. The test dataset is generated in the <a class="el" href="../../d2/dcb/PolyFit_8hpp.html" title="This class derives from ControlParameter, the data-interface of the optimizers. ">PolyFit.hpp</a> class, which creates smeared 1-dim data according to a polynomial function. Then the Optimizer-IF implemen- tations Minuit2 (<a class="el" href="../../da/d15/MinuitIF_8hpp.html" title="This class provides a wrapper around the Minuit2 library. ">MinuitIF.hpp</a>) and Geneva (<a class="el" href="../../db/dad/GenevaIF_8hpp.html" title="This class provides a wrapper around the Geneva library. ">GenevaIF.hpp</a>) are used one after the other to fit the same polynomial to the smeared points. As a result the optimized parameters are printed. Note: In this example Minuit2 uses the final parameters of Geneva as starting values! </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a88855e1241c7d665855764fc031f9fee"></a>
+<a class="anchor" id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">h_data Draw </td>
+          <td class="memname">int main </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af3fb3a2de4b64db947ea24055d31b13c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">h_geneva Draw </td>
-          <td>(</td>
-          <td class="paramtype">&quot;Sames&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6a4995c5d672968e7788e8cae7e22eaf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">h_minuit Fill </td>
-          <td>(</td>
-          <td class="paramtype">sqrt(p.getVal(0))&#160;</td>
-          <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7f656c7b820491b8a1c52ea68bee66b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/db7/OptimizerTestApp_8cpp.html#a518135d9222e8ed6d81fe82af01dd031">s</a> Print </td>
-          <td>(</td>
-          <td class="paramtype">&quot;OptimizerTest.root&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="af227856dd3bc036ba3a26ad82444320d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEADintmain(intargc,char**argv){std::cout&lt;&lt;&quot;ComPWACopyright(C)2013MathiasMichel&quot;&lt;&lt;std::endl;std::cout&lt;&lt;&quot;ThisprogramcomeswithABSOLUTELYNOWARRANTY;fordetailsseelicense.txt&quot;&lt;&lt;std::endl;std::cout&lt;&lt;std::endl;TwoBodyKinematics::createInstance(&quot;D0&quot;,&quot;K-&quot;,&quot;pi+&quot;,0.1);std::shared_ptr&lt;Generator&gt;gen=std::shared_ptr&lt;Generator&gt;(newUniformTwoBodyGenerator(1.8*1.8,2.0*2.0,1234567));RunManagerrun;run.setGenerator(gen);DoubleParametertrue_mass(&quot;mean&quot;,1.865,1.5,2.0,0.1);DoubleParametertrue_width(&quot;width&quot;,0.004,0,0.1,0.01);DoubleParametermass(&quot;mean&quot;,1.8,1.5,2.0,0.1);DoubleParameterwidth(&quot;width&quot;,0.05,0,0.1,0.01);ParameterListtruePar,fitPar,initialPar;std::shared_ptr&lt;Amplitude&gt;truegaus(newGaussAmp(&quot;gaus&quot;,true_mass,true_width));truegaus-&gt;FillParameterList(truePar);std::shared_ptr&lt;Amplitude&gt;gaus(newGaussAmp(&quot;gaus&quot;,mass,width));gaus-&gt;FillParameterList(fitPar);gaus-&gt;FillParameterList(initialPar);run.setAmplitude(truegaus);std::shared_ptr&lt;Data&gt;toyData(newRootReader());run.setData(toyData);run.generate(1000);run.setAmplitude(gaus);std::shared_ptr&lt;Data&gt;toyPhsp(newRootReader());run.setPhspSample(toyPhsp);run.generatePhsp(100000);std::shared_ptr&lt;ControlParameter&gt;myFit(MinLogLH::createInstance(gaus,toyData,toyPhsp));std::shared_ptr&lt;Optimizer&gt;geneva_opti(newGenevaIF(myFit));std::shared_ptr&lt;Optimizer&gt;minuit_opti(newMinuitIF(myFit,fitPar));BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;StartingParameters:&quot;;BOOST_LOG_TRIVIAL(info)&lt;&lt;fitPar.to_str();BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningGenevaoptimizer:&quot;;std::shared_ptr&lt;FitResult&gt;geneva_result=geneva_opti-&gt;exec(fitPar);geneva_result-&gt;setInitialParameters(initialPar);geneva_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt;Data&gt;geneva_fit(newRootReader());run.setData(geneva_fit);run.generate(1000);gaus-&gt;FillParameterList(initialPar);BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningMinuitoptimizer:&quot;;std::shared_ptr&lt;FitResult&gt;minuit_result=minuit_opti-&gt;exec(fitPar);minuit_result-&gt;setInitialParameters(initialPar);minuit_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt;Data&gt;minuit_fit(newRootReader());run.setData(minuit_fit);run.generate(1000);geneva_result-&gt;print();minuit_result-&gt;print();TH1D*h_data=newTH1D(&quot;data&quot;,&quot;data&quot;,100,1.8,2.0);TH1D*h_minuit=newTH1D(&quot;minuit&quot;,&quot;minuit&quot;,100,1.8,2.0);h_minuit-&gt;SetLineColor(kGreen);TH1D*h_geneva=newTH1D(&quot;geneva&quot;,&quot;geneva&quot;,100,1.8,2.0);h_minuit-&gt;SetLineColor(kBlue);for(inti=0;i&lt;toyData-&gt;getNEvents();i++){dataPointp(toyData-&gt;getEvent(i));h_data-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt;geneva_fit-&gt;getNEvents();i++){dataPointp(geneva_fit-&gt;getEvent(i));h_geneva-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt;minuit_fit-&gt;getNEvents();i++){dataPointp(minuit_fit-&gt;getEvent(i));h_minuit-&gt;Fill(sqrt(p.getVal(0)));}TCanvass;h_data-&gt;Draw();h_minuit-&gt;Draw(&quot;Sames&quot;);h_geneva-&gt;Draw(&quot;Sames&quot;);s.Print(&quot;OptimizerTest.root&quot;);return0;=======intmain(intargc,char**argv){std::cout&lt;&lt;&quot;ComPWACopyright(C)2013MathiasMichel&quot;&lt;&lt;std::endl;std::cout&lt;&lt;&quot;ThisprogramcomeswithABSOLUTELYNOWARRANTY;fordetailsseelicense.txt&quot;&lt;&lt;std::endl;std::cout&lt;&lt;std::endl;TwoBodyKinematics::createInstance(&quot;D0&quot;,&quot;K-&quot;,&quot;pi+&quot;,0.1);std::shared_ptr&lt;Generator&gt;gen=std::shared_ptr&lt;Generator&gt;(newComPWA::DataReader::RootGenerator::UniformTwoBodyGenerator(1.8*1.8,2.0*2.0,1234567));ComPWA::RunManagerrun;run.setGenerator(gen);DoubleParametertrue_mass(&quot;mean&quot;,1.865,1.5,2.0,0.1);DoubleParametertrue_width(&quot;width&quot;,0.004,0,0.1,0.01);DoubleParametermass(&quot;mean&quot;,1.8,1.5,2.0,0.1);DoubleParameterwidth(&quot;width&quot;,0.05,0,0.1,0.01);ParameterListtruePar,fitPar,initialPar;std::shared_ptr&lt;Amplitude&gt;truegaus(newComPWA::GaussAmp(&quot;gaus&quot;,true_mass,true_width));truegaus-&gt;copyParameterList(truePar);std::shared_ptr&lt;Amplitude&gt;gaus(newComPWA::GaussAmp(&quot;gaus&quot;,mass,width));gaus-&gt;copyParameterList(fitPar);gaus-&gt;copyParameterList(initialPar);run.setAmplitude(truegaus);std::shared_ptr&lt;Data&gt;toyData(newRootReader());run.setData(toyData);run.generate(1000);run.setAmplitude(gaus);std::shared_ptr&lt;Data&gt;toyPhsp(newRootReader());run.setPhspSample(toyPhsp);run.generatePhsp(100000);std::shared_ptr&lt;ComPWA::Optimizer::ControlParameter&gt;myFit(ComPWA::Estimator::MinLogLH::MinLogLH::createInstance(gaus,toyData,toyPhsp));std::shared_ptr&lt;Optimizer&gt;geneva_opti(newComPWA::Optimizer::Geneva::GenevaIF(myFit));std::shared_ptr&lt;Optimizer&gt;minuit_opti(newComPWA::Optimizer::Minuit2::MinuitIF(myFit,fitPar));BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;StartingParameters:&quot;;BOOST_LOG_TRIVIAL(info)&lt;&lt;fitPar.to_str();BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningGenevaoptimizer:&quot;;std::shared_ptr&lt;FitResult&gt;geneva_result=geneva_opti-&gt;exec(fitPar);geneva_result-&gt;setInitialParameters(initialPar);geneva_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt;Data&gt;geneva_fit(newRootReader());run.setData(geneva_fit);run.generate(1000);gaus-&gt;copyParameterList(initialPar);BOOST_LOG_TRIVIAL(info)&lt;&lt;&quot;RunningMinuitoptimizer:&quot;;std::shared_ptr&lt;FitResult&gt;minuit_result=minuit_opti-&gt;exec(fitPar);minuit_result-&gt;setInitialParameters(initialPar);minuit_result-&gt;setTrueParameters(truePar);std::shared_ptr&lt;Data&gt;minuit_fit(newRootReader());run.setData(minuit_fit);run.generate(1000);geneva_result-&gt;print();minuit_result-&gt;print();TH1D*h_data=newTH1D(&quot;data&quot;,&quot;data&quot;,100,1.8,2.0);TH1D*h_minuit=newTH1D(&quot;minuit&quot;,&quot;minuit&quot;,100,1.8,2.0);h_minuit-&gt;SetLineColor(kGreen);TH1D*h_geneva=newTH1D(&quot;geneva&quot;,&quot;geneva&quot;,100,1.8,2.0);h_minuit-&gt;SetLineColor(kBlue);for(inti=0;i&lt;toyData-&gt;getNEvents();i++){dataPointp(toyData-&gt;getEvent(i));h_data-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt;geneva_fit-&gt;getNEvents();i++){dataPointp(geneva_fit-&gt;getEvent(i));h_geneva-&gt;Fill(sqrt(p.getVal(0)));}for(inti=0;i&lt;minuit_fit-&gt;getNEvents();i++){dataPointp(minuit_fit-&gt; getEvent(i))</td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,34 +143,10 @@ char **argv){std::cout<br class="typebreak"/>
 
 </div>
 </div>
-<a class="anchor" id="a9717e7bbecb906637e86cef6da3d83c2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">return</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a518135d9222e8ed6d81fe82af01dd031"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TCanvas s</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 22 2017 22:34:50 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 2 2017 12:50:19 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

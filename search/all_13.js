@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s',['s',['../d4/db7/OptimizerTestApp_8cpp.html#a518135d9222e8ed6d81fe82af01dd031',1,'OptimizerTestApp.cpp']]],
   ['s_5fdata',['s_data',['../da/d41/classplotData.html#ac2b2bd8ed028b3a509216982e6421977',1,'plotData']]],
   ['s_5ffit',['s_fit',['../da/d41/classplotData.html#a14fa33acbb8366f02cdb4118a6a7f8a7',1,'plotData']]],
   ['s_5fhitmiss',['s_hitMiss',['../da/d41/classplotData.html#ace0317f1fc3c30379e5d570c51de9d78',1,'plotData']]],
@@ -179,8 +178,8 @@ var searchData=
   ['statistics_5foptions',['statistics_options',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#ad942a450b15bd15686603d439d73ced9',1,'NeatPlotting::PlotStyle']]],
   ['storage_5findex_5f',['storage_index_',['../d3/d9a/classComPWA_1_1Physics_1_1DynamicalFunctions_1_1DynamicalFunctionStrategy.html#a6427c0fad240edd06f7b3dc1070a1730',1,'ComPWA::Physics::DynamicalFunctions::DynamicalFunctionStrategy::storage_index_()'],['../d3/d6e/classComPWA_1_1Physics_1_1HelicityFormalism_1_1TwoBodyDecayAngularStrategy.html#a001d904b05c7438c9de6d52513d42d8e',1,'ComPWA::Physics::HelicityFormalism::TwoBodyDecayAngularStrategy::storage_index_()']]],
   ['storeevents',['storeEvents',['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#adaed2841b0266a4137a4114ebd91745b',1,'ComPWA::DataReader::JakeReader::JakeReader::storeEvents()'],['../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a4c2e6179e52197a407b5a5d216c48243',1,'ComPWA::DataReader::RootReader::storeEvents()']]],
-  ['strategy',['Strategy',['../d2/df2/classStrategy.html',1,'Strategy'],['../d3/df8/classComPWA_1_1Strategy.html#ad1bfd1585afef700fe9213c44f2530c3',1,'ComPWA::Strategy::Strategy()']]],
   ['strategy',['Strategy',['../d3/df8/classComPWA_1_1Strategy.html',1,'ComPWA']]],
+  ['strategy',['Strategy',['../d2/df2/classStrategy.html',1,'Strategy'],['../d3/df8/classComPWA_1_1Strategy.html#ad1bfd1585afef700fe9213c44f2530c3',1,'ComPWA::Strategy::Strategy()']]],
   ['strength_5f',['strength_',['../da/d8f/classComPWA_1_1Physics_1_1HelicityFormalism_1_1FullTwoBodyDecayAmplitude.html#a80953d7eb2401d40902715fd81d9fa35',1,'ComPWA::Physics::HelicityFormalism::FullTwoBodyDecayAmplitude']]],
   ['strength_5fand_5fphase_5f',['strength_and_phase_',['../d6/ddf/structComPWA_1_1Physics_1_1DecayTree_1_1DecayNode.html#adc7504dda7a2cd1ba21af829b2ef6eea',1,'ComPWA::Physics::DecayTree::DecayNode']]],
   ['stringtodynamicaltype',['StringToDynamicalType',['../dd/da1/namespaceComPWA_1_1Physics_1_1DynamicalFunctions.html#afb0893cb302d583ccc544672f170edc9',1,'ComPWA::Physics::DynamicalFunctions']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s',['s',['../d4/db7/OptimizerTestApp_8cpp.html#a518135d9222e8ed6d81fe82af01dd031',1,'OptimizerTestApp.cpp']]],
   ['s_5fdata',['s_data',['../da/d41/classplotData.html#ac2b2bd8ed028b3a509216982e6421977',1,'plotData']]],
   ['s_5ffit',['s_fit',['../da/d41/classplotData.html#a14fa33acbb8366f02cdb4118a6a7f8a7',1,'plotData']]],
   ['s_5fhitmiss',['s_hitMiss',['../da/d41/classplotData.html#ace0317f1fc3c30379e5d570c51de9d78',1,'plotData']]],

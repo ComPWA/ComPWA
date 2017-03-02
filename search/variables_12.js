@@ -12,6 +12,5 @@ var searchData=
   ['resonance_5fwidth_5f',['resonance_width_',['../dd/ded/classComPWA_1_1Physics_1_1DynamicalFunctions_1_1RelativisticBreitWigner.html#aff60e72c6eeaf993daf2e4e40a915cef',1,'ComPWA::Physics::DynamicalFunctions::RelativisticBreitWigner']]],
   ['result',['result',['../d8/db7/classComPWA_1_1Amplitude.html#a34ba2486831c07904dc1cea7b60d40c9',1,'ComPWA::Amplitude']]],
   ['result_5fvalue_5f',['result_value_',['../d2/da3/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentAmplitude.html#acdcd5bd0d649b07484e526d9e0204dc9',1,'ComPWA::Physics::HelicityFormalism::CoherentAmplitude']]],
-  ['return',['return',['../d4/db7/OptimizerTestApp_8cpp.html#a9717e7bbecb906637e86cef6da3d83c2',1,'OptimizerTestApp.cpp']]],
   ['rr',['rr',['../d0/d4b/classAmpSumSliceIntensity.html#a36681de314dd1ba9c262456d0769bef9',1,'AmpSumSliceIntensity']]]
 ];
