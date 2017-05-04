@@ -41,5 +41,6 @@ var searchData=
   ['printinfo',['printInfo',['../db/df3/classComPWA_1_1Physics_1_1DecayTree_1_1DecayConfiguration.html#acdd9ae5b54332fe95512082494fbe115',1,'ComPWA::Physics::DecayTree::DecayConfiguration']]],
   ['progressbar',['progressBar',['../dc/db5/classComPWA_1_1progressBar.html#ad6bfe6e9f344bf8381d4439dcd2a00a7',1,'ComPWA::progressBar::progressBar()'],['../dc/db5/classComPWA_1_1progressBar.html#a1193fa3cc2dcf8c8e94e3181dc0b212b',1,'ComPWA::progressBar::progressBar(int size, int update=1)']]],
   ['pushevent',['pushEvent',['../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a9beae058e2ff28903b56881221d58ef7',1,'ComPWA::DataReader::Data::pushEvent()'],['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#aee46a196c564a0526c0683c212e712e7',1,'ComPWA::DataReader::JakeReader::JakeReader::pushEvent()']]],
-  ['put',['put',['../db/da9/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpAbsDynamicalFunction.html#a4cc5677f4d8003883cf3c53d1aebd7b1',1,'ComPWA::Physics::AmplitudeSum::AmpAbsDynamicalFunction']]]
+  ['put',['put',['../db/da9/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpAbsDynamicalFunction.html#a4cc5677f4d8003883cf3c53d1aebd7b1',1,'ComPWA::Physics::AmplitudeSum::AmpAbsDynamicalFunction']]],
+  ['pythonfit',['PythonFit',['../dc/dfe/classPythonFit.html#a1e29a697b89c079eee1a9bfc8547c0a8',1,'PythonFit']]]
 ];

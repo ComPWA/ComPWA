@@ -82,6 +82,7 @@ var searchData=
   ['_7epolyfit',['~PolyFit',['../de/d89/classPolyFit.html#a3462736e02f02d3ab46ccd64aaf235d3',1,'PolyFit']]],
   ['_7epower',['~Power',['../d2/da0/classComPWA_1_1Power.html#a893e79a5e5645cd58a7bb43188b58e4e',1,'ComPWA::Power']]],
   ['_7eprogressbar',['~progressBar',['../dc/db5/classComPWA_1_1progressBar.html#aaa63ca45b8fed132f3a6cb35391dc260',1,'ComPWA::progressBar']]],
+  ['_7epythonfit',['~PythonFit',['../dc/dfe/classPythonFit.html#aa181f6b156ad9f6d854ff75eba9593ea',1,'PythonFit']]],
   ['_7equantumnumbertranslator',['~QuantumNumberTranslator',['../d4/d7e/classComPWA_1_1QuantumNumberTranslator.html#ada5d5c9bbc08b9fe4b3e6a23815e09a4',1,'ComPWA::QuantumNumberTranslator']]],
   ['_7ereal',['~Real',['../d3/d92/classComPWA_1_1Real.html#a824419bd1525ce306556e9ad1511db8b',1,'ComPWA::Real']]],
   ['_7erelativisticbreitwigner',['~RelativisticBreitWigner',['../dd/ded/classComPWA_1_1Physics_1_1DynamicalFunctions_1_1RelativisticBreitWigner.html#ad0dfab462ed418eeef9646f4003e9c9f',1,'ComPWA::Physics::DynamicalFunctions::RelativisticBreitWigner']]],

@@ -19,5 +19,7 @@ var searchData=
   ['polyfit_2ecpp',['PolyFit.cpp',['../d5/d8b/PolyFit_8cpp.html',1,'']]],
   ['polyfit_2ehpp',['PolyFit.hpp',['../d2/dcb/PolyFit_8hpp.html',1,'']]],
   ['progressbar_2ecpp',['ProgressBar.cpp',['../d6/d08/ProgressBar_8cpp.html',1,'']]],
-  ['progressbar_2ehpp',['ProgressBar.hpp',['../d7/df5/ProgressBar_8hpp.html',1,'']]]
+  ['progressbar_2ehpp',['ProgressBar.hpp',['../d7/df5/ProgressBar_8hpp.html',1,'']]],
+  ['pythonfit_2ecpp',['PythonFit.cpp',['../d6/d0a/PythonFit_8cpp.html',1,'']]],
+  ['pythonfit_2ehpp',['PythonFit.hpp',['../db/deb/PythonFit_8hpp.html',1,'']]]
 ];

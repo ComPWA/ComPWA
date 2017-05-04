@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['dalitzanglehistefficiency',['DalitzAngleHistEfficiency',['../df/dbf/classComPWA_1_1Physics_1_1DPKinematics_1_1DalitzAngleHistEfficiency.html',1,'ComPWA::Physics::DPKinematics']]],
+  ['dalitz_5fext_2ecpp',['Dalitz_ext.cpp',['../d8/d92/Dalitz__ext_8cpp.html',1,'']]],
   ['dalitzanglehistefficiency',['DalitzAngleHistEfficiency',['../df/dbf/classComPWA_1_1Physics_1_1DPKinematics_1_1DalitzAngleHistEfficiency.html#a2042dea2fa3c7b8663b0d511a5a896f2',1,'ComPWA::Physics::DPKinematics::DalitzAngleHistEfficiency::DalitzAngleHistEfficiency(TEfficiency *eff)'],['../df/dbf/classComPWA_1_1Physics_1_1DPKinematics_1_1DalitzAngleHistEfficiency.html#ae1fa2dc5708dd6c41b375937fd7b8e8d',1,'ComPWA::Physics::DPKinematics::DalitzAngleHistEfficiency::DalitzAngleHistEfficiency(TH2D *passed, TH2D *total)'],['../df/dbf/classComPWA_1_1Physics_1_1DPKinematics_1_1DalitzAngleHistEfficiency.html#abac727807a8221bd4a048c45c42614a4',1,'ComPWA::Physics::DPKinematics::DalitzAngleHistEfficiency::DalitzAngleHistEfficiency(const DalitzAngleHistEfficiency &amp;p)']]],
+  ['dalitzanglehistefficiency',['DalitzAngleHistEfficiency',['../df/dbf/classComPWA_1_1Physics_1_1DPKinematics_1_1DalitzAngleHistEfficiency.html',1,'ComPWA::Physics::DPKinematics']]],
   ['dalitzdataplotterapp_2ecpp',['DalitzDataPlotterApp.cpp',['../d4/d8c/DalitzDataPlotterApp_8cpp.html',1,'']]],
   ['dalitzefficiency',['DalitzEfficiency',['../d6/d1a/classDalitzEfficiency.html',1,'']]],
   ['dalitzfitapp_2ecpp',['DalitzFitApp.cpp',['../da/d2a/DalitzFitApp_8cpp.html',1,'']]],
@@ -83,8 +84,8 @@ var searchData=
   ['decaytreefactory',['DecayTreeFactory',['../db/df3/classComPWA_1_1Physics_1_1DecayTree_1_1DecayConfiguration.html#a94943b4ff8784972553e39ebdb1f83e6',1,'ComPWA::Physics::DecayTree::DecayConfiguration::DecayTreeFactory()'],['../d4/d1a/classComPWA_1_1Physics_1_1DecayTree_1_1DecayTreeFactory.html#aa0fd7928f356f159bf23d00cc40b42bb',1,'ComPWA::Physics::DecayTree::DecayTreeFactory::DecayTreeFactory()']]],
   ['decaytreefactory_2ecpp',['DecayTreeFactory.cpp',['../d8/d4f/DecayTreeFactory_8cpp.html',1,'']]],
   ['decaytreefactory_2ehpp',['DecayTreeFactory.hpp',['../da/d60/DecayTreeFactory_8hpp.html',1,'']]],
-  ['decayxmlconfigreader',['DecayXMLConfigReader',['../da/d46/classComPWA_1_1Physics_1_1DecayTree_1_1DecayXMLConfigReader.html#a49d3bf72e0ce768df9f25553203369ed',1,'ComPWA::Physics::DecayTree::DecayXMLConfigReader']]],
   ['decayxmlconfigreader',['DecayXMLConfigReader',['../da/d46/classComPWA_1_1Physics_1_1DecayTree_1_1DecayXMLConfigReader.html',1,'ComPWA::Physics::DecayTree']]],
+  ['decayxmlconfigreader',['DecayXMLConfigReader',['../da/d46/classComPWA_1_1Physics_1_1DecayTree_1_1DecayXMLConfigReader.html#a49d3bf72e0ce768df9f25553203369ed',1,'ComPWA::Physics::DecayTree::DecayXMLConfigReader']]],
   ['decayxmlconfigreader_2ecpp',['DecayXMLConfigReader.cpp',['../db/dcb/DecayXMLConfigReader_8cpp.html',1,'']]],
   ['decayxmlconfigreader_2ehpp',['DecayXMLConfigReader.hpp',['../d8/d04/DecayXMLConfigReader_8hpp.html',1,'']]],
   ['decendant_5flevel',['decendant_level',['../dc/dcc/structComPWA_1_1Physics_1_1DecayTree_1_1DecayTree_1_1GetAscendingVertexList.html#a68b9a0f3ec342ea9b9995a7e5ae3c48a',1,'ComPWA::Physics::DecayTree::DecayTree::GetAscendingVertexList']]],

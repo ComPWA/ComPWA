@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['dalitz_5fext_2ecpp',['Dalitz_ext.cpp',['../d8/d92/Dalitz__ext_8cpp.html',1,'']]],
   ['dalitzdataplotterapp_2ecpp',['DalitzDataPlotterApp.cpp',['../d4/d8c/DalitzDataPlotterApp_8cpp.html',1,'']]],
   ['dalitzfitapp_2ecpp',['DalitzFitApp.cpp',['../da/d2a/DalitzFitApp_8cpp.html',1,'']]],
   ['dalitzfitd03k_2ecpp',['DalitzFitD03K.cpp',['../db/d7b/DalitzFitD03K_8cpp.html',1,'']]],

@@ -2,13 +2,13 @@ var searchData=
 [
   ['padboundaries',['PadBoundaries',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html',1,'NeatPlotting']]],
   ['parameterfixed',['ParameterFixed',['../d2/dbd/classComPWA_1_1ParameterFixed.html',1,'ComPWA']]],
-  ['parameterlist',['ParameterList',['../d2/d1c/classComPWA_1_1ParameterList.html',1,'ComPWA']]],
   ['parameterlist',['ParameterList',['../d1/d9d/classParameterList.html',1,'']]],
+  ['parameterlist',['ParameterList',['../d2/d1c/classComPWA_1_1ParameterList.html',1,'ComPWA']]],
   ['parameteroutofbound',['ParameterOutOfBound',['../d6/d3b/classComPWA_1_1ParameterOutOfBound.html',1,'ComPWA']]],
   ['parobserver',['ParObserver',['../d7/d61/classComPWA_1_1ParObserver.html',1,'ComPWA']]],
   ['parobserver',['ParObserver',['../df/d75/classParObserver.html',1,'']]],
-  ['particle',['Particle',['../db/d10/classParticle.html',1,'']]],
   ['particle',['Particle',['../dc/d50/classComPWA_1_1Particle.html',1,'ComPWA']]],
+  ['particle',['Particle',['../db/d10/classParticle.html',1,'']]],
   ['particleidcomparison',['ParticleIDComparison',['../d3/d6b/structComPWA_1_1Physics_1_1HelicityFormalism_1_1ParticleIDComparison.html',1,'ComPWA::Physics::HelicityFormalism']]],
   ['particleproperties',['ParticleProperties',['../d9/d33/structComPWA_1_1ParticleProperties.html',1,'ComPWA']]],
   ['particlestatecomperator',['ParticleStateComperator',['../da/d26/structComPWA_1_1Physics_1_1DynamicalFunctions_1_1ParticleStateComperator.html',1,'ComPWA::Physics::DynamicalFunctions']]],
@@ -26,5 +26,6 @@ var searchData=
   ['polyfit',['PolyFit',['../de/d89/classPolyFit.html',1,'']]],
   ['power',['Power',['../d2/da0/classComPWA_1_1Power.html',1,'ComPWA']]],
   ['powertwo',['PowerTwo',['../da/d64/classPowerTwo.html',1,'']]],
-  ['progressbar',['progressBar',['../dc/db5/classComPWA_1_1progressBar.html',1,'ComPWA']]]
+  ['progressbar',['progressBar',['../dc/db5/classComPWA_1_1progressBar.html',1,'ComPWA']]],
+  ['pythonfit',['PythonFit',['../dc/dfe/classPythonFit.html',1,'']]]
 ];

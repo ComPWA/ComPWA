@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gen_5f',['gen_',['../dc/dff/classComPWA_1_1RunManager.html#a06515cf61f955d818783ef8415697fe8',1,'ComPWA::RunManager']]],
+  ['gen_5f',['gen_',['../dc/dff/classComPWA_1_1RunManager.html#a06515cf61f955d818783ef8415697fe8',1,'ComPWA::RunManager::gen_()'],['../dc/dfe/classPythonFit.html#a21ba3b6fc91da9064b14acfb590ae759',1,'PythonFit::gen_()']]],
   ['global_5fparameter_5flist_5f',['global_parameter_list_',['../dd/d47/classComPWA_1_1Physics_1_1HelicityFormalism_1_1TopologyAmplitudeFactory.html#a1ca2cc697a90951748d8bcac89cee0d1',1,'ComPWA::Physics::HelicityFormalism::TopologyAmplitudeFactory']]],
   ['globalcc',['globalCC',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a635c00986f7b636156a7170664754344',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
   ['gmax',['gmax',['../d1/d13/classTTripleSliderDemo.html#a0197288ae15c73a1f4189e511bf7c4d1',1,'TTripleSliderDemo']]],

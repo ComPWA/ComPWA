@@ -1,12 +1,12 @@
 var searchData=
 [
   ['markerstyle',['MarkerStyle',['../d1/db6/structNeatPlotting_1_1MarkerStyle.html',1,'NeatPlotting']]],
-  ['minloglh',['MinLogLH',['../d0/d59/classComPWA_1_1Estimator_1_1MinLogLH_1_1MinLogLH.html',1,'ComPWA::Estimator::MinLogLH']]],
   ['minloglh',['MinLogLH',['../d3/da3/classMinLogLH.html',1,'']]],
+  ['minloglh',['MinLogLH',['../d0/d59/classComPWA_1_1Estimator_1_1MinLogLH_1_1MinLogLH.html',1,'ComPWA::Estimator::MinLogLH']]],
   ['minuitfcn',['MinuitFcn',['../dd/d13/classROOT_1_1Minuit2_1_1MinuitFcn.html',1,'ROOT::Minuit2']]],
   ['minuitfcn',['MinuitFcn',['../da/dba/classMinuitFcn.html',1,'']]],
-  ['minuitif',['MinuitIF',['../dd/db1/classMinuitIF.html',1,'']]],
   ['minuitif',['MinuitIF',['../dc/dc6/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html',1,'ComPWA::Optimizer::Minuit2']]],
+  ['minuitif',['MinuitIF',['../dd/db1/classMinuitIF.html',1,'']]],
   ['minuitresult',['MinuitResult',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html',1,'ComPWA::Optimizer::Minuit2']]],
   ['minuitstrategy',['MinuitStrategy',['../df/df2/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitStrategy.html',1,'ComPWA::Optimizer::Minuit2']]],
   ['momentumcorrection',['MomentumCorrection',['../d6/d40/classComPWA_1_1MomentumCorrection.html',1,'ComPWA']]],
