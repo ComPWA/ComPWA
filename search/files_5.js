@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['finalstateparticlecombinatorics_2ecpp',['FinalStateParticleCombinatorics.cpp',['../d8/d74/FinalStateParticleCombinatorics_8cpp.html',1,'']]],
-  ['finalstateparticlecombinatorics_2ehpp',['FinalStateParticleCombinatorics.hpp',['../d2/d0e/FinalStateParticleCombinatorics_8hpp.html',1,'']]],
+  ['fitfractions_2ehpp',['FitFractions.hpp',['../d6/d6a/FitFractions_8hpp.html',1,'']]],
   ['fitresult_2ecpp',['FitResult.cpp',['../dd/d18/FitResult_8cpp.html',1,'']]],
   ['fitresult_2ehpp',['FitResult.hpp',['../de/d88/FitResult_8hpp.html',1,'']]],
   ['functions_2ecpp',['Functions.cpp',['../db/db8/Functions_8cpp.html',1,'']]],

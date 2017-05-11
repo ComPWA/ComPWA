@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['finalstateparticlecombinatorics',['FinalStateParticleCombinatorics',['../d8/d91/classComPWA_1_1Physics_1_1HelicityFormalism_1_1FinalStateParticleCombinatorics.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['fitresult',['FitResult',['../d7/d8a/classComPWA_1_1FitResult.html',1,'ComPWA']]],
-  ['flattestrategy',['FlatteStrategy',['../d0/db1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1FlatteStrategy.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['fulltwobodydecayamplitude',['FullTwoBodyDecayAmplitude',['../da/d8f/classComPWA_1_1Physics_1_1HelicityFormalism_1_1FullTwoBodyDecayAmplitude.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['functiontree',['FunctionTree',['../d3/de1/classComPWA_1_1FunctionTree.html',1,'ComPWA']]],
-  ['functiontree',['FunctionTree',['../db/d4e/classFunctionTree.html',1,'']]]
+  ['efficiency',['Efficiency',['../d7/d11/classComPWA_1_1Efficiency.html',1,'ComPWA']]],
+  ['enableif',['EnableIf',['../d4/da6/classComPWA_1_1Physics_1_1QFT_1_1EnableIf.html',1,'ComPWA::Physics::QFT']]],
+  ['enableif_3c_20false_2c_20_5ftp_20_3e',['EnableIf&lt; false, _Tp &gt;',['../db/d20/classComPWA_1_1Physics_1_1QFT_1_1EnableIf_3_01false_00_01__Tp_01_4.html',1,'ComPWA::Physics::QFT']]],
+  ['estimator',['Estimator',['../d8/dec/classComPWA_1_1Estimator_1_1Estimator.html',1,'ComPWA::Estimator']]],
+  ['estimator',['Estimator',['../d8/dff/classEstimator.html',1,'']]],
+  ['event',['Event',['../df/d16/classComPWA_1_1Event.html',1,'ComPWA']]],
+  ['event',['Event',['../d5/da5/classEvent.html',1,'']]],
+  ['exception',['Exception',['../d0/d99/classComPWA_1_1Exception.html',1,'ComPWA']]],
+  ['exception',['Exception',['../d4/d67/classException.html',1,'']]]
 ];

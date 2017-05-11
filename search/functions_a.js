@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['kgv',['kgV',['../d4/d1a/classComPWA_1_1Spin.html#a04db6805d49e681629fd29cb551578d1',1,'ComPWA::Spin']]],
-  ['kinematics',['Kinematics',['../db/d37/classComPWA_1_1Kinematics.html#a36ecc53356de4132ba6f4fd9bc1be568',1,'ComPWA::Kinematics::Kinematics(std::string nameM=&quot;&quot;, double widthM=0.0, unsigned int n=3)'],['../db/d37/classComPWA_1_1Kinematics.html#a29a60d6a7b787f84a7a3d6fadecad123',1,'ComPWA::Kinematics::Kinematics(const Kinematics &amp;)=delete']]]
+  ['jakereader',['JakeReader',['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#a131f115cfd88818c035747b504f0ee6c',1,'ComPWA::DataReader::JakeReader::JakeReader::JakeReader()'],['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#a83c953d4ab9a5e488606a373ba70fc15',1,'ComPWA::DataReader::JakeReader::JakeReader::JakeReader(TTree *tr, int size=-1, const bool binned=false)'],['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#af49f421311b4ded9f64a591d10a82293',1,'ComPWA::DataReader::JakeReader::JakeReader::JakeReader(const std::string inRootFile, const std::string inTreeName=&quot;kin&quot;, int size=-1, const bool binned=false)']]]
 ];

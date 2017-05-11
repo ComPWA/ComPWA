@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['relative_5fbreit_5fwigner',['RELATIVE_BREIT_WIGNER',['../dd/da1/namespaceComPWA_1_1Physics_1_1DynamicalFunctions.html#a8d43152490f60adf88a78c2f17a6131aafa082dcd90320c233a953f72df9f92de',1,'ComPWA::Physics::DynamicalFunctions']]]
+  ['undefined',['UNDEFINED',['../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a49196cf6b2f99d9d4e9e2463a156c690',1,'ComPWA']]]
 ];

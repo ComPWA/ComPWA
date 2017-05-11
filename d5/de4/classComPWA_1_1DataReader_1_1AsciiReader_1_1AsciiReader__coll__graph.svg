@@ -22,11 +22,11 @@
 <text text-anchor="start" x="7.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AsciiReader()</text>
 <text text-anchor="start" x="7.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Clone()</text>
 <text text-anchor="start" x="7.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EmptyClone()</text>
-<text text-anchor="start" x="7.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ writeData()</text>
+<text text-anchor="start" x="7.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WriteData()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html" target="_top" xlink:title="{ComPWA::DataReader\l::Data\n|# fEvents\l# maxWeight\l# fBinned\l# fmaxBins\l# fBins\l|+ Data()\l+ ~Data()\l+ Clone()\l+ EmptyClone()\l+ Add()\l+ pushEvent()\l+ getNEvents()\l+ getEvent()\l+ getEvents()\l+ getListOfData()\land 15 more...\l}">
+<g id="a_node2"><a xlink:href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html" target="_top" xlink:title="This class provides the interface to experimental data. ">
 <polygon fill="white" stroke="black" points="7.5,-163 7.5,-385 126.5,-385 126.5,-163 7.5,-163"/>
 <text text-anchor="start" x="15.5" y="-373" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::DataReader</text>
 <text text-anchor="middle" x="67" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">::Data</text>
@@ -42,11 +42,11 @@
 <text text-anchor="start" x="15.5" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">+ Clone()</text>
 <text text-anchor="start" x="15.5" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">+ EmptyClone()</text>
 <text text-anchor="start" x="15.5" y="-236" font-family="Helvetica,sans-Serif" font-size="10.00">+ Add()</text>
-<text text-anchor="start" x="15.5" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">+ pushEvent()</text>
-<text text-anchor="start" x="15.5" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00">+ getNEvents()</text>
-<text text-anchor="start" x="15.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">+ getEvent()</text>
-<text text-anchor="start" x="15.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">+ getEvents()</text>
-<text text-anchor="start" x="15.5" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">+ getListOfData()</text>
+<text text-anchor="start" x="15.5" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">+ PushEvent()</text>
+<text text-anchor="start" x="15.5" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNEvents()</text>
+<text text-anchor="start" x="15.5" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetEvent()</text>
+<text text-anchor="start" x="15.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetEvents()</text>
+<text text-anchor="start" x="15.5" y="-181" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetListOfData()</text>
 <text text-anchor="start" x="15.5" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00">and 15 more...</text>
 </a>
 </g>
@@ -58,7 +58,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d2/d1c/classComPWA_1_1ParameterList.html" target="_top" xlink:title="{ComPWA::ParameterList\n|# vBool_\l# vInt_\l# vDouble_\l# vComplex_\l# vMultiDouble_\l# vMultiComplex_\l# vMultiUnsignedInteger_\l# out_\l|+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ DeepCopy()\l+ ~ParameterList()\l+ GetNParameter()\land 86 more...\l# make_str()\l&#45; serialize()\l}">
+<g id="a_node3"><a xlink:href="../../d2/d1c/classComPWA_1_1ParameterList.html" target="_top" xlink:title="{ComPWA::ParameterList\n|# vBool_\l# vInt_\l# vDouble_\l# vComplex_\l# vMultiDouble_\l# vMultiComplex_\l# vMultiUnsignedInteger_\l# out_\l|+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ ParameterList()\l+ DeepCopy()\l+ ~ParameterList()\l+ GetNParameter()\land 87 more...\l# make_str()\l&#45; serialize()\l}">
 <polygon fill="white" stroke="black" points="3,-435 3,-701 131,-701 131,-435 3,-435"/>
 <text text-anchor="middle" x="67" y="-689" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::ParameterList</text>
 <polyline fill="none" stroke="black" points="3,-682 131,-682 "/>
@@ -81,7 +81,7 @@
 <text text-anchor="start" x="11" y="-497" font-family="Helvetica,sans-Serif" font-size="10.00">+ DeepCopy()</text>
 <text text-anchor="start" x="11" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ParameterList()</text>
 <text text-anchor="start" x="11" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNParameter()</text>
-<text text-anchor="start" x="11" y="-464" font-family="Helvetica,sans-Serif" font-size="10.00">and 86 more...</text>
+<text text-anchor="start" x="11" y="-464" font-family="Helvetica,sans-Serif" font-size="10.00">and 87 more...</text>
 <text text-anchor="start" x="11" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00"># make_str()</text>
 <text text-anchor="start" x="11" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; serialize()</text>
 </a>

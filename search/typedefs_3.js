@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['helicitytree',['HelicityTree',['../d9/dcd/namespaceComPWA_1_1Physics_1_1DecayTree.html#ae00a6d3324fc58b398ffcdcb89490b17',1,'ComPWA::Physics::DecayTree']]]
+  ['coherentintitr',['coherentIntItr',['../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#a1b1c2e90cd4e34f1872c82199bb3303f',1,'ComPWA::Physics::HelicityFormalism::IncoherentIntensity']]],
+  ['completeplot',['CompletePlot',['../d7/dfa/namespaceNeatPlotting.html#aeddc74dca3ad9acf287a19573cba22e6',1,'NeatPlotting']]]
 ];

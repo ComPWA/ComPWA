@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['y',['y',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#ade5ce51b06b2993efad884b4e93f65cd',1,'NeatPlotting::GraphPoint']]],
+  ['y',['y',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#ade5ce51b06b2993efad884b4e93f65cd',1,'NeatPlotting::GraphPoint::y()'],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#a44168d0bd13de4dfac189c0bc75d38af',1,'ComPWA::Physics::QFT::Vector4::Y() const '],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#ad58026b34ef08cbc11d4220d06d872ce',1,'ComPWA::Physics::QFT::Vector4::Y()']]],
   ['y_5faxis_5frange',['y_axis_range',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a5586d3ddd8a595899cc1f0b2875eacfc',1,'NeatPlotting::PlotAxis']]],
   ['y_5faxis_5fstyle',['y_axis_style',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#a23f6f0843432feb4fb937f689b3de34d',1,'NeatPlotting::PlotStyle']]],
   ['y_5faxis_5ftitle',['y_axis_title',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a8ea6f3afe6e999566a3e4bca5c58b021',1,'NeatPlotting::PlotAxis']]],

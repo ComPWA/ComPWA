@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['absparameter',['AbsParameter',['../d1/dfc/classComPWA_1_1AbsParameter.html',1,'ComPWA']]],
-  ['absparameter',['AbsParameter',['../d7/d6a/classAbsParameter.html',1,'']]],
-  ['abssquare',['AbsSquare',['../db/d57/classComPWA_1_1AbsSquare.html',1,'ComPWA']]],
-  ['abstractdynamicalfunction',['AbstractDynamicalFunction',['../d6/dad/classComPWA_1_1Physics_1_1DynamicalFunctions_1_1AbstractDynamicalFunction.html',1,'ComPWA::Physics::DynamicalFunctions']]],
-  ['addall',['AddAll',['../d5/d22/classComPWA_1_1AddAll.html',1,'ComPWA']]],
-  ['addall',['AddAll',['../d9/db9/classAddAll.html',1,'']]],
-  ['allowedquantumnumbers',['AllowedQuantumNumbers',['../da/d05/structComPWA_1_1Physics_1_1DecayTree_1_1AllowedQuantumNumbers.html',1,'ComPWA::Physics::DecayTree']]],
-  ['ampabsdynamicalfunction',['AmpAbsDynamicalFunction',['../db/da9/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpAbsDynamicalFunction.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampfcn',['AmpFcn',['../d3/da6/classComPWA_1_1Estimator_1_1AmpFcn.html',1,'ComPWA::Estimator']]],
-  ['ampflatteres',['AmpFlatteRes',['../d6/d38/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpFlatteRes.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampgausres',['AmpGausRes',['../d9/db6/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpGausRes.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html',1,'ComPWA']]],
-  ['amplitude',['Amplitude',['../d8/db7/classComPWA_1_1Amplitude.html',1,'ComPWA']]],
-  ['amplitude',['Amplitude',['../d9/d3e/classAmplitude.html',1,'']]],
-  ['amprelbreitwignerres',['AmpRelBreitWignerRes',['../d8/d36/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpRelBreitWignerRes.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampsumintensity',['AmpSumIntensity',['../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampsumsliceintensity',['AmpSumSliceIntensity',['../d0/d4b/classAmpSumSliceIntensity.html',1,'']]],
-  ['ampwigner2',['AmpWigner2',['../de/d5e/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpWigner2.html',1,'ComPWA::Physics::AmplitudeSum']]],
-  ['ampwigner2',['AmpWigner2',['../db/ddf/classAmpWigner2.html',1,'']]],
-  ['asciireader',['AsciiReader',['../df/d15/classAsciiReader.html',1,'']]],
-  ['asciireader',['AsciiReader',['../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html',1,'ComPWA::DataReader::AsciiReader']]],
-  ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html',1,'NeatPlotting']]],
-  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]]
+  ['_5fbig',['_big',['../d8/dae/classComPWA_1_1Physics_1_1QFT_1_1Conversion_1_1__big.html',1,'ComPWA::Physics::QFT::Conversion']]]
 ];

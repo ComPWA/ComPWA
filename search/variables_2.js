@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['bic',['BIC',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a9f8ed44a55ed324b04e1fb8248a8308a',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
   ['bins',['bins',['../dc/d06/classCorrectionTable.html#af2775f8c81b642dda4b359cc18bcbd43',1,'CorrectionTable']]],
   ['booky_5fdata',['booky_data',['../de/d7e/classNeatPlotting_1_1Booky.html#a426b7bae2915f1f79654b3649090348c',1,'NeatPlotting::Booky']]],
   ['bounds_5f',['bounds_',['../da/dd8/classComPWA_1_1ComplexParameter.html#ab191135974978de90a233d164400d9d2',1,'ComPWA::ComplexParameter::bounds_()'],['../d1/d81/classComPWA_1_1DoubleParameter.html#a133a8ecca80793231120b561ccc33923',1,'ComPWA::DoubleParameter::bounds_()'],['../d2/d19/classComPWA_1_1IntegerParameter.html#a0aad55b9c9ee167a7489ce969d971787',1,'ComPWA::IntegerParameter::bounds_()']]],

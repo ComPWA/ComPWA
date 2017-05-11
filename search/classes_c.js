@@ -1,19 +1,7 @@
 var searchData=
 [
-  ['markerstyle',['MarkerStyle',['../d1/db6/structNeatPlotting_1_1MarkerStyle.html',1,'NeatPlotting']]],
-  ['minloglh',['MinLogLH',['../d3/da3/classMinLogLH.html',1,'']]],
-  ['minloglh',['MinLogLH',['../d0/d59/classComPWA_1_1Estimator_1_1MinLogLH_1_1MinLogLH.html',1,'ComPWA::Estimator::MinLogLH']]],
-  ['minuitfcn',['MinuitFcn',['../dd/d13/classROOT_1_1Minuit2_1_1MinuitFcn.html',1,'ROOT::Minuit2']]],
-  ['minuitfcn',['MinuitFcn',['../da/dba/classMinuitFcn.html',1,'']]],
-  ['minuitif',['MinuitIF',['../dc/dc6/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html',1,'ComPWA::Optimizer::Minuit2']]],
-  ['minuitif',['MinuitIF',['../dd/db1/classMinuitIF.html',1,'']]],
-  ['minuitresult',['MinuitResult',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html',1,'ComPWA::Optimizer::Minuit2']]],
-  ['minuitstrategy',['MinuitStrategy',['../df/df2/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitStrategy.html',1,'ComPWA::Optimizer::Minuit2']]],
-  ['momentumcorrection',['MomentumCorrection',['../d6/d40/classComPWA_1_1MomentumCorrection.html',1,'ComPWA']]],
-  ['multall',['MultAll',['../de/d37/classComPWA_1_1MultAll.html',1,'ComPWA']]],
-  ['multall',['MultAll',['../dc/dfa/classMultAll.html',1,'']]],
-  ['multicomplex',['MultiComplex',['../db/d96/classComPWA_1_1MultiComplex.html',1,'ComPWA']]],
-  ['multidouble',['MultiDouble',['../d6/de3/classComPWA_1_1MultiDouble.html',1,'ComPWA']]],
-  ['multiunsignedinteger',['MultiUnsignedInteger',['../de/d47/classComPWA_1_1MultiUnsignedInteger.html',1,'ComPWA']]],
-  ['my_5fresonance',['my_Resonance',['../d3/db6/classmy__Resonance.html',1,'']]]
+  ['levicivitatensor',['LeviCivitaTensor',['../d9/d3a/classComPWA_1_1Physics_1_1QFT_1_1LeviCivitaTensor.html',1,'ComPWA::Physics::QFT']]],
+  ['linestyle',['LineStyle',['../dc/df6/structNeatPlotting_1_1LineStyle.html',1,'NeatPlotting']]],
+  ['logging',['Logging',['../d8/d8a/classComPWA_1_1Logging.html',1,'ComPWA']]],
+  ['logof',['LogOf',['../df/d91/classComPWA_1_1LogOf.html',1,'ComPWA']]]
 ];

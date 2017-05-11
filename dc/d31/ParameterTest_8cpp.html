@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Core/ParameterTest.cpp File Reference</title>
+<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Core/test/ParameterTest.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -81,7 +81,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_4a050d6467fbd459d1c3f1ad22ffdaa0.html">ComPWA</a></li><li class="navelem"><a class="el" href="../../dir_6affbc29315b2bcc3e87f973c15f2971.html">Core</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_4a050d6467fbd459d1c3f1ad22ffdaa0.html">ComPWA</a></li><li class="navelem"><a class="el" href="../../dir_6affbc29315b2bcc3e87f973c15f2971.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_145c8d362d9c3cf308a713b3d4371ba2.html">test</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -93,15 +93,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">ParameterTest.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;boost/test/unit_test.hpp&gt;</code><br/>
+<div class="textblock"><code>#include &lt;memory&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;boost/test/unit_test.hpp&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/dce/Parameter_8hpp_source.html">Core/Parameter.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d2/de9/Exceptions_8hpp_source.html">Core/Exceptions.hpp</a>&gt;</code><br/>
-<code>#include &lt;memory&gt;</code><br/>
-<code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../df/d9f/ParameterList_8hpp_source.html">Core/ParameterList.hpp</a>&gt;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ParameterTest.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcd/ParameterTest_8cpp__incl.svg" width="1804" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcd/ParameterTest_8cpp__incl.svg" width="2076" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -113,45 +114,33 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a139f00d2466d591f60b8d6a73c8273f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d31/ParameterTest_8cpp.html#a139f00d2466d591f60b8d6a73c8273f1">BOOST_TEST_DYN_LINK</a></td></tr>
-<tr class="separator:a139f00d2466d591f60b8d6a73c8273f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b2a3852db8bb19ab6909bac01859985"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d31/ParameterTest_8cpp.html#a6b2a3852db8bb19ab6909bac01859985">BOOST_TEST_MODULE</a>&#160;&#160;&#160;Number</td></tr>
+<tr class="memitem:a6b2a3852db8bb19ab6909bac01859985"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d31/ParameterTest_8cpp.html#a6b2a3852db8bb19ab6909bac01859985">BOOST_TEST_MODULE</a>&#160;&#160;&#160;Core</td></tr>
 <tr class="separator:a6b2a3852db8bb19ab6909bac01859985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4d34a77f288f29285aa0bb06b04e4645"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a4d34a77f288f29285aa0bb06b04e4645">ComPWA::BOOST_AUTO_TEST_SUITE</a> (ParameterSuite)</td></tr>
-<tr class="separator:a4d34a77f288f29285aa0bb06b04e4645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f6515bb1ece0d828926201afc6e087"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a73f6515bb1ece0d828926201afc6e087">ComPWA::BOOST_AUTO_TEST_SUITE</a> (ParameterTest)</td></tr>
+<tr class="separator:a73f6515bb1ece0d828926201afc6e087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7fe7845848eb930a46fdff3b27666e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a1c7fe7845848eb930a46fdff3b27666e">ComPWA::BOOST_AUTO_TEST_CASE</a> (BoundsCheck)</td></tr>
 <tr class="separator:a1c7fe7845848eb930a46fdff3b27666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35af7e25e7356b95c3c96c55dedcb025"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a35af7e25e7356b95c3c96c55dedcb025">ComPWA::BOOST_AUTO_TEST_CASE</a> (SetGetCheck)</td></tr>
 <tr class="separator:a35af7e25e7356b95c3c96c55dedcb025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af19f406ed9646873bb355d42708364d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#af19f406ed9646873bb355d42708364d5">ComPWA::BOOST_AUTO_TEST_CASE</a> (FixValueCheck)</td></tr>
 <tr class="separator:af19f406ed9646873bb355d42708364d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed68a87d3a1ea85aa6f2aa79fb7729a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#aed68a87d3a1ea85aa6f2aa79fb7729a8">ComPWA::BOOST_AUTO_TEST_CASE</a> (ConstructorCheck2)</td></tr>
+<tr class="separator:aed68a87d3a1ea85aa6f2aa79fb7729a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a756d0303815b1ff8015d612e7c584fa2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a756d0303815b1ff8015d612e7c584fa2">ComPWA::BOOST_AUTO_TEST_CASE</a> (ConstructorCheck)</td></tr>
 <tr class="separator:a756d0303815b1ff8015d612e7c584fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a372924a2412c80af143bd22e36350946"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a372924a2412c80af143bd22e36350946">ComPWA::BOOST_AUTO_TEST_SUITE_END</a> ()</td></tr>
 <tr class="separator:a372924a2412c80af143bd22e36350946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a139f00d2466d591f60b8d6a73c8273f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BOOST_TEST_DYN_LINK</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a6b2a3852db8bb19ab6909bac01859985"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define BOOST_TEST_MODULE&#160;&#160;&#160;Number</td>
+          <td class="memname">#define BOOST_TEST_MODULE&#160;&#160;&#160;Core</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,7 +150,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:11 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:00 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

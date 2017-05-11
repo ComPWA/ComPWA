@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['matrix_5fbase_2eh',['Matrix_Base.h',['../df/d28/Matrix__Base_8h.html',1,'']]],
+  ['matrixoftensors_2eh',['MatrixOfTensors.h',['../df/d47/MatrixOfTensors_8h.html',1,'']]],
   ['minloglh_2ecpp',['MinLogLH.cpp',['../de/d8e/MinLogLH_8cpp.html',1,'']]],
   ['minloglh_2ehpp',['MinLogLH.hpp',['../d7/de4/MinLogLH_8hpp.html',1,'']]],
   ['minuitfcn_2ecpp',['MinuitFcn.cpp',['../d6/d65/MinuitFcn_8cpp.html',1,'']]],

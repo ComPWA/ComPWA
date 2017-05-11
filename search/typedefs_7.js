@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['spininfopair',['SpinInfoPair',['../dc/d87/namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#a51f966a1d3eeaea39e0a97feb0da7725',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['subpadcoordinates',['SubpadCoordinates',['../d7/dfa/namespaceNeatPlotting.html#a1eebb87d915a412f7d9bfc1ca259e3db',1,'NeatPlotting']]]
+  ['type',['Type',['../df/d7c/classComPWA_1_1Physics_1_1QFT_1_1DisableIf.html#a020417903188622bf1da54509033ed22',1,'ComPWA::Physics::QFT::DisableIf::Type()'],['../d4/da6/classComPWA_1_1Physics_1_1QFT_1_1EnableIf.html#ad3ad79adbf37ca911516fb5fda1c3d5a',1,'ComPWA::Physics::QFT::EnableIf::Type()']]]
 ];

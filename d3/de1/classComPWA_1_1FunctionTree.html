@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab02a160d606ba3e7e0aca43a1a72e79c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#ab02a160d606ba3e7e0aca43a1a72e79c">createLeaf</a> (const std::string name, const double extPar, std::string parent)</td></tr>
 <tr class="memdesc:ab02a160d606ba3e7e0aca43a1a72e79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a leaf for the FcnTree.  <a href="#ab02a160d606ba3e7e0aca43a1a72e79c">More...</a><br/></td></tr>
 <tr class="separator:ab02a160d606ba3e7e0aca43a1a72e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044df638ddee7362007ffd372612d7c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a044df638ddee7362007ffd372612d7c0">createLeaf</a> (const std::string name, const std::complex&lt; double &gt; extPar, std::string parent)</td></tr>
+<tr class="memdesc:a044df638ddee7362007ffd372612d7c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a leaf for the FcnTree.  <a href="#a044df638ddee7362007ffd372612d7c0">More...</a><br/></td></tr>
+<tr class="separator:a044df638ddee7362007ffd372612d7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace69a097573a32f720d4f35bba171df3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#ace69a097573a32f720d4f35bba171df3">createLeaf</a> (const std::string name, std::shared_ptr&lt; <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html">AbsParameter</a> &gt; extPar, std::string parent)</td></tr>
 <tr class="memdesc:ace69a097573a32f720d4f35bba171df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a leaf for the FcnTree.  <a href="#ace69a097573a32f720d4f35bba171df3">More...</a><br/></td></tr>
 <tr class="separator:ace69a097573a32f720d4f35bba171df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada874b7f8b6a0d3591d42f0570031038"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#ada874b7f8b6a0d3591d42f0570031038">print</a> (unsigned int lv=-1)</td></tr>
 <tr class="memdesc:ada874b7f8b6a0d3591d42f0570031038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print structure of tree and its values.  <a href="#ada874b7f8b6a0d3591d42f0570031038">More...</a><br/></td></tr>
 <tr class="separator:ada874b7f8b6a0d3591d42f0570031038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f435cc9ffbe6ed8776b909a8293061e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a8f435cc9ffbe6ed8776b909a8293061e">GetNumberOfNodes</a> ()</td></tr>
-<tr class="memdesc:a8f435cc9ffbe6ed8776b909a8293061e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of nodes.  <a href="#a8f435cc9ffbe6ed8776b909a8293061e">More...</a><br/></td></tr>
-<tr class="separator:a8f435cc9ffbe6ed8776b909a8293061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757c266d0eb9164301b9b3c2b5cdbf1d"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a757c266d0eb9164301b9b3c2b5cdbf1d">GetNumberOfNodes</a> ()</td></tr>
+<tr class="memdesc:a757c266d0eb9164301b9b3c2b5cdbf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of nodes.  <a href="#a757c266d0eb9164301b9b3c2b5cdbf1d">More...</a><br/></td></tr>
+<tr class="separator:a757c266d0eb9164301b9b3c2b5cdbf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -431,7 +434,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create head node of FcnTree. </p>
-<p>Create head node as a leaf. <a class="el" href="../../d0/dd5/structComPWA_1_1Constant.html">Constant</a> parameter! We use this to generate an empty tree. </p>
+<p>Create head node as a leaf. <a class="el" href="../../d3/dc6/classComPWA_1_1Constant.html">Constant</a> parameter! We use this to generate an empty tree. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>identifier of node </td></tr>
@@ -505,6 +508,58 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>extPar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a leaf for the FcnTree. </p>
+<p>Create and add a static node to the function tree if not existing yet Adds Top-Down-Linking to the node </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>identifier of node </td></tr>
+    <tr><td class="paramname">extPar</td><td>the parameter this node represents </td></tr>
+    <tr><td class="paramname">parent</td><td>the parent of this node (for linking) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a08697efa72ab508ba92bddb872bbd652" title="Add node to FcnTree. ">addNode()</a>, <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a06820603f570d6c37c2c5e81ab0971e4" title="Create head node of FcnTree. ">createHead()</a>, <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a20899ddebd3bc6bd17ac3e54f7fd180a" title="Create a node for the FcnTree. ">createNode()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a044df638ddee7362007ffd372612d7c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FunctionTree::createLeaf </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::complex&lt; double &gt;&#160;</td>
           <td class="paramname"><em>extPar</em>, </td>
         </tr>
         <tr>
@@ -752,7 +807,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8f435cc9ffbe6ed8776b909a8293061e"></a>
+<a class="anchor" id="a757c266d0eb9164301b9b3c2b5cdbf1d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -760,7 +815,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ComPWA::FunctionTree::GetNumberOfNodes </td>
+          <td class="memname">std::size_t ComPWA::FunctionTree::GetNumberOfNodes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1175,7 +1230,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:12 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

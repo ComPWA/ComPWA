@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vertexwriter',['VertexWriter',['../d2/d45/structComPWA_1_1Physics_1_1DecayTree_1_1DecayTree_1_1VertexWriter.html',1,'ComPWA::Physics::DecayTree::DecayTree']]]
+  ['vector4',['Vector4',['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html',1,'ComPWA::Physics::QFT']]]
 ];

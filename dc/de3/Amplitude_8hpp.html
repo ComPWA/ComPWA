@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Core/Amplitude.hpp File Reference</title>
+<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -81,13 +81,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_4a050d6467fbd459d1c3f1ad22ffdaa0.html">ComPWA</a></li><li class="navelem"><a class="el" href="../../dir_6affbc29315b2bcc3e87f973c15f2971.html">Core</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_4a050d6467fbd459d1c3f1ad22ffdaa0.html">ComPWA</a></li><li class="navelem"><a class="el" href="../../dir_b3db74a047a522c1bb2757e17a1c93c2.html">Physics</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">Amplitude.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -98,7 +99,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="textblock"><code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;math.h&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/d62/Resonance_8hpp_source.html">Core/Resonance.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../df/d9f/ParameterList_8hpp_source.html">Core/ParameterList.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../da/db2/FunctionTree_8hpp_source.html">Core/FunctionTree.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d2/d4b/Data_8hpp_source.html">DataReader/Data.hpp</a>&quot;</code><br/>
@@ -108,13 +108,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Amplitude.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db5/Amplitude_8hpp__incl.svg" width="2096" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db5/Amplitude_8hpp__incl.svg" width="2484" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/db8/Amplitude_8hpp__dep__incl.svg" width="3215" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/db8/Amplitude_8hpp__dep__incl.svg" width="818" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -122,11 +122,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">ComPWA::Amplitude</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/daa/classComPWA_1_1GaussAmp.html">ComPWA::GaussAmp</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html">ComPWA::UnitAmp</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html">ComPWA::Physics::Amplitude</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -134,6 +130,16 @@ Namespaces</h2></td></tr>
 <tr class="memitem:da/da9/namespaceComPWA"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html">ComPWA</a></td></tr>
 <tr class="memdesc:da/da9/namespaceComPWA"><td class="mdescLeft">&#160;</td><td class="mdescRight">General namespace for the <a class="el" href="../../da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a> modules and classes. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d14/namespaceComPWA_1_1Physics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d14/namespaceComPWA_1_1Physics.html">ComPWA::Physics</a></td></tr>
+<tr class="memdesc:d8/d14/namespaceComPWA_1_1Physics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for all <a class="el" href="../../da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a> <a class="el" href="../../d8/d14/namespaceComPWA_1_1Physics.html" title="Namespace for all ComPWA Physics modules. ">Physics</a> modules. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0930b349fe8acc1e70fcbf0365cc1a07"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
+&lt; std::shared_ptr&lt; <a class="el" href="../../d9/d3e/classAmplitude.html">Amplitude</a> &gt;<br class="typebreak"/>
+ &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d14/namespaceComPWA_1_1Physics.html#a0930b349fe8acc1e70fcbf0365cc1a07">ComPWA::Physics::ampItr</a></td></tr>
+<tr class="separator:a0930b349fe8acc1e70fcbf0365cc1a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class provides the interface to the model which tries to describe the intensity. </p>
@@ -141,7 +147,7 @@ Namespaces</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:11 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

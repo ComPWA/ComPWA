@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d7/d1d/classPolyFit-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PolyFit Class Reference</div>  </div>
+<div class="title">PolyFit Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -103,13 +103,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for PolyFit:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d58/classPolyFit__inherit__graph.svg" width="200" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d58/classPolyFit__inherit__graph.svg" width="200" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for PolyFit:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d22/classPolyFit__coll__graph.svg" width="200" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d22/classPolyFit__coll__graph.svg" width="200" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -121,14 +121,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0f01d9c131ca62da110dec469a9b931b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad90dd471fea18051d5c0c2e5b483f0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d89/classPolyFit.html#ad90dd471fea18051d5c0c2e5b483f0a5">drawGraph</a> (double a, double b, double c, double d)</td></tr>
 <tr class="separator:ad90dd471fea18051d5c0c2e5b483f0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ad5fbfa0131bd041a0bbb5bab1d7882"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#a2ad5fbfa0131bd041a0bbb5bab1d7882">resetInstance</a> ()</td></tr>
-<tr class="separator:a2ad5fbfa0131bd041a0bbb5bab1d7882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3434bb5a5854e45165160655ddb1d190"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../db/d4e/classFunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#a3434bb5a5854e45165160655ddb1d190">getTree</a> ()</td></tr>
-<tr class="separator:a3434bb5a5854e45165160655ddb1d190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d7799971bded7929123de7d9ee3ecd6"><td class="memItemLeft" align="right" valign="top">virtual std::vector<br class="typebreak"/>
-&lt; std::shared_ptr&lt; <a class="el" href="../../d9/d3e/classAmplitude.html">Amplitude</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#a8d7799971bded7929123de7d9ee3ecd6">getAmplitudes</a> ()</td></tr>
-<tr class="separator:a8d7799971bded7929123de7d9ee3ecd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50b8078fc6a46b802610aefe600f30d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#ad50b8078fc6a46b802610aefe600f30d">ResetInstance</a> ()</td></tr>
+<tr class="separator:ad50b8078fc6a46b802610aefe600f30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbf1244fabd7cd5ae4ac9990066a548"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#a7cbf1244fabd7cd5ae4ac9990066a548">HasTree</a> ()=0</td></tr>
+<tr class="separator:a7cbf1244fabd7cd5ae4ac9990066a548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa8fc86b1ba69ae9a7d6f2f49d87f08d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../db/d4e/classFunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#aaa8fc86b1ba69ae9a7d6f2f49d87f08d">GetTree</a> ()=0</td></tr>
+<tr class="separator:aaa8fc86b1ba69ae9a7d6f2f49d87f08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22cd3d27c0722edabba6aa01d0c9dbd"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; AmpIntensity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#aa22cd3d27c0722edabba6aa01d0c9dbd">GetIntensity</a> ()=0</td></tr>
+<tr class="separator:aa22cd3d27c0722edabba6aa01d0c9dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31cc3ccf26489a5c83666058916c05f8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/classComPWA_1_1ControlParameter.html#a31cc3ccf26489a5c83666058916c05f8">nCalls</a> ()</td></tr>
 <tr class="separator:a31cc3ccf26489a5c83666058916c05f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -368,7 +370,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8d7799971bded7929123de7d9ee3ecd6"></a>
+<a class="anchor" id="aa22cd3d27c0722edabba6aa01d0c9dbd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -376,7 +378,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt;std::shared_ptr&lt;<a class="el" href="../../d9/d3e/classAmplitude.html">Amplitude</a>&gt; &gt; ComPWA::ControlParameter::getAmplitudes </td>
+          <td class="memname">virtual std::shared_ptr&lt;AmpIntensity&gt; ComPWA::ControlParameter::GetIntensity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -384,16 +386,16 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d0/d59/classComPWA_1_1Estimator_1_1MinLogLH_1_1MinLogLH.html#a16c12157cb169c35c85c4699df8720bb">ComPWA::Estimator::MinLogLH::MinLogLH</a>.</p>
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a77f59d6e9587720d34fea02469948a36">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aaf9df1387157f1fca4b071f33517b896">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3434bb5a5854e45165160655ddb1d190"></a>
+<a class="anchor" id="aaa8fc86b1ba69ae9a7d6f2f49d87f08d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -401,7 +403,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../db/d4e/classFunctionTree.html">FunctionTree</a>&gt; ComPWA::ControlParameter::getTree </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../db/d4e/classFunctionTree.html">FunctionTree</a>&gt; ComPWA::ControlParameter::GetTree </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -409,12 +411,37 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d0/d59/classComPWA_1_1Estimator_1_1MinLogLH_1_1MinLogLH.html#a9f03ba4738050298431f7e04280ae841">ComPWA::Estimator::MinLogLH::MinLogLH</a>.</p>
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#afd4779fea644fde780b21ff1e46a7d68">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aeb901894243421ee1f2b7ac12b5a2305">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7cbf1244fabd7cd5ae4ac9990066a548"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ComPWA::ControlParameter::HasTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a81b979e5158b774baa8533b7c5490376">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aa8be362b96891df0388db5b1d1c8ac8a">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
 
 </div>
 </div>
@@ -464,7 +491,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2ad5fbfa0131bd041a0bbb5bab1d7882"></a>
+<a class="anchor" id="ad50b8078fc6a46b802610aefe600f30d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -472,7 +499,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ComPWA::ControlParameter::resetInstance </td>
+          <td class="memname">virtual void ComPWA::ControlParameter::ResetInstance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -651,13 +678,13 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/ComPWA/ComPWA/executables/test/<a class="el" href="../../d2/dcb/PolyFit_8hpp_source.html">PolyFit.hpp</a></li>
-<li>/home/travis/build/ComPWA/ComPWA/executables/test/<a class="el" href="../../d5/d8b/PolyFit_8cpp.html">PolyFit.cpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/executables/<a class="el" href="../../d2/dcb/PolyFit_8hpp_source.html">PolyFit.hpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/executables/<a class="el" href="../../d5/d8b/PolyFit_8cpp.html">PolyFit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:12 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

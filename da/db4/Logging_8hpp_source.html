@@ -139,10 +139,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#afbd84fee5e7e852eaf464d7e6f823e59">init</a>(outFileName, minLevel);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  };</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a79dbe58a389023876fa251dc72d80efb">setLogLevel</a>(boost::log::trivial::severity_level minLevel);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a761008c3147f87338bad5a30237acf8f">SetLogLevel</a>(boost::log::trivial::severity_level minLevel);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d8/d8a/classComPWA_1_1Logging.html#a7c6d8a41dc58238385f47ce2ef2b4b52">   53</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a7c6d8a41dc58238385f47ce2ef2b4b52">setLogLevel</a>(std::string minLevel) {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a79dbe58a389023876fa251dc72d80efb">setLogLevel</a>(<a class="code" href="../../da/da9/namespaceComPWA.html#aa6babc99d8b879172257163c4216a600">stringToLoggingLevel</a>(minLevel));</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d8/d8a/classComPWA_1_1Logging.html#a90ffa9803eab460342633703ce06f5a6">   53</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a90ffa9803eab460342633703ce06f5a6">SetLogLevel</a>(std::string minLevel) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a761008c3147f87338bad5a30237acf8f">SetLogLevel</a>(<a class="code" href="../../da/da9/namespaceComPWA.html#aa6babc99d8b879172257163c4216a600">stringToLoggingLevel</a>(minLevel));</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  };</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">private</span>:</div>
@@ -152,16 +152,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LOGGING_HPP_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="classComPWA_1_1Logging_html_a90ffa9803eab460342633703ce06f5a6"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a90ffa9803eab460342633703ce06f5a6">ComPWA::Logging::SetLogLevel</a></div><div class="ttdeci">void SetLogLevel(std::string minLevel)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:53</div></div>
 <div class="ttc" id="namespaceComPWA_html_aa6babc99d8b879172257163c4216a600"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#aa6babc99d8b879172257163c4216a600">ComPWA::stringToLoggingLevel</a></div><div class="ttdeci">boost::log::trivial::severity_level stringToLoggingLevel(std::string logStr)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:23</div></div>
-<div class="ttc" id="classComPWA_1_1Logging_html_a7c6d8a41dc58238385f47ce2ef2b4b52"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a7c6d8a41dc58238385f47ce2ef2b4b52">ComPWA::Logging::setLogLevel</a></div><div class="ttdeci">void setLogLevel(std::string minLevel)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:53</div></div>
 <div class="ttc" id="classComPWA_1_1Logging_html_a71e1ae12cab7bea3272036ecc4a69ab6"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a71e1ae12cab7bea3272036ecc4a69ab6">ComPWA::Logging::Logging</a></div><div class="ttdeci">Logging(std::string outFileName=&quot;output.log&quot;, boost::log::trivial::severity_level minLevel=boost::log::trivial::debug)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:45</div></div>
-<div class="ttc" id="classComPWA_1_1Logging_html_afbd84fee5e7e852eaf464d7e6f823e59"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#afbd84fee5e7e852eaf464d7e6f823e59">ComPWA::Logging::init</a></div><div class="ttdeci">void init(std::string out, boost::log::trivial::severity_level minLevel)</div><div class="ttdef"><b>Definition:</b> Logging.cpp:23</div></div>
+<div class="ttc" id="classComPWA_1_1Logging_html_afbd84fee5e7e852eaf464d7e6f823e59"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#afbd84fee5e7e852eaf464d7e6f823e59">ComPWA::Logging::init</a></div><div class="ttdeci">void init(std::string out, boost::log::trivial::severity_level minLevel)</div><div class="ttdef"><b>Definition:</b> Logging.cpp:24</div></div>
 <div class="ttc" id="classComPWA_1_1Logging_html"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html">ComPWA::Logging</a></div><div class="ttdef"><b>Definition:</b> Logging.hpp:43</div></div>
-<div class="ttc" id="classComPWA_1_1Logging_html_a79dbe58a389023876fa251dc72d80efb"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a79dbe58a389023876fa251dc72d80efb">ComPWA::Logging::setLogLevel</a></div><div class="ttdeci">void setLogLevel(boost::log::trivial::severity_level minLevel)</div></div>
+<div class="ttc" id="classComPWA_1_1Logging_html_a761008c3147f87338bad5a30237acf8f"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a761008c3147f87338bad5a30237acf8f">ComPWA::Logging::SetLogLevel</a></div><div class="ttdeci">void SetLogLevel(boost::log::trivial::severity_level minLevel)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:11 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:00 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

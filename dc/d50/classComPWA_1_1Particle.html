@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../d4/d11/classComPWA_1_1Particle-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -102,7 +102,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="dynheader">
 Collaboration diagram for ComPWA::Particle:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d74/classComPWA_1_1Particle__coll__graph.svg" width="168" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d74/classComPWA_1_1Particle__coll__graph.svg" width="190" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -111,67 +111,58 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab39ead44a2b597d429b7faa558870165"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ab39ead44a2b597d429b7faa558870165">Particle</a> (double inPx=0, double inPy=0, double inPz=0, double inE=0, int inpid=0, int c=0)</td></tr>
 <tr class="memdesc:ab39ead44a2b597d429b7faa558870165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#ab39ead44a2b597d429b7faa558870165">More...</a><br/></td></tr>
 <tr class="separator:ab39ead44a2b597d429b7faa558870165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e94623b56d91cf5465a721ff3bda49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#af3e94623b56d91cf5465a721ff3bda49">Particle</a> (std::array&lt; double, 4 &gt; p4, int inpid=0, int c=0)</td></tr>
+<tr class="separator:af3e94623b56d91cf5465a721ff3bda49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf37765244d745e71f0bb08133b53a6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#adf37765244d745e71f0bb08133b53a6d">Particle</a> (<a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> const &amp;)</td></tr>
 <tr class="memdesc:adf37765244d745e71f0bb08133b53a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#adf37765244d745e71f0bb08133b53a6d">More...</a><br/></td></tr>
 <tr class="separator:adf37765244d745e71f0bb08133b53a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad030d0fe7b88cf81744b127c99244ff4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ad030d0fe7b88cf81744b127c99244ff4">~Particle</a> ()</td></tr>
 <tr class="memdesc:ad030d0fe7b88cf81744b127c99244ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor.  <a href="#ad030d0fe7b88cf81744b127c99244ff4">More...</a><br/></td></tr>
 <tr class="separator:ad030d0fe7b88cf81744b127c99244ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1971102cebdc54a0ac7b9e69bad53cd7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a1971102cebdc54a0ac7b9e69bad53cd7">invariantMass</a> (const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;in) const </td></tr>
-<tr class="memdesc:a1971102cebdc54a0ac7b9e69bad53cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invariant mass of this particle and.  <a href="#a1971102cebdc54a0ac7b9e69bad53cd7">More...</a><br/></td></tr>
-<tr class="separator:a1971102cebdc54a0ac7b9e69bad53cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0166d828639befd0f2486055c8aa530"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ad0166d828639befd0f2486055c8aa530">getThreeMomentum</a> () const </td></tr>
-<tr class="memdesc:ad0166d828639befd0f2486055c8aa530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get magnitude of three momentum.  <a href="#ad0166d828639befd0f2486055c8aa530">More...</a><br/></td></tr>
-<tr class="separator:ad0166d828639befd0f2486055c8aa530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b7838a0669ff8a596f12099145e342"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a74b7838a0669ff8a596f12099145e342">getInvMass</a> () const </td></tr>
-<tr class="memdesc:a74b7838a0669ff8a596f12099145e342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get invariant mass.  <a href="#a74b7838a0669ff8a596f12099145e342">More...</a><br/></td></tr>
-<tr class="separator:a74b7838a0669ff8a596f12099145e342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1712bdc9a046730eb586725111c206bc"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a1712bdc9a046730eb586725111c206bc">setPx</a> (double _px)</td></tr>
-<tr class="separator:a1712bdc9a046730eb586725111c206bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a294734f43e62487423f0d7985d6802b1"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a294734f43e62487423f0d7985d6802b1">setPy</a> (double _py)</td></tr>
-<tr class="separator:a294734f43e62487423f0d7985d6802b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca085ff031e597ca4679ca49ead7f04d"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#aca085ff031e597ca4679ca49ead7f04d">setPz</a> (double _pz)</td></tr>
-<tr class="separator:aca085ff031e597ca4679ca49ead7f04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883b1fbfa5f80bf5b1cffd14c4b20ba2"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a883b1fbfa5f80bf5b1cffd14c4b20ba2">setE</a> (double _e)</td></tr>
-<tr class="separator:a883b1fbfa5f80bf5b1cffd14c4b20ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa20fabda36060711b9fd1ab60dafe2ca"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#aa20fabda36060711b9fd1ab60dafe2ca">setPid</a> (int _pid)</td></tr>
-<tr class="separator:aa20fabda36060711b9fd1ab60dafe2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae72d977175dd64001f2920288e737500"><td class="memItemLeft" align="right" valign="top">virtual const void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ae72d977175dd64001f2920288e737500">setCharge</a> (int _c)</td></tr>
-<tr class="separator:ae72d977175dd64001f2920288e737500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf3daf40072a62f437fb190c24f3ad04"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#adf3daf40072a62f437fb190c24f3ad04">getPx</a> () const </td></tr>
-<tr class="separator:adf3daf40072a62f437fb190c24f3ad04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1db3d66f957597f67ffddf5a15ba31e"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ab1db3d66f957597f67ffddf5a15ba31e">getPy</a> () const </td></tr>
-<tr class="separator:ab1db3d66f957597f67ffddf5a15ba31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a919760f19800fb4906cc95f301126585"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a919760f19800fb4906cc95f301126585">getPz</a> () const </td></tr>
-<tr class="separator:a919760f19800fb4906cc95f301126585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e5b0ae72f0d7131a9b24491f431c199"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6e5b0ae72f0d7131a9b24491f431c199">getE</a> () const </td></tr>
-<tr class="separator:a6e5b0ae72f0d7131a9b24491f431c199"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a257bd88a8f97bc8e6300b64ef8a79297"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a257bd88a8f97bc8e6300b64ef8a79297">getPid</a> () const </td></tr>
-<tr class="separator:a257bd88a8f97bc8e6300b64ef8a79297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a9ddb9aef8d13f466dbe2f3dee058f2"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a0a9ddb9aef8d13f466dbe2f3dee058f2">getCharge</a> () const </td></tr>
-<tr class="separator:a0a9ddb9aef8d13f466dbe2f3dee058f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3edef9cafd50a6376f5dfa441480d1fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a3edef9cafd50a6376f5dfa441480d1fe">operator+=</a> (const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;rhs)</td></tr>
-<tr class="separator:a3edef9cafd50a6376f5dfa441480d1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6434734cc2f000ba3e9241c9f09a4e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#af6434734cc2f000ba3e9241c9f09a4e4">operator+</a> (const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;c2)</td></tr>
-<tr class="separator:af6434734cc2f000ba3e9241c9f09a4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e6baa42e11336486bdf7f705fe1c3e7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a5e6baa42e11336486bdf7f705fe1c3e7">getMassSquare</a> () const </td></tr>
-<tr class="separator:a5e6baa42e11336486bdf7f705fe1c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c096ae94a0d417a3e5102b99e3a44e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a3c096ae94a0d417a3e5102b99e3a44e7">SetPx</a> (double px)</td></tr>
+<tr class="separator:a3c096ae94a0d417a3e5102b99e3a44e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182c4f81396efcf1ab5db370963efd3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a182c4f81396efcf1ab5db370963efd3e">SetPy</a> (double py)</td></tr>
+<tr class="separator:a182c4f81396efcf1ab5db370963efd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6baa6c5bfc85084d430a61fcac5554ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6baa6c5bfc85084d430a61fcac5554ac">SetPz</a> (double pz)</td></tr>
+<tr class="separator:a6baa6c5bfc85084d430a61fcac5554ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ea6499a4491819703895326ade8585"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#aa0ea6499a4491819703895326ade8585">SetE</a> (double E)</td></tr>
+<tr class="separator:aa0ea6499a4491819703895326ade8585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012fb0187dae2656f8d18b65c6fa6471"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a012fb0187dae2656f8d18b65c6fa6471">GetPx</a> () const </td></tr>
+<tr class="separator:a012fb0187dae2656f8d18b65c6fa6471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d957720a271ea9117395089849092a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a17d957720a271ea9117395089849092a">GetPy</a> () const </td></tr>
+<tr class="separator:a17d957720a271ea9117395089849092a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4cd5c703509eedb8ad5ac4c38b21cc"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a2f4cd5c703509eedb8ad5ac4c38b21cc">GetPz</a> () const </td></tr>
+<tr class="separator:a2f4cd5c703509eedb8ad5ac4c38b21cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a49dd1f94bfc65321bab249bee55b4"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a11a49dd1f94bfc65321bab249bee55b4">GetE</a> () const </td></tr>
+<tr class="separator:a11a49dd1f94bfc65321bab249bee55b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37acef2ccae253ed542b77beb6116f58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a37acef2ccae253ed542b77beb6116f58">SetPid</a> (int _pid)</td></tr>
+<tr class="separator:a37acef2ccae253ed542b77beb6116f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcc58c0afed270629234a78432ac05f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6fcc58c0afed270629234a78432ac05f">SetCharge</a> (int _c)</td></tr>
+<tr class="separator:a6fcc58c0afed270629234a78432ac05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd050d9841e19feab72357952806a64"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a3cd050d9841e19feab72357952806a64">GetPid</a> () const </td></tr>
+<tr class="separator:a3cd050d9841e19feab72357952806a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fec9e47dc19ebb73630b4f6d56143f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a66fec9e47dc19ebb73630b4f6d56143f">GetCharge</a> () const </td></tr>
+<tr class="separator:a66fec9e47dc19ebb73630b4f6d56143f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cfa101b38a574a7a6f3a26abeea14cf"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../df/d24/classComPWA_1_1FourMomentum.html">FourMomentum</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6cfa101b38a574a7a6f3a26abeea14cf">GetFourMomentum</a> () const </td></tr>
+<tr class="separator:a6cfa101b38a574a7a6f3a26abeea14cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf187ed184c731f7284c147b830ed38d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#abf187ed184c731f7284c147b830ed38d">GetThreeMomentum</a> () const </td></tr>
+<tr class="memdesc:abf187ed184c731f7284c147b830ed38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get magnitude of three momentum.  <a href="#abf187ed184c731f7284c147b830ed38d">More...</a><br/></td></tr>
+<tr class="separator:abf187ed184c731f7284c147b830ed38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a051d3ec61bd42a4e4ada51bebe6c4a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a2a051d3ec61bd42a4e4ada51bebe6c4a">GetMass</a> () const </td></tr>
+<tr class="memdesc:a2a051d3ec61bd42a4e4ada51bebe6c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get invariant mass.  <a href="#a2a051d3ec61bd42a4e4ada51bebe6c4a">More...</a><br/></td></tr>
+<tr class="separator:a2a051d3ec61bd42a4e4ada51bebe6c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceff870283124cfebb6d22d14a169b6f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#aceff870283124cfebb6d22d14a169b6f">GetMassSq</a> () const </td></tr>
+<tr class="separator:aceff870283124cfebb6d22d14a169b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a397fddc34da4303052f7f77828c6c4b5"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a397fddc34da4303052f7f77828c6c4b5">invariantMass</a> (const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;inPa, const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;inPb)</td></tr>
-<tr class="separator:a397fddc34da4303052f7f77828c6c4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7990167d0f3fb1179d284cbe0da4cf22"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a7990167d0f3fb1179d284cbe0da4cf22">InvariantMass</a> (const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;inPa, const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;inPb)</td></tr>
+<tr class="separator:a7990167d0f3fb1179d284cbe0da4cf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aff7cb76bda93b5a2b6b27f554d1e7058"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#aff7cb76bda93b5a2b6b27f554d1e7058">px</a></td></tr>
-<tr class="separator:aff7cb76bda93b5a2b6b27f554d1e7058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45dcb261a1a8d6af1b459c12b72b3298"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a45dcb261a1a8d6af1b459c12b72b3298">py</a></td></tr>
-<tr class="separator:a45dcb261a1a8d6af1b459c12b72b3298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97b15fc2278e5f92bf9668160ac69c4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#ab97b15fc2278e5f92bf9668160ac69c4">pz</a></td></tr>
-<tr class="separator:ab97b15fc2278e5f92bf9668160ac69c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6335ba3926aa88f37a92bc572ea275fb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6335ba3926aa88f37a92bc572ea275fb">E</a></td></tr>
-<tr class="separator:a6335ba3926aa88f37a92bc572ea275fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a73f139a227e99854d1efac2523cd83fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d24/classComPWA_1_1FourMomentum.html">FourMomentum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a73f139a227e99854d1efac2523cd83fe">_p4</a></td></tr>
+<tr class="separator:a73f139a227e99854d1efac2523cd83fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6168bbd7eacd4818c839b1d5d7ab1528"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a6168bbd7eacd4818c839b1d5d7ab1528">pid</a></td></tr>
 <tr class="separator:a6168bbd7eacd4818c839b1d5d7ab1528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973ab8048e3526d4ad7d59b79b9bbaeb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html#a973ab8048e3526d4ad7d59b79b9bbaeb">charge</a></td></tr>
@@ -235,6 +226,46 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af3e94623b56d91cf5465a721ff3bda49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ComPWA::Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; double, 4 &gt;&#160;</td>
+          <td class="paramname"><em>p4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inpid</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="adf37765244d745e71f0bb08133b53a6d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +310,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0a9ddb9aef8d13f466dbe2f3dee058f2"></a>
+<a class="anchor" id="a66fec9e47dc19ebb73630b4f6d56143f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -287,7 +318,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const int ComPWA::Particle::getCharge </td>
+          <td class="memname">virtual int ComPWA::Particle::GetCharge </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -302,7 +333,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e5b0ae72f0d7131a9b24491f431c199"></a>
+<a class="anchor" id="a11a49dd1f94bfc65321bab249bee55b4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -310,7 +341,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::Particle::getE </td>
+          <td class="memname">virtual double ComPWA::Particle::GetE </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -325,7 +356,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a74b7838a0669ff8a596f12099145e342"></a>
+<a class="anchor" id="a6cfa101b38a574a7a6f3a26abeea14cf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -333,7 +364,30 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double ComPWA::Particle::getInvMass </td>
+          <td class="memname">virtual const <a class="el" href="../../df/d24/classComPWA_1_1FourMomentum.html">FourMomentum</a>&amp; ComPWA::Particle::GetFourMomentum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2a051d3ec61bd42a4e4ada51bebe6c4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ComPWA::Particle::GetMass </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -350,7 +404,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5e6baa42e11336486bdf7f705fe1c3e7"></a>
+<a class="anchor" id="aceff870283124cfebb6d22d14a169b6f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -358,7 +412,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double ComPWA::Particle::getMassSquare </td>
+          <td class="memname">double ComPWA::Particle::GetMassSq </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -373,7 +427,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a257bd88a8f97bc8e6300b64ef8a79297"></a>
+<a class="anchor" id="a3cd050d9841e19feab72357952806a64"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -381,7 +435,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const int ComPWA::Particle::getPid </td>
+          <td class="memname">virtual int ComPWA::Particle::GetPid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -396,7 +450,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adf3daf40072a62f437fb190c24f3ad04"></a>
+<a class="anchor" id="a012fb0187dae2656f8d18b65c6fa6471"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -404,7 +458,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::Particle::getPx </td>
+          <td class="memname">virtual double ComPWA::Particle::GetPx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -419,7 +473,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab1db3d66f957597f67ffddf5a15ba31e"></a>
+<a class="anchor" id="a17d957720a271ea9117395089849092a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -427,7 +481,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::Particle::getPy </td>
+          <td class="memname">virtual double ComPWA::Particle::GetPy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -442,7 +496,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a919760f19800fb4906cc95f301126585"></a>
+<a class="anchor" id="a2f4cd5c703509eedb8ad5ac4c38b21cc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -450,7 +504,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::Particle::getPz </td>
+          <td class="memname">virtual double ComPWA::Particle::GetPz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -465,7 +519,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad0166d828639befd0f2486055c8aa530"></a>
+<a class="anchor" id="abf187ed184c731f7284c147b830ed38d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -473,7 +527,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double ComPWA::Particle::getThreeMomentum </td>
+          <td class="memname">double ComPWA::Particle::GetThreeMomentum </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -490,7 +544,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1971102cebdc54a0ac7b9e69bad53cd7"></a>
+<a class="anchor" id="a7990167d0f3fb1179d284cbe0da4cf22"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -498,39 +552,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double ComPWA::Particle::invariantMass </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Invariant mass of this particle and. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">in</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a397fddc34da4303052f7f77828c6c4b5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Particle::invariantMass </td>
+          <td class="memname">double Particle::InvariantMass </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;&#160;</td>
           <td class="paramname"><em>inPa</em>, </td>
@@ -565,39 +587,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af6434734cc2f000ba3e9241c9f09a4e4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> Particle::operator+ </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;&#160;</td>
-          <td class="paramname"><em>c2</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3edef9cafd50a6376f5dfa441480d1fe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp; Particle::operator+= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae72d977175dd64001f2920288e737500"></a>
+<a class="anchor" id="a6fcc58c0afed270629234a78432ac05f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -605,7 +595,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setCharge </td>
+          <td class="memname">virtual void ComPWA::Particle::SetCharge </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_c</em></td><td>)</td>
@@ -621,7 +611,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a883b1fbfa5f80bf5b1cffd14c4b20ba2"></a>
+<a class="anchor" id="aa0ea6499a4491819703895326ade8585"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -629,10 +619,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setE </td>
+          <td class="memname">virtual void ComPWA::Particle::SetE </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_e</em></td><td>)</td>
+          <td class="paramname"><em>E</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -645,7 +635,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa20fabda36060711b9fd1ab60dafe2ca"></a>
+<a class="anchor" id="a37acef2ccae253ed542b77beb6116f58"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -653,7 +643,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setPid </td>
+          <td class="memname">virtual void ComPWA::Particle::SetPid </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_pid</em></td><td>)</td>
@@ -669,7 +659,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1712bdc9a046730eb586725111c206bc"></a>
+<a class="anchor" id="a3c096ae94a0d417a3e5102b99e3a44e7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -677,10 +667,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setPx </td>
+          <td class="memname">virtual void ComPWA::Particle::SetPx </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_px</em></td><td>)</td>
+          <td class="paramname"><em>px</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -693,7 +683,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a294734f43e62487423f0d7985d6802b1"></a>
+<a class="anchor" id="a182c4f81396efcf1ab5db370963efd3e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -701,10 +691,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setPy </td>
+          <td class="memname">virtual void ComPWA::Particle::SetPy </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_py</em></td><td>)</td>
+          <td class="paramname"><em>py</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -717,7 +707,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca085ff031e597ca4679ca49ead7f04d"></a>
+<a class="anchor" id="a6baa6c5bfc85084d430a61fcac5554ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -725,10 +715,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const void ComPWA::Particle::setPz </td>
+          <td class="memname">virtual void ComPWA::Particle::SetPz </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_pz</em></td><td>)</td>
+          <td class="paramname"><em>pz</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -777,26 +767,42 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a73f139a227e99854d1efac2523cd83fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d24/classComPWA_1_1FourMomentum.html">FourMomentum</a> ComPWA::Particle::_p4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a973ab8048e3526d4ad7d59b79b9bbaeb"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ComPWA::Particle::charge</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6335ba3926aa88f37a92bc572ea275fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::Particle::E</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -804,47 +810,19 @@ Friends</h2></td></tr>
 <a class="anchor" id="a6168bbd7eacd4818c839b1d5d7ab1528"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ComPWA::Particle::pid</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aff7cb76bda93b5a2b6b27f554d1e7058"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::Particle::px</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a45dcb261a1a8d6af1b459c12b72b3298"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::Particle::py</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab97b15fc2278e5f92bf9668160ac69c4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::Particle::pz</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -856,7 +834,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:12 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

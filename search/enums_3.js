@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normstyle',['normStyle',['../da/da9/namespaceComPWA.html#acf100357a2739f09fb4f2376309bd1dc',1,'ComPWA']]]
+  ['partype',['ParType',['../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0',1,'ComPWA']]]
 ];

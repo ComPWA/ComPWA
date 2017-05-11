@@ -12,6 +12,5 @@ var searchData=
   ['rootreader_2ecpp',['RootReader.cpp',['../df/d44/RootReader_8cpp.html',1,'']]],
   ['rootreader_2ehpp',['RootReader.hpp',['../df/d53/RootReader_8hpp.html',1,'']]],
   ['runmanager_2ecpp',['RunManager.cpp',['../db/d94/RunManager_8cpp.html',1,'']]],
-  ['runmanager_2ehpp',['RunManager.hpp',['../db/d41/RunManager_8hpp.html',1,'']]],
-  ['runmanagertestapp_2ecpp',['RunManagerTestApp.cpp',['../dd/d77/RunManagerTestApp_8cpp.html',1,'']]]
+  ['runmanager_2ehpp',['RunManager.hpp',['../db/d41/RunManager_8hpp.html',1,'']]]
 ];

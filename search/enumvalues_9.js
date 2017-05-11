@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['one',['one',['../da/da9/namespaceComPWA.html#acf100357a2739f09fb4f2376309bd1dca5892a02e2f3882240b2f9d80ae58b942',1,'ComPWA']]],
-  ['orbital_5fangular_5fmomentum',['ORBITAL_ANGULAR_MOMENTUM',['../da/da9/namespaceComPWA.html#af43c9d78bb361523356dfd8b0aed6c3fa868a89ea4be67de7af477c0e7dbdd2a5',1,'ComPWA']]]
+  ['one',['one',['../d8/d14/namespaceComPWA_1_1Physics.html#a98ff8ac4547e3b757ec17f56f8a8ae65a2983dabe55d2e32625adc065593f2257',1,'ComPWA::Physics']]]
 ];

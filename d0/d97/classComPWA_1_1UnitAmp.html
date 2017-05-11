@@ -89,7 +89,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/dea/classComPWA_1_1UnitAmp-members.html">List of all members</a>  </div>
@@ -98,17 +97,17 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/dfd/AmpIntensity_8hpp_source.html">AmpIntensity.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ComPWA::UnitAmp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classComPWA_1_1UnitAmp__inherit__graph.svg" width="203" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classComPWA_1_1UnitAmp__inherit__graph.svg" width="182" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ComPWA::UnitAmp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/ddc/classComPWA_1_1UnitAmp__coll__graph.svg" width="371" height="1107"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/ddc/classComPWA_1_1UnitAmp__coll__graph.svg" width="182" height="611"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -119,114 +118,90 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84dc81ad2d2fa69432555fb07b7a9f31"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a84dc81ad2d2fa69432555fb07b7a9f31">~UnitAmp</a> ()</td></tr>
 <tr class="separator:a84dc81ad2d2fa69432555fb07b7a9f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a716d9fdce67b3c63195db08b1c8a021c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html">UnitAmp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a716d9fdce67b3c63195db08b1c8a021c">Clone</a> (std::string newName=&quot;&quot;) const </td></tr>
-<tr class="memdesc:a716d9fdce67b3c63195db08b1c8a021c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create a full copy of the amplitude.  <a href="#a716d9fdce67b3c63195db08b1c8a021c">More...</a><br/></td></tr>
+<tr class="memdesc:a716d9fdce67b3c63195db08b1c8a021c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to create a full copy.  <a href="#a716d9fdce67b3c63195db08b1c8a021c">More...</a><br/></td></tr>
 <tr class="separator:a716d9fdce67b3c63195db08b1c8a021c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b688ca7f25f84744d6515565c9bda16"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a1b688ca7f25f84744d6515565c9bda16">to_str</a> ()</td></tr>
-<tr class="memdesc:a1b688ca7f25f84744d6515565c9bda16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print amplitude to logging system.  <a href="#a1b688ca7f25f84744d6515565c9bda16">More...</a><br/></td></tr>
-<tr class="separator:a1b688ca7f25f84744d6515565c9bda16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c05bde2ae96f91f0d2a2e88b7f8398"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#ad1c05bde2ae96f91f0d2a2e88b7f8398">GetMaxVal</a> (std::shared_ptr&lt; <a class="el" href="../../d0/dc7/classComPWA_1_1Generator.html">Generator</a> &gt; gen)</td></tr>
-<tr class="separator:ad1c05bde2ae96f91f0d2a2e88b7f8398"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b2c62a6af10d2488b0da30aaf2c7f8"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a55b2c62a6af10d2488b0da30aaf2c7f8">GetIntegral</a> ()</td></tr>
-<tr class="separator:a55b2c62a6af10d2488b0da30aaf2c7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05b3224e9a91311de480d3ea5fe914a1"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a05b3224e9a91311de480d3ea5fe914a1">GetNormalization</a> ()</td></tr>
-<tr class="separator:a05b3224e9a91311de480d3ea5fe914a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a3123bbacc970dd7b45babcee3b7ad5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a2a3123bbacc970dd7b45babcee3b7ad5">GetIntValue</a> (std::string var1, double min1, double max1, std::string var2, double min2, double max2)</td></tr>
-<tr class="separator:a2a3123bbacc970dd7b45babcee3b7ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae5b221c04cf8a9ea461f2d2e9ec895"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a2ae5b221c04cf8a9ea461f2d2e9ec895">intensity</a> (<a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point)</td></tr>
-<tr class="separator:a2ae5b221c04cf8a9ea461f2d2e9ec895"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3da67fbecbacb3004ed627471e7d49a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#aa3da67fbecbacb3004ed627471e7d49a">intensity</a> (std::vector&lt; double &gt; point)</td></tr>
-<tr class="separator:aa3da67fbecbacb3004ed627471e7d49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb4b8c33e814946798f5d328a71dd354"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#abb4b8c33e814946798f5d328a71dd354">intensityNoEff</a> (<a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point)</td></tr>
-<tr class="separator:abb4b8c33e814946798f5d328a71dd354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe211c995e600c17a5f3d2bd1bf52b27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#abe211c995e600c17a5f3d2bd1bf52b27">to_str</a> () const </td></tr>
+<tr class="separator:abe211c995e600c17a5f3d2bd1bf52b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701ec8664808ef895b9a64a73da734af"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a701ec8664808ef895b9a64a73da734af">GetMaximum</a> (std::shared_ptr&lt; <a class="el" href="../../d0/dc7/classComPWA_1_1Generator.html">Generator</a> &gt; gen) const </td></tr>
+<tr class="separator:a701ec8664808ef895b9a64a73da734af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b3d4cc1a2c91beed21f9422239530b"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a68b3d4cc1a2c91beed21f9422239530b">GetNormalization</a> () const </td></tr>
+<tr class="separator:a68b3d4cc1a2c91beed21f9422239530b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb905f9be89fcd53673de6638e695872"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#aeb905f9be89fcd53673de6638e695872">Intensity</a> (const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point) const </td></tr>
+<tr class="memdesc:aeb905f9be89fcd53673de6638e695872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate intensity at <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> in phase-space.  <a href="#aeb905f9be89fcd53673de6638e695872">More...</a><br/></td></tr>
+<tr class="separator:aeb905f9be89fcd53673de6638e695872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e89260c68e37dc963f72ecf0194b8b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a5e89260c68e37dc963f72ecf0194b8b4">GetParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
+<tr class="separator:a5e89260c68e37dc963f72ecf0194b8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b89b8ded7fd264be9f70f5bd3bb8af1"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a3b89b8ded7fd264be9f70f5bd3bb8af1">IntensityNoNorm</a> (const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point) const </td></tr>
+<tr class="separator:a3b89b8ded7fd264be9f70f5bd3bb8af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09a88c18254ed1e8e6ce94c429299720"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a09a88c18254ed1e8e6ce94c429299720">GetFitFractions</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;parList)</td></tr>
-<tr class="memdesc:a09a88c18254ed1e8e6ce94c429299720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate &amp; fill fit fractions of this amplitude to <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>.  <a href="#a09a88c18254ed1e8e6ce94c429299720">More...</a><br/></td></tr>
+<tr class="memdesc:a09a88c18254ed1e8e6ce94c429299720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> with fit fractions.  <a href="#a09a88c18254ed1e8e6ce94c429299720">More...</a><br/></td></tr>
 <tr class="separator:a09a88c18254ed1e8e6ce94c429299720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a429d0b4f0a2cf06062641e486f2d6ff2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a429d0b4f0a2cf06062641e486f2d6ff2">hasTree</a> ()</td></tr>
-<tr class="memdesc:a429d0b4f0a2cf06062641e486f2d6ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of tree is available.  <a href="#a429d0b4f0a2cf06062641e486f2d6ff2">More...</a><br/></td></tr>
-<tr class="separator:a429d0b4f0a2cf06062641e486f2d6ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370d435c4880a6cb51659f58d7e8bdf8"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a370d435c4880a6cb51659f58d7e8bdf8">getAmpTree</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;toySample, std::string suffix)</td></tr>
-<tr class="memdesc:a370d435c4880a6cb51659f58d7e8bdf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter function for basic amp tree.  <a href="#a370d435c4880a6cb51659f58d7e8bdf8">More...</a><br/></td></tr>
-<tr class="separator:a370d435c4880a6cb51659f58d7e8bdf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4685871dd1fb0d1c51c5932427f4dc82"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a4685871dd1fb0d1c51c5932427f4dc82">GetName</a> () const </td></tr>
-<tr class="memdesc:a4685871dd1fb0d1c51c5932427f4dc82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of amplitude.  <a href="#a4685871dd1fb0d1c51c5932427f4dc82">More...</a><br/></td></tr>
-<tr class="separator:a4685871dd1fb0d1c51c5932427f4dc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cb38837eab8d5f5ad9d0d3be98a64d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a3cb38837eab8d5f5ad9d0d3be98a64d4">SetName</a> (std::string name)</td></tr>
-<tr class="memdesc:a3cb38837eab8d5f5ad9d0d3be98a64d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set name of amplitude.  <a href="#a3cb38837eab8d5f5ad9d0d3be98a64d4">More...</a><br/></td></tr>
-<tr class="separator:a3cb38837eab8d5f5ad9d0d3be98a64d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6774c8c6c0cf8b53feecbc039cf601a5"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a6774c8c6c0cf8b53feecbc039cf601a5">GetEfficiency</a> ()</td></tr>
-<tr class="memdesc:a6774c8c6c0cf8b53feecbc039cf601a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get efficiency.  <a href="#a6774c8c6c0cf8b53feecbc039cf601a5">More...</a><br/></td></tr>
-<tr class="separator:a6774c8c6c0cf8b53feecbc039cf601a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef45baf34d355897a41bbf690762a6fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#aef45baf34d355897a41bbf690762a6fd">SetEfficiency</a> (std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt; eff)</td></tr>
-<tr class="memdesc:aef45baf34d355897a41bbf690762a6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set efficiency.  <a href="#aef45baf34d355897a41bbf690762a6fd">More...</a><br/></td></tr>
-<tr class="separator:aef45baf34d355897a41bbf690762a6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0bb459bf6bfef7bae42e6f4522fc57"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a5c0bb459bf6bfef7bae42e6f4522fc57">GetIntegral</a> (std::vector&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> &gt; resoList)</td></tr>
-<tr class="separator:a5c0bb459bf6bfef7bae42e6f4522fc57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace4f04266b77b03eaf474df2d6545b96"><td class="memItemLeft" align="right" valign="top">virtual const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ace4f04266b77b03eaf474df2d6545b96">GetIntegralInterference</a> (<a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> A, <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> B)</td></tr>
-<tr class="separator:ace4f04266b77b03eaf474df2d6545b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbbd742ee35e0ecba49f54399e587dac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#afbbd742ee35e0ecba49f54399e587dac">UpdateParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;par)</td></tr>
-<tr class="separator:afbbd742ee35e0ecba49f54399e587dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad55ea4f413906a5d221b54616747b41"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#aad55ea4f413906a5d221b54616747b41">FillParameterList</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list) const </td></tr>
-<tr class="separator:aad55ea4f413906a5d221b54616747b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0903a454c9f830f482a0922dd4efeacd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a0903a454c9f830f482a0922dd4efeacd">GetResonanceItrFirst</a> ()</td></tr>
-<tr class="memdesc:a0903a454c9f830f482a0922dd4efeacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator on first resonance (which is enabled)  <a href="#a0903a454c9f830f482a0922dd4efeacd">More...</a><br/></td></tr>
-<tr class="separator:a0903a454c9f830f482a0922dd4efeacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd6aadb08aef4ba519995864ed94ffd7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#abd6aadb08aef4ba519995864ed94ffd7">GetResonanceItrLast</a> ()</td></tr>
-<tr class="memdesc:abd6aadb08aef4ba519995864ed94ffd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator on last resonance (which is enabled)  <a href="#abd6aadb08aef4ba519995864ed94ffd7">More...</a><br/></td></tr>
-<tr class="separator:abd6aadb08aef4ba519995864ed94ffd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4f1b3f182e737b1f7820cb2713e6f9"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
-&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a2d4f1b3f182e737b1f7820cb2713e6f9">GetResonanceItrList</a> ()</td></tr>
-<tr class="memdesc:a2d4f1b3f182e737b1f7820cb2713e6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator on last resonance (which is enabled)  <a href="#a2d4f1b3f182e737b1f7820cb2713e6f9">More...</a><br/></td></tr>
-<tr class="separator:a2d4f1b3f182e737b1f7820cb2713e6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0be39cda9bd99377eb4f06557e34c8b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ab0be39cda9bd99377eb4f06557e34c8b">GetTree</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;)</td></tr>
-<tr class="memdesc:ab0be39cda9bd99377eb4f06557e34c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter function for basic amp tree.  <a href="#ab0be39cda9bd99377eb4f06557e34c8b">More...</a><br/></td></tr>
-<tr class="separator:ab0be39cda9bd99377eb4f06557e34c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2638f77603fc1a49ca788f391dfa8b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#aad2638f77603fc1a49ca788f391dfa8b">GetMcPrecision</a> ()</td></tr>
-<tr class="separator:aad2638f77603fc1a49ca788f391dfa8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a72d4d5fd16d78717c2fd0447fb872676"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a72d4d5fd16d78717c2fd0447fb872676">SetAmpEfficiency</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt; ampVec, std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt; eff)</td></tr>
-<tr class="separator:a72d4d5fd16d78717c2fd0447fb872676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0198ad79102e300ac77fe7436ce50f6"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#af0198ad79102e300ac77fe7436ce50f6">intensityInterference</a> (<a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point, <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> A, <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> B)</td></tr>
-<tr class="separator:af0198ad79102e300ac77fe7436ce50f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad89a994c67ca988b0073a5476f71f473"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ad89a994c67ca988b0073a5476f71f473">UpdateAmpParameterList</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt; ampVec, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
-<tr class="separator:ad89a994c67ca988b0073a5476f71f473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26dd1bd1dd304bb258e729a58e82b1ce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a26dd1bd1dd304bb258e729a58e82b1ce">FillAmpParameterToList</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt; ampVec, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
-<tr class="separator:a26dd1bd1dd304bb258e729a58e82b1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c18cf6e9b21af6073d4d204d7d3129d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a6c18cf6e9b21af6073d4d204d7d3129d">GetAmpFitFractions</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt; ampVec, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
-<tr class="separator:a6c18cf6e9b21af6073d4d204d7d3129d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04225537efda5c7d102563c13315b33b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a04225537efda5c7d102563c13315b33b">AmpHasTree</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt; ampVec)</td></tr>
-<tr class="separator:a04225537efda5c7d102563c13315b33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d6eddb2cbe48a81674905ccacb857b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a10d6eddb2cbe48a81674905ccacb857b">HasTree</a> () const </td></tr>
+<tr class="memdesc:a10d6eddb2cbe48a81674905ccacb857b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of tree is available.  <a href="#a10d6eddb2cbe48a81674905ccacb857b">More...</a><br/></td></tr>
+<tr class="separator:a10d6eddb2cbe48a81674905ccacb857b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef67c2b8b0aa01b5bee932c74add335"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a6ef67c2b8b0aa01b5bee932c74add335">GetTree</a> (const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;toySample, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample3, std::string suffix=&quot;&quot;)</td></tr>
+<tr class="separator:a6ef67c2b8b0aa01b5bee932c74add335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4f7d7164db562ff0bbf58f3b091650"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a4a4f7d7164db562ff0bbf58f3b091650">SetPhspSample</a> (std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a> &gt;&gt; phspSample, std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a> &gt;&gt; toySample)</td></tr>
+<tr class="memdesc:a4a4f7d7164db562ff0bbf58f3b091650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set phase space samples We use phase space samples to calculate the normalizations.  <a href="#a4a4f7d7164db562ff0bbf58f3b091650">More...</a><br/></td></tr>
+<tr class="separator:a4a4f7d7164db562ff0bbf58f3b091650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41d8140efa37bd478d7c25dbf5876d2"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#aa41d8140efa37bd478d7c25dbf5876d2">GetName</a> () const </td></tr>
+<tr class="memdesc:aa41d8140efa37bd478d7c25dbf5876d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name.  <a href="#aa41d8140efa37bd478d7c25dbf5876d2">More...</a><br/></td></tr>
+<tr class="separator:aa41d8140efa37bd478d7c25dbf5876d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f1839f7a5670e719486e9327caeccb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#ad4f1839f7a5670e719486e9327caeccb">SetName</a> (std::string name)</td></tr>
+<tr class="memdesc:ad4f1839f7a5670e719486e9327caeccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set name.  <a href="#ad4f1839f7a5670e719486e9327caeccb">More...</a><br/></td></tr>
+<tr class="separator:ad4f1839f7a5670e719486e9327caeccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576eab3ec1de4ac00427b4b442e072ea"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a576eab3ec1de4ac00427b4b442e072ea">GetEfficiency</a> ()</td></tr>
+<tr class="memdesc:a576eab3ec1de4ac00427b4b442e072ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get efficiency.  <a href="#a576eab3ec1de4ac00427b4b442e072ea">More...</a><br/></td></tr>
+<tr class="separator:a576eab3ec1de4ac00427b4b442e072ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7cb3cbb440da237f7a44e19f3963c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a7a7cb3cbb440da237f7a44e19f3963c8">SetEfficiency</a> (std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt; eff)</td></tr>
+<tr class="memdesc:a7a7cb3cbb440da237f7a44e19f3963c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set efficiency.  <a href="#a7a7cb3cbb440da237f7a44e19f3963c8">More...</a><br/></td></tr>
+<tr class="separator:a7a7cb3cbb440da237f7a44e19f3963c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920eb8558e94bf2276e06275e4f46997"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a920eb8558e94bf2276e06275e4f46997">GetStrengthParameter</a> ()</td></tr>
+<tr class="memdesc:a920eb8558e94bf2276e06275e4f46997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get strength parameter.  <a href="#a920eb8558e94bf2276e06275e4f46997">More...</a><br/></td></tr>
+<tr class="separator:a920eb8558e94bf2276e06275e4f46997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaef30817e6266281d3b64029b6577d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#afaef30817e6266281d3b64029b6577d5">GetStrength</a> () const </td></tr>
+<tr class="memdesc:afaef30817e6266281d3b64029b6577d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get strength parameter.  <a href="#afaef30817e6266281d3b64029b6577d5">More...</a><br/></td></tr>
+<tr class="separator:afaef30817e6266281d3b64029b6577d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9471fb49ac35a099306763aa30b7e41e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a9471fb49ac35a099306763aa30b7e41e">SetStrengthParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt; par)</td></tr>
+<tr class="memdesc:a9471fb49ac35a099306763aa30b7e41e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set strength parameter.  <a href="#a9471fb49ac35a099306763aa30b7e41e">More...</a><br/></td></tr>
+<tr class="separator:a9471fb49ac35a099306763aa30b7e41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b424875f1fa892967c660af7abd09e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#ab2b424875f1fa892967c660af7abd09e">SetStrength</a> (double par)</td></tr>
+<tr class="memdesc:ab2b424875f1fa892967c660af7abd09e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set strength parameter.  <a href="#ab2b424875f1fa892967c660af7abd09e">More...</a><br/></td></tr>
+<tr class="separator:ab2b424875f1fa892967c660af7abd09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce21a49d128b35a85eae2a1b88c854f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a6ce21a49d128b35a85eae2a1b88c854f">GetParametersFast</a> (std::vector&lt; double &gt; &amp;list) const </td></tr>
+<tr class="memdesc:a6ce21a49d128b35a85eae2a1b88c854f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill vector with parameters.  <a href="#a6ce21a49d128b35a85eae2a1b88c854f">More...</a><br/></td></tr>
+<tr class="separator:a6ce21a49d128b35a85eae2a1b88c854f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad040ef0d7c0615eef0cf0befc933b601"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#ad040ef0d7c0615eef0cf0befc933b601">GetComponent</a> (std::string name)</td></tr>
+<tr class="separator:ad040ef0d7c0615eef0cf0befc933b601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe33a20d486f707093de787c509aef46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#afe33a20d486f707093de787c509aef46">Reset</a> ()</td></tr>
+<tr class="separator:afe33a20d486f707093de787c509aef46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a04a4b85535ce73891187c147e0e98dd5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a04a4b85535ce73891187c147e0e98dd5">setupBasicTree</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;toySample, std::string suffix)</td></tr>
-<tr class="separator:a04a4b85535ce73891187c147e0e98dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a0977f8a0cecfaec37b807e7166a94"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a48a0977f8a0cecfaec37b807e7166a94">setupBasicTree</a> (const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;toySample, std::string suffix)</td></tr>
+<tr class="separator:a48a0977f8a0cecfaec37b807e7166a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a21a5db392f209cdbdc64d6b09f85c5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html#a7a21a5db392f209cdbdc64d6b09f85c5">Integral</a> () const </td></tr>
+<tr class="separator:a7a21a5db392f209cdbdc64d6b09f85c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a1b02ebd85d12458390516ed0ed06d0de"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a1b02ebd85d12458390516ed0ed06d0de">_name</a></td></tr>
-<tr class="memdesc:a1b02ebd85d12458390516ed0ed06d0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name.  <a href="#a1b02ebd85d12458390516ed0ed06d0de">More...</a><br/></td></tr>
-<tr class="separator:a1b02ebd85d12458390516ed0ed06d0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4145b1250bf4a9c5ce84a05cc22f7cce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d80/structComPWA_1_1resIsEnabled.html">resIsEnabled</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a4145b1250bf4a9c5ce84a05cc22f7cce">_resEnabled</a></td></tr>
-<tr class="memdesc:a4145b1250bf4a9c5ce84a05cc22f7cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">need to store this object for boost::filter_iterator  <a href="#a4145b1250bf4a9c5ce84a05cc22f7cce">More...</a><br/></td></tr>
-<tr class="separator:a4145b1250bf4a9c5ce84a05cc22f7cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34ba2486831c07904dc1cea7b60d40c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a34ba2486831c07904dc1cea7b60d40c9">result</a></td></tr>
-<tr class="memdesc:a34ba2486831c07904dc1cea7b60d40c9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> value.  <a href="#a34ba2486831c07904dc1cea7b60d40c9">More...</a><br/></td></tr>
-<tr class="separator:a34ba2486831c07904dc1cea7b60d40c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44bf8814792ddbfe9ab32dcaf7bc699f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a44bf8814792ddbfe9ab32dcaf7bc699f">params</a></td></tr>
-<tr class="memdesc:a44bf8814792ddbfe9ab32dcaf7bc699f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of interal parameters.  <a href="#a44bf8814792ddbfe9ab32dcaf7bc699f">More...</a><br/></td></tr>
-<tr class="separator:a44bf8814792ddbfe9ab32dcaf7bc699f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88ce26a8c962b6cac65478d643446dab"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a88ce26a8c962b6cac65478d643446dab">eff_</a></td></tr>
-<tr class="memdesc:a88ce26a8c962b6cac65478d643446dab"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> object.  <a href="#a88ce26a8c962b6cac65478d643446dab">More...</a><br/></td></tr>
-<tr class="separator:a88ce26a8c962b6cac65478d643446dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca50270eb8612842025716749b645c9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a0ca50270eb8612842025716749b645c9">_name</a></td></tr>
+<tr class="memdesc:a0ca50270eb8612842025716749b645c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name.  <a href="#a0ca50270eb8612842025716749b645c9">More...</a><br/></td></tr>
+<tr class="separator:a0ca50270eb8612842025716749b645c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1edd9286a228dfb1b5e092ea72759b44"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a1edd9286a228dfb1b5e092ea72759b44">_eff</a></td></tr>
+<tr class="memdesc:a1edd9286a228dfb1b5e092ea72759b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase space depended efficiency.  <a href="#a1edd9286a228dfb1b5e092ea72759b44">More...</a><br/></td></tr>
+<tr class="separator:a1edd9286a228dfb1b5e092ea72759b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf11842084fc84c33a34bed1816fa39"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#afbf11842084fc84c33a34bed1816fa39">_strength</a></td></tr>
+<tr class="separator:afbf11842084fc84c33a34bed1816fa39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>! <a class="el" href="../../d0/d97/classComPWA_1_1UnitAmp.html">UnitAmp</a></p>
-<p>Example implementation of <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> with the function value 1.0 at all points in PHSP. It is used to test the likelihood normalization. </p>
+<p>Example implementation of <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> with the function value 1.0 at all points in PHSP. It is used to test the likelihood normalization. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a76282019d3c074cfa42ece35c184e2b6"></a>
 <div class="memitem">
@@ -275,38 +250,6 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a04225537efda5c7d102563c13315b33b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Amplitude::AmpHasTree </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ampVec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Check if amplitudes have a <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ampVec</td><td>corresponding vector of amplitudes </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true if tree is present </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a716d9fdce67b3c63195db08b1c8a021c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -329,13 +272,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Function to create a full copy of the amplitude. </p>
+<p>Function to create a full copy. </p>
 
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ab3f378631d519920867a0dcaa8f53a28">ComPWA::Amplitude</a>.</p>
+<p>Implements <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a0ad8e8b37e3f88a446e2dbb227946791">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a26dd1bd1dd304bb258e729a58e82b1ce"></a>
+<a class="anchor" id="ad040ef0d7c0615eef0cf0befc933b601"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -343,156 +286,25 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Amplitude::FillAmpParameterToList </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a>&gt; ComPWA::AmpIntensity::GetComponent </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ampVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Add amplitude parameters to list Add parameter only if not already in list </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ampVec</td><td>Vector of amplitudes </td></tr>
-    <tr><td class="paramname">list</td><td>Parameter List to be filled </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="aad55ea4f413906a5d221b54616747b41"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Amplitude::FillParameterList </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Add amplitude parameters to list Add parameters only to list if not already in </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">list</td><td>Parameter list to be filled </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a6c18cf6e9b21af6073d4d204d7d3129d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Amplitude::GetAmpFitFractions </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ampVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Calculate &amp; fill fit fractions of amplitude Vector to list</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ampVec</td><td>Vector of amplitudes </td></tr>
-    <tr><td class="paramname">list</td><td>Parameter List to be filled </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a370d435c4880a6cb51659f58d7e8bdf8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::UnitAmp::getAmpTree </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>sample</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>toySample</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>suffix</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Getter function for basic amp tree. </p>
+<p>Reimplemented in <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#ad9f42b63479671a81104f046e5ca642e">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>, and <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#aa0c906bc7f991cd417b2a2a53171496c">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6774c8c6c0cf8b53feecbc039cf601a5"></a>
+<a class="anchor" id="a576eab3ec1de4ac00427b4b442e072ea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -500,7 +312,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a>&gt; ComPWA::Amplitude::GetEfficiency </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a>&gt; ComPWA::AmpIntensity::GetEfficiency </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -539,13 +351,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculate &amp; fill fit fractions of this amplitude to <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>. </p>
+<p>Fill <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> with fit fractions. </p>
 
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#aa673efcb4abe7868fc8634cba2878998">ComPWA::Amplitude</a>.</p>
+<p>Implements <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a0699a9e4537f6b43d316c493631ade16">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c0bb459bf6bfef7bae42e6f4522fc57"></a>
+<a class="anchor" id="a701ec8664808ef895b9a64a73da734af"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -553,189 +365,11 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::Amplitude::GetIntegral </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> &gt;&#160;</td>
-          <td class="paramname"><em>resoList</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Calculate integral of amplitudes for a given vector. The integral does not include efficiency correction</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">resoList</td><td>Vector of amplitudes </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a0f445bcdf32d70ec89a445deba0f7478">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a55b2c62a6af10d2488b0da30aaf2c7f8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const double ComPWA::UnitAmp::GetIntegral </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Calculate integral of amplitude. The integral does not include efficiency correction </p>
-
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#abb782b20c407cfd432b84e73aa650aaa">ComPWA::Amplitude</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ace4f04266b77b03eaf474df2d6545b96"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const double ComPWA::Amplitude::GetIntegralInterference </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Calculate interference integral</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">A</td><td>First resonance </td></tr>
-    <tr><td class="paramname">B</td><td>Second resonance </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a*conj(b)+conj(a)*b </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a56f2ef544b2f1377541e7edf5656e4de">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2a3123bbacc970dd7b45babcee3b7ad5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double ComPWA::UnitAmp::GetIntValue </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>var1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>min1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>max1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>var2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>min2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>max2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Integral value of amplitude in certain boundary Used for plotting a projection of a function in <code>var1</code> in bin [<code>min1</code>, <code>min2</code>]. In this case we have to integrate over an other variable <code>var2</code> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">var1</td><td>first variable </td></tr>
-    <tr><td class="paramname">min1</td><td>minimal value of first variable </td></tr>
-    <tr><td class="paramname">max1</td><td>maximal value of first variable </td></tr>
-    <tr><td class="paramname">var2</td><td>second variable </td></tr>
-    <tr><td class="paramname">min2</td><td>minimal value of second variable </td></tr>
-    <tr><td class="paramname">max2</td><td>maximal value of second variable </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a58b2cc7509ede5602b3a02e3821af762">ComPWA::Amplitude</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad1c05bde2ae96f91f0d2a2e88b7f8398"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double ComPWA::UnitAmp::GetMaxVal </td>
+          <td class="memname">virtual double ComPWA::UnitAmp::GetMaximum </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d0/dc7/classComPWA_1_1Generator.html">Generator</a> &gt;&#160;</td>
           <td class="paramname"><em>gen</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -744,20 +378,10 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get maximum value of amplitude Maximum is numerically calculated using a random number generator </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gen</td><td>Random number generator </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a16493887fcfc330a7beafbdd4abc0895">ComPWA::Amplitude</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aad2638f77603fc1a49ca788f391dfa8b"></a>
+<a class="anchor" id="aa41d8140efa37bd478d7c25dbf5876d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -765,32 +389,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int ComPWA::Amplitude::GetMcPrecision </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Return Precision of Monte-Carlo Normalization</p>
-<dl class="section return"><dt>Returns</dt><dd>integer value of used precision </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a4685871dd1fb0d1c51c5932427f4dc82"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string ComPWA::Amplitude::GetName </td>
+          <td class="memname">virtual std::string ComPWA::AmpIntensity::GetName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -803,11 +402,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get name of amplitude. </p>
+<p>Get name. </p>
 
 </div>
 </div>
-<a class="anchor" id="a05b3224e9a91311de480d3ea5fe914a1"></a>
+<a class="anchor" id="a68b3d4cc1a2c91beed21f9422239530b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -815,9 +414,33 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const double ComPWA::UnitAmp::GetNormalization </td>
+          <td class="memname">virtual double ComPWA::UnitAmp::GetNormalization </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5e89260c68e37dc963f72ecf0194b8b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ComPWA::UnitAmp::GetParameters </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -827,13 +450,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculate normalization of amplitude. The integral includes efficiency correction </p>
 
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a62d8b1ea4a4ee6297066e413548eff1a">ComPWA::Amplitude</a>.</p>
+<p>Implements <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#af9879e9258021237e5706e4c919a675c">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0903a454c9f830f482a0922dd4efeacd"></a>
+<a class="anchor" id="a6ce21a49d128b35a85eae2a1b88c854f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -841,10 +463,11 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> ComPWA::Amplitude::GetResonanceItrFirst </td>
+          <td class="memname">virtual void ComPWA::AmpIntensity::GetParametersFast </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -854,13 +477,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Iterator on first resonance (which is enabled) </p>
+<p>Fill vector with parameters. </p>
 
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a2871db3ec4954b7e6f8e538168c296da">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
+<p>Reimplemented in <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#a055d8f134b0ecf9ffb889e5a82f2ea76">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>, and <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#a64ed9a74fd50879f2af127ee5b350b4c">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abd6aadb08aef4ba519995864ed94ffd7"></a>
+<a class="anchor" id="afaef30817e6266281d3b64029b6577d5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -868,7 +491,32 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a> ComPWA::Amplitude::GetResonanceItrLast </td>
+          <td class="memname">double ComPWA::AmpIntensity::GetStrength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get strength parameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a920eb8558e94bf2276e06275e4f46997"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a>&gt; ComPWA::AmpIntensity::GetStrengthParameter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -876,18 +524,16 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Iterator on last resonance (which is enabled) </p>
-
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a74d36d607d7d8e3270f34940855dc6e3">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
+<p>Get strength parameter. </p>
 
 </div>
 </div>
-<a class="anchor" id="a2d4f1b3f182e737b1f7820cb2713e6f9"></a>
+<a class="anchor" id="a6ef67c2b8b0aa01b5bee932c74add335"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -895,49 +541,28 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const std::vector&lt;<a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&gt; ComPWA::Amplitude::GetResonanceItrList </td>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::UnitAmp::GetTree </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Iterator on last resonance (which is enabled) </p>
-
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a5a70f0b410e665ca455f399aed5006e4">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab0be39cda9bd99377eb4f06557e34c8b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::Amplitude::GetTree </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>sample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>toySample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>sample3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -947,18 +572,17 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Getter function for basic amp tree Getter function for basic amp tree </p>
 
-<p>Getter function for basic amp tree. </p>
-
-<p>Reimplemented in <a class="el" href="../../db/da1/classComPWA_1_1Physics_1_1AmplitudeSum_1_1AmpSumIntensity.html#a9e5536168d349f3b37ee13a5913a30ea">ComPWA::Physics::AmplitudeSum::AmpSumIntensity</a>.</p>
+<p>Reimplemented from <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a11fba8d199388f0cfb727b7cdb5c5bf8">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a429d0b4f0a2cf06062641e486f2d6ff2"></a>
+<a class="anchor" id="a10d6eddb2cbe48a81674905ccacb857b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -966,10 +590,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ComPWA::UnitAmp::hasTree </td>
+          <td class="memname">virtual bool ComPWA::UnitAmp::HasTree </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -981,11 +605,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Check of tree is available. </p>
 
-<p>Reimplemented from <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ac0579fac41fc290c3751dbb24d87d0a2">ComPWA::Amplitude</a>.</p>
+<p>Reimplemented from <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a4b0d34dda1a4f1ddaafb8629484e6787">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2ae5b221c04cf8a9ea461f2d2e9ec895"></a>
+<a class="anchor" id="a7a21a5db392f209cdbdc64d6b09f85c5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -993,11 +617,34 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; ComPWA::UnitAmp::intensity </td>
+          <td class="memname">virtual double ComPWA::UnitAmp::Integral </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeb905f9be89fcd53673de6638e695872"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double ComPWA::UnitAmp::Intensity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>point</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1006,20 +653,21 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculate intensity of amplitude at point in phase-space</p>
+
+<p>Evaluate intensity at <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> in phase-space. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">point</td><td><a class="el" href="../../d0/df3/classData.html" title="Data Interface Base-Class. ">Data</a> point </td></tr>
+    <tr><td class="paramname">point</td><td>Data point </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Intensity </dd></dl>
 
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a436ac05314a77389875a0e631cb90197">ComPWA::Amplitude</a>.</p>
+<p>Implements <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#aee9fa6f69a45b96c0a29aaefad0d88a7">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa3da67fbecbacb3004ed627471e7d49a"></a>
+<a class="anchor" id="a3b89b8ded7fd264be9f70f5bd3bb8af1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1027,11 +675,11 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; ComPWA::UnitAmp::intensity </td>
+          <td class="memname">virtual double ComPWA::UnitAmp::IntensityNoNorm </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>point</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1040,20 +688,10 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculate intensity of amplitude at point in phase-space</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td><a class="el" href="../../d0/df3/classData.html" title="Data Interface Base-Class. ">Data</a> point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#a810e538b9cd78ec2779981d68e637431">ComPWA::Amplitude</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af0198ad79102e300ac77fe7436ce50f6"></a>
+<a class="anchor" id="afe33a20d486f707093de787c509aef46"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1061,83 +699,24 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double Amplitude::intensityInterference </td>
+          <td class="memname">virtual void ComPWA::AmpIntensity::Reset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da9/namespaceComPWA.html#ac0e35b655b62f8eb0beaf9855ae9d085">resonanceItr</a>&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Evaluate interference term of two resonances</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td><a class="el" href="../../d0/df3/classData.html" title="Data Interface Base-Class. ">Data</a> point </td></tr>
-    <tr><td class="paramname">A</td><td>First resonance </td></tr>
-    <tr><td class="paramname">B</td><td>Second resonance </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="abb4b8c33e814946798f5d328a71dd354"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; ComPWA::UnitAmp::intensityNoEff </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculate intensity of amplitude at point in phase-space Intensity is calculated excluding efficiency correction </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td><a class="el" href="../../d0/df3/classData.html" title="Data Interface Base-Class. ">Data</a> point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#af4652ddd499caf947834f4078eae9626">ComPWA::Amplitude</a>.</p>
+<p>Reimplemented in <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#aa25854d1415b35e00f43ec5151e13813">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>, and <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#ab217a653b6abd1a98f7099d7b2f48e79">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a72d4d5fd16d78717c2fd0447fb872676"></a>
+<a class="anchor" id="a7a7cb3cbb440da237f7a44e19f3963c8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1145,49 +724,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Amplitude::SetAmpEfficiency </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ampVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td>
-          <td class="paramname"><em>eff</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Set efficiencies for a vector of amplitudes</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ampVec</td><td>Vector of amplitudes </td></tr>
-    <tr><td class="paramname">eff</td><td>New efficiency object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="aef45baf34d355897a41bbf690762a6fd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::Amplitude::SetEfficiency </td>
+          <td class="memname">virtual void ComPWA::AmpIntensity::SetEfficiency </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> &gt;&#160;</td>
           <td class="paramname"><em>eff</em></td><td>)</td>
@@ -1205,7 +742,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3cb38837eab8d5f5ad9d0d3be98a64d4"></a>
+<a class="anchor" id="ad4f1839f7a5670e719486e9327caeccb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1213,7 +750,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ComPWA::Amplitude::SetName </td>
+          <td class="memname">virtual void ComPWA::AmpIntensity::SetName </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -1227,11 +764,102 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set name of amplitude. </p>
+<p>Set name. </p>
 
 </div>
 </div>
-<a class="anchor" id="a04a4b85535ce73891187c147e0e98dd5"></a>
+<a class="anchor" id="a4a4f7d7164db562ff0bbf58f3b091650"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ComPWA::UnitAmp::SetPhspSample </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>phspSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>toySample</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set phase space samples We use phase space samples to calculate the normalizations. </p>
+<p>In case of intensities we phase space sample phspSample includes the event efficiency. The sample toySample is used for normalization calculation for e.g. Resonacnes without efficiency. </p>
+
+<p>Implements <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#ac737b8ff567518fc42ea363394dd008b">ComPWA::AmpIntensity</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2b424875f1fa892967c660af7abd09e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::AmpIntensity::SetStrength </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>par</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set strength parameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9471fb49ac35a099306763aa30b7e41e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::AmpIntensity::SetStrengthParameter </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt;&#160;</td>
+          <td class="paramname"><em>par</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set strength parameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a48a0977f8a0cecfaec37b807e7166a94"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1241,13 +869,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::UnitAmp::setupBasicTree </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
           <td class="paramname"><em>sample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
           <td class="paramname"><em>toySample</em>, </td>
         </tr>
         <tr>
@@ -1280,7 +908,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1b688ca7f25f84744d6515565c9bda16"></a>
+<a class="anchor" id="abe211c995e600c17a5f3d2bd1bf52b27"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1291,7 +919,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">virtual void ComPWA::UnitAmp::to_str </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1301,87 +929,10 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Print amplitude to logging system. </p>
-
-<p>Implements <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html#ab545a10864d052df32f2608acb88105e">ComPWA::Amplitude</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad89a994c67ca988b0073a5476f71f473"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Amplitude::UpdateAmpParameterList </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ampVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>list</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>! Update parameters of vector of amplitudes</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ampVec</td><td>Vector of amplitudes </td></tr>
-    <tr><td class="paramname">list</td><td>New list of parameters </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="afbbd742ee35e0ecba49f54399e587dac"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Amplitude::UpdateParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>par</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Update parameters of resonance</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">par</td><td>New list of parameters </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1b02ebd85d12458390516ed0ed06d0de"></a>
+<a class="anchor" id="a1edd9286a228dfb1b5e092ea72759b44"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1389,7 +940,29 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ComPWA::Amplitude::_name</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a>&gt; ComPWA::AmpIntensity::_eff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Phase space depended efficiency. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ca50270eb8612842025716749b645c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ComPWA::AmpIntensity::_name</td>
         </tr>
       </table>
   </td>
@@ -1403,7 +976,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4145b1250bf4a9c5ce84a05cc22f7cce"></a>
+<a class="anchor" id="afbf11842084fc84c33a34bed1816fa39"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1411,7 +984,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d80/structComPWA_1_1resIsEnabled.html">resIsEnabled</a> ComPWA::Amplitude::_resEnabled</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a>&gt; ComPWA::AmpIntensity::_strength</td>
         </tr>
       </table>
   </td>
@@ -1420,84 +993,16 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>need to store this object for boost::filter_iterator </p>
-
-</div>
-</div>
-<a class="anchor" id="a88ce26a8c962b6cac65478d643446dab"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a>&gt; ComPWA::Amplitude::eff_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> object. </p>
-
-</div>
-</div>
-<a class="anchor" id="a44bf8814792ddbfe9ab32dcaf7bc699f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::Amplitude::params</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of interal parameters. </p>
-
-</div>
-</div>
-<a class="anchor" id="a34ba2486831c07904dc1cea7b60d40c9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::Amplitude::result</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d8/db7/classComPWA_1_1Amplitude.html">Amplitude</a> value. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../dc/dfd/AmpIntensity_8hpp_source.html">AmpIntensity.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 9 2017 02:05:12 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 11 2017 05:35:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wignerd_2ehpp',['WignerD.hpp',['../d6/d8e/WignerD_8hpp.html',1,'']]]
+  ['wignerd_2eh',['WignerD.h',['../d9/d6e/WignerD_8h.html',1,'']]]
 ];
