@@ -104,7 +104,6 @@ var searchData=
   ['_5fplotlegend',['_plotLegend',['../da/d41/classplotData.html#a57a1eedce0a6fd11e2224823c669da9e',1,'plotData']]],
   ['_5fprefactor',['_preFactor',['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aae2c14fc8ca42dced243885abb2eab63',1,'ComPWA::Physics::Amplitude::_preFactor()'],['../d5/d84/classComPWA_1_1Physics_1_1Resonance.html#a30941fd35a64b08cf0b9778e4d6c9b57',1,'ComPWA::Physics::Resonance::_preFactor()']]],
   ['_5frank',['_rank',['../d6/d64/classComPWA_1_1Physics_1_1QFT_1_1Tensor__Base.html#a8ef3c6e9d44dc71478ceaf0d988ac1f5',1,'ComPWA::Physics::QFT::Tensor_Base::_rank()'],['../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html#a724a718fd273126c42250049ef8ffd0e',1,'ComPWA::Physics::QFT::TensorIndex::_rank()']]],
-  ['_5freadflag',['_readFlag',['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#acc1b66b55c9a027499e9ebef552734da',1,'ComPWA::DataReader::JakeReader::JakeReader']]],
   ['_5frecoilstate',['_recoilState',['../d7/d41/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SubSystem.html#ad40e236bce9ad6d1a02d5c87f6c3b00e',1,'ComPWA::Physics::HelicityFormalism::SubSystem']]],
   ['_5fseqdecays',['_seqDecays',['../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#a8412373a9581f6313e57174309975857',1,'ComPWA::Physics::HelicityFormalism::CoherentIntensity']]],
   ['_5fsigma',['_sigma',['../de/d89/classPolyFit.html#a0a19ea869319d65f97de4d0bc95e8061',1,'PolyFit']]],

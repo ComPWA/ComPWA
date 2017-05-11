@@ -27,10 +27,8 @@ Searching for files in directory /home/travis/build/ComPWA/ComPWA/Core
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Core/test
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader/AsciiReader
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader/RootReader
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/DataReader/test
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/doc
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/doc/images
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Estimator
@@ -39,14 +37,14 @@ Searching for files in directory /home/travis/build/ComPWA/ComPWA/Estimator/MinL
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Estimator/test
+Searching for files in directory /home/travis/build/ComPWA/ComPWA/Examples
+Searching for files in directory /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK
+Searching for files in directory /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit
+Searching for files in directory /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit
+Searching for files in directory /home/travis/build/ComPWA/ComPWA/Examples/SliceFit
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/config
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/Examples
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit
-Searching for files in directory /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Optimizer
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Optimizer/Geneva
 Searching for files in directory /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2
@@ -174,10 +172,6 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.hpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.hpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.hpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.hpp...
@@ -186,10 +180,8 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.
 Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.hpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/DataTest.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/DataTest.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/test/GenevaTestApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/test/GenevaTestApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/RootReaderTest.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/RootReaderTest.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.hpp...
@@ -210,6 +202,36 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB/SliceFitUB.h
 Parsing file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB/SliceFitUB.hpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Estimator/test/EstimatorTestApp.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Estimator/test/EstimatorTestApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzFitApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzFitApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenDalitzApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenDalitzApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenPhspApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenPhspApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/Dalitz_ext.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/Dalitz_ext.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitRANDApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitRANDApp.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitUBApp.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitUBApp.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/AmpPlotterApp.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/AmpPlotterApp.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/AutoDict_vector_TLorentzVector_.cxx...
@@ -222,36 +244,6 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/executables/BlackScholesApp.cpp..
 Parsing file /home/travis/build/ComPWA/ComPWA/executables/BlackScholesApp.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/executables/CompareTreeAmpApp.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/executables/CompareTreeAmpApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzFitApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzFitApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenDalitzApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenDalitzApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenPhspApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenPhspApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/Dalitz_ext.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/Dalitz_ext.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.hpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitRANDApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitRANDApp.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitUBApp.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitUBApp.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/executables/GenRunManagerApp.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/executables/GenRunManagerApp.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/executables/GenTwoPartApp.cpp...
@@ -330,7 +322,8 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpFlat
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpFlatteRes.hpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpWignerD.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpWignerD.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpWignerD.hpp...
+Preprocessing /home/travis/build/ComP/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:93: warning: include file Physics/qft++/Type.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
+WA/ComPWA/Physics/HelicityFormalism/AmpWignerD.hpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpWignerD.hpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/CoherentIntensity.cpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/CoherentIntensity.cpp...
@@ -360,15 +353,10 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/Sequent
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.hpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.hpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngleTest.cpp...
-Parsing file /ho/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:93: warning: include file Physics/qft++/Type.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor_Base.h:99: warning: include file Physics/qft++/Matrix_Base.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
-/home/travis/build/ComPWA/ComPWA/Core/Spin.hpp:13: warning: the name `Utility.hpp' supplied as the second argument in the \file statement is not an input file
-/home/travis/build/ComPWA/ComPWA/DataReader/test/GenevaTestApp.cpp:13: warning: the name `DataIFTestApp.cpp' supplied as the second argument in the \file statement is not an input file
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/WignerD.h:23: warning: the name `Utils.h' supplied as the second argument in the \file statement is not an input file
-me/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngleTest.cpp...
-Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityFormalismTest.cpp...
-Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityFormalismTest.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/AmpModel.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/AmpModel.cpp...
+Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngle.cpp...
+Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngle.cpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism.hpp...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism.hpp...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h...
@@ -379,7 +367,16 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/qft++/MatrixOfTensors.h..
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/qft++/MatrixOfTensors.h...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/qft++/OperationType.h...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/qft++/OperationType.h...
-Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/qft++/SelectiveInclusion.h...
+Preprocessing /home/travis/build/ComP/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor_Base.h:99: warning: include file Physics/qft++/Matrix_Base.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
+/home/travis/build/ComPWA/ComPWA/Core/Spin.hpp:13: warning: the name `Utility.hpp' supplied as the second argument in the \file statement is not an input file
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/WignerD.h:23: warning: the name `Utils.h' supplied as the second argument in the \file statement is not an input file
+/home/travis/build/ComPWA/ComPWA/Core/Logging.cpp:61: warning: no matching class member found for 
+  void ComPWA::Logging::SetLogLevel(trivial::severity_level minLevel)
+Possible candidates:
+  void ComPWA::Logging::SetLogLevel(boost::log::trivial::severity_level minLevel)
+  void ComPWA::Logging::SetLogLevel(std::string minLevel)
+
+WA/ComPWA/Physics/qft++/SelectiveInclusion.h...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/qft++/SelectiveInclusion.h...
 Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/qft++/SpecialTensors.h...
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/qft++/SpecialTensors.h...
@@ -430,12 +427,6 @@ Searching for friends...
 Searching for documented defines...
 Computing class inheritance relations...
 Computing class usage relations...
-/home/travis/build/ComPWA/ComPWA/Core/Logging.cpp:61: warning: no matching class member found for 
-  void ComPWA::Logging::SetLogLevel(trivial::severity_level minLevel)
-Possible candidates:
-  void ComPWA::Logging::SetLogLevel(boost::log::trivial::severity_level minLevel)
-  void ComPWA::Logging::SetLogLevel(std::string minLevel)
-
 Flushing cached template relations that have become invalid...
 Creating members for template instances...
 Computing class relations...
@@ -499,27 +490,26 @@ Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/AsciiReader
 Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/CorrectionTable.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/Estimator.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLo/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpFlatteRes.hpp:213: warning: Found unknown command `\channel'
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:201: warning: explicit link request to 's' could not be resolved
-gLH.hpp...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit/SliceFit.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB/SliceFitUB.hpp...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/LinkDefPlotter.h...
 Generating code for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/TTripleSliderDemo.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/executables/PolyFit.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/executables/ROOTPlotHelper.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Geneva/GenevaIF.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Geneva/GenevaResult.hpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Geneva/GStartIndividual.hpp...
+Generating code for file /home/travis/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AmpFlatteRes.hpp:213: warning: Found unknown command `\channel'
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:201: warning: explicit link request to 's' could not be resolved
+/build/ComPWA/ComPWA/Optimizer/Geneva/GStartIndividual.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitFcn.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitIF.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitResult.hpp...
@@ -548,12 +538,7 @@ Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h
 Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor_Base.h...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/TensorIndex.h...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Type.h...
-Generating code for file /homwarning: Included by graph for 'DataPoint.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Included by graph for 'Event.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Included by graph for 'Parameter.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Included by graph for 'ParameterList.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Included by graph for 'Particle.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-e/travis/build/ComPWA/ComPWA/Physics/qft++/Vector4.h...
+Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Vector4.h...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/WignerD.h...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Physics/Resonance.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp...
@@ -569,7 +554,11 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/ControlParameter.
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/DataPoint.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/DataPoint.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/Dictionary.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/Dictionary.hpp...
+Generating docs warning: Included by graph for 'Event.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'Parameter.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'ParameterList.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'Particle.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+for file /home/travis/build/ComPWA/ComPWA/Core/Dictionary.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/documentation.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/Efficiency.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/Efficiency.hpp...
@@ -603,11 +592,7 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/TableFormater.cpp
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/TableFormater.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/CX0TestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/ParameterTest.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/ParticleTest.cpp..warning: Include graph for 'AmpPlotterApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'TTripleSliderDemo.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'CompareTreeAmpApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'DalitzFitD03K.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-.
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/ParticleTest.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/PhysConstTest.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/test/TreeTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Core/TreeNode.cpp...
@@ -622,15 +607,22 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/Data.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/DataCorrection.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader/JakeReader.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.cpp...
+Generating docs for file /home/warning: Include graph for 'DalitzFitD03K.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'DalitzFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'GenDalitzApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'PythonFit.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'SliceFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'SliceFitRANDApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'SliceFitUBApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'AmpPlotterApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'TTripleSliderDemo.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'CompareTreeAmpApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'HelicityAmplitudeFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootEfficiency.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/RootReader.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/DataTest.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/test/GenevaTestApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/test/GenevaTestApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test/RootReaderTest.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD/ChiOneD.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/Estimator.hpp...
@@ -641,41 +633,35 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit/Sli
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB/SliceFitUB.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB/SliceFitUB.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Estimator/test/EstimatorTestApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/DalitzFitApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenDalitzApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenPhspApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/Dalitz_ext.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitRANDApp.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Examples/SliceFit/SliceFitUBApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/AmpPlotterApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/AutoDict_vector_TLorentzVector_.cxx...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/LinkDefPlotter.h...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter/TTripleSliderDemo.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/BlackScholesApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/CompareTreeAmpApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/DalitzFitD03K.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/PlotData.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executablwarning: Include graph for 'DalitzFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'GenDalitzApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'PythonFit.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'SliceFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'SliceFitRANDApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'SliceFitUBApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'HelicityAmplitudeFitApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-warning: Include graph for 'LHNormalizationTestApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-es/Examples/DalitzAnalysis_D0KsKK/systematics.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK/Tools.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzDataPlotterApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/DalitzFitApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenDalitzApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit/GenPhspApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/Dalitz_ext.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit/PythonFit.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitRANDApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit/SliceFitUBApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/GenRunManagerApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/GenTwoPartApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/HelicityAmplitudeFitApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/HelicityCoherentAmplitudeEventGenApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/HelicityCoherentAmplitudePlotApp.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/HelicityDecayTreeGeneratorTestApp.cpp...
+Generating docs for file /home/travis/build/Comwarning: Include graph for 'LHNormalizationTestApp.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'AmpSumSliceIntensity.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+PWA/ComPWA/executables/HelicityDecayTreeGeneratorTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/HelicityDecayTreeTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/LHNormalizationTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/executables/MultiVariateGaussianTestApp.cpp...
@@ -697,10 +683,10 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/Minu
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitResult.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitResult.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/Optimizer.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/test/GenevaTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/test/MinuitTestApp.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Optimizer/test/OptimizerTestApp.cpp...
-Generating docs for file /home/traviswarning: Include graph for 'AmpSumSliceIntensity.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
-/build/ComPWA/ComPWA/Physics/Amplitude.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/AmplitudeSum/AmpSumSliceIntensity.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/AmplitudeSum/PhiSumOfAmplitudes.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/AmplitudeSum/PhiSumOfAmplitudes.hpp...
@@ -716,7 +702,8 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormal
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/IncoherentIntensity.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/IncoherentIntensity.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/Inc/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:40: warning: included file Conversion.ex is not found. Check your EXAMPLE_PATH
+oherentIntensity.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/NonResonant.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/NonResonant.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/PartialDecay.cpp...
@@ -725,8 +712,8 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormal
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/RelativisticBreitWigner.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.hpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngleTest.cpp...
-Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityFormalismTest.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/AmpModel.cpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngle.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/MatrixOfTensors.h...
@@ -741,15 +728,7 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/Vector4.
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/qft++/WignerD.h...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/Resonance.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp...
-Ge/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:40: warning: included file Conversion.ex is not found. Check your EXAMPLE_PATH
-/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:1288: warning: argument 'pt' of command @param is not found in the argument list of ComPWA::DoubleParameterSave(DoubleParameter par)
-/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:1288: warning: The following parameters of ComPWA::DoubleParameterSave(DoubleParameter par) are not documented:
-  parameter 'par'
-/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:127: warning: The following parameters of ComPWA::AmpIntensity::GetTree(const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, std::string suffix="") are not documented:
-  parameter 'suffix'
-/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:127: warning: The following parameters of ComPWA::AmpIntensity::GetTree(const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, std::string suffix="") are not documented:
-  parameter 'suffix'
-nerating docs for file /home/travis/build/ComPWA/ComPWA/Tools/Integration.hpp...
+Generating docs for file /home/travis/build/ComPWA/ComPWA/Tools/Integration.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Tools/RootGenerator.cpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Tools/RootGenerator.hpp...
 Generating docs for file /home/travis/build/ComPWA/ComPWA/Tools/RunManager.cpp...
@@ -783,9 +762,15 @@ Generating docs for compound FunctionTree...
 Generating docs for compound GenevaIF...
 Generating docs for compound GenevaResult...
 Generating docs for compound IntegerParameter...
-Generating docs for compound JakeReader...
 Generating docs for compound MinLogLH...
-Generating docs for compound MinuitFcn...
+Generating do/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:1288: warning: argument 'pt' of command @param is not found in the argument list of ComPWA::DoubleParameterSave(DoubleParameter par)
+/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:1288: warning: The following parameters of ComPWA::DoubleParameterSave(DoubleParameter par) are not documented:
+  parameter 'par'
+/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:127: warning: The following parameters of ComPWA::AmpIntensity::GetTree(const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, std::string suffix="") are not documented:
+  parameter 'suffix'
+/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:127: warning: The following parameters of ComPWA::AmpIntensity::GetTree(const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, std::string suffix="") are not documented:
+  parameter 'suffix'
+cs for compound MinuitFcn...
 Generating docs for compound MinuitIF...
 Generating docs for compound MultAll...
 Generating docs for compound Optimizer...
@@ -834,15 +819,7 @@ Generating docs for compound ComPWA::FitResult...
 Generating docs for compound ComPWA::KahanSummation...
 Generating docs for compound ComPWA::Strategy...
 Generating docs for compound ComPWA::Inverse...
-Generating docs f/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:34: warning: Found unknown command `\RootReader'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:34: warning: Found unknown command `\AsciiReader'
-/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:48: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, unsigned int startEvent=0, unsigned int nEvents=0)
-/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:48: warning: The following parameters of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, unsigned int startEvent=0, unsigned int nEvents=0) are not documented:
-  parameter 'intens'
-/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:69: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent=0, unsigned int nEvents=0)
-/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:69: warning: The following parameters of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent=0, unsigned int nEvents=0) are not documented:
-  parameter 'intens'
-or compound ComPWA::SquareRoot...
+Generating docs for compound ComPWA::SquareRoot...
 Generating docs for compound ComPWA::AddAll...
 Generating docs for compound ComPWA::MultAll...
 Generating docs for compound ComPWA::LogOf...
@@ -877,44 +854,15 @@ Generating docs for compound ComPWA::Spin...
 Generating docs for compound ComPWA::IDInfo...
 Generating docs for compound ComPWA::ParticleStateInfo...
 Generating docs for compound ComPWA::TableFormater...
-Generating docs for compound ComPWA::TexTableFormater...
-Generating docs for compound ComPWA::TreeNode...
-Generating docs for compound ComPWA::TwoBodyKinematics...
-Generating docs for compound ComPWA::DataCorrection...
-Generating docs for compound ComPWA::UnitCorrection...
-Generating docs for compound ComPWA::MomentumCorrection...
-Generating docs for compound ComPWA::RunManager...
-Generating docs for namespace ComPWA::DataReader
-Generating docs for compound ComPWA::DataReader::Data...
-Generating docs for compound ComPWA::DataReader::RootEfficiency...
-Generating docs for compound ComPWA::DataReader::RootAngleEfficiency...
-Generating docs for compound ComPWA::DataReader::RootReader...
-Generating docs for namespace ComPWA::DataReader::AsciiReader
-Generating docs for compound ComPWA::DataReader::AsciiReader::AsciiReader...
-Generating docs for namespace ComPWA::DataReader::JakeReader
-Generating docs for compound ComPWA::DataReader::JakeReader::JakeReader...
-Generating docs for namespace ComPWA::DataReader::RootReader
-Generating docs for namespace ComPWA::Estimator
-Generating docs for compound ComPWA::Estimator::Estimator...
-Generating docs for compound ComPWA::Estimator::MinLogLH...
-Generating docs for namespace ComPWA::Estimator::ChiOneD
-Generating docs for compound ComPWA::Estimator::ChiOneD::ChiOneD...
-Generating docs for namespace ComPWA::Estimator::MinLogLH
-Generating docs for namespace ComPWA::Estimator::SliceFit
-Generating docs for compound ComPWA::Estimator::SliceFit::SliceFit...
-Generating docs for namespace ComPWA::Estimator::SliceFitUB
-Generating docs for compound ComPWA::Estimator::SliceFitUB::SliceFitUB...
-Generating docs for namespace ComPWA::Estimator::SliceFitUb
-Generating docs for namespace ComPWA::Optimizer
-Generating docs for compound ComPWA::Optimizer::Optimizer...
-Generating docs for namespace ComPWA::Optimizer::Geneva
-Generating docs for compound ComPWA::Optimizer::Geneva::GenevaIF...
-Generating docs for compound ComPWA::Optimizer::Geneva::GenevaResult...
-Generating docs for namespace ComPWA::Optimizer::Minuit2
-Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitIF...
-Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitStrategy...
-Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitResult...
-Generating docs for /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
+G/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:34: warning: Found unknown command `\RootReader'
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:34: warning: Found unknown command `\AsciiReader'
+/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:48: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, unsigned int startEvent=0, unsigned int nEvents=0)
+/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:48: warning: The following parameters of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, unsigned int startEvent=0, unsigned int nEvents=0) are not documented:
+  parameter 'intens'
+/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:69: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent=0, unsigned int nEvents=0)
+/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:69: warning: The following parameters of ComPWA::Estimator::MinLogLH::CreateInstance(std::shared_ptr< AmpIntensity > intens, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent=0, unsigned int nEvents=0) are not documented:
+  parameter 'intens'
+/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
 /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
   parameter 'pre'
 /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/AbstractDynamicalFunction.hpp:95: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::HelicityFormalism::AbstractDynamicalFunction::SetMass(double mass)
@@ -958,7 +906,68 @@ Generating docs for /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: 
 /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
 /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
   parameter 'pre'
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: argument 'rows' of command @param is not found in the argument list of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols)
+enerating docs for compound ComPWA::TexTableFormater...
+Generating docs for compound ComPWA::TreeNode...
+Generating docs for compound ComPWA::TwoBodyKinematics...
+Generating docs for compound ComPWA::DataCorrection...
+Generating docs for compound ComPWA::UnitCorrection...
+Generating docs for compound ComPWA::MomentumCorrection...
+Generating docs for compound ComPWA::RunManager...
+Generating docs for namespace ComPWA::DataReader
+Generating docs for compound ComPWA::DataReader::Data...
+Generating docs for compound ComPWA::DataReader::RootEfficiency...
+Generating docs for compound ComPWA::DataReader::RootAngleEfficiency...
+Generating docs for compound ComPWA::DataReader::RootReader...
+Generating docs for namespace ComPWA::DataReader::AsciiReader
+Generating docs for compound ComPWA::DataReader::AsciiReader::AsciiReader...
+Generating docs for namespace ComPWA::DataReader::JakeReader
+Generating docs for namespace ComPWA::DataReader::RootReader
+Generating docs for namespace ComPWA::Estimator
+Generating docs for compound ComPWA::Estimator::Estimator...
+Generating docs for compound ComPWA::Estimator::MinLogLH...
+Generating docs for namespace ComPWA::Estimator::ChiOneD
+Generating docs for compound ComPWA::Estimator::ChiOneD::ChiOneD...
+Generating docs for namespace ComPWA::Estimator::MinLogLH
+Generating docs for namespace ComPWA::Estimator::SliceFit
+Generating docs for compound ComPWA::Estimator::SliceFit::SliceFit...
+Generating docs for namespace ComPWA::Estimator::SliceFitUB
+Generating docs for compound ComPWA::Estimator::SliceFitUB::SliceFitUB...
+Generating docs for namespace ComPWA::Estimator::SliceFitUb
+Generating docs for namespace ComPWA::Optimizer
+Generating docs for compound ComPWA::Optimizer::Optimizer...
+Generating docs for namespace ComPWA::Optimizer::Geneva
+Generating docs for compound ComPWA::Optimizer::Geneva::GenevaIF...
+Generating docs for compound ComPWA::Optimizer::Geneva::GenevaResult...
+Generating docs for namespace ComPWA::Optimizer::Minuit2
+Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitIF...
+Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitStrategy...
+Generating docs for compound ComPWA::Optimizer::Minuit2::MinuitResult...
+Generating docs for namespace ComPWA::Physics
+Generating docs for compound ComPWA::Physics::Amplitude...
+Generating docs for compound ComPWA::Physics::Resonance...
+Generating docs for namespace ComPWA::Physics::AmplitudeSum
+Generating docs for compound ComPWA::Physics::AmplitudeSum::PhiSumOfAmplitudes...
+Generating docs for namespace ComPWA::Physics::BreitWigner
+Generating docs for namespace ComPWA::Physics::DecayTree
+Generating docs for namespace ComPWA::Physics::DPKinematics
+Generating docs for namespace ComPWA::Physics::DynamicalFunctions
+Generating docs for namespace ComPWA::Physics::HelicityFormalism
+Generating docs for compound ComPWA::Physics::HelicityFormalism::AbstractDynamicalFunction...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::Coupling...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::AmpFlatteRes...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::FlatteStrategy...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::AmpWignerD...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::WignerDStrategy...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::CoherentIntensity...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::SubSystem...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::HelicityKinematics...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::IncoherentIntensity...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::NonResonant...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::PartialDecay...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::RelativisticBreitWigner...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::BreitWignerStrategy...
+Generating docs for compound ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay...
+Generatin/home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: argument 'rows' of command @param is not found in the argument list of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols)
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: argument 'cols' of command @param is not found in the argument list of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols)
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: The following parameters of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols) are not documented:
   parameter '__rows'
@@ -1013,32 +1022,29 @@ Generating docs for /home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:186: 
   parameter '__lt'
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/TensorIndex.h:50: warning: included file TensorIndex.ex is not found. Check your EXAMPLE_PATH
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Type.h:48: warning: included file Type_ParamType.ex is not found. Check your EXAMPLE_PATH
-namespace ComPWA::Physics
-Generating docs for compound ComPWA::Physics::Amplitude...
-Generating docs for compound ComPWA::Physics::Resonance...
-Generating docs for namespace ComPWA::Physics::AmplitudeSum
-Generating docs for compound ComPWA::Physics::AmplitudeSum::PhiSumOfAmplitudes...
-Generating docs for namespace ComPWA::Physics::BreitWigner
-Generating docs for namespace ComPWA::Physics::DecayTree
-Generating docs for namespace ComPWA::Physics::DPKinematics
-Generating docs for namespace ComPWA::Physics::DynamicalFunctions
-Generating docs for namespace ComPWA::Physics::HelicityFormalism
-Generating docs for compound ComPWA::Physics::HelicityFormalism::AbstractDynamicalFunction...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::Coupling...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::AmpFlatteRes...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::FlatteStrategy...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::AmpWignerD...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::WignerDStrategy...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::CoherentIntensity...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::SubSystem...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::HelicityKinematics...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::IncoherentIntensity...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::NonResonant...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::PartialDecay...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::RelativisticBreitWigner...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::BreitWignerStrategy...
-Generating docs for compound ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay...
-Generating docs for namespace ComPWA::Physics::QFT
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: argument 'tensor' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: argument 'num_indicies' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const are not documented:
+  parameter '__tensor'
+  parameter '__num_indicies'
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:305: warning: argument 'os' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Print(std::ostream &__os=std::cout) const
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:305: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Print(std::ostream &__os=std::cout) const are not documented:
+  parameter '__os'
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:903: warning: argument 'lt' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Transform(const Tensor< double > &__lt)
+/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:903: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Transform(const Tensor< double > &__lt) are not documented:
+  parameter '__lt'
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: The following parameters of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs) are not documented:
+  parameter 'parameters'
+  parameter 'covariance'
+  parameter 'ffList'
+  parameter 'intens'
+  parameter 'sample'
+  parameter 'defs'
+g docs for namespace ComPWA::Physics::QFT
 Generating docs for compound ComPWA::Physics::QFT::Conversion...
 Generating docs for nested compound ComPWA::Physics::QFT::Conversion::_big...
 Generating docs for compound ComPWA::Physics::QFT::Conversion< _T, _T >...
@@ -1070,29 +1076,7 @@ Generating docs for compound ComPWA::Physics::QFT::Type< unsigned int >...
 Generating docs for compound ComPWA::Physics::QFT::Type< unsigned long int >...
 Generating docs for compound ComPWA::Physics::QFT::Type< bool >...
 Generating docs for compound ComPWA::Physics::QFT::Type< _Tp * >...
-Generating docs for compound ComPWA::P/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: argument 'tensor' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: argument 'num_indicies' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:688: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Contract(const Tensor< T > &__tensor, int __num_indicies=-1) const are not documented:
-  parameter '__tensor'
-  parameter '__num_indicies'
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:305: warning: argument 'os' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Print(std::ostream &__os=std::cout) const
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:305: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Print(std::ostream &__os=std::cout) const are not documented:
-  parameter '__os'
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:903: warning: argument 'lt' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Transform(const Tensor< double > &__lt)
-/home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:903: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Transform(const Tensor< double > &__lt) are not documented:
-  parameter '__lt'
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: The following parameters of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs) are not documented:
-  parameter 'parameters'
-  parameter 'covariance'
-  parameter 'ffList'
-  parameter 'intens'
-  parameter 'sample'
-  parameter 'defs'
-hysics::QFT::Vector4...
+Generating docs for compound ComPWA::Physics::QFT::Vector4...
 Generating docs for namespace ComPWA::Tools
 Generating docs for compound ComPWA::Tools::testGauss...
 Generating docs for compound ComPWA::Tools::IntegralByQuadrature...
@@ -1124,7 +1108,11 @@ Generating docs for nested compound NeatPlotting::SystematicsAnalyser::Systemati
 Generating docs for namespace ROOT
 Generating docs for namespace ROOT::Minuit2
 Generating docs for compound ROOT::Minuit2::MinuitFcn...
-Generating graph info page...
+Generating graph info psh: 1: latex: not found
+error: Problems running latex. Check your installation or look for typos in _formulas.tex and check _formulas.log!
+sh: 1: dvips: not found
+error: Problems running dvips. Check your installation!
+age...
 Generating directory documentation...
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Physics/AmplitudeSum
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/AmpPlotter
@@ -1132,34 +1120,28 @@ Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataR
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/ChiOneD
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Core
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzAnalysis_D0KsKK
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/Examples/DalitzFit
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Examples/DalitzAnalysis_D0KsKK
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataReader
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/Examples
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Examples
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Optimizer/Geneva
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataReader/JakeReader
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Optimizer
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Physics
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/Examples/PythonDalitzFit
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Physics/qft++
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataReader/RootReader
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/executables/Examples/SliceFit
-Generating depsh: 1: latex: not found
-error: Problems running latex. Check your installation or look for typos in _formulas.tex and check _formulas.log!
-sh: 1: dvips: not found
-error: Problems running dvips. Check your installation!
-endency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Examples/SliceFit
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/SliceFitUB
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Tools/test
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/test
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Optimizer/test
-Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataReader/test
+Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Estimator/test
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/DataReader/RootReader/test
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Core/test
 Generating dependency graph for directory /home/travis/build/ComPWA/ComPWA/Tools
@@ -1181,1805 +1163,1776 @@ Generating example index...
 finalizing index lists...
 Running dot...
 Generating dot graphs using 33 parallel threads...
-Running dot for graph 1/701
-Running dot for graph 2/701
-Running dot for graph 3/701
-Running dot for graph 4/701
-Running dot for graph 5/701
-Running dot for graph 6/701
-Running dot for graph 7/701
-Running dot for graph 8/701
-Running dot for graph 9/701
-Running dot for graph 10/701
-Running dot for graph 11/701
-Running dot for graph 12/701
-Running dot for graph 13/701
-Running dot for graph 14/701
-Running dot for graph 15/701
-Running dot for graph 16/701
-Running dot for graph 17/701
-Running dot for graph 18/701
-Running dot for graph 19/701
-Running dot for graph 20/701
-Running dot for graph 21/701
-Running dot for graph 22/701
-Running dot for graph 23/701
-Running dot for graph 24/701
-Running dot for graph 25/701
-Running dot for graph 26/701
-Running dot for graph 27/701
-Running dot for graph 28/701
-Running dot for graph 29/701
-Running dot for graph 30/701
-Running dot for graph 31/701
-Running dot for graph 32/701
-Running dot for graph 33/701
-Running dot for graph 34/701
-Running dot for graph 35/701
-Running dot for graph 36/701
-Running dot for graph 37/701
-Running dot for graph 38/701
-Running dot for graph 39/701
-Running dot for graph 40/701
-Running dot for graph 41/701
-Running dot for graph 42/701
-Running dot for graph 43/701
-Running dot for graph 44/701
-Running dot for graph 45/701
-Running dot for graph 46/701
-Running dot for graph 47/701
-Running dot for graph 48/701
-Running dot for graph 49/701
-Running dot for graph 50/701
-Running dot for graph 51/701
-Running dot for graph 52/701
-Running dot for graph 53/701
-Running dot for graph 54/701
-Running dot for graph 55/701
-Running dot for graph 56/701
-Running dot for graph 57/701
-Running dot for graph 58/701
-Running dot for graph 59/701
-Running dot for graph 60/701
-Running dot for graph 61/701
-Running dot for graph 62/701
-Running dot for graph 63/701
-Running dot for graph 64/701
-Running dot for graph 65/701
-Running dot for graph 66/701
-Running dot for graph 67/701
-Running dot for graph 68/701
-Running dot for graph 69/701
-Running dot for graph 70/701
-Running dot for graph 71/701
-Running dot for graph 72/701
-Running dot for graph 73/701
-Running dot for graph 74/701
-Running dot for graph 75/701
-Running dot for graph 76/701
-Running dot for graph 77/701
-Running dot for graph 78/701
-Running dot for graph 79/701
-Running dot for graph 80/701
-Running dot for graph 81/701
-Running dot for graph 82/701
-Running dot for graph 83/701
-Running dot for graph 84/701
-Running dot for graph 85/701
-Running dot for graph 86/701
-Running dot for graph 87/701
-Running dot for graph 88/701
-Running dot for graph 89/701
-Running dot for graph 90/701
-Running dot for graph 91/701
-Running dot for graph 92/701
-Running dot for graph 93/701
-Running dot for graph 94/701
-Running dot for graph 95/701
-Running dot for graph 96/701
-Running dot for graph 97/701
-Running dot for graph 98/701
-Running dot for graph 99/701
-Running dot for graph 100/701
-Running dot for graph 101/701
-Running dot for graph 102/701
-Running dot for graph 103/701
-Running dot for graph 104/701
-Running dot for graph 105/701
-Running dot for graph 106/701
-Running dot for graph 107/701
-Running dot for graph 108/701
-Running dot for graph 109/701
-Running dot for graph 110/701
-Running dot for graph 111/701
-Running dot for graph 112/701
-Running dot for graph 113/701
-Running dot for graph 114/701
-Running dot for graph 115/701
-Running dot for graph 116/701
-Running dot for graph 117/701
-Running dot for graph 118/701
-Running dot for graph 119/701
-Running dot for graph 120/701
-Running dot for graph 121/701
-Running dot for graph 122/701
-Running dot for graph 123/701
-Running dot for graph 124/701
-Running dot for graph 125/701
-Running dot for graph 126/701
-Running dot for graph 127/701
-Running dot for graph 128/701
-Running dot for graph 129/701
-Running dot for graph 130/701
-Running dot for graph 131/701
-Running dot for graph 132/701
-Running dot for graph 133/701
-Running dot for graph 134/701
-Running dot for graph 135/701
-Running dot for graph 136/701
-Running dot for graph 137/701
-Running dot for graph 138/701
-Running dot for graph 139/701
-Running dot for graph 140/701
-Running dot for graph 141/701
-Running dot for graph 142/701
-Running dot for graph 143/701
-Running dot for graph 144/701
-Running dot for graph 145/701
-Running dot for graph 146/701
-Running dot for graph 147/701
-Running dot for graph 148/701
-Running dot for graph 149/701
-Running dot for graph 150/701
-Running dot for graph 151/701
-Running dot for graph 152/701
-Running dot for graph 153/701
-Running dot for graph 154/701
-Running dot for graph 155/701
-Running dot for graph 156/701
-Running dot for graph 157/701
-Running dot for graph 158/701
-Running dot for graph 159/701
-Running dot for graph 160/701
-Running dot for graph 161/701
-Running dot for graph 162/701
-Running dot for graph 163/701
-Running dot for graph 164/701
-Running dot for graph 165/701
-Running dot for graph 166/701
-Running dot for graph 167/701
-Running dot for graph 168/701
-Running dot for graph 169/701
-Running dot for graph 170/701
-Running dot for graph 171/701
-Running dot for graph 172/701
-Running dot for graph 173/701
-Running dot for graph 174/701
-Running dot for graph 175/701
-Running dot for graph 176/701
-Running dot for graph 177/701
-Running dot for graph 178/701
-Running dot for graph 179/701
-Running dot for graph 180/701
-Running dot for graph 181/701
-Running dot for graph 182/701
-Running dot for graph 183/701
-Running dot for graph 184/701
-Running dot for graph 185/701
-Running dot for graph 186/701
-Running dot for graph 187/701
-Running dot for graph 188/701
-Running dot for graph 189/701
-Running dot for graph 190/701
-Running dot for graph 191/701
-Running dot for graph 192/701
-Running dot for graph 193/701
-Running dot for graph 194/701
-Running dot for graph 195/701
-Running dot for graph 196/701
-Running dot for graph 197/701
-Running dot for graph 198/701
-Running dot for graph 199/701
-Running dot for graph 200/701
-Running dot for graph 201/701
-Running dot for graph 202/701
-Running dot for graph 203/701
-Running dot for graph 204/701
-Running dot for graph 205/701
-Running dot for graph 206/701
-Running dot for graph 207/701
-Running dot for graph 208/701
-Running dot for graph 209/701
-Running dot for graph 210/701
-Running dot for graph 211/701
-Running dot for graph 212/701
-Running dot for graph 213/701
-Running dot for graph 214/701
-Running dot for graph 215/701
-Running dot for graph 216/701
-Running dot for graph 217/701
-Running dot for graph 218/701
-Running dot for graph 219/701
-Running dot for graph 220/701
-Running dot for graph 221/701
-Running dot for graph 222/701
-Running dot for graph 223/701
-Running dot for graph 224/701
-Running dot for graph 225/701
-Running dot for graph 226/701
-Running dot for graph 227/701
-Running dot for graph 228/701
-Running dot for graph 229/701
-Running dot for graph 230/701
-Running dot for graph 231/701
-Running dot for graph 232/701
-Running dot for graph 233/701
-Running dot for graph 234/701
-Running dot for graph 235/701
-Running dot for graph 236/701
-Running dot for graph 237/701
-Running dot for graph 238/701
-Running dot for graph 239/701
-Running dot for graph 240/701
-Running dot for graph 241/701
-Running dot for graph 242/701
-Running dot for graph 243/701
-Running dot for graph 244/701
-Running dot for graph 245/701
-Running dot for graph 246/701
-Running dot for graph 247/701
-Running dot for graph 248/701
-Running dot for graph 249/701
-Running dot for graph 250/701
-Running dot for graph 251/701
-Running dot for graph 252/701
-Running dot for graph 253/701
-Running dot for graph 254/701
-Running dot for graph 255/701
-Running dot for graph 256/701
-Running dot for graph 257/701
-Running dot for graph 258/701
-Running dot for graph 259/701
-Running dot for graph 260/701
-Running dot for graph 261/701
-Running dot for graph 262/701
-Running dot for graph 263/701
-Running dot for graph 264/701
-Running dot for graph 265/701
-Running dot for graph 266/701
-Running dot for graph 267/701
-Running dot for graph 268/701
-Running dot for graph 269/701
-Running dot for graph 270/701
-Running dot for graph 271/701
-Running dot for graph 272/701
-Running dot for graph 273/701
-Running dot for graph 274/701
-Running dot for graph 275/701
-Running dot for graph 276/701
-Running dot for graph 277/701
-Running dot for graph 278/701
-Running dot for graph 279/701
-Running dot for graph 280/701
-Running dot for graph 281/701
-Running dot for graph 282/701
-Running dot for graph 283/701
-Running dot for graph 284/701
-Running dot for graph 285/701
-Running dot for graph 286/701
-Running dot for graph 287/701
-Running dot for graph 288/701
-Running dot for graph 289/701
-Running dot for graph 290/701
-Running dot for graph 291/701
-Running dot for graph 292/701
-Running dot for graph 293/701
-Running dot for graph 294/701
-Running dot for graph 295/701
-Running dot for graph 296/701
-Running dot for graph 297/701
-Running dot for graph 298/701
-Running dot for graph 299/701
-Running dot for graph 300/701
-Running dot for graph 301/701
-Running dot for graph 302/701
-Running dot for graph 303/701
-Running dot for graph 304/701
-Running dot for graph 305/701
-Running dot for graph 306/701
-Running dot for graph 307/701
-Running dot for graph 308/701
-Running dot for graph 309/701
-Running dot for graph 310/701
-Running dot for graph 311/701
-Running dot for graph 312/701
-Running dot for graph 313/701
-Running dot for graph 314/701
-Running dot for graph 315/701
-Running dot for graph 316/701
-Running dot for graph 317/701
-Running dot for graph 318/701
-Running dot for graph 319/701
-Running dot for graph 320/701
-Running dot for graph 321/701
-Running dot for graph 322/701
-Running dot for graph 323/701
-Running dot for graph 324/701
-Running dot for graph 325/701
-Running dot for graph 326/701
-Running dot for graph 327/701
-Running dot for graph 328/701
-Running dot for graph 329/701
-Running dot for graph 330/701
-Running dot for graph 331/701
-Running dot for graph 332/701
-Running dot for graph 333/701
-Running dot for graph 334/701
-Running dot for graph 335/701
-Running dot for graph 336/701
-Running dot for graph 337/701
-Running dot for graph 338/701
-Running dot for graph 339/701
-Running dot for graph 340/701
-Running dot for graph 341/701
-Running dot for graph 342/701
-Running dot for graph 343/701
-Running dot for graph 344/701
-Running dot for graph 345/701
-Running dot for graph 346/701
-Running dot for graph 347/701
-Running dot for graph 348/701
-Running dot for graph 349/701
-Running dot for graph 350/701
-Running dot for graph 351/701
-Running dot for graph 352/701
-Running dot for graph 353/701
-Running dot for graph 354/701
-Running dot for graph 355/701
-Running dot for graph 356/701
-Running dot for graph 357/701
-Running dot for graph 358/701
-Running dot for graph 359/701
-Running dot for graph 360/701
-Running dot for graph 361/701
-Running dot for graph 362/701
-Running dot for graph 363/701
-Running dot for graph 364/701
-Running dot for graph 365/701
-Running dot for graph 366/701
-Running dot for graph 367/701
-Running dot for graph 368/701
-Running dot for graph 369/701
-Running dot for graph 370/701
-Running dot for graph 371/701
-Running dot for graph 372/701
-Running dot for graph 373/701
-Running dot for graph 374/701
-Running dot for graph 375/701
-Running dot for graph 376/701
-Running dot for graph 377/701
-Running dot for graph 378/701
-Running dot for graph 379/701
-Running dot for graph 380/701
-Running dot for graph 381/701
-Running dot for graph 382/701
-Running dot for graph 383/701
-Running dot for graph 384/701
-Running dot for graph 385/701
-Running dot for graph 386/701
-Running dot for graph 387/701
-Running dot for graph 388/701
-Running dot for graph 389/701
-Running dot for graph 390/701
-Running dot for graph 391/701
-Running dot for graph 392/701
-Running dot for graph 393/701
-Running dot for graph 394/701
-Running dot for graph 395/701
-Running dot for graph 396/701
-Running dot for graph 397/701
-Running dot for graph 398/701
-Running dot for graph 399/701
-Running dot for graph 400/701
-Running dot for graph 401/701
-Running dot for graph 402/701
-Running dot for graph 403/701
-Running dot for graph 404/701
-Running dot for graph 405/701
-Running dot for graph 406/701
-Running dot for graph 407/701
-Running dot for graph 408/701
-Running dot for graph 409/701
-Running dot for graph 410/701
-Running dot for graph 411/701
-Running dot for graph 412/701
-Running dot for graph 413/701
-Running dot for graph 414/701
-Running dot for graph 415/701
-Running dot for graph 416/701
-Running dot for graph 417/701
-Running dot for graph 418/701
-Running dot for graph 419/701
-Running dot for graph 420/701
-Running dot for graph 421/701
-Running dot for graph 422/701
-Running dot for graph 423/701
-Running dot for graph 424/701
-Running dot for graph 425/701
-Running dot for graph 426/701
-Running dot for graph 427/701
-Running dot for graph 428/701
-Running dot for graph 429/701
-Running dot for graph 430/701
-Running dot for graph 431/701
-Running dot for graph 432/701
-Running dot for graph 433/701
-Running dot for graph 434/701
-Running dot for graph 435/701
-Running dot for graph 436/701
-Running dot for graph 437/701
-Running dot for graph 438/701
-Running dot for graph 439/701
-Running dot for graph 440/701
-Running dot for graph 441/701
-Running dot for graph 442/701
-Running dot for graph 443/701
-Running dot for graph 444/701
-Running dot for graph 445/701
-Running dot for graph 446/701
-Running dot for graph 447/701
-Running dot for graph 448/701
-Running dot for graph 449/701
-Running dot for graph 450/701
-Running dot for graph 451/701
-Running dot for graph 452/701
-Running dot for graph 453/701
-Running dot for graph 454/701
-Running dot for graph 455/701
-Running dot for graph 456/701
-Running dot for graph 457/701
-Running dot for graph 458/701
-Running dot for graph 459/701
-Running dot for graph 460/701
-Running dot for graph 461/701
-Running dot for graph 462/701
-Running dot for graph 463/701
-Running dot for graph 464/701
-Running dot for graph 465/701
-Running dot for graph 466/701
-Running dot for graph 467/701
-Running dot for graph 468/701
-Running dot for graph 469/701
-Running dot for graph 470/701
-Running dot for graph 471/701
-Running dot for graph 472/701
-Running dot for graph 473/701
-Running dot for graph 474/701
-Running dot for graph 475/701
-Running dot for graph 476/701
-Running dot for graph 477/701
-Running dot for graph 478/701
-Running dot for graph 479/701
-Running dot for graph 480/701
-Running dot for graph 481/701
-Running dot for graph 482/701
-Running dot for graph 483/701
-Running dot for graph 484/701
-Running dot for graph 485/701
-Running dot for graph 486/701
-Running dot for graph 487/701
-Running dot for graph 488/701
-Running dot for graph 489/701
-Running dot for graph 490/701
-Running dot for graph 491/701
-Running dot for graph 492/701
-Running dot for graph 493/701
-Running dot for graph 494/701
-Running dot for graph 495/701
-Running dot for graph 496/701
-Running dot for graph 497/701
-Running dot for graph 498/701
-Running dot for graph 499/701
-Running dot for graph 500/701
-Running dot for graph 501/701
-Running dot for graph 502/701
-Running dot for graph 503/701
-Running dot for graph 504/701
-Running dot for graph 505/701
-Running dot for graph 506/701
-Running dot for graph 507/701
-Running dot for graph 508/701
-Running dot for graph 509/701
-Running dot for graph 510/701
-Running dot for graph 511/701
-Running dot for graph 512/701
-Running dot for graph 513/701
-Running dot for graph 514/701
-Running dot for graph 515/701
-Running dot for graph 516/701
-Running dot for graph 517/701
-Running dot for graph 518/701
-Running dot for graph 519/701
-Running dot for graph 520/701
-Running dot for graph 521/701
-Running dot for graph 522/701
-Running dot for graph 523/701
-Running dot for graph 524/701
-Running dot for graph 525/701
-Running dot for graph 526/701
-Running dot for graph 527/701
-Running dot for graph 528/701
-Running dot for graph 529/701
-Running dot for graph 530/701
-Running dot for graph 531/701
-Running dot for graph 532/701
-Running dot for graph 533/701
-Running dot for graph 534/701
-Running dot for graph 535/701
-Running dot for graph 536/701
-Running dot for graph 537/701
-Running dot for graph 538/701
-Running dot for graph 539/701
-Running dot for graph 540/701
-Running dot for graph 541/701
-Running dot for graph 542/701
-Running dot for graph 543/701
-Running dot for graph 544/701
-Running dot for graph 545/701
-Running dot for graph 546/701
-Running dot for graph 547/701
-Running dot for graph 548/701
-Running dot for graph 549/701
-Running dot for graph 550/701
-Running dot for graph 551/701
-Running dot for graph 552/701
-Running dot for graph 553/701
-Running dot for graph 554/701
-Running dot for graph 555/701
-Running dot for graph 556/701
-Running dot for graph 557/701
-Running dot for graph 558/701
-Running dot for graph 559/701
-Running dot for graph 560/701
-Running dot for graph 561/701
-Running dot for graph 562/701
-Running dot for graph 563/701
-Running dot for graph 564/701
-Running dot for graph 565/701
-Running dot for graph 566/701
-Running dot for graph 567/701
-Running dot for graph 568/701
-Running dot for graph 569/701
-Running dot for graph 570/701
-Running dot for graph 571/701
-Running dot for graph 572/701
-Running dot for graph 573/701
-Running dot for graph 574/701
-Running dot for graph 575/701
-Running dot for graph 576/701
-Running dot for graph 577/701
-Running dot for graph 578/701
-Running dot for graph 579/701
-Running dot for graph 580/701
-Running dot for graph 581/701
-Running dot for graph 582/701
-Running dot for graph 583/701
-Running dot for graph 584/701
-Running dot for graph 585/701
-Running dot for graph 586/701
-Running dot for graph 587/701
-Running dot for graph 588/701
-Running dot for graph 589/701
-Running dot for graph 590/701
-Running dot for graph 591/701
-Running dot for graph 592/701
-Running dot for graph 593/701
-Running dot for graph 594/701
-Running dot for graph 595/701
-Running dot for graph 596/701
-Running dot for graph 597/701
-Running dot for graph 598/701
-Running dot for graph 599/701
-Running dot for graph 600/701
-Running dot for graph 601/701
-Running dot for graph 602/701
-Running dot for graph 603/701
-Running dot for graph 604/701
-Running dot for graph 605/701
-Running dot for graph 606/701
-Running dot for graph 607/701
-Running dot for graph 608/701
-Running dot for graph 609/701
-Running dot for graph 610/701
-Running dot for graph 611/701
-Running dot for graph 612/701
-Running dot for graph 613/701
-Running dot for graph 614/701
-Running dot for graph 615/701
-Running dot for graph 616/701
-Running dot for graph 617/701
-Running dot for graph 618/701
-Running dot for graph 619/701
-Running dot for graph 620/701
-Running dot for graph 621/701
-Running dot for graph 622/701
-Running dot for graph 623/701
-Running dot for graph 624/701
-Running dot for graph 625/701
-Running dot for graph 626/701
-Running dot for graph 627/701
-Running dot for graph 628/701
-Running dot for graph 629/701
-Running dot for graph 630/701
-Running dot for graph 631/701
-Running dot for graph 632/701
-Running dot for graph 633/701
-Running dot for graph 634/701
-Running dot for graph 635/701
-Running dot for graph 636/701
-Running dot for graph 637/701
-Running dot for graph 638/701
-Running dot for graph 639/701
-Running dot for graph 640/701
-Running dot for graph 641/701
-Running dot for graph 642/701
-Running dot for graph 643/701
-Running dot for graph 644/701
-Running dot for graph 645/701
-Running dot for graph 646/701
-Running dot for graph 647/701
-Running dot for graph 648/701
-Running dot for graph 649/701
-Running dot for graph 650/701
-Running dot for graph 651/701
-Running dot for graph 652/701
-Running dot for graph 653/701
-Running dot for graph 654/701
-Running dot for graph 655/701
-Running dot for graph 656/701
-Running dot for graph 657/701
-Running dot for graph 658/701
-Running dot for graph 659/701
-Running dot for graph 660/701
-Running dot for graph 661/701
-Running dot for graph 662/701
-Running dot for graph 663/701
-Running dot for graph 664/701
-Running dot for graph 665/701
-Running dot for graph 666/701
-Running dot for graph 667/701
-Running dot for graph 668/701
-Running dot for graph 669/701
-Running dot for graph 670/701
-Running dot for graph 671/701
-Running dot for graph 672/701
-Running dot for graph 673/701
-Running dot for graph 674/701
-Running dot for graph 675/701
-Running dot for graph 676/701
-Running dot for graph 677/701
-Running dot for graph 678/701
-Running dot for graph 679/701
-Running dot for graph 680/701
-Running dot for graph 681/701
-Running dot for graph 682/701
-Running dot for graph 683/701
-Running dot for graph 684/701
-Running dot for graph 685/701
-Running dot for graph 686/701
-Running dot for graph 687/701
-Running dot for graph 688/701
-Running dot for graph 689/701
-Running dot for graph 690/701
-Running dot for graph 691/701
-Running dot for graph 692/701
-Running dot for graph 693/701
-Running dot for graph 694/701
-Running dot for graph 695/701
-Running dot for graph 696/701
-Running dot for graph 697/701
-Running dot for graph 698/701
-Running dot for graph 699/701
-Running dot for graph 700/701
-Running dot for graph 701/701
-Patching output file 1/1099
-Patching output file 2/1099
-Patching output file 3/1099
-Patching output file 4/1099
-Patching output file 5/1099
-Patching output file 6/1099
-Patching output file 7/1099
-Patching output file 8/1099
-Patching output file 9/1099
-Patching output file 10/1099
-Patching output file 11/1099
-Patching output file 12/1099
-Patching output file 13/1099
-Patching output file 14/1099
-Patching output file 15/1099
-Patching output file 16/1099
-Patching output file 17/1099
-Patching output file 18/1099
-Patching output file 19/1099
-Patching output file 20/1099
-Patching output file 21/1099
-Patching output file 22/1099
-Patching output file 23/1099
-Patching output file 24/1099
-Patching output file 25/1099
-Patching output file 26/1099
-Patching output file 27/1099
-Patching output file 28/1099
-Patching output file 29/1099
-Patching output file 30/1099
-Patching output file 31/1099
-Patching output file 32/1099
-Patching output file 33/1099
-Patching output file 34/1099
-Patching output file 35/1099
-Patching output file 36/1099
-Patching output file 37/1099
-Patching output file 38/1099
-Patching output file 39/1099
-Patching output file 40/1099
-Patching output file 41/1099
-Patching output file 42/1099
-Patching output file 43/1099
-Patching output file 44/1099
-Patching output file 45/1099
-Patching output file 46/1099
-Patching output file 47/1099
-Patching output file 48/1099
-Patching output file 49/1099
-Patching output file 50/1099
-Patching output file 51/1099
-Patching output file 52/1099
-Patching output file 53/1099
-Patching output file 54/1099
-Patching output file 55/1099
-Patching output file 56/1099
-Patching output file 57/1099
-Patching output file 58/1099
-Patching output file 59/1099
-Patching output file 60/1099
-Patching output file 61/1099
-Patching output file 62/1099
-Patching output file 63/1099
-Patching output file 64/1099
-Patching output file 65/1099
-Patching output file 66/1099
-Patching output file 67/1099
-Patching output file 68/1099
-Patching output file 69/1099
-Patching output file 70/1099
-Patching output file 71/1099
-Patching output file 72/1099
-Patching output file 73/1099
-Patching output file 74/1099
-Patching output file 75/1099
-Patching output file 76/1099
-Patching output file 77/1099
-Patching output file 78/1099
-Patching output file 79/1099
-Patching output file 80/1099
-Patching output file 81/1099
-Patching output file 82/1099
-Patching output file 83/1099
-Patching output file 84/1099
-Patching output file 85/1099
-Patching output file 86/1099
-Patching output file 87/1099
-Patching output file 88/1099
-Patching output file 89/1099
-Patching output file 90/1099
-Patching output file 91/1099
-Patching output file 92/1099
-Patching output file 93/1099
-Patching output file 94/1099
-Patching output file 95/1099
-Patching output file 96/1099
-Patching output file 97/1099
-Patching output file 98/1099
-Patching output file 99/1099
-Patching output file 100/1099
-Patching output file 101/1099
-Patching output file 102/1099
-Patching output file 103/1099
-Patching output file 104/1099
-Patching output file 105/1099
-Patching output file 106/1099
-Patching output file 107/1099
-Patching output file 108/1099
-Patching output file 109/1099
-Patching output file 110/1099
-Patching output file 111/1099
-Patching output file 112/1099
-Patching output file 113/1099
-Patching output file 114/1099
-Patching output file 115/1099
-Patching output file 116/1099
-Patching output file 117/1099
-Patching output file 118/1099
-Patching output file 119/1099
-Patching output file 120/1099
-Patching output file 121/1099
-Patching output file 122/1099
-Patching output file 123/1099
-Patching output file 124/1099
-Patching output file 125/1099
-Patching output file 126/1099
-Patching output file 127/1099
-Patching output file 128/1099
-Patching output file 129/1099
-Patching output file 130/1099
-Patching output file 131/1099
-Patching output file 132/1099
-Patching output file 133/1099
-Patching output file 134/1099
-Patching output file 135/1099
-Patching output file 136/1099
-Patching output file 137/1099
-Patching output file 138/1099
-Patching output file 139/1099
-Patching output file 140/1099
-Patching output file 141/1099
-Patching output file 142/1099
-Patching output file 143/1099
-Patching output file 144/1099
-Patching output file 145/1099
-Patching output file 146/1099
-Patching output file 147/1099
-Patching output file 148/1099
-Patching output file 149/1099
-Patching output file 150/1099
-Patching output file 151/1099
-Patching output file 152/1099
-Patching output file 153/1099
-Patching output file 154/1099
-Patching output file 155/1099
-Patching output file 156/1099
-Patching output file 157/1099
-Patching output file 158/1099
-Patching output file 159/1099
-Patching output file 160/1099
-Patching output file 161/1099
-Patching output file 162/1099
-Patching output file 163/1099
-Patching output file 164/1099
-Patching output file 165/1099
-Patching output file 166/1099
-Patching output file 167/1099
-Patching output file 168/1099
-Patching output file 169/1099
-Patching output file 170/1099
-Patching output file 171/1099
-Patching output file 172/1099
-Patching output file 173/1099
-Patching output file 174/1099
-Patching output file 175/1099
-Patching output file 176/1099
-Patching output file 177/1099
-Patching output file 178/1099
-Patching output file 179/1099
-Patching output file 180/1099
-Patching output file 181/1099
-Patching output file 182/1099
-Patching output file 183/1099
-Patching output file 184/1099
-Patching output file 185/1099
-Patching output file 186/1099
-Patching output file 187/1099
-Patching output file 188/1099
-Patching output file 189/1099
-Patching output file 190/1099
-Patching output file 191/1099
-Patching output file 192/1099
-Patching output file 193/1099
-Patching output file 194/1099
-Patching output file 195/1099
-Patching output file 196/1099
-Patching output file 197/1099
-Patching output file 198/1099
-Patching output file 199/1099
-Patching output file 200/1099
-Patching output file 201/1099
-Patching output file 202/1099
-Patching output file 203/1099
-Patching output file 204/1099
-Patching output file 205/1099
-Patching output file 206/1099
-Patching output file 207/1099
-Patching output file 208/1099
-Patching output file 209/1099
-Patching output file 210/1099
-Patching output file 211/1099
-Patching output file 212/1099
-Patching output file 213/1099
-Patching output file 214/1099
-Patching output file 215/1099
-Patching output file 216/1099
-Patching output file 217/1099
-Patching output file 218/1099
-Patching output file 219/1099
-Patching output file 220/1099
-Patching output file 221/1099
-Patching output file 222/1099
-Patching output file 223/1099
-Patching output file 224/1099
-Patching output file 225/1099
-Patching output file 226/1099
-Patching output file 227/1099
-Patching output file 228/1099
-Patching output file 229/1099
-Patching output file 230/1099
-Patching output file 231/1099
-Patching output file 232/1099
-Patching output file 233/1099
-Patching output file 234/1099
-Patching output file 235/1099
-Patching output file 236/1099
-Patching output file 237/1099
-Patching output file 238/1099
-Patching output file 239/1099
-Patching output file 240/1099
-Patching output file 241/1099
-Patching output file 242/1099
-Patching output file 243/1099
-Patching output file 244/1099
-Patching output file 245/1099
-Patching output file 246/1099
-Patching output file 247/1099
-Patching output file 248/1099
-Patching output file 249/1099
-Patching output file 250/1099
-Patching output file 251/1099
-Patching output file 252/1099
-Patching output file 253/1099
-Patching output file 254/1099
-Patching output file 255/1099
-Patching output file 256/1099
-Patching output file 257/1099
-Patching output file 258/1099
-Patching output file 259/1099
-Patching output file 260/1099
-Patching output file 261/1099
-Patching output file 262/1099
-Patching output file 263/1099
-Patching output file 264/1099
-Patching output file 265/1099
-Patching output file 266/1099
-Patching output file 267/1099
-Patching output file 268/1099
-Patching output file 269/1099
-Patching output file 270/1099
-Patching output file 271/1099
-Patching output file 272/1099
-Patching output file 273/1099
-Patching output file 274/1099
-Patching output file 275/1099
-Patching output file 276/1099
-Patching output file 277/1099
-Patching output file 278/1099
-Patching output file 279/1099
-Patching output file 280/1099
-Patching output file 281/1099
-Patching output file 282/1099
-Patching output file 283/1099
-Patching output file 284/1099
-Patching output file 285/1099
-Patching output file 286/1099
-Patching output file 287/1099
-Patching output file 288/1099
-Patching output file 289/1099
-Patching output file 290/1099
-Patching output file 291/1099
-Patching output file 292/1099
-Patching output file 293/1099
-Patching output file 294/1099
-Patching output file 295/1099
-Patching output file 296/1099
-Patching output file 297/1099
-Patching output file 298/1099
-Patching output file 299/1099
-Patching output file 300/1099
-Patching output file 301/1099
-Patching output file 302/1099
-Patching output file 303/1099
-Patching output file 304/1099
-Patching output file 305/1099
-Patching output file 306/1099
-Patching output file 307/1099
-Patching output file 308/1099
-Patching output file 309/1099
-Patching output file 310/1099
-Patching output file 311/1099
-Patching output file 312/1099
-Patching output file 313/1099
-Patching output file 314/1099
-Patching output file 315/1099
-Patching output file 316/1099
-Patching output file 317/1099
-Patching output file 318/1099
-Patching output file 319/1099
-Patching output file 320/1099
-Patching output file 321/1099
-Patching output file 322/1099
-Patching output file 323/1099
-Patching output file 324/1099
-Patching output file 325/1099
-Patching output file 326/1099
-Patching output file 327/1099
-Patching output file 328/1099
-Patching output file 329/1099
-Patching output file 330/1099
-Patching output file 331/1099
-Patching output file 332/1099
-Patching output file 333/1099
-Patching output file 334/1099
-Patching output file 335/1099
-Patching output file 336/1099
-Patching output file 337/1099
-Patching output file 338/1099
-Patching output file 339/1099
-Patching output file 340/1099
-Patching output file 341/1099
-Patching output file 342/1099
-Patching output file 343/1099
-Patching output file 344/1099
-Patching output file 345/1099
-Patching output file 346/1099
-Patching output file 347/1099
-Patching output file 348/1099
-Patching output file 349/1099
-Patching output file 350/1099
-Patching output file 351/1099
-Patching output file 352/1099
-Patching output file 353/1099
-Patching output file 354/1099
-Patching output file 355/1099
-Patching output file 356/1099
-Patching output file 357/1099
-Patching output file 358/1099
-Patching output file 359/1099
-Patching output file 360/1099
-Patching output file 361/1099
-Patching output file 362/1099
-Patching output file 363/1099
-Patching output file 364/1099
-Patching output file 365/1099
-Patching output file 366/1099
-Patching output file 367/1099
-Patching output file 368/1099
-Patching output file 369/1099
-Patching output file 370/1099
-Patching output file 371/1099
-Patching output file 372/1099
-Patching output file 373/1099
-Patching output file 374/1099
-Patching output file 375/1099
-Patching output file 376/1099
-Patching output file 377/1099
-Patching output file 378/1099
-Patching output file 379/1099
-Patching output file 380/1099
-Patching output file 381/1099
-Patching output file 382/1099
-Patching output file 383/1099
-Patching output file 384/1099
-Patching output file 385/1099
-Patching output file 386/1099
-Patching output file 387/1099
-Patching output file 388/1099
-Patching output file 389/1099
-Patching output file 390/1099
-Patching output file 391/1099
-Patching output file 392/1099
-Patching output file 393/1099
-Patching output file 394/1099
-Patching output file 395/1099
-Patching output file 396/1099
-Patching output file 397/1099
-Patching output file 398/1099
-Patching output file 399/1099
-Patching output file 400/1099
-Patching output file 401/1099
-Patching output file 402/1099
-Patching output file 403/1099
-Patching output file 404/1099
-Patching output file 405/1099
-Patching output file 406/1099
-Patching output file 407/1099
-Patching output file 408/1099
-Patching output file 409/1099
-Patching output file 410/1099
-Patching output file 411/1099
-Patching output file 412/1099
-Patching output file 413/1099
-Patching output file 414/1099
-Patching output file 415/1099
-Patching output file 416/1099
-Patching output file 417/1099
-Patching output file 418/1099
-Patching output file 419/1099
-Patching output file 420/1099
-Patching output file 421/1099
-Patching output file 422/1099
-Patching output file 423/1099
-Patching output file 424/1099
-Patching output file 425/1099
-Patching output file 426/1099
-Patching output file 427/1099
-Patching output file 428/1099
-Patching output file 429/1099
-Patching output file 430/1099
-Patching output file 431/1099
-Patching output file 432/1099
-Patching output file 433/1099
-Patching output file 434/1099
-Patching output file 435/1099
-Patching output file 436/1099
-Patching output file 437/1099
-Patching output file 438/1099
-Patching output file 439/1099
-Patching output file 440/1099
-Patching output file 441/1099
-Patching output file 442/1099
-Patching output file 443/1099
-Patching output file 444/1099
-Patching output file 445/1099
-Patching output file 446/1099
-Patching output file 447/1099
-Patching output file 448/1099
-Patching output file 449/1099
-Patching output file 450/1099
-Patching output file 451/1099
-Patching output file 452/1099
-Patching output file 453/1099
-Patching output file 454/1099
-Patching output file 455/1099
-Patching output file 456/1099
-Patching output file 457/1099
-Patching output file 458/1099
-Patching output file 459/1099
-Patching output file 460/1099
-Patching output file 461/1099
-Patching output file 462/1099
-Patching output file 463/1099
-Patching output file 464/1099
-Patching output file 465/1099
-Patching output file 466/1099
-Patching output file 467/1099
-Patching output file 468/1099
-Patching output file 469/1099
-Patching output file 470/1099
-Patching output file 471/1099
-Patching output file 472/1099
-Patching output file 473/1099
-Patching output file 474/1099
-Patching output file 475/1099
-Patching output file 476/1099
-Patching output file 477/1099
-Patching output file 478/1099
-Patching output file 479/1099
-Patching output file 480/1099
-Patching output file 481/1099
-Patching output file 482/1099
-Patching output file 483/1099
-Patching output file 484/1099
-Patching output file 485/1099
-Patching output file 486/1099
-Patching output file 487/1099
-Patching output file 488/1099
-Patching output file 489/1099
-Patching output file 490/1099
-Patching output file 491/1099
-Patching output file 492/1099
-Patching output file 493/1099
-Patching output file 494/1099
-Patching output file 495/1099
-Patching output file 496/1099
-Patching output file 497/1099
-Patching output file 498/1099
-Patching output file 499/1099
-Patching output file 500/1099
-Patching output file 501/1099
-Patching output file 502/1099
-Patching output file 503/1099
-Patching output file 504/1099
-Patching output file 505/1099
-Patching output file 506/1099
-Patching output file 507/1099
-Patching output file 508/1099
-Patching output file 509/1099
-Patching output file 510/1099
-Patching output file 511/1099
-Patching output file 512/1099
-Patching output file 513/1099
-Patching output file 514/1099
-Patching output file 515/1099
-Patching output file 516/1099
-Patching output file 517/1099
-Patching output file 518/1099
-Patching output file 519/1099
-Patching output file 520/1099
-Patching output file 521/1099
-Patching output file 522/1099
-Patching output file 523/1099
-Patching output file 524/1099
-Patching output file 525/1099
-Patching output file 526/1099
-Patching output file 527/1099
-Patching output file 528/1099
-Patching output file 529/1099
-Patching output file 530/1099
-Patching output file 531/1099
-Patching output file 532/1099
-Patching output file 533/1099
-Patching output file 534/1099
-Patching output file 535/1099
-Patching output file 536/1099
-Patching output file 537/1099
-Patching output file 538/1099
-Patching output file 539/1099
-Patching output file 540/1099
-Patching output file 541/1099
-Patching output file 542/1099
-Patching output file 543/1099
-Patching output file 544/1099
-Patching output file 545/1099
-Patching output file 546/1099
-Patching output file 547/1099
-Patching output file 548/1099
-Patching output file 549/1099
-Patching output file 550/1099
-Patching output file 551/1099
-Patching output file 552/1099
-Patching output file 553/1099
-Patching output file 554/1099
-Patching output file 555/1099
-Patching output file 556/1099
-Patching output file 557/1099
-Patching output file 558/1099
-Patching output file 559/1099
-Patching output file 560/1099
-Patching output file 561/1099
-Patching output file 562/1099
-Patching output file 563/1099
-Patching output file 564/1099
-Patching output file 565/1099
-Patching output file 566/1099
-Patching output file 567/1099
-Patching output file 568/1099
-Patching output file 569/1099
-Patching output file 570/1099
-Patching output file 571/1099
-Patching output file 572/1099
-Patching output file 573/1099
-Patching output file 574/1099
-Patching output file 575/1099
-Patching output file 576/1099
-Patching output file 577/1099
-Patching output file 578/1099
-Patching output file 579/1099
-Patching output file 580/1099
-Patching output file 581/1099
-Patching output file 582/1099
-Patching output file 583/1099
-Patching output file 584/1099
-Patching output file 585/1099
-Patching output file 586/1099
-Patching output file 587/1099
-Patching output file 588/1099
-Patching output file 589/1099
-Patching output file 590/1099
-Patching output file 591/1099
-Patching output file 592/1099
-Patching output file 593/1099
-Patching output file 594/1099
-Patching output file 595/1099
-Patching output file 596/1099
-Patching output file 597/1099
-Patching output file 598/1099
-Patching output file 599/1099
-Patching output file 600/1099
-Patching output file 601/1099
-Patching output file 602/1099
-Patching output file 603/1099
-Patching output file 604/1099
-Patching output file 605/1099
-Patching output file 606/1099
-Patching output file 607/1099
-Patching output file 608/1099
-Patching output file 609/1099
-Patching output file 610/1099
-Patching output file 611/1099
-Patching output file 612/1099
-Patching output file 613/1099
-Patching output file 614/1099
-Patching output file 615/1099
-Patching output file 616/1099
-Patching output file 617/1099
-Patching output file 618/1099
-Patching output file 619/1099
-Patching output file 620/1099
-Patching output file 621/1099
-Patching output file 622/1099
-Patching output file 623/1099
-Patching output file 624/1099
-Patching output file 625/1099
-Patching output file 626/1099
-Patching output file 627/1099
-Patching output file 628/1099
-Patching output file 629/1099
-Patching output file 630/1099
-Patching output file 631/1099
-Patching output file 632/1099
-Patching output file 633/1099
-Patching output file 634/1099
-Patching output file 635/1099
-Patching output file 636/1099
-Patching output file 637/1099
-Patching output file 638/1099
-Patching output file 639/1099
-Patching output file 640/1099
-Patching output file 641/1099
-Patching output file 642/1099
-Patching output file 643/1099
-Patching output file 644/1099
-Patching output file 645/1099
-Patching output file 646/1099
-Patching output file 647/1099
-Patching output file 648/1099
-Patching output file 649/1099
-Patching output file 650/1099
-Patching output file 651/1099
-Patching output file 652/1099
-Patching output file 653/1099
-Patching output file 654/1099
-Patching output file 655/1099
-Patching output file 656/1099
-Patching output file 657/1099
-Patching output file 658/1099
-Patching output file 659/1099
-Patching output file 660/1099
-Patching output file 661/1099
-Patching output file 662/1099
-Patching output file 663/1099
-Patching output file 664/1099
-Patching output file 665/1099
-Patching output file 666/1099
-Patching output file 667/1099
-Patching output file 668/1099
-Patching output file 669/1099
-Patching output file 670/1099
-Patching output file 671/1099
-Patching output file 672/1099
-Patching output file 673/1099
-Patching output file 674/1099
-Patching output file 675/1099
-Patching output file 676/1099
-Patching output file 677/1099
-Patching output file 678/1099
-Patching output file 679/1099
-Patching output file 680/1099
-Patching output file 681/1099
-Patching output file 682/1099
-Patching output file 683/1099
-Patching output file 684/1099
-Patching output file 685/1099
-Patching output file 686/1099
-Patching output file 687/1099
-Patching output file 688/1099
-Patching output file 689/1099
-Patching output file 690/1099
-Patching output file 691/1099
-Patching output file 692/1099
-Patching output file 693/1099
-Patching output file 694/1099
-Patching output file 695/1099
-Patching output file 696/1099
-Patching output file 697/1099
-Patching output file 698/1099
-Patching output file 699/1099
-Patching output file 700/1099
-Patching output file 701/1099
-Patching output file 702/1099
-Patching output file 703/1099
-Patching output file 704/1099
-Patching output file 705/1099
-Patching output file 706/1099
-Patching output file 707/1099
-Patching output file 708/1099
-Patching output file 709/1099
-Patching output file 710/1099
-Patching output file 711/1099
-Patching output file 712/1099
-Patching output file 713/1099
-Patching output file 714/1099
-Patching output file 715/1099
-Patching output file 716/1099
-Patching output file 717/1099
-Patching output file 718/1099
-Patching output file 719/1099
-Patching output file 720/1099
-Patching output file 721/1099
-Patching output file 722/1099
-Patching output file 723/1099
-Patching output file 724/1099
-Patching output file 725/1099
-Patching output file 726/1099
-Patching output file 727/1099
-Patching output file 728/1099
-Patching output file 729/1099
-Patching output file 730/1099
-Patching output file 731/1099
-Patching output file 732/1099
-Patching output file 733/1099
-Patching output file 734/1099
-Patching output file 735/1099
-Patching output file 736/1099
-Patching output file 737/1099
-Patching output file 738/1099
-Patching output file 739/1099
-Patching output file 740/1099
-Patching output file 741/1099
-Patching output file 742/1099
-Patching output file 743/1099
-Patching output file 744/1099
-Patching output file 745/1099
-Patching output file 746/1099
-Patching output file 747/1099
-Patching output file 748/1099
-Patching output file 749/1099
-Patching output file 750/1099
-Patching output file 751/1099
-Patching output file 752/1099
-Patching output file 753/1099
-Patching output file 754/1099
-Patching output file 755/1099
-Patching output file 756/1099
-Patching output file 757/1099
-Patching output file 758/1099
-Patching output file 759/1099
-Patching output file 760/1099
-Patching output file 761/1099
-Patching output file 762/1099
-Patching output file 763/1099
-Patching output file 764/1099
-Patching output file 765/1099
-Patching output file 766/1099
-Patching output file 767/1099
-Patching output file 768/1099
-Patching output file 769/1099
-Patching output file 770/1099
-Patching output file 771/1099
-Patching output file 772/1099
-Patching output file 773/1099
-Patching output file 774/1099
-Patching output file 775/1099
-Patching output file 776/1099
-Patching output file 777/1099
-Patching output file 778/1099
-Patching output file 779/1099
-Patching output file 780/1099
-Patching output file 781/1099
-Patching output file 782/1099
-Patching output file 783/1099
-Patching output file 784/1099
-Patching output file 785/1099
-Patching output file 786/1099
-Patching output file 787/1099
-Patching output file 788/1099
-Patching output file 789/1099
-Patching output file 790/1099
-Patching output file 791/1099
-Patching output file 792/1099
-Patching output file 793/1099
-Patching output file 794/1099
-Patching output file 795/1099
-Patching output file 796/1099
-Patching output file 797/1099
-Patching output file 798/1099
-Patching output file 799/1099
-Patching output file 800/1099
-Patching output file 801/1099
-Patching output file 802/1099
-Patching output file 803/1099
-Patching output file 804/1099
-Patching output file 805/1099
-Patching output file 806/1099
-Patching output file 807/1099
-Patching output file 808/1099
-Patching output file 809/1099
-Patching output file 810/1099
-Patching output file 811/1099
-Patching output file 812/1099
-Patching output file 813/1099
-Patching output file 814/1099
-Patching output file 815/1099
-Patching output file 816/1099
-Patching output file 817/1099
-Patching output file 818/1099
-Patching output file 819/1099
-Patching output file 820/1099
-Patching output file 821/1099
-Patching output file 822/1099
-Patching output file 823/1099
-Patching output file 824/1099
-Patching output file 825/1099
-Patching output file 826/1099
-Patching output file 827/1099
-Patching output file 828/1099
-Patching output file 829/1099
-Patching output file 830/1099
-Patching output file 831/1099
-Patching output file 832/1099
-Patching output file 833/1099
-Patching output file 834/1099
-Patching output file 835/1099
-Patching output file 836/1099
-Patching output file 837/1099
-Patching output file 838/1099
-Patching output file 839/1099
-Patching output file 840/1099
-Patching output file 841/1099
-Patching output file 842/1099
-Patching output file 843/1099
-Patching output file 844/1099
-Patching output file 845/1099
-Patching output file 846/1099
-Patching output file 847/1099
-Patching output file 848/1099
-Patching output file 849/1099
-Patching output file 850/1099
-Patching output file 851/1099
-Patching output file 852/1099
-Patching output file 853/1099
-Patching output file 854/1099
-Patching output file 855/1099
-Patching output file 856/1099
-Patching output file 857/1099
-Patching output file 858/1099
-Patching output file 859/1099
-Patching output file 860/1099
-Patching output file 861/1099
-Patching output file 862/1099
-Patching output file 863/1099
-Patching output file 864/1099
-Patching output file 865/1099
-Patching output file 866/1099
-Patching output file 867/1099
-Patching output file 868/1099
-Patching output file 869/1099
-Patching output file 870/1099
-Patching output file 871/1099
-Patching output file 872/1099
-Patching output file 873/1099
-Patching output file 874/1099
-Patching output file 875/1099
-Patching output file 876/1099
-Patching output file 877/1099
-Patching output file 878/1099
-Patching output file 879/1099
-Patching output file 880/1099
-Patching output file 881/1099
-Patching output file 882/1099
-Patching output file 883/1099
-Patching output file 884/1099
-Patching output file 885/1099
-Patching output file 886/1099
-Patching output file 887/1099
-Patching output file 888/1099
-Patching output file 889/1099
-Patching output file 890/1099
-Patching output file 891/1099
-Patching output file 892/1099
-Patching output file 893/1099
-Patching output file 894/1099
-Patching output file 895/1099
-Patching output file 896/1099
-Patching output file 897/1099
-Patching output file 898/1099
-Patching output file 899/1099
-Patching output file 900/1099
-Patching output file 901/1099
-Patching output file 902/1099
-Patching output file 903/1099
-Patching output file 904/1099
-Patching output file 905/1099
-Patching output file 906/1099
-Patching output file 907/1099
-Patching output file 908/1099
-Patching output file 909/1099
-Patching output file 910/1099
-Patching output file 911/1099
-Patching output file 912/1099
-Patching output file 913/1099
-Patching output file 914/1099
-Patching output file 915/1099
-Patching output file 916/1099
-Patching output file 917/1099
-Patching output file 918/1099
-Patching output file 919/1099
-Patching output file 920/1099
-Patching output file 921/1099
-Patching output file 922/1099
-Patching output file 923/1099
-Patching output file 924/1099
-Patching output file 925/1099
-Patching output file 926/1099
-Patching output file 927/1099
-Patching output file 928/1099
-Patching output file 929/1099
-Patching output file 930/1099
-Patching output file 931/1099
-Patching output file 932/1099
-Patching output file 933/1099
-Patching output file 934/1099
-Patching output file 935/1099
-Patching output file 936/1099
-Patching output file 937/1099
-Patching output file 938/1099
-Patching output file 939/1099
-Patching output file 940/1099
-Patching output file 941/1099
-Patching output file 942/1099
-Patching output file 943/1099
-Patching output file 944/1099
-Patching output file 945/1099
-Patching output file 946/1099
-Patching output file 947/1099
-Patching output file 948/1099
-Patching output file 949/1099
-Patching output file 950/1099
-Patching output file 951/1099
-Patching output file 952/1099
-Patching output file 953/1099
-Patching output file 954/1099
-Patching output file 955/1099
-Patching output file 956/1099
-Patching output file 957/1099
-Patching output file 958/1099
-Patching output file 959/1099
-Patching output file 960/1099
-Patching output file 961/1099
-Patching output file 962/1099
-Patching output file 963/1099
-Patching output file 964/1099
-Patching output file 965/1099
-Patching output file 966/1099
-Patching output file 967/1099
-Patching output file 968/1099
-Patching output file 969/1099
-Patching output file 970/1099
-Patching output file 971/1099
-Patching output file 972/1099
-Patching output file 973/1099
-Patching output file 974/1099
-Patching output file 975/1099
-Patching output file 976/1099
-Patching output file 977/1099
-Patching output file 978/1099
-Patching output file 979/1099
-Patching output file 980/1099
-Patching output file 981/1099
-Patching output file 982/1099
-Patching output file 983/1099
-Patching output file 984/1099
-Patching output file 985/1099
-Patching output file 986/1099
-Patching output file 987/1099
-Patching output file 988/1099
-Patching output file 989/1099
-Patching output file 990/1099
-Patching output file 991/1099
-Patching output file 992/1099
-Patching output file 993/1099
-Patching output file 994/1099
-Patching output file 995/1099
-Patching output file 996/1099
-Patching output file 997/1099
-Patching output file 998/1099
-Patching output file 999/1099
-Patching output file 1000/1099
-Patching output file 1001/1099
-Patching output file 1002/1099
-Patching output file 1003/1099
-Patching output file 1004/1099
-Patching output file 1005/1099
-Patching output file 1006/1099
-Patching output file 1007/1099
-Patching output file 1008/1099
-Patching output file 1009/1099
-Patching output file 1010/1099
-Patching output file 1011/1099
-Patching output file 1012/1099
-Patching output file 1013/1099
-Patching output file 1014/1099
-Patching output file 1015/1099
-Patching output file 1016/1099
-Patching output file 1017/1099
-Patching output file 1018/1099
-Patching output file 1019/1099
-Patching output file 1020/1099
-Patching output file 1021/1099
-Patching output file 1022/1099
-Patching output file 1023/1099
-Patching output file 1024/1099
-Patching output file 1025/1099
-Patching output file 1026/1099
-Patching output file 1027/1099
-Patching output file 1028/1099
-Patching output file 1029/1099
-Patching output file 1030/1099
-Patching output file 1031/1099
-Patching output file 1032/1099
-Patching output file 1033/1099
-Patching output file 1034/1099
-Patching output file 1035/1099
-Patching output file 1036/1099
-Patching output file 1037/1099
-Patching output file 1038/1099
-Patching output file 1039/1099
-Patching output file 1040/1099
-Patching output file 1041/1099
-Patching output file 1042/1099
-Patching output file 1043/1099
-Patching output file 1044/1099
-Patching output file 1045/1099
-Patching output file 1046/1099
-Patching output file 1047/1099
-Patching output file 1048/1099
-Patching output file 1049/1099
-Patching output file 1050/1099
-Patching output file 1051/1099
-Patching output file 1052/1099
-Patching output file 1053/1099
-Patching output file 1054/1099
-Patching output file 1055/1099
-Patching output file 1056/1099
-Patching output file 1057/1099
-Patching output file 1058/1099
-Patching output file 1059/1099
-Patching output file 1060/1099
-Patching output file 1061/1099
-Patching output file 1062/1099
-Patching output file 1063/1099
-Patching output file 1064/1099
-Patching output file 1065/1099
-Patching output file 1066/1099
-Patching output file 1067/1099
-Patching output file 1068/1099
-Patching output file 1069/1099
-Patching output file 1070/1099
-Patching output file 1071/1099
-Patching output file 1072/1099
-Patching output file 1073/1099
-Patching output file 1074/1099
-Patching output file 1075/1099
-Patching output file 1076/1099
-Patching output file 1077/1099
-Patching output file 1078/1099
-Patching output file 1079/1099
-Patching output file 1080/1099
-Patching output file 1081/1099
-Patching output file 1082/1099
-Patching output file 1083/1099
-Patching output file 1084/1099
-Patching output file 1085/1099
-Patching output file 1086/1099
-Patching output file 1087/1099
-Patching output file 1088/1099
-Patching output file 1089/1099
-Patching output file 1090/1099
-Patching output file 1091/1099
-Patching output file 1092/1099
-Patching output file 1093/1099
-Patching output file 1094/1099
-Patching output file 1095/1099
-Patching output file 1096/1099
-Patching output file 1097/1099
-Patching output file 1098/1099
-Patching output file 1099/1099
-lookup cache used 5329/65536 hits=31054 misses=5584
+Running dot for graph 1/690
+Running dot for graph 2/690
+Running dot for graph 3/690
+Running dot for graph 4/690
+Running dot for graph 5/690
+Running dot for graph 6/690
+Running dot for graph 7/690
+Running dot for graph 8/690
+Running dot for graph 9/690
+Running dot for graph 10/690
+Running dot for graph 11/690
+Running dot for graph 12/690
+Running dot for graph 13/690
+Running dot for graph 14/690
+Running dot for graph 15/690
+Running dot for graph 16/690
+Running dot for graph 17/690
+Running dot for graph 18/690
+Running dot for graph 19/690
+Running dot for graph 20/690
+Running dot for graph 21/690
+Running dot for graph 22/690
+Running dot for graph 23/690
+Running dot for graph 24/690
+Running dot for graph 25/690
+Running dot for graph 26/690
+Running dot for graph 27/690
+Running dot for graph 28/690
+Running dot for graph 29/690
+Running dot for graph 30/690
+Running dot for graph 31/690
+Running dot for graph 32/690
+Running dot for graph 33/690
+Running dot for graph 34/690
+Running dot for graph 35/690
+Running dot for graph 36/690
+Running dot for graph 37/690
+Running dot for graph 38/690
+Running dot for graph 39/690
+Running dot for graph 40/690
+Running dot for graph 41/690
+Running dot for graph 42/690
+Running dot for graph 43/690
+Running dot for graph 44/690
+Running dot for graph 45/690
+Running dot for graph 46/690
+Running dot for graph 47/690
+Running dot for graph 48/690
+Running dot for graph 49/690
+Running dot for graph 50/690
+Running dot for graph 51/690
+Running dot for graph 52/690
+Running dot for graph 53/690
+Running dot for graph 54/690
+Running dot for graph 55/690
+Running dot for graph 56/690
+Running dot for graph 57/690
+Running dot for graph 58/690
+Running dot for graph 59/690
+Running dot for graph 60/690
+Running dot for graph 61/690
+Running dot for graph 62/690
+Running dot for graph 63/690
+Running dot for graph 64/690
+Running dot for graph 65/690
+Running dot for graph 66/690
+Running dot for graph 67/690
+Running dot for graph 68/690
+Running dot for graph 69/690
+Running dot for graph 70/690
+Running dot for graph 71/690
+Running dot for graph 72/690
+Running dot for graph 73/690
+Running dot for graph 74/690
+Running dot for graph 75/690
+Running dot for graph 76/690
+Running dot for graph 77/690
+Running dot for graph 78/690
+Running dot for graph 79/690
+Running dot for graph 80/690
+Running dot for graph 81/690
+Running dot for graph 82/690
+Running dot for graph 83/690
+Running dot for graph 84/690
+Running dot for graph 85/690
+Running dot for graph 86/690
+Running dot for graph 87/690
+Running dot for graph 88/690
+Running dot for graph 89/690
+Running dot for graph 90/690
+Running dot for graph 91/690
+Running dot for graph 92/690
+Running dot for graph 93/690
+Running dot for graph 94/690
+Running dot for graph 95/690
+Running dot for graph 96/690
+Running dot for graph 97/690
+Running dot for graph 98/690
+Running dot for graph 99/690
+Running dot for graph 100/690
+Running dot for graph 101/690
+Running dot for graph 102/690
+Running dot for graph 103/690
+Running dot for graph 104/690
+Running dot for graph 105/690
+Running dot for graph 106/690
+Running dot for graph 107/690
+Running dot for graph 108/690
+Running dot for graph 109/690
+Running dot for graph 110/690
+Running dot for graph 111/690
+Running dot for graph 112/690
+Running dot for graph 113/690
+Running dot for graph 114/690
+Running dot for graph 115/690
+Running dot for graph 116/690
+Running dot for graph 117/690
+Running dot for graph 118/690
+Running dot for graph 119/690
+Running dot for graph 120/690
+Running dot for graph 121/690
+Running dot for graph 122/690
+Running dot for graph 123/690
+Running dot for graph 124/690
+Running dot for graph 125/690
+Running dot for graph 126/690
+Running dot for graph 127/690
+Running dot for graph 128/690
+Running dot for graph 129/690
+Running dot for graph 130/690
+Running dot for graph 131/690
+Running dot for graph 132/690
+Running dot for graph 133/690
+Running dot for graph 134/690
+Running dot for graph 135/690
+Running dot for graph 136/690
+Running dot for graph 137/690
+Running dot for graph 138/690
+Running dot for graph 139/690
+Running dot for graph 140/690
+Running dot for graph 141/690
+Running dot for graph 142/690
+Running dot for graph 143/690
+Running dot for graph 144/690
+Running dot for graph 145/690
+Running dot for graph 146/690
+Running dot for graph 147/690
+Running dot for graph 148/690
+Running dot for graph 149/690
+Running dot for graph 150/690
+Running dot for graph 151/690
+Running dot for graph 152/690
+Running dot for graph 153/690
+Running dot for graph 154/690
+Running dot for graph 155/690
+Running dot for graph 156/690
+Running dot for graph 157/690
+Running dot for graph 158/690
+Running dot for graph 159/690
+Running dot for graph 160/690
+Running dot for graph 161/690
+Running dot for graph 162/690
+Running dot for graph 163/690
+Running dot for graph 164/690
+Running dot for graph 165/690
+Running dot for graph 166/690
+Running dot for graph 167/690
+Running dot for graph 168/690
+Running dot for graph 169/690
+Running dot for graph 170/690
+Running dot for graph 171/690
+Running dot for graph 172/690
+Running dot for graph 173/690
+Running dot for graph 174/690
+Running dot for graph 175/690
+Running dot for graph 176/690
+Running dot for graph 177/690
+Running dot for graph 178/690
+Running dot for graph 179/690
+Running dot for graph 180/690
+Running dot for graph 181/690
+Running dot for graph 182/690
+Running dot for graph 183/690
+Running dot for graph 184/690
+Running dot for graph 185/690
+Running dot for graph 186/690
+Running dot for graph 187/690
+Running dot for graph 188/690
+Running dot for graph 189/690
+Running dot for graph 190/690
+Running dot for graph 191/690
+Running dot for graph 192/690
+Running dot for graph 193/690
+Running dot for graph 194/690
+Running dot for graph 195/690
+Running dot for graph 196/690
+Running dot for graph 197/690
+Running dot for graph 198/690
+Running dot for graph 199/690
+Running dot for graph 200/690
+Running dot for graph 201/690
+Running dot for graph 202/690
+Running dot for graph 203/690
+Running dot for graph 204/690
+Running dot for graph 205/690
+Running dot for graph 206/690
+Running dot for graph 207/690
+Running dot for graph 208/690
+Running dot for graph 209/690
+Running dot for graph 210/690
+Running dot for graph 211/690
+Running dot for graph 212/690
+Running dot for graph 213/690
+Running dot for graph 214/690
+Running dot for graph 215/690
+Running dot for graph 216/690
+Running dot for graph 217/690
+Running dot for graph 218/690
+Running dot for graph 219/690
+Running dot for graph 220/690
+Running dot for graph 221/690
+Running dot for graph 222/690
+Running dot for graph 223/690
+Running dot for graph 224/690
+Running dot for graph 225/690
+Running dot for graph 226/690
+Running dot for graph 227/690
+Running dot for graph 228/690
+Running dot for graph 229/690
+Running dot for graph 230/690
+Running dot for graph 231/690
+Running dot for graph 232/690
+Running dot for graph 233/690
+Running dot for graph 234/690
+Running dot for graph 235/690
+Running dot for graph 236/690
+Running dot for graph 237/690
+Running dot for graph 238/690
+Running dot for graph 239/690
+Running dot for graph 240/690
+Running dot for graph 241/690
+Running dot for graph 242/690
+Running dot for graph 243/690
+Running dot for graph 244/690
+Running dot for graph 245/690
+Running dot for graph 246/690
+Running dot for graph 247/690
+Running dot for graph 248/690
+Running dot for graph 249/690
+Running dot for graph 250/690
+Running dot for graph 251/690
+Running dot for graph 252/690
+Running dot for graph 253/690
+Running dot for graph 254/690
+Running dot for graph 255/690
+Running dot for graph 256/690
+Running dot for graph 257/690
+Running dot for graph 258/690
+Running dot for graph 259/690
+Running dot for graph 260/690
+Running dot for graph 261/690
+Running dot for graph 262/690
+Running dot for graph 263/690
+Running dot for graph 264/690
+Running dot for graph 265/690
+Running dot for graph 266/690
+Running dot for graph 267/690
+Running dot for graph 268/690
+Running dot for graph 269/690
+Running dot for graph 270/690
+Running dot for graph 271/690
+Running dot for graph 272/690
+Running dot for graph 273/690
+Running dot for graph 274/690
+Running dot for graph 275/690
+Running dot for graph 276/690
+Running dot for graph 277/690
+Running dot for graph 278/690
+Running dot for graph 279/690
+Running dot for graph 280/690
+Running dot for graph 281/690
+Running dot for graph 282/690
+Running dot for graph 283/690
+Running dot for graph 284/690
+Running dot for graph 285/690
+Running dot for graph 286/690
+Running dot for graph 287/690
+Running dot for graph 288/690
+Running dot for graph 289/690
+Running dot for graph 290/690
+Running dot for graph 291/690
+Running dot for graph 292/690
+Running dot for graph 293/690
+Running dot for graph 294/690
+Running dot for graph 295/690
+Running dot for graph 296/690
+Running dot for graph 297/690
+Running dot for graph 298/690
+Running dot for graph 299/690
+Running dot for graph 300/690
+Running dot for graph 301/690
+Running dot for graph 302/690
+Running dot for graph 303/690
+Running dot for graph 304/690
+Running dot for graph 305/690
+Running dot for graph 306/690
+Running dot for graph 307/690
+Running dot for graph 308/690
+Running dot for graph 309/690
+Running dot for graph 310/690
+Running dot for graph 311/690
+Running dot for graph 312/690
+Running dot for graph 313/690
+Running dot for graph 314/690
+Running dot for graph 315/690
+Running dot for graph 316/690
+Running dot for graph 317/690
+Running dot for graph 318/690
+Running dot for graph 319/690
+Running dot for graph 320/690
+Running dot for graph 321/690
+Running dot for graph 322/690
+Running dot for graph 323/690
+Running dot for graph 324/690
+Running dot for graph 325/690
+Running dot for graph 326/690
+Running dot for graph 327/690
+Running dot for graph 328/690
+Running dot for graph 329/690
+Running dot for graph 330/690
+Running dot for graph 331/690
+Running dot for graph 332/690
+Running dot for graph 333/690
+Running dot for graph 334/690
+Running dot for graph 335/690
+Running dot for graph 336/690
+Running dot for graph 337/690
+Running dot for graph 338/690
+Running dot for graph 339/690
+Running dot for graph 340/690
+Running dot for graph 341/690
+Running dot for graph 342/690
+Running dot for graph 343/690
+Running dot for graph 344/690
+Running dot for graph 345/690
+Running dot for graph 346/690
+Running dot for graph 347/690
+Running dot for graph 348/690
+Running dot for graph 349/690
+Running dot for graph 350/690
+Running dot for graph 351/690
+Running dot for graph 352/690
+Running dot for graph 353/690
+Running dot for graph 354/690
+Running dot for graph 355/690
+Running dot for graph 356/690
+Running dot for graph 357/690
+Running dot for graph 358/690
+Running dot for graph 359/690
+Running dot for graph 360/690
+Running dot for graph 361/690
+Running dot for graph 362/690
+Running dot for graph 363/690
+Running dot for graph 364/690
+Running dot for graph 365/690
+Running dot for graph 366/690
+Running dot for graph 367/690
+Running dot for graph 368/690
+Running dot for graph 369/690
+Running dot for graph 370/690
+Running dot for graph 371/690
+Running dot for graph 372/690
+Running dot for graph 373/690
+Running dot for graph 374/690
+Running dot for graph 375/690
+Running dot for graph 376/690
+Running dot for graph 377/690
+Running dot for graph 378/690
+Running dot for graph 379/690
+Running dot for graph 380/690
+Running dot for graph 381/690
+Running dot for graph 382/690
+Running dot for graph 383/690
+Running dot for graph 384/690
+Running dot for graph 385/690
+Running dot for graph 386/690
+Running dot for graph 387/690
+Running dot for graph 388/690
+Running dot for graph 389/690
+Running dot for graph 390/690
+Running dot for graph 391/690
+Running dot for graph 392/690
+Running dot for graph 393/690
+Running dot for graph 394/690
+Running dot for graph 395/690
+Running dot for graph 396/690
+Running dot for graph 397/690
+Running dot for graph 398/690
+Running dot for graph 399/690
+Running dot for graph 400/690
+Running dot for graph 401/690
+Running dot for graph 402/690
+Running dot for graph 403/690
+Running dot for graph 404/690
+Running dot for graph 405/690
+Running dot for graph 406/690
+Running dot for graph 407/690
+Running dot for graph 408/690
+Running dot for graph 409/690
+Running dot for graph 410/690
+Running dot for graph 411/690
+Running dot for graph 412/690
+Running dot for graph 413/690
+Running dot for graph 414/690
+Running dot for graph 415/690
+Running dot for graph 416/690
+Running dot for graph 417/690
+Running dot for graph 418/690
+Running dot for graph 419/690
+Running dot for graph 420/690
+Running dot for graph 421/690
+Running dot for graph 422/690
+Running dot for graph 423/690
+Running dot for graph 424/690
+Running dot for graph 425/690
+Running dot for graph 426/690
+Running dot for graph 427/690
+Running dot for graph 428/690
+Running dot for graph 429/690
+Running dot for graph 430/690
+Running dot for graph 431/690
+Running dot for graph 432/690
+Running dot for graph 433/690
+Running dot for graph 434/690
+Running dot for graph 435/690
+Running dot for graph 436/690
+Running dot for graph 437/690
+Running dot for graph 438/690
+Running dot for graph 439/690
+Running dot for graph 440/690
+Running dot for graph 441/690
+Running dot for graph 442/690
+Running dot for graph 443/690
+Running dot for graph 444/690
+Running dot for graph 445/690
+Running dot for graph 446/690
+Running dot for graph 447/690
+Running dot for graph 448/690
+Running dot for graph 449/690
+Running dot for graph 450/690
+Running dot for graph 451/690
+Running dot for graph 452/690
+Running dot for graph 453/690
+Running dot for graph 454/690
+Running dot for graph 455/690
+Running dot for graph 456/690
+Running dot for graph 457/690
+Running dot for graph 458/690
+Running dot for graph 459/690
+Running dot for graph 460/690
+Running dot for graph 461/690
+Running dot for graph 462/690
+Running dot for graph 463/690
+Running dot for graph 464/690
+Running dot for graph 465/690
+Running dot for graph 466/690
+Running dot for graph 467/690
+Running dot for graph 468/690
+Running dot for graph 469/690
+Running dot for graph 470/690
+Running dot for graph 471/690
+Running dot for graph 472/690
+Running dot for graph 473/690
+Running dot for graph 474/690
+Running dot for graph 475/690
+Running dot for graph 476/690
+Running dot for graph 477/690
+Running dot for graph 478/690
+Running dot for graph 479/690
+Running dot for graph 480/690
+Running dot for graph 481/690
+Running dot for graph 482/690
+Running dot for graph 483/690
+Running dot for graph 484/690
+Running dot for graph 485/690
+Running dot for graph 486/690
+Running dot for graph 487/690
+Running dot for graph 488/690
+Running dot for graph 489/690
+Running dot for graph 490/690
+Running dot for graph 491/690
+Running dot for graph 492/690
+Running dot for graph 493/690
+Running dot for graph 494/690
+Running dot for graph 495/690
+Running dot for graph 496/690
+Running dot for graph 497/690
+Running dot for graph 498/690
+Running dot for graph 499/690
+Running dot for graph 500/690
+Running dot for graph 501/690
+Running dot for graph 502/690
+Running dot for graph 503/690
+Running dot for graph 504/690
+Running dot for graph 505/690
+Running dot for graph 506/690
+Running dot for graph 507/690
+Running dot for graph 508/690
+Running dot for graph 509/690
+Running dot for graph 510/690
+Running dot for graph 511/690
+Running dot for graph 512/690
+Running dot for graph 513/690
+Running dot for graph 514/690
+Running dot for graph 515/690
+Running dot for graph 516/690
+Running dot for graph 517/690
+Running dot for graph 518/690
+Running dot for graph 519/690
+Running dot for graph 520/690
+Running dot for graph 521/690
+Running dot for graph 522/690
+Running dot for graph 523/690
+Running dot for graph 524/690
+Running dot for graph 525/690
+Running dot for graph 526/690
+Running dot for graph 527/690
+Running dot for graph 528/690
+Running dot for graph 529/690
+Running dot for graph 530/690
+Running dot for graph 531/690
+Running dot for graph 532/690
+Running dot for graph 533/690
+Running dot for graph 534/690
+Running dot for graph 535/690
+Running dot for graph 536/690
+Running dot for graph 537/690
+Running dot for graph 538/690
+Running dot for graph 539/690
+Running dot for graph 540/690
+Running dot for graph 541/690
+Running dot for graph 542/690
+Running dot for graph 543/690
+Running dot for graph 544/690
+Running dot for graph 545/690
+Running dot for graph 546/690
+Running dot for graph 547/690
+Running dot for graph 548/690
+Running dot for graph 549/690
+Running dot for graph 550/690
+Running dot for graph 551/690
+Running dot for graph 552/690
+Running dot for graph 553/690
+Running dot for graph 554/690
+Running dot for graph 555/690
+Running dot for graph 556/690
+Running dot for graph 557/690
+Running dot for graph 558/690
+Running dot for graph 559/690
+Running dot for graph 560/690
+Running dot for graph 561/690
+Running dot for graph 562/690
+Running dot for graph 563/690
+Running dot for graph 564/690
+Running dot for graph 565/690
+Running dot for graph 566/690
+Running dot for graph 567/690
+Running dot for graph 568/690
+Running dot for graph 569/690
+Running dot for graph 570/690
+Running dot for graph 571/690
+Running dot for graph 572/690
+Running dot for graph 573/690
+Running dot for graph 574/690
+Running dot for graph 575/690
+Running dot for graph 576/690
+Running dot for graph 577/690
+Running dot for graph 578/690
+Running dot for graph 579/690
+Running dot for graph 580/690
+Running dot for graph 581/690
+Running dot for graph 582/690
+Running dot for graph 583/690
+Running dot for graph 584/690
+Running dot for graph 585/690
+Running dot for graph 586/690
+Running dot for graph 587/690
+Running dot for graph 588/690
+Running dot for graph 589/690
+Running dot for graph 590/690
+Running dot for graph 591/690
+Running dot for graph 592/690
+Running dot for graph 593/690
+Running dot for graph 594/690
+Running dot for graph 595/690
+Running dot for graph 596/690
+Running dot for graph 597/690
+Running dot for graph 598/690
+Running dot for graph 599/690
+Running dot for graph 600/690
+Running dot for graph 601/690
+Running dot for graph 602/690
+Running dot for graph 603/690
+Running dot for graph 604/690
+Running dot for graph 605/690
+Running dot for graph 606/690
+Running dot for graph 607/690
+Running dot for graph 608/690
+Running dot for graph 609/690
+Running dot for graph 610/690
+Running dot for graph 611/690
+Running dot for graph 612/690
+Running dot for graph 613/690
+Running dot for graph 614/690
+Running dot for graph 615/690
+Running dot for graph 616/690
+Running dot for graph 617/690
+Running dot for graph 618/690
+Running dot for graph 619/690
+Running dot for graph 620/690
+Running dot for graph 621/690
+Running dot for graph 622/690
+Running dot for graph 623/690
+Running dot for graph 624/690
+Running dot for graph 625/690
+Running dot for graph 626/690
+Running dot for graph 627/690
+Running dot for graph 628/690
+Running dot for graph 629/690
+Running dot for graph 630/690
+Running dot for graph 631/690
+Running dot for graph 632/690
+Running dot for graph 633/690
+Running dot for graph 634/690
+Running dot for graph 635/690
+Running dot for graph 636/690
+Running dot for graph 637/690
+Running dot for graph 638/690
+Running dot for graph 639/690
+Running dot for graph 640/690
+Running dot for graph 641/690
+Running dot for graph 642/690
+Running dot for graph 643/690
+Running dot for graph 644/690
+Running dot for graph 645/690
+Running dot for graph 646/690
+Running dot for graph 647/690
+Running dot for graph 648/690
+Running dot for graph 649/690
+Running dot for graph 650/690
+Running dot for graph 651/690
+Running dot for graph 652/690
+Running dot for graph 653/690
+Running dot for graph 654/690
+Running dot for graph 655/690
+Running dot for graph 656/690
+Running dot for graph 657/690
+Running dot for graph 658/690
+Running dot for graph 659/690
+Running dot for graph 660/690
+Running dot for graph 661/690
+Running dot for graph 662/690
+Running dot for graph 663/690
+Running dot for graph 664/690
+Running dot for graph 665/690
+Running dot for graph 666/690
+Running dot for graph 667/690
+Running dot for graph 668/690
+Running dot for graph 669/690
+Running dot for graph 670/690
+Running dot for graph 671/690
+Running dot for graph 672/690
+Running dot for graph 673/690
+Running dot for graph 674/690
+Running dot for graph 675/690
+Running dot for graph 676/690
+Running dot for graph 677/690
+Running dot for graph 678/690
+Running dot for graph 679/690
+Running dot for graph 680/690
+Running dot for graph 681/690
+Running dot for graph 682/690
+Running dot for graph 683/690
+Running dot for graph 684/690
+Running dot for graph 685/690
+Running dot for graph 686/690
+Running dot for graph 687/690
+Running dot for graph 688/690
+Running dot for graph 689/690
+Running dot for graph 690/690
+Patching output file 1/1081
+Patching output file 2/1081
+Patching output file 3/1081
+Patching output file 4/1081
+Patching output file 5/1081
+Patching output file 6/1081
+Patching output file 7/1081
+Patching output file 8/1081
+Patching output file 9/1081
+Patching output file 10/1081
+Patching output file 11/1081
+Patching output file 12/1081
+Patching output file 13/1081
+Patching output file 14/1081
+Patching output file 15/1081
+Patching output file 16/1081
+Patching output file 17/1081
+Patching output file 18/1081
+Patching output file 19/1081
+Patching output file 20/1081
+Patching output file 21/1081
+Patching output file 22/1081
+Patching output file 23/1081
+Patching output file 24/1081
+Patching output file 25/1081
+Patching output file 26/1081
+Patching output file 27/1081
+Patching output file 28/1081
+Patching output file 29/1081
+Patching output file 30/1081
+Patching output file 31/1081
+Patching output file 32/1081
+Patching output file 33/1081
+Patching output file 34/1081
+Patching output file 35/1081
+Patching output file 36/1081
+Patching output file 37/1081
+Patching output file 38/1081
+Patching output file 39/1081
+Patching output file 40/1081
+Patching output file 41/1081
+Patching output file 42/1081
+Patching output file 43/1081
+Patching output file 44/1081
+Patching output file 45/1081
+Patching output file 46/1081
+Patching output file 47/1081
+Patching output file 48/1081
+Patching output file 49/1081
+Patching output file 50/1081
+Patching output file 51/1081
+Patching output file 52/1081
+Patching output file 53/1081
+Patching output file 54/1081
+Patching output file 55/1081
+Patching output file 56/1081
+Patching output file 57/1081
+Patching output file 58/1081
+Patching output file 59/1081
+Patching output file 60/1081
+Patching output file 61/1081
+Patching output file 62/1081
+Patching output file 63/1081
+Patching output file 64/1081
+Patching output file 65/1081
+Patching output file 66/1081
+Patching output file 67/1081
+Patching output file 68/1081
+Patching output file 69/1081
+Patching output file 70/1081
+Patching output file 71/1081
+Patching output file 72/1081
+Patching output file 73/1081
+Patching output file 74/1081
+Patching output file 75/1081
+Patching output file 76/1081
+Patching output file 77/1081
+Patching output file 78/1081
+Patching output file 79/1081
+Patching output file 80/1081
+Patching output file 81/1081
+Patching output file 82/1081
+Patching output file 83/1081
+Patching output file 84/1081
+Patching output file 85/1081
+Patching output file 86/1081
+Patching output file 87/1081
+Patching output file 88/1081
+Patching output file 89/1081
+Patching output file 90/1081
+Patching output file 91/1081
+Patching output file 92/1081
+Patching output file 93/1081
+Patching output file 94/1081
+Patching output file 95/1081
+Patching output file 96/1081
+Patching output file 97/1081
+Patching output file 98/1081
+Patching output file 99/1081
+Patching output file 100/1081
+Patching output file 101/1081
+Patching output file 102/1081
+Patching output file 103/1081
+Patching output file 104/1081
+Patching output file 105/1081
+Patching output file 106/1081
+Patching output file 107/1081
+Patching output file 108/1081
+Patching output file 109/1081
+Patching output file 110/1081
+Patching output file 111/1081
+Patching output file 112/1081
+Patching output file 113/1081
+Patching output file 114/1081
+Patching output file 115/1081
+Patching output file 116/1081
+Patching output file 117/1081
+Patching output file 118/1081
+Patching output file 119/1081
+Patching output file 120/1081
+Patching output file 121/1081
+Patching output file 122/1081
+Patching output file 123/1081
+Patching output file 124/1081
+Patching output file 125/1081
+Patching output file 126/1081
+Patching output file 127/1081
+Patching output file 128/1081
+Patching output file 129/1081
+Patching output file 130/1081
+Patching output file 131/1081
+Patching output file 132/1081
+Patching output file 133/1081
+Patching output file 134/1081
+Patching output file 135/1081
+Patching output file 136/1081
+Patching output file 137/1081
+Patching output file 138/1081
+Patching output file 139/1081
+Patching output file 140/1081
+Patching output file 141/1081
+Patching output file 142/1081
+Patching output file 143/1081
+Patching output file 144/1081
+Patching output file 145/1081
+Patching output file 146/1081
+Patching output file 147/1081
+Patching output file 148/1081
+Patching output file 149/1081
+Patching output file 150/1081
+Patching output file 151/1081
+Patching output file 152/1081
+Patching output file 153/1081
+Patching output file 154/1081
+Patching output file 155/1081
+Patching output file 156/1081
+Patching output file 157/1081
+Patching output file 158/1081
+Patching output file 159/1081
+Patching output file 160/1081
+Patching output file 161/1081
+Patching output file 162/1081
+Patching output file 163/1081
+Patching output file 164/1081
+Patching output file 165/1081
+Patching output file 166/1081
+Patching output file 167/1081
+Patching output file 168/1081
+Patching output file 169/1081
+Patching output file 170/1081
+Patching output file 171/1081
+Patching output file 172/1081
+Patching output file 173/1081
+Patching output file 174/1081
+Patching output file 175/1081
+Patching output file 176/1081
+Patching output file 177/1081
+Patching output file 178/1081
+Patching output file 179/1081
+Patching output file 180/1081
+Patching output file 181/1081
+Patching output file 182/1081
+Patching output file 183/1081
+Patching output file 184/1081
+Patching output file 185/1081
+Patching output file 186/1081
+Patching output file 187/1081
+Patching output file 188/1081
+Patching output file 189/1081
+Patching output file 190/1081
+Patching output file 191/1081
+Patching output file 192/1081
+Patching output file 193/1081
+Patching output file 194/1081
+Patching output file 195/1081
+Patching output file 196/1081
+Patching output file 197/1081
+Patching output file 198/1081
+Patching output file 199/1081
+Patching output file 200/1081
+Patching output file 201/1081
+Patching output file 202/1081
+Patching output file 203/1081
+Patching output file 204/1081
+Patching output file 205/1081
+Patching output file 206/1081
+Patching output file 207/1081
+Patching output file 208/1081
+Patching output file 209/1081
+Patching output file 210/1081
+Patching output file 211/1081
+Patching output file 212/1081
+Patching output file 213/1081
+Patching output file 214/1081
+Patching output file 215/1081
+Patching output file 216/1081
+Patching output file 217/1081
+Patching output file 218/1081
+Patching output file 219/1081
+Patching output file 220/1081
+Patching output file 221/1081
+Patching output file 222/1081
+Patching output file 223/1081
+Patching output file 224/1081
+Patching output file 225/1081
+Patching output file 226/1081
+Patching output file 227/1081
+Patching output file 228/1081
+Patching output file 229/1081
+Patching output file 230/1081
+Patching output file 231/1081
+Patching output file 232/1081
+Patching output file 233/1081
+Patching output file 234/1081
+Patching output file 235/1081
+Patching output file 236/1081
+Patching output file 237/1081
+Patching output file 238/1081
+Patching output file 239/1081
+Patching output file 240/1081
+Patching output file 241/1081
+Patching output file 242/1081
+Patching output file 243/1081
+Patching output file 244/1081
+Patching output file 245/1081
+Patching output file 246/1081
+Patching output file 247/1081
+Patching output file 248/1081
+Patching output file 249/1081
+Patching output file 250/1081
+Patching output file 251/1081
+Patching output file 252/1081
+Patching output file 253/1081
+Patching output file 254/1081
+Patching output file 255/1081
+Patching output file 256/1081
+Patching output file 257/1081
+Patching output file 258/1081
+Patching output file 259/1081
+Patching output file 260/1081
+Patching output file 261/1081
+Patching output file 262/1081
+Patching output file 263/1081
+Patching output file 264/1081
+Patching output file 265/1081
+Patching output file 266/1081
+Patching output file 267/1081
+Patching output file 268/1081
+Patching output file 269/1081
+Patching output file 270/1081
+Patching output file 271/1081
+Patching output file 272/1081
+Patching output file 273/1081
+Patching output file 274/1081
+Patching output file 275/1081
+Patching output file 276/1081
+Patching output file 277/1081
+Patching output file 278/1081
+Patching output file 279/1081
+Patching output file 280/1081
+Patching output file 281/1081
+Patching output file 282/1081
+Patching output file 283/1081
+Patching output file 284/1081
+Patching output file 285/1081
+Patching output file 286/1081
+Patching output file 287/1081
+Patching output file 288/1081
+Patching output file 289/1081
+Patching output file 290/1081
+Patching output file 291/1081
+Patching output file 292/1081
+Patching output file 293/1081
+Patching output file 294/1081
+Patching output file 295/1081
+Patching output file 296/1081
+Patching output file 297/1081
+Patching output file 298/1081
+Patching output file 299/1081
+Patching output file 300/1081
+Patching output file 301/1081
+Patching output file 302/1081
+Patching output file 303/1081
+Patching output file 304/1081
+Patching output file 305/1081
+Patching output file 306/1081
+Patching output file 307/1081
+Patching output file 308/1081
+Patching output file 309/1081
+Patching output file 310/1081
+Patching output file 311/1081
+Patching output file 312/1081
+Patching output file 313/1081
+Patching output file 314/1081
+Patching output file 315/1081
+Patching output file 316/1081
+Patching output file 317/1081
+Patching output file 318/1081
+Patching output file 319/1081
+Patching output file 320/1081
+Patching output file 321/1081
+Patching output file 322/1081
+Patching output file 323/1081
+Patching output file 324/1081
+Patching output file 325/1081
+Patching output file 326/1081
+Patching output file 327/1081
+Patching output file 328/1081
+Patching output file 329/1081
+Patching output file 330/1081
+Patching output file 331/1081
+Patching output file 332/1081
+Patching output file 333/1081
+Patching output file 334/1081
+Patching output file 335/1081
+Patching output file 336/1081
+Patching output file 337/1081
+Patching output file 338/1081
+Patching output file 339/1081
+Patching output file 340/1081
+Patching output file 341/1081
+Patching output file 342/1081
+Patching output file 343/1081
+Patching output file 344/1081
+Patching output file 345/1081
+Patching output file 346/1081
+Patching output file 347/1081
+Patching output file 348/1081
+Patching output file 349/1081
+Patching output file 350/1081
+Patching output file 351/1081
+Patching output file 352/1081
+Patching output file 353/1081
+Patching output file 354/1081
+Patching output file 355/1081
+Patching output file 356/1081
+Patching output file 357/1081
+Patching output file 358/1081
+Patching output file 359/1081
+Patching output file 360/1081
+Patching output file 361/1081
+Patching output file 362/1081
+Patching output file 363/1081
+Patching output file 364/1081
+Patching output file 365/1081
+Patching output file 366/1081
+Patching output file 367/1081
+Patching output file 368/1081
+Patching output file 369/1081
+Patching output file 370/1081
+Patching output file 371/1081
+Patching output file 372/1081
+Patching output file 373/1081
+Patching output file 374/1081
+Patching output file 375/1081
+Patching output file 376/1081
+Patching output file 377/1081
+Patching output file 378/1081
+Patching output file 379/1081
+Patching output file 380/1081
+Patching output file 381/1081
+Patching output file 382/1081
+Patching output file 383/1081
+Patching output file 384/1081
+Patching output file 385/1081
+Patching output file 386/1081
+Patching output file 387/1081
+Patching output file 388/1081
+Patching output file 389/1081
+Patching output file 390/1081
+Patching output file 391/1081
+Patching output file 392/1081
+Patching output file 393/1081
+Patching output file 394/1081
+Patching output file 395/1081
+Patching output file 396/1081
+Patching output file 397/1081
+Patching output file 398/1081
+Patching output file 399/1081
+Patching output file 400/1081
+Patching output file 401/1081
+Patching output file 402/1081
+Patching output file 403/1081
+Patching output file 404/1081
+Patching output file 405/1081
+Patching output file 406/1081
+Patching output file 407/1081
+Patching output file 408/1081
+Patching output file 409/1081
+Patching output file 410/1081
+Patching output file 411/1081
+Patching output file 412/1081
+Patching output file 413/1081
+Patching output file 414/1081
+Patching output file 415/1081
+Patching output file 416/1081
+Patching output file 417/1081
+Patching output file 418/1081
+Patching output file 419/1081
+Patching output file 420/1081
+Patching output file 421/1081
+Patching output file 422/1081
+Patching output file 423/1081
+Patching output file 424/1081
+Patching output file 425/1081
+Patching output file 426/1081
+Patching output file 427/1081
+Patching output file 428/1081
+Patching output file 429/1081
+Patching output file 430/1081
+Patching output file 431/1081
+Patching output file 432/1081
+Patching output file 433/1081
+Patching output file 434/1081
+Patching output file 435/1081
+Patching output file 436/1081
+Patching output file 437/1081
+Patching output file 438/1081
+Patching output file 439/1081
+Patching output file 440/1081
+Patching output file 441/1081
+Patching output file 442/1081
+Patching output file 443/1081
+Patching output file 444/1081
+Patching output file 445/1081
+Patching output file 446/1081
+Patching output file 447/1081
+Patching output file 448/1081
+Patching output file 449/1081
+Patching output file 450/1081
+Patching output file 451/1081
+Patching output file 452/1081
+Patching output file 453/1081
+Patching output file 454/1081
+Patching output file 455/1081
+Patching output file 456/1081
+Patching output file 457/1081
+Patching output file 458/1081
+Patching output file 459/1081
+Patching output file 460/1081
+Patching output file 461/1081
+Patching output file 462/1081
+Patching output file 463/1081
+Patching output file 464/1081
+Patching output file 465/1081
+Patching output file 466/1081
+Patching output file 467/1081
+Patching output file 468/1081
+Patching output file 469/1081
+Patching output file 470/1081
+Patching output file 471/1081
+Patching output file 472/1081
+Patching output file 473/1081
+Patching output file 474/1081
+Patching output file 475/1081
+Patching output file 476/1081
+Patching output file 477/1081
+Patching output file 478/1081
+Patching output file 479/1081
+Patching output file 480/1081
+Patching output file 481/1081
+Patching output file 482/1081
+Patching output file 483/1081
+Patching output file 484/1081
+Patching output file 485/1081
+Patching output file 486/1081
+Patching output file 487/1081
+Patching output file 488/1081
+Patching output file 489/1081
+Patching output file 490/1081
+Patching output file 491/1081
+Patching output file 492/1081
+Patching output file 493/1081
+Patching output file 494/1081
+Patching output file 495/1081
+Patching output file 496/1081
+Patching output file 497/1081
+Patching output file 498/1081
+Patching output file 499/1081
+Patching output file 500/1081
+Patching output file 501/1081
+Patching output file 502/1081
+Patching output file 503/1081
+Patching output file 504/1081
+Patching output file 505/1081
+Patching output file 506/1081
+Patching output file 507/1081
+Patching output file 508/1081
+Patching output file 509/1081
+Patching output file 510/1081
+Patching output file 511/1081
+Patching output file 512/1081
+Patching output file 513/1081
+Patching output file 514/1081
+Patching output file 515/1081
+Patching output file 516/1081
+Patching output file 517/1081
+Patching output file 518/1081
+Patching output file 519/1081
+Patching output file 520/1081
+Patching output file 521/1081
+Patching output file 522/1081
+Patching output file 523/1081
+Patching output file 524/1081
+Patching output file 525/1081
+Patching output file 526/1081
+Patching output file 527/1081
+Patching output file 528/1081
+Patching output file 529/1081
+Patching output file 530/1081
+Patching output file 531/1081
+Patching output file 532/1081
+Patching output file 533/1081
+Patching output file 534/1081
+Patching output file 535/1081
+Patching output file 536/1081
+Patching output file 537/1081
+Patching output file 538/1081
+Patching output file 539/1081
+Patching output file 540/1081
+Patching output file 541/1081
+Patching output file 542/1081
+Patching output file 543/1081
+Patching output file 544/1081
+Patching output file 545/1081
+Patching output file 546/1081
+Patching output file 547/1081
+Patching output file 548/1081
+Patching output file 549/1081
+Patching output file 550/1081
+Patching output file 551/1081
+Patching output file 552/1081
+Patching output file 553/1081
+Patching output file 554/1081
+Patching output file 555/1081
+Patching output file 556/1081
+Patching output file 557/1081
+Patching output file 558/1081
+Patching output file 559/1081
+Patching output file 560/1081
+Patching output file 561/1081
+Patching output file 562/1081
+Patching output file 563/1081
+Patching output file 564/1081
+Patching output file 565/1081
+Patching output file 566/1081
+Patching output file 567/1081
+Patching output file 568/1081
+Patching output file 569/1081
+Patching output file 570/1081
+Patching output file 571/1081
+Patching output file 572/1081
+Patching output file 573/1081
+Patching output file 574/1081
+Patching output file 575/1081
+Patching output file 576/1081
+Patching output file 577/1081
+Patching output file 578/1081
+Patching output file 579/1081
+Patching output file 580/1081
+Patching output file 581/1081
+Patching output file 582/1081
+Patching output file 583/1081
+Patching output file 584/1081
+Patching output file 585/1081
+Patching output file 586/1081
+Patching output file 587/1081
+Patching output file 588/1081
+Patching output file 589/1081
+Patching output file 590/1081
+Patching output file 591/1081
+Patching output file 592/1081
+Patching output file 593/1081
+Patching output file 594/1081
+Patching output file 595/1081
+Patching output file 596/1081
+Patching output file 597/1081
+Patching output file 598/1081
+Patching output file 599/1081
+Patching output file 600/1081
+Patching output file 601/1081
+Patching output file 602/1081
+Patching output file 603/1081
+Patching output file 604/1081
+Patching output file 605/1081
+Patching output file 606/1081
+Patching output file 607/1081
+Patching output file 608/1081
+Patching output file 609/1081
+Patching output file 610/1081
+Patching output file 611/1081
+Patching output file 612/1081
+Patching output file 613/1081
+Patching output file 614/1081
+Patching output file 615/1081
+Patching output file 616/1081
+Patching output file 617/1081
+Patching output file 618/1081
+Patching output file 619/1081
+Patching output file 620/1081
+Patching output file 621/1081
+Patching output file 622/1081
+Patching output file 623/1081
+Patching output file 624/1081
+Patching output file 625/1081
+Patching output file 626/1081
+Patching output file 627/1081
+Patching output file 628/1081
+Patching output file 629/1081
+Patching output file 630/1081
+Patching output file 631/1081
+Patching output file 632/1081
+Patching output file 633/1081
+Patching output file 634/1081
+Patching output file 635/1081
+Patching output file 636/1081
+Patching output file 637/1081
+Patching output file 638/1081
+Patching output file 639/1081
+Patching output file 640/1081
+Patching output file 641/1081
+Patching output file 642/1081
+Patching output file 643/1081
+Patching output file 644/1081
+Patching output file 645/1081
+Patching output file 646/1081
+Patching output file 647/1081
+Patching output file 648/1081
+Patching output file 649/1081
+Patching output file 650/1081
+Patching output file 651/1081
+Patching output file 652/1081
+Patching output file 653/1081
+Patching output file 654/1081
+Patching output file 655/1081
+Patching output file 656/1081
+Patching output file 657/1081
+Patching output file 658/1081
+Patching output file 659/1081
+Patching output file 660/1081
+Patching output file 661/1081
+Patching output file 662/1081
+Patching output file 663/1081
+Patching output file 664/1081
+Patching output file 665/1081
+Patching output file 666/1081
+Patching output file 667/1081
+Patching output file 668/1081
+Patching output file 669/1081
+Patching output file 670/1081
+Patching output file 671/1081
+Patching output file 672/1081
+Patching output file 673/1081
+Patching output file 674/1081
+Patching output file 675/1081
+Patching output file 676/1081
+Patching output file 677/1081
+Patching output file 678/1081
+Patching output file 679/1081
+Patching output file 680/1081
+Patching output file 681/1081
+Patching output file 682/1081
+Patching output file 683/1081
+Patching output file 684/1081
+Patching output file 685/1081
+Patching output file 686/1081
+Patching output file 687/1081
+Patching output file 688/1081
+Patching output file 689/1081
+Patching output file 690/1081
+Patching output file 691/1081
+Patching output file 692/1081
+Patching output file 693/1081
+Patching output file 694/1081
+Patching output file 695/1081
+Patching output file 696/1081
+Patching output file 697/1081
+Patching output file 698/1081
+Patching output file 699/1081
+Patching output file 700/1081
+Patching output file 701/1081
+Patching output file 702/1081
+Patching output file 703/1081
+Patching output file 704/1081
+Patching output file 705/1081
+Patching output file 706/1081
+Patching output file 707/1081
+Patching output file 708/1081
+Patching output file 709/1081
+Patching output file 710/1081
+Patching output file 711/1081
+Patching output file 712/1081
+Patching output file 713/1081
+Patching output file 714/1081
+Patching output file 715/1081
+Patching output file 716/1081
+Patching output file 717/1081
+Patching output file 718/1081
+Patching output file 719/1081
+Patching output file 720/1081
+Patching output file 721/1081
+Patching output file 722/1081
+Patching output file 723/1081
+Patching output file 724/1081
+Patching output file 725/1081
+Patching output file 726/1081
+Patching output file 727/1081
+Patching output file 728/1081
+Patching output file 729/1081
+Patching output file 730/1081
+Patching output file 731/1081
+Patching output file 732/1081
+Patching output file 733/1081
+Patching output file 734/1081
+Patching output file 735/1081
+Patching output file 736/1081
+Patching output file 737/1081
+Patching output file 738/1081
+Patching output file 739/1081
+Patching output file 740/1081
+Patching output file 741/1081
+Patching output file 742/1081
+Patching output file 743/1081
+Patching output file 744/1081
+Patching output file 745/1081
+Patching output file 746/1081
+Patching output file 747/1081
+Patching output file 748/1081
+Patching output file 749/1081
+Patching output file 750/1081
+Patching output file 751/1081
+Patching output file 752/1081
+Patching output file 753/1081
+Patching output file 754/1081
+Patching output file 755/1081
+Patching output file 756/1081
+Patching output file 757/1081
+Patching output file 758/1081
+Patching output file 759/1081
+Patching output file 760/1081
+Patching output file 761/1081
+Patching output file 762/1081
+Patching output file 763/1081
+Patching output file 764/1081
+Patching output file 765/1081
+Patching output file 766/1081
+Patching output file 767/1081
+Patching output file 768/1081
+Patching output file 769/1081
+Patching output file 770/1081
+Patching output file 771/1081
+Patching output file 772/1081
+Patching output file 773/1081
+Patching output file 774/1081
+Patching output file 775/1081
+Patching output file 776/1081
+Patching output file 777/1081
+Patching output file 778/1081
+Patching output file 779/1081
+Patching output file 780/1081
+Patching output file 781/1081
+Patching output file 782/1081
+Patching output file 783/1081
+Patching output file 784/1081
+Patching output file 785/1081
+Patching output file 786/1081
+Patching output file 787/1081
+Patching output file 788/1081
+Patching output file 789/1081
+Patching output file 790/1081
+Patching output file 791/1081
+Patching output file 792/1081
+Patching output file 793/1081
+Patching output file 794/1081
+Patching output file 795/1081
+Patching output file 796/1081
+Patching output file 797/1081
+Patching output file 798/1081
+Patching output file 799/1081
+Patching output file 800/1081
+Patching output file 801/1081
+Patching output file 802/1081
+Patching output file 803/1081
+Patching output file 804/1081
+Patching output file 805/1081
+Patching output file 806/1081
+Patching output file 807/1081
+Patching output file 808/1081
+Patching output file 809/1081
+Patching output file 810/1081
+Patching output file 811/1081
+Patching output file 812/1081
+Patching output file 813/1081
+Patching output file 814/1081
+Patching output file 815/1081
+Patching output file 816/1081
+Patching output file 817/1081
+Patching output file 818/1081
+Patching output file 819/1081
+Patching output file 820/1081
+Patching output file 821/1081
+Patching output file 822/1081
+Patching output file 823/1081
+Patching output file 824/1081
+Patching output file 825/1081
+Patching output file 826/1081
+Patching output file 827/1081
+Patching output file 828/1081
+Patching output file 829/1081
+Patching output file 830/1081
+Patching output file 831/1081
+Patching output file 832/1081
+Patching output file 833/1081
+Patching output file 834/1081
+Patching output file 835/1081
+Patching output file 836/1081
+Patching output file 837/1081
+Patching output file 838/1081
+Patching output file 839/1081
+Patching output file 840/1081
+Patching output file 841/1081
+Patching output file 842/1081
+Patching output file 843/1081
+Patching output file 844/1081
+Patching output file 845/1081
+Patching output file 846/1081
+Patching output file 847/1081
+Patching output file 848/1081
+Patching output file 849/1081
+Patching output file 850/1081
+Patching output file 851/1081
+Patching output file 852/1081
+Patching output file 853/1081
+Patching output file 854/1081
+Patching output file 855/1081
+Patching output file 856/1081
+Patching output file 857/1081
+Patching output file 858/1081
+Patching output file 859/1081
+Patching output file 860/1081
+Patching output file 861/1081
+Patching output file 862/1081
+Patching output file 863/1081
+Patching output file 864/1081
+Patching output file 865/1081
+Patching output file 866/1081
+Patching output file 867/1081
+Patching output file 868/1081
+Patching output file 869/1081
+Patching output file 870/1081
+Patching output file 871/1081
+Patching output file 872/1081
+Patching output file 873/1081
+Patching output file 874/1081
+Patching output file 875/1081
+Patching output file 876/1081
+Patching output file 877/1081
+Patching output file 878/1081
+Patching output file 879/1081
+Patching output file 880/1081
+Patching output file 881/1081
+Patching output file 882/1081
+Patching output file 883/1081
+Patching output file 884/1081
+Patching output file 885/1081
+Patching output file 886/1081
+Patching output file 887/1081
+Patching output file 888/1081
+Patching output file 889/1081
+Patching output file 890/1081
+Patching output file 891/1081
+Patching output file 892/1081
+Patching output file 893/1081
+Patching output file 894/1081
+Patching output file 895/1081
+Patching output file 896/1081
+Patching output file 897/1081
+Patching output file 898/1081
+Patching output file 899/1081
+Patching output file 900/1081
+Patching output file 901/1081
+Patching output file 902/1081
+Patching output file 903/1081
+Patching output file 904/1081
+Patching output file 905/1081
+Patching output file 906/1081
+Patching output file 907/1081
+Patching output file 908/1081
+Patching output file 909/1081
+Patching output file 910/1081
+Patching output file 911/1081
+Patching output file 912/1081
+Patching output file 913/1081
+Patching output file 914/1081
+Patching output file 915/1081
+Patching output file 916/1081
+Patching output file 917/1081
+Patching output file 918/1081
+Patching output file 919/1081
+Patching output file 920/1081
+Patching output file 921/1081
+Patching output file 922/1081
+Patching output file 923/1081
+Patching output file 924/1081
+Patching output file 925/1081
+Patching output file 926/1081
+Patching output file 927/1081
+Patching output file 928/1081
+Patching output file 929/1081
+Patching output file 930/1081
+Patching output file 931/1081
+Patching output file 932/1081
+Patching output file 933/1081
+Patching output file 934/1081
+Patching output file 935/1081
+Patching output file 936/1081
+Patching output file 937/1081
+Patching output file 938/1081
+Patching output file 939/1081
+Patching output file 940/1081
+Patching output file 941/1081
+Patching output file 942/1081
+Patching output file 943/1081
+Patching output file 944/1081
+Patching output file 945/1081
+Patching output file 946/1081
+Patching output file 947/1081
+Patching output file 948/1081
+Patching output file 949/1081
+Patching output file 950/1081
+Patching output file 951/1081
+Patching output file 952/1081
+Patching output file 953/1081
+Patching output file 954/1081
+Patching output file 955/1081
+Patching output file 956/1081
+Patching output file 957/1081
+Patching output file 958/1081
+Patching output file 959/1081
+Patching output file 960/1081
+Patching output file 961/1081
+Patching output file 962/1081
+Patching output file 963/1081
+Patching output file 964/1081
+Patching output file 965/1081
+Patching output file 966/1081
+Patching output file 967/1081
+Patching output file 968/1081
+Patching output file 969/1081
+Patching output file 970/1081
+Patching output file 971/1081
+Patching output file 972/1081
+Patching output file 973/1081
+Patching output file 974/1081
+Patching output file 975/1081
+Patching output file 976/1081
+Patching output file 977/1081
+Patching output file 978/1081
+Patching output file 979/1081
+Patching output file 980/1081
+Patching output file 981/1081
+Patching output file 982/1081
+Patching output file 983/1081
+Patching output file 984/1081
+Patching output file 985/1081
+Patching output file 986/1081
+Patching output file 987/1081
+Patching output file 988/1081
+Patching output file 989/1081
+Patching output file 990/1081
+Patching output file 991/1081
+Patching output file 992/1081
+Patching output file 993/1081
+Patching output file 994/1081
+Patching output file 995/1081
+Patching output file 996/1081
+Patching output file 997/1081
+Patching output file 998/1081
+Patching output file 999/1081
+Patching output file 1000/1081
+Patching output file 1001/1081
+Patching output file 1002/1081
+Patching output file 1003/1081
+Patching output file 1004/1081
+Patching output file 1005/1081
+Patching output file 1006/1081
+Patching output file 1007/1081
+Patching output file 1008/1081
+Patching output file 1009/1081
+Patching output file 1010/1081
+Patching output file 1011/1081
+Patching output file 1012/1081
+Patching output file 1013/1081
+Patching output file 1014/1081
+Patching output file 1015/1081
+Patching output file 1016/1081
+Patching output file 1017/1081
+Patching output file 1018/1081
+Patching output file 1019/1081
+Patching output file 1020/1081
+Patching output file 1021/1081
+Patching output file 1022/1081
+Patching output file 1023/1081
+Patching output file 1024/1081
+Patching output file 1025/1081
+Patching output file 1026/1081
+Patching output file 1027/1081
+Patching output file 1028/1081
+Patching output file 1029/1081
+Patching output file 1030/1081
+Patching output file 1031/1081
+Patching output file 1032/1081
+Patching output file 1033/1081
+Patching output file 1034/1081
+Patching output file 1035/1081
+Patching output file 1036/1081
+Patching output file 1037/1081
+Patching output file 1038/1081
+Patching output file 1039/1081
+Patching output file 1040/1081
+Patching output file 1041/1081
+Patching output file 1042/1081
+Patching output file 1043/1081
+Patching output file 1044/1081
+Patching output file 1045/1081
+Patching output file 1046/1081
+Patching output file 1047/1081
+Patching output file 1048/1081
+Patching output file 1049/1081
+Patching output file 1050/1081
+Patching output file 1051/1081
+Patching output file 1052/1081
+Patching output file 1053/1081
+Patching output file 1054/1081
+Patching output file 1055/1081
+Patching output file 1056/1081
+Patching output file 1057/1081
+Patching output file 1058/1081
+Patching output file 1059/1081
+Patching output file 1060/1081
+Patching output file 1061/1081
+Patching output file 1062/1081
+Patching output file 1063/1081
+Patching output file 1064/1081
+Patching output file 1065/1081
+Patching output file 1066/1081
+Patching output file 1067/1081
+Patching output file 1068/1081
+Patching output file 1069/1081
+Patching output file 1070/1081
+Patching output file 1071/1081
+Patching output file 1072/1081
+Patching output file 1073/1081
+Patching output file 1074/1081
+Patching output file 1075/1081
+Patching output file 1076/1081
+Patching output file 1077/1081
+Patching output file 1078/1081
+Patching output file 1079/1081
+Patching output file 1080/1081
+Patching output file 1081/1081
+lookup cache used 5260/65536 hits=30804 misses=5511
 finished...

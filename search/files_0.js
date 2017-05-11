@@ -8,6 +8,7 @@ var searchData=
   ['ampintensity_2ecpp',['AmpIntensity.cpp',['../d5/dca/AmpIntensity_8cpp.html',1,'']]],
   ['ampintensity_2ehpp',['AmpIntensity.hpp',['../dc/dfd/AmpIntensity_8hpp.html',1,'']]],
   ['amplitude_2ehpp',['Amplitude.hpp',['../dc/de3/Amplitude_8hpp.html',1,'']]],
+  ['ampmodel_2ecpp',['AmpModel.cpp',['../d8/d80/AmpModel_8cpp.html',1,'']]],
   ['ampplotterapp_2ecpp',['AmpPlotterApp.cpp',['../d3/d54/AmpPlotterApp_8cpp.html',1,'']]],
   ['ampsumsliceintensity_2ehpp',['AmpSumSliceIntensity.hpp',['../dc/d4f/AmpSumSliceIntensity_8hpp.html',1,'']]],
   ['ampwignerd_2ecpp',['AmpWignerD.cpp',['../d7/de3/AmpWignerD_8cpp.html',1,'']]],

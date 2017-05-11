@@ -1,14 +1,16 @@
 var searchData=
 [
-  ['real',['Real',['../d3/d92/classComPWA_1_1Real.html',1,'ComPWA']]],
-  ['relativisticbreitwigner',['RelativisticBreitWigner',['../d1/d78/classComPWA_1_1Physics_1_1HelicityFormalism_1_1RelativisticBreitWigner.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['resolution',['Resolution',['../d2/d76/classComPWA_1_1Resolution.html',1,'ComPWA']]],
-  ['resonance',['Resonance',['../d5/d84/classComPWA_1_1Physics_1_1Resonance.html',1,'ComPWA::Physics']]],
-  ['rootangleefficiency',['RootAngleEfficiency',['../de/dfc/classComPWA_1_1DataReader_1_1RootAngleEfficiency.html',1,'ComPWA::DataReader']]],
-  ['rootefficiency',['RootEfficiency',['../df/d4c/classComPWA_1_1DataReader_1_1RootEfficiency.html',1,'ComPWA::DataReader']]],
-  ['rootgenerator',['RootGenerator',['../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html',1,'ComPWA::Tools']]],
-  ['rootreader',['RootReader',['../d2/d4d/classRootReader.html',1,'']]],
-  ['rootreader',['RootReader',['../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html',1,'ComPWA::DataReader']]],
-  ['runmanager',['RunManager',['../de/d04/classRunManager.html',1,'']]],
-  ['runmanager',['RunManager',['../dc/dff/classComPWA_1_1RunManager.html',1,'ComPWA']]]
+  ['sequentialtwobodydecay',['SequentialTwoBodyDecay',['../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html',1,'ComPWA::Physics::HelicityFormalism']]],
+  ['slicefit',['SliceFit',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html',1,'ComPWA::Estimator::SliceFit']]],
+  ['slicefit',['SliceFit',['../dc/d61/classSliceFit.html',1,'']]],
+  ['slicefitub',['SliceFitUB',['../de/d7c/classComPWA_1_1Estimator_1_1SliceFitUB_1_1SliceFitUB.html',1,'ComPWA::Estimator::SliceFitUB']]],
+  ['spin',['Spin',['../dd/de3/classSpin.html',1,'']]],
+  ['spin',['Spin',['../d4/d1a/classComPWA_1_1Spin.html',1,'ComPWA']]],
+  ['squareroot',['SquareRoot',['../df/df9/classComPWA_1_1SquareRoot.html',1,'ComPWA']]],
+  ['strategy',['Strategy',['../d2/df2/classStrategy.html',1,'']]],
+  ['strategy',['Strategy',['../d3/df8/classComPWA_1_1Strategy.html',1,'ComPWA']]],
+  ['subsystem',['SubSystem',['../d7/d41/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SubSystem.html',1,'ComPWA::Physics::HelicityFormalism']]],
+  ['subtype',['SubType',['../df/dfa/classComPWA_1_1Physics_1_1QFT_1_1SubType.html',1,'ComPWA::Physics::QFT']]],
+  ['systematicdependencygraphbundle',['SystematicDependencyGraphBundle',['../d0/d20/structNeatPlotting_1_1SystematicsAnalyser_1_1SystematicDependencyGraphBundle.html',1,'NeatPlotting::SystematicsAnalyser']]],
+  ['systematicsanalyser',['SystematicsAnalyser',['../d6/d31/classNeatPlotting_1_1SystematicsAnalyser.html',1,'NeatPlotting']]]
 ];

@@ -40,7 +40,6 @@ var searchData=
   ['_7ehelicitykinematics',['~HelicityKinematics',['../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a23ef05c6841f9238cf9347403c686517',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
   ['_7eintegerparameter',['~IntegerParameter',['../d2/d19/classComPWA_1_1IntegerParameter.html#a71f971032903f700704d2aa40910bab8',1,'ComPWA::IntegerParameter']]],
   ['_7einverse',['~Inverse',['../d7/d64/classComPWA_1_1Inverse.html#a870edbd8a9758ecfa154bc62ddafb6bb',1,'ComPWA::Inverse']]],
-  ['_7ejakereader',['~JakeReader',['../df/dcb/classComPWA_1_1DataReader_1_1JakeReader_1_1JakeReader.html#a070246cb93610aa127682ea2ed6e90ff',1,'ComPWA::DataReader::JakeReader::JakeReader']]],
   ['_7ekinematics',['~Kinematics',['../db/d37/classComPWA_1_1Kinematics.html#a301f11c405334bb7d141c361ba137567',1,'ComPWA::Kinematics']]],
   ['_7elevicivitatensor',['~LeviCivitaTensor',['../d9/d3a/classComPWA_1_1Physics_1_1QFT_1_1LeviCivitaTensor.html#a19b23d64a2c52dab5e8f893e7fdb065d',1,'ComPWA::Physics::QFT::LeviCivitaTensor']]],
   ['_7elogof',['~LogOf',['../df/d91/classComPWA_1_1LogOf.html#aa1dad8e7dbca45192c1278ca24e01b7a',1,'ComPWA::LogOf']]],

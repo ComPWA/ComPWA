@@ -6,7 +6,7 @@ var searchData=
   ['base',['Base',['../d9/de5/classBase.html',1,'']]],
   ['beyondphsp',['BeyondPhsp',['../d0/d31/classComPWA_1_1BeyondPhsp.html',1,'ComPWA']]],
   ['booky',['Booky',['../de/d7e/classNeatPlotting_1_1Booky.html',1,'NeatPlotting']]],
-  ['boolparameter',['BoolParameter',['../df/d1c/classBoolParameter.html',1,'']]],
   ['boolparameter',['BoolParameter',['../dd/d6e/classComPWA_1_1BoolParameter.html',1,'ComPWA']]],
+  ['boolparameter',['BoolParameter',['../df/d1c/classBoolParameter.html',1,'']]],
   ['breitwignerstrategy',['BreitWignerStrategy',['../df/d9c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1BreitWignerStrategy.html',1,'ComPWA::Physics::HelicityFormalism']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['nonresonant',['NonResonant',['../d9/d94/classComPWA_1_1Physics_1_1HelicityFormalism_1_1NonResonant.html',1,'ComPWA::Physics::HelicityFormalism']]]
+  ['optimizer',['Optimizer',['../d1/dc4/classOptimizer.html',1,'']]],
+  ['optimizer',['Optimizer',['../df/dcb/classComPWA_1_1Optimizer_1_1Optimizer.html',1,'ComPWA::Optimizer']]]
 ];

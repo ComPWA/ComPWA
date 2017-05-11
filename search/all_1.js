@@ -42,8 +42,8 @@ var searchData=
   ['ampflatteres',['AmpFlatteRes',['../d8/d81/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpFlatteRes.html#af516d98cc32919c0e3a41a7cfeba3c49',1,'ComPWA::Physics::HelicityFormalism::AmpFlatteRes']]],
   ['ampflatteres_2ecpp',['AmpFlatteRes.cpp',['../d2/d84/AmpFlatteRes_8cpp.html',1,'']]],
   ['ampflatteres_2ehpp',['AmpFlatteRes.hpp',['../dd/d65/AmpFlatteRes_8hpp.html',1,'']]],
-  ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html',1,'ComPWA']]],
   ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html#ad962d16fc7fbf2e4c9521518d37b4ad7',1,'ComPWA::ampInfo']]],
+  ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html',1,'ComPWA']]],
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html#a1dba5739e800e19897749c435ee6c7ea',1,'ComPWA::AmpIntensity']]],
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html',1,'ComPWA']]],
   ['ampintensity_2ecpp',['AmpIntensity.cpp',['../d5/dca/AmpIntensity_8cpp.html',1,'']]],
@@ -53,6 +53,7 @@ var searchData=
   ['amplitude',['Amplitude',['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html',1,'ComPWA::Physics']]],
   ['amplitude_2ehpp',['Amplitude.hpp',['../dc/de3/Amplitude_8hpp.html',1,'']]],
   ['amplitudenameused',['amplitudeNameUsed',['../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11',1,'ComPWA::Dictionary']]],
+  ['ampmodel_2ecpp',['AmpModel.cpp',['../d8/d80/AmpModel_8cpp.html',1,'']]],
   ['ampplotterapp_2ecpp',['AmpPlotterApp.cpp',['../d3/d54/AmpPlotterApp_8cpp.html',1,'']]],
   ['ampsumsliceintensity',['AmpSumSliceIntensity',['../d0/d4b/classAmpSumSliceIntensity.html',1,'AmpSumSliceIntensity'],['../d0/d4b/classAmpSumSliceIntensity.html#a84184310702a57fe213ef21d341f5c4e',1,'AmpSumSliceIntensity::AmpSumSliceIntensity()']]],
   ['ampsumsliceintensity_2ehpp',['AmpSumSliceIntensity.hpp',['../dc/d4f/AmpSumSliceIntensity_8hpp.html',1,'']]],
@@ -82,8 +83,8 @@ var searchData=
   ['axis_5flabel_5ftext_5foffset',['axis_label_text_offset',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#ae24c62dcf4b28cfe9e50dd3eef3bc9c9',1,'NeatPlotting::AxisStyle']]],
   ['axis_5ftext_5fstyle',['axis_text_style',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a7e2c93ff636cff578412afe17bdf5287',1,'NeatPlotting::AxisStyle']]],
   ['axis_5ftitle_5ftext_5foffset',['axis_title_text_offset',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a0fa6a83ef72bd799d0481b8b53dbfb9d',1,'NeatPlotting::AxisStyle']]],
-  ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html#a87af3635d3a1de88d1f32ca853bcd6bd',1,'NeatPlotting::AxisRange::AxisRange()'],['../da/d81/structNeatPlotting_1_1AxisRange.html#a9633ff4d804fef48c0f2cdb9f4269499',1,'NeatPlotting::AxisRange::AxisRange(double low_, double high_)']]],
   ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html',1,'NeatPlotting']]],
-  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]],
-  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a06f2031a1ca237d6f0679f1f46de154e',1,'NeatPlotting::AxisStyle']]]
+  ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html#a87af3635d3a1de88d1f32ca853bcd6bd',1,'NeatPlotting::AxisRange::AxisRange()'],['../da/d81/structNeatPlotting_1_1AxisRange.html#a9633ff4d804fef48c0f2cdb9f4269499',1,'NeatPlotting::AxisRange::AxisRange(double low_, double high_)']]],
+  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a06f2031a1ca237d6f0679f1f46de154e',1,'NeatPlotting::AxisStyle']]],
+  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]]
 ];

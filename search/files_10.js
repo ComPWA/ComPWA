@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['relativisticbreitwigner_2ecpp',['RelativisticBreitWigner.cpp',['../d3/d67/RelativisticBreitWigner_8cpp.html',1,'']]],
-  ['relativisticbreitwigner_2ehpp',['RelativisticBreitWigner.hpp',['../d6/da5/RelativisticBreitWigner_8hpp.html',1,'']]],
-  ['resolution_2ehpp',['Resolution.hpp',['../de/d34/Resolution_8hpp.html',1,'']]],
-  ['resonance_2ehpp',['Resonance.hpp',['../d4/d62/Resonance_8hpp.html',1,'']]],
-  ['rootefficiency_2ecpp',['RootEfficiency.cpp',['../d2/df3/RootEfficiency_8cpp.html',1,'']]],
-  ['rootefficiency_2ehpp',['RootEfficiency.hpp',['../d5/d5e/RootEfficiency_8hpp.html',1,'']]],
-  ['rootgenerator_2ecpp',['RootGenerator.cpp',['../db/d11/RootGenerator_8cpp.html',1,'']]],
-  ['rootgenerator_2ehpp',['RootGenerator.hpp',['../d7/ded/RootGenerator_8hpp.html',1,'']]],
-  ['rootplothelper_2ehpp',['ROOTPlotHelper.hpp',['../d9/df6/ROOTPlotHelper_8hpp.html',1,'']]],
-  ['rootreader_2ecpp',['RootReader.cpp',['../df/d44/RootReader_8cpp.html',1,'']]],
-  ['rootreader_2ehpp',['RootReader.hpp',['../df/d53/RootReader_8hpp.html',1,'']]],
-  ['runmanager_2ecpp',['RunManager.cpp',['../db/d94/RunManager_8cpp.html',1,'']]],
-  ['runmanager_2ehpp',['RunManager.hpp',['../db/d41/RunManager_8hpp.html',1,'']]]
+  ['selectiveinclusion_2eh',['SelectiveInclusion.h',['../de/d10/SelectiveInclusion_8h.html',1,'']]],
+  ['sequentialtwobodydecay_2ecpp',['SequentialTwoBodyDecay.cpp',['../d4/de6/SequentialTwoBodyDecay_8cpp.html',1,'']]],
+  ['sequentialtwobodydecay_2ehpp',['SequentialTwoBodyDecay.hpp',['../d5/df6/SequentialTwoBodyDecay_8hpp.html',1,'']]],
+  ['serializationapp_2ecpp',['SerializationApp.cpp',['../d3/da2/SerializationApp_8cpp.html',1,'']]],
+  ['slicefit_2ecpp',['SliceFit.cpp',['../d2/d9b/SliceFit_8cpp.html',1,'']]],
+  ['slicefit_2ehpp',['SliceFit.hpp',['../da/d67/SliceFit_8hpp.html',1,'']]],
+  ['slicefitapp_2ecpp',['SliceFitApp.cpp',['../d6/d9a/SliceFitApp_8cpp.html',1,'']]],
+  ['slicefitrandapp_2ecpp',['SliceFitRANDApp.cpp',['../d3/dbc/SliceFitRANDApp_8cpp.html',1,'']]],
+  ['slicefitub_2ecpp',['SliceFitUB.cpp',['../de/dd0/SliceFitUB_8cpp.html',1,'']]],
+  ['slicefitub_2ehpp',['SliceFitUB.hpp',['../d8/d56/SliceFitUB_8hpp.html',1,'']]],
+  ['slicefitubapp_2ecpp',['SliceFitUBApp.cpp',['../d9/de4/SliceFitUBApp_8cpp.html',1,'']]],
+  ['specialtensors_2eh',['SpecialTensors.h',['../d1/d79/SpecialTensors_8h.html',1,'']]],
+  ['spin_2ehpp',['Spin.hpp',['../d9/dfb/Spin_8hpp.html',1,'']]],
+  ['systematics_2ehpp',['systematics.hpp',['../de/db2/systematics_8hpp.html',1,'']]]
 ];
