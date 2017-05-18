@@ -1,8 +1,8 @@
 var searchData=
 [
   ['e',['E',['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#a99e6e1f7a04b32ba401389736259b927',1,'ComPWA::Physics::QFT::Vector4::E() const '],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#ab968adca2d45e5b68c1d0da6f87ab365',1,'ComPWA::Physics::QFT::Vector4::E()']]],
-  ['edm',['edm',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a458c09fd20f6a3158adf5ce3fab59027',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
-  ['edmabovemax',['edmAboveMax',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a63530880ecfa990a2aaa7e12d4334508',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['edm',['edm',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#ae61f9e1f1aaf13be23727631eabe1a69',1,'ComPWA::Optimizer::Geneva::GenevaResult::edm()'],['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a458c09fd20f6a3158adf5ce3fab59027',1,'ComPWA::Optimizer::Minuit2::MinuitResult::edm()']]],
+  ['edmabovemax',['edmAboveMax',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#a1525176df6689b9feaa6eacbf6c8294b',1,'ComPWA::Optimizer::Geneva::GenevaResult::edmAboveMax()'],['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a63530880ecfa990a2aaa7e12d4334508',1,'ComPWA::Optimizer::Minuit2::MinuitResult::edmAboveMax()']]],
   ['eff',['eff',['../d1/da0/classComPWA_1_1dataPoint.html#a7ebf14bb6f3ffb46f272e54c479c114a',1,'ComPWA::dataPoint']]],
   ['effhist',['effHist',['../df/d4c/classComPWA_1_1DataReader_1_1RootEfficiency.html#a98d205e60b93c1792d7555093cc18a9d',1,'ComPWA::DataReader::RootEfficiency']]],
   ['efficiency',['Efficiency',['../d7/d11/classComPWA_1_1Efficiency.html',1,'ComPWA']]],
@@ -20,7 +20,7 @@ var searchData=
   ['equal',['equal',['../da/da9/namespaceComPWA.html#a1a20dfbd804072e079b5fa6da43bab76',1,'ComPWA']]],
   ['equalmagnitude',['equalMagnitude',['../d4/d1a/classComPWA_1_1Spin.html#a8922adaa548e164d8b34f336cb752dde',1,'ComPWA::Spin']]],
   ['err_5f',['err_',['../da/dd8/classComPWA_1_1ComplexParameter.html#aa09d07b8b9ed2b37306748e3c8d179ef',1,'ComPWA::ComplexParameter::err_()'],['../d2/d19/classComPWA_1_1IntegerParameter.html#ae0e61d4307cfbd573467bbf0b1ba3bd8',1,'ComPWA::IntegerParameter::err_()'],['../dd/d6e/classComPWA_1_1BoolParameter.html#abb5cdac298a0b31427bd558b5b60823b',1,'ComPWA::BoolParameter::err_()']]],
-  ['errordef',['errorDef',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a2921bfb49e652d921d45f61e5c4e1a92',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['errordef',['errorDef',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#a56850855db51ddd8aa5f6cc008de8668',1,'ComPWA::Optimizer::Geneva::GenevaResult::errorDef()'],['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a2921bfb49e652d921d45f61e5c4e1a92',1,'ComPWA::Optimizer::Minuit2::MinuitResult::errorDef()']]],
   ['errorhigh',['errorHigh',['../d1/d81/classComPWA_1_1DoubleParameter.html#a55a451c14ea368d049ddefcc947f4db1',1,'ComPWA::DoubleParameter']]],
   ['errorlow',['errorLow',['../d1/d81/classComPWA_1_1DoubleParameter.html#a14ef6edf795c1b85423f55370278613d',1,'ComPWA::DoubleParameter']]],
   ['errortype',['errorType',['../d1/d81/classComPWA_1_1DoubleParameter.html#a7bbe0a0cc6c572cba7096d6f42b9cc87',1,'ComPWA::DoubleParameter::errorType()'],['../db/dce/Parameter_8hpp.html#ab0df38968e4f03a3f1f6d6df0f31f45a',1,'ErrorType():&#160;Parameter.hpp']]],

@@ -55,7 +55,7 @@ var searchData=
   ['treenode_2ehpp',['TreeNode.hpp',['../df/d5a/TreeNode_8hpp.html',1,'']]],
   ['treetestapp_2ecpp',['TreeTestApp.cpp',['../d3/d0c/TreeTestApp_8cpp.html',1,'']]],
   ['trimstring',['trimString',['../d8/d6e/classComPWA_1_1TableFormater.html#a6be6d5935b4ea40811518f1d5c5601af',1,'ComPWA::TableFormater']]],
-  ['truelh',['trueLH',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#aacc5ad43b5f7105da5c7a9cf923cc15c',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['truelh',['trueLH',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#af66e5c77639fa896a3ef4a4bc339638c',1,'ComPWA::Optimizer::Geneva::GenevaResult::trueLH()'],['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#aacc5ad43b5f7105da5c7a9cf923cc15c',1,'ComPWA::Optimizer::Minuit2::MinuitResult::trueLH()']]],
   ['trueparameters',['trueParameters',['../d7/d8a/classComPWA_1_1FitResult.html#a0c3574d2a9e0f0a77bf6f1395f2b7497',1,'ComPWA::FitResult']]],
   ['ttriplesliderdemo',['TTripleSliderDemo',['../d1/d13/classTTripleSliderDemo.html',1,'TTripleSliderDemo'],['../d1/d13/classTTripleSliderDemo.html#abd4379a9e476d5e20719d11bf4dd93eb',1,'TTripleSliderDemo::TTripleSliderDemo()']]],
   ['ttriplesliderdemo_2ehpp',['TTripleSliderDemo.hpp',['../d0/d29/TTripleSliderDemo_8hpp.html',1,'']]],

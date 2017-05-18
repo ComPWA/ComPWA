@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calcfractionerror',['calcFractionError',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#a1773b8cbfa80c8ce3881fd81159aae7e',1,'ComPWA::Optimizer::Geneva::GenevaResult::calcFractionError()'],['../d5/d4e/namespaceComPWA_1_1Tools.html#ad10fe8293b2f99a8b13830288b02b7cd',1,'ComPWA::Tools::CalcFractionError()']]],
+  ['calcfractionerror',['CalcFractionError',['../d5/d4e/namespaceComPWA_1_1Tools.html#ad10fe8293b2f99a8b13830288b02b7cd',1,'ComPWA::Tools']]],
   ['calcsumofweights',['CalcSumOfWeights',['../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ad0d6c61b1180e5d28d734036c24eec9a',1,'ComPWA::Estimator::MinLogLH']]],
   ['calculateabsolutepositionfrompadbottom',['calculateAbsolutePositionFromPadBottom',['../d7/dfa/namespaceNeatPlotting.html#a47808df369effa3e4db314e89a983436',1,'NeatPlotting']]],
   ['calculateabsolutepositionfrompadleft',['calculateAbsolutePositionFromPadLeft',['../d7/dfa/namespaceNeatPlotting.html#a47fde70b4932de742aea324a666aa76d',1,'NeatPlotting']]],
