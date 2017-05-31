@@ -1,0 +1,63 @@
+unchanged:
+--- relativistic-quantum-mechanics/Spin.h	2014-11-10 18:40:41.468026160 +0100
++++ relativistic-quantum-mechanics/Spin-new.h	2014-11-10 18:43:51.317026254 +0100
+@@ -23,6 +23,7 @@
+ #include <iostream>
+ #include <cassert>
+ #include <cmath>
++#include <cstdlib>
+ 
+ using namespace std;
+ //_____________________________________________________________________________
+unchanged:
+--- c++-template-utils/OperationType.h	2014-11-11 17:19:17.312310041 +0100
++++ c++-template-utils/OperationType_new.h	2014-11-11 17:18:35.035310104 +0100
+@@ -45,7 +45,7 @@
+   static _U _u_type;
+ 
+ public:
+-  typedef typeof(_v_type * _u_type) Type; ///< Return type of V * U
++  typedef decltype(_v_type * _u_type) Type; ///< Return type of V * U
+ };
+ //_____________________________________________________________________________
+ 
+@@ -66,7 +66,7 @@
+   static _U _u_type;
+  
+ public:
+-  typedef typeof(_v_type / _u_type) Type; ///< Return type of V / U
++  typedef decltype(_v_type / _u_type) Type; ///< Return type of V / U
+ };
+ //_____________________________________________________________________________
+ 
+@@ -87,7 +87,7 @@
+   static _U _u_type;
+  
+ public:
+-  typedef typeof(_v_type + _u_type) Type; ///< Return type of V + U
++  typedef decltype(_v_type + _u_type) Type; ///< Return type of V + U
+ };
+ //_____________________________________________________________________________
+ 
+@@ -108,7 +108,7 @@
+   static _U _u_type;
+  
+ public:
+-  typedef typeof(_v_type - _u_type) Type; ///< Return type of V - U
++  typedef decltype(_v_type - _u_type) Type; ///< Return type of V - U
+ };
+ //_____________________________________________________________________________
+ 
+only in patch2:
+unchanged:
+--- Module.mk	2014-11-13 12:01:53.951005342 +0100
++++ Module_new.mk	2014-11-13 12:01:41.603001937 +0100
+@@ -8,7 +8,7 @@
+ #
+ LD    = g++ 
+ CC    = gcc
+-FLAGS = -O2 -fPIC -Wall 
++FLAGS = -O2 -fPIC -Wall -std=c++0x
+ #
+ # commands
+ #
