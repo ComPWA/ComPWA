@@ -29,7 +29,7 @@ var searchData=
   ['operator_3e_3e',['operator&gt;&gt;',['../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html#a2067e6bf7a7e14b0fbc5c1e387a9eab2',1,'ComPWA::Physics::QFT::Tensor']]],
   ['operator_5b_5d',['operator[]',['../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html#a9e62de2e879695f35a361e8783c98c58',1,'ComPWA::Physics::QFT::Tensor::operator[](int __entry) const '],['../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html#a833b724011bf8f14a394201b2c74a77b',1,'ComPWA::Physics::QFT::Tensor::operator[](int __entry)'],['../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html#a51b7dc88248a4e2fa7693bf1ec5c3299',1,'ComPWA::Physics::QFT::TensorIndex::operator[]()']]],
   ['operator_7c',['operator|',['../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html#a894d493ea69222d2b999cdc94db85232',1,'ComPWA::Physics::QFT::Tensor']]],
-  ['opti_5f',['opti_',['../dc/dfe/classPythonFit.html#abe4604e7a49ec957ac5969c5313ef7f2',1,'PythonFit::opti_()'],['../dc/dff/classComPWA_1_1RunManager.html#a7a69409af891b5af1d5f392b8a029b96',1,'ComPWA::RunManager::opti_()']]],
+  ['opti_5f',['opti_',['../dc/dff/classComPWA_1_1RunManager.html#a7a69409af891b5af1d5f392b8a029b96',1,'ComPWA::RunManager']]],
   ['optimizer',['Optimizer',['../d1/dc4/classOptimizer.html',1,'Optimizer'],['../df/dcb/classComPWA_1_1Optimizer_1_1Optimizer.html#a2726f12f9cf8e43ba887b75ded37de90',1,'ComPWA::Optimizer::Optimizer::Optimizer()']]],
   ['optimizer',['Optimizer',['../df/dcb/classComPWA_1_1Optimizer_1_1Optimizer.html',1,'ComPWA::Optimizer']]],
   ['optimizer_2ehpp',['Optimizer.hpp',['../db/d93/Optimizer_8hpp.html',1,'']]],
