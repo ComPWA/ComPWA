@@ -1,8 +1,8 @@
 var searchData=
 [
   ['undefined',['UNDEFINED',['../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a49196cf6b2f99d9d4e9e2463a156c690',1,'ComPWA']]],
-  ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html',1,'ComPWA::Tools']]],
   ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html#a6adaecaa530fd653111dae37c13f8376',1,'ComPWA::Tools::UniformTwoBodyGenerator']]],
+  ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html',1,'ComPWA::Tools']]],
   ['unique_5fid_5f',['unique_id_',['../d3/d33/structComPWA_1_1ParticleStateInfo.html#aec087e00eed32cdaa8bde9a2e2c7bf85',1,'ComPWA::ParticleStateInfo']]],
   ['unitamp',['UnitAmp',['../d0/d97/classComPWA_1_1UnitAmp.html',1,'ComPWA']]],
   ['unitamp',['UnitAmp',['../d0/d97/classComPWA_1_1UnitAmp.html#a76282019d3c074cfa42ece35c184e2b6',1,'ComPWA::UnitAmp']]],
@@ -11,7 +11,7 @@ var searchData=
   ['unitefficiency',['UnitEfficiency',['../df/dce/classComPWA_1_1UnitEfficiency.html#ac432d19c01e31656459eee9a6b5575d1',1,'ComPWA::UnitEfficiency']]],
   ['unity',['unity',['../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a2b583866214b261b295e97359e9002f5',1,'ComPWA::Physics::QFT::unity(const _Tp &amp;__var)'],['../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#adeac1a044289fe6ad18bfa185558209c',1,'ComPWA::Physics::QFT::unity(const Tensor&lt; T &gt; &amp;__tensor)']]],
   ['up',['Up',['../dd/d13/classROOT_1_1Minuit2_1_1MinuitFcn.html#a66f3013fdbc34077352fe8add6620d60',1,'ROOT::Minuit2::MinuitFcn']]],
-  ['update',['Update',['../d7/d61/classComPWA_1_1ParObserver.html#ae273a0e37415838cf490fffcb1504414',1,'ComPWA::ParObserver::Update()'],['../da/da8/classComPWA_1_1TreeNode.html#a872026c5ced70441b7105d5118042d21',1,'ComPWA::TreeNode::Update()'],['../dc/db5/classComPWA_1_1progressBar.html#a83e6567441f74ba97e59eb232eee39ea',1,'ComPWA::progressBar::update()']]],
+  ['update',['update',['../dc/db5/classComPWA_1_1progressBar.html#a83e6567441f74ba97e59eb232eee39ea',1,'ComPWA::progressBar::update()'],['../d7/d61/classComPWA_1_1ParObserver.html#ae273a0e37415838cf490fffcb1504414',1,'ComPWA::ParObserver::Update()'],['../da/da8/classComPWA_1_1TreeNode.html#a872026c5ced70441b7105d5118042d21',1,'ComPWA::TreeNode::Update()']]],
   ['updateall',['UpdateAll',['../d3/de1/classComPWA_1_1FunctionTree.html#ad5c8f128daf9f65f57b551571c45d1ca',1,'ComPWA::FunctionTree']]],
   ['updateinterval',['updateInterval',['../dc/db5/classComPWA_1_1progressBar.html#a89c2306e0e4e472807f347a2d56b164a',1,'ComPWA::progressBar']]],
   ['updatepar',['updatePar',['../dd/d14/classGem_1_1Geneva_1_1GStartIndividual.html#ac2ac897d51fe7395d32f2e5dd59bd87b',1,'Gem::Geneva::GStartIndividual']]],
@@ -23,5 +23,6 @@ var searchData=
   ['usebounds_5f',['usebounds_',['../da/dd8/classComPWA_1_1ComplexParameter.html#a41b64c1c9791f7279375b6e00f082f20',1,'ComPWA::ComplexParameter::usebounds_()'],['../d2/d19/classComPWA_1_1IntegerParameter.html#abc8c3544fad30b8bfba917a45f9fa0b8',1,'ComPWA::IntegerParameter::usebounds_()'],['../dd/d6e/classComPWA_1_1BoolParameter.html#ac1cda1b736ab637e7c20cd06a380ad4c',1,'ComPWA::BoolParameter::usebounds_()']]],
   ['useefficiencycorrection',['UseEfficiencyCorrection',['../da/d41/classplotData.html#a270d04e5e01bb382758f39986940dc85',1,'plotData::UseEfficiencyCorrection(bool s)'],['../da/d41/classplotData.html#a270d04e5e01bb382758f39986940dc85',1,'plotData::UseEfficiencyCorrection(bool s)']]],
   ['usefunctiontree',['UseFunctionTree',['../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a604fefcb130e696c37d68a088a7354ef',1,'ComPWA::Estimator::MinLogLH']]],
+  ['usegeneva',['useGeneva',['../dc/dfe/classPythonFit.html#a5b1b7cfb2ce33e0a56bf323f72d09869',1,'PythonFit']]],
   ['usez',['UseZ',['../d4/d1a/classComPWA_1_1Spin.html#afe4af9757a54fd95665a0e87c0bb1cbe',1,'ComPWA::Spin']]]
 ];

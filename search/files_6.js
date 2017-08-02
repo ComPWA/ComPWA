@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gaussamp_2ehpp',['GaussAmp.hpp',['../d8/dec/GaussAmp_8hpp.html',1,'']]],
   ['gendalitzapp_2ecpp',['GenDalitzApp.cpp',['../d1/d93/GenDalitzApp_8cpp.html',1,'']]],
   ['generator_2ehpp',['Generator.hpp',['../df/d33/Generator_8hpp.html',1,'']]],
   ['genevaif_2ecpp',['GenevaIF.cpp',['../db/d24/GenevaIF_8cpp.html',1,'']]],

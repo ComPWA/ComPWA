@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['name',['Name',['../db/df8/classComPWA_1_1AmpIntensity.html#acc6937a144756e413282bc9c161c2883',1,'ComPWA::AmpIntensity']]],
   ['ncalls',['nCalls',['../d5/df9/classComPWA_1_1ControlParameter.html#a31cc3ccf26489a5c83666058916c05f8',1,'ComPWA::ControlParameter']]],
   ['needscalculation',['needsCalculation',['../da/da8/classComPWA_1_1TreeNode.html#a0ca4423917b71a397419eb40587e78d0',1,'ComPWA::TreeNode']]],
   ['next',['Next',['../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#ad62cff84b4eeae73e947474ee1ea4301',1,'ComPWA::Tools::IntegralByQuadrature']]],

@@ -44,7 +44,6 @@ var searchData=
   ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html#ad962d16fc7fbf2e4c9521518d37b4ad7',1,'ComPWA::ampInfo']]],
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html',1,'ComPWA']]],
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html#a1dba5739e800e19897749c435ee6c7ea',1,'ComPWA::AmpIntensity']]],
-  ['ampintensity_2ecpp',['AmpIntensity.cpp',['../d5/dca/AmpIntensity_8cpp.html',1,'']]],
   ['ampintensity_2ehpp',['AmpIntensity.hpp',['../dc/dfd/AmpIntensity_8hpp.html',1,'']]],
   ['ampitr',['ampItr',['../d8/d14/namespaceComPWA_1_1Physics.html#a0930b349fe8acc1e70fcbf0365cc1a07',1,'ComPWA::Physics']]],
   ['amplitude',['Amplitude',['../d9/d3e/classAmplitude.html',1,'Amplitude'],['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a33703346dad9607f28c1cc8148317c68',1,'ComPWA::Physics::Amplitude::Amplitude()'],['../d9/d54/structComPWA_1_1ampInfo.html#a0b9d5a33f84f48bd18609266ffbe1ae0',1,'ComPWA::ampInfo::amplitude()']]],
@@ -83,8 +82,8 @@ var searchData=
   ['axis_5flabel_5ftext_5foffset',['axis_label_text_offset',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#ae24c62dcf4b28cfe9e50dd3eef3bc9c9',1,'NeatPlotting::AxisStyle']]],
   ['axis_5ftext_5fstyle',['axis_text_style',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a7e2c93ff636cff578412afe17bdf5287',1,'NeatPlotting::AxisStyle']]],
   ['axis_5ftitle_5ftext_5foffset',['axis_title_text_offset',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a0fa6a83ef72bd799d0481b8b53dbfb9d',1,'NeatPlotting::AxisStyle']]],
-  ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html#a87af3635d3a1de88d1f32ca853bcd6bd',1,'NeatPlotting::AxisRange::AxisRange()'],['../da/d81/structNeatPlotting_1_1AxisRange.html#a9633ff4d804fef48c0f2cdb9f4269499',1,'NeatPlotting::AxisRange::AxisRange(double low_, double high_)']]],
   ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html',1,'NeatPlotting']]],
-  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]],
-  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a06f2031a1ca237d6f0679f1f46de154e',1,'NeatPlotting::AxisStyle']]]
+  ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html#a87af3635d3a1de88d1f32ca853bcd6bd',1,'NeatPlotting::AxisRange::AxisRange()'],['../da/d81/structNeatPlotting_1_1AxisRange.html#a9633ff4d804fef48c0f2cdb9f4269499',1,'NeatPlotting::AxisRange::AxisRange(double low_, double high_)']]],
+  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html#a06f2031a1ca237d6f0679f1f46de154e',1,'NeatPlotting::AxisStyle']]],
+  ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]]
 ];

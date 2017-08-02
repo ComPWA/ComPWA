@@ -36,7 +36,7 @@ var searchData=
   ['intensitynonorm',['IntensityNoNorm',['../d0/daa/classComPWA_1_1GaussAmp.html#ade8f0a24c1d6fb8f475f93af146e634a',1,'ComPWA::GaussAmp::IntensityNoNorm()'],['../d0/d97/classComPWA_1_1UnitAmp.html#a3b89b8ded7fd264be9f70f5bd3bb8af1',1,'ComPWA::UnitAmp::IntensityNoNorm()']]],
   ['introduce',['introduce',['../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e',1,'ComPWA::Dictionary::introduce(std::shared_ptr&lt; DataReader::Data &gt; inData, std::string inName=&quot;&quot;)'],['../de/de9/classComPWA_1_1Dictionary.html#a3ec01464ab0eb785302f5ed6c1c1a2ec',1,'ComPWA::Dictionary::introduce(std::shared_ptr&lt; AmpIntensity &gt; inAmp, std::string inName=&quot;&quot;)']]],
   ['invariantmass',['InvariantMass',['../dc/d50/classComPWA_1_1Particle.html#a7990167d0f3fb1179d284cbe0da4cf22',1,'ComPWA::Particle']]],
-  ['inverse',['inverse',['../dc/d06/classCorrectionTable.html#a5595cef6131fc3f7778d3c395bab90c6',1,'CorrectionTable::inverse()'],['../d7/d64/classComPWA_1_1Inverse.html#a32e899365ef9ea63e455ff4e8faa1bc3',1,'ComPWA::Inverse::Inverse()']]],
+  ['inverse',['Inverse',['../d7/d64/classComPWA_1_1Inverse.html#a32e899365ef9ea63e455ff4e8faa1bc3',1,'ComPWA::Inverse::Inverse()'],['../dc/d06/classCorrectionTable.html#a5595cef6131fc3f7778d3c395bab90c6',1,'CorrectionTable::inverse()']]],
   ['inverse',['Inverse',['../d7/d64/classComPWA_1_1Inverse.html',1,'ComPWA']]],
   ['inverseerror',['inverseError',['../dc/d06/classCorrectionTable.html#a2ab54f86b7ada432d25dbc2bed50b4c8',1,'CorrectionTable']]],
   ['ip',['ip',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a66682bafcc570f483680b5f9dcf4db90',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
