@@ -1,7 +1,6 @@
 var searchData=
 [
   ['calcinterference',['calcInterference',['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a645961521969f7af7a93c0ccd25616bc',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
-  ['calls',['calls',['../d5/df9/classComPWA_1_1ControlParameter.html#a91bf6c3907c0a3c3607f6635ecf4a2f0',1,'ComPWA::ControlParameter']]],
   ['charge',['charge',['../dc/d50/classComPWA_1_1Particle.html#a973ab8048e3526d4ad7d59b79b9bbaeb',1,'ComPWA::Particle']]],
   ['checktype',['checkType',['../d3/df8/classComPWA_1_1Strategy.html#ab1f34dec13f17c4cf68d1e15bec90094',1,'ComPWA::Strategy']]],
   ['clientmode',['clientMode',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a3a9c9eb6c75b30368473e61bc93fd907',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],

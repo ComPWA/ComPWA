@@ -167,11 +167,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a57dd32c4cad41d7497979ab92e7dd5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">String used to display tree.  <a href="#a57dd32c4cad41d7497979ab92e7dd5f7">More...</a><br/></td></tr>
 <tr class="separator:a57dd32c4cad41d7497979ab92e7dd5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad880c039fd27943a3247483438f5ea60"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html#ad880c039fd27943a3247483438f5ea60">getChildNode</a> (std::string name) const </td></tr>
+<tr class="memdesc:ad880c039fd27943a3247483438f5ea60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Node of tree We go recursively through the tree to find the specified node and return a shared_ptr of it.  <a href="#ad880c039fd27943a3247483438f5ea60">More...</a><br/></td></tr>
 <tr class="separator:ad880c039fd27943a3247483438f5ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2554ba318b088eb0d5cd38863b29d5a4"><td class="memItemLeft" align="right" valign="top">virtual std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html#a2554ba318b088eb0d5cd38863b29d5a4">getChildSingleValue</a> (std::string name) const </td></tr>
+<tr class="memdesc:a2554ba318b088eb0d5cd38863b29d5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return value of certain child node We go recursively through out tree to find the specified node and return its value.  <a href="#a2554ba318b088eb0d5cd38863b29d5a4">More...</a><br/></td></tr>
 <tr class="separator:a2554ba318b088eb0d5cd38863b29d5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51e7307bfadfe3ceba92ff74c9ea742"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html">AbsParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html#ac51e7307bfadfe3ceba92ff74c9ea742">getChildValue</a> (std::string name) const </td></tr>
+<tr class="memdesc:ac51e7307bfadfe3ceba92ff74c9ea742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return vector of values of certain child node We go recursively through out tree to find the specified node and the vector of its contents.  <a href="#ac51e7307bfadfe3ceba92ff74c9ea742">More...</a><br/></td></tr>
 <tr class="separator:ac51e7307bfadfe3ceba92ff74c9ea742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aefaa86693e17ce934feaa54d0939db"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html#a4aefaa86693e17ce934feaa54d0939db">print</a> (unsigned int lv=-1)</td></tr>
 <tr class="memdesc:a4aefaa86693e17ce934feaa54d0939db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print structure of tree and its values.  <a href="#a4aefaa86693e17ce934feaa54d0939db">More...</a><br/></td></tr>
@@ -207,7 +210,10 @@ Friends</h2></td></tr>
 <tr class="memdesc:a69c686d62590150593ef91e66973a2ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream-Operator used to display tree.  <a href="#a69c686d62590150593ef91e66973a2ba">More...</a><br/></td></tr>
 <tr class="separator:a69c686d62590150593ef91e66973a2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a6dd9e3ced37598eef4613b92a5a5dc7e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -246,6 +252,8 @@ Friends</h2></td></tr>
 
 <p>Standard constructor. </p>
 <p>Standard constructor for one dimensional tree using a string the identifying name /param name unique name of this node /param intResult start value of node /param strat strategy how this node is calculated /param parent pointer to connected upper level node </p>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -288,6 +296,8 @@ Friends</h2></td></tr>
 <p>Standard constructor. </p>
 <p>Standard constructor for multi-dimensional tree using a string the identifying name /param name unique name of this node /param intResult start value of node /param strat strategy how this node is calculated /param parent pointer to connected upper level node </p>
 
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a138449d182c342d032c78e7037afc151"></a>
@@ -304,6 +314,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -332,6 +344,8 @@ Friends</h2></td></tr>
 
 <p>Add link to children list. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2b8e818a5a216d379175bcb255199d69"></a>
@@ -358,6 +372,8 @@ Friends</h2></td></tr>
 
 <p>Add link to parents list. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ae3e6424e631cdb33e012774ff8f722a2"></a>
@@ -374,6 +390,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>delete children &amp; parent pointer </p>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -398,7 +416,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return Node of tree We go recursively through the tree to find the specified node and return a shared_ptr of it</p>
+
+<p>Return Node of tree We go recursively through the tree to find the specified node and return a shared_ptr of it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>node specifier </td></tr>
@@ -406,6 +425,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>pointer to node </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00178">178</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -431,6 +452,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return children pointer </p>
+
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -458,6 +481,8 @@ Friends</h2></td></tr>
 
 <p>return children names </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2554ba318b088eb0d5cd38863b29d5a4"></a>
@@ -481,7 +506,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return value of certain child node We go recursively through out tree to find the specified node and return its value. In case of a node with multiple values we return the first one. Currently we assume that the variable is a std::complex&lt;double&gt; or can be converted to it.</p>
+
+<p>Return value of certain child node We go recursively through out tree to find the specified node and return its value. </p>
+<p>In case of a node with multiple values we return the first one. Currently we assume that the variable is a std::complex&lt;double&gt; or can be converted to it.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>node specifier </td></tr>
@@ -489,6 +516,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>current value of node </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00213">213</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +542,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return vector of values of certain child node We go recursively through out tree to find the specified node and the vector of its contents. In cast the nodes doesn't have multiple values with return a vector of the size 1.</p>
+
+<p>Return vector of values of certain child node We go recursively through out tree to find the specified node and the vector of its contents. </p>
+<p>In cast the nodes doesn't have multiple values with return a vector of the size 1.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>node specifier </td></tr>
@@ -521,6 +552,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>current vector of values of node </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00193">193</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -547,6 +580,8 @@ Friends</h2></td></tr>
 
 <p>Get dimension. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00088">88</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a6147e86369392a2c7e9c79a96954bbb6"></a>
@@ -571,6 +606,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get node name. </p>
+
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -598,6 +635,8 @@ Friends</h2></td></tr>
 
 <p>return parents names </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00105">105</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a026439425bf3b46244b5131ea3518f84"></a>
@@ -624,6 +663,8 @@ Friends</h2></td></tr>
 
 <p>Get pointer to node value. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1af8d14e086ac6261fbf6203fe0aea21"></a>
@@ -648,6 +689,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add this node to parents children-list. </p>
+
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00068">68</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -674,6 +717,8 @@ Friends</h2></td></tr>
 
 <p>Check if recalculation is needed. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00074">74</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4aefaa86693e17ce934feaa54d0939db"></a>
@@ -698,6 +743,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1cb62ea6c5b011f4c0c1f3eb49217c9f"></a>
@@ -714,6 +761,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Trigger recalculation. </p>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -750,6 +799,8 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a872026c5ced70441b7105d5118042d21"></a>
@@ -776,6 +827,8 @@ Friends</h2></td></tr>
 <p>Trigger flagged to be recalculated. </p>
 
 <p>Implements <a class="el" href="../../d7/d61/classComPWA_1_1ParObserver.html#ae273a0e37415838cf490fffcb1504414">ComPWA::ParObserver</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -814,6 +867,8 @@ Friends</h2></td></tr>
 
 <p>Stream-Operator used to display tree. </p>
 
+<p>Definition at line <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html#l00240">240</a> of file <a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -837,6 +892,8 @@ Friends</h2></td></tr>
 
 <p>flag if node needs recalculation </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00179">179</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab1db50a095b2b9350780a0d9e43fb35c"></a>
@@ -858,6 +915,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Link to children. </p>
+
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00175">175</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -881,6 +940,8 @@ Friends</h2></td></tr>
 
 <p>Unique name of this node. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00178">178</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8326790d1a2379d92d6f3f5dfa324d50"></a>
@@ -902,6 +963,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Link to parents. </p>
+
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00174">174</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -925,6 +988,8 @@ Friends</h2></td></tr>
 
 <p><a class="el" href="../../d3/df8/classComPWA_1_1Strategy.html">Strategy</a> how node calculates its value. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00182">182</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1932bbf168ef87acaad6cb282ee2e0da"></a>
@@ -947,16 +1012,18 @@ Friends</h2></td></tr>
 
 <p>Value of this node. </p>
 
+<p>Definition at line <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html#l00177">177</a> of file <a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../df/d5a/TreeNode_8hpp_source.html">TreeNode.hpp</a></li>
-<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../d3/d71/TreeNode_8cpp.html">TreeNode.cpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../d3/d71/TreeNode_8cpp_source.html">TreeNode.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 7 2017 10:55:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 11:26:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

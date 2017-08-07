@@ -37,34 +37,35 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../db/d37/classComPWA_1_1Kinematics.html" target="_top" xlink:title="{ComPWA::Kinematics\n|# _initialState\l# _finalState\l# _varNames\l# _varTitles\l# is_PS_area_calculated_\l# PS_area_\l|+ Kinematics()\l+ Kinematics()\l+ EventToDataPoint()\l+ IsWithinPhsp()\l+ GetPhspVolume()\l+ SetPhspVolume()\l+ GetNVars()\l+ GetFinalState()\l+ GetInitialState()\l# calculatePSArea()\l}">
-<polygon fill="white" stroke="black" points="0,-305.5 0,-516.5 130,-516.5 130,-305.5 0,-305.5"/>
-<text text-anchor="middle" x="65" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Kinematics</text>
-<polyline fill="none" stroke="black" points="0,-497.5 130,-497.5 "/>
-<text text-anchor="start" x="8" y="-485.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _initialState</text>
-<text text-anchor="start" x="8" y="-474.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalState</text>
-<text text-anchor="start" x="8" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _varNames</text>
-<text text-anchor="start" x="8" y="-452.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _varTitles</text>
-<text text-anchor="start" x="8" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00"># is_PS_area_calculated_</text>
-<text text-anchor="start" x="8" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00"># PS_area_</text>
-<polyline fill="none" stroke="black" points="0,-423.5 130,-423.5 "/>
-<text text-anchor="start" x="8" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Kinematics()</text>
-<text text-anchor="start" x="8" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Kinematics()</text>
-<text text-anchor="start" x="8" y="-389.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EventToDataPoint()</text>
-<text text-anchor="start" x="8" y="-378.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinPhsp()</text>
-<text text-anchor="start" x="8" y="-367.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetPhspVolume()</text>
-<text text-anchor="start" x="8" y="-356.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetPhspVolume()</text>
-<text text-anchor="start" x="8" y="-345.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNVars()</text>
-<text text-anchor="start" x="8" y="-334.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalState()</text>
-<text text-anchor="start" x="8" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetInitialState()</text>
-<text text-anchor="start" x="8" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00"># calculatePSArea()</text>
+<g id="a_node2"><a xlink:href="../../db/d37/classComPWA_1_1Kinematics.html" target="_top" xlink:title="{ComPWA::Kinematics\n|# _initialState\l# _finalState\l# _varNames\l# _varTitles\l# is_PS_area_calculated_\l# PS_area_\l|+ Kinematics()\l+ Kinematics()\l+ EventToDataPoint()\l+ IsWithinPhsp()\l+ GetPhspVolume()\l+ SetPhspVolume()\l+ GetNVars()\l+ GetFinalState()\l+ GetInitialState()\l+ GetDataID()\l# calculatePSArea()\l}">
+<polygon fill="white" stroke="black" points="0,-300 0,-522 130,-522 130,-300 0,-300"/>
+<text text-anchor="middle" x="65" y="-510" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Kinematics</text>
+<polyline fill="none" stroke="black" points="0,-503 130,-503 "/>
+<text text-anchor="start" x="8" y="-491" font-family="Helvetica,sans-Serif" font-size="10.00"># _initialState</text>
+<text text-anchor="start" x="8" y="-480" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalState</text>
+<text text-anchor="start" x="8" y="-469" font-family="Helvetica,sans-Serif" font-size="10.00"># _varNames</text>
+<text text-anchor="start" x="8" y="-458" font-family="Helvetica,sans-Serif" font-size="10.00"># _varTitles</text>
+<text text-anchor="start" x="8" y="-447" font-family="Helvetica,sans-Serif" font-size="10.00"># is_PS_area_calculated_</text>
+<text text-anchor="start" x="8" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00"># PS_area_</text>
+<polyline fill="none" stroke="black" points="0,-429 130,-429 "/>
+<text text-anchor="start" x="8" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">+ Kinematics()</text>
+<text text-anchor="start" x="8" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">+ Kinematics()</text>
+<text text-anchor="start" x="8" y="-395" font-family="Helvetica,sans-Serif" font-size="10.00">+ EventToDataPoint()</text>
+<text text-anchor="start" x="8" y="-384" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinPhsp()</text>
+<text text-anchor="start" x="8" y="-373" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetPhspVolume()</text>
+<text text-anchor="start" x="8" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetPhspVolume()</text>
+<text text-anchor="start" x="8" y="-351" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNVars()</text>
+<text text-anchor="start" x="8" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalState()</text>
+<text text-anchor="start" x="8" y="-329" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetInitialState()</text>
+<text text-anchor="start" x="8" y="-318" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetDataID()</text>
+<text text-anchor="start" x="8" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00"># calculatePSArea()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M93.9466,-295.018C98.0644,-278.661 102.31,-261.795 106.457,-245.322"/>
-<polygon fill="none" stroke="midnightblue" points="90.4486,-294.576 91.4013,-305.128 97.2368,-296.285 90.4486,-294.576"/>
+<path fill="none" stroke="midnightblue" d="M95.1845,-290.1C98.9351,-275.202 102.772,-259.96 106.527,-245.045"/>
+<polygon fill="none" stroke="midnightblue" points="91.7814,-289.282 92.7341,-299.834 98.5696,-290.991 91.7814,-289.282"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f',['f',['../d5/df9/classComPWA_1_1ControlParameter.html#ac881ccfece7261edd1d37d232d52cbc3',1,'ComPWA::ControlParameter']]],
+  ['f',['f',['../dc/d1d/classComPWA_1_1IEstimator.html#a5f32199ba3cfc3c48779c7fb27a83570',1,'ComPWA::IEstimator']]],
   ['farsum',['fArSum',['../d1/d13/classTTripleSliderDemo.html#a45489bc1c86a157e18ceb700768c7cc1',1,'TTripleSliderDemo']]],
   ['fbfly1',['fBfly1',['../d1/d13/classTTripleSliderDemo.html#a5f43b8bd0c4c7ed95a269adb3474fd1d',1,'TTripleSliderDemo']]],
   ['fbfly2',['fBfly2',['../d1/d13/classTTripleSliderDemo.html#aeab769f83d67467fff908691025eb993',1,'TTripleSliderDemo']]],

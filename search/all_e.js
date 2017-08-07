@@ -4,7 +4,7 @@ var searchData=
   ['name_5f',['name_',['../d1/dfc/classComPWA_1_1AbsParameter.html#acc4786a3879bd8f3bf9d2f73abd876fc',1,'ComPWA::AbsParameter::name_()'],['../dd/dd0/structComPWA_1_1IDInfo.html#a06f414804e452eaea113d59ae71630dd',1,'ComPWA::IDInfo::name_()']]],
   ['nbins',['nBins',['../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696',1,'nBins():&#160;DalitzDataPlotterApp.cpp'],['../d6/d9a/SliceFitApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696',1,'nBins():&#160;SliceFitApp.cpp'],['../d3/dbc/SliceFitRANDApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696',1,'nBins():&#160;SliceFitRANDApp.cpp'],['../d9/de4/SliceFitUBApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696',1,'nBins():&#160;SliceFitUBApp.cpp']]],
   ['nbins_5f',['nBins_',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e',1,'ComPWA::Estimator::SliceFit::SliceFit::nBins_()'],['../de/d7c/classComPWA_1_1Estimator_1_1SliceFitUB_1_1SliceFitUB.html#ae4d838caf3442bac028f99e968a68430',1,'ComPWA::Estimator::SliceFitUB::SliceFitUB::nBins_()']]],
-  ['ncalls',['nCalls',['../d5/df9/classComPWA_1_1ControlParameter.html#a31cc3ccf26489a5c83666058916c05f8',1,'ComPWA::ControlParameter']]],
+  ['ncalls',['nCalls',['../dc/d1d/classComPWA_1_1IEstimator.html#a3e10aa41c8a02a7e0bb3f3fe5e73b662',1,'ComPWA::IEstimator']]],
   ['ndays',['nDays',['../de/dbe/BlackScholesApp_8cpp.html#a984f8268dfef5966e08683493df0aae2',1,'BlackScholesApp.cpp']]],
   ['neatplotting',['NeatPlotting',['../d7/dfa/namespaceNeatPlotting.html',1,'']]],
   ['needscalculation',['needsCalculation',['../da/da8/classComPWA_1_1TreeNode.html#a0ca4423917b71a397419eb40587e78d0',1,'ComPWA::TreeNode']]],

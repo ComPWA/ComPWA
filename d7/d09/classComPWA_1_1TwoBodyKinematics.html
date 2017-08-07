@@ -93,7 +93,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../dd/d77/classComPWA_1_1TwoBodyKinematics-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ComPWA::TwoBodyKinematics Class Reference</div>  </div>
+<div class="title">ComPWA::TwoBodyKinematics Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for ComPWA::TwoBodyKinematics:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddb/classComPWA_1_1TwoBodyKinematics__inherit__graph.svg" width="219" height="699"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddb/classComPWA_1_1TwoBodyKinematics__inherit__graph.svg" width="219" height="715"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -126,6 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa56cf6b2f5fae217ffb080fd7a0a1fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks of data point is within phase space boundaries  <a href="#aa56cf6b2f5fae217ffb080fd7a0a1fbf">More...</a><br/></td></tr>
 <tr class="separator:aa56cf6b2f5fae217ffb080fd7a0a1fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393d7364770cd14faa9797361defc7b9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d09/classComPWA_1_1TwoBodyKinematics.html#a393d7364770cd14faa9797361defc7b9">IsWithinBoxPhsp</a> (int idA, int idB, double varA, double varB) const </td></tr>
+<tr class="memdesc:a393d7364770cd14faa9797361defc7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">! Checks if the position is within the phase-space boundaries.  <a href="#a393d7364770cd14faa9797361defc7b9">More...</a><br/></td></tr>
 <tr class="separator:a393d7364770cd14faa9797361defc7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab727c4a49faffd27315d8128517303c4"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d09/classComPWA_1_1TwoBodyKinematics.html#ab727c4a49faffd27315d8128517303c4">GetNVars</a> () const </td></tr>
 <tr class="memdesc:ab727c4a49faffd27315d8128517303c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of variables.  <a href="#ab727c4a49faffd27315d8128517303c4">More...</a><br/></td></tr>
@@ -145,6 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0041aa5c238f7950a8f6a944c745a61d"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a0041aa5c238f7950a8f6a944c745a61d">GetInitialState</a> ()</td></tr>
 <tr class="memdesc:a0041aa5c238f7950a8f6a944c745a61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inital state.  <a href="#a0041aa5c238f7950a8f6a944c745a61d">More...</a><br/></td></tr>
 <tr class="separator:a0041aa5c238f7950a8f6a944c745a61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61da4116da80cb5aa3489a7363425543"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a61da4116da80cb5aa3489a7363425543">GetDataID</a> (const <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html">ComPWA::SubSystem</a> s)=0</td></tr>
+<tr class="separator:a61da4116da80cb5aa3489a7363425543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -202,7 +205,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a40a39fba6f08544fe461fa8ad18e0abf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a40a39fba6f08544fe461fa8ad18e0abf">PS_area_</a></td></tr>
 <tr class="separator:a40a39fba6f08544fe461fa8ad18e0abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7a7b5bdd3a054ac4478de42a07670154"></a>
 <div class="memitem">
 <div class="memproto">
@@ -233,6 +239,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html#l00007">7</a> of file <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -260,6 +268,8 @@ Protected Attributes</h2></td></tr>
 <p>maximum value of masssq </p>
 
 <p>Implements <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a4dd5e3dc13ae164a4ea81e04195aa281">ComPWA::Kinematics</a>.</p>
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -298,6 +308,8 @@ Protected Attributes</h2></td></tr>
 <p>Converts <a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> to <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a>. </p>
 
 <p>Implements <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a6e21f32a11831ae3e892c927afed7684">ComPWA::Kinematics</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -351,6 +363,34 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61da4116da80cb5aa3489a7363425543"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int ComPWA::Kinematics::GetDataID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html">ComPWA::SubSystem</a>&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ae8dd8b8131f74d43ec4a11bbbb9ca631">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a0713d26c178c7707cda5f56518d2bca5"></a>
@@ -375,6 +415,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get final state. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -401,6 +443,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Get inital state. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="abacb8734ef5a8e24cee4a2e0659174e3"></a>
@@ -426,6 +470,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get mass of particles </p>
+
+<p>Definition at line <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -454,6 +500,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a0d3ae41f14f575f1eee3d9c1872a62d3">ComPWA::Kinematics</a>.</p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab03d0f1f6c01cf76dc0ba5dc248a5fab"></a>
@@ -479,6 +527,8 @@ Protected Attributes</h2></td></tr>
 
 <p>calculated the PHSP volume of the current decay by MC integration </p>
 
+<p>Definition at line <a class="el" href="../../de/d57/Kinematics_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../de/d57/Kinematics_8cpp_source.html">Kinematics.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a571baf0f7abf7477ee4dd31d948414e1"></a>
@@ -493,6 +543,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -539,7 +591,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>! Checks if the position is within the phase-space boundaries. This only works correctly if both variables are orthogonal to each other. E.g. and invariant mass and an angle. </p>
+
+<p>! Checks if the position is within the phase-space boundaries. </p>
+<p>This only works correctly if both variables are orthogonal to each other. E.g. and invariant mass and an angle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">idA</td><td>Variable id of invariant mass </td></tr>
@@ -550,6 +604,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -579,6 +635,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#aadb25c2552af47f322517f699dc8c9f9">ComPWA::Kinematics</a>.</p>
 
+<p>Definition at line <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a40044a9c980d7656e74aae8b83c03f6e"></a>
@@ -605,6 +663,8 @@ Protected Attributes</h2></td></tr>
 
 <p>calculated the PHSP volume of the current decay by MC integration </p>
 
+<p>Definition at line <a class="el" href="../../de/d57/Kinematics_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../de/d57/Kinematics_8cpp_source.html">Kinematics.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -626,6 +686,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00068">68</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa9915afbe6646499cede846e503c9bbb"></a>
@@ -645,6 +707,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00067">67</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -666,6 +730,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a0651a092473d0c69b3e84fed25095ec5"></a>
@@ -685,6 +751,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,6 +776,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Internal names of variabes. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4d5b0a3a9fa4564bb0d53758b510b90c"></a>
@@ -730,6 +800,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Latex titles for variables. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1796882231c3ff7f085ad65a3eb05ca0"></a>
@@ -749,6 +821,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -772,6 +846,8 @@ Protected Attributes</h2></td></tr>
 
 <p>masse squared of daughter 1 </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a083ecb7f605b4ac4fe4cd62619c222c7"></a>
@@ -793,6 +869,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>masse squared of daughter 2 </p>
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00053">53</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -816,6 +894,8 @@ Protected Attributes</h2></td></tr>
 
 <p>minimum value of masssq </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="adb11d2970c59ab95f1755c5662dbcb5d"></a>
@@ -837,6 +917,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>maximum value of masssq </p>
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -860,6 +942,8 @@ Protected Attributes</h2></td></tr>
 
 <p>minimum value of masssq </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a8c1d63a20ff8cb67804192536a5cd4da"></a>
@@ -882,6 +966,8 @@ Protected Attributes</h2></td></tr>
 
 <p>spin of daughter 2 </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00056">56</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab4710dd48d444990ffc1d24ee01cba86"></a>
@@ -901,6 +987,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -924,6 +1012,8 @@ Protected Attributes</h2></td></tr>
 
 <p>spin of daughter 1 </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a40a39fba6f08544fe461fa8ad18e0abf"></a>
@@ -943,6 +1033,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -966,6 +1058,8 @@ Protected Attributes</h2></td></tr>
 
 <p>masses of daughter 1 </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00050">50</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="af403f57c472baf3159c84d1127071b41"></a>
@@ -988,16 +1082,18 @@ Protected Attributes</h2></td></tr>
 
 <p>masses of daughter 2 </p>
 
+<p>Definition at line <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../db/d76/TwoBodyKinematics_8hpp_source.html">TwoBodyKinematics.hpp</a></li>
-<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp.html">TwoBodyKinematics.cpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../dc/d39/TwoBodyKinematics_8cpp_source.html">TwoBodyKinematics.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 7 2017 10:55:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 11:26:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -101,13 +101,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for ComPWA::Kinematics:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dcf/classComPWA_1_1Kinematics__inherit__graph.svg" width="444" height="699"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dcf/classComPWA_1_1Kinematics__inherit__graph.svg" width="444" height="715"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ComPWA::Kinematics:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d8d/classComPWA_1_1Kinematics__coll__graph.svg" width="184" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d8d/classComPWA_1_1Kinematics__coll__graph.svg" width="184" height="310"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -117,6 +117,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a32199d5718da274864f859ea2ba0cbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a32199d5718da274864f859ea2ba0cbff">More...</a><br/></td></tr>
 <tr class="separator:a32199d5718da274864f859ea2ba0cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a524119b6881d7df9ad031cf51b0f621d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a524119b6881d7df9ad031cf51b0f621d">Kinematics</a> (const <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &amp;that)=delete</td></tr>
+<tr class="memdesc:a524119b6881d7df9ad031cf51b0f621d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete copy constructor.  <a href="#a524119b6881d7df9ad031cf51b0f621d">More...</a><br/></td></tr>
 <tr class="separator:a524119b6881d7df9ad031cf51b0f621d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e21f32a11831ae3e892c927afed7684"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a6e21f32a11831ae3e892c927afed7684">EventToDataPoint</a> (const <a class="el" href="../../df/d16/classComPWA_1_1Event.html">ComPWA::Event</a> &amp;ev, <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point) const =0</td></tr>
 <tr class="memdesc:a6e21f32a11831ae3e892c927afed7684"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts <a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> to <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a>  <a href="#a6e21f32a11831ae3e892c927afed7684">More...</a><br/></td></tr>
@@ -139,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0041aa5c238f7950a8f6a944c745a61d"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a0041aa5c238f7950a8f6a944c745a61d">GetInitialState</a> ()</td></tr>
 <tr class="memdesc:a0041aa5c238f7950a8f6a944c745a61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inital state.  <a href="#a0041aa5c238f7950a8f6a944c745a61d">More...</a><br/></td></tr>
 <tr class="separator:a0041aa5c238f7950a8f6a944c745a61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61da4116da80cb5aa3489a7363425543"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a61da4116da80cb5aa3489a7363425543">GetDataID</a> (const <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html">ComPWA::SubSystem</a> s)=0</td></tr>
+<tr class="separator:a61da4116da80cb5aa3489a7363425543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -162,7 +165,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a40a39fba6f08544fe461fa8ad18e0abf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a40a39fba6f08544fe461fa8ad18e0abf">PS_area_</a></td></tr>
 <tr class="separator:a40a39fba6f08544fe461fa8ad18e0abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a32199d5718da274864f859ea2ba0cbff"></a>
 <div class="memitem">
 <div class="memproto">
@@ -197,6 +203,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Constructor. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a524119b6881d7df9ad031cf51b0f621d"></a>
@@ -220,7 +228,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Delete copy constructor. For each <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> in the analysis only one instance should exist since <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> does the bookkeeping for which SubSystems variables needs to be calculated. That instance can then be passed as (smart) pointer. Note: Not sure if we also should delete the move constructor. </p>
+
+<p>Delete copy constructor. </p>
+<p>For each <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> in the analysis only one instance should exist since <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> does the bookkeeping for which SubSystems variables needs to be calculated. That instance can then be passed as (smart) pointer. Note: Not sure if we also should delete the move constructor. </p>
 
 </div>
 </div>
@@ -288,6 +298,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a61da4116da80cb5aa3489a7363425543"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int ComPWA::Kinematics::GetDataID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html">ComPWA::SubSystem</a>&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ae8dd8b8131f74d43ec4a11bbbb9ca631">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0713d26c178c7707cda5f56518d2bca5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -310,6 +346,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get final state. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,6 +373,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get inital state. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -363,6 +403,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a5b1bf727110fe29e072aa8f7a78c05ae">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>, and <a class="el" href="../../d7/d09/classComPWA_1_1TwoBodyKinematics.html#ab727c4a49faffd27315d8128517303c4">ComPWA::TwoBodyKinematics</a>.</p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00056">56</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab03d0f1f6c01cf76dc0ba5dc248a5fab"></a>
@@ -387,6 +429,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculated the PHSP volume of the current decay by MC integration </p>
+
+<p>Definition at line <a class="el" href="../../de/d57/Kinematics_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../de/d57/Kinematics_8cpp_source.html">Kinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -442,6 +486,8 @@ Protected Attributes</h2></td></tr>
 
 <p>calculated the PHSP volume of the current decay by MC integration </p>
 
+<p>Definition at line <a class="el" href="../../de/d57/Kinematics_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../de/d57/Kinematics_8cpp_source.html">Kinematics.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -463,6 +509,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00068">68</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa9915afbe6646499cede846e503c9bbb"></a>
@@ -482,6 +530,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00067">67</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -505,6 +555,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Internal names of variabes. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a4d5b0a3a9fa4564bb0d53758b510b90c"></a>
@@ -527,6 +579,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Latex titles for variables. </p>
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a1796882231c3ff7f085ad65a3eb05ca0"></a>
@@ -546,6 +600,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 
 </div>
 </div>
@@ -567,16 +623,18 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../d4/d37/Kinematics_8hpp_source.html">Kinematics.hpp</a></li>
-<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../de/d57/Kinematics_8cpp.html">Kinematics.cpp</a></li>
+<li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="../../de/d57/Kinematics_8cpp_source.html">Kinematics.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 7 2017 10:55:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 11:26:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

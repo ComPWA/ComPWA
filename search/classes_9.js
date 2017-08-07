@@ -1,6 +1,7 @@
 var searchData=
 [
   ['idinfo',['IDInfo',['../dd/dd0/structComPWA_1_1IDInfo.html',1,'ComPWA']]],
+  ['iestimator',['IEstimator',['../dc/d1d/classComPWA_1_1IEstimator.html',1,'ComPWA']]],
   ['incoherentintensity',['IncoherentIntensity',['../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html',1,'ComPWA::Physics::HelicityFormalism']]],
   ['integerparameter',['IntegerParameter',['../d2/d19/classComPWA_1_1IntegerParameter.html',1,'ComPWA']]],
   ['integerparameter',['IntegerParameter',['../dc/da0/classIntegerParameter.html',1,'']]],

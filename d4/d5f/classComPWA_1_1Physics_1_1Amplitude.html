@@ -126,6 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a411fd042c23b1da7ce093ae78b63cd57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of parameters have changed and normalization has to be recalculatecd.  <a href="#a411fd042c23b1da7ce093ae78b63cd57">More...</a><br/></td></tr>
 <tr class="separator:a411fd042c23b1da7ce093ae78b63cd57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab975a823245fc5b6ae029f4c074b930b"><td class="memItemLeft" align="right" valign="top">virtual std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#ab975a823245fc5b6ae029f4c074b930b">Evaluate</a> (const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point) const =0</td></tr>
+<tr class="memdesc:ab975a823245fc5b6ae029f4c074b930b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate value of amplitude at point in phase space.  <a href="#ab975a823245fc5b6ae029f4c074b930b">More...</a><br/></td></tr>
 <tr class="separator:ab975a823245fc5b6ae029f4c074b930b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a41b89b4fa60c8a9878a51210c26037"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a7a41b89b4fa60c8a9878a51210c26037">GetName</a> () const </td></tr>
 <tr class="memdesc:a7a41b89b4fa60c8a9878a51210c26037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of amplitude.  <a href="#a7a41b89b4fa60c8a9878a51210c26037">More...</a><br/></td></tr>
@@ -137,6 +138,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5b44d452c7702e10be5ae59dd0401443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get coefficient.  <a href="#a5b44d452c7702e10be5ae59dd0401443">More...</a><br/></td></tr>
 <tr class="separator:a5b44d452c7702e10be5ae59dd0401443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13d637a925e864553139652719252f7d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a13d637a925e864553139652719252f7d">UpdateParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;par)</td></tr>
+<tr class="memdesc:a13d637a925e864553139652719252f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update parameters.  <a href="#a13d637a925e864553139652719252f7d">More...</a><br/></td></tr>
 <tr class="separator:a13d637a925e864553139652719252f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab988c3ec1135235a95216717556b34c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#ab988c3ec1135235a95216717556b34c0">GetParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
 <tr class="memdesc:ab988c3ec1135235a95216717556b34c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add parameters to list.  <a href="#ab988c3ec1135235a95216717556b34c0">More...</a><br/></td></tr>
@@ -149,25 +151,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a97121f4c89262de8d6c473dcf1836a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda57cd6d6890870c4342b3caa9ecb3b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#adda57cd6d6890870c4342b3caa9ecb3b">GetMagnitudeParameter</a> ()</td></tr>
+<tr class="memdesc:adda57cd6d6890870c4342b3caa9ecb3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Magnitude parameter.  <a href="#adda57cd6d6890870c4342b3caa9ecb3b">More...</a><br/></td></tr>
 <tr class="separator:adda57cd6d6890870c4342b3caa9ecb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07c0f665b151370a16a61250c2721849"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a07c0f665b151370a16a61250c2721849">GetMagnitude</a> () const </td></tr>
+<tr class="memdesc:a07c0f665b151370a16a61250c2721849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Magnitude parameter.  <a href="#a07c0f665b151370a16a61250c2721849">More...</a><br/></td></tr>
 <tr class="separator:a07c0f665b151370a16a61250c2721849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa060a332616878b878c0d59354fcfd59"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aa060a332616878b878c0d59354fcfd59">SetMagnitudeParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt; par)</td></tr>
+<tr class="memdesc:aa060a332616878b878c0d59354fcfd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Magnitude parameter.  <a href="#aa060a332616878b878c0d59354fcfd59">More...</a><br/></td></tr>
 <tr class="separator:aa060a332616878b878c0d59354fcfd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc473a1ab566f3e8465f5550c5a169a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aecc473a1ab566f3e8465f5550c5a169a">SetMagnitude</a> (double par)</td></tr>
+<tr class="memdesc:aecc473a1ab566f3e8465f5550c5a169a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Magnitude parameter.  <a href="#aecc473a1ab566f3e8465f5550c5a169a">More...</a><br/></td></tr>
 <tr class="separator:aecc473a1ab566f3e8465f5550c5a169a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a061366fb6fc185e23f92ecc7a6d84f08"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a061366fb6fc185e23f92ecc7a6d84f08">GetPhaseParameter</a> ()</td></tr>
+<tr class="memdesc:a061366fb6fc185e23f92ecc7a6d84f08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get phase parameter.  <a href="#a061366fb6fc185e23f92ecc7a6d84f08">More...</a><br/></td></tr>
 <tr class="separator:a061366fb6fc185e23f92ecc7a6d84f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0be1473bb5fe99502c97baa9c02d593d"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a0be1473bb5fe99502c97baa9c02d593d">GetPhase</a> () const </td></tr>
+<tr class="memdesc:a0be1473bb5fe99502c97baa9c02d593d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get phase parameter.  <a href="#a0be1473bb5fe99502c97baa9c02d593d">More...</a><br/></td></tr>
 <tr class="separator:a0be1473bb5fe99502c97baa9c02d593d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa429e04a71071d865fdee223f9c0ab5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aaa429e04a71071d865fdee223f9c0ab5">SetPhaseParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">ComPWA::DoubleParameter</a> &gt; par)</td></tr>
+<tr class="memdesc:aaa429e04a71071d865fdee223f9c0ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set phase parameter.  <a href="#aaa429e04a71071d865fdee223f9c0ab5">More...</a><br/></td></tr>
 <tr class="separator:aaa429e04a71071d865fdee223f9c0ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a1f77fd593728719d99977d4e65d79"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aa0a1f77fd593728719d99977d4e65d79">SetPhase</a> (double par)</td></tr>
+<tr class="memdesc:aa0a1f77fd593728719d99977d4e65d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set phase parameter.  <a href="#aa0a1f77fd593728719d99977d4e65d79">More...</a><br/></td></tr>
 <tr class="separator:aa0a1f77fd593728719d99977d4e65d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f351ff4706793f92e97fce539fced1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a18f351ff4706793f92e97fce539fced1">SetPreFactor</a> (std::complex&lt; double &gt; pre)</td></tr>
+<tr class="memdesc:a18f351ff4706793f92e97fce539fced1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set pre-factor.  <a href="#a18f351ff4706793f92e97fce539fced1">More...</a><br/></td></tr>
 <tr class="separator:a18f351ff4706793f92e97fce539fced1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f6ff9958dd859b7e603d906034db80"><td class="memItemLeft" align="right" valign="top">virtual std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a25f6ff9958dd859b7e603d906034db80">GetPreFactor</a> () const </td></tr>
+<tr class="memdesc:a25f6ff9958dd859b7e603d906034db80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pre-factor.  <a href="#a25f6ff9958dd859b7e603d906034db80">More...</a><br/></td></tr>
 <tr class="separator:a25f6ff9958dd859b7e603d906034db80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06dfa43204a6f024b9d20d9dcb6b4d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#af06dfa43204a6f024b9d20d9dcb6b4d4">SetPhspSample</a> (std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a> &gt;&gt; phspSample)=0</td></tr>
 <tr class="memdesc:af06dfa43204a6f024b9d20d9dcb6b4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set phase space sample We use the phase space sample to calculate the normalization.  <a href="#af06dfa43204a6f024b9d20d9dcb6b4d4">More...</a><br/></td></tr>
@@ -198,7 +210,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa9eaeebb929646d872c3d70b40ffcaca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#aa9eaeebb929646d872c3d70b40ffcaca">_current_phase</a></td></tr>
 <tr class="separator:aa9eaeebb929646d872c3d70b40ffcaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a33703346dad9607f28c1cc8148317c68"></a>
 <div class="memitem">
 <div class="memproto">
@@ -222,6 +237,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor with an optional, unique name and an optional efficiency. </p>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -248,6 +265,8 @@ Private Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -273,6 +292,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check of parameters have changed and normalization has to be recalculatecd. </p>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -325,7 +346,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Calculate value of amplitude at point in phase space</p>
+
+<p>Calculate value of amplitude at point in phase space. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">point</td><td>Data point </td></tr>
@@ -360,6 +382,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get coefficient. </p>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00088">88</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -411,8 +435,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get Magnitude parameter</p>
+
+<p>Get Magnitude parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>Magnitude parameter </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -436,8 +463,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get Magnitude parameter</p>
+
+<p>Get Magnitude parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>Magnitude parameter </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00119">119</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -463,6 +493,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get name of amplitude. </p>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -492,6 +524,8 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html#afa4e0375d627491f86ff547658ddf5a3">ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay</a>.</p>
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a93f190cf504555f4c4e6a710f732a819"></a>
@@ -520,6 +554,8 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html#ab34bf585a796845f725c7a707e35087c">ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay</a>.</p>
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a0be1473bb5fe99502c97baa9c02d593d"></a>
@@ -542,8 +578,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get phase parameter</p>
+
+<p>Get phase parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>Phase parameter </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00163">163</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -567,8 +606,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get phase parameter</p>
+
+<p>Get phase parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>Phase parameter </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00154">154</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -592,8 +634,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get pre-factor</p>
+
+<p>Get pre-factor. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pre-factor </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00193">193</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -672,6 +717,8 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html#a14a9ec5cfa41e17cdba2515db19a9adf">ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay</a>.</p>
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00205">205</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aecc473a1ab566f3e8465f5550c5a169a"></a>
@@ -695,13 +742,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set Magnitude parameter</p>
+
+<p>Set Magnitude parameter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Magnitude parameter </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00147">147</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -726,13 +776,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set Magnitude parameter</p>
+
+<p>Set Magnitude parameter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Magnitude parameter </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00138">138</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -760,6 +813,8 @@ Private Attributes</h2></td></tr>
 
 <p>Set name of amplitude. </p>
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa0a1f77fd593728719d99977d4e65d79"></a>
@@ -783,13 +838,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set phase parameter</p>
+
+<p>Set phase parameter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Phase parameter </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00179">179</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -814,13 +872,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set phase parameter</p>
+
+<p>Set phase parameter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Phase parameter </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00170">170</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -874,13 +935,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pre-factor</p>
+
+<p>Set pre-factor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>Pre-factor </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00186">186</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -905,13 +969,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Update parameters</p>
+
+<p>Update parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">par</td><td>New list of parameters </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -934,6 +1001,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00223">223</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aa9eaeebb929646d872c3d70b40ffcaca"></a>
@@ -953,6 +1022,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00224">224</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -974,6 +1045,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00218">218</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a287f4c57bcd22b4de9a835b5cc36fbde"></a>
@@ -993,6 +1066,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00214">214</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
 
 </div>
 </div>
@@ -1014,6 +1089,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00220">220</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aae2c14fc8ca42dced243885abb2eab63"></a>
@@ -1034,6 +1111,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html#l00216">216</a> of file <a class="el" href="../../dc/de3/Amplitude_8hpp_source.html">Amplitude.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -1042,7 +1121,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 7 2017 10:55:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 11:26:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
