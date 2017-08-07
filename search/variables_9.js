@@ -6,6 +6,7 @@ var searchData=
   ['inputneeded',['inputNeeded',['../d9/d54/structComPWA_1_1ampInfo.html#a09a7477aab4ecdebf96e6f0da843bac0',1,'ComPWA::ampInfo']]],
   ['instance_5f',['instance_',['../d5/df9/classComPWA_1_1ControlParameter.html#a0e8240e3b7bc2300a9015a82751c72a6',1,'ComPWA::ControlParameter']]],
   ['intens_5f',['intens_',['../dc/dff/classComPWA_1_1RunManager.html#a09e15152d8522c0cc5b63ec983434d0d',1,'ComPWA::RunManager']]],
+  ['intquantumnumbers_5f',['intQuantumNumbers_',['../d3/d4a/classComPWA_1_1ParticleProperties.html#afbcc72c4a2aceb0c6c7308bdbb693229',1,'ComPWA::ParticleProperties']]],
   ['ip',['ip',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a66682bafcc570f483680b5f9dcf4db90',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
   ['is_5f2d',['is_2d',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#a64a3d139913ca9f304027ffdce62ca90',1,'NeatPlotting::PadBoundaries']]],
   ['is_5fempty',['is_empty',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#a1fe3074654b45dfff235be5207905ac8',1,'NeatPlotting::PadBoundaries']]],

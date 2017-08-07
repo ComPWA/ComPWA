@@ -2,7 +2,7 @@ var searchData=
 [
   ['absparameter',['AbsParameter',['../d1/dfc/classComPWA_1_1AbsParameter.html#a986a63e27c3f352c6090222834561fca',1,'ComPWA::AbsParameter']]],
   ['abssquare',['AbsSquare',['../db/d57/classComPWA_1_1AbsSquare.html#a5bab6fbe256448d0f42b4b64acdb1d9f',1,'ComPWA::AbsSquare']]],
-  ['abstractdynamicalfunction',['AbstractDynamicalFunction',['../d3/d36/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AbstractDynamicalFunction.html#a723efb6d93e10f56d071dfb538709bf5',1,'ComPWA::Physics::HelicityFormalism::AbstractDynamicalFunction']]],
+  ['abstractdynamicalfunction',['AbstractDynamicalFunction',['../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#ae567eb0da62e71eb8708c7fb9e809d10',1,'ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction']]],
   ['adaptivebinning',['adaptiveBinning',['../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html#aeb990653d33076643ed3e75278ad4b5a',1,'adaptiveBinning(UInt_t dataSize, UInt_t dataDim, Double_t *data, UInt_t nBins=100):&#160;Tools.hpp'],['../dd/d2b/PythonDalitzFit_2Tools_8hpp.html#aeb990653d33076643ed3e75278ad4b5a',1,'adaptiveBinning(UInt_t dataSize, UInt_t dataDim, Double_t *data, UInt_t nBins=100):&#160;Tools.hpp']]],
   ['add',['Add',['../dc/d06/classCorrectionTable.html#af170d2d28cea434c72f7eaa2bc1740ab',1,'CorrectionTable::Add()'],['../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a52bf344991c5c55d583b4b1ed6d260bb',1,'ComPWA::DataReader::Data::Add()'],['../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html#a6c8b84d7b117e3b318be6f710b71cae9',1,'ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay::Add()']]],
   ['addall',['AddAll',['../d5/d22/classComPWA_1_1AddAll.html#abae0433a8117208741108a03019272e7',1,'ComPWA::AddAll']]],
@@ -23,7 +23,7 @@ var searchData=
   ['addparticle',['AddParticle',['../df/d16/classComPWA_1_1Event.html#a4f1880a44ea116c7061b45d63234a06b',1,'ComPWA::Event']]],
   ['addplottocurrentbookypage',['addPlotToCurrentBookyPage',['../de/d7e/classNeatPlotting_1_1Booky.html#a2a3c680a2df54beedb56dbfa24a4cec4',1,'NeatPlotting::Booky']]],
   ['addtototalerror',['AddToTotalError',['../dc/d06/classCorrectionTable.html#a234168e704781c0593ede06c9d3826b4',1,'CorrectionTable']]],
-  ['ampflatteres',['AmpFlatteRes',['../d8/d81/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpFlatteRes.html#af516d98cc32919c0e3a41a7cfeba3c49',1,'ComPWA::Physics::HelicityFormalism::AmpFlatteRes']]],
+  ['ampflatteres',['AmpFlatteRes',['../d7/d84/classComPWA_1_1Physics_1_1DecayDynamics_1_1AmpFlatteRes.html#a18bdb6ec4b3365a33c87fae3deb4f39c',1,'ComPWA::Physics::DecayDynamics::AmpFlatteRes']]],
   ['ampinfo',['ampInfo',['../d9/d54/structComPWA_1_1ampInfo.html#ad962d16fc7fbf2e4c9521518d37b4ad7',1,'ComPWA::ampInfo']]],
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html#a1dba5739e800e19897749c435ee6c7ea',1,'ComPWA::AmpIntensity']]],
   ['amplitude',['Amplitude',['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a33703346dad9607f28c1cc8148317c68',1,'ComPWA::Physics::Amplitude']]],

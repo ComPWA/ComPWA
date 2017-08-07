@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['one',['one',['../d8/d14/namespaceComPWA_1_1Physics.html#a98ff8ac4547e3b757ec17f56f8a8ae65a2983dabe55d2e32625adc065593f2257',1,'ComPWA::Physics']]]
+  ['sym',['SYM',['../db/dce/Parameter_8hpp.html#ab0df38968e4f03a3f1f6d6df0f31f45aa47d6024ff3295a2440dbcc63a7e967e6',1,'Parameter.hpp']]]
 ];

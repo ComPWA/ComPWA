@@ -159,6 +159,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6ce21a49d128b35a85eae2a1b88c854f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe33a20d486f707093de787c509aef46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#afe33a20d486f707093de787c509aef46">Reset</a> ()</td></tr>
 <tr class="separator:afe33a20d486f707093de787c509aef46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc466ea67fc436faebb2b47b7a0bc087"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#adc466ea67fc436faebb2b47b7a0bc087">GetTree</a> (std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt; kin, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;phspSample, const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;toySample, unsigned int nEvtVar, std::string suffix=&quot;&quot;)</td></tr>
+<tr class="memdesc:adc466ea67fc436faebb2b47b7a0bc087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>.  <a href="#adc466ea67fc436faebb2b47b7a0bc087">More...</a><br/></td></tr>
+<tr class="separator:adc466ea67fc436faebb2b47b7a0bc087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -412,7 +416,77 @@ Protected Attributes</h2></td></tr>
 
 <p>Fill vector with parameters. </p>
 
-<p>Reimplemented in <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#a055d8f134b0ecf9ffb889e5a82f2ea76">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>, and <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#a64ed9a74fd50879f2af127ee5b350b4c">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#a64ed9a74fd50879f2af127ee5b350b4c">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>, and <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#a055d8f134b0ecf9ffb889e5a82f2ea76">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc466ea67fc436faebb2b47b7a0bc087"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::AmpIntensity::GetTree </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td>
+          <td class="paramname"><em>kin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>sample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>phspSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>toySample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>nEvtVar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sample</td><td>Data sample </td></tr>
+    <tr><td class="paramname">phspSample</td><td>Sample of phase space distributed events including efficiency. </td></tr>
+    <tr><td class="paramname">toySample</td><td>Sample of phase space distributed events without efficiency. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#a358901c2b56b2e07b7f03c31a6621ed8">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>, and <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#a4018323e563400939484bbf28a14b8f0">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>.</p>
 
 </div>
 </div>
@@ -460,8 +534,6 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Getter function for basic amp tree Getter function for basic amp tree </p>
-
-<p>Reimplemented from <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html#a11fba8d199388f0cfb727b7cdb5c5bf8">ComPWA::AmpIntensity</a>.</p>
 
 </div>
 </div>
@@ -620,7 +692,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#aa25854d1415b35e00f43ec5151e13813">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>, and <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#ab217a653b6abd1a98f7099d7b2f48e79">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d5/d61/classComPWA_1_1Physics_1_1HelicityFormalism_1_1CoherentIntensity.html#ab217a653b6abd1a98f7099d7b2f48e79">ComPWA::Physics::HelicityFormalism::CoherentIntensity</a>, and <a class="el" href="../../db/dea/classComPWA_1_1Physics_1_1HelicityFormalism_1_1IncoherentIntensity.html#aa25854d1415b35e00f43ec5151e13813">ComPWA::Physics::HelicityFormalism::IncoherentIntensity</a>.</p>
 
 </div>
 </div>
@@ -853,7 +925,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 2 2017 12:17:57 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 10:55:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

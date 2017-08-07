@@ -8,5 +8,5 @@ var searchData=
   ['booky',['Booky',['../de/d7e/classNeatPlotting_1_1Booky.html',1,'NeatPlotting']]],
   ['boolparameter',['BoolParameter',['../dd/d6e/classComPWA_1_1BoolParameter.html',1,'ComPWA']]],
   ['boolparameter',['BoolParameter',['../df/d1c/classBoolParameter.html',1,'']]],
-  ['breitwignerstrategy',['BreitWignerStrategy',['../df/d9c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1BreitWignerStrategy.html',1,'ComPWA::Physics::HelicityFormalism']]]
+  ['breitwignerstrategy',['BreitWignerStrategy',['../d3/d0a/classComPWA_1_1Physics_1_1DecayDynamics_1_1BreitWignerStrategy.html',1,'ComPWA::Physics::DecayDynamics']]]
 ];

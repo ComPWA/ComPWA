@@ -110,14 +110,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e32889ae5c517ee5c0bd40e4332b8e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#a8e32889ae5c517ee5c0bd40e4332b8e5">dalitzHisto</a> (<a class="el" href="../../dd/d89/classdalitzHisto.html">dalitzHisto</a> &amp;&amp;other)=default</td></tr>
 <tr class="memdesc:a8e32889ae5c517ee5c0bd40e4332b8e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default move constructor.  <a href="#a8e32889ae5c517ee5c0bd40e4332b8e5">More...</a><br/></td></tr>
 <tr class="separator:a8e32889ae5c517ee5c0bd40e4332b8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa15c3e61130f149ded994912ca9e498e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#aa15c3e61130f149ded994912ca9e498e">dalitzHisto</a> (std::string name, std::string title, unsigned int bins, Color_t color=kBlack)</td></tr>
-<tr class="separator:aa15c3e61130f149ded994912ca9e498e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d590ec43321f849749275710532b44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#a69d590ec43321f849749275710532b44">dalitzHisto</a> (std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt; kin, std::string name, std::string title, unsigned int bins, Color_t color=kBlack)</td></tr>
+<tr class="separator:a69d590ec43321f849749275710532b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a944cfb33b22a9774ca1a26c534bab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#a48a944cfb33b22a9774ca1a26c534bab">SetStats</a> (bool b)</td></tr>
 <tr class="memdesc:a48a944cfb33b22a9774ca1a26c534bab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch on/off stats.  <a href="#a48a944cfb33b22a9774ca1a26c534bab">More...</a><br/></td></tr>
 <tr class="separator:a48a944cfb33b22a9774ca1a26c534bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9adc039e7ae58ef5061d2657a2376fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#ab9adc039e7ae58ef5061d2657a2376fc">Fill</a> (<a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> &amp;event, double w=1)</td></tr>
-<tr class="memdesc:ab9adc039e7ae58ef5061d2657a2376fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill event.  <a href="#ab9adc039e7ae58ef5061d2657a2376fc">More...</a><br/></td></tr>
-<tr class="separator:ab9adc039e7ae58ef5061d2657a2376fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16f97c5fa4054c478a7cc420cd0db2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#ae16f97c5fa4054c478a7cc420cd0db2a">Fill</a> (std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt; kin, <a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> &amp;event, double w=1)</td></tr>
+<tr class="memdesc:ae16f97c5fa4054c478a7cc420cd0db2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill event.  <a href="#ae16f97c5fa4054c478a7cc420cd0db2a">More...</a><br/></td></tr>
+<tr class="separator:ae16f97c5fa4054c478a7cc420cd0db2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08431b7a5edb9fa25e469b7160a2f86f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/classdalitzHisto.html#a08431b7a5edb9fa25e469b7160a2f86f">Scale</a> (double w)</td></tr>
 <tr class="memdesc:a08431b7a5edb9fa25e469b7160a2f86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale all distributions.  <a href="#a08431b7a5edb9fa25e469b7160a2f86f">More...</a><br/></td></tr>
 <tr class="separator:a08431b7a5edb9fa25e469b7160a2f86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,13 +272,19 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa15c3e61130f149ded994912ca9e498e"></a>
+<a class="anchor" id="a69d590ec43321f849749275710532b44"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">dalitzHisto::dalitzHisto </td>
           <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td>
+          <td class="paramname"><em>kin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
@@ -424,13 +430,19 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab9adc039e7ae58ef5061d2657a2376fc"></a>
+<a class="anchor" id="ae16f97c5fa4054c478a7cc420cd0db2a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void dalitzHisto::Fill </td>
           <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td>
+          <td class="paramname"><em>kin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> &amp;&#160;</td>
           <td class="paramname"><em>event</em>, </td>
         </tr>
@@ -972,7 +984,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 2 2017 12:17:56 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 10:55:52 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

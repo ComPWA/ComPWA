@@ -24,7 +24,7 @@ var searchData=
   ['breakup',['breakup',['../d1/d13/classTTripleSliderDemo.html#a0b20cc51a08c68eb567bba1f334dccd8',1,'TTripleSliderDemo']]],
   ['breitwigner',['BreitWigner',['../d1/d13/classTTripleSliderDemo.html#a9ca3e1899c4297617a4c8aa5bbdd2a63',1,'TTripleSliderDemo']]],
   ['breitwignerkm',['BreitWignerKM',['../d1/d13/classTTripleSliderDemo.html#a09b5f543d93de2afe46d86256f4598df',1,'TTripleSliderDemo']]],
-  ['breitwignerstrategy',['BreitWignerStrategy',['../df/d9c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1BreitWignerStrategy.html#a8f283d39c43cb1d50c814e9473658674',1,'ComPWA::Physics::HelicityFormalism::BreitWignerStrategy']]],
+  ['breitwignerstrategy',['BreitWignerStrategy',['../d3/d0a/classComPWA_1_1Physics_1_1DecayDynamics_1_1BreitWignerStrategy.html#a5ac20759c9e58ce27da12e2efa370cd0',1,'ComPWA::Physics::DecayDynamics::BreitWignerStrategy']]],
   ['bw',['BW',['../d1/d13/classTTripleSliderDemo.html#a0678542434eb7919384f7b51bd08c9e5',1,'TTripleSliderDemo']]],
   ['bwc',['BWC',['../d1/d13/classTTripleSliderDemo.html#a179c70e6839b06aa1375487a5e8c27fa',1,'TTripleSliderDemo']]],
   ['bwgamma',['BWGamma',['../d1/d13/classTTripleSliderDemo.html#abbaebebf715b2aa94a9c689551f1e0d1',1,'TTripleSliderDemo']]]

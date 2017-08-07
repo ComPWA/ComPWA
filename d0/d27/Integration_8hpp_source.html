@@ -163,20 +163,20 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a3ffc87be9c72e058e75aaceddce80e30">   75</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a3ffc87be9c72e058e75aaceddce80e30">Integral</a>(std::shared_ptr&lt;AmpIntensity&gt; intens,</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                       std::shared_ptr&lt;std::vector&lt;dataPoint&gt;&gt; sample) {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">if</span> (!sample-&gt;size()) {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(debug) &lt;&lt; <span class="stringliteral">&quot;Integral() | Integral can not be calculated &quot;</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                  <span class="stringliteral">&quot;since phsp sample is empty.&quot;</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">double</span> sumIntens = 0;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">auto</span> i : *sample.get())</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    sumIntens += intens-&gt;Intensity(i);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordtype">double</span> integral =</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      (sumIntens * <a class="code" href="../../db/d37/classComPWA_1_1Kinematics.html#a6be98713ed74580b13f4ec182d425986">Kinematics::Instance</a>()-&gt;<a class="code" href="../../db/d37/classComPWA_1_1Kinematics.html#ab03d0f1f6c01cf76dc0ba5dc248a5fab">GetPhspVolume</a>() / sample-&gt;size());</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a558d469026c10585e6123321d1420ab5">   75</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a558d469026c10585e6123321d1420ab5">Integral</a>(std::shared_ptr&lt;AmpIntensity&gt; intens,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                       std::shared_ptr&lt;std::vector&lt;dataPoint&gt;&gt; sample,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                       <span class="keywordtype">double</span> phspVolume = 1.0) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">if</span> (!sample-&gt;size()) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(debug) &lt;&lt; <span class="stringliteral">&quot;Integral() | Integral can not be calculated &quot;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                  <span class="stringliteral">&quot;since phsp sample is empty.&quot;</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">double</span> sumIntens = 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">auto</span> i : *sample.get())</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    sumIntens += intens-&gt;Intensity(i);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordtype">double</span> integral = (sumIntens * phspVolume / sample-&gt;size());</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> integral;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
@@ -200,28 +200,30 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordflow">return</span> max;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a679354bebdf9dbad76112370741ec9ef">  112</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#ac9248e10b3904d70fab515b408b7f2e7">Maximum</a>(std::shared_ptr&lt;AmpIntensity&gt; intens,</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                      std::shared_ptr&lt;DataReader::Data&gt; sample) {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="keywordflow">if</span> (!sample-&gt;GetNEvents()) {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(debug)</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        &lt;&lt; <span class="stringliteral">&quot;Maximum() | MAximum can not be determined since sample is empty.&quot;</span>;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="keyword">auto</span> data = sample-&gt;GetDataPoints();</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <span class="keywordtype">double</span> max = 0;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">auto</span> i : data ) {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">double</span> val = intens-&gt;Intensity(i);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span> (val &gt; max)</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      max = val;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordflow">return</span> max;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a31aa0540b92d65d361b015f117e342ea">  112</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#ac9248e10b3904d70fab515b408b7f2e7">Maximum</a>(std::shared_ptr&lt;Kinematics&gt; kin,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                      std::shared_ptr&lt;AmpIntensity&gt; intens,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                      std::shared_ptr&lt;DataReader::Data&gt; sample) {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <span class="keywordflow">if</span> (!sample-&gt;GetNEvents()) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(debug)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        &lt;&lt; <span class="stringliteral">&quot;Maximum() | MAximum can not be determined since sample is empty.&quot;</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <span class="keyword">auto</span> data = sample-&gt;GetDataPoints(kin);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">double</span> max = 0;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="keywordflow">for</span> (<span class="keyword">auto</span> i : data) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">double</span> val = intens-&gt;Intensity(i);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (val &gt; max)</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      max = val;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordflow">return</span> max;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* Integration_h */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;} <span class="comment">// namespace Tools</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;} <span class="comment">// namespace ComPWA</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* Integration_h */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html_aa4171fb8f088a23c86554fc71d01b96e"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#aa4171fb8f088a23c86554fc71d01b96e">ComPWA::Tools::IntegralByQuadrature::Integral</a></div><div class="ttdeci">double Integral(int precision=100)</div><div class="ttdef"><b>Definition:</b> Integration.hpp:38</div></div>
 <div class="ttc" id="structComPWA_1_1Tools_1_1testGauss_html_a4a9a0b8630be094143d8a3ee509db3bb"><div class="ttname"><a href="../../d0/d24/structComPWA_1_1Tools_1_1testGauss.html#a4a9a0b8630be094143d8a3ee509db3bb">ComPWA::Tools::testGauss::operator()</a></div><div class="ttdeci">double operator()(double x) const </div><div class="ttdef"><b>Definition:</b> Integration.hpp:24</div></div>
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html">ComPWA::Tools::IntegralByQuadrature</a></div><div class="ttdef"><b>Definition:</b> Integration.hpp:32</div></div>
@@ -230,7 +232,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="structComPWA_1_1Tools_1_1testGauss_html_add401bba845d1f16d52cb72da6835e30"><div class="ttname"><a href="../../d0/d24/structComPWA_1_1Tools_1_1testGauss.html#add401bba845d1f16d52cb72da6835e30">ComPWA::Tools::testGauss::sigma</a></div><div class="ttdeci">double sigma</div><div class="ttdef"><b>Definition:</b> Integration.hpp:23</div></div>
 <div class="ttc" id="structComPWA_1_1Tools_1_1testGauss_html"><div class="ttname"><a href="../../d0/d24/structComPWA_1_1Tools_1_1testGauss.html">ComPWA::Tools::testGauss</a></div><div class="ttdef"><b>Definition:</b> Integration.hpp:21</div></div>
 <div class="ttc" id="AmpIntensity_8hpp_html"><div class="ttname"><a href="../../dc/dfd/AmpIntensity_8hpp.html">AmpIntensity.hpp</a></div></div>
-<div class="ttc" id="classComPWA_1_1Kinematics_html_ab03d0f1f6c01cf76dc0ba5dc248a5fab"><div class="ttname"><a href="../../db/d37/classComPWA_1_1Kinematics.html#ab03d0f1f6c01cf76dc0ba5dc248a5fab">ComPWA::Kinematics::GetPhspVolume</a></div><div class="ttdeci">virtual double GetPhspVolume()</div><div class="ttdoc">calculated the PHSP volume of the current decay by MC integration </div><div class="ttdef"><b>Definition:</b> Kinematics.cpp:94</div></div>
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html_a40f49218f27de8ed230f4a13a0cb3751"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#a40f49218f27de8ed230f4a13a0cb3751">ComPWA::Tools::IntegralByQuadrature::IntegralByQuadrature</a></div><div class="ttdeci">IntegralByQuadrature(const T &amp;func, std::pair&lt; double, double &gt; lim)</div><div class="ttdef"><b>Definition:</b> Integration.hpp:35</div></div>
 <div class="ttc" id="Logging_8hpp_html"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html">Logging.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html_afb61f5a160bd0b3422a075e04cff4d37"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#afb61f5a160bd0b3422a075e04cff4d37">ComPWA::Tools::IntegralByQuadrature::_func</a></div><div class="ttdeci">const T &amp; _func</div><div class="ttdef"><b>Definition:</b> Integration.hpp:49</div></div>
@@ -238,13 +239,12 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html_af5a601e5e47ff9bb2ec8e30c570a0b57"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#af5a601e5e47ff9bb2ec8e30c570a0b57">ComPWA::Tools::IntegralByQuadrature::_integral</a></div><div class="ttdeci">double _integral</div><div class="ttdef"><b>Definition:</b> Integration.hpp:52</div></div>
 <div class="ttc" id="classComPWA_1_1Tools_1_1IntegralByQuadrature_html_a013413e1e9ed186de5de72c8b16dde83"><div class="ttname"><a href="../../d6/d8d/classComPWA_1_1Tools_1_1IntegralByQuadrature.html#a013413e1e9ed186de5de72c8b16dde83">ComPWA::Tools::IntegralByQuadrature::_limits</a></div><div class="ttdeci">std::pair&lt; double, double &gt; _limits</div><div class="ttdef"><b>Definition:</b> Integration.hpp:50</div></div>
 <div class="ttc" id="namespaceComPWA_1_1Tools_html_ac9248e10b3904d70fab515b408b7f2e7"><div class="ttname"><a href="../../d5/d4e/namespaceComPWA_1_1Tools.html#ac9248e10b3904d70fab515b408b7f2e7">ComPWA::Tools::Maximum</a></div><div class="ttdeci">double Maximum(std::shared_ptr&lt; AmpIntensity &gt; intens, std::shared_ptr&lt; std::vector&lt; dataPoint &gt;&gt; sample)</div><div class="ttdef"><b>Definition:</b> Integration.hpp:93</div></div>
+<div class="ttc" id="namespaceComPWA_1_1Tools_html_a558d469026c10585e6123321d1420ab5"><div class="ttname"><a href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a558d469026c10585e6123321d1420ab5">ComPWA::Tools::Integral</a></div><div class="ttdeci">double Integral(std::shared_ptr&lt; AmpIntensity &gt; intens, std::shared_ptr&lt; std::vector&lt; dataPoint &gt;&gt; sample, double phspVolume=1.0)</div><div class="ttdef"><b>Definition:</b> Integration.hpp:75</div></div>
 <div class="ttc" id="Logging_8hpp_html_ac7287b93a2311534ceb8ec2fd19ca39e"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a></div><div class="ttdeci">#define LOG(lvl)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:17</div></div>
-<div class="ttc" id="namespaceComPWA_1_1Tools_html_a3ffc87be9c72e058e75aaceddce80e30"><div class="ttname"><a href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a3ffc87be9c72e058e75aaceddce80e30">ComPWA::Tools::Integral</a></div><div class="ttdeci">double Integral(std::shared_ptr&lt; AmpIntensity &gt; intens, std::shared_ptr&lt; std::vector&lt; dataPoint &gt;&gt; sample)</div><div class="ttdef"><b>Definition:</b> Integration.hpp:75</div></div>
-<div class="ttc" id="classComPWA_1_1Kinematics_html_a6be98713ed74580b13f4ec182d425986"><div class="ttname"><a href="../../db/d37/classComPWA_1_1Kinematics.html#a6be98713ed74580b13f4ec182d425986">ComPWA::Kinematics::Instance</a></div><div class="ttdeci">static Kinematics * Instance()</div><div class="ttdoc">singleton pattern </div><div class="ttdef"><b>Definition:</b> Kinematics.cpp:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 2 2017 12:17:56 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 7 2017 10:55:52 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['qsqvalue',['qSqValue',['../db/d37/classComPWA_1_1Kinematics.html#a4bc9bb61da160ec8d4c90571825d8743',1,'ComPWA::Kinematics']]],
-  ['qvalue',['qValue',['../db/d37/classComPWA_1_1Kinematics.html#a58d0d4bfc032a07f33c883b096cbf529',1,'ComPWA::Kinematics']]]
+  ['qsqvalue',['qSqValue',['../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95',1,'ComPWA::Physics::DecayDynamics']]],
+  ['qvalue',['qValue',['../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e',1,'ComPWA::Physics::DecayDynamics']]]
 ];

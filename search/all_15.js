@@ -1,7 +1,7 @@
 var searchData=
 [
   ['undefined',['UNDEFINED',['../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a49196cf6b2f99d9d4e9e2463a156c690',1,'ComPWA']]],
-  ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html#a6adaecaa530fd653111dae37c13f8376',1,'ComPWA::Tools::UniformTwoBodyGenerator']]],
+  ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html#a60058a798564fab6c2b12c004b58bda0',1,'ComPWA::Tools::UniformTwoBodyGenerator']]],
   ['uniformtwobodygenerator',['UniformTwoBodyGenerator',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html',1,'ComPWA::Tools']]],
   ['unique_5fid_5f',['unique_id_',['../d3/d33/structComPWA_1_1ParticleStateInfo.html#aec087e00eed32cdaa8bde9a2e2c7bf85',1,'ComPWA::ParticleStateInfo']]],
   ['unitamp',['UnitAmp',['../d0/d97/classComPWA_1_1UnitAmp.html',1,'ComPWA']]],

@@ -17,6 +17,7 @@ var searchData=
   ['spin1',['spin1',['../d7/d09/classComPWA_1_1TwoBodyKinematics.html#a9fa2b2b9f2c072bc3083b9f30ba6fc63',1,'ComPWA::TwoBodyKinematics']]],
   ['spin2',['spin2',['../d7/d09/classComPWA_1_1TwoBodyKinematics.html#af403f57c472baf3159c84d1127071b41',1,'ComPWA::TwoBodyKinematics']]],
   ['spin_5finformation_5f',['spin_information_',['../d3/d33/structComPWA_1_1ParticleStateInfo.html#a47752cab8637c6106177b73b55e9ee29',1,'ComPWA::ParticleStateInfo']]],
+  ['spinquantumnumbers_5f',['spinQuantumNumbers_',['../d3/d4a/classComPWA_1_1ParticleProperties.html#a7185c72cf96a34d938a651014fbedd7d',1,'ComPWA::ParticleProperties']]],
   ['sqrts',['sqrtS',['../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html#afeb969894dc0c51c0a35e8888063afb5',1,'ComPWA::Tools::RootGenerator']]],
   ['starttime',['startTime',['../dc/db5/classComPWA_1_1progressBar.html#acd623c7203fa70f2229e4d406bbdd351',1,'ComPWA::progressBar']]],
   ['statistics_5foptions',['statistics_options',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#ad942a450b15bd15686603d439d73ced9',1,'NeatPlotting::PlotStyle']]],

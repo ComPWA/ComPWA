@@ -13,6 +13,7 @@ var searchData=
   ['slicefitubapp_2ecpp',['SliceFitUBApp.cpp',['../d9/de4/SliceFitUBApp_8cpp.html',1,'']]],
   ['specialtensors_2eh',['SpecialTensors.h',['../d1/d79/SpecialTensors_8h.html',1,'']]],
   ['spin_2ehpp',['Spin.hpp',['../d9/dfb/Spin_8hpp.html',1,'']]],
+  ['subsystem_2ehpp',['SubSystem.hpp',['../dd/df5/SubSystem_8hpp.html',1,'']]],
   ['systematics_2ehpp',['systematics.hpp',['../d2/dd4/PythonDalitzFit_2systematics_8hpp.html',1,'']]],
   ['systematics_2ehpp',['systematics.hpp',['../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html',1,'']]]
 ];

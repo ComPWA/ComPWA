@@ -10,5 +10,6 @@ var searchData=
   ['conversion_2eh',['Conversion.h',['../db/dcf/Conversion_8h.html',1,'']]],
   ['correctiontable_2ecpp',['CorrectionTable.cpp',['../d5/d8c/CorrectionTable_8cpp.html',1,'']]],
   ['correctiontable_2ehpp',['CorrectionTable.hpp',['../d4/d9c/CorrectionTable_8hpp.html',1,'']]],
+  ['coupling_2ehpp',['Coupling.hpp',['../d1/dba/Coupling_8hpp.html',1,'']]],
   ['cx0testapp_2ecpp',['CX0TestApp.cpp',['../d5/d7b/CX0TestApp_8cpp.html',1,'']]]
 ];

@@ -44,7 +44,7 @@ var searchData=
   ['flcan',['fLcan',['../d1/d13/classTTripleSliderDemo.html#a72bfdf8216696573558a578863771a6b',1,'TTripleSliderDemo']]],
   ['fmaxbins',['fmaxBins',['../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a26fec3672ec6c2c60acbac91ba2c5e83',1,'ComPWA::DataReader::Data']]],
   ['fname',['fName',['../df/d16/classComPWA_1_1Event.html#a70f5933b829e6740c619119c25c8436f',1,'ComPWA::Event']]],
-  ['formfactortypestring',['formFactorTypeString',['../dc/d87/namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#aa817f61d8335454dd9b697516099ca6c',1,'ComPWA::Physics::HelicityFormalism']]],
+  ['formfactortypestring',['formFactorTypeString',['../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84',1,'ComPWA::Physics::DecayDynamics']]],
   ['fparticles',['fParticles',['../df/d16/classComPWA_1_1Event.html#a88d1f175ac2aedd033d0373799af5668',1,'ComPWA::Event::fParticles()'],['../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a3d41d880a8ea50eab4747d3b331a6009',1,'ComPWA::DataReader::RootReader::fParticles()']]],
   ['fslrange',['fSlRange',['../d1/d13/classTTripleSliderDemo.html#ac58076e738b374e8034dac637a4ff77d',1,'TTripleSliderDemo']]],
   ['ftbuf',['fTBuf',['../d1/d13/classTTripleSliderDemo.html#add3f29c158d1a848281acaddc73b5590',1,'TTripleSliderDemo']]],

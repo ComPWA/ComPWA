@@ -76,65 +76,66 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html" target="_top" xlink:title="{ComPWA::Estimator::\lChiOneD::ChiOneD\n|&#45; pPIF_\l&#45; pDIF_\l|+ controlParameter()\l+ ~ChiOneD()\l+ HasTree()\l+ GetTree()\l+ GetIntensity()\l+ createInstance()\l# ChiOneD()\l}">
-<polygon fill="white" stroke="black" points="-0.5,-110.5 -0.5,-255.5 114.5,-255.5 114.5,-110.5 -0.5,-110.5"/>
-<text text-anchor="start" x="7.5" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Estimator::</text>
-<text text-anchor="middle" x="57" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChiOneD::ChiOneD</text>
-<polyline fill="none" stroke="black" points="-0.5,-225.5 114.5,-225.5 "/>
-<text text-anchor="start" x="7.5" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; pPIF_</text>
-<text text-anchor="start" x="7.5" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; pDIF_</text>
-<polyline fill="none" stroke="black" points="-0.5,-195.5 114.5,-195.5 "/>
-<text text-anchor="start" x="7.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ controlParameter()</text>
-<text text-anchor="start" x="7.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ChiOneD()</text>
-<text text-anchor="start" x="7.5" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
-<text text-anchor="start" x="7.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
-<text text-anchor="start" x="7.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetIntensity()</text>
-<text text-anchor="start" x="7.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ createInstance()</text>
-<text text-anchor="start" x="7.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"># ChiOneD()</text>
+<g id="a_node3"><a xlink:href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html" target="_top" xlink:title="{ComPWA::Estimator::\lChiOneD::ChiOneD\n|&#45; kin_\l&#45; pPIF_\l&#45; pDIF_\l|+ controlParameter()\l+ ~ChiOneD()\l+ HasTree()\l+ GetTree()\l+ GetIntensity()\l+ CreateInstance()\l# ChiOneD()\l}">
+<polygon fill="white" stroke="black" points="-0.5,-105 -0.5,-261 114.5,-261 114.5,-105 -0.5,-105"/>
+<text text-anchor="start" x="7.5" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Estimator::</text>
+<text text-anchor="middle" x="57" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">ChiOneD::ChiOneD</text>
+<polyline fill="none" stroke="black" points="-0.5,-231 114.5,-231 "/>
+<text text-anchor="start" x="7.5" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; kin_</text>
+<text text-anchor="start" x="7.5" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; pPIF_</text>
+<text text-anchor="start" x="7.5" y="-197" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; pDIF_</text>
+<polyline fill="none" stroke="black" points="-0.5,-190 114.5,-190 "/>
+<text text-anchor="start" x="7.5" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">+ controlParameter()</text>
+<text text-anchor="start" x="7.5" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ChiOneD()</text>
+<text text-anchor="start" x="7.5" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
+<text text-anchor="start" x="7.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
+<text text-anchor="start" x="7.5" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetIntensity()</text>
+<text text-anchor="start" x="7.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateInstance()</text>
+<text text-anchor="start" x="7.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00"># ChiOneD()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M195.083,-433.438C170.053,-415.357 143.024,-392.203 124,-366 100.262,-333.304 84.0568,-291.27 73.5382,-255.837"/>
+<path fill="none" stroke="midnightblue" d="M195.083,-433.438C170.053,-415.357 143.024,-392.203 124,-366 101.449,-334.939 85.6962,-295.45 75.1588,-261.2"/>
 <polygon fill="none" stroke="midnightblue" points="193.293,-436.459 203.48,-439.372 197.333,-430.742 193.293,-436.459"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html" target="_top" xlink:title="{ComPWA::Estimator::\lMinLogLH\n|&#45; _intens\l&#45; _tree\l&#45; nEvts_\l&#45; nPhsp_\l&#45; nStartEvt_\l&#45; nUseEvt_\l&#45; _dataSample\l&#45; _dataSampleList\l&#45; _sumOfWeights\l&#45; _phspSample\l&#45; _phspSampleList\l&#45; _phspAccSample\l&#45; _phspAccSampleList\l&#45; _phspAccSampleEff\l|+ ~MinLogLH()\l+ controlParameter()\l+ HasTree()\l+ UseFunctionTree()\l+ GetTree()\l+ GetIntensity()\l+ GetNEvents()\l+ CreateInstance()\l+ CreateInstance()\l# MinLogLH()\l# MinLogLH()\l# IniLHtree()\l# CalcSumOfWeights()\l&#45; Init()\l&#45; Reset()\l}">
+<g id="a_node4"><a xlink:href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html" target="_top" xlink:title="{ComPWA::Estimator::\lMinLogLH\n|&#45; kin_\l&#45; _intens\l&#45; _tree\l&#45; nEvts_\l&#45; nPhsp_\l&#45; nStartEvt_\l&#45; nUseEvt_\l&#45; _dataSample\l&#45; _dataSampleList\l&#45; _sumOfWeights\l&#45; _phspSample\l&#45; _phspSampleList\l&#45; _phspAccSample\l&#45; _phspAccSampleList\l&#45; _phspAccSampleEff\l|+ ~MinLogLH()\l+ controlParameter()\l+ HasTree()\l+ UseFunctionTree()\l+ GetTree()\l+ GetIntensity()\l+ GetNEvents()\l+ CreateInstance()\l+ CreateInstance()\l# MinLogLH()\l# MinLogLH()\l# IniLHtree()\l# CalcSumOfWeights()\l&#45; Reset()\l}">
 <polygon fill="white" stroke="black" points="133,-0.5 133,-365.5 251,-365.5 251,-0.5 133,-0.5"/>
 <text text-anchor="start" x="141" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Estimator::</text>
 <text text-anchor="middle" x="192" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">MinLogLH</text>
 <polyline fill="none" stroke="black" points="133,-335.5 251,-335.5 "/>
-<text text-anchor="start" x="141" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _intens</text>
-<text text-anchor="start" x="141" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _tree</text>
-<text text-anchor="start" x="141" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nEvts_</text>
-<text text-anchor="start" x="141" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nPhsp_</text>
-<text text-anchor="start" x="141" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nStartEvt_</text>
-<text text-anchor="start" x="141" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nUseEvt_</text>
-<text text-anchor="start" x="141" y="-257.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dataSample</text>
-<text text-anchor="start" x="141" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dataSampleList</text>
-<text text-anchor="start" x="141" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _sumOfWeights</text>
-<text text-anchor="start" x="141" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspSample</text>
-<text text-anchor="start" x="141" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspSampleList</text>
-<text text-anchor="start" x="141" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSample</text>
-<text text-anchor="start" x="141" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSampleList</text>
-<text text-anchor="start" x="141" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSampleEff</text>
-<polyline fill="none" stroke="black" points="133,-173.5 251,-173.5 "/>
-<text text-anchor="start" x="141" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~MinLogLH()</text>
-<text text-anchor="start" x="141" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ controlParameter()</text>
-<text text-anchor="start" x="141" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
-<text text-anchor="start" x="141" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UseFunctionTree()</text>
-<text text-anchor="start" x="141" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
-<text text-anchor="start" x="141" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetIntensity()</text>
-<text text-anchor="start" x="141" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNEvents()</text>
-<text text-anchor="start" x="141" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateInstance()</text>
+<text text-anchor="start" x="141" y="-323.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; kin_</text>
+<text text-anchor="start" x="141" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _intens</text>
+<text text-anchor="start" x="141" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _tree</text>
+<text text-anchor="start" x="141" y="-290.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nEvts_</text>
+<text text-anchor="start" x="141" y="-279.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nPhsp_</text>
+<text text-anchor="start" x="141" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nStartEvt_</text>
+<text text-anchor="start" x="141" y="-257.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; nUseEvt_</text>
+<text text-anchor="start" x="141" y="-246.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dataSample</text>
+<text text-anchor="start" x="141" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _dataSampleList</text>
+<text text-anchor="start" x="141" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _sumOfWeights</text>
+<text text-anchor="start" x="141" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspSample</text>
+<text text-anchor="start" x="141" y="-202.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspSampleList</text>
+<text text-anchor="start" x="141" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSample</text>
+<text text-anchor="start" x="141" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSampleList</text>
+<text text-anchor="start" x="141" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; _phspAccSampleEff</text>
+<polyline fill="none" stroke="black" points="133,-162.5 251,-162.5 "/>
+<text text-anchor="start" x="141" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~MinLogLH()</text>
+<text text-anchor="start" x="141" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ controlParameter()</text>
+<text text-anchor="start" x="141" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
+<text text-anchor="start" x="141" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UseFunctionTree()</text>
+<text text-anchor="start" x="141" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
+<text text-anchor="start" x="141" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetIntensity()</text>
+<text text-anchor="start" x="141" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNEvents()</text>
 <text text-anchor="start" x="141" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateInstance()</text>
-<text text-anchor="start" x="141" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00"># MinLogLH()</text>
+<text text-anchor="start" x="141" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CreateInstance()</text>
 <text text-anchor="start" x="141" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00"># MinLogLH()</text>
-<text text-anchor="start" x="141" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"># IniLHtree()</text>
-<text text-anchor="start" x="141" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"># CalcSumOfWeights()</text>
-<text text-anchor="start" x="141" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Init()</text>
+<text text-anchor="start" x="141" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00"># MinLogLH()</text>
+<text text-anchor="start" x="141" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00"># IniLHtree()</text>
+<text text-anchor="start" x="141" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00"># CalcSumOfWeights()</text>
 <text text-anchor="start" x="141" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Reset()</text>
 </a>
 </g>

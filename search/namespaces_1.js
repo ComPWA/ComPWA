@@ -5,6 +5,7 @@ var searchData=
   ['chioned',['ChiOneD',['../d0/d38/namespaceComPWA_1_1Estimator_1_1ChiOneD.html',1,'ComPWA::Estimator']]],
   ['compwa',['ComPWA',['../da/da9/namespaceComPWA.html',1,'']]],
   ['datareader',['DataReader',['../d5/d28/namespaceComPWA_1_1DataReader.html',1,'ComPWA']]],
+  ['decaydynamics',['DecayDynamics',['../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html',1,'ComPWA::Physics']]],
   ['estimator',['Estimator',['../d6/d05/namespaceComPWA_1_1Estimator.html',1,'ComPWA']]],
   ['geneva',['Geneva',['../da/dbb/namespaceComPWA_1_1Optimizer_1_1Geneva.html',1,'ComPWA::Optimizer']]],
   ['helicityformalism',['HelicityFormalism',['../dc/d87/namespaceComPWA_1_1Physics_1_1HelicityFormalism.html',1,'ComPWA::Physics']]],
