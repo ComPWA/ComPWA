@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['X',['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#aa9352c10b36def893faa4f53d6a5939a',1,'ComPWA::Physics::QFT::Vector4::X() const '],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#a254fee33788eef89e9c92718d39fd21f',1,'ComPWA::Physics::QFT::Vector4::X()'],['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#a57bdeefedffad28386df96ec218be278',1,'NeatPlotting::GraphPoint::x()']]],
+  ['x',['x',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#a57bdeefedffad28386df96ec218be278',1,'NeatPlotting::GraphPoint::x()'],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#aa9352c10b36def893faa4f53d6a5939a',1,'ComPWA::Physics::QFT::Vector4::X() const '],['../dd/db8/classComPWA_1_1Physics_1_1QFT_1_1Vector4.html#a254fee33788eef89e9c92718d39fd21f',1,'ComPWA::Physics::QFT::Vector4::X()']]],
   ['x_5faxis_5frange',['x_axis_range',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a0a47cf4ed54d007eca5c088b532adb75',1,'NeatPlotting::PlotAxis']]],
   ['x_5faxis_5fstyle',['x_axis_style',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#abd088660a6b0bf6263121e6630c27fef',1,'NeatPlotting::PlotStyle']]],
   ['x_5faxis_5ftitle',['x_axis_title',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#aed28f395495f3d1ebec6e257d9aa2e2d',1,'NeatPlotting::PlotAxis']]],

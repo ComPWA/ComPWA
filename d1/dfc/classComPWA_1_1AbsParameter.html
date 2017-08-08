@@ -151,12 +151,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a97e950b4c0896d2fc36d49819f3794ec"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a97e950b4c0896d2fc36d49819f3794ec">make_str</a> ()=0</td></tr>
-<tr class="memdesc:a97e950b4c0896d2fc36d49819f3794ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to output string, to be implemented by parameter implementations.  <a href="#a97e950b4c0896d2fc36d49819f3794ec">More...</a><br/></td></tr>
-<tr class="separator:a97e950b4c0896d2fc36d49819f3794ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfebe6d44eab27b72bf07242c8fdebfb"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#acfebe6d44eab27b72bf07242c8fdebfb">make_val_str</a> ()=0</td></tr>
-<tr class="memdesc:acfebe6d44eab27b72bf07242c8fdebfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to output value, to be implemented by parameter implementations.  <a href="#acfebe6d44eab27b72bf07242c8fdebfb">More...</a><br/></td></tr>
-<tr class="separator:acfebe6d44eab27b72bf07242c8fdebfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397961553b509dd400aae9ed80abc891"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891">make_str</a> () const =0</td></tr>
+<tr class="memdesc:a397961553b509dd400aae9ed80abc891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to output string, to be implemented by parameter implementations.  <a href="#a397961553b509dd400aae9ed80abc891">More...</a><br/></td></tr>
+<tr class="separator:a397961553b509dd400aae9ed80abc891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c43ce8253ae1f010b5a2f332ed3f5c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a34c43ce8253ae1f010b5a2f332ed3f5c">make_val_str</a> () const =0</td></tr>
+<tr class="memdesc:a34c43ce8253ae1f010b5a2f332ed3f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to output value, to be implemented by parameter implementations.  <a href="#a34c43ce8253ae1f010b5a2f332ed3f5c">More...</a><br/></td></tr>
+<tr class="separator:a34c43ce8253ae1f010b5a2f332ed3f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -341,7 +341,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a97e950b4c0896d2fc36d49819f3794ec"></a>
+<a class="anchor" id="a397961553b509dd400aae9ed80abc891"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -352,7 +352,7 @@ Friends</h2></td></tr>
           <td class="memname">virtual std::string ComPWA::AbsParameter::make_str </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -364,11 +364,11 @@ Friends</h2></td></tr>
 
 <p>Interface to output string, to be implemented by parameter implementations. </p>
 
-<p>Implemented in <a class="el" href="../../dd/d6e/classComPWA_1_1BoolParameter.html#acbf9bb7f88ee437c8785140dec159e20">ComPWA::BoolParameter</a>, <a class="el" href="../../d2/d19/classComPWA_1_1IntegerParameter.html#ad2c7afa1444c8c641bcc9874f8f60297">ComPWA::IntegerParameter</a>, <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html#a4016ba1802eb0aab7f28942358a8e9b1">ComPWA::DoubleParameter</a>, <a class="el" href="../../da/dd8/classComPWA_1_1ComplexParameter.html#ad0257941f19b8b67be8380a459e98979">ComPWA::ComplexParameter</a>, <a class="el" href="../../de/d47/classComPWA_1_1MultiUnsignedInteger.html#a9513608111c4d7585e25bb57aa31a1f3">ComPWA::MultiUnsignedInteger</a>, <a class="el" href="../../d6/de3/classComPWA_1_1MultiDouble.html#a95945a98a591a8c27bceb68a384b40ad">ComPWA::MultiDouble</a>, and <a class="el" href="../../db/d96/classComPWA_1_1MultiComplex.html#a4d6e91fccd37fa2cdc1f2a922585921a">ComPWA::MultiComplex</a>.</p>
+<p>Implemented in <a class="el" href="../../dd/d6e/classComPWA_1_1BoolParameter.html#a503138be3a4c1592d4e080215409ef9c">ComPWA::BoolParameter</a>, <a class="el" href="../../d2/d19/classComPWA_1_1IntegerParameter.html#ab39ed41ad021b998b16aeaed4d8eb97c">ComPWA::IntegerParameter</a>, <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html#a3a5512f5414ec2570550a805eece2279">ComPWA::DoubleParameter</a>, <a class="el" href="../../da/dd8/classComPWA_1_1ComplexParameter.html#abf9799e9b14ddbeec381787c7f35357a">ComPWA::ComplexParameter</a>, <a class="el" href="../../de/d47/classComPWA_1_1MultiUnsignedInteger.html#a6fb7cace14d04a99c68a97e8b95c4f08">ComPWA::MultiUnsignedInteger</a>, <a class="el" href="../../d6/de3/classComPWA_1_1MultiDouble.html#aaf0bb6641e855b1d69bb9d55956ee549">ComPWA::MultiDouble</a>, and <a class="el" href="../../db/d96/classComPWA_1_1MultiComplex.html#a65289f019d594d1935a8a2be60e2758c">ComPWA::MultiComplex</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acfebe6d44eab27b72bf07242c8fdebfb"></a>
+<a class="anchor" id="a34c43ce8253ae1f010b5a2f332ed3f5c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -379,7 +379,7 @@ Friends</h2></td></tr>
           <td class="memname">virtual std::string ComPWA::AbsParameter::make_val_str </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -391,7 +391,7 @@ Friends</h2></td></tr>
 
 <p>Interface to output value, to be implemented by parameter implementations. </p>
 
-<p>Implemented in <a class="el" href="../../dd/d6e/classComPWA_1_1BoolParameter.html#a9dd8123d1d81397a6cd2cc646a95bfae">ComPWA::BoolParameter</a>, <a class="el" href="../../d2/d19/classComPWA_1_1IntegerParameter.html#ac205dc1f4f64441c02c36bf5ecb86449">ComPWA::IntegerParameter</a>, <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html#ac4fb481dabcb427a4dd7a460b0dced6b">ComPWA::DoubleParameter</a>, <a class="el" href="../../da/dd8/classComPWA_1_1ComplexParameter.html#ab798724ddf50390a756acded73cec7ee">ComPWA::ComplexParameter</a>, <a class="el" href="../../de/d47/classComPWA_1_1MultiUnsignedInteger.html#a2215a58001246f86536b9bfb4a840c01">ComPWA::MultiUnsignedInteger</a>, <a class="el" href="../../d6/de3/classComPWA_1_1MultiDouble.html#aecaedabab3a29338996eb2615ac37670">ComPWA::MultiDouble</a>, and <a class="el" href="../../db/d96/classComPWA_1_1MultiComplex.html#a8738b2fe4ea020c4346b28861c6c539a">ComPWA::MultiComplex</a>.</p>
+<p>Implemented in <a class="el" href="../../dd/d6e/classComPWA_1_1BoolParameter.html#a141a79ae24c105d6059e3fd9716c70ff">ComPWA::BoolParameter</a>, <a class="el" href="../../d2/d19/classComPWA_1_1IntegerParameter.html#a953d53b278d6761156164ed3498d1a0e">ComPWA::IntegerParameter</a>, <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html#af74516d3efe3c3aef5c2e7b64fcd06a2">ComPWA::DoubleParameter</a>, <a class="el" href="../../da/dd8/classComPWA_1_1ComplexParameter.html#a861b2f65dffcb9ed53bd82deb258823d">ComPWA::ComplexParameter</a>, <a class="el" href="../../de/d47/classComPWA_1_1MultiUnsignedInteger.html#a40f4c55ecb97cac3174f927651a5c2a2">ComPWA::MultiUnsignedInteger</a>, <a class="el" href="../../d6/de3/classComPWA_1_1MultiDouble.html#aafcb5f7129abb85203f8a3eebc80e408">ComPWA::MultiDouble</a>, and <a class="el" href="../../db/d96/classComPWA_1_1MultiComplex.html#a1cab21bd512a57177692dbee2fb13e36">ComPWA::MultiComplex</a>.</p>
 
 </div>
 </div>
@@ -512,7 +512,7 @@ template&lt;class archive &gt; </div>
 <p>A public function returning a string with parameter information. </p>
 <p>This function simply returns the member string out_, which contains all parameter information. The string gets rebuild with every change of the parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>string with parameter information </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd>operator&lt;&lt;, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a97e950b4c0896d2fc36d49819f3794ec" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>operator&lt;&lt;, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00144">144</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
@@ -596,7 +596,7 @@ template&lt;class archive &gt; </div>
 <p>A public function returning a string with parameter value. </p>
 <p>This function simply returns the member string outVal_, which contains the parameter value. The string gets rebuild with every change of the parameter. </p>
 <dl class="section return"><dt>Returns</dt><dd>string with parameter information </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a97e950b4c0896d2fc36d49819f3794ec" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00154">154</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
@@ -660,7 +660,7 @@ template&lt;class archive &gt; </div>
 <p>Return shared_pointer pointing to this Parameter. </p>
 <p>friend function to stream parameter information to output</p>
 <p>Declaring the stream-operator &lt;&lt; as friend allows to stream parameter information to the output as easily as a generic type. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a97e950b4c0896d2fc36d49819f3794ec" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00121">121</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
@@ -700,7 +700,7 @@ template&lt;class archive &gt; </div>
 
 <p>friend function to stream parameter information to output </p>
 <p>Declaring the stream-operator &lt;&lt; as friend allows to stream parameter information to the output as easily as a generic type. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a97e950b4c0896d2fc36d49819f3794ec" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00132">132</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
@@ -786,7 +786,7 @@ template&lt;class archive &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 7 2017 11:34:41 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 8 2017 06:30:00 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
