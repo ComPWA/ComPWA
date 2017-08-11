@@ -12,11 +12,10 @@ var searchData=
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html',1,'ComPWA']]],
   ['amplitude',['Amplitude',['../d9/d3e/classAmplitude.html',1,'']]],
   ['amplitude',['Amplitude',['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html',1,'ComPWA::Physics']]],
-  ['ampsumsliceintensity',['AmpSumSliceIntensity',['../d0/d4b/classAmpSumSliceIntensity.html',1,'']]],
-  ['ampwignerd',['AmpWignerD',['../d2/d07/classAmpWignerD.html',1,'']]],
   ['ampwignerd',['AmpWignerD',['../dc/d3c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpWignerD.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['asciireader',['AsciiReader',['../df/d15/classAsciiReader.html',1,'']]],
+  ['ampwignerd',['AmpWignerD',['../d2/d07/classAmpWignerD.html',1,'']]],
   ['asciireader',['AsciiReader',['../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html',1,'ComPWA::DataReader::AsciiReader']]],
+  ['asciireader',['AsciiReader',['../df/d15/classAsciiReader.html',1,'']]],
   ['axisrange',['AxisRange',['../da/d81/structNeatPlotting_1_1AxisRange.html',1,'NeatPlotting']]],
   ['axisstyle',['AxisStyle',['../d2/d75/structNeatPlotting_1_1AxisStyle.html',1,'NeatPlotting']]]
 ];

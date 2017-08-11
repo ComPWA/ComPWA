@@ -11,8 +11,6 @@ var searchData=
   ['particle_2ecpp',['Particle.cpp',['../d0/d03/Particle_8cpp.html',1,'']]],
   ['particle_2ehpp',['Particle.hpp',['../d3/d65/Particle_8hpp.html',1,'']]],
   ['particletest_2ecpp',['ParticleTest.cpp',['../da/dbe/ParticleTest_8cpp.html',1,'']]],
-  ['phisumofamplitudes_2ecpp',['PhiSumOfAmplitudes.cpp',['../db/db7/PhiSumOfAmplitudes_8cpp.html',1,'']]],
-  ['phisumofamplitudes_2ehpp',['PhiSumOfAmplitudes.hpp',['../d3/d66/PhiSumOfAmplitudes_8hpp.html',1,'']]],
   ['physconst_2ecpp',['PhysConst.cpp',['../dc/d6c/PhysConst_8cpp.html',1,'']]],
   ['physconst_2ehpp',['PhysConst.hpp',['../d8/d35/PhysConst_8hpp.html',1,'']]],
   ['physconsttest_2ecpp',['PhysConstTest.cpp',['../de/d27/PhysConstTest_8cpp.html',1,'']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['amplitudesum',['AmplitudeSum',['../db/d34/namespaceComPWA_1_1Physics_1_1AmplitudeSum.html',1,'ComPWA::Physics']]],
   ['asciireader',['AsciiReader',['../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html',1,'ComPWA::DataReader']]],
   ['chioned',['ChiOneD',['../d0/d38/namespaceComPWA_1_1Estimator_1_1ChiOneD.html',1,'ComPWA::Estimator']]],
   ['compwa',['ComPWA',['../da/da9/namespaceComPWA.html',1,'']]],

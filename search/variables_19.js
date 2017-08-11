@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['y',['y',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#ade5ce51b06b2993efad884b4e93f65cd',1,'NeatPlotting::GraphPoint']]],
-  ['y_5faxis_5frange',['y_axis_range',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a5586d3ddd8a595899cc1f0b2875eacfc',1,'NeatPlotting::PlotAxis']]],
-  ['y_5faxis_5fstyle',['y_axis_style',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#a23f6f0843432feb4fb937f689b3de34d',1,'NeatPlotting::PlotStyle']]],
-  ['y_5faxis_5ftitle',['y_axis_title',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a8ea6f3afe6e999566a3e4bca5c58b021',1,'NeatPlotting::PlotAxis']]],
-  ['y_5ferr_5fhigh',['y_err_high',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#a4c0a2e0ee95faea965ec9fb80304b9dd',1,'NeatPlotting::GraphPoint']]],
-  ['y_5ferr_5flow',['y_err_low',['../d7/d3e/structNeatPlotting_1_1GraphPoint.html#a3280b7d75b9616497ba9f5a1795f7231',1,'NeatPlotting::GraphPoint']]],
-  ['y_5fmax',['y_max',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#a8a1f39369209a734401daddca2725e0f',1,'NeatPlotting::PadBoundaries']]],
-  ['y_5fmin',['y_min',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#ab52c1c561c4a2d71d76111b1e43b10a9',1,'NeatPlotting::PadBoundaries']]],
-  ['y_5fparallel_5flines',['y_parallel_lines',['../dd/d75/structNeatPlotting_1_1PlotAccessories.html#a2ec2d34867b5d892505e1c0e253ffc76',1,'NeatPlotting::PlotAccessories']]]
+  ['z_5faxis_5frange',['z_axis_range',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a62196427d62f39dad13b8cbfd0f268cd',1,'NeatPlotting::PlotAxis']]],
+  ['z_5faxis_5fstyle',['z_axis_style',['../db/d0c/structNeatPlotting_1_1PlotStyle.html#ab66259fec63b81dd1a99fa7d1a85d5e1',1,'NeatPlotting::PlotStyle']]],
+  ['z_5faxis_5ftitle',['z_axis_title',['../d1/d9f/classNeatPlotting_1_1PlotAxis.html#a1b2c7d593917ec3872ccc24a0692ddff',1,'NeatPlotting::PlotAxis']]],
+  ['z_5fcomponent_5frelevant',['z_component_relevant',['../d4/d1a/classComPWA_1_1Spin.html#abeaf331939061d7e88e20b4132e86a01',1,'ComPWA::Spin']]],
+  ['z_5fmax',['z_max',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#a28ee5ef9b0709e5c0e515f3827e7ec24',1,'NeatPlotting::PadBoundaries']]],
+  ['z_5fmin',['z_min',['../d5/dfe/structNeatPlotting_1_1PadBoundaries.html#a2d21fd97bd5d8ca5bfe461695173fd13',1,'NeatPlotting::PadBoundaries']]]
 ];

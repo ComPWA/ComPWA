@@ -9,6 +9,6 @@ var searchData=
   ['rootgenerator',['RootGenerator',['../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html',1,'ComPWA::Tools']]],
   ['rootreader',['RootReader',['../d2/d4d/classRootReader.html',1,'']]],
   ['rootreader',['RootReader',['../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html',1,'ComPWA::DataReader']]],
-  ['runmanager',['RunManager',['../dc/dff/classComPWA_1_1RunManager.html',1,'ComPWA']]],
-  ['runmanager',['RunManager',['../de/d04/classRunManager.html',1,'']]]
+  ['runmanager',['RunManager',['../de/d04/classRunManager.html',1,'']]],
+  ['runmanager',['RunManager',['../dc/dff/classComPWA_1_1RunManager.html',1,'ComPWA']]]
 ];
