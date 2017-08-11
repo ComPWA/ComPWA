@@ -89,100 +89,90 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">Dictionary.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/d53/Dictionary_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2013 Mathias Michel.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// This file is part of ComPWA, check license.txt for details</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// All rights reserved. This program and the accompanying materials</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// are made available under the terms of the GNU Public License v3.0</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// which accompanies this distribution, and is available at</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// http://www.gnu.org/licenses/gpl.html</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// Contributors:</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//     Mathias Michel - initial API and implementation</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<a href="../../dc/d53/Dictionary_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2013, 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d4b/Data_8hpp.html">DataReader/Data.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dc2/Dictionary_8hpp.html">Core/Dictionary.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">   18</a></span>&#160;<a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">Dictionary::Dictionary</a>() {}</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d4b/Data_8hpp.html">DataReader/Data.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dc2/Dictionary_8hpp.html">Core/Dictionary.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">   20</a></span>&#160;<a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">Dictionary::~Dictionary</a>() { <span class="comment">/* nothing */</span> }</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">   22</a></span>&#160;std::string <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">Dictionary::introduce</a>(std::shared_ptr&lt;DataReader::Data&gt; inData,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                  std::string inName) {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">if</span> (inName == <span class="stringliteral">&quot;&quot;</span> || <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">dataNameUsed</a>(inName)) {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    inName = <span class="stringliteral">&quot;test&quot;</span>; <span class="comment">// TODO: Generate new name, check available</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">   28</a></span>&#160;<a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">Dictionary::Dictionary</a>() {}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="comment">// dataInfo tmp(inName, inData, inData-&gt;getVariableNames());//TODO!!</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">   30</a></span>&#160;<a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">Dictionary::~Dictionary</a>() { <span class="comment">/* nothing */</span> }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="comment">// mData_.push_back( tmp );</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">   32</a></span>&#160;std::string <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">Dictionary::introduce</a>(std::shared_ptr&lt;DataReader::Data&gt; inData,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                  std::string inName) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">if</span> (inName == <span class="stringliteral">&quot;&quot;</span> || <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">dataNameUsed</a>(inName)) {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    inName = <span class="stringliteral">&quot;test&quot;</span>; <span class="comment">// TODO: Generate new name, check available</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">// dataInfo tmp(inName, inData, inData-&gt;getVariableNames());//TODO!!</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="comment">// mData_.push_back( tmp );</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">return</span> inName;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a3ec01464ab0eb785302f5ed6c1c1a2ec">   45</a></span>&#160;std::string <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">Dictionary::introduce</a>(std::shared_ptr&lt;AmpIntensity&gt; inAmp,</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                  std::string inName) {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (inName == <span class="stringliteral">&quot;&quot;</span> || <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">amplitudeNameUsed</a>(inName)) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    inName = <span class="stringliteral">&quot;test&quot;</span>; <span class="comment">// TODO: Generate new name, check available</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  }</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">// mData_.insert( std::pair&lt;std::string, std::shared_ptr&lt;Amplitude&gt;</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="comment">// &gt;(inName,inData) );</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordflow">return</span> inName;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">   57</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">Dictionary::dataNameUsed</a>(std::string inName) {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">bool</span> used = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordflow">for</span> (std::vector&lt;dataInfo&gt;::iterator it = <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">mData_</a>.begin(); it != <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">mData_</a>.end();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;       ++it)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (it-&gt;name == inName)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      used = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">return</span> used;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">   68</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">Dictionary::amplitudeNameUsed</a>(std::string inName) {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">bool</span> used = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">for</span> (std::vector&lt;ampInfo&gt;::iterator it = <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">mAmps_</a>.begin(); it != <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">mAmps_</a>.end();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;       ++it)</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (it-&gt;name == inName)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      used = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">return</span> used;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_a664df3390087774d40ad6633b7294d9e"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">ComPWA::Dictionary::introduce</a></div><div class="ttdeci">virtual std::string introduce(std::shared_ptr&lt; DataReader::Data &gt; inData, std::string inName=&quot;&quot;)</div><div class="ttdoc">Introduction of a DataReader. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00032">Dictionary.cpp:32</a></div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_aee8d612bc9d323c38faba045ba384b8b"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">ComPWA::Dictionary::Dictionary</a></div><div class="ttdeci">Dictionary()</div><div class="ttdoc">Standard constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00028">Dictionary.cpp:28</a></div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_a6666ce73063c5a6d3c0684361bdc30ef"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">ComPWA::Dictionary::dataNameUsed</a></div><div class="ttdeci">virtual bool dataNameUsed(std::string inName)</div><div class="ttdoc">Check if name already used for a Data Module. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00057">Dictionary.cpp:57</a></div></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">return</span> inName;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a3ec01464ab0eb785302f5ed6c1c1a2ec">   35</a></span>&#160;std::string <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">Dictionary::introduce</a>(std::shared_ptr&lt;AmpIntensity&gt; inAmp,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                  std::string inName) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> (inName == <span class="stringliteral">&quot;&quot;</span> || <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">amplitudeNameUsed</a>(inName)) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    inName = <span class="stringliteral">&quot;test&quot;</span>; <span class="comment">// TODO: Generate new name, check available</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="comment">// mData_.insert( std::pair&lt;std::string, std::shared_ptr&lt;Amplitude&gt;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="comment">// &gt;(inName,inData) );</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordflow">return</span> inName;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">   47</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">Dictionary::dataNameUsed</a>(std::string inName) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">bool</span> used = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">for</span> (std::vector&lt;dataInfo&gt;::iterator it = <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">mData_</a>.begin(); it != <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">mData_</a>.end();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;       ++it)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (it-&gt;name == inName)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      used = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">return</span> used;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">   58</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">Dictionary::amplitudeNameUsed</a>(std::string inName) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordtype">bool</span> used = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordflow">for</span> (std::vector&lt;ampInfo&gt;::iterator it = <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">mAmps_</a>.begin(); it != <a class="code" href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">mAmps_</a>.end();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;       ++it)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (it-&gt;name == inName)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      used = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordflow">return</span> used;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_a664df3390087774d40ad6633b7294d9e"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a664df3390087774d40ad6633b7294d9e">ComPWA::Dictionary::introduce</a></div><div class="ttdeci">virtual std::string introduce(std::shared_ptr&lt; DataReader::Data &gt; inData, std::string inName=&quot;&quot;)</div><div class="ttdoc">Introduction of a DataReader. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00022">Dictionary.cpp:22</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_aee8d612bc9d323c38faba045ba384b8b"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aee8d612bc9d323c38faba045ba384b8b">ComPWA::Dictionary::Dictionary</a></div><div class="ttdeci">Dictionary()</div><div class="ttdoc">Standard constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00018">Dictionary.cpp:18</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_a6666ce73063c5a6d3c0684361bdc30ef"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a6666ce73063c5a6d3c0684361bdc30ef">ComPWA::Dictionary::dataNameUsed</a></div><div class="ttdeci">virtual bool dataNameUsed(std::string inName)</div><div class="ttdoc">Check if name already used for a Data Module. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00047">Dictionary.cpp:47</a></div></div>
 <div class="ttc" id="ParameterList_8hpp_html"><div class="ttname"><a href="../../df/d9f/ParameterList_8hpp.html">ParameterList.hpp</a></div><div class="ttdoc">This class provides a list of fit parameters which can have different types. </div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_a231d048b29a0e1d87642ee87dd2a179c"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">ComPWA::Dictionary::mData_</a></div><div class="ttdeci">std::vector&lt; dataInfo &gt; mData_</div><div class="ttdoc">List of DataReader Info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/Dictionary_8hpp_source.html#l00124">Dictionary.hpp:124</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_a231d048b29a0e1d87642ee87dd2a179c"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a231d048b29a0e1d87642ee87dd2a179c">ComPWA::Dictionary::mData_</a></div><div class="ttdeci">std::vector&lt; dataInfo &gt; mData_</div><div class="ttdoc">List of DataReader Info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/Dictionary_8hpp_source.html#l00112">Dictionary.hpp:112</a></div></div>
 <div class="ttc" id="Data_8hpp_html"><div class="ttname"><a href="../../d2/d4b/Data_8hpp.html">Data.hpp</a></div></div>
 <div class="ttc" id="Dictionary_8hpp_html"><div class="ttname"><a href="../../d5/dc2/Dictionary_8hpp.html">Dictionary.hpp</a></div><div class="ttdoc">This class gathers information from modules, namely what they need as input and what they provide as ...</div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_a42e1762e329554569a13ad12d58cf389"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">ComPWA::Dictionary::mAmps_</a></div><div class="ttdeci">std::vector&lt; ampInfo &gt; mAmps_</div><div class="ttdoc">List of Amplitude Info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/Dictionary_8hpp_source.html#l00125">Dictionary.hpp:125</a></div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_aa7fea8af597aca5499aa28f30f8a0b11"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">ComPWA::Dictionary::amplitudeNameUsed</a></div><div class="ttdeci">virtual bool amplitudeNameUsed(std::string inName)</div><div class="ttdoc">Check if name already used for an Amplitude. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00068">Dictionary.cpp:68</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_a42e1762e329554569a13ad12d58cf389"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#a42e1762e329554569a13ad12d58cf389">ComPWA::Dictionary::mAmps_</a></div><div class="ttdeci">std::vector&lt; ampInfo &gt; mAmps_</div><div class="ttdoc">List of Amplitude Info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/Dictionary_8hpp_source.html#l00113">Dictionary.hpp:113</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_aa7fea8af597aca5499aa28f30f8a0b11"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11">ComPWA::Dictionary::amplitudeNameUsed</a></div><div class="ttdeci">virtual bool amplitudeNameUsed(std::string inName)</div><div class="ttdoc">Check if name already used for an Amplitude. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00058">Dictionary.cpp:58</a></div></div>
 <div class="ttc" id="Parameter_8hpp_html"><div class="ttname"><a href="../../db/dce/Parameter_8hpp.html">Parameter.hpp</a></div><div class="ttdoc">This class implements some internal container of parameters. </div></div>
-<div class="ttc" id="classComPWA_1_1Dictionary_html_aa36f24073d9c9001768517aa2322cb82"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">ComPWA::Dictionary::~Dictionary</a></div><div class="ttdeci">virtual ~Dictionary()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00030">Dictionary.cpp:30</a></div></div>
+<div class="ttc" id="classComPWA_1_1Dictionary_html_aa36f24073d9c9001768517aa2322cb82"><div class="ttname"><a href="../../de/de9/classComPWA_1_1Dictionary.html#aa36f24073d9c9001768517aa2322cb82">ComPWA::Dictionary::~Dictionary</a></div><div class="ttdeci">virtual ~Dictionary()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d53/Dictionary_8cpp_source.html#l00020">Dictionary.cpp:20</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

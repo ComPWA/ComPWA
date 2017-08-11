@@ -89,93 +89,87 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">GenevaTestApp.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d5e/GenevaTestApp_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2013 Mathias Michel.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved. This program and the accompanying materials</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// are made available under the terms of the GNU Public License v3.0</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// which accompanies this distribution, and is available at</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// http://www.gnu.org/licenses/gpl.html</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Contributors:</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//     Mathias Michel - initial API and implementation</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// Standard header files go here</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">// Boost header files go here</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;boost/lexical_cast.hpp&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//#include &quot;ErrLogger/ErrLogger.hh&quot;</span></div>
+<a href="../../d4/d5e/GenevaTestApp_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2013, 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// Standard header files go here</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// Boost header files go here</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;boost/lexical_cast.hpp&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">//#include &quot;ErrLogger/ErrLogger.hh&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// Minimizer Interface header files go here</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dad/GenevaIF_8hpp.html">Optimizer/Geneva/GenevaIF.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d88/FitResult_8hpp.html">Core/FitResult.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// Minimizer Interface header files go here</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dad/GenevaIF_8hpp.html">Optimizer/Geneva/GenevaIF.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d88/FitResult_8hpp.html">Core/FitResult.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// The toy-data to fit to</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &quot;test/PolyFit.hpp&quot;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">/************************************************************************************************/</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   49</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv){</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;  ComPWA Copyright (C) 2013  Mathias Michel &quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;  This program comes with ABSOLUTELY NO WARRANTY; for details see license.txt&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  std::cout &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordtype">bool</span> iamserver=<span class="keyword">false</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span>( argc&gt;1 ){</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    iamserver=<span class="keyword">true</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;I am the Geneva Server:&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;I am a Geneva Client:&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">double</span> p0=-10., p1=10., p2=1., p3=-0.01, sigma_smear=3;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="comment">// Generate data distribution</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  std::shared_ptr&lt;ControlParameter&gt; myFit = <a class="code" href="../../de/d89/classPolyFit.html#a9a45808e526e84a5a8af50ff055d0c80">PolyFit::createInstance</a>(p0, p1, p2, p3, sigma_smear);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="comment">//--------------------------Minimizer IF --------------------------------------------------------</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  std::shared_ptr&lt;GenevaIF&gt; myMinimizer(std::shared_ptr&lt;GenevaIF&gt; (<span class="keyword">new</span> <a class="code" href="../../d1/d1b/classGenevaIF.html">GenevaIF</a>(myFit)));</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordflow">if</span>(iamserver)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    myMinimizer-&gt;setServerMode();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    myMinimizer-&gt;setClientMode();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// The toy-data to fit to</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;test/PolyFit.hpp&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/************************************************************************************************/</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   43</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv){</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;  ComPWA Copyright (C) 2013  Mathias Michel &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;  This program comes with ABSOLUTELY NO WARRANTY; for details see license.txt&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  std::cout &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">bool</span> iamserver=<span class="keyword">false</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span>( argc&gt;1 ){</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    iamserver=<span class="keyword">true</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;I am the Geneva Server:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;I am a Geneva Client:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">double</span> p0=-10., p1=10., p2=1., p3=-0.01, sigma_smear=3;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="comment">// Generate data distribution</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  std::shared_ptr&lt;ControlParameter&gt; myFit = <a class="code" href="../../de/d89/classPolyFit.html#a9a45808e526e84a5a8af50ff055d0c80">PolyFit::createInstance</a>(p0, p1, p2, p3, sigma_smear);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">//--------------------------Minimizer IF --------------------------------------------------------</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  std::shared_ptr&lt;GenevaIF&gt; myMinimizer(std::shared_ptr&lt;GenevaIF&gt; (<span class="keyword">new</span> <a class="code" href="../../d1/d1b/classGenevaIF.html">GenevaIF</a>(myFit)));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordflow">if</span>(iamserver)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    myMinimizer-&gt;setServerMode();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    myMinimizer-&gt;setClientMode();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../d1/d9d/classParameterList.html">ParameterList</a> par;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p0&quot;</span>,-50,-100,-5,50)));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p1&quot;</span>,50,0,100,50)));</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p2&quot;</span>,10,-20,20,10)));</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p3&quot;</span>,-0.1,-0.2,0,0.05)));</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="code" href="../../d1/d9d/classParameterList.html">ParameterList</a> par;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p0&quot;</span>,-50,-100,-5,50)));</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p1&quot;</span>,50,0,100,50)));</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p2&quot;</span>,10,-20,20,10)));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  par.AddParameter(std::shared_ptr&lt;DoubleParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../dd/d8d/classDoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;p3&quot;</span>,-0.1,-0.2,0,0.05)));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">if</span>(iamserver){</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Starting Parameters:&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;par.GetNDouble(); i++)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Parameter &quot;</span>&lt;&lt; i &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; par.GetParameterValue(i) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::cout &lt;&lt; std::endl &lt;&lt; std::endl &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  std::shared_ptr&lt;FitResult&gt; genResult = myMinimizer-&gt;exec(par);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">if</span>(iamserver){</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Geneva final par :\t&quot;</span> &lt;&lt; genResult-&gt;getResult() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;par.GetNDouble(); i++)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;final par &quot;</span>&lt;&lt; i &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; par.GetParameterValue(i) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;Done ...&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="comment">// Plot results</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="comment">//myFit-&gt;drawGraph(par.GetParameterValue(0),par.GetParameterValue(1),par.GetParameterValue(2),par.GetParameterValue(3));</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordflow">if</span>(iamserver){</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Starting Parameters:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;par.GetNDouble(); i++)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Parameter &quot;</span>&lt;&lt; i &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; par.GetParameterValue(i) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    std::cout &lt;&lt; std::endl &lt;&lt; std::endl &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  std::shared_ptr&lt;FitResult&gt; genResult = myMinimizer-&gt;exec(par);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">if</span>(iamserver){</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Geneva final par :\t&quot;</span> &lt;&lt; genResult-&gt;getResult() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;par.GetNDouble(); i++)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;final par &quot;</span>&lt;&lt; i &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; par.GetParameterValue(i) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;Done ...&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="comment">// Plot results</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="comment">//myFit-&gt;drawGraph(par.GetParameterValue(0),par.GetParameterValue(1),par.GetParameterValue(2),par.GetParameterValue(3));</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 <div class="ttc" id="GenevaIF_8hpp_html"><div class="ttname"><a href="../../db/dad/GenevaIF_8hpp.html">GenevaIF.hpp</a></div><div class="ttdoc">This class provides a wrapper around the Geneva library. </div></div>
 <div class="ttc" id="ParameterList_8hpp_html"><div class="ttname"><a href="../../df/d9f/ParameterList_8hpp.html">ParameterList.hpp</a></div><div class="ttdoc">This class provides a list of fit parameters which can have different types. </div></div>
-<div class="ttc" id="GenevaTestApp_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdoc">The main function. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5e/GenevaTestApp_8cpp_source.html#l00049">GenevaTestApp.cpp:49</a></div></div>
+<div class="ttc" id="GenevaTestApp_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../d4/d5e/GenevaTestApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdoc">The main function. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5e/GenevaTestApp_8cpp_source.html#l00043">GenevaTestApp.cpp:43</a></div></div>
 <div class="ttc" id="classPolyFit_html_a9a45808e526e84a5a8af50ff055d0c80"><div class="ttname"><a href="../../de/d89/classPolyFit.html#a9a45808e526e84a5a8af50ff055d0c80">PolyFit::createInstance</a></div><div class="ttdeci">static std::shared_ptr&lt; ComPWA::ControlParameter &gt; createInstance(double p0, double p1, double p2, double p3, double sigma)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8b/PolyFit_8cpp_source.html#l00032">PolyFit.cpp:32</a></div></div>
 <div class="ttc" id="classParameterList_html"><div class="ttname"><a href="../../d1/d9d/classParameterList.html">ParameterList</a></div><div class="ttdoc">Internal container representing a parameter list. </div></div>
 <div class="ttc" id="classGenevaIF_html"><div class="ttname"><a href="../../d1/d1b/classGenevaIF.html">GenevaIF</a></div><div class="ttdoc">Wrapper of the Geneva Optimizer library. </div></div>
@@ -185,7 +179,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:29 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

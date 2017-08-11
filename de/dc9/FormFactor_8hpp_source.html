@@ -89,178 +89,174 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">FormFactor.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../de/dc9/FormFactor_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  FormFactor.hpp</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  COMPWA</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Peter Weidenkaff on 03.08.17.</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef FormFactor_h</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FormFactor_h</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>Physics {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>DecayDynamics {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">   27</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">qSqValue</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordtype">double</span> mapb = ma + mb;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordtype">double</span> mamb = ma - mb;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordtype">double</span> xSq = sqrtS * sqrtS;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">double</span> t1 = xSq - mapb * mapb;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">double</span> t2 = xSq - mamb * mamb;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">return</span> (t1 * t2 / (4 * xSq));</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">   44</a></span>&#160;<span class="keyword">inline</span> std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">phspFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordtype">double</span> s = sqrtS * sqrtS;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  std::complex&lt;double&gt; i(0, 1);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="comment">// == Two types of analytic continuation</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="comment">// 1) Complex sqrt</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">//    std::complex&lt;double&gt; rhoOld;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">//    rhoOld = sqrt(std::complex&lt;double&gt;(qSqValue(sqrtS,ma,mb))) /</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="comment">//(8*M_PI*sqrtS); //PDG definition</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">//    rhoOld = sqrt(std::complex&lt;double&gt;(qSqValue(sqrtS,ma,mb))) /</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="comment">//(0.5*sqrtS); //BaBar definition</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="comment">//    return rhoOld; //complex sqrt</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">/* 2) Correct analytic continuation</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">   * proper analytic continuation (PDG 2014 - Resonances (47.2.2))</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">   * I&#39;m not sure of this is correct for the case of two different masses ma and</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">   * mb.</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">   * Furthermore we divide by the factor 16*Pi*Sqrt[s]). This is more or less</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">   * arbitrary</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">   * and not mentioned in the reference, but it leads to a good agreement</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">   * between both</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">   * approaches.</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">   */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  std::complex&lt;double&gt; rho;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordtype">double</span> q = std::sqrt(std::fabs(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">qSqValue</a>(sqrtS, ma, mb) * 4 / s));</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">if</span> (s &lt;= 0) { <span class="comment">// below 0</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    rho = -q / M_PI * std::log(std::fabs((1 + q) / (1 - q)));</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (0 &lt; s &amp;&amp; s &lt;= (ma + mb) * (ma + mb)) { <span class="comment">// below threshold</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    rho = (-2.0 * q / M_PI * atan(1 / q)) / (i * 16.0 * M_PI * sqrtS);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((ma + mb) * (ma + mb) &lt; s) { <span class="comment">// above threshold</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    rho = (-q / M_PI * log(std::fabs((1 + q) / (1 - q))) + i * q) /</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          (i * 16.0 * M_PI * sqrtS);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::phspFactor| PhspFactor not &quot;</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                             <span class="stringliteral">&quot;defined at sqrtS = &quot;</span> +</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                             std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">double</span>)sqrtS));</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#ifndef NDEBUG</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span>  <span class="keywordflow">if</span> (rho.real() != rho.real() || rho.imag() != rho.imag()) {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::phspFactor| Result invalid (NaN)!&quot;</span>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">return</span> rho; <span class="comment">// correct analytical continuation</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">  101</a></span>&#160;<span class="keyword">inline</span> std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">phspFactor</a>(sqrtS, ma, mb) * 8.0 * M_PI * sqrtS;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
+<a href="../../de/dc9/FormFactor_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef FormFactor_h</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FormFactor_h</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>Physics {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>DecayDynamics {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">   23</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">qSqValue</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordtype">double</span> mapb = ma + mb;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordtype">double</span> mamb = ma - mb;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">double</span> xSq = sqrtS * sqrtS;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">double</span> t1 = xSq - mapb * mapb;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordtype">double</span> t2 = xSq - mamb * mamb;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordflow">return</span> (t1 * t2 / (4 * xSq));</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">   40</a></span>&#160;<span class="keyword">inline</span> std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">phspFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">double</span> s = sqrtS * sqrtS;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  std::complex&lt;double&gt; i(0, 1);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// == Two types of analytic continuation</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="comment">// 1) Complex sqrt</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="comment">//    std::complex&lt;double&gt; rhoOld;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="comment">//    rhoOld = sqrt(std::complex&lt;double&gt;(qSqValue(sqrtS,ma,mb))) /</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="comment">//(8*M_PI*sqrtS); //PDG definition</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="comment">//    rhoOld = sqrt(std::complex&lt;double&gt;(qSqValue(sqrtS,ma,mb))) /</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">//(0.5*sqrtS); //BaBar definition</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">//    return rhoOld; //complex sqrt</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">/* 2) Correct analytic continuation</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">   * proper analytic continuation (PDG 2014 - Resonances (47.2.2))</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">   * I&#39;m not sure of this is correct for the case of two different masses ma and</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">   * mb.</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">   * Furthermore we divide by the factor 16*Pi*Sqrt[s]). This is more or less</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">   * arbitrary</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">   * and not mentioned in the reference, but it leads to a good agreement</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">   * between both</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">   * approaches.</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">   */</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  std::complex&lt;double&gt; rho;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordtype">double</span> q = std::sqrt(std::fabs(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">qSqValue</a>(sqrtS, ma, mb) * 4 / s));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">if</span> (s &lt;= 0) { <span class="comment">// below 0</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    rho = -q / M_PI * std::log(std::fabs((1 + q) / (1 - q)));</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (0 &lt; s &amp;&amp; s &lt;= (ma + mb) * (ma + mb)) { <span class="comment">// below threshold</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    rho = (-2.0 * q / M_PI * atan(1 / q)) / (i * 16.0 * M_PI * sqrtS);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((ma + mb) * (ma + mb) &lt; s) { <span class="comment">// above threshold</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    rho = (-q / M_PI * log(std::fabs((1 + q) / (1 - q))) + i * q) /</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          (i * 16.0 * M_PI * sqrtS);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  } <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::phspFactor| PhspFactor not &quot;</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                             <span class="stringliteral">&quot;defined at sqrtS = &quot;</span> +</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                             std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">double</span>)sqrtS));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#ifndef NDEBUG</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span>  <span class="keywordflow">if</span> (rho.real() != rho.real() || rho.imag() != rho.imag()) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::phspFactor| Result invalid (NaN)!&quot;</span>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordflow">return</span> rho; <span class="comment">// correct analytical continuation</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">   97</a></span>&#160;<span class="keyword">inline</span> std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">phspFactor</a>(sqrtS, ma, mb) * 8.0 * M_PI * sqrtS;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">  101</a></span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[] = {<span class="stringliteral">&quot;noFormFactor&quot;</span>, <span class="stringliteral">&quot;BlattWeisskopf&quot;</span>,</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                                             <span class="stringliteral">&quot;CrystalBarrel&quot;</span>};</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">  103</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> { <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">noFormFactor</a> = 0, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">BlattWeisskopf</a> = 1, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">CrystalBarrel</a> = 2 };</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">  105</a></span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[] = {<span class="stringliteral">&quot;noFormFactor&quot;</span>, <span class="stringliteral">&quot;BlattWeisskopf&quot;</span>,</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                             <span class="stringliteral">&quot;CrystalBarrel&quot;</span>};</div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">  107</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> { <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">noFormFactor</a> = 0, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">BlattWeisskopf</a> = 1, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">CrystalBarrel</a> = 2 };</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">  110</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb, <span class="keywordtype">double</span> spin,</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                         <span class="keywordtype">double</span> mesonRadius, std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>,</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                         <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> type) {</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordflow">if</span> (mesonRadius == 0)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">return</span> 1.0; <span class="comment">// disable form factors</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">formFactorType::noFormFactor</a>)</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> 1.0; <span class="comment">// disable form factors</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a> &amp;&amp; spin == 0) {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="comment">// Form factor for a0(980) used by Crystal Barrel (Phys.Rev.D78-074023)</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">formFactorType::CrystalBarrel</a>) {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">if</span> (spin == 0) {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="keywordtype">double</span> qSq = std::norm(qValue);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      <span class="keywordtype">double</span> alpha = mesonRadius * mesonRadius / 6;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      <span class="keywordflow">return</span> std::exp(-alpha * qSq);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::FormFactor() | &quot;</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                               <span class="stringliteral">&quot;Form factors of type &quot;</span> +</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                               std::string(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[type]) +</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                               <span class="stringliteral">&quot; are implemented for spin 0 only!&quot;</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  }</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="comment">// Blatt-Weisskopt form factors with normalization F(x=mR) = 1.</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="comment">// Reference: S.U.Chung Annalen der Physik 4(1995) 404-430</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <span class="comment">// z = q / (interaction range). For the interaction range we assume</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="comment">// 1/mesonRadius</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a>) {</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (spin == 0)</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordtype">double</span> qSq = std::norm(qValue);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">double</span> z = qSq * mesonRadius * mesonRadius;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">/* Events below threshold</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment">     * What should we do if event is below threshold? Shouldn&#39;t really influence</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">     * the result</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment">     * because resonances at threshold don&#39;t have spin(?) */</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    z = std::fabs(z);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">if</span> (spin == 1) {</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">return</span> (sqrt(2 * z / (z + 1)));</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 2) {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;      <span class="keywordflow">return</span> (sqrt(13 * z * z / ((z - 3) * (z - 3) + 9 * z)));</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 3) {</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      <span class="keywordflow">return</span> (</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;          sqrt(277 * z * z * z / (z * (z - 15) * (z - 15) + 9 * (2 * z - 5))));</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 4) {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      <span class="keywordflow">return</span> (sqrt(12746 * z * z * z * z /</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                   ((z * z - 45 * z + 105) * (z * z - 45 * z + 105) +</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                    25 * z * (2 * z - 21) * (2 * z - 21))));</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;          <span class="stringliteral">&quot;Kinematics::FormFactor() | Form factors of type &quot;</span> +</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;          std::string(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[type]) +</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;          <span class="stringliteral">&quot; are implemented for spins up to 4!&quot;</span>);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::FormFactor() | Form factor type &quot;</span> +</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                           std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span>)type) +</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                           <span class="stringliteral">&quot; not specified!&quot;</span>);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a991b7085a02b2737e5ab0519715ed8fa">  174</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb, <span class="keywordtype">double</span> spin,</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                         <span class="keywordtype">double</span> mesonRadius, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> type) {</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">formFactorType::noFormFactor</a>) {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  }</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a> &amp;&amp; spin == 0) {</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  }</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">  106</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb, <span class="keywordtype">double</span> spin,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                         <span class="keywordtype">double</span> mesonRadius, std::complex&lt;double&gt; <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                         <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> type) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordflow">if</span> (mesonRadius == 0)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">return</span> 1.0; <span class="comment">// disable form factors</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">formFactorType::noFormFactor</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">return</span> 1.0; <span class="comment">// disable form factors</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a> &amp;&amp; spin == 0) {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="comment">// Form factor for a0(980) used by Crystal Barrel (Phys.Rev.D78-074023)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">formFactorType::CrystalBarrel</a>) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (spin == 0) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordtype">double</span> qSq = std::norm(qValue);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordtype">double</span> alpha = mesonRadius * mesonRadius / 6;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">return</span> std::exp(-alpha * qSq);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    } <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::FormFactor() | &quot;</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                               <span class="stringliteral">&quot;Form factors of type &quot;</span> +</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                               std::string(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[type]) +</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                               <span class="stringliteral">&quot; are implemented for spin 0 only!&quot;</span>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="comment">// Blatt-Weisskopt form factors with normalization F(x=mR) = 1.</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="comment">// Reference: S.U.Chung Annalen der Physik 4(1995) 404-430</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="comment">// z = q / (interaction range). For the interaction range we assume</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="comment">// 1/mesonRadius</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a>) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span> (spin == 0)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">double</span> qSq = std::norm(qValue);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">double</span> z = qSq * mesonRadius * mesonRadius;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="comment">/* Events below threshold</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">     * What should we do if event is below threshold? Shouldn&#39;t really influence</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">     * the result</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment">     * because resonances at threshold don&#39;t have spin(?) */</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    z = std::fabs(z);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">if</span> (spin == 1) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">return</span> (sqrt(2 * z / (z + 1)));</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 2) {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordflow">return</span> (sqrt(13 * z * z / ((z - 3) * (z - 3) + 9 * z)));</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 3) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">return</span> (</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;          sqrt(277 * z * z * z / (z * (z - 15) * (z - 15) + 9 * (2 * z - 5))));</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spin == 4) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keywordflow">return</span> (sqrt(12746 * z * z * z * z /</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                   ((z * z - 45 * z + 105) * (z * z - 45 * z + 105) +</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                    25 * z * (2 * z - 21) * (2 * z - 21))));</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    } <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;          <span class="stringliteral">&quot;Kinematics::FormFactor() | Form factors of type &quot;</span> +</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;          std::string(<a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">formFactorTypeString</a>[type]) +</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;          <span class="stringliteral">&quot; are implemented for spins up to 4!&quot;</span>);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Kinematics::FormFactor() | Form factor type &quot;</span> +</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                           std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span>)type) +</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                           <span class="stringliteral">&quot; not specified!&quot;</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a991b7085a02b2737e5ab0519715ed8fa">  170</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(<span class="keywordtype">double</span> sqrtS, <span class="keywordtype">double</span> ma, <span class="keywordtype">double</span> mb, <span class="keywordtype">double</span> spin,</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                         <span class="keywordtype">double</span> mesonRadius, <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> type) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">formFactorType::noFormFactor</a>) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="keywordflow">if</span> (type == <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">formFactorType::BlattWeisskopf</a> &amp;&amp; spin == 0) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">return</span> 1.0;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  std::complex&lt;double&gt; qV = <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>(sqrtS, ma, mb);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(sqrtS, ma, mb, spin, mesonRadius, qV, type);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  std::complex&lt;double&gt; qV = <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">qValue</a>(sqrtS, ma, mb);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">FormFactor</a>(sqrtS, ma, mb, spin, mesonRadius, qV, type);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;} <span class="comment">/* namespace DecayDynamics */</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;} <span class="comment">/* namespace Physics */</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;} <span class="comment">/* namespace DecayDynamics */</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;} <span class="comment">/* namespace Physics */</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* FormFactor_h */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_abbfd1dacbd25f3b25fc0f194d684954e"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">ComPWA::Physics::DecayDynamics::qValue</a></div><div class="ttdeci">std::complex&lt; double &gt; qValue(double sqrtS, double ma, double mb)</div><div class="ttdoc">Calculate Break-up momentum. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00101">FormFactor.hpp:101</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">ComPWA::Physics::DecayDynamics::formFactorType</a></div><div class="ttdeci">formFactorType</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00107">FormFactor.hpp:107</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_a94b210951cbff946890ca51fcd8c893f"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">ComPWA::Physics::DecayDynamics::phspFactor</a></div><div class="ttdeci">std::complex&lt; double &gt; phspFactor(double sqrtS, double ma, double mb)</div><div class="ttdoc">Two body phsp factor. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00044">FormFactor.hpp:44</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ad9e7cd55125b9429f2af5cb48a119c84"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">ComPWA::Physics::DecayDynamics::formFactorTypeString</a></div><div class="ttdeci">static const char * formFactorTypeString[]</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00105">FormFactor.hpp:105</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">ComPWA::Physics::DecayDynamics::BlattWeisskopf</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00107">FormFactor.hpp:107</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">ComPWA::Physics::DecayDynamics::noFormFactor</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00107">FormFactor.hpp:107</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">ComPWA::Physics::DecayDynamics::CrystalBarrel</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00107">FormFactor.hpp:107</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_a76350786bd1d68107d0ed6aac8daeb2b"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">ComPWA::Physics::DecayDynamics::FormFactor</a></div><div class="ttdeci">double FormFactor(double sqrtS, double ma, double mb, double spin, double mesonRadius, std::complex&lt; double &gt; qValue, formFactorType type)</div><div class="ttdoc">Calculate form factor. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00110">FormFactor.hpp:110</a></div></div>
-<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_afbaa3f112f35b6604d907d3503ad1c95"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">ComPWA::Physics::DecayDynamics::qSqValue</a></div><div class="ttdeci">double qSqValue(double sqrtS, double ma, double mb)</div><div class="ttdoc">Calculate Break-up momentum squared. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00027">FormFactor.hpp:27</a></div></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* FormFactor_h */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_abbfd1dacbd25f3b25fc0f194d684954e"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#abbfd1dacbd25f3b25fc0f194d684954e">ComPWA::Physics::DecayDynamics::qValue</a></div><div class="ttdeci">std::complex&lt; double &gt; qValue(double sqrtS, double ma, double mb)</div><div class="ttdoc">Calculate Break-up momentum. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00097">FormFactor.hpp:97</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">ComPWA::Physics::DecayDynamics::formFactorType</a></div><div class="ttdeci">formFactorType</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00103">FormFactor.hpp:103</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_a94b210951cbff946890ca51fcd8c893f"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a94b210951cbff946890ca51fcd8c893f">ComPWA::Physics::DecayDynamics::phspFactor</a></div><div class="ttdeci">std::complex&lt; double &gt; phspFactor(double sqrtS, double ma, double mb)</div><div class="ttdoc">Two body phsp factor. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00040">FormFactor.hpp:40</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ad9e7cd55125b9429f2af5cb48a119c84"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ad9e7cd55125b9429f2af5cb48a119c84">ComPWA::Physics::DecayDynamics::formFactorTypeString</a></div><div class="ttdeci">static const char * formFactorTypeString[]</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00101">FormFactor.hpp:101</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459a051e44c19d91becb1e0f4620c8580622">ComPWA::Physics::DecayDynamics::BlattWeisskopf</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00103">FormFactor.hpp:103</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab885f9aa21fce1c34e2dd04df36c5bee">ComPWA::Physics::DecayDynamics::noFormFactor</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00103">FormFactor.hpp:103</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459ab4e29e186fd9e709d5c8001101d85af4">ComPWA::Physics::DecayDynamics::CrystalBarrel</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00103">FormFactor.hpp:103</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_a76350786bd1d68107d0ed6aac8daeb2b"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#a76350786bd1d68107d0ed6aac8daeb2b">ComPWA::Physics::DecayDynamics::FormFactor</a></div><div class="ttdeci">double FormFactor(double sqrtS, double ma, double mb, double spin, double mesonRadius, std::complex&lt; double &gt; qValue, formFactorType type)</div><div class="ttdoc">Calculate form factor. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00106">FormFactor.hpp:106</a></div></div>
+<div class="ttc" id="namespaceComPWA_1_1Physics_1_1DecayDynamics_html_afbaa3f112f35b6604d907d3503ad1c95"><div class="ttname"><a href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#afbaa3f112f35b6604d907d3503ad1c95">ComPWA::Physics::DecayDynamics::qSqValue</a></div><div class="ttdeci">double qSqValue(double sqrtS, double ma, double mb)</div><div class="ttdoc">Calculate Break-up momentum squared. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc9/FormFactor_8hpp_source.html#l00023">FormFactor.hpp:23</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:41 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:29 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

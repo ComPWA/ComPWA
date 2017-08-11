@@ -89,85 +89,78 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">DataPoint.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/da9/DataPoint_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2013 Peter Weidenkaff.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved. This program and the accompanying materials</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// are made available under the terms of the GNU Public License v3.0</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// which accompanies this distribution, and is available at</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// http://www.gnu.org/licenses/gpl.html</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Contributors:</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//     Peter Weidenkaff - initial API</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
+<a href="../../d5/da9/DataPoint_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2013, 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de9/Exceptions_8hpp.html">Core/Exceptions.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d37/Kinematics_8hpp.html">Core/Kinematics.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/dd4/DataPoint_8hpp.html">Core/DataPoint.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de9/Exceptions_8hpp.html">Core/Exceptions.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d37/Kinematics_8hpp.html">Core/Kinematics.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/dd4/DataPoint_8hpp.html">Core/DataPoint.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">   19</a></span>&#160;<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">dataPoint::dataPoint</a>() : weight(1.), eff(1.) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">dataPoint::Reset</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size) { <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a> = std::vector&lt;double&gt;(size); }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">   25</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">dataPoint::SetValue</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> pos, <span class="keywordtype">double</span> val) {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a>.at(pos) = val;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  } <span class="keywordflow">catch</span> (...) {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(error) &lt;&lt; <span class="stringliteral">&quot;dataPoint::setVal() | &quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                  <span class="stringliteral">&quot;Can not access index &quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               &lt;&lt; pos &lt;&lt; <span class="stringliteral">&quot;!&quot;</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">throw</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">   37</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">dataPoint::GetValue</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> num)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">double</span> rt;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    rt = <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a>.at(num);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  } <span class="keywordflow">catch</span> (...) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(error) &lt;&lt; <span class="stringliteral">&quot;dataPoint::getVal() | &quot;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                  <span class="stringliteral">&quot;Can not access index &quot;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;               &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot;!&quot;</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">throw</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">return</span> rt;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">   51</a></span>&#160;std::ostream &amp;<a class="code" href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;p) {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;(&quot;</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">Size</a>(); i++){</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    os &lt;&lt; p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">GetValue</a>(i);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span>( i == p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">Size</a>()-1 )</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    os &lt;&lt; <span class="stringliteral">&quot;)&quot;</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">else</span> </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    os &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordflow">return</span> os;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">   12</a></span>&#160;<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">dataPoint::dataPoint</a>() : weight(1.), eff(1.) {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">   16</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">dataPoint::Reset</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size) { <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a> = std::vector&lt;double&gt;(size); }</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">   18</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">dataPoint::SetValue</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> pos, <span class="keywordtype">double</span> val) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a>.at(pos) = val;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(error) &lt;&lt; <span class="stringliteral">&quot;dataPoint::setVal() | &quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                  <span class="stringliteral">&quot;Can not access index &quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;               &lt;&lt; pos &lt;&lt; <span class="stringliteral">&quot;!&quot;</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">throw</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">   30</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">dataPoint::GetValue</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> num)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">double</span> rt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    rt = <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">var</a>.at(num);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(error) &lt;&lt; <span class="stringliteral">&quot;dataPoint::getVal() | &quot;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                  <span class="stringliteral">&quot;Can not access index &quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;               &lt;&lt; num &lt;&lt; <span class="stringliteral">&quot;!&quot;</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">throw</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">return</span> rt;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">   44</a></span>&#160;std::ostream &amp;<a class="code" href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;p) {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;(&quot;</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">Size</a>(); i++){</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    os &lt;&lt; p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">GetValue</a>(i);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span>( i == p.<a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">Size</a>()-1 )</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    os &lt;&lt; <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">else</span> </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    os &lt;&lt; <span class="stringliteral">&quot;, &quot;</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">return</span> os;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
 <div class="ttc" id="Exceptions_8hpp_html"><div class="ttname"><a href="../../d2/de9/Exceptions_8hpp.html">Exceptions.hpp</a></div><div class="ttdoc">This class defines the ComPWA exception base-class and provides a set of standard exceptions...</div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_ac85e5311128866fafcef45b7a85e8792"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">ComPWA::dataPoint::SetValue</a></div><div class="ttdeci">void SetValue(unsigned int pos, double val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00025">DataPoint.cpp:25</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00032">DataPoint.hpp:32</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_af816a776780d3a3fc2ec23b1b74e0a1c"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">ComPWA::dataPoint::dataPoint</a></div><div class="ttdeci">dataPoint()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00019">DataPoint.cpp:19</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_afd57e258461087fad290e983cb5d3295"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">ComPWA::dataPoint::Reset</a></div><div class="ttdeci">void Reset(unsigned int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00023">DataPoint.cpp:23</a></div></div>
-<div class="ttc" id="namespaceComPWA_html_a4e23ca7ade1195401e7e71c4f268cad7"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">ComPWA::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const dataPoint &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00051">DataPoint.cpp:51</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_ac85e5311128866fafcef45b7a85e8792"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#ac85e5311128866fafcef45b7a85e8792">ComPWA::dataPoint::SetValue</a></div><div class="ttdeci">void SetValue(unsigned int pos, double val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00018">DataPoint.cpp:18</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00025">DataPoint.hpp:25</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_af816a776780d3a3fc2ec23b1b74e0a1c"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#af816a776780d3a3fc2ec23b1b74e0a1c">ComPWA::dataPoint::dataPoint</a></div><div class="ttdeci">dataPoint()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00012">DataPoint.cpp:12</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_afd57e258461087fad290e983cb5d3295"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#afd57e258461087fad290e983cb5d3295">ComPWA::dataPoint::Reset</a></div><div class="ttdeci">void Reset(unsigned int size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00016">DataPoint.cpp:16</a></div></div>
+<div class="ttc" id="namespaceComPWA_html_a4e23ca7ade1195401e7e71c4f268cad7"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#a4e23ca7ade1195401e7e71c4f268cad7">ComPWA::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const dataPoint &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00044">DataPoint.cpp:44</a></div></div>
 <div class="ttc" id="DataPoint_8hpp_html"><div class="ttname"><a href="../../d8/dd4/DataPoint_8hpp.html">DataPoint.hpp</a></div><div class="ttdoc">dataPoint stores kinematic information of a dalitz plot </div></div>
 <div class="ttc" id="Kinematics_8hpp_html"><div class="ttname"><a href="../../d4/d37/Kinematics_8hpp.html">Kinematics.hpp</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_affcfcde74062a5050d9563c78282f00e"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">ComPWA::dataPoint::var</a></div><div class="ttdeci">std::vector&lt; double &gt; var</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00053">DataPoint.hpp:53</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_a8fb48bc8ed71473ebd4d3438498f851d"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">ComPWA::dataPoint::Size</a></div><div class="ttdeci">std::size_t Size() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00039">DataPoint.hpp:39</a></div></div>
-<div class="ttc" id="Logging_8hpp_html_ac7287b93a2311534ceb8ec2fd19ca39e"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a></div><div class="ttdeci">#define LOG(lvl)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db4/Logging_8hpp_source.html#l00017">Logging.hpp:17</a></div></div>
-<div class="ttc" id="classComPWA_1_1dataPoint_html_ae5370ae24be0d73d01000c7ba2358cb2"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">ComPWA::dataPoint::GetValue</a></div><div class="ttdeci">double GetValue(unsigned int num) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00037">DataPoint.cpp:37</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_affcfcde74062a5050d9563c78282f00e"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#affcfcde74062a5050d9563c78282f00e">ComPWA::dataPoint::var</a></div><div class="ttdeci">std::vector&lt; double &gt; var</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00046">DataPoint.hpp:46</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_a8fb48bc8ed71473ebd4d3438498f851d"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#a8fb48bc8ed71473ebd4d3438498f851d">ComPWA::dataPoint::Size</a></div><div class="ttdeci">std::size_t Size() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00032">DataPoint.hpp:32</a></div></div>
+<div class="ttc" id="Logging_8hpp_html_ac7287b93a2311534ceb8ec2fd19ca39e"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a></div><div class="ttdeci">#define LOG(lvl)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db4/Logging_8hpp_source.html#l00014">Logging.hpp:14</a></div></div>
+<div class="ttc" id="classComPWA_1_1dataPoint_html_ae5370ae24be0d73d01000c7ba2358cb2"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html#ae5370ae24be0d73d01000c7ba2358cb2">ComPWA::dataPoint::GetValue</a></div><div class="ttdeci">double GetValue(unsigned int num) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da9/DataPoint_8cpp_source.html#l00030">DataPoint.cpp:30</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

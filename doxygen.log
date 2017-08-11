@@ -370,8 +370,8 @@ Preprocessing /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/He
 Parsing file /home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/test/HelicityAngle.cpp...
 Preprocessing /home/travis/build/ComPWA/Com/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:93: warning: include file Physics/qft++/Type.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor_Base.h:99: warning: include file Physics/qft++/Matrix_Base.h not found, perhaps you forgot to add its directory to INCLUDE_PATH?
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:65: warning: the name `to' supplied as the argument of the \class, \struct, \union, or \include command is not an input file
-/home/travis/build/ComPWA/ComPWA/Core/Logging.cpp:61: warning: no matching class member found for 
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:58: warning: the name `to' supplied as the argument of the \class, \struct, \union, or \include command is not an input file
+/home/travis/build/ComPWA/ComPWA/Core/Logging.cpp:58: warning: no matching class member found for 
   void ComPWA::Logging::SetLogLevel(trivial::severity_level minLevel)
 Possible candidates:
   void ComPWA::Logging::SetLogLevel(boost::log::trivial::severity_level minLevel)
@@ -524,7 +524,7 @@ Generating code for file /home/travis/build/ComPWA/ComPWA/Core/Properties.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Core/Resolution.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Core/Spin.hpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Core/SubSystem.cpp...
-Generating code for file /home/travis/build/ComPWA/ComPWA/Core/SubSystem.h/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:105: warning: explicit link request to 's' could not be resolved
+Generating code for file /home/travis/build/ComPWA/ComPWA/Core/SubSystem.h/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:98: warning: explicit link request to 's' could not be resolved
 pp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Core/TableFormater.cpp...
 Generating code for file /home/travis/build/ComPWA/ComPWA/Core/TableFormater.hpp...
@@ -851,10 +851,10 @@ Generating docs for file /home/travis/build/ComPWA/ComPWA/Physics/Resonance.hpp.
 Generating docs for file /home/travis/build/ComPWA/ComPW/home/travis/build/ComPWA/ComPWA/Physics/qft++/Conversion.h:39: warning: included file Conversion.ex is not found. Check your EXAMPLE_PATH
 /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp:122: warning: Found unknown command `\returnGenerate'
 /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/PythonFit.hpp:129: warning: Found unknown command `\returnGenerate'
-/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:756: warning: argument 'pt' of command @param is not found in the argument list of ComPWA::DoubleParameterSave(DoubleParameter par)
-/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:756: warning: The following parameters of ComPWA::DoubleParameterSave(DoubleParameter par) are not documented:
+/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:747: warning: argument 'pt' of command @param is not found in the argument list of ComPWA::DoubleParameterSave(DoubleParameter par)
+/home/travis/build/ComPWA/ComPWA/Core/Parameter.hpp:747: warning: The following parameters of ComPWA::DoubleParameterSave(DoubleParameter par) are not documented:
   parameter 'par'
-/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:105: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
+/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:94: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
   parameter 'kin'
   parameter 'nEvtVar'
   parameter 'suffix'
@@ -944,36 +944,36 @@ Generating docs for compound ComPWA::SquareRoot...
 Generating docs for compound ComPWA::AddAll...
 Generating docs for compound ComPWA::MultAll...
 Generating docs for compound ComPWA::LogOf...
-Gener/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:105: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
+Gener/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:94: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
   parameter 'kin'
   parameter 'nEvtVar'
   parameter 'suffix'
-/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:105: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
+/home/travis/build/ComPWA/ComPWA/Core/AmpIntensity.hpp:94: warning: The following parameters of ComPWA::AmpIntensity::GetTree(std::shared_ptr< Kinematics > kin, const ParameterList &sample, const ParameterList &phspSample, const ParameterList &toySample, unsigned int nEvtVar, std::string suffix="") are not documented:
   parameter 'kin'
   parameter 'nEvtVar'
   parameter 'suffix'
-/home/travis/build/ComPWA/ComPWA/Tools/RunManager.hpp:152: warning: The following parameters of ComPWA::RunManager::Generate(std::shared_ptr< Kinematics > kin, int number) are not documented:
+/home/travis/build/ComPWA/ComPWA/Tools/RunManager.hpp:141: warning: The following parameters of ComPWA::RunManager::Generate(std::shared_ptr< Kinematics > kin, int number) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:177: warning: The following parameters of ComPWA::DataReader::rndReduceSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen, Data *in1, Data *out1, Data *in2=NULL, Data *out2=NULL) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:167: warning: The following parameters of ComPWA::DataReader::rndReduceSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen, Data *in1, Data *out1, Data *in2=NULL, Data *out2=NULL) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:36: warning: Found unknown command `\RootReader'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:36: warning: Found unknown command `\AsciiReader'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:101: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:26: warning: Found unknown command `\RootReader'
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:26: warning: Found unknown command `\AsciiReader'
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:91: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:119: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:109: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:101: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:91: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:119: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:109: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:101: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:91: warning: The following parameters of ComPWA::DataReader::Data::RndSubSet(std::shared_ptr< Kinematics > kin, unsigned int size, std::shared_ptr< Generator > gen) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:119: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
+/home/travis/build/ComPWA/ComPWA/DataReader/Data.hpp:109: warning: The following parameters of ComPWA::DataReader::Data::SetEfficiency(std::shared_ptr< Kinematics > kin, std::shared_ptr< Efficiency > eff) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:45: warning: The following parameters of ComPWA::Estimator::MinLogLH::MinLogLH(std::shared_ptr< Kinematics > kin, std::shared_ptr< AmpIntensity > amp, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent, unsigned int nEvents) are not documented:
+/home/travis/build/ComPWA/ComPWA/Estimator/MinLogLH/MinLogLH.hpp:37: warning: The following parameters of ComPWA::Estimator::MinLogLH::MinLogLH(std::shared_ptr< Kinematics > kin, std::shared_ptr< AmpIntensity > amp, std::shared_ptr< DataReader::Data > data, std::shared_ptr< DataReader::Data > phspSample, std::shared_ptr< DataReader::Data > accSample, unsigned int startEvent, unsigned int nEvents) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:181: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
-/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:181: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:171: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
+/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:171: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
   parameter 'pre'
 ating docs for compound ComPWA::Real...
 Generating docs for compound ComPWA::Complexify...
@@ -1046,44 +1046,44 @@ Generating docs for namespace ComPWA::Physics
 Generating docs for compound ComPWA::Physics::Amplitude...
 Generating docs for compound ComPWA::Physics::Resonance...
 Generating docs for namespace ComPWA::Physics::DecayDynamics
-Generating docs for compound ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
+Generating docs for compound ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AmpFlatteRes.hpp:141: warning: argument 'r' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AmpFlatteRes::SetMesonRadius(double w)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AmpFlatteRes.hpp:141: warning: The following parameters of ComPWA::Physics::DecayDynamics::AmpFlatteRes::SetMesonRadius(double w) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AmpFlatteRes.hpp:134: warning: argument 'r' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AmpFlatteRes::SetMesonRadius(double w)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AmpFlatteRes.hpp:134: warning: The following parameters of ComPWA::Physics::DecayDynamics::AmpFlatteRes::SetMesonRadius(double w) are not documented:
   parameter 'w'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:95: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:87: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMass(double mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:79: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: argument 'w' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/AbstractDynamicalFunction.hpp:71: warning: The following parameters of ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction::SetMassParameter(std::shared_ptr< DoubleParameter > mass) are not documented:
   parameter 'mass'
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/RelativisticBreitWigner.hpp:148: warning: argument 'r' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::SetMesonRadius(double w)
-/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/RelativisticBreitWigner.hpp:148: warning: The following parameters of ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::SetMesonRadius(double w) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/RelativisticBreitWigner.hpp:140: warning: argument 'r' of command @param is not found in the argument list of ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::SetMesonRadius(double w)
+/home/travis/build/ComPWA/ComPWA/Physics/DecayDynamics/RelativisticBreitWigner.hpp:140: warning: The following parameters of ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::SetMesonRadius(double w) are not documented:
   parameter 'w'
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:105: warning: explicit link request to 's' could not be resolved
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:105: warning: explicit link request to 's' could not be resolved
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/PartialDecay.hpp:41: warning: The following parameters of ComPWA::Physics::HelicityFormalism::PartialDecay::Factory(std::shared_ptr< Kinematics > kin, const boost::property_tree::ptree &pt) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:98: warning: explicit link request to 's' could not be resolved
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/HelicityKinematics.hpp:98: warning: explicit link request to 's' could not be resolved
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/PartialDecay.hpp:34: warning: The following parameters of ComPWA::Physics::HelicityFormalism::PartialDecay::Factory(std::shared_ptr< Kinematics > kin, const boost::property_tree::ptree &pt) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.hpp:38: warning: The following parameters of ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay::Factory(std::shared_ptr< Kinematics > kin, const boost::property_tree::ptree &pt) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/HelicityFormalism/SequentialTwoBodyDecay.hpp:31: warning: The following parameters of ComPWA::Physics::HelicityFormalism::SequentialTwoBodyDecay::Factory(std::shared_ptr< Kinematics > kin, const boost::property_tree::ptree &pt) are not documented:
   parameter 'kin'
-/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:181: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
-/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:181: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
+/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:171: warning: argument 'par' of command @param is not found in the argument list of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre)
+/home/travis/build/ComPWA/ComPWA/Physics/Amplitude.hpp:171: warning: The following parameters of ComPWA::Physics::Amplitude::SetPreFactor(std::complex< double > pre) are not documented:
   parameter 'pre'
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: argument 'rows' of command @param is not found in the argument list of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols)
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Matrix_Base.h:78: warning: argument 'cols' of command @param is not found in the argument list of ComPWA::Physics::QFT::Matrix_Base::Matrix_Base(int __rows, int __cols)
@@ -1151,11 +1151,11 @@ Generating docs for compound ComPWA::Physics::DecayDynamics::AbstractDynamicalFu
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:905: warning: argument 'lt' of command @param is not found in the argument list of ComPWA::Physics::QFT::Tensor< _Tp >::Transform(const Tensor< double > &__lt)
 /home/travis/build/ComPWA/ComPWA/Physics/qft++/Tensor.h:905: warning: The following parameters of ComPWA::Physics::QFT::Tensor::Transform(const Tensor< double > &__lt) are not documented:
   parameter '__lt'
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:179: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:179: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:179: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:179: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
-/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:179: warning: The following parameters of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs) are not documented:
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'parList' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: argument 'amp' of command @param is not found in the argument list of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs)
+/home/travis/build/ComPWA/ComPWA/Tools/FitFractions.hpp:175: warning: The following parameters of ComPWA::Tools::CalcFractionError(ParameterList &parameters, std::vector< std::vector< double >> covariance, ParameterList &ffList, std::shared_ptr< ComPWA::Kinematics > kin, std::shared_ptr< AmpIntensity > intens, std::shared_ptr< std::vector< dataPoint >> sample, int nSets, std::vector< std::pair< std::string, std::string >> defs) are not documented:
   parameter 'parameters'
   parameter 'covariance'
   parameter 'ffList'

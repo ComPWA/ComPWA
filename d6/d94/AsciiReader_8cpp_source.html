@@ -89,94 +89,88 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">AsciiReader.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/d94/AsciiReader_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (c) 2013 Florian Feldbauer.</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved. This program and the accompanying materials</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// are made available under the terms of the GNU Public License v3.0</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// which accompanies this distribution, and is available at</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// http://www.gnu.org/licenses/gpl.html</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Contributors:</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//     Florian Feldbauer - initial API and implementation</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-------------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//_____ I N C L U D E S _______________________________________________________</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// ANSI C headers</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/dbd/AsciiReader_8hpp.html">AsciiReader.hpp</a>&quot;</span></div>
+<a href="../../d6/d94/AsciiReader_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2013 Florian Feldbauer.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//_____ I N C L U D E S _______________________________________________________</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// ANSI C headers</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/dbd/AsciiReader_8hpp.html">AsciiReader.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;utility&gt;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;utility&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de9/Exceptions_8hpp.html">Core/Exceptions.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//_____ D E F I N I T I O N S __________________________________________________</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//_____ G L O B A L S __________________________________________________________</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de9/Exceptions_8hpp.html">Core/Exceptions.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//_____ L O C A L S ____________________________________________________________</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">//_____ D E F I N I T I O N S __________________________________________________</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">//_____ F U N C T I O N S ______________________________________________________</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">//_____ G L O B A L S __________________________________________________________</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">//_____ L O C A L S ____________________________________________________________</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span>DataReader {</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">   28</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//_____ F U N C T I O N S ______________________________________________________</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span>DataReader {</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">   34</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// Constructors and destructors</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a7e4d19ef330f588df7135343a1757ed2">   31</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader::AsciiReader</a>(<span class="keyword">const</span> std::string inConfigFile, <span class="keyword">const</span> <span class="keywordtype">int</span> particles) {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  std::ifstream currentStream;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  currentStream.open(inConfigFile.c_str());</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// Constructors and destructors</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a7e4d19ef330f588df7135343a1757ed2">   37</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader::AsciiReader</a>(<span class="keyword">const</span> std::string inConfigFile, <span class="keyword">const</span> <span class="keywordtype">int</span> particles) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span> (!currentStream)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="../../df/ddf/classComPWA_1_1BadConfig.html">BadConfig</a>(<span class="stringliteral">&quot;Can not open &quot;</span> + inConfigFile);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  std::ifstream currentStream;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  currentStream.open(inConfigFile.c_str());</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">if</span> (!currentStream)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="../../df/ddf/classComPWA_1_1BadConfig.html">BadConfig</a>(<span class="stringliteral">&quot;Can not open &quot;</span> + inConfigFile);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordflow">while</span> (!currentStream.eof()) {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">double</span> e, px, py, pz;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../df/d16/classComPWA_1_1Event.html">Event</a> newEvent;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> parts = 0; parts &lt; particles; parts++) {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      currentStream &gt;&gt; px &gt;&gt; py &gt;&gt; pz &gt;&gt; e;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      newEvent.<a class="code" href="../../df/d16/classComPWA_1_1Event.html#a4f1880a44ea116c7061b45d63234a06b">AddParticle</a>(<a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a>(px, py, pz, e));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">while</span> (!currentStream.eof()) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">double</span> e, px, py, pz;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../df/d16/classComPWA_1_1Event.html">Event</a> newEvent;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> parts = 0; parts &lt; particles; parts++) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      currentStream &gt;&gt; px &gt;&gt; py &gt;&gt; pz &gt;&gt; e;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      newEvent.<a class="code" href="../../df/d16/classComPWA_1_1Event.html#a4f1880a44ea116c7061b45d63234a06b">AddParticle</a>(<a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a>(px, py, pz, e));</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (!currentStream.fail()) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">fEvents</a>.push_back(newEvent);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="comment">// for ( parts = 0; parts &lt; linesToSkip; parts++ )</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="comment">//   currentStream &gt;&gt; px &gt;&gt; py &gt;&gt; pz &gt;&gt; e;</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (!currentStream.fail()) {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">fEvents</a>.push_back(newEvent);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="comment">// for ( parts = 0; parts &lt; linesToSkip; parts++ )</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="comment">//   currentStream &gt;&gt; px &gt;&gt; py &gt;&gt; pz &gt;&gt; e;</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  currentStream.close();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5b248943b9a4cb931ec58a00c31168d8">   63</a></span>&#160;AsciiReader::~AsciiReader() { <a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">fEvents</a>.clear(); }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  currentStream.close();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5b248943b9a4cb931ec58a00c31168d8">   57</a></span>&#160;AsciiReader::~AsciiReader() { <a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">fEvents</a>.clear(); }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5f00762cc380b15f1f79e2f65f131ec7">   59</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> *AsciiReader::Clone()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="comment">// TODO: implement virtual functions and uncomment the following</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="comment">//    return new AsciiReader(*this);</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">AsciiReader</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5f00762cc380b15f1f79e2f65f131ec7">   65</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> *AsciiReader::Clone()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">// TODO: implement virtual functions and uncomment the following</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="comment">//    return new AsciiReader(*this);</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">AsciiReader</a>();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a69ce95384112c620fc5962a9b2556e4d">   71</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> *AsciiReader::EmptyClone()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">AsciiReader</a>(); }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;} <span class="comment">/* namespace AsciiReader */</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;} <span class="comment">/* namespace DataReader */</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
-<div class="ttc" id="classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader_html_adfd027377375e0be8e5c2dfe8eb07a89"><div class="ttname"><a href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">ComPWA::DataReader::AsciiReader::AsciiReader::AsciiReader</a></div><div class="ttdeci">AsciiReader()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dbd/AsciiReader_8hpp_source.html#l00046">AsciiReader.hpp:46</a></div></div>
-<div class="ttc" id="classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader_html"><div class="ttname"><a href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">ComPWA::DataReader::AsciiReader::AsciiReader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dbd/AsciiReader_8hpp_source.html#l00040">AsciiReader.hpp:40</a></div></div>
-<div class="ttc" id="classComPWA_1_1DataReader_1_1Data_html_a14fb74011cf47240cd1fa4511edebf08"><div class="ttname"><a href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">ComPWA::DataReader::Data::fEvents</a></div><div class="ttdeci">std::vector&lt; Event &gt; fEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d4b/Data_8hpp_source.html#l00164">Data.hpp:164</a></div></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a69ce95384112c620fc5962a9b2556e4d">   65</a></span>&#160;<a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">AsciiReader</a> *AsciiReader::EmptyClone()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">AsciiReader</a>(); }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;} <span class="comment">/* namespace AsciiReader */</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;} <span class="comment">/* namespace DataReader */</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
+<div class="ttc" id="classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader_html_adfd027377375e0be8e5c2dfe8eb07a89"><div class="ttname"><a href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#adfd027377375e0be8e5c2dfe8eb07a89">ComPWA::DataReader::AsciiReader::AsciiReader::AsciiReader</a></div><div class="ttdeci">AsciiReader()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dbd/AsciiReader_8hpp_source.html#l00040">AsciiReader.hpp:40</a></div></div>
+<div class="ttc" id="classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader_html"><div class="ttname"><a href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html">ComPWA::DataReader::AsciiReader::AsciiReader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dbd/AsciiReader_8hpp_source.html#l00034">AsciiReader.hpp:34</a></div></div>
+<div class="ttc" id="classComPWA_1_1DataReader_1_1Data_html_a14fb74011cf47240cd1fa4511edebf08"><div class="ttname"><a href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">ComPWA::DataReader::Data::fEvents</a></div><div class="ttdeci">std::vector&lt; Event &gt; fEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d4b/Data_8hpp_source.html#l00154">Data.hpp:154</a></div></div>
 <div class="ttc" id="Exceptions_8hpp_html"><div class="ttname"><a href="../../d2/de9/Exceptions_8hpp.html">Exceptions.hpp</a></div><div class="ttdoc">This class defines the ComPWA exception base-class and provides a set of standard exceptions...</div></div>
 <div class="ttc" id="AsciiReader_8hpp_html"><div class="ttname"><a href="../../d7/dbd/AsciiReader_8hpp.html">AsciiReader.hpp</a></div><div class="ttdoc">This class reads event-based data from ascii-files in the same syntax as Pawian&#39;s epemEvtReader...</div></div>
-<div class="ttc" id="classComPWA_1_1BadConfig_html"><div class="ttname"><a href="../../df/ddf/classComPWA_1_1BadConfig.html">ComPWA::BadConfig</a></div><div class="ttdoc">Config is not complete. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de9/Exceptions_8hpp_source.html#l00055">Exceptions.hpp:55</a></div></div>
-<div class="ttc" id="classComPWA_1_1Event_html"><div class="ttname"><a href="../../df/d16/classComPWA_1_1Event.html">ComPWA::Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d7d/Event_8hpp_source.html#l00031">Event.hpp:31</a></div></div>
-<div class="ttc" id="classComPWA_1_1Event_html_a4f1880a44ea116c7061b45d63234a06b"><div class="ttname"><a href="../../df/d16/classComPWA_1_1Event.html#a4f1880a44ea116c7061b45d63234a06b">ComPWA::Event::AddParticle</a></div><div class="ttdeci">virtual void AddParticle(Particle inParticle)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9f/Event_8cpp_source.html#l00034">Event.cpp:34</a></div></div>
-<div class="ttc" id="classComPWA_1_1Particle_html"><div class="ttname"><a href="../../dc/d50/classComPWA_1_1Particle.html">ComPWA::Particle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d65/Particle_8hpp_source.html#l00115">Particle.hpp:115</a></div></div>
+<div class="ttc" id="classComPWA_1_1BadConfig_html"><div class="ttname"><a href="../../df/ddf/classComPWA_1_1BadConfig.html">ComPWA::BadConfig</a></div><div class="ttdoc">Config is not complete. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de9/Exceptions_8hpp_source.html#l00046">Exceptions.hpp:46</a></div></div>
+<div class="ttc" id="classComPWA_1_1Event_html"><div class="ttname"><a href="../../df/d16/classComPWA_1_1Event.html">ComPWA::Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d7d/Event_8hpp_source.html#l00022">Event.hpp:22</a></div></div>
+<div class="ttc" id="classComPWA_1_1Event_html_a4f1880a44ea116c7061b45d63234a06b"><div class="ttname"><a href="../../df/d16/classComPWA_1_1Event.html#a4f1880a44ea116c7061b45d63234a06b">ComPWA::Event::AddParticle</a></div><div class="ttdeci">virtual void AddParticle(Particle inParticle)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9f/Event_8cpp_source.html#l00025">Event.cpp:25</a></div></div>
+<div class="ttc" id="classComPWA_1_1Particle_html"><div class="ttname"><a href="../../dc/d50/classComPWA_1_1Particle.html">ComPWA::Particle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d65/Particle_8hpp_source.html#l00106">Particle.hpp:106</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -89,50 +89,47 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">NonResonant.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/df9/NonResonant_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * NonResonant.cpp</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: Jan 13, 2015</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: weidenka</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/db6/NonResonant_8hpp.html">Physics/DecayDynamics/NonResonant.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>Physics {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>DecayDynamics {</div>
+<a href="../../d4/df9/NonResonant_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2015, 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/db6/NonResonant_8hpp.html">Physics/DecayDynamics/NonResonant.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>ComPWA {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>Physics {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>DecayDynamics {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;std::shared_ptr&lt;FunctionTree&gt;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">   12</a></span>&#160;<a class="code" href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">NonResonant::GetTree</a>(<span class="keyword">const</span> <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, <span class="keywordtype">int</span> pos, std::string suffix) {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;std::shared_ptr&lt;FunctionTree&gt;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">   15</a></span>&#160;<a class="code" href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">NonResonant::GetTree</a>(<span class="keyword">const</span> <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, <span class="keywordtype">int</span> pos, std::string suffix) {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">int</span> sampleSize = sample.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a7306638442820573ac0f2f32ecc0f10e">GetMultiDouble</a>(0)-&gt;GetNValues();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  std::shared_ptr&lt;MultiComplex&gt; unitVec(</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keyword">new</span> <a class="code" href="../../db/d96/classComPWA_1_1MultiComplex.html">MultiComplex</a>(<span class="stringliteral">&quot;unit&quot;</span>, std::vector&lt;std::complex&lt;double&gt;&gt;(</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                   sampleSize, std::complex&lt;double&gt;(1, 0))));</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  std::shared_ptr&lt;FunctionTree&gt; newTree(<span class="keyword">new</span> <a class="code" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>());</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  newTree-&gt;createHead(<span class="stringliteral">&quot;NonResonant&quot;</span> + suffix,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                      std::shared_ptr&lt;Strategy&gt;(<span class="keyword">new</span> <a class="code" href="../../de/d37/classComPWA_1_1MultAll.html">MultAll</a>(<a class="code" href="../../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80">ParType::MCOMPLEX</a>)),</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                      sampleSize);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  newTree-&gt;createLeaf(<span class="stringliteral">&quot;unit&quot;</span>, unitVec, <span class="stringliteral">&quot;NonResonant&quot;</span> + suffix); <span class="comment">// nonReso</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">return</span> newTree;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;} <span class="comment">/* namespace DecayDynamics */</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;} <span class="comment">/* namespace Physics */</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
-<div class="ttc" id="classComPWA_1_1FunctionTree_html"><div class="ttname"><a href="../../d3/de1/classComPWA_1_1FunctionTree.html">ComPWA::FunctionTree</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/db2/FunctionTree_8hpp_source.html#l00037">FunctionTree.hpp:37</a></div></div>
-<div class="ttc" id="classComPWA_1_1MultiComplex_html"><div class="ttname"><a href="../../db/d96/classComPWA_1_1MultiComplex.html">ComPWA::MultiComplex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dce/Parameter_8hpp_source.html#l00043">Parameter.hpp:43</a></div></div>
-<div class="ttc" id="namespaceComPWA_html_a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80">ComPWA::MCOMPLEX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/def/AbsParameter_8hpp_source.html#l00051">AbsParameter.hpp:51</a></div></div>
-<div class="ttc" id="classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant_html_a24763593d841ab989894807d4be9d682"><div class="ttname"><a href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">ComPWA::Physics::DecayDynamics::NonResonant::GetTree</a></div><div class="ttdeci">virtual std::shared_ptr&lt; FunctionTree &gt; GetTree(const ParameterList &amp;sample, int pos, std::string suffix)</div><div class="ttdoc">! Setup function tree </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df9/NonResonant_8cpp_source.html#l00015">NonResonant.cpp:15</a></div></div>
-<div class="ttc" id="classComPWA_1_1ParameterList_html"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9f/ParameterList_8hpp_source.html#l00043">ParameterList.hpp:43</a></div></div>
-<div class="ttc" id="classComPWA_1_1ParameterList_html_a7306638442820573ac0f2f32ecc0f10e"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html#a7306638442820573ac0f2f32ecc0f10e">ComPWA::ParameterList::GetMultiDouble</a></div><div class="ttdeci">virtual std::shared_ptr&lt; MultiDouble &gt; GetMultiDouble(const std::string parname) const </div><div class="ttdoc">Getter for multi-double parameter. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd8/ParameterList_8cpp_source.html#l00675">ParameterList.cpp:675</a></div></div>
-<div class="ttc" id="classComPWA_1_1MultAll_html"><div class="ttname"><a href="../../de/d37/classComPWA_1_1MultAll.html">ComPWA::MultAll</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d66/Functions_8hpp_source.html#l00116">Functions.hpp:116</a></div></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordtype">int</span> sampleSize = sample.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a7306638442820573ac0f2f32ecc0f10e">GetMultiDouble</a>(0)-&gt;GetNValues();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  std::shared_ptr&lt;MultiComplex&gt; unitVec(</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;      <span class="keyword">new</span> <a class="code" href="../../db/d96/classComPWA_1_1MultiComplex.html">MultiComplex</a>(<span class="stringliteral">&quot;unit&quot;</span>, std::vector&lt;std::complex&lt;double&gt;&gt;(</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                   sampleSize, std::complex&lt;double&gt;(1, 0))));</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  std::shared_ptr&lt;FunctionTree&gt; newTree(<span class="keyword">new</span> <a class="code" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>());</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  newTree-&gt;createHead(<span class="stringliteral">&quot;NonResonant&quot;</span> + suffix,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                      std::shared_ptr&lt;Strategy&gt;(<span class="keyword">new</span> <a class="code" href="../../de/d37/classComPWA_1_1MultAll.html">MultAll</a>(<a class="code" href="../../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80">ParType::MCOMPLEX</a>)),</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                      sampleSize);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  newTree-&gt;createLeaf(<span class="stringliteral">&quot;unit&quot;</span>, unitVec, <span class="stringliteral">&quot;NonResonant&quot;</span> + suffix); <span class="comment">// nonReso</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">return</span> newTree;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;} <span class="comment">/* namespace DecayDynamics */</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;} <span class="comment">/* namespace Physics */</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
+<div class="ttc" id="classComPWA_1_1FunctionTree_html"><div class="ttname"><a href="../../d3/de1/classComPWA_1_1FunctionTree.html">ComPWA::FunctionTree</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/db2/FunctionTree_8hpp_source.html#l00028">FunctionTree.hpp:28</a></div></div>
+<div class="ttc" id="classComPWA_1_1MultiComplex_html"><div class="ttname"><a href="../../db/d96/classComPWA_1_1MultiComplex.html">ComPWA::MultiComplex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dce/Parameter_8hpp_source.html#l00034">Parameter.hpp:34</a></div></div>
+<div class="ttc" id="namespaceComPWA_html_a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a15e7df4ae49ff6f7b7fe5242b3974d80">ComPWA::MCOMPLEX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/def/AbsParameter_8hpp_source.html#l00042">AbsParameter.hpp:42</a></div></div>
+<div class="ttc" id="classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant_html_a24763593d841ab989894807d4be9d682"><div class="ttname"><a href="../../d5/d36/classComPWA_1_1Physics_1_1DecayDynamics_1_1NonResonant.html#a24763593d841ab989894807d4be9d682">ComPWA::Physics::DecayDynamics::NonResonant::GetTree</a></div><div class="ttdeci">virtual std::shared_ptr&lt; FunctionTree &gt; GetTree(const ParameterList &amp;sample, int pos, std::string suffix)</div><div class="ttdoc">! Setup function tree </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df9/NonResonant_8cpp_source.html#l00012">NonResonant.cpp:12</a></div></div>
+<div class="ttc" id="classComPWA_1_1ParameterList_html"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9f/ParameterList_8hpp_source.html#l00032">ParameterList.hpp:32</a></div></div>
+<div class="ttc" id="classComPWA_1_1ParameterList_html_a7306638442820573ac0f2f32ecc0f10e"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html#a7306638442820573ac0f2f32ecc0f10e">ComPWA::ParameterList::GetMultiDouble</a></div><div class="ttdeci">virtual std::shared_ptr&lt; MultiDouble &gt; GetMultiDouble(const std::string parname) const </div><div class="ttdoc">Getter for multi-double parameter. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd8/ParameterList_8cpp_source.html#l00666">ParameterList.cpp:666</a></div></div>
+<div class="ttc" id="classComPWA_1_1MultAll_html"><div class="ttname"><a href="../../de/d37/classComPWA_1_1MultAll.html">ComPWA::MultAll</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d66/Functions_8hpp_source.html#l00107">Functions.hpp:107</a></div></div>
 <div class="ttc" id="NonResonant_8hpp_html"><div class="ttname"><a href="../../d4/db6/NonResonant_8hpp.html">NonResonant.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 08:30:41 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 11 2017 09:41:29 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
