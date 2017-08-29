@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/DataReader/CorrectionTable.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -116,15 +123,15 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    table &lt;&lt; strBin.str();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    std::stringstream strCor;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    strCor &lt;&lt; <a class="code" href="../../dc/d06/classCorrectionTable.html#a85c91bfb79960d7de3f0c4a2d300bb71">GetValue</a>(+1, <a class="code" href="../../dc/d06/classCorrectionTable.html#af2775f8c81b642dda4b359cc18bcbd43">bins</a>.at(i).second);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">//                          &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(+1,bins.at(i).second);</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">//              &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(+1,bins.at(i).second);</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    table &lt;&lt; strCor.str();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::stringstream strAntiCor;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    strAntiCor &lt;&lt; <a class="code" href="../../dc/d06/classCorrectionTable.html#a85c91bfb79960d7de3f0c4a2d300bb71">GetValue</a>(-1, <a class="code" href="../../dc/d06/classCorrectionTable.html#af2775f8c81b642dda4b359cc18bcbd43">bins</a>.at(i).second);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//                          &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(-1,bins.at(i).second);</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//              &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(-1,bins.at(i).second);</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    table &lt;&lt; strAntiCor.str();</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::stringstream strAvg;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    strAvg &lt;&lt; <a class="code" href="../../dc/d06/classCorrectionTable.html#a85c91bfb79960d7de3f0c4a2d300bb71">GetValue</a>(0, <a class="code" href="../../dc/d06/classCorrectionTable.html#af2775f8c81b642dda4b359cc18bcbd43">bins</a>.at(i).second);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">//                          &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(0,bins.at(i).second);</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">//              &lt;&lt; &quot; +- &quot; &lt;&lt;GetError(0,bins.at(i).second);</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    table &lt;&lt; strAvg.str();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  table.<a class="code" href="../../d8/d6e/classComPWA_1_1TableFormater.html#a6b5370a0ab06b9b8ef79671349d4331b">footer</a>();</div>
@@ -339,9 +346,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classCorrectionTable_html_af29519c631696b0c2b88c5506794985a"><div class="ttname"><a href="../../dc/d06/classCorrectionTable.html#af29519c631696b0c2b88c5506794985a">CorrectionTable::sys</a></div><div class="ttdeci">std::vector&lt; double &gt; sys</div><div class="ttdoc">Data/MC difference in momentum bins for particle. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d9c/CorrectionTable_8hpp_source.html#l00146">CorrectionTable.hpp:146</a></div></div>
 <div class="ttc" id="classCorrectionTable_html_a4d2025563c45bff431541f9c1f6169d0"><div class="ttname"><a href="../../dc/d06/classCorrectionTable.html#a4d2025563c45bff431541f9c1f6169d0">CorrectionTable::SetSystematics</a></div><div class="ttdeci">void SetSystematics(std::vector&lt; double &gt; b, std::vector&lt; double &gt; bError=std::vector&lt; double &gt;())</div><div class="ttdoc">Set systematics vector. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8c/CorrectionTable_8cpp_source.html#l00041">CorrectionTable.cpp:41</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

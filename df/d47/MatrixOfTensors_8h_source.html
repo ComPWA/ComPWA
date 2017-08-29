@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Physics/qft++/MatrixOfTensors.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -134,7 +141,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; </div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a352e60216d6ae9bea0a6cc40b0788bb5">   53</a></span>&#160;Matrix&lt;T&gt; <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a352e60216d6ae9bea0a6cc40b0788bb5">TensorElement</a>(<span class="keyword">const</span> Matrix&lt;<a class="code" href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">Tensor&lt;T&gt;</a> &gt; &amp;__matrix,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        <span class="keyword">const</span> <a class="code" href="../../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html">TensorIndex</a> &amp;__index){</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keyword">const</span> <a class="code" href="../../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html">TensorIndex</a> &amp;__index){</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">int</span> rows = __matrix.NumRows();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordtype">int</span> cols = __matrix.NumCols();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  Matrix&lt;T&gt; ret(rows,cols);</div>
@@ -147,8 +154,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#abf450eded4618a263a9b2d97aab8a699">   67</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#abf450eded4618a263a9b2d97aab8a699">SetTensorElement</a>(Matrix&lt;<a class="code" href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">Tensor&lt;T&gt;</a> &gt; &amp;__matrix,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                      <span class="keyword">const</span> <a class="code" href="../../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html">TensorIndex</a> &amp;__index,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                      <span class="keyword">const</span> Matrix&lt;<a class="code" href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">Tensor&lt;T&gt;</a> &gt; &amp;__mval){</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;              <span class="keyword">const</span> <a class="code" href="../../d5/db9/classComPWA_1_1Physics_1_1QFT_1_1TensorIndex.html">TensorIndex</a> &amp;__index,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;              <span class="keyword">const</span> Matrix&lt;<a class="code" href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">Tensor&lt;T&gt;</a> &gt; &amp;__mval){</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> rows = __matrix.NumRows();</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordtype">int</span> cols = __matrix.NumCols();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; rows; i++){</div>
@@ -160,7 +167,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a2b3dfb908098f0330b64813157260867">   81</a></span>&#160;Matrix&lt;Tensor&lt;T&gt; &gt; <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a2b3dfb908098f0330b64813157260867">BoostMatrix</a>(<span class="keyword">const</span> Matrix&lt;<a class="code" href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">Tensor&lt;T&gt;</a> &gt; &amp;__matrix,</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                               <span class="keywordtype">double</span> __bx,<span class="keywordtype">double</span> __by,<span class="keywordtype">double</span> __bz){</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                   <span class="keywordtype">double</span> __bx,<span class="keywordtype">double</span> __by,<span class="keywordtype">double</span> __bz){</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">int</span> rows = __matrix.NumRows();</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">int</span> cols = __matrix.NumCols();  </div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  Matrix&lt;Tensor&lt;T&gt; &gt; ret(__matrix);</div>
@@ -183,9 +190,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_abf450eded4618a263a9b2d97aab8a699"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#abf450eded4618a263a9b2d97aab8a699">ComPWA::Physics::QFT::SetTensorElement</a></div><div class="ttdeci">void SetTensorElement(Matrix&lt; Tensor&lt; T &gt; &gt; &amp;__matrix, const TensorIndex &amp;__index, const Matrix&lt; Tensor&lt; T &gt; &gt; &amp;__mval)</div><div class="ttdoc">Sets . </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d47/MatrixOfTensors_8h_source.html#l00067">MatrixOfTensors.h:67</a></div></div>
 <div class="ttc" id="classComPWA_1_1Physics_1_1QFT_1_1Tensor_html"><div class="ttname"><a href="../../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html">ComPWA::Physics::QFT::Tensor</a></div><div class="ttdoc">General template class for handling tensors and tensor operations. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d11/Tensor_8h_source.html#l00090">Tensor.h:90</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:52 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

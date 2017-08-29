@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/MinuitResult.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -197,7 +204,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  out &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;--------------MINUIT2 FIT RESULT----------------&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac6f8ef8f51a29e32d7a03fef9780e92f">isValid</a>)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** MINIMUM NOT VALID! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** MINIMUM NOT VALID! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  out &lt;&lt; std::setprecision(10);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;Initial Likelihood: &quot;</span> &lt;&lt; <a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a0c7ed66f10321f23a6793131a7802626">initialLH</a> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;Final Likelihood: &quot;</span> &lt;&lt; <a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a297e08e73ba4fdeb582a18f09960c0bc">finalLH</a> &lt;&lt; std::endl;</div>
@@ -206,16 +213,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;Estimated distance to minimumn: &quot;</span> &lt;&lt; <a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a458c09fd20f6a3158adf5ce3fab59027">edm</a> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a63530880ecfa990a2aaa7e12d4334508">edmAboveMax</a>)</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** EDM IS ABOVE MAXIMUM! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** EDM IS ABOVE MAXIMUM! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;Error definition: &quot;</span> &lt;&lt; <a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a2921bfb49e652d921d45f61e5c4e1a92">errorDef</a> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;Number of calls: &quot;</span> &lt;&lt; <a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#adc0e53c221deb9f8cdbc5c25b1ad926c">nFcn</a> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a96bbbfd3faae5ff1b8766716e135d9f7">hasReachedCallLimit</a>)</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** LIMIT OF MAX CALLS REACHED! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** LIMIT OF MAX CALLS REACHED! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  out &lt;&lt; <span class="stringliteral">&quot;CPU Time : &quot;</span> &lt;&lt; <a class="code" href="../../d7/d8a/classComPWA_1_1FitResult.html#a14f31184af5141fbefdfa8169a8579d2">time</a> / 60 &lt;&lt; <span class="stringliteral">&quot;min&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  out &lt;&lt; std::setprecision(5) &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ad7a78a423aa1aefe9af9f1974d235531">hasValidParameters</a>)</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** NO VALID SET OF PARAMETERS! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** NO VALID SET OF PARAMETERS! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keywordflow">if</span> (printParam) {</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;PARAMETERS:&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *tableResult = <span class="keyword">new</span> <a class="code" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a>(&amp;out);</div>
@@ -223,14 +230,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a43a3befda3ac72dd34ad921ec4f03e12">hasValidCov</a>)</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** COVARIANCE MATRIX NOT VALID! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** COVARIANCE MATRIX NOT VALID! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a9807249b8d6491118bb169f05e893b22">hasAccCov</a>)</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** COVARIANCE MATRIX NOT ACCURATE! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** COVARIANCE MATRIX NOT ACCURATE! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#aed53d8a8a912738f649c5c0cb2c050c9">covPosDef</a>)</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** COVARIANCE MATRIX NOT POSITIVE DEFINITE! ***&quot;</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** COVARIANCE MATRIX NOT POSITIVE DEFINITE! ***&quot;</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a3bd35f12e92c34e0bff54475a9b737aa">hesseFailed</a>)</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;            *** HESSE FAILED! ***&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;        *** HESSE FAILED! ***&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a43a3befda3ac72dd34ad921ec4f03e12">hasValidCov</a>) {</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">if</span> (printCovMatrix) {</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      out &lt;&lt; <span class="stringliteral">&quot;COVARIANCE MATRIX:&quot;</span> &lt;&lt; std::endl;</div>
@@ -450,9 +457,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult_html_a297e08e73ba4fdeb582a18f09960c0bc"><div class="ttname"><a href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a297e08e73ba4fdeb582a18f09960c0bc">ComPWA::Optimizer::Minuit2::MinuitResult::finalLH</a></div><div class="ttdeci">double finalLH</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d89/MinuitResult_8hpp_source.html#l00154">MinuitResult.hpp:154</a></div></div>
 <div class="ttc" id="classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult_html_a4e19500622ef3ad8d53fd48fd5958498"><div class="ttname"><a href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a4e19500622ef3ad8d53fd48fd5958498">ComPWA::Optimizer::Minuit2::MinuitResult::setResult</a></div><div class="ttdeci">void setResult(std::shared_ptr&lt; ComPWA::IEstimator &gt; esti, ROOT::Minuit2::FunctionMinimum result)</div><div class="ttdoc">Set Minuit2 function minimum. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8e/MinuitResult_8cpp_source.html#l00032">MinuitResult.cpp:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

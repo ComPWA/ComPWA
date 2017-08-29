@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: ComPWA::Optimizer::Minuit2::MinuitResult Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -102,18 +109,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ComPWA::Optimizer::Minuit2::MinuitResult:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d5d/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult__inherit__graph.svg" width="184" height="1022"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Collaboration diagram for ComPWA::Optimizer::Minuit2::MinuitResult:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/deb/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult__coll__graph.svg" width="203" height="1430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -185,52 +180,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab877d84fd4da9121ee73e4ee8b476d5e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ab877d84fd4da9121ee73e4ee8b476d5e">GetEDM</a> ()</td></tr>
 <tr class="memdesc:ab877d84fd4da9121ee73e4ee8b476d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get estimated distrance to minimum.  <a href="#ab877d84fd4da9121ee73e4ee8b476d5e">More...</a><br/></td></tr>
 <tr class="separator:ab877d84fd4da9121ee73e4ee8b476d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a633cb4c9e423058a5940d2ec11367c64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a633cb4c9e423058a5940d2ec11367c64">SetIntensity</a> (std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt; intens)</td></tr>
-<tr class="memdesc:a633cb4c9e423058a5940d2ec11367c64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a>.  <a href="#a633cb4c9e423058a5940d2ec11367c64">More...</a><br/></td></tr>
-<tr class="separator:a633cb4c9e423058a5940d2ec11367c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c7bcde7f2be85a6bc6b0dbfe266800"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a05c7bcde7f2be85a6bc6b0dbfe266800">SetInitialParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> iniPars)</td></tr>
-<tr class="memdesc:a05c7bcde7f2be85a6bc6b0dbfe266800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of initial parameters.  <a href="#a05c7bcde7f2be85a6bc6b0dbfe266800">More...</a><br/></td></tr>
-<tr class="separator:a05c7bcde7f2be85a6bc6b0dbfe266800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8451724567bcbdccdc8bab27af0edde1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a8451724567bcbdccdc8bab27af0edde1">GetInitialParameters</a> ()</td></tr>
-<tr class="memdesc:a8451724567bcbdccdc8bab27af0edde1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of initial parameters.  <a href="#a8451724567bcbdccdc8bab27af0edde1">More...</a><br/></td></tr>
-<tr class="separator:a8451724567bcbdccdc8bab27af0edde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563a3e31d626d6d9da78dab445fd7d71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a563a3e31d626d6d9da78dab445fd7d71">SetFinalParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> finPars)</td></tr>
-<tr class="memdesc:a563a3e31d626d6d9da78dab445fd7d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of final fit parameters.  <a href="#a563a3e31d626d6d9da78dab445fd7d71">More...</a><br/></td></tr>
-<tr class="separator:a563a3e31d626d6d9da78dab445fd7d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d51e0da233057eb189fd4258c95dd36"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a3d51e0da233057eb189fd4258c95dd36">GetFinalParameters</a> ()</td></tr>
-<tr class="memdesc:a3d51e0da233057eb189fd4258c95dd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of final fit parameters.  <a href="#a3d51e0da233057eb189fd4258c95dd36">More...</a><br/></td></tr>
-<tr class="separator:a3d51e0da233057eb189fd4258c95dd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4894fa8c6355e7e176779f00ae5d9dd9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4894fa8c6355e7e176779f00ae5d9dd9">SetTrueParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> truePars)</td></tr>
-<tr class="memdesc:a4894fa8c6355e7e176779f00ae5d9dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of true parameters.  <a href="#a4894fa8c6355e7e176779f00ae5d9dd9">More...</a><br/></td></tr>
-<tr class="separator:a4894fa8c6355e7e176779f00ae5d9dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eb60e3a9ef045f460d66e7b26eb2c16"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a9eb60e3a9ef045f460d66e7b26eb2c16">GetTrueParameters</a> ()</td></tr>
-<tr class="memdesc:a9eb60e3a9ef045f460d66e7b26eb2c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of true parameters.  <a href="#a9eb60e3a9ef045f460d66e7b26eb2c16">More...</a><br/></td></tr>
-<tr class="separator:a9eb60e3a9ef045f460d66e7b26eb2c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acab357258024d2b53ae5b9e9465a69e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#acab357258024d2b53ae5b9e9465a69e2">SetTime</a> (double t)</td></tr>
-<tr class="memdesc:acab357258024d2b53ae5b9e9465a69e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set processing time for minimization.  <a href="#acab357258024d2b53ae5b9e9465a69e2">More...</a><br/></td></tr>
-<tr class="separator:acab357258024d2b53ae5b9e9465a69e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa08f52524257c15ff9bdc04be84ff263"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#aa08f52524257c15ff9bdc04be84ff263">GetTime</a> () const </td></tr>
-<tr class="memdesc:aa08f52524257c15ff9bdc04be84ff263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get processing time for minimization.  <a href="#aa08f52524257c15ff9bdc04be84ff263">More...</a><br/></td></tr>
-<tr class="separator:aa08f52524257c15ff9bdc04be84ff263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d020f9036e8b033684a2bf2663691df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0d020f9036e8b033684a2bf2663691df">SetFitFractions</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> list)</td></tr>
-<tr class="memdesc:a0d020f9036e8b033684a2bf2663691df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list with fit fractions.  <a href="#a0d020f9036e8b033684a2bf2663691df">More...</a><br/></td></tr>
-<tr class="separator:a0d020f9036e8b033684a2bf2663691df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952cea10dde2297060e95f271e22e118"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a952cea10dde2297060e95f271e22e118">GetFitFractions</a> ()</td></tr>
-<tr class="memdesc:a952cea10dde2297060e95f271e22e118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of fit fractions.  <a href="#a952cea10dde2297060e95f271e22e118">More...</a><br/></td></tr>
-<tr class="separator:a952cea10dde2297060e95f271e22e118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de9e3dafb78a45645f104bde032d3e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a9de9e3dafb78a45645f104bde032d3e6">PrintFitParameters</a> (<a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *tableResult)</td></tr>
-<tr class="memdesc:a9de9e3dafb78a45645f104bde032d3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table with fit parameters.  <a href="#a9de9e3dafb78a45645f104bde032d3e6">More...</a><br/></td></tr>
-<tr class="separator:a9de9e3dafb78a45645f104bde032d3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accba93948b93f6fd2ebff4258eedd3a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#accba93948b93f6fd2ebff4258eedd3a9">PrintFitFractions</a> (<a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *tab)</td></tr>
-<tr class="memdesc:accba93948b93f6fd2ebff4258eedd3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table with fit fractions.  <a href="#accba93948b93f6fd2ebff4258eedd3a9">More...</a><br/></td></tr>
-<tr class="separator:accba93948b93f6fd2ebff4258eedd3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4924d41fde24f7a045fcf6064fec35ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4924d41fde24f7a045fcf6064fec35ff">Print</a> (std::string opt=&quot;&quot;)</td></tr>
-<tr class="memdesc:a4924d41fde24f7a045fcf6064fec35ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print fit result.  <a href="#a4924d41fde24f7a045fcf6064fec35ff">More...</a><br/></td></tr>
-<tr class="separator:a4924d41fde24f7a045fcf6064fec35ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f3cdf7fe5e19fdad5fc09fc6ead13b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a3f3cdf7fe5e19fdad5fc09fc6ead13b1">WriteText</a> (std::string filename)</td></tr>
-<tr class="separator:a3f3cdf7fe5e19fdad5fc09fc6ead13b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15137244d99b2d4215d76f86190d358"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#af15137244d99b2d4215d76f86190d358">WriteSimpleText</a> (std::string filename)</td></tr>
-<tr class="separator:af15137244d99b2d4215d76f86190d358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classComPWA_1_1FitResult"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComPWA_1_1FitResult')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html">ComPWA::FitResult</a></td></tr>
+<tr class="memitem:ab0a8261c31d6a5032c863431f18ac4b3 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#ab0a8261c31d6a5032c863431f18ac4b3">FitResult</a> ()</td></tr>
+<tr class="separator:ab0a8261c31d6a5032c863431f18ac4b3 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25a2d796eafb37739a9d10ebc62037c inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#ac25a2d796eafb37739a9d10ebc62037c">~FitResult</a> ()</td></tr>
+<tr class="separator:ac25a2d796eafb37739a9d10ebc62037c inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633cb4c9e423058a5940d2ec11367c64 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a633cb4c9e423058a5940d2ec11367c64">SetIntensity</a> (std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt; intens)</td></tr>
+<tr class="memdesc:a633cb4c9e423058a5940d2ec11367c64 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a>.  <a href="#a633cb4c9e423058a5940d2ec11367c64">More...</a><br/></td></tr>
+<tr class="separator:a633cb4c9e423058a5940d2ec11367c64 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c7bcde7f2be85a6bc6b0dbfe266800 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a05c7bcde7f2be85a6bc6b0dbfe266800">SetInitialParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> iniPars)</td></tr>
+<tr class="memdesc:a05c7bcde7f2be85a6bc6b0dbfe266800 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of initial parameters.  <a href="#a05c7bcde7f2be85a6bc6b0dbfe266800">More...</a><br/></td></tr>
+<tr class="separator:a05c7bcde7f2be85a6bc6b0dbfe266800 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8451724567bcbdccdc8bab27af0edde1 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a8451724567bcbdccdc8bab27af0edde1">GetInitialParameters</a> ()</td></tr>
+<tr class="memdesc:a8451724567bcbdccdc8bab27af0edde1 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of initial parameters.  <a href="#a8451724567bcbdccdc8bab27af0edde1">More...</a><br/></td></tr>
+<tr class="separator:a8451724567bcbdccdc8bab27af0edde1 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563a3e31d626d6d9da78dab445fd7d71 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a563a3e31d626d6d9da78dab445fd7d71">SetFinalParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> finPars)</td></tr>
+<tr class="memdesc:a563a3e31d626d6d9da78dab445fd7d71 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of final fit parameters.  <a href="#a563a3e31d626d6d9da78dab445fd7d71">More...</a><br/></td></tr>
+<tr class="separator:a563a3e31d626d6d9da78dab445fd7d71 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d51e0da233057eb189fd4258c95dd36 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a3d51e0da233057eb189fd4258c95dd36">GetFinalParameters</a> ()</td></tr>
+<tr class="memdesc:a3d51e0da233057eb189fd4258c95dd36 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of final fit parameters.  <a href="#a3d51e0da233057eb189fd4258c95dd36">More...</a><br/></td></tr>
+<tr class="separator:a3d51e0da233057eb189fd4258c95dd36 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4894fa8c6355e7e176779f00ae5d9dd9 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4894fa8c6355e7e176779f00ae5d9dd9">SetTrueParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> truePars)</td></tr>
+<tr class="memdesc:a4894fa8c6355e7e176779f00ae5d9dd9 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list of true parameters.  <a href="#a4894fa8c6355e7e176779f00ae5d9dd9">More...</a><br/></td></tr>
+<tr class="separator:a4894fa8c6355e7e176779f00ae5d9dd9 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb60e3a9ef045f460d66e7b26eb2c16 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a9eb60e3a9ef045f460d66e7b26eb2c16">GetTrueParameters</a> ()</td></tr>
+<tr class="memdesc:a9eb60e3a9ef045f460d66e7b26eb2c16 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of true parameters.  <a href="#a9eb60e3a9ef045f460d66e7b26eb2c16">More...</a><br/></td></tr>
+<tr class="separator:a9eb60e3a9ef045f460d66e7b26eb2c16 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab357258024d2b53ae5b9e9465a69e2 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#acab357258024d2b53ae5b9e9465a69e2">SetTime</a> (double t)</td></tr>
+<tr class="memdesc:acab357258024d2b53ae5b9e9465a69e2 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set processing time for minimization.  <a href="#acab357258024d2b53ae5b9e9465a69e2">More...</a><br/></td></tr>
+<tr class="separator:acab357258024d2b53ae5b9e9465a69e2 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08f52524257c15ff9bdc04be84ff263 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#aa08f52524257c15ff9bdc04be84ff263">GetTime</a> () const </td></tr>
+<tr class="memdesc:aa08f52524257c15ff9bdc04be84ff263 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get processing time for minimization.  <a href="#aa08f52524257c15ff9bdc04be84ff263">More...</a><br/></td></tr>
+<tr class="separator:aa08f52524257c15ff9bdc04be84ff263 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d020f9036e8b033684a2bf2663691df inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0d020f9036e8b033684a2bf2663691df">SetFitFractions</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> list)</td></tr>
+<tr class="memdesc:a0d020f9036e8b033684a2bf2663691df inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set list with fit fractions.  <a href="#a0d020f9036e8b033684a2bf2663691df">More...</a><br/></td></tr>
+<tr class="separator:a0d020f9036e8b033684a2bf2663691df inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952cea10dde2297060e95f271e22e118 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a952cea10dde2297060e95f271e22e118">GetFitFractions</a> ()</td></tr>
+<tr class="memdesc:a952cea10dde2297060e95f271e22e118 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of fit fractions.  <a href="#a952cea10dde2297060e95f271e22e118">More...</a><br/></td></tr>
+<tr class="separator:a952cea10dde2297060e95f271e22e118 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de9e3dafb78a45645f104bde032d3e6 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a9de9e3dafb78a45645f104bde032d3e6">PrintFitParameters</a> (<a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *tableResult)</td></tr>
+<tr class="memdesc:a9de9e3dafb78a45645f104bde032d3e6 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table with fit parameters.  <a href="#a9de9e3dafb78a45645f104bde032d3e6">More...</a><br/></td></tr>
+<tr class="separator:a9de9e3dafb78a45645f104bde032d3e6 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accba93948b93f6fd2ebff4258eedd3a9 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#accba93948b93f6fd2ebff4258eedd3a9">PrintFitFractions</a> (<a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *tab)</td></tr>
+<tr class="memdesc:accba93948b93f6fd2ebff4258eedd3a9 inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table with fit fractions.  <a href="#accba93948b93f6fd2ebff4258eedd3a9">More...</a><br/></td></tr>
+<tr class="separator:accba93948b93f6fd2ebff4258eedd3a9 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4924d41fde24f7a045fcf6064fec35ff inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4924d41fde24f7a045fcf6064fec35ff">Print</a> (std::string opt=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4924d41fde24f7a045fcf6064fec35ff inherit pub_methods_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print fit result.  <a href="#a4924d41fde24f7a045fcf6064fec35ff">More...</a><br/></td></tr>
+<tr class="separator:a4924d41fde24f7a045fcf6064fec35ff inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3cdf7fe5e19fdad5fc09fc6ead13b1 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a3f3cdf7fe5e19fdad5fc09fc6ead13b1">WriteText</a> (std::string filename)</td></tr>
+<tr class="separator:a3f3cdf7fe5e19fdad5fc09fc6ead13b1 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15137244d99b2d4215d76f86190d358 inherit pub_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#af15137244d99b2d4215d76f86190d358">WriteSimpleText</a> (std::string filename)</td></tr>
+<tr class="separator:af15137244d99b2d4215d76f86190d358 inherit pub_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -239,8 +239,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa8a0568b633482b261711f4fb3013175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed9bf57882af74aeced653c886942cce"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#aed9bf57882af74aeced653c886942cce">GetCorr</a> (unsigned int n, unsigned int t)</td></tr>
 <tr class="separator:aed9bf57882af74aeced653c886942cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0647070a1c84493fb6f0c0409340691c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0647070a1c84493fb6f0c0409340691c">shiftAngle</a> (double v)</td></tr>
-<tr class="separator:a0647070a1c84493fb6f0c0409340691c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classComPWA_1_1FitResult"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classComPWA_1_1FitResult')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html">ComPWA::FitResult</a></td></tr>
+<tr class="memitem:a0647070a1c84493fb6f0c0409340691c inherit pro_methods_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0647070a1c84493fb6f0c0409340691c">shiftAngle</a> (double v)</td></tr>
+<tr class="separator:a0647070a1c84493fb6f0c0409340691c inherit pro_methods_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -257,28 +258,29 @@ Protected Attributes</h2></td></tr>
 &lt; <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html">ComPWA::IEstimator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ab7445a3600dcf18c20fd4a572cddcc88">est</a></td></tr>
 <tr class="memdesc:ab7445a3600dcf18c20fd4a572cddcc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to estimator.  <a href="#ab7445a3600dcf18c20fd4a572cddcc88">More...</a><br/></td></tr>
 <tr class="separator:ab7445a3600dcf18c20fd4a572cddcc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14f31184af5141fbefdfa8169a8579d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a14f31184af5141fbefdfa8169a8579d2">time</a></td></tr>
-<tr class="memdesc:a14f31184af5141fbefdfa8169a8579d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time for minimization.  <a href="#a14f31184af5141fbefdfa8169a8579d2">More...</a><br/></td></tr>
-<tr class="separator:a14f31184af5141fbefdfa8169a8579d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9064e8192fd401acd51e6c9b9099f1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#ad9064e8192fd401acd51e6c9b9099f1e">initialParameters</a></td></tr>
-<tr class="memdesc:ad9064e8192fd401acd51e6c9b9099f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial list of parameters.  <a href="#ad9064e8192fd401acd51e6c9b9099f1e">More...</a><br/></td></tr>
-<tr class="separator:ad9064e8192fd401acd51e6c9b9099f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34e3e0b67c8e43d41d16ca0537e025d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a34e3e0b67c8e43d41d16ca0537e025d4">finalParameters</a></td></tr>
-<tr class="memdesc:a34e3e0b67c8e43d41d16ca0537e025d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final list of parameters.  <a href="#a34e3e0b67c8e43d41d16ca0537e025d4">More...</a><br/></td></tr>
-<tr class="separator:a34e3e0b67c8e43d41d16ca0537e025d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c3574d2a9e0f0a77bf6f1395f2b7497"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0c3574d2a9e0f0a77bf6f1395f2b7497">trueParameters</a></td></tr>
-<tr class="memdesc:a0c3574d2a9e0f0a77bf6f1395f2b7497"><td class="mdescLeft">&#160;</td><td class="mdescRight">True list of parameters.  <a href="#a0c3574d2a9e0f0a77bf6f1395f2b7497">More...</a><br/></td></tr>
-<tr class="separator:a0c3574d2a9e0f0a77bf6f1395f2b7497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b9b6242170c5df2ee395775ffe8fb81"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a5b9b6242170c5df2ee395775ffe8fb81">_intens</a></td></tr>
-<tr class="memdesc:a5b9b6242170c5df2ee395775ffe8fb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit amplitude (can't be serialized)  <a href="#a5b9b6242170c5df2ee395775ffe8fb81">More...</a><br/></td></tr>
-<tr class="separator:a5b9b6242170c5df2ee395775ffe8fb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b37baa6f5a21c680e9bcf6ce59e43bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4b37baa6f5a21c680e9bcf6ce59e43bf">_fitFractions</a></td></tr>
-<tr class="separator:a4b37baa6f5a21c680e9bcf6ce59e43bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a992c3b1a3a88ba4e0637199711a60a27"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a992c3b1a3a88ba4e0637199711a60a27">sumFractions</a></td></tr>
-<tr class="memdesc:a992c3b1a3a88ba4e0637199711a60a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">List with fit fractions and errors.  <a href="#a992c3b1a3a88ba4e0637199711a60a27">More...</a><br/></td></tr>
-<tr class="separator:a992c3b1a3a88ba4e0637199711a60a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1751b9a117fb5d13f1c5425ee9099ff2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a1751b9a117fb5d13f1c5425ee9099ff2">sumFractionsError</a></td></tr>
-<tr class="separator:a1751b9a117fb5d13f1c5425ee9099ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classComPWA_1_1FitResult"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classComPWA_1_1FitResult')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html">ComPWA::FitResult</a></td></tr>
+<tr class="memitem:a14f31184af5141fbefdfa8169a8579d2 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a14f31184af5141fbefdfa8169a8579d2">time</a></td></tr>
+<tr class="memdesc:a14f31184af5141fbefdfa8169a8579d2 inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time for minimization.  <a href="#a14f31184af5141fbefdfa8169a8579d2">More...</a><br/></td></tr>
+<tr class="separator:a14f31184af5141fbefdfa8169a8579d2 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9064e8192fd401acd51e6c9b9099f1e inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#ad9064e8192fd401acd51e6c9b9099f1e">initialParameters</a></td></tr>
+<tr class="memdesc:ad9064e8192fd401acd51e6c9b9099f1e inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial list of parameters.  <a href="#ad9064e8192fd401acd51e6c9b9099f1e">More...</a><br/></td></tr>
+<tr class="separator:ad9064e8192fd401acd51e6c9b9099f1e inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e3e0b67c8e43d41d16ca0537e025d4 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a34e3e0b67c8e43d41d16ca0537e025d4">finalParameters</a></td></tr>
+<tr class="memdesc:a34e3e0b67c8e43d41d16ca0537e025d4 inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final list of parameters.  <a href="#a34e3e0b67c8e43d41d16ca0537e025d4">More...</a><br/></td></tr>
+<tr class="separator:a34e3e0b67c8e43d41d16ca0537e025d4 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3574d2a9e0f0a77bf6f1395f2b7497 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a0c3574d2a9e0f0a77bf6f1395f2b7497">trueParameters</a></td></tr>
+<tr class="memdesc:a0c3574d2a9e0f0a77bf6f1395f2b7497 inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">True list of parameters.  <a href="#a0c3574d2a9e0f0a77bf6f1395f2b7497">More...</a><br/></td></tr>
+<tr class="separator:a0c3574d2a9e0f0a77bf6f1395f2b7497 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9b6242170c5df2ee395775ffe8fb81 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a5b9b6242170c5df2ee395775ffe8fb81">_intens</a></td></tr>
+<tr class="memdesc:a5b9b6242170c5df2ee395775ffe8fb81 inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fit amplitude (can't be serialized)  <a href="#a5b9b6242170c5df2ee395775ffe8fb81">More...</a><br/></td></tr>
+<tr class="separator:a5b9b6242170c5df2ee395775ffe8fb81 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b37baa6f5a21c680e9bcf6ce59e43bf inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a4b37baa6f5a21c680e9bcf6ce59e43bf">_fitFractions</a></td></tr>
+<tr class="separator:a4b37baa6f5a21c680e9bcf6ce59e43bf inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992c3b1a3a88ba4e0637199711a60a27 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a992c3b1a3a88ba4e0637199711a60a27">sumFractions</a></td></tr>
+<tr class="memdesc:a992c3b1a3a88ba4e0637199711a60a27 inherit pro_attribs_classComPWA_1_1FitResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">List with fit fractions and errors.  <a href="#a992c3b1a3a88ba4e0637199711a60a27">More...</a><br/></td></tr>
+<tr class="separator:a992c3b1a3a88ba4e0637199711a60a27 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1751b9a117fb5d13f1c5425ee9099ff2 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#a1751b9a117fb5d13f1c5425ee9099ff2">sumFractionsError</a></td></tr>
+<tr class="separator:a1751b9a117fb5d13f1c5425ee9099ff2 inherit pro_attribs_classComPWA_1_1FitResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -351,7 +353,23 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for ComPWA::Optimizer::Minuit2::MinuitResult:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d5d/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for ComPWA::Optimizer::Minuit2::MinuitResult:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/deb/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa75e033d2f24c34664903d0c17b28a6f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -683,60 +701,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3d51e0da233057eb189fd4258c95dd36"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::GetFinalParameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get list of final fit parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a952cea10dde2297060e95f271e22e118"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::GetFitFractions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get list of fit fractions. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00086">86</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a83b0d228b0eaecfc4bfb38d931a3d5c3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -788,33 +752,6 @@ Friends</h2></td></tr>
 <p>Get initial likelihood value. </p>
 
 <p>Definition at line <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8451724567bcbdccdc8bab27af0edde1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::GetInitialParameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get list of initial parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
 
 </div>
 </div>
@@ -874,33 +811,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa08f52524257c15ff9bdc04be84ff263"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double ComPWA::FitResult::GetTime </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get processing time for minimization. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ae99ae75c3d0430a0d20aa02c553cbf59"></a>
 <div class="memitem">
 <div class="memproto">
@@ -925,33 +835,6 @@ Friends</h2></td></tr>
 <p>Get true likelihood value. </p>
 
 <p>Definition at line <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html#l00074">74</a> of file <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9eb60e3a9ef045f460d66e7b26eb2c16"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::GetTrueParameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get list of true parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00069">69</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
 
 </div>
 </div>
@@ -1068,34 +951,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4924d41fde24f7a045fcf6064fec35ff"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::Print </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>opt</em> = <code>&quot;&quot;</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Print fit result. </p>
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a7c16df103225132a1a37a1a0a692b38e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1149,62 +1004,6 @@ Friends</h2></td></tr>
 <p>Table with covariance matrix. </p>
 
 <p>Definition at line <a class="el" href="../../d3/d8e/MinuitResult_8cpp_source.html#l00232">232</a> of file <a class="el" href="../../d3/d8e/MinuitResult_8cpp_source.html">MinuitResult.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="accba93948b93f6fd2ebff4258eedd3a9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::PrintFitFractions </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *&#160;</td>
-          <td class="paramname"><em>tab</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Table with fit fractions. </p>
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9de9e3dafb78a45645f104bde032d3e6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::PrintFitParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d6e/classComPWA_1_1TableFormater.html">TableFormater</a> *&#160;</td>
-          <td class="paramname"><em>tableResult</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Table with fit parameters. </p>
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
 
 </div>
 </div>
@@ -1302,62 +1101,6 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a563a3e31d626d6d9da78dab445fd7d71"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::SetFinalParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td>
-          <td class="paramname"><em>finPars</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set list of final fit parameters. </p>
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0d020f9036e8b033684a2bf2663691df"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FitResult::SetFitFractions </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set list with fit fractions. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a0b801859934d3e508b3565bd364e0fc5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1383,62 +1126,6 @@ template&lt;class archive &gt; </div>
 <p>Set initial likelihood value. </p>
 
 <p>Definition at line <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a05c7bcde7f2be85a6bc6b0dbfe266800"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FitResult::SetInitialParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td>
-          <td class="paramname"><em>iniPars</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set list of initial parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00050">50</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a633cb4c9e423058a5940d2ec11367c64"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FitResult::SetIntensity </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td>
-          <td class="paramname"><em>intens</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a>. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
 
 </div>
 </div>
@@ -1472,34 +1159,6 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="acab357258024d2b53ae5b9e9465a69e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FitResult::SetTime </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set processing time for minimization. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00072">72</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a83f9bfcfd2169b5a85f0822b3326bc8e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1525,86 +1184,6 @@ template&lt;class archive &gt; </div>
 <p>Set true likelihood value. </p>
 
 <p>Definition at line <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html#l00072">72</a> of file <a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4894fa8c6355e7e176779f00ae5d9dd9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FitResult::SetTrueParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td>
-          <td class="paramname"><em>truePars</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set list of true parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0647070a1c84493fb6f0c0409340691c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::FitResult::shiftAngle </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af15137244d99b2d4215d76f86190d358"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::WriteSimpleText </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
 
 </div>
 </div>
@@ -1641,32 +1220,6 @@ template&lt;class archive &gt; </div>
 <p>Reimplemented from <a class="el" href="../../d7/d8a/classComPWA_1_1FitResult.html#af6f36acf2601f3db75e33c631eb2b951">ComPWA::FitResult</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d3/d8e/MinuitResult_8cpp_source.html#l00276">276</a> of file <a class="el" href="../../d3/d8e/MinuitResult_8cpp_source.html">MinuitResult.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3f3cdf7fe5e19fdad5fc09fc6ead13b1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FitResult::WriteText </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d18/FitResult_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../dd/d18/FitResult_8cpp_source.html">FitResult.cpp</a>.</p>
 
 </div>
 </div>
@@ -1730,52 +1283,6 @@ template&lt;class archive &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4b37baa6f5a21c680e9bcf6ce59e43bf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::_fitFractions</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5b9b6242170c5df2ee395775ffe8fb81"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a>&gt; ComPWA::FitResult::_intens</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Fit amplitude (can't be serialized) </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00131">131</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a645961521969f7af7a93c0ccd25616bc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1982,30 +1489,6 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a34e3e0b67c8e43d41d16ca0537e025d4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::finalParameters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Final list of parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a635c00986f7b636156a7170664754344"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2162,30 +1645,6 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ad9064e8192fd401acd51e6c9b9099f1e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::initialParameters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initial list of parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00122">122</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ac6f8ef8f51a29e32d7a03fef9780e92f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2278,76 +1737,6 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a992c3b1a3a88ba4e0637199711a60a27"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::FitResult::sumFractions</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List with fit fractions and errors. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1751b9a117fb5d13f1c5425ee9099ff2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::FitResult::sumFractionsError</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00137">137</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a14f31184af5141fbefdfa8169a8579d2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ComPWA::FitResult::time</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Time for minimization. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aacc5ad43b5f7105da5c7a9cf923cc15c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2370,38 +1759,15 @@ template&lt;class archive &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0c3574d2a9e0f0a77bf6f1395f2b7497"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ComPWA::FitResult::trueParameters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>True list of parameters. </p>
-
-<p>Definition at line <a class="el" href="../../de/d88/FitResult_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../de/d88/FitResult_8hpp_source.html">FitResult.hpp</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/<a class="el" href="../../d3/d89/MinuitResult_8hpp_source.html">MinuitResult.hpp</a></li>
 <li>/home/travis/build/ComPWA/ComPWA/Optimizer/Minuit2/<a class="el" href="../../d3/d8e/MinuitResult_8cpp_source.html">MinuitResult.cpp</a></li>
 </ul>
 </div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:37 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

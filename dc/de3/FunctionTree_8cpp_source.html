@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Core/FunctionTree.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -294,7 +301,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    parentNode = std::shared_ptr&lt;TreeNode&gt;();</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    parentNode = <a class="code" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a035464076b437534f27e5aa1aa667c99">nodes_</a>.at(parent);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="comment">//            std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="comment">//        std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  std::shared_ptr&lt;TreeNode&gt; leaf;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  std::shared_ptr&lt;DoubleParameter&gt; staticVal(</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="keyword">new</span> <a class="code" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a>(<span class="stringliteral">&quot;ParOfNode_&quot;</span> + name, extPar));</div>
@@ -334,7 +341,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    parentNode = std::shared_ptr&lt;TreeNode&gt;();</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    parentNode = <a class="code" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a035464076b437534f27e5aa1aa667c99">nodes_</a>.at(parent);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  <span class="comment">//            std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  <span class="comment">//        std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  std::shared_ptr&lt;TreeNode&gt; leaf;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  std::shared_ptr&lt;ComplexParameter&gt; staticVal(</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      <span class="keyword">new</span> <a class="code" href="../../da/dd8/classComPWA_1_1ComplexParameter.html">ComplexParameter</a>(<span class="stringliteral">&quot;ParOfNode_&quot;</span> + name, extPar));</div>
@@ -407,7 +414,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    parentNode = std::shared_ptr&lt;TreeNode&gt;();</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    parentNode = <a class="code" href="../../d3/de1/classComPWA_1_1FunctionTree.html#a035464076b437534f27e5aa1aa667c99">nodes_</a>.at(parent);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="comment">//            std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="comment">//        std::shared_ptr&lt;TreeNode&gt; parentNode = nodes_.at(parent);</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  std::shared_ptr&lt;TreeNode&gt; leaf;</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  <span class="comment">// check if Leaf already exists</span></div>
@@ -503,9 +510,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="namespaceComPWA_html_a8757ca75d53e7336effe8394455287b0a20728351bcf60b55a728a2fa5ac6629e"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#a8757ca75d53e7336effe8394455287b0a20728351bcf60b55a728a2fa5ac6629e">ComPWA::COMPLEX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/def/AbsParameter_8hpp_source.html#l00037">AbsParameter.hpp:37</a></div></div>
 <div class="ttc" id="Logging_8hpp_html_ac7287b93a2311534ceb8ec2fd19ca39e"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a></div><div class="ttdeci">#define LOG(lvl)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db4/Logging_8hpp_source.html#l00014">Logging.hpp:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Examples/DalitzFit/GenPhspApp.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -108,28 +115,28 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../de/d5e/GenPhspApp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   18</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d5e/GenPhspApp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(){</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        TRandom* rand = <span class="keyword">new</span> TRandom(54339);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        DalitzKinematics kin(1.869,0.0,0.497,0.493,0.493,<span class="stringliteral">&quot;KS_0&quot;</span>,<span class="stringliteral">&quot;K-&quot;</span>,<span class="stringliteral">&quot;K+&quot;</span>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    TRandom* rand = <span class="keyword">new</span> TRandom(54339);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    DalitzKinematics kin(1.869,0.0,0.497,0.493,0.493,<span class="stringliteral">&quot;KS_0&quot;</span>,<span class="stringliteral">&quot;K-&quot;</span>,<span class="stringliteral">&quot;K+&quot;</span>);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        TH2D* hist = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;hist&quot;</span>,<span class="stringliteral">&quot;hist&quot;</span>,100,kin.m23_sq_min,kin.m23_sq_max,100,kin.m13_sq_min,kin.m13_sq_max);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    TH2D* hist = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;hist&quot;</span>,<span class="stringliteral">&quot;hist&quot;</span>,100,kin.m23_sq_min,kin.m23_sq_max,100,kin.m13_sq_min,kin.m13_sq_max);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        cout&lt;&lt;kin.m23_sq_min&lt;&lt; <span class="stringliteral">&quot; &quot;</span>&lt;&lt; kin.m23_sq_max&lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; kin.m13_sq_min &lt;&lt; <span class="stringliteral">&quot; &quot;</span>&lt;&lt;kin.m13_sq_max&lt;&lt;endl;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cout&lt;&lt;kin.m23_sq_min&lt;&lt; <span class="stringliteral">&quot; &quot;</span>&lt;&lt; kin.m23_sq_max&lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; kin.m13_sq_min &lt;&lt; <span class="stringliteral">&quot; &quot;</span>&lt;&lt;kin.m13_sq_max&lt;&lt;endl;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">int</span> nEvents=300000;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> nEvents=300000;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">int</span> i=0;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">while</span>( i&lt;nEvents ){</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordtype">double</span> m23sq = rand-&gt;Uniform(kin.m23_sq_min,kin.m23_sq_max);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordtype">double</span> m13sq = rand-&gt;Uniform(kin.m13_sq_min,kin.m13_sq_max);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//              double m12 = kin.getThirdVariable(sqrt(m23sq),sqrt(m13sq));</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="keywordflow">if</span>(!kin.isWithinDP(sqrt(m23sq),sqrt(m13sq))) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                hist-&gt;Fill(m23sq,m13sq);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                i++;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        TFile* tf=<span class="keyword">new</span> TFile(<span class="stringliteral">&quot;test.root&quot;</span>,<span class="stringliteral">&quot;recreate&quot;</span>);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        hist-&gt;Write();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        tf-&gt;Close();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> i=0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">while</span>( i&lt;nEvents ){</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">double</span> m23sq = rand-&gt;Uniform(kin.m23_sq_min,kin.m23_sq_max);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">double</span> m13sq = rand-&gt;Uniform(kin.m13_sq_min,kin.m13_sq_max);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//      double m12 = kin.getThirdVariable(sqrt(m23sq),sqrt(m13sq));</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>(!kin.isWithinDP(sqrt(m23sq),sqrt(m13sq))) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        hist-&gt;Fill(m23sq,m13sq);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        i++;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    TFile* tf=<span class="keyword">new</span> TFile(<span class="stringliteral">&quot;test.root&quot;</span>,<span class="stringliteral">&quot;recreate&quot;</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    hist-&gt;Write();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    tf-&gt;Close();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
@@ -139,9 +146,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="DataPoint_8hpp_html"><div class="ttname"><a href="../../d8/dd4/DataPoint_8hpp.html">DataPoint.hpp</a></div><div class="ttdoc">dataPoint stores kinematic information of a dalitz plot </div></div>
 <div class="ttc" id="GenPhspApp_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../de/d5e/GenPhspApp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/GenPhspApp_8cpp_source.html#l00018">GenPhspApp.cpp:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

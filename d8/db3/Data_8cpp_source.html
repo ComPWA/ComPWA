@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/DataReader/Data.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -144,8 +151,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      newSize--;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">//          dataPoint point(in1-&gt;getEvent(i));</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">//          if(!Kinematics::instance()-&gt;isWithinPhsp(point)) newSize--;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">//      dataPoint point(in1-&gt;getEvent(i));</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">//      if(!Kinematics::instance()-&gt;isWithinPhsp(point)) newSize--;</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">double</span> threshold = (double)size / newSize; <span class="comment">// calculate threshold</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; totalSize; i++) {</div>
@@ -155,9 +162,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    } <span class="keywordflow">catch</span> (<a class="code" href="../../d0/d31/classComPWA_1_1BeyondPhsp.html">BeyondPhsp</a> &amp;ex) { <span class="comment">// event outside phase, remove</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">//          dataPoint point(in1-&gt;getEvent(i)); //use first sample for</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">//      dataPoint point(in1-&gt;getEvent(i)); //use first sample for</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// hit&amp;miss</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//          if(!Kinematics::instance()-&gt;isWithinPhsp(point)) continue;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//      if(!Kinematics::instance()-&gt;isWithinPhsp(point)) continue;</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span> (gen-&gt;GetUniform(0, 1) &lt; threshold) {</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      out1-&gt;<a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a842470e2a4449fca845c480ddcbb1cf1">PushEvent</a>(in1-&gt;<a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a6e8a687685df65fabec8a579300d4dbe">GetEvent</a>(i));</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="comment">// write second sample if event from first sample were accepted</span></div>
@@ -234,7 +241,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    } <span class="keywordflow">catch</span> (<a class="code" href="../../d0/d31/classComPWA_1_1BeyondPhsp.html">BeyondPhsp</a> &amp;ex) { <span class="comment">// event outside phase, remove</span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">//          dataPoint point(fEvents.at(evt));</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">//      dataPoint point(fEvents.at(evt));</span></div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">double</span> val = eff-&gt;Evaluate(point);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a14fb74011cf47240cd1fa4511edebf08">fEvents</a>.at(evt).SetEfficiency(val);</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
@@ -405,9 +412,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classComPWA_1_1DataReader_1_1Data_html_a780d8b2fe2692f09cea5d7d6e79c6ba9"><div class="ttname"><a href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a780d8b2fe2692f09cea5d7d6e79c6ba9">ComPWA::DataReader::Data::ResetWeights</a></div><div class="ttdeci">virtual void ResetWeights(double weight=1.)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db3/Data_8cpp_source.html#l00091">Data.cpp:91</a></div></div>
 <div class="ttc" id="classComPWA_1_1DataReader_1_1Data_html"><div class="ttname"><a href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a></div><div class="ttdoc">This class provides the interface to experimental data. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d4b/Data_8hpp_source.html#l00038">Data.hpp:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Examples/PythonDalitzFit/Dalitz_ext.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -105,11 +112,11 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    class_&lt;PythonFit&gt;(<span class="stringliteral">&quot;PythonFit&quot;</span>)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    .def(init&lt;PythonFit&gt;())</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    .def(<span class="stringliteral">&quot;StartFit&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#a2bd762f80492d9d17f94a47ffb4aee4b">PythonFit::StartFit</a>)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        .def(<span class="stringliteral">&quot;setConfigFile&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#af88d735800f038e7c604d9b253ba6ac7">PythonFit::setConfigFile</a>)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="comment">//.def(&quot;testTree&quot;, &amp;PythonFit::testTree, return_value_policy&lt;manage_new_object&gt;())</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        .def(<span class="stringliteral">&quot;testTree&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#af9c7628a62aa7612640d81497c051104">PythonFit::testTree</a>)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        .def(<span class="stringliteral">&quot;testVec&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#a377ce2a0f4452eae2f7a100bde5006db">PythonFit::testTVector3</a>)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        .def(<span class="stringliteral">&quot;useGeneva&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#a5b1b7cfb2ce33e0a56bf323f72d09869">PythonFit::useGeneva</a>)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    .def(<span class="stringliteral">&quot;setConfigFile&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#af88d735800f038e7c604d9b253ba6ac7">PythonFit::setConfigFile</a>)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">//.def(&quot;testTree&quot;, &amp;PythonFit::testTree, return_value_policy&lt;manage_new_object&gt;())</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    .def(<span class="stringliteral">&quot;testTree&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#af9c7628a62aa7612640d81497c051104">PythonFit::testTree</a>)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    .def(<span class="stringliteral">&quot;testVec&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#a377ce2a0f4452eae2f7a100bde5006db">PythonFit::testTVector3</a>)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    .def(<span class="stringliteral">&quot;useGeneva&quot;</span>, &amp;<a class="code" href="../../dc/dfe/classPythonFit.html#a5b1b7cfb2ce33e0a56bf323f72d09869">PythonFit::useGeneva</a>)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">//.def(&quot;AddParameter&quot;, &amp;ParameterList::AddParameter)</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">//.def(&quot;to_str&quot;, &amp;ParameterList::to_str)</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">//.def(&quot;GetNDouble&quot;, &amp;ParameterList::GetNDouble)</span></div>
@@ -141,9 +148,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classPythonFit_html_af88d735800f038e7c604d9b253ba6ac7"><div class="ttname"><a href="../../dc/dfe/classPythonFit.html#af88d735800f038e7c604d9b253ba6ac7">PythonFit::setConfigFile</a></div><div class="ttdeci">virtual void setConfigFile(std::string fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d0a/PythonFit_8cpp_source.html#l00791">PythonFit.cpp:791</a></div></div>
 <div class="ttc" id="classPythonFit_html_a5b1b7cfb2ce33e0a56bf323f72d09869"><div class="ttname"><a href="../../dc/dfe/classPythonFit.html#a5b1b7cfb2ce33e0a56bf323f72d09869">PythonFit::useGeneva</a></div><div class="ttdeci">virtual void useGeneva()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/deb/PythonFit_8hpp_source.html#l00101">PythonFit.hpp:101</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

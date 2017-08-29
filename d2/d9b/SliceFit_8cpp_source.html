@@ -1,9 +1,11 @@
+<!-- HTML header for doxygen 1.8.13-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>ComPWA: /home/travis/build/ComPWA/ComPWA/Estimator/SliceFit/SliceFit.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -14,6 +16,11 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../doxy-boot.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -21,7 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ComPWA
    </div>
    <div id="projectbrief">Common Partial-Wave-Analysis Framework</div>
@@ -116,9 +123,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dc/d61/classSliceFit.html">SliceFit</a> {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ac9453bc7929c03cde1658fd672412741">   26</a></span>&#160;<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html">SliceFit::SliceFit</a>(std::shared_ptr&lt;Physics::AmplitudeSum::AmpSumIntensity&gt; inPIF,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                std::shared_ptr&lt;DataReader::Data&gt; inDIF, <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; inPar,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> startEvent, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nEvents, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a>,</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#a721e01134b056ef4b80dbc0092d2847c">nF0</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ab05b1aee8d6e339539b27e6941a7ddbb">nF2</a>)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        std::shared_ptr&lt;DataReader::Data&gt; inDIF, <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; inPar,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> startEvent, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nEvents, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a>,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#a721e01134b056ef4b80dbc0092d2847c">nF0</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ab05b1aee8d6e339539b27e6941a7ddbb">nF2</a>)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;: pPIF_(inPIF), pDIF_(inDIF), nEvts_(0), nPhsp_(0), nStartEvt_(startEvent),</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  par_(inPar), nUseEvt_(nEvents),nBins_(nBins),nF0_(nF0),nF2_(nF2)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
@@ -140,45 +147,45 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ad1525be56be0a0224ab4cc6c9e1f9411">   49</a></span>&#160;<span class="keywordtype">void</span> SliceFit::init(){</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">//aSlice_ = new TH1D(&quot;aSlice&quot;,&quot;Dummy&quot;,nBins_,0,10);</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">//theAmp_ = new TH1D(&quot;theAmp&quot;,&quot;Dummy&quot;,nBins_,0,10);</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//aSlice_ = new TH1D(&quot;aSlice&quot;,&quot;Dummy&quot;,nBins_,0,10);</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">//theAmp_ = new TH1D(&quot;theAmp&quot;,&quot;Dummy&quot;,nBins_,0,10);</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        DalitzKinematics* kin = <span class="keyword">dynamic_cast&lt;</span>DalitzKinematics*<span class="keyword">&gt;</span>(Kinematics::instance());</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    DalitzKinematics* kin = <span class="keyword">dynamic_cast&lt;</span>DalitzKinematics*<span class="keyword">&gt;</span>(Kinematics::instance());</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a9a50e458039533c7b61efc16e26db85c">M</a> = 3.096916; <span class="comment">// GeV/c² (J/psi+)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#acd8c4d70cfbc20ca80581c33f13c9d8a">Br</a> = 0.000093; <span class="comment">// GeV/c² (width)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a4058fcd560426cb8c112b017d86d4f96">m1</a> = 0.; <span class="comment">// GeV/c² (gamma)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ac5c27c45727167f2d9bc8af38039eb07">m2</a> = 0.139570; <span class="comment">// GeV/c² (pi)</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7f419e4a722961cd333f552e7befc18d">m3</a> = 0.139570; <span class="comment">// GeV/c² (pi)</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ab9f8afd3a02e03c676c6590643574b93">PI</a> = 3.14159; <span class="comment">// m/s</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a9a50e458039533c7b61efc16e26db85c">M</a> = 3.096916; <span class="comment">// GeV/c² (J/psi+)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#acd8c4d70cfbc20ca80581c33f13c9d8a">Br</a> = 0.000093; <span class="comment">// GeV/c² (width)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a4058fcd560426cb8c112b017d86d4f96">m1</a> = 0.; <span class="comment">// GeV/c² (gamma)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ac5c27c45727167f2d9bc8af38039eb07">m2</a> = 0.139570; <span class="comment">// GeV/c² (pi)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7f419e4a722961cd333f552e7befc18d">m3</a> = 0.139570; <span class="comment">// GeV/c² (pi)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ab9f8afd3a02e03c676c6590643574b93">PI</a> = 3.14159; <span class="comment">// m/s</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        Double_t m23_min = (kin-&gt;m2+kin-&gt;m3);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        Double_t m23_max = (kin-&gt;GetMotherMass()-kin-&gt;m1);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        Double_t m13_min = (kin-&gt;m1+kin-&gt;m3);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        Double_t m13_max = (kin-&gt;GetMotherMass()-kin-&gt;m2);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        Double_t m12_min = (kin-&gt;m1+kin-&gt;m2);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        Double_t m12_max = (kin-&gt;GetMotherMass()-kin-&gt;m3);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    Double_t m23_min = (kin-&gt;m2+kin-&gt;m3);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Double_t m23_max = (kin-&gt;GetMotherMass()-kin-&gt;m1);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    Double_t m13_min = (kin-&gt;m1+kin-&gt;m3);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    Double_t m13_max = (kin-&gt;GetMotherMass()-kin-&gt;m2);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    Double_t m12_min = (kin-&gt;m1+kin-&gt;m2);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    Double_t m12_max = (kin-&gt;GetMotherMass()-kin-&gt;m3);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a> = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;SliceDalitz&quot;</span>,<span class="stringliteral">&quot;SliceDalitz&quot;</span>, <span class="comment">//TODO: variable binning</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,m23_min*m23_min,m23_max*m23_max, <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,m13_min*m13_min,m13_max*m13_max);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a> = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;SliceDalitz&quot;</span>,<span class="stringliteral">&quot;SliceDalitz&quot;</span>, <span class="comment">//TODO: variable binning</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,m23_min*m23_min,m23_max*m23_max, <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,m13_min*m13_min,m13_max*m13_max);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">//fill dalitz</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">double</span> m23sq, m13sq, m12sq;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">//fill dalitz</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> m23sq, m13sq, m12sq;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7e2648bd736e0c75c69d6cd486293b37">pDIF_</a>-&gt;getNEvents();i++){</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="../../df/d16/classComPWA_1_1Event.html">Event</a>&amp; event(<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7e2648bd736e0c75c69d6cd486293b37">pDIF_</a>-&gt;getEvent(i));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i&lt;<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7e2648bd736e0c75c69d6cd486293b37">pDIF_</a>-&gt;getNEvents();i++){</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="../../df/d16/classComPWA_1_1Event.html">Event</a>&amp; event(<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a7e2648bd736e0c75c69d6cd486293b37">pDIF_</a>-&gt;getEvent(i));</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="comment">//if(!myReader.getEvent(i, event)) continue; TODO: try exception</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span>(!event.getNParticles() == 3) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;a(event.getParticle(0));</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;b(event.getParticle(1));</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;c(event.getParticle(2));</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                m12sq = pow(a.E+b.E,2) - pow(a.px+b.px ,2) - pow(a.py+b.py ,2) - pow(a.pz+b.pz ,2);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                m13sq = pow(a.E+c.E,2) - pow(a.px+c.px ,2) - pow(a.py+c.py ,2) - pow(a.pz+c.pz ,2);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                m23sq = pow(b.E+c.E,2) - pow(b.px+c.px ,2) - pow(b.py+c.py ,2) - pow(b.pz+c.pz ,2);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">//if(!myReader.getEvent(i, event)) continue; TODO: try exception</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span>(!event.getNParticles() == 3) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;a(event.getParticle(0));</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;b(event.getParticle(1));</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> &amp;c(event.getParticle(2));</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        m12sq = pow(a.E+b.E,2) - pow(a.px+b.px ,2) - pow(a.py+b.py ,2) - pow(a.pz+b.pz ,2);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        m13sq = pow(a.E+c.E,2) - pow(a.px+c.px ,2) - pow(a.py+c.py ,2) - pow(a.pz+c.pz ,2);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        m23sq = pow(b.E+c.E,2) - pow(b.px+c.px ,2) - pow(b.py+c.py ,2) - pow(b.pz+c.pz ,2);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;Fill(m23sq ,m13sq);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;Fill(m23sq ,m13sq);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
@@ -187,19 +194,19 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span>(!instance_)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        instance_ = std::shared_ptr&lt;ComPWA::ControlParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ac9453bc7929c03cde1658fd672412741">SliceFit</a>(inPIF, inDIF, inPar, startEvent, nEvents, nBins, nF0, nF2));</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> instance_;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> instance_;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#aef540ab2b9800f353090983479b9b90a">  101</a></span>&#160;std::shared_ptr&lt;ComPWA::ControlParameter&gt; SliceFit::createInstance(std::shared_ptr&lt;Physics::AmplitudeSum::AmpSumIntensity&gt; inPIF, std::shared_ptr&lt;DataReader::Data&gt; inDIF, std::shared_ptr&lt;DataReader::Data&gt; inPHSP, <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&amp; inPar, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> startEvent, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nEvents, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#a721e01134b056ef4b80dbc0092d2847c">nF0</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ab05b1aee8d6e339539b27e6941a7ddbb">nF2</a>){</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(!instance_)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        instance_ = std::shared_ptr&lt;ComPWA::ControlParameter&gt;(<span class="keyword">new</span> <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ac9453bc7929c03cde1658fd672412741">SliceFit</a>(inPIF, inDIF, inPHSP, inPar, startEvent, nEvents, nBins, nF0, nF2));</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> instance_;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> instance_;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#ab18be8542cbedb8c8c48b25badac3cb2">  108</a></span>&#160;SliceFit::~SliceFit(){</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="comment">// delete aSlice_;</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="comment">// delete theAmp_;</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">// delete aSlice_;</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">// delete theAmp_;</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">/*double SliceFit::fitsliceAMP(Double_t *x, Double_t *par){</span></div>
@@ -261,77 +268,77 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="comment">//double m23 = dalitzPlot_-&gt;GetBinLowEdge(whichSlice_);</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordtype">double</span> locmin = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a3f5f6603ff38ca93d06ed6f25ab39bb5">m13_sq_min_constr</a>(m23), locmax = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a6ab24e237292d692a104089f33138232">m13_sq_max_constr</a>(m23);</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">//check if able to handle this many particles</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">if</span>(nParts!=3){</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="comment">//TODO: exception</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="comment">//check if able to handle this many particles</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">if</span>(nParts!=3){</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="comment">//TODO: exception</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="comment">//delete aSlice_;</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="comment">//delete theAmp_;</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="comment">//delete aSlice_;</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="comment">//delete theAmp_;</span></div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        std::string name1=<span class="stringliteral">&quot;Slice &quot;</span>, name2=<span class="stringliteral">&quot;Slice &quot;</span>, name3=<span class="stringliteral">&quot;Slice &quot;</span>;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        name1+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a647347a54fbc81dc4d84eeeba51c32ec">whichSlice_</a>)+<span class="stringliteral">&quot; data&quot;</span>;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        name2+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) whichSlice_)+<span class="stringliteral">&quot; modelSlice&quot;</span>;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        name3+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) whichSlice_)+<span class="stringliteral">&quot; modelClassic&quot;</span>;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5895d59562f8f817dc463115660ac14c">aSlice_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name1.c_str(),name1.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a1443aa0e48cfbd93a8039c61cfcc4646">theAmpSl_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name2.c_str(),name2.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a508c34fd4f66eb7abb8c880a4f4a6a37">theAmpCl_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name3.c_str(),name3.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    std::string name1=<span class="stringliteral">&quot;Slice &quot;</span>, name2=<span class="stringliteral">&quot;Slice &quot;</span>, name3=<span class="stringliteral">&quot;Slice &quot;</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    name1+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a647347a54fbc81dc4d84eeeba51c32ec">whichSlice_</a>)+<span class="stringliteral">&quot; data&quot;</span>;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    name2+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) whichSlice_)+<span class="stringliteral">&quot; modelSlice&quot;</span>;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    name3+=std::to_string((<span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) whichSlice_)+<span class="stringliteral">&quot; modelClassic&quot;</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5895d59562f8f817dc463115660ac14c">aSlice_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name1.c_str(),name1.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a1443aa0e48cfbd93a8039c61cfcc4646">theAmpSl_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name2.c_str(),name2.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a508c34fd4f66eb7abb8c880a4f4a6a37">theAmpCl_</a> = std::shared_ptr&lt;TH1D&gt;(<span class="keyword">new</span> TH1D(name3.c_str(),name3.c_str(),<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>,0,10));</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        DalitzKinematics* kin = <span class="keyword">dynamic_cast&lt;</span>DalitzKinematics*<span class="keyword">&gt;</span>(Kinematics::instance());</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    DalitzKinematics* kin = <span class="keyword">dynamic_cast&lt;</span>DalitzKinematics*<span class="keyword">&gt;</span>(Kinematics::instance());</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        Double_t m23_sq_min = (kin-&gt;m2+kin-&gt;m3); m23_sq_min*=m23_sq_min;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        Double_t m23_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m1); m23_sq_max*=m23_sq_max;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        Double_t m13_sq_min = (kin-&gt;m1+kin-&gt;m3); m13_sq_min*=m13_sq_min;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        Double_t m13_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m2); m13_sq_max*=m13_sq_max;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        Double_t m12_sq_min = (kin-&gt;m1+kin-&gt;m2); m12_sq_min*=m12_sq_min;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        Double_t m12_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m3); m12_sq_max*=m12_sq_max;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    Double_t m23_sq_min = (kin-&gt;m2+kin-&gt;m3); m23_sq_min*=m23_sq_min;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    Double_t m23_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m1); m23_sq_max*=m23_sq_max;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    Double_t m13_sq_min = (kin-&gt;m1+kin-&gt;m3); m13_sq_min*=m13_sq_min;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    Double_t m13_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m2); m13_sq_max*=m13_sq_max;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    Double_t m12_sq_min = (kin-&gt;m1+kin-&gt;m2); m12_sq_min*=m12_sq_min;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    Double_t m12_sq_max = (kin-&gt;GetMotherMass()-kin-&gt;m3); m12_sq_max*=m12_sq_max;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;     <span class="comment">// double amp = pPIF_-&gt;sliceIntensity(point, par_,reso, 2, std::fabs(minPar.GetParameterValue(0)),nF0_,nF2_);</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;     <span class="comment">// double ampCl = (double) (0.0725*(pPIF_-&gt;intensity(point, par_).GetParameterValue(0)));</span></div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> j=0; j&lt;<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>; j++){<span class="comment">//slice values</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                <span class="keywordtype">double</span> m13 = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;GetYaxis()-&gt;GetBinCenter(j);</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">if</span>(m13&lt;locmin || m13&gt;locmax) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> j=0; j&lt;<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a0f23f36a94bf44d8cc4a4bb0249f3b1e">nBins_</a>; j++){<span class="comment">//slice values</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordtype">double</span> m13 = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;GetYaxis()-&gt;GetBinCenter(j);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">if</span>(m13&lt;locmin || m13&gt;locmax) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                <span class="keywordtype">double</span> val = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;GetBinContent(whichSlice_,j);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordtype">double</span> val = <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6">dalitzPlot_</a>-&gt;GetBinContent(whichSlice_,j);</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> point;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                point.setVal(<span class="stringliteral">&quot;m23sq&quot;</span>,m23); point.setVal(<span class="stringliteral">&quot;m13sq&quot;</span>,m13);<span class="comment">//point.push_back(m12sq);</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> point;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        point.setVal(<span class="stringliteral">&quot;m23sq&quot;</span>,m23); point.setVal(<span class="stringliteral">&quot;m13sq&quot;</span>,m13);<span class="comment">//point.push_back(m12sq);</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                std::complex&lt;double&gt; reso[2];</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                <span class="comment">//reso[2]=std::complex&lt;double&gt;(minPar.GetDoubleParameterValue(5),0.);</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                reso[0]=std::complex&lt;double&gt;(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(1),minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(2));</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                reso[1]=std::complex&lt;double&gt;(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(3),minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(4));</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        std::complex&lt;double&gt; reso[2];</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="comment">//reso[2]=std::complex&lt;double&gt;(minPar.GetDoubleParameterValue(5),0.);</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        reso[0]=std::complex&lt;double&gt;(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(1),minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(2));</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        reso[1]=std::complex&lt;double&gt;(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(3),minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(4));</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                <span class="comment">//TODO: I modified the call to sliceIntensity; pretty sure that it is wrong</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                <span class="keywordtype">double</span> amp = std::fabs(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(0))*</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5c15e0e6802057135fd62c038db52986">pPIF_</a>-&gt;sliceIntensity(</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                                point, minPar, reso, 2, 0, 0, 0</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                );</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <span class="keywordtype">double</span> ampCl = (double) (0.0725*(<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5c15e0e6802057135fd62c038db52986">pPIF_</a>-&gt;intensity(point).GetDoubleParameterValue(0)));</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="comment">//TODO: I modified the call to sliceIntensity; pretty sure that it is wrong</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordtype">double</span> amp = std::fabs(minPar.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#ae99b5578df12c86173da0c77dac2edc9">GetDoubleParameterValue</a>(0))*</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5c15e0e6802057135fd62c038db52986">pPIF_</a>-&gt;sliceIntensity(</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                        point, minPar, reso, 2, 0, 0, 0</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                );</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordtype">double</span> ampCl = (double) (0.0725*(<a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5c15e0e6802057135fd62c038db52986">pPIF_</a>-&gt;intensity(point).GetDoubleParameterValue(0)));</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5895d59562f8f817dc463115660ac14c">aSlice_</a>-&gt;SetBinContent(j,val);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a1443aa0e48cfbd93a8039c61cfcc4646">theAmpSl_</a>-&gt;SetBinContent(j,amp);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a508c34fd4f66eb7abb8c880a4f4a6a37">theAmpCl_</a>-&gt;SetBinContent(j,ampCl);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5895d59562f8f817dc463115660ac14c">aSlice_</a>-&gt;SetBinContent(j,val);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a1443aa0e48cfbd93a8039c61cfcc4646">theAmpSl_</a>-&gt;SetBinContent(j,amp);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a508c34fd4f66eb7abb8c880a4f4a6a37">theAmpCl_</a>-&gt;SetBinContent(j,ampCl);</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="keywordtype">double</span> delta = (amp-(val*std::log(amp)));</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <span class="keywordflow">if</span>(delta==delta)</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                        lh+=delta;<span class="comment">//(val-amp)*(val-amp);///(double)nBins_; model_value - data_point-&gt;z * log(model_value);</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;log( &quot;</span> &lt;&lt; amp &lt;&lt;<span class="stringliteral">&quot; ), point: &quot;</span> &lt;&lt; m23 &lt;&lt; <span class="stringliteral">&quot;;&quot;</span>&lt;&lt;m13&lt;&lt;std::endl;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                }</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }<span class="comment">//end slice-bins</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordtype">double</span> delta = (amp-(val*std::log(amp)));</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">if</span>(delta==delta)</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            lh+=delta;<span class="comment">//(val-amp)*(val-amp);///(double)nBins_; model_value - data_point-&gt;z * log(model_value);</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            std::cout &lt;&lt; <span class="stringliteral">&quot;log( &quot;</span> &lt;&lt; amp &lt;&lt;<span class="stringliteral">&quot; ), point: &quot;</span> &lt;&lt; m23 &lt;&lt; <span class="stringliteral">&quot;;&quot;</span>&lt;&lt;m13&lt;&lt;std::endl;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }<span class="comment">//end slice-bins</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="comment">//}</span></div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">return</span> lh;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">return</span> lh;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="comment">//TH1D *slice;</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="comment">//TF1 *slicefun;</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="comment">/*   TString th1name = &quot;slice&quot;; th1name+=i;</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="comment">//TH1D *slice;</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="comment">//TF1 *slicefun;</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">/*   TString th1name = &quot;slice&quot;; th1name+=i;</span></div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">    slice = new TH1D(th1name,&quot;m23 slice&quot;, nBins_,m13_sq_min,m13_sq_max);</span></div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment">    slice-&gt;SetTitle(&quot;&quot;);</span></div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment">    //slice-&gt;GetYaxis()-&gt;SetTitle(&quot;Magnitude&quot;);</span></div>
@@ -355,21 +362,21 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment">    for(unsigned int j=0; j&lt;nBins_; j++){</span></div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment">      slice-&gt;SetBinContent(j,dalitzPlot_-&gt;GetBinContent(i,j));</span></div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment">    }//end slice-bins</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment">         */</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="comment">//if(i==32){</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="comment">//  reso1 = new TH1D(*slice);</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="comment">//  reso1-&gt;Fit(slicefun);</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="comment">//}else if(i==64){</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="comment">//  reso2 = new TH1D(*slice);</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="comment">//  reso2-&gt;Fit(slicefun);</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="comment">//slicefunAMP = new TF1(&quot;fitsliceAMP&quot;,fitsliceAMP,locmin,locmax,6);</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="comment">//slicefunAMP-&gt;FixParameter(0,m23);</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="comment">//slicefunAMP-&gt;SetParLimits(1,0,100000);</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="comment">//reso2-&gt;Fit(slicefunAMP);</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="comment">//if(i==32){</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="comment">//  reso1 = new TH1D(*slice);</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="comment">//  reso1-&gt;Fit(slicefun);</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="comment">//}else if(i==64){</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="comment">//  reso2 = new TH1D(*slice);</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="comment">//  reso2-&gt;Fit(slicefun);</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="comment">//slicefunAMP = new TF1(&quot;fitsliceAMP&quot;,fitsliceAMP,locmin,locmax,6);</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="comment">//slicefunAMP-&gt;FixParameter(0,m23);</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="comment">//slicefunAMP-&gt;SetParLimits(1,0,100000);</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="comment">//reso2-&gt;Fit(slicefunAMP);</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">//}</span></div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">//slice-&gt;Fit(slicefun);</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">//slice-&gt;Fit(slicefun);</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">/*</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment">    slice-&gt;SetFillColor(kGray+2);</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment">    slice-&gt;DrawCopy(&quot;hbar&quot;);</span></div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">    canS-&gt;RedrawAxis();</span></div>
@@ -469,9 +476,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit_html_a5895d59562f8f817dc463115660ac14c"><div class="ttname"><a href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a5895d59562f8f817dc463115660ac14c">ComPWA::Estimator::SliceFit::SliceFit::aSlice_</a></div><div class="ttdeci">std::shared_ptr&lt; TH1D &gt; aSlice_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d67/SliceFit_8hpp_source.html#l00122">SliceFit.hpp:122</a></div></div>
 <div class="ttc" id="classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit_html_a647347a54fbc81dc4d84eeeba51c32ec"><div class="ttname"><a href="../../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#a647347a54fbc81dc4d84eeeba51c32ec">ComPWA::Estimator::SliceFit::SliceFit::whichSlice_</a></div><div class="ttdeci">unsigned int whichSlice_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d67/SliceFit_8hpp_source.html#l00138">SliceFit.hpp:138</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 00:12:51 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
