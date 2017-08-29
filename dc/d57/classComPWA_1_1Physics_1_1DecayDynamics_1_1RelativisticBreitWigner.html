@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -98,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Relativistic Breit-Wigner (Breit Wigner with Blatt-Weisskopf barrier factors)  
+<p>Relativistic Breit-Wigner model with barrier factors The dynamical function implemented here is taken from PDG2014 (Eq.47-22) for the one channel case.  
  <a href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>&gt;</code></p>
@@ -117,56 +118,41 @@ Collaboration diagram for ComPWA::Physics::DecayDynamics::RelativisticBreitWigne
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afe0b5ac6d350c672ab75a067755fef46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#afe0b5ac6d350c672ab75a067755fef46">RelativisticBreitWigner</a> ()</td></tr>
-<tr class="separator:afe0b5ac6d350c672ab75a067755fef46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16dbcb123ea47af720a6b9c2f77d89ca"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a16dbcb123ea47af720a6b9c2f77d89ca">~RelativisticBreitWigner</a> ()</td></tr>
-<tr class="separator:a16dbcb123ea47af720a6b9c2f77d89ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaf40c5af1d0b62fc956b350e81d82de"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#aaaf40c5af1d0b62fc956b350e81d82de">CheckModified</a> () const </td></tr>
 <tr class="memdesc:aaaf40c5af1d0b62fc956b350e81d82de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of parameters have changed and normalization has to be recalculatecd.  <a href="#aaaf40c5af1d0b62fc956b350e81d82de">More...</a><br/></td></tr>
 <tr class="separator:aaaf40c5af1d0b62fc956b350e81d82de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6457e5682412918e5f479fe7fc352c8a"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a6457e5682412918e5f479fe7fc352c8a">Evaluate</a> (const <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point, int pos) const </td></tr>
 <tr class="separator:a6457e5682412918e5f479fe7fc352c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc85b6c9a79627629a2767242312bfbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#abc85b6c9a79627629a2767242312bfbc">SetWidthParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt; w)</td></tr>
-<tr class="memdesc:abc85b6c9a79627629a2767242312bfbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set decay width.  <a href="#abc85b6c9a79627629a2767242312bfbc">More...</a><br/></td></tr>
 <tr class="separator:abc85b6c9a79627629a2767242312bfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b20c0393ae723b1872bdab369e31a66"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a8b20c0393ae723b1872bdab369e31a66">GetWidthParameter</a> ()</td></tr>
-<tr class="memdesc:a8b20c0393ae723b1872bdab369e31a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get decay width.  <a href="#a8b20c0393ae723b1872bdab369e31a66">More...</a><br/></td></tr>
 <tr class="separator:a8b20c0393ae723b1872bdab369e31a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb8259e21093de5029fe8d3440d1831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a5fb8259e21093de5029fe8d3440d1831">SetWidth</a> (double w)</td></tr>
-<tr class="memdesc:a5fb8259e21093de5029fe8d3440d1831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set decay width.  <a href="#a5fb8259e21093de5029fe8d3440d1831">More...</a><br/></td></tr>
 <tr class="separator:a5fb8259e21093de5029fe8d3440d1831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b1c79312ce0c72f656422be59747aeb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a1b1c79312ce0c72f656422be59747aeb">GetWidth</a> () const </td></tr>
-<tr class="memdesc:a1b1c79312ce0c72f656422be59747aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get decay width.  <a href="#a1b1c79312ce0c72f656422be59747aeb">More...</a><br/></td></tr>
 <tr class="separator:a1b1c79312ce0c72f656422be59747aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d28eb5554fe5d22c597e95da489e3d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a6d28eb5554fe5d22c597e95da489e3d5">SetMesonRadiusParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt; r)</td></tr>
-<tr class="memdesc:a6d28eb5554fe5d22c597e95da489e3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set meson radius The meson radius is a measure of the size of the resonant state.  <a href="#a6d28eb5554fe5d22c597e95da489e3d5">More...</a><br/></td></tr>
 <tr class="separator:a6d28eb5554fe5d22c597e95da489e3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fc9386d17533e7d6a3efbb6afd9f325"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a8fc9386d17533e7d6a3efbb6afd9f325">GetMesonRadiusParameter</a> ()</td></tr>
-<tr class="memdesc:a8fc9386d17533e7d6a3efbb6afd9f325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get meson radius The meson radius is a measure of the size of the resonant state.  <a href="#a8fc9386d17533e7d6a3efbb6afd9f325">More...</a><br/></td></tr>
 <tr class="separator:a8fc9386d17533e7d6a3efbb6afd9f325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d33da4c367d8db9c5f203c9afd498be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a2d33da4c367d8db9c5f203c9afd498be">SetMesonRadius</a> (double w)</td></tr>
-<tr class="memdesc:a2d33da4c367d8db9c5f203c9afd498be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set meson radius The meson radius is a measure of the size of the resonant state.  <a href="#a2d33da4c367d8db9c5f203c9afd498be">More...</a><br/></td></tr>
 <tr class="separator:a2d33da4c367d8db9c5f203c9afd498be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f061e181bd52d19b08c7afdd4bf584e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a0f061e181bd52d19b08c7afdd4bf584e">GetMesonRadius</a> () const </td></tr>
-<tr class="memdesc:a0f061e181bd52d19b08c7afdd4bf584e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get meson radius The meson radius is a measure of the size of the resonant state.  <a href="#a0f061e181bd52d19b08c7afdd4bf584e">More...</a><br/></td></tr>
+<tr class="memdesc:a0f061e181bd52d19b08c7afdd4bf584e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get meson radius.  <a href="#a0f061e181bd52d19b08c7afdd4bf584e">More...</a><br/></td></tr>
 <tr class="separator:a0f061e181bd52d19b08c7afdd4bf584e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a729b7e4d46740b613bf8a68a70458d6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a729b7e4d46740b613bf8a68a70458d6b">SetFormFactorType</a> (<a class="el" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> t)</td></tr>
-<tr class="memdesc:a729b7e4d46740b613bf8a68a70458d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set form factor type The type of formfactor that is used to calculate the angular momentum barrier factors.  <a href="#a729b7e4d46740b613bf8a68a70458d6b">More...</a><br/></td></tr>
 <tr class="separator:a729b7e4d46740b613bf8a68a70458d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20af5360bbec9d9930839f3aa2b4934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#ad20af5360bbec9d9930839f3aa2b4934">GetFormFactorType</a> ()</td></tr>
-<tr class="memdesc:ad20af5360bbec9d9930839f3aa2b4934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get form factor type The type of formfactor that is used to calculate the angular momentum barrier factors.  <a href="#ad20af5360bbec9d9930839f3aa2b4934">More...</a><br/></td></tr>
+<tr class="memdesc:ad20af5360bbec9d9930839f3aa2b4934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get form factor type.  <a href="#ad20af5360bbec9d9930839f3aa2b4934">More...</a><br/></td></tr>
 <tr class="separator:ad20af5360bbec9d9930839f3aa2b4934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac554419fc61fd0704d9dca1e6b2dcc2c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#ac554419fc61fd0704d9dca1e6b2dcc2c">GetParameters</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
 <tr class="separator:ac554419fc61fd0704d9dca1e6b2dcc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a821f05738fd470b8088ea266a07d1027"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a821f05738fd470b8088ea266a07d1027">GetParametersFast</a> (std::vector&lt; double &gt; &amp;list) const </td></tr>
-<tr class="memdesc:a821f05738fd470b8088ea266a07d1027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill vector with parameters.  <a href="#a821f05738fd470b8088ea266a07d1027">More...</a><br/></td></tr>
 <tr class="separator:a821f05738fd470b8088ea266a07d1027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bfa5c00f531b168489cf097c1929a11"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a8bfa5c00f531b168489cf097c1929a11">HasTree</a> () const </td></tr>
-<tr class="memdesc:a8bfa5c00f531b168489cf097c1929a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of tree is available.  <a href="#a8bfa5c00f531b168489cf097c1929a11">More...</a><br/></td></tr>
 <tr class="separator:a8bfa5c00f531b168489cf097c1929a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac1ad9101a1f2c455c218c7cc8e2f910"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#aac1ad9101a1f2c455c218c7cc8e2f910">GetTree</a> (const <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;sample, int pos, std::string suffix=&quot;&quot;)</td></tr>
-<tr class="memdesc:aac1ad9101a1f2c455c218c7cc8e2f910"><td class="mdescLeft">&#160;</td><td class="mdescRight">! Setup function tree  <a href="#aac1ad9101a1f2c455c218c7cc8e2f910">More...</a><br/></td></tr>
 <tr class="separator:aac1ad9101a1f2c455c218c7cc8e2f910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2886b960b472f77873348c37e268a40"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#ad2886b960b472f77873348c37e268a40">SetName</a> (std::string n)</td></tr>
 <tr class="separator:ad2886b960b472f77873348c37e268a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,17 +163,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c1866171ffd23f4fb311f85e94442f4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a3c1866171ffd23f4fb311f85e94442f4">GetModified</a> () const </td></tr>
 <tr class="separator:a3c1866171ffd23f4fb311f85e94442f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae3718e519e50af2d95bddb41e5f3d71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#aae3718e519e50af2d95bddb41e5f3d71">SetMassParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt; mass)</td></tr>
-<tr class="memdesc:aae3718e519e50af2d95bddb41e5f3d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set decay mass.  <a href="#aae3718e519e50af2d95bddb41e5f3d71">More...</a><br/></td></tr>
 <tr class="separator:aae3718e519e50af2d95bddb41e5f3d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c170a865962710f570e61fd0645e78b"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a8c170a865962710f570e61fd0645e78b">GetMassParameter</a> ()</td></tr>
-<tr class="memdesc:a8c170a865962710f570e61fd0645e78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get decay mass.  <a href="#a8c170a865962710f570e61fd0645e78b">More...</a><br/></td></tr>
 <tr class="separator:a8c170a865962710f570e61fd0645e78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbfb729c368328fbc0c725c255665ad4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#abbfb729c368328fbc0c725c255665ad4">SetMass</a> (double mass)</td></tr>
-<tr class="memdesc:abbfb729c368328fbc0c725c255665ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set decay mass.  <a href="#abbfb729c368328fbc0c725c255665ad4">More...</a><br/></td></tr>
 <tr class="separator:abbfb729c368328fbc0c725c255665ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf98400d79cb5eccb83e21c797cb1cb6"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#adf98400d79cb5eccb83e21c797cb1cb6">GetMass</a> () const </td></tr>
-<tr class="memdesc:adf98400d79cb5eccb83e21c797cb1cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get decay mass.  <a href="#adf98400d79cb5eccb83e21c797cb1cb6">More...</a><br/></td></tr>
 <tr class="separator:adf98400d79cb5eccb83e21c797cb1cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57e68aa5a591844e2ec82ec0e68250c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a57e68aa5a591844e2ec82ec0e68250c4">SetDecayMasses</a> (std::pair&lt; double, double &gt; m)</td></tr>
 <tr class="separator:a57e68aa5a591844e2ec82ec0e68250c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,10 +187,9 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7f2a96d892e47e22700730774b2d74f6"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html">AbstractDynamicalFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a7f2a96d892e47e22700730774b2d74f6">Factory</a> (const boost::property_tree::ptree &amp;pt)</td></tr>
-<tr class="memdesc:a7f2a96d892e47e22700730774b2d74f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory for <a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html" title="Relativistic Breit-Wigner (Breit Wigner with Blatt-Weisskopf barrier factors) ">RelativisticBreitWigner</a>.  <a href="#a7f2a96d892e47e22700730774b2d74f6">More...</a><br/></td></tr>
-<tr class="separator:a7f2a96d892e47e22700730774b2d74f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a5d5630eb8a6ceb9bc3548b3b87547"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html">AbstractDynamicalFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a89a5d5630eb8a6ceb9bc3548b3b87547">Factory</a> (std::shared_ptr&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#a2a5740b53be1067b7679e6b52e7e27d2">PartList</a> &gt; partL, const boost::property_tree::ptree &amp;pt)</td></tr>
+<tr class="separator:a89a5d5630eb8a6ceb9bc3548b3b87547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7355ac257b1a0118f15bc728323df50"><td class="memItemLeft" align="right" valign="top">static std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#aa7355ac257b1a0118f15bc728323df50">dynamicalFunction</a> (double mSq, double mR, double ma, double mb, double width, unsigned int J, double mesonRadius, <a class="el" href="../../d4/de7/namespaceComPWA_1_1Physics_1_1DecayDynamics.html#ab6ed0e69b952f34d3e519b7aaea6c459">formFactorType</a> ffType)</td></tr>
 <tr class="memdesc:aa7355ac257b1a0118f15bc728323df50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamical Breit-Wigner function.  <a href="#aa7355ac257b1a0118f15bc728323df50">More...</a><br/></td></tr>
 <tr class="separator:aa7355ac257b1a0118f15bc728323df50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +206,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:acfaf68520c1f57a958a0087576268328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Form factor type.  <a href="#acfaf68520c1f57a958a0087576268328">More...</a><br/></td></tr>
 <tr class="separator:acfaf68520c1f57a958a0087576268328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a16bf8e6471bedf0a0a4ed7f5b106dd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a7a16bf8e6471bedf0a0a4ed7f5b106dd">_name</a></td></tr>
-<tr class="memdesc:a7a16bf8e6471bedf0a0a4ed7f5b106dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of resonance.  <a href="#a7a16bf8e6471bedf0a0a4ed7f5b106dd">More...</a><br/></td></tr>
 <tr class="separator:a7a16bf8e6471bedf0a0a4ed7f5b106dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4b5828834976ba5d88151ab62ecd64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a9c4b5828834976ba5d88151ab62ecd64">_mcPrecision</a></td></tr>
 <tr class="memdesc:a9c4b5828834976ba5d88151ab62ecd64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precision of MC integration.  <a href="#a9c4b5828834976ba5d88151ab62ecd64">More...</a><br/></td></tr>
@@ -254,71 +234,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8dd9792e0ed422036e635fac1faa87d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Relativistic Breit-Wigner (Breit Wigner with Blatt-Weisskopf barrier factors) </p>
-<p>The dynamical function implemented here is taken from PDG2014 (Eq.47-22) for the one channel case.</p>
-<p>The three required parameters are defined in this model and can be retrieved via the <a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#ac554419fc61fd0704d9dca1e6b2dcc2c">GetParameters()</a> function: </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">resonance_width_</td><td>Width of the resonance </td></tr>
-    <tr><td class="paramname">resonance_mass_</td><td>Mass of the resonance </td></tr>
-    <tr><td class="paramname">meson_radius_</td><td>Scale of interaction range </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Relativistic Breit-Wigner model with barrier factors The dynamical function implemented here is taken from PDG2014 (Eq.47-22) for the one channel case. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="afe0b5ac6d350c672ab75a067755fef46"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::RelativisticBreitWigner </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00050">50</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a16dbcb123ea47af720a6b9c2f77d89ca"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::~RelativisticBreitWigner </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aaaf40c5af1d0b62fc956b350e81d82de"></a>
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +261,7 @@ Private Attributes</h2></td></tr>
 
 <p>Check of parameters have changed and normalization has to be recalculatecd. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
@@ -430,7 +349,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html">Amplitude</a> value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
@@ -468,11 +387,11 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a11d5eacc8c5b73686bcae84c2e068bbb">ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7f2a96d892e47e22700730774b2d74f6"></a>
+<a class="anchor" id="a89a5d5630eb8a6ceb9bc3548b3b87547"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -482,9 +401,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html">AbstractDynamicalFunction</a> &gt; ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::Factory </td>
           <td>(</td>
-          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
-          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#a2a5740b53be1067b7679e6b52e7e27d2">PartList</a> &gt;&#160;</td>
+          <td class="paramname"><em>partL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -494,16 +423,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Factory for <a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html" title="Relativistic Breit-Wigner (Breit Wigner with Blatt-Weisskopf barrier factors) ">RelativisticBreitWigner</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pt</td><td>Configuration tree </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Constructed object </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
@@ -528,7 +448,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00105">105</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +473,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -578,10 +498,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get form factor type The type of formfactor that is used to calculate the angular momentum barrier factors. </p>
-<dl class="section return"><dt>Returns</dt><dd>From factor type </dd></dl>
+<p>Get form factor type. </p>
+<p>The type of formfactor that is used to calculate the angular momentum barrier factors. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00174">174</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -606,10 +526,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get decay mass. </p>
-<dl class="section return"><dt>Returns</dt><dd>Decay mass </dd></dl>
-
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -634,10 +551,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get decay mass. </p>
-<dl class="section return"><dt>Returns</dt><dd>Decay mass </dd></dl>
-
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00074">74</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -662,11 +576,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get meson radius The meson radius is a measure of the size of the resonant state. </p>
-<p>It is used to calculate the angular momentum barrier factors.</p>
-<dl class="section return"><dt>Returns</dt><dd>Meson radius </dd></dl>
+<p>Get meson radius. </p>
+<p>The meson radius is a measure of the size of the resonant state. It is used to calculate the angular momentum barrier factors. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00156">156</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00079">79</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -691,11 +604,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get meson radius The meson radius is a measure of the size of the resonant state. </p>
-<p>It is used to calculate the angular momentum barrier factors.</p>
-<dl class="section return"><dt>Returns</dt><dd>Meson radius </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00069">69</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -773,7 +682,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a3335819d8a213dde0a073b569061daf3">ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00270">270</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
@@ -799,11 +708,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Fill vector with parameters. </p>
-
 <p>Reimplemented from <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a3779b5656451899ad9bf6148c8cd34e6">ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00179">179</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -828,7 +735,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -870,11 +777,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>! Setup function tree </p>
-
 <p>Implements <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a83dc5e77380241620b4b12f36e0980f7">ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html#l00161">161</a> of file <a class="el" href="../../d3/d67/RelativisticBreitWigner_8cpp_source.html">RelativisticBreitWigner.cpp</a>.</p>
 
 </div>
 </div>
@@ -899,10 +804,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get decay width. </p>
-<dl class="section return"><dt>Returns</dt><dd>Decay width </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00063">63</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -927,10 +829,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get decay width. </p>
-<dl class="section return"><dt>Returns</dt><dd>Decay width </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00102">102</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -955,11 +854,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check of tree is available. </p>
-
 <p>Reimplemented from <a class="el" href="../../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a7a8b460157fdb39efd492efe9bd48632">ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00188">188</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -985,7 +882,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00101">101</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +908,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00088">88</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1036,16 +933,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#ad20af5360bbec9d9930839f3aa2b4934" title="Get form factor type. ">GetFormFactorType()</a> </dd></dl>
 
-<p>Set form factor type The type of formfactor that is used to calculate the angular momentum barrier factors. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">t</td><td>From factor type </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00165">165</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1071,15 +961,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set decay mass. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">w</td><td>Decay mass </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1105,15 +987,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set decay mass. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">w</td><td>Decay mass </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1138,17 +1012,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a0f061e181bd52d19b08c7afdd4bf584e" title="Get meson radius. ">GetMesonRadius() const </a>{ return _mesonRadius-&gt;GetValue(); } </dd></dl>
 
-<p>Set meson radius The meson radius is a measure of the size of the resonant state. </p>
-<p>It is used to calculate the angular momentum barrier factors.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">r</td><td>Meson radius </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00147">147</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00074">74</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1174,16 +1040,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set meson radius The meson radius is a measure of the size of the resonant state. </p>
-<p>It is used to calculate the angular momentum barrier factors.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">r</td><td>Meson radius </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1261,7 +1118,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00119">119</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00098">98</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1287,15 +1144,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set decay width. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">w</td><td>Decay width </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1321,15 +1170,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set decay width. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">w</td><td>Decay width </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00095">95</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1354,7 +1195,7 @@ Private Attributes</h2></td></tr>
 
 <p>Temporary values (used to trigger recalculation of normalization) </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00206">206</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1376,7 +1217,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00207">207</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1400,7 +1241,7 @@ Private Attributes</h2></td></tr>
 
 <p>Masses of daughter particles. </p>
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00137">137</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1424,7 +1265,7 @@ Private Attributes</h2></td></tr>
 
 <p>Names of daughter particles. </p>
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1448,7 +1289,7 @@ Private Attributes</h2></td></tr>
 
 <p>Form factor type. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1472,7 +1313,7 @@ Private Attributes</h2></td></tr>
 
 <p><a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html">Resonance</a> mass. </p>
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00143">143</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00120">120</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1337,7 @@ Private Attributes</h2></td></tr>
 
 <p>Precision of MC integration. </p>
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00134">134</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00111">111</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1520,7 +1361,7 @@ Private Attributes</h2></td></tr>
 
 <p>Meson radius of resonant state. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00199">199</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1542,9 +1383,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Name of resonance. </p>
-
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00131">131</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1568,7 +1407,7 @@ Private Attributes</h2></td></tr>
 
 <p><a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html">Resonance</a> spin. </p>
 
-<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00146">146</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../de/d02/AbstractDynamicalFunction_8hpp_source.html">AbstractDynamicalFunction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1592,7 +1431,7 @@ Private Attributes</h2></td></tr>
 
 <p>Decay width of resonante state. </p>
 
-<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d6/da5/RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1442,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 09:41:31 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 00:12:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

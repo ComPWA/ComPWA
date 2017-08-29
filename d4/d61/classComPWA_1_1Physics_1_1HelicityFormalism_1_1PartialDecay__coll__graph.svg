@@ -72,35 +72,34 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d9/d53/classComPWA_1_1SubSystem.html" target="_top" xlink:title="Definition of a two&#45;body decay node within a sequential decay tree. ">
-<polygon fill="white" stroke="black" points="176,-289.5 176,-522.5 304,-522.5 304,-289.5 176,-289.5"/>
-<text text-anchor="middle" x="240" y="-510.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::SubSystem</text>
-<polyline fill="none" stroke="black" points="176,-503.5 304,-503.5 "/>
-<text text-anchor="start" x="184" y="-491.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _title</text>
-<text text-anchor="start" x="184" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _recoilState</text>
-<text text-anchor="start" x="184" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalStates</text>
-<text text-anchor="start" x="184" y="-458.5" font-family="Helvetica,sans-Serif" font-size="10.00"># helicities_</text>
-<text text-anchor="start" x="184" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalStatesNames</text>
-<polyline fill="none" stroke="black" points="176,-440.5 304,-440.5 "/>
-<text text-anchor="start" x="184" y="-428.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SubSystem()</text>
-<text text-anchor="start" x="184" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SubSystem()</text>
-<text text-anchor="start" x="184" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SubSystem()</text>
-<text text-anchor="start" x="184" y="-395.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ to_string()</text>
-<text text-anchor="start" x="184" y="-384.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator==()</text>
-<text text-anchor="start" x="184" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetFinalStates()</text>
-<text text-anchor="start" x="184" y="-362.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalStatesNames()</text>
-<text text-anchor="start" x="184" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetFinalStatesNames()</text>
-<text text-anchor="start" x="184" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalStates()</text>
-<text text-anchor="start" x="184" y="-329.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetHelicities()</text>
-<text text-anchor="start" x="184" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetHelicities()</text>
-<text text-anchor="start" x="184" y="-307.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetRecoilState()</text>
-<text text-anchor="start" x="184" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetRecoilState()</text>
+<polygon fill="white" stroke="black" points="176,-295 176,-517 304,-517 304,-295 176,-295"/>
+<text text-anchor="middle" x="240" y="-505" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::SubSystem</text>
+<polyline fill="none" stroke="black" points="176,-498 304,-498 "/>
+<text text-anchor="start" x="184" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00"># _title</text>
+<text text-anchor="start" x="184" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00"># _recoilState</text>
+<text text-anchor="start" x="184" y="-464" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalStates</text>
+<text text-anchor="start" x="184" y="-453" font-family="Helvetica,sans-Serif" font-size="10.00"># helicities_</text>
+<text text-anchor="start" x="184" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00"># _finalStatesNames</text>
+<polyline fill="none" stroke="black" points="176,-435 304,-435 "/>
+<text text-anchor="start" x="184" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ SubSystem()</text>
+<text text-anchor="start" x="184" y="-412" font-family="Helvetica,sans-Serif" font-size="10.00">+ SubSystem()</text>
+<text text-anchor="start" x="184" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00">+ to_string()</text>
+<text text-anchor="start" x="184" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator==()</text>
+<text text-anchor="start" x="184" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetFinalStates()</text>
+<text text-anchor="start" x="184" y="-368" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalStatesNames()</text>
+<text text-anchor="start" x="184" y="-357" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetFinalStatesNames()</text>
+<text text-anchor="start" x="184" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFinalStates()</text>
+<text text-anchor="start" x="184" y="-335" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetHelicities()</text>
+<text text-anchor="start" x="184" y="-324" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetHelicities()</text>
+<text text-anchor="start" x="184" y="-313" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetRecoilState()</text>
+<text text-anchor="start" x="184" y="-302" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetRecoilState()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M207.87,-289.174C202.943,-271.411 197.842,-253.024 192.878,-235.128"/>
-<polygon fill="none" stroke="#404040" points="192.847,-235.015 187.388,-230.302 189.639,-223.451 195.097,-228.164 192.847,-235.015"/>
+<path fill="none" stroke="#404040" d="M209.377,-294.607C203.947,-275.031 198.264,-254.546 192.753,-234.679"/>
+<polygon fill="none" stroke="#404040" points="192.739,-234.628 187.281,-229.915 189.532,-223.064 194.99,-227.777 192.739,-234.628"/>
 <text text-anchor="middle" x="230" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00"> #_subSystem</text>
 </g>
 </g>

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['sequentialtwobodydecay',['SequentialTwoBodyDecay',['../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['slicefit',['SliceFit',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html',1,'ComPWA::Estimator::SliceFit']]],
   ['slicefit',['SliceFit',['../dc/d61/classSliceFit.html',1,'']]],
+  ['slicefit',['SliceFit',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html',1,'ComPWA::Estimator::SliceFit']]],
   ['slicefitub',['SliceFitUB',['../de/d7c/classComPWA_1_1Estimator_1_1SliceFitUB_1_1SliceFitUB.html',1,'ComPWA::Estimator::SliceFitUB']]],
   ['spin',['Spin',['../dd/de3/classSpin.html',1,'']]],
   ['spin',['Spin',['../d4/d1a/classComPWA_1_1Spin.html',1,'ComPWA']]],

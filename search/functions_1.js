@@ -27,7 +27,7 @@ var searchData=
   ['ampintensity',['AmpIntensity',['../db/df8/classComPWA_1_1AmpIntensity.html#a1dba5739e800e19897749c435ee6c7ea',1,'ComPWA::AmpIntensity']]],
   ['amplitude',['Amplitude',['../d4/d5f/classComPWA_1_1Physics_1_1Amplitude.html#a33703346dad9607f28c1cc8148317c68',1,'ComPWA::Physics::Amplitude']]],
   ['amplitudenameused',['amplitudeNameUsed',['../de/de9/classComPWA_1_1Dictionary.html#aa7fea8af597aca5499aa28f30f8a0b11',1,'ComPWA::Dictionary']]],
-  ['ampwignerd',['AmpWignerD',['../dc/d3c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpWignerD.html#af9e9463cc683f4634b34ea1bddd0b9dd',1,'ComPWA::Physics::HelicityFormalism::AmpWignerD']]],
+  ['ampwignerd',['AmpWignerD',['../dc/d3c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpWignerD.html#a2eb8bd163b951a32a74ec869cab8560c',1,'ComPWA::Physics::HelicityFormalism::AmpWignerD']]],
   ['antisymmetric',['AntiSymmetric',['../db/dd4/classComPWA_1_1Physics_1_1QFT_1_1Tensor.html#a8762b916aad671edee8ad681c35d0dc0',1,'ComPWA::Physics::QFT::Tensor']]],
   ['append',['Append',['../d2/d1c/classComPWA_1_1ParameterList.html#af36a5760d9b29171d1c985d560be9e17',1,'ComPWA::ParameterList']]],
   ['applycorrection',['ApplyCorrection',['../d3/d66/classComPWA_1_1DataReader_1_1Data.html#ade0bae4357df0ae20fd1f1911174515f',1,'ComPWA::DataReader::Data']]],

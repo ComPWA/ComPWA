@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -108,8 +109,8 @@ Collaboration diagram for ComPWA::Physics::DecayDynamics::Coupling:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a305e435b3656eb2a4d09546e6c5938ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a305e435b3656eb2a4d09546e6c5938ad">Coupling</a> ()</td></tr>
 <tr class="separator:a305e435b3656eb2a4d09546e6c5938ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf2f470378d6ca703f601d70dd07d1ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#adf2f470378d6ca703f601d70dd07d1ab">Coupling</a> (const boost::property_tree::ptree tr)</td></tr>
-<tr class="separator:adf2f470378d6ca703f601d70dd07d1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e1a9322342eb98c0a2b4dd67665da3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a2e1a9322342eb98c0a2b4dd67665da3f">Coupling</a> (std::shared_ptr&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#a2a5740b53be1067b7679e6b52e7e27d2">PartList</a> &gt; partL, const boost::property_tree::ptree tr)</td></tr>
+<tr class="separator:a2e1a9322342eb98c0a2b4dd67665da3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcd3fd4a114faceb7115a191ba87786"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a4fcd3fd4a114faceb7115a191ba87786">SetValueParameter</a> (std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt; g)</td></tr>
 <tr class="separator:a4fcd3fd4a114faceb7115a191ba87786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab61ae7f94949943d453c651659378264"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d1/d81/classComPWA_1_1DoubleParameter.html">DoubleParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#ab61ae7f94949943d453c651659378264">GetValueParameter</a> ()</td></tr>
@@ -136,7 +137,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00095">95</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a305e435b3656eb2a4d09546e6c5938ad"></a>
 <div class="memitem">
@@ -159,11 +160,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00097">97</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adf2f470378d6ca703f601d70dd07d1ab"></a>
+<a class="anchor" id="a2e1a9322342eb98c0a2b4dd67665da3f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -173,9 +174,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">ComPWA::Physics::DecayDynamics::Coupling::Coupling </td>
           <td>(</td>
-          <td class="paramtype">const boost::property_tree::ptree&#160;</td>
-          <td class="paramname"><em>tr</em></td><td>)</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../da/da9/namespaceComPWA.html#a2a5740b53be1067b7679e6b52e7e27d2">PartList</a> &gt;&#160;</td>
+          <td class="paramname"><em>partL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const boost::property_tree::ptree&#160;</td>
+          <td class="paramname"><em>tr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -185,7 +196,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -211,7 +222,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00110">110</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -236,7 +247,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +272,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +297,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00110">110</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -312,7 +323,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +349,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00120">120</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -364,7 +375,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -387,7 +398,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00119">119</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -409,7 +420,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00121">121</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -431,7 +442,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00127">127</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dba/Coupling_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/dba/Coupling_8hpp_source.html">Coupling.hpp</a>.</p>
 
 </div>
 </div>
@@ -441,7 +452,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 09:41:31 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 00:12:53 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

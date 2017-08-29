@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -88,7 +89,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Properties.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -107,7 +109,7 @@ Include dependency graph for Properties.hpp:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dfd/Properties_8hpp__dep__incl.svg" width="3712" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dfd/Properties_8hpp__dep__incl.svg" width="4314" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -117,9 +119,13 @@ This graph shows which files directly or indirectly include this file:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d29/classComPWA_1_1Properties.html">ComPWA::Properties</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/classComPWA_1_1ParticleProperties.html">ComPWA::ParticleProperties</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc6/classComPWA_1_1Constant.html">ComPWA::Constant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents physical constants.  <a href="../../d3/dc6/classComPWA_1_1Constant.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classComPWA_1_1PartInfoShort.html">ComPWA::PartInfoShort</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">In many cases only very basic information on particles is needed.  <a href="../../d4/d2d/classComPWA_1_1PartInfoShort.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/classComPWA_1_1ParticleProperties.html">ComPWA::ParticleProperties</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -133,11 +139,27 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae3ef176056dcc92637c53fcb810c7112"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">ComPWA::pid</a></td></tr>
 <tr class="memdesc:ae3ef176056dcc92637c53fcb810c7112"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> ID.  <a href="#ae3ef176056dcc92637c53fcb810c7112">More...</a><br/></td></tr>
 <tr class="separator:ae3ef176056dcc92637c53fcb810c7112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5740b53be1067b7679e6b52e7e27d2"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <br class="typebreak"/>
+ParticleProperties &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a2a5740b53be1067b7679e6b52e7e27d2">ComPWA::PartList</a></td></tr>
+<tr class="memdesc:a2a5740b53be1067b7679e6b52e7e27d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A map of particle properties is used everywhere where particle information is needed.  <a href="#a2a5740b53be1067b7679e6b52e7e27d2">More...</a><br/></td></tr>
+<tr class="separator:a2a5740b53be1067b7679e6b52e7e27d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae95259f728147cfbfa42c722d509f0cb"><td class="memItemLeft" align="right" valign="top">const ParticleProperties &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae95259f728147cfbfa42c722d509f0cb">ComPWA::FindParticle</a> (std::shared_ptr&lt; PartList &gt; list, pid id)</td></tr>
+<tr class="memdesc:ae95259f728147cfbfa42c722d509f0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search particle <code>list</code> for a specific particle <code>id</code>.  <a href="#ae95259f728147cfbfa42c722d509f0cb">More...</a><br/></td></tr>
+<tr class="separator:ae95259f728147cfbfa42c722d509f0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55fa466601a74a592fda801c045f205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae55fa466601a74a592fda801c045f205">ComPWA::ReadParticles</a> (std::shared_ptr&lt; PartList &gt; list, boost::property_tree::ptree pt)</td></tr>
+<tr class="memdesc:ae55fa466601a74a592fda801c045f205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read list of particles from a boost::property_tree.  <a href="#ae55fa466601a74a592fda801c045f205">More...</a><br/></td></tr>
+<tr class="separator:ae55fa466601a74a592fda801c045f205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae797a22104aa489437e1301cd8570aab"><td class="memItemLeft" align="right" valign="top">boost::property_tree::ptree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae797a22104aa489437e1301cd8570aab">ComPWA::SaveParticles</a> (std::shared_ptr&lt; PartList &gt; list)</td></tr>
+<tr class="memdesc:ae797a22104aa489437e1301cd8570aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save particle list to boost::property_tree.  <a href="#ae797a22104aa489437e1301cd8570aab">More...</a><br/></td></tr>
+<tr class="separator:ae797a22104aa489437e1301cd8570aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 11 2017 09:41:29 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 29 2017 00:12:52 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
