@@ -3,7 +3,6 @@ var searchData=
   ['i',['i',['../d9/de5/classBase.html#a3c8ed54e58f15a277a94c8c11352a89c',1,'Base']]],
   ['initiallh',['initialLH',['../d9/d68/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html#a4f1fff5ad68747add2b0c6e87a606c6a',1,'ComPWA::Optimizer::Geneva::GenevaResult::initialLH()'],['../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a0c7ed66f10321f23a6793131a7802626',1,'ComPWA::Optimizer::Minuit2::MinuitResult::initialLH()']]],
   ['initialparameters',['initialParameters',['../d7/d8a/classComPWA_1_1FitResult.html#ad9064e8192fd401acd51e6c9b9099f1e',1,'ComPWA::FitResult']]],
-  ['inputneeded',['inputNeeded',['../d9/d54/structComPWA_1_1ampInfo.html#a09a7477aab4ecdebf96e6f0da843bac0',1,'ComPWA::ampInfo']]],
   ['intens_5f',['intens_',['../dc/dff/classComPWA_1_1RunManager.html#a09e15152d8522c0cc5b63ec983434d0d',1,'ComPWA::RunManager']]],
   ['intquantumnumbers_5f',['intQuantumNumbers_',['../d3/d4a/classComPWA_1_1ParticleProperties.html#afbcc72c4a2aceb0c6c7308bdbb693229',1,'ComPWA::ParticleProperties']]],
   ['ip',['ip',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a66682bafcc570f483680b5f9dcf4db90',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],

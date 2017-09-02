@@ -6,6 +6,6 @@ var searchData=
   ['estimator',['Estimator',['../d8/dff/classEstimator.html',1,'']]],
   ['event',['Event',['../d5/da5/classEvent.html',1,'']]],
   ['event',['Event',['../df/d16/classComPWA_1_1Event.html',1,'ComPWA']]],
-  ['exception',['Exception',['../d0/d99/classComPWA_1_1Exception.html',1,'ComPWA']]],
-  ['exception',['Exception',['../d4/d67/classException.html',1,'']]]
+  ['exception',['Exception',['../d4/d67/classException.html',1,'']]],
+  ['exception',['Exception',['../d0/d99/classComPWA_1_1Exception.html',1,'ComPWA']]]
 ];

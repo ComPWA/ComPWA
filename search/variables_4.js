@@ -1,10 +1,10 @@
 var searchData=
 [
   ['dalitzplot_5f',['dalitzPlot_',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html#add15729e65327a4791e8d1549cf63ee6',1,'ComPWA::Estimator::SliceFit::SliceFit']]],
-  ['data',['data',['../dd/d34/structComPWA_1_1dataInfo.html#a9fc762a4a9613921febd6076837be788',1,'ComPWA::dataInfo']]],
   ['data_5fobject',['data_object',['../d6/d25/classNeatPlotting_1_1DrawableDataObjectDrawOptionPair.html#a22faadd9b02c461a96c2543028ba8106',1,'NeatPlotting::DrawableDataObjectDrawOptionPair']]],
-  ['datadiagrams',['dataDiagrams',['../da/d41/classplotData.html#a4b91319668d9e1be3883c168593d58e0',1,'plotData']]],
+  ['datadiagrams',['dataDiagrams',['../da/d41/classplotData.html#a4b91319668d9e1be3883c168593d58e0',1,'plotData::dataDiagrams()'],['../da/dca/classDalitzPlot.html#a8b7eb2a7875812cf56559c4c5bf8d3db',1,'DalitzPlot::dataDiagrams()']]],
   ['datalist',['dataList',['../d3/d66/classComPWA_1_1DataReader_1_1Data.html#ac7620ae7f12eca2bde8c55881145076a',1,'ComPWA::DataReader::Data']]],
+  ['defaultparticlelist',['defaultParticleList',['../de/d6a/ParticleList_8hpp.html#ae7cc6616eae35e248453557134093c69',1,'ParticleList.hpp']]],
   ['dependency_5fvalues_5ferror_5fmap',['dependency_values_error_map',['../d6/d31/classNeatPlotting_1_1SystematicsAnalyser.html#a9cc0550c262353f0b6484cd3cfcd4c7c',1,'NeatPlotting::SystematicsAnalyser']]],
   ['dependency_5fvalues_5fmap',['dependency_values_map',['../d6/d31/classNeatPlotting_1_1SystematicsAnalyser.html#a208cdad0b243a6b9bce649e144c4777d',1,'NeatPlotting::SystematicsAnalyser']]],
   ['diff_5fcolors',['diff_colors',['../d7/dfa/namespaceNeatPlotting.html#a4e8e236394cddb0ebef1377f1d3dd25c',1,'NeatPlotting']]],

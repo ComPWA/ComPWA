@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 4492;
+var viewWidth = 4215;
 var viewHeight = 632;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,1093 +54,1086 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>/home/travis/build/ComPWA/ComPWA/Core/DataPoint.hpp</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-628 4488,-628 4488,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-628 4210.63,-628 4210.63,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="2602.5,-582.5 2602.5,-623.5 2737.5,-623.5 2737.5,-582.5 2602.5,-582.5"/>
-<text text-anchor="start" x="2610.5" y="-611.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2610.5" y="-600.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="2670" y="-589.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataPoint.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="2172.13,-582.5 2172.13,-623.5 2307.13,-623.5 2307.13,-582.5 2172.13,-582.5"/>
+<text text-anchor="start" x="2180.13" y="-611.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2180.13" y="-600.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2239.63" y="-589.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataPoint.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../dc/dfd/AmpIntensity_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/AmpIntensity.hpp">
-<polygon fill="white" stroke="black" points="1855.5,-264.5 1855.5,-305.5 1990.5,-305.5 1990.5,-264.5 1855.5,-264.5"/>
-<text text-anchor="start" x="1863.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1863.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="1923" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/AmpIntensity.hpp</text>
+<polygon fill="white" stroke="black" points="1707.13,-264.5 1707.13,-305.5 1842.13,-305.5 1842.13,-264.5 1707.13,-264.5"/>
+<text text-anchor="start" x="1715.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1715.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="1774.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/AmpIntensity.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M2613.12,-578.53C2589,-568.548 2560.61,-556.752 2535,-546 2322.92,-456.963 2070.23,-349.021 1968.62,-305.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2611.9,-581.813 2622.48,-582.402 2614.57,-575.345 2611.9,-581.813"/>
+<path fill="none" stroke="midnightblue" d="M2162.08,-598.656C2025.27,-592.031 1752.44,-575.289 1720.63,-546 1655.89,-486.394 1682.1,-427.114 1720.63,-348 1728.38,-332.087 1741.29,-317.044 1752.55,-305.761"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.93,-602.153 2172.09,-599.134 2162.27,-595.161 2161.93,-602.153"/>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d6/d0a/PythonFit_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PythonFit.cpp">
+<polygon fill="white" stroke="black" points="386.632,-0.5 386.632,-41.5 544.632,-41.5 544.632,-0.5 386.632,-0.5"/>
+<text text-anchor="start" x="394.632" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="394.632" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="465.632" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PythonFit.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge102" class="edge"><title>Node1&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M2161.87,-601.624C1788.16,-599.61 190.865,-588.533 94.6323,-546 39.4307,-521.602 0.63225,-508.353 0.63225,-448 0.63225,-448 0.63225,-448 0.63225,-194 0.63225,-140.399 -6.97232,-112.991 33.6323,-78 84.9786,-33.7525 276.218,-24.0135 386.272,-22.151"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2162.02,-605.125 2172.04,-601.679 2162.06,-598.125 2162.02,-605.125"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../da/d2a/DalitzFitApp_8cpp.html" target="_top" xlink:title="Dalitz plot analysis of the decay D0&#45;&gt;K_S0 K_ K&#45;Fit application for D0&#45;&gt;K_S0 K_ K&#45; analysis...">
-<polygon fill="white" stroke="black" points="606,-0.5 606,-41.5 764,-41.5 764,-0.5 606,-0.5"/>
-<text text-anchor="start" x="614" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="614" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="685" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFit/DalitzFitApp.cpp</text>
+<g id="a_node8"><a xlink:href="../../d1/d1a/executables_2DalitzFitApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/executables\l/DalitzFitApp.cpp">
+<polygon fill="white" stroke="black" points="1548.13,-0.5 1548.13,-41.5 1715.13,-41.5 1715.13,-0.5 1548.13,-0.5"/>
+<text text-anchor="start" x="1556.13" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1556.13" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/executables</text>
+<text text-anchor="middle" x="1631.63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFitApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge103" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M2592.29,-601.616C2207.15,-599.522 512.334,-587.976 281,-546 150.859,-522.385 0,-580.266 0,-448 0,-448 0,-448 0,-194 0,-70.3118 425.439,-34.7518 605.753,-25.235"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.47,-605.117 2602.49,-601.671 2592.51,-598.118 2592.47,-605.117"/>
+<g id="edge106" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M2161.7,-601.455C1796.88,-598.703 271.615,-584.905 178.632,-546 120.638,-521.734 76.6323,-510.867 76.6323,-448 76.6323,-448 76.6323,-448 76.6323,-194 76.6323,-141.757 56.4403,-112.544 95.6323,-78 123.079,-53.8081 1231.42,-29.9551 1548,-23.6252"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.87,-604.956 2171.89,-601.531 2161.92,-597.956 2161.87,-604.956"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d6/d0a/PythonFit_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PythonFit.cpp">
-<polygon fill="white" stroke="black" points="2745,-0.5 2745,-41.5 2903,-41.5 2903,-0.5 2745,-0.5"/>
-<text text-anchor="start" x="2753" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2753" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="2824" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PythonFit.cpp</text>
+<g id="a_node9"><a xlink:href="../../d1/d13/HelicityAmplitudeFitApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/executables\l/HelicityAmplitudeFitApp.cpp">
+<polygon fill="white" stroke="black" points="2696.13,-0.5 2696.13,-41.5 2863.13,-41.5 2863.13,-0.5 2696.13,-0.5"/>
+<text text-anchor="start" x="2704.13" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2704.13" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/executables</text>
+<text text-anchor="middle" x="2779.63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityAmplitudeFitApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge107" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M2747.73,-602.613C2947.26,-603.376 3473.32,-600.04 3638,-546 3698.44,-526.167 3724.88,-522.308 3758,-468 3836.15,-339.854 3784.43,-281.905 3792,-132 3793.21,-108.031 3808.47,-95.4537 3792,-78 3761.65,-45.8454 3128.97,-28.7478 2903.19,-23.6527"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.64,-599.113 2737.63,-602.57 2747.61,-606.113 2747.64,-599.113"/>
+<g id="edge109" class="edge"><title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M2317.64,-601.055C2539.39,-597.894 3162.79,-585.555 3245.63,-546 3268.35,-535.153 3261.57,-516.117 3283.63,-504 3367.02,-458.21 3421.9,-529.316 3494.63,-468 3568.4,-405.814 3601.94,-339.069 3549.63,-258 3473.83,-140.516 3046.5,-62.5578 2863.17,-34.0728"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.33,-597.559 2307.38,-601.198 2317.43,-604.558 2317.33,-597.559"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d1/d13/HelicityAmplitudeFitApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/executables\l/HelicityAmplitudeFitApp.cpp">
-<polygon fill="white" stroke="black" points="841.5,-0.5 841.5,-41.5 1008.5,-41.5 1008.5,-0.5 841.5,-0.5"/>
-<text text-anchor="start" x="849.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="849.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/executables</text>
-<text text-anchor="middle" x="925" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityAmplitudeFitApp.cpp</text>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../d8/dec/GaussAmp_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/GaussAmp.hpp">
+<polygon fill="white" stroke="black" points="2071.13,-174.5 2071.13,-215.5 2206.13,-215.5 2206.13,-174.5 2071.13,-174.5"/>
+<text text-anchor="start" x="2079.13" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2079.13" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2138.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GaussAmp.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge111" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M2592.09,-601.177C2265.07,-597.506 1016.67,-581.231 941,-546 887.931,-521.292 853,-506.539 853,-448 853,-448 853,-448 853,-194 853,-134.76 889.792,-72.3221 910.775,-41.5304"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.38,-604.681 2602.42,-601.292 2592.46,-597.681 2592.38,-604.681"/>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge63" class="edge"><title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M2317.47,-587.821C2390.52,-569.495 2488.63,-529.678 2488.63,-448 2488.63,-448 2488.63,-448 2488.63,-368 2488.63,-318.143 2502.79,-292.324 2466.63,-258 2426.56,-219.964 2274.47,-234.39 2220.63,-222 2212.63,-220.158 2204.28,-217.907 2196.1,-215.509"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2316.24,-584.517 2307.34,-590.266 2317.89,-591.322 2316.24,-584.517"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d8/dec/GaussAmp_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/GaussAmp.hpp">
-<polygon fill="white" stroke="black" points="1325.5,-174.5 1325.5,-215.5 1460.5,-215.5 1460.5,-174.5 1325.5,-174.5"/>
-<text text-anchor="start" x="1333.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1333.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="1393" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GaussAmp.hpp</text>
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d3/dbc/SliceFitRANDApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitRANDApp.cpp">
+<polygon fill="white" stroke="black" points="977.632,-84.5 977.632,-125.5 1135.63,-125.5 1135.63,-84.5 977.632,-84.5"/>
+<text text-anchor="start" x="985.632" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="985.632" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="1056.63" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitRANDApp.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node13 -->
-<g id="edge63" class="edge"><title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M2591.95,-601.048C2310.46,-596.599 1364,-572.388 1364,-448 1364,-448 1364,-448 1364,-368 1364,-312.129 1379.06,-247.452 1387.48,-215.682"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.03,-604.55 2602.08,-601.204 2592.13,-597.551 2592.03,-604.55"/>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge104" class="edge"><title>Node1&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M2161.97,-599.336C1821.75,-587.163 479.632,-533.711 479.632,-448 479.632,-448 479.632,-448 479.632,-368 479.632,-278.473 440.082,-231.058 503.632,-168 536.635,-135.253 832.69,-116.697 977.53,-109.507"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.87,-602.834 2171.98,-599.692 2162.12,-595.839 2161.87,-602.834"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d3/dbc/SliceFitRANDApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitRANDApp.cpp">
-<polygon fill="white" stroke="black" points="1175,-84.5 1175,-125.5 1333,-125.5 1333,-84.5 1175,-84.5"/>
-<text text-anchor="start" x="1183" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1183" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="1254" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitRANDApp.cpp</text>
+<g id="a_node15"><a xlink:href="../../d9/de4/SliceFitUBApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitUBApp.cpp">
+<polygon fill="white" stroke="black" points="1629.63,-84.5 1629.63,-125.5 1787.63,-125.5 1787.63,-84.5 1629.63,-84.5"/>
+<text text-anchor="start" x="1637.63" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1637.63" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="1708.63" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitUBApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node15 -->
-<g id="edge109" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M2592.14,-601.638C2333.67,-600.016 1505.65,-591.322 1243,-546 1098.93,-521.141 929,-594.195 929,-448 929,-448 929,-448 929,-284 929,-231.757 911.504,-205.381 948,-168 1008.35,-106.191 1054.41,-149.528 1139,-132 1150.63,-129.591 1162.89,-126.939 1174.9,-124.278"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.17,-605.139 2602.19,-601.7 2592.21,-598.139 2592.17,-605.139"/>
+<g id="edge105" class="edge"><title>Node1&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M2317.18,-593.737C2402.18,-579.884 2526.63,-543.323 2526.63,-448 2526.63,-448 2526.63,-448 2526.63,-368 2526.63,-316.959 2532.2,-291.43 2493.63,-258 2412.13,-187.357 2345.75,-278.11 2253.63,-222 2228.35,-206.599 2240.39,-182.597 2214.63,-168 2133.52,-122.03 1888.25,-149.296 1796.63,-132 1787.55,-130.286 1778.07,-128.014 1768.83,-125.525"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2316.63,-590.282 2307.28,-595.279 2317.7,-597.199 2316.63,-590.282"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d9/de4/SliceFitUBApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitUBApp.cpp">
-<polygon fill="white" stroke="black" points="1422,-84.5 1422,-125.5 1580,-125.5 1580,-84.5 1422,-84.5"/>
-<text text-anchor="start" x="1430" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1430" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="1501" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitUBApp.cpp</text>
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="../../dc/df0/PlotData_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PlotData.cpp">
+<polygon fill="white" stroke="black" points="260.632,-84.5 260.632,-125.5 418.632,-125.5 418.632,-84.5 260.632,-84.5"/>
+<text text-anchor="start" x="268.632" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="268.632" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="339.632" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PlotData.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge110" class="edge"><title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M2591.98,-600.764C2340.04,-596.45 1558.25,-580.409 1450,-546 1373.04,-521.537 1297,-528.753 1297,-448 1297,-448 1297,-448 1297,-284 1297,-231.757 1282.15,-207.792 1316,-168 1342.23,-137.168 1384.28,-121.61 1421.67,-113.786"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.09,-604.267 2602.15,-600.937 2592.21,-597.268 2592.09,-604.267"/>
+<!-- Node1&#45;&gt;Node17 -->
+<g id="edge101" class="edge"><title>Node1&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M2161.66,-601.734C1835.21,-600.332 587.319,-591.986 417.632,-546 329.715,-522.174 237.632,-539.088 237.632,-448 237.632,-448 237.632,-448 237.632,-284 237.632,-218.999 289.47,-156.213 319.236,-125.519"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.95,-605.235 2171.97,-601.777 2161.98,-598.235 2161.95,-605.235"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="../../d2/df1/DalitzAnalysis__D0KsKK_2PlotData_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/DalitzAnalysis_D0KsKK\l/PlotData.cpp">
-<polygon fill="white" stroke="black" points="3626,-79 3626,-131 3784,-131 3784,-79 3626,-79"/>
-<text text-anchor="start" x="3634" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3634" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="start" x="3634" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzAnalysis_D0KsKK</text>
-<text text-anchor="middle" x="3705" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">/PlotData.cpp</text>
+<!-- Node21 -->
+<g id="node21" class="node"><title>Node21</title>
+<g id="a_node21"><a xlink:href="../../db/d2b/DalitzPlot_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Tools\l/DalitzPlot.cpp">
+<polygon fill="white" stroke="black" points="104.632,-84.5 104.632,-125.5 242.632,-125.5 242.632,-84.5 104.632,-84.5"/>
+<text text-anchor="start" x="112.632" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="112.632" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
+<text text-anchor="middle" x="173.632" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzPlot.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node18 -->
-<g id="edge102" class="edge"><title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M2747.71,-600.401C2929.49,-596.097 3378.1,-582.056 3524,-546 3627.91,-520.32 3744,-555.04 3744,-448 3744,-448 3744,-448 3744,-284 3744,-228.479 3725.67,-165.427 3714.14,-131.263"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.6,-596.903 2737.69,-600.635 2747.77,-603.901 2747.6,-596.903"/>
+<!-- Node1&#45;&gt;Node21 -->
+<g id="edge115" class="edge"><title>Node1&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M2161.73,-601.439C1805.49,-598.667 345.157,-584.959 256.632,-546 201.11,-521.565 161.632,-508.661 161.632,-448 161.632,-448 161.632,-448 161.632,-284 161.632,-226.39 167.967,-158.53 171.431,-125.726"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.92,-604.941 2171.94,-601.518 2161.97,-597.941 2161.92,-604.941"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="../../de/d23/PythonDalitzFit_2PlotData_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PlotData.cpp">
-<polygon fill="white" stroke="black" points="3450,-84.5 3450,-125.5 3608,-125.5 3608,-84.5 3450,-84.5"/>
-<text text-anchor="start" x="3458" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3458" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="3529" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PlotData.cpp</text>
+<!-- Node23 -->
+<g id="node23" class="node"><title>Node23</title>
+<g id="a_node23"><a xlink:href="../../d5/da9/DataPoint_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/DataPoint.cpp">
+<polygon fill="white" stroke="black" points="2172.13,-348.5 2172.13,-389.5 2307.13,-389.5 2307.13,-348.5 2172.13,-348.5"/>
+<text text-anchor="start" x="2180.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2180.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2239.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataPoint.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge106" class="edge"><title>Node1&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M2748.02,-601.593C2877.46,-599.611 3144.23,-589.974 3365,-546 3503.81,-518.352 3668,-589.535 3668,-448 3668,-448 3668,-448 3668,-284 3668,-229.169 3660.25,-210.816 3626,-168 3611.77,-150.208 3590.97,-135.967 3572.29,-125.643"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.76,-598.096 2737.81,-601.738 2747.86,-605.096 2747.76,-598.096"/>
+<!-- Node1&#45;&gt;Node23 -->
+<g id="edge30" class="edge"><title>Node1&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M2239.63,-572.111C2239.63,-523.943 2239.63,-430.436 2239.63,-389.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2236.13,-572.22 2239.63,-582.22 2243.13,-572.22 2236.13,-572.22"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="../../d5/da9/DataPoint_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/DataPoint.cpp">
-<polygon fill="white" stroke="black" points="2284.5,-348.5 2284.5,-389.5 2419.5,-389.5 2419.5,-348.5 2284.5,-348.5"/>
-<text text-anchor="start" x="2292.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2292.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="2352" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataPoint.cpp</text>
+<g id="a_node24"><a xlink:href="../../dc/d66/Functions_8hpp.html" target="_top" xlink:title="This file contains Functions implementing the Strategy interface so they can be used inside a node of...">
+<polygon fill="white" stroke="black" points="3102.13,-504.5 3102.13,-545.5 3237.13,-545.5 3237.13,-504.5 3102.13,-504.5"/>
+<text text-anchor="start" x="3110.13" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3110.13" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="3169.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Functions.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node24 -->
 <g id="edge31" class="edge"><title>Node1&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M2634.99,-576.457C2571.04,-529.806 2436.66,-431.766 2379.1,-389.774"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2633.02,-579.353 2643.16,-582.42 2637.15,-573.698 2633.02,-579.353"/>
+<path fill="none" stroke="midnightblue" d="M2317.24,-598.705C2460.37,-592.153 2775.46,-575.515 3039.63,-546 3059.94,-543.731 3081.94,-540.604 3101.97,-537.496"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.06,-595.209 2307.23,-599.159 2317.38,-602.202 2317.06,-595.209"/>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="../../dc/d66/Functions_8hpp.html" target="_top" xlink:title="This file contains Functions implementing the Strategy interface so they can be used inside a node of...">
-<polygon fill="white" stroke="black" points="392.5,-504.5 392.5,-545.5 527.5,-545.5 527.5,-504.5 392.5,-504.5"/>
-<text text-anchor="start" x="400.5" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="400.5" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="460" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Functions.hpp</text>
+<!-- Node28 -->
+<g id="node28" class="node"><title>Node28</title>
+<g id="a_node28"><a xlink:href="../../d6/d9a/SliceFitApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitApp.cpp">
+<polygon fill="white" stroke="black" points="2530.63,-174.5 2530.63,-215.5 2688.63,-215.5 2688.63,-174.5 2530.63,-174.5"/>
+<text text-anchor="start" x="2538.63" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2538.63" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="2609.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitApp.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node25 -->
-<g id="edge32" class="edge"><title>Node1&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M2592.04,-600.233C2339.02,-594.367 1517.93,-574.292 839,-546 730.046,-541.46 603.566,-534.431 527.757,-530.029"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.15,-603.737 2602.23,-600.469 2592.31,-596.739 2592.15,-603.737"/>
+<!-- Node1&#45;&gt;Node28 -->
+<g id="edge103" class="edge"><title>Node1&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M2317.57,-596.972C2395.82,-590.313 2509.16,-575.747 2540.63,-546 2573.22,-515.195 2564.63,-492.843 2564.63,-448 2564.63,-448 2564.63,-448 2564.63,-368 2564.63,-311.206 2587.88,-247.198 2600.96,-215.686"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2316.93,-593.513 2307.26,-597.822 2317.51,-600.489 2316.93,-593.513"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="../../d6/d9a/SliceFitApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/SliceFit/SliceFitApp.cpp">
-<polygon fill="white" stroke="black" points="1111,-174.5 1111,-215.5 1269,-215.5 1269,-174.5 1111,-174.5"/>
-<text text-anchor="start" x="1119" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1119" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="1190" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFit/SliceFitApp.cpp</text>
+<g id="a_node29"><a xlink:href="../../dc/de3/Amplitude_8hpp.html" target="_top" xlink:title="This class provides the interface to the model which tries to describe the intensity. ">
+<polygon fill="white" stroke="red" points="2309.13,-264.5 2309.13,-305.5 2458.13,-305.5 2458.13,-264.5 2309.13,-264.5"/>
+<text text-anchor="start" x="2317.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2317.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="2383.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Amplitude.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node29 -->
-<g id="edge108" class="edge"><title>Node1&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M2592.16,-601.126C2307.58,-597.639 1337.32,-583.069 1283,-546 1243.71,-519.189 1240,-495.564 1240,-448 1240,-448 1240,-448 1240,-368 1240,-310.781 1214.17,-246.959 1199.64,-215.585"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.35,-604.629 2602.4,-601.25 2592.44,-597.629 2592.35,-604.629"/>
+<g id="edge110" class="edge"><title>Node1&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M2161.73,-588.915C2002.55,-559.136 1664.88,-478.599 1786.63,-348 1825.6,-306.205 2243.47,-322.517 2299.63,-312 2308.49,-310.342 2317.72,-308.068 2326.69,-305.548"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.48,-592.428 2171.95,-590.803 2162.75,-585.544 2161.48,-592.428"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="../../dc/de3/Amplitude_8hpp.html" target="_top" xlink:title="This class provides the interface to the model which tries to describe the intensity. ">
-<polygon fill="white" stroke="red" points="1391.5,-264.5 1391.5,-305.5 1540.5,-305.5 1540.5,-264.5 1391.5,-264.5"/>
-<text text-anchor="start" x="1399.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1399.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="middle" x="1466" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Amplitude.hpp</text>
+<g id="a_node30"><a xlink:href="../../de/d02/AbstractDynamicalFunction_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/DecayDynamics/AbstractDynamical\lFunction.hpp">
+<polygon fill="white" stroke="red" points="2973.13,-259 2973.13,-311 3152.13,-311 3152.13,-259 2973.13,-259"/>
+<text text-anchor="start" x="2981.13" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2981.13" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="start" x="2981.13" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">/DecayDynamics/AbstractDynamical</text>
+<text text-anchor="middle" x="3062.63" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">Function.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node30 -->
-<g id="edge112" class="edge"><title>Node1&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M2592.49,-583.581C2547.61,-572.823 2490.06,-558.87 2439,-546 2040.74,-445.613 1938.92,-428.255 1545,-312 1538.21,-309.997 1531.13,-307.809 1524.12,-305.579"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2591.91,-587.041 2602.45,-585.966 2593.54,-580.233 2591.91,-587.041"/>
-</g>
-<!-- Node31 -->
-<g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="../../de/d02/AbstractDynamicalFunction_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/DecayDynamics/AbstractDynamical\lFunction.hpp">
-<polygon fill="white" stroke="red" points="264.5,-259 264.5,-311 443.5,-311 443.5,-259 264.5,-259"/>
-<text text-anchor="start" x="272.5" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="272.5" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="start" x="272.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">/DecayDynamics/AbstractDynamical</text>
-<text text-anchor="middle" x="354" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">Function.hpp</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node31 -->
-<g id="edge113" class="edge"><title>Node1&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M2592.11,-601.458C2196.35,-598.54 425.264,-583.402 383,-546 315.825,-486.552 335.039,-364.082 347.327,-311.213"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.29,-604.96 2602.32,-601.533 2592.34,-597.96 2592.29,-604.96"/>
+<g id="edge111" class="edge"><title>Node1&#45;&gt;Node30</title>
+<path fill="none" stroke="midnightblue" d="M2317.24,-594.46C2386.71,-586.471 2490.84,-571.42 2578.63,-546 2749.66,-496.478 2797.5,-485.722 2947.63,-390 2982.81,-367.569 3017.55,-334.175 3039.48,-311.316"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2316.79,-590.988 2307.25,-595.588 2317.58,-597.944 2316.79,-590.988"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
 <g id="a_node33"><a xlink:href="../../d9/de6/AmpWignerD_8hpp.html" target="_top" xlink:title="Contains AmpWignerD class which provides WignerD functions. ">
-<polygon fill="white" stroke="red" points="28.5,-264.5 28.5,-305.5 207.5,-305.5 207.5,-264.5 28.5,-264.5"/>
-<text text-anchor="start" x="36.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="36.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="middle" x="118" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/AmpWignerD.hpp</text>
+<polygon fill="white" stroke="red" points="3170.13,-264.5 3170.13,-305.5 3349.13,-305.5 3349.13,-264.5 3170.13,-264.5"/>
+<text text-anchor="start" x="3178.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3178.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="3259.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/AmpWignerD.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node33 -->
-<g id="edge114" class="edge"><title>Node1&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M2592.32,-601.857C2200.32,-600.914 453.841,-594.025 350,-546 236.614,-493.56 155.196,-356.547 127.95,-305.521"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2592.42,-605.357 2602.43,-601.88 2592.44,-598.357 2592.42,-605.357"/>
+<g id="edge112" class="edge"><title>Node1&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M2317.4,-597.245C2403.06,-590.732 2544.35,-576.211 2662.63,-546 2887.72,-488.511 3136.13,-355.779 3225.38,-305.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2316.95,-593.769 2307.23,-598 2317.47,-600.749 2316.95,-593.769"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node"><title>Node34</title>
 <g id="a_node34"><a xlink:href="../../d4/d62/Resonance_8hpp.html" target="_top" xlink:title="Contains Resonance interface class. ">
-<polygon fill="white" stroke="red" points="2957.5,-264.5 2957.5,-305.5 3106.5,-305.5 3106.5,-264.5 2957.5,-264.5"/>
-<text text-anchor="start" x="2965.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2965.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="middle" x="3032" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Resonance.hpp</text>
+<polygon fill="white" stroke="red" points="265.132,-264.5 265.132,-305.5 414.132,-305.5 414.132,-264.5 265.132,-264.5"/>
+<text text-anchor="start" x="273.132" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="273.132" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="339.632" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Resonance.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node34 -->
-<g id="edge116" class="edge"><title>Node1&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M2747.56,-602.489C2885,-598.606 3168.51,-568.165 3293,-390 3375.9,-271.356 3217.83,-338.428 3115,-312 3107.54,-310.083 3099.76,-307.898 3092.08,-305.628"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.44,-598.991 2737.52,-602.732 2747.61,-605.989 2747.44,-598.991"/>
+<g id="edge114" class="edge"><title>Node1&#45;&gt;Node34</title>
+<path fill="none" stroke="midnightblue" d="M2161.85,-601.777C1828.92,-600.538 537.649,-592.726 465.632,-546 379.16,-489.895 350.324,-356.325 342.312,-305.811"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.87,-605.277 2171.88,-601.813 2161.89,-598.277 2161.87,-605.277"/>
 </g>
 <!-- Node37 -->
 <g id="node37" class="node"><title>Node37</title>
 <g id="a_node37"><a xlink:href="../../de/d57/Kinematics_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/Kinematics.cpp">
-<polygon fill="white" stroke="black" points="3149.5,-348.5 3149.5,-389.5 3284.5,-389.5 3284.5,-348.5 3149.5,-348.5"/>
-<text text-anchor="start" x="3157.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3157.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="3217" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Kinematics.cpp</text>
+<polygon fill="white" stroke="black" points="2325.13,-348.5 2325.13,-389.5 2460.13,-389.5 2460.13,-348.5 2325.13,-348.5"/>
+<text text-anchor="start" x="2333.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2333.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2392.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Kinematics.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node37 -->
 <g id="edge64" class="edge"><title>Node1&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M2725.6,-578.419C2833.74,-532.552 3070.57,-432.106 3170.77,-389.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2724.01,-575.293 2716.17,-582.42 2726.74,-581.737 2724.01,-575.293"/>
+<path fill="none" stroke="midnightblue" d="M2258.35,-573.614C2289.81,-525.913 2352.49,-430.864 2379.62,-389.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2255.26,-571.945 2252.68,-582.22 2261.1,-575.799 2255.26,-571.945"/>
 </g>
 <!-- Node38 -->
 <g id="node38" class="node"><title>Node38</title>
 <g id="a_node38"><a xlink:href="../../d4/d37/Kinematics_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/Kinematics.hpp">
-<polygon fill="white" stroke="red" points="2768.5,-426.5 2768.5,-467.5 2903.5,-467.5 2903.5,-426.5 2768.5,-426.5"/>
-<text text-anchor="start" x="2776.5" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2776.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="2836" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Kinematics.hpp</text>
+<polygon fill="white" stroke="red" points="2003.13,-426.5 2003.13,-467.5 2138.13,-467.5 2138.13,-426.5 2003.13,-426.5"/>
+<text text-anchor="start" x="2011.13" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2011.13" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2070.63" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Kinematics.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node38 -->
 <g id="edge65" class="edge"><title>Node1&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M2698.56,-575.506C2731.64,-544.819 2785.36,-494.984 2814.89,-467.588"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2695.97,-573.129 2691.02,-582.496 2700.74,-578.261 2695.97,-573.129"/>
+<path fill="none" stroke="midnightblue" d="M2210.56,-575.506C2176.88,-544.819 2122.19,-494.984 2092.13,-467.588"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2208.48,-578.347 2218.23,-582.496 2213.19,-573.173 2208.48,-578.347"/>
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
 <g id="a_node40"><a xlink:href="../../dc/d39/TwoBodyKinematics_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/TwoBodyKinematics.cpp">
-<polygon fill="white" stroke="black" points="3309.5,-264.5 3309.5,-305.5 3444.5,-305.5 3444.5,-264.5 3309.5,-264.5"/>
-<text text-anchor="start" x="3317.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3317.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="3377" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TwoBodyKinematics.cpp</text>
+<polygon fill="white" stroke="black" points="2156.13,-264.5 2156.13,-305.5 2291.13,-305.5 2291.13,-264.5 2156.13,-264.5"/>
+<text text-anchor="start" x="2164.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2164.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2223.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TwoBodyKinematics.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node40 -->
-<g id="edge97" class="edge"><title>Node1&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M2747.98,-598.688C2874.35,-592.494 3117.81,-576.898 3198,-546 3252.91,-524.84 3268.97,-514.534 3305,-468 3344.63,-416.815 3365.15,-341.026 3373.05,-305.594"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.8,-595.192 2737.98,-599.17 2748.14,-602.184 2747.8,-595.192"/>
+<g id="edge96" class="edge"><title>Node1&#45;&gt;Node40</title>
+<path fill="none" stroke="midnightblue" d="M2161.43,-598.594C2030.9,-592.1 1780.25,-575.862 1753.63,-546 1695.08,-480.31 1694.4,-413.079 1753.63,-348 1811.03,-284.944 2051.91,-328.155 2135.63,-312 2144.55,-310.28 2153.86,-308.036 2162.94,-305.588"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.6,-602.107 2171.76,-599.101 2161.95,-595.115 2161.6,-602.107"/>
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
 <g id="a_node41"><a xlink:href="../../d2/d4b/Data_8hpp.html" target="_top" xlink:title="Contains Data interface class. ">
-<polygon fill="white" stroke="red" points="2475.5,-348.5 2475.5,-389.5 2642.5,-389.5 2642.5,-348.5 2475.5,-348.5"/>
-<text text-anchor="start" x="2483.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2483.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="2559" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Data.hpp</text>
+<polygon fill="white" stroke="red" points="1497.13,-348.5 1497.13,-389.5 1664.13,-389.5 1664.13,-348.5 1497.13,-348.5"/>
+<text text-anchor="start" x="1505.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1505.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="1580.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Data.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node41 -->
-<g id="edge99" class="edge"><title>Node1&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M2656.13,-573.017C2633.22,-525.123 2588.04,-430.693 2568.44,-389.73"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2653.06,-574.71 2660.54,-582.22 2659.38,-571.689 2653.06,-574.71"/>
+<g id="edge98" class="edge"><title>Node1&#45;&gt;Node41</title>
+<path fill="none" stroke="midnightblue" d="M2161.66,-602.983C2026.39,-603.277 1755.26,-597.212 1677.63,-546 1621.28,-508.822 1594.7,-427.294 1585.08,-389.701"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.96,-606.482 2171.95,-602.948 2161.93,-599.482 2161.96,-606.482"/>
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
 <g id="a_node42"><a xlink:href="../../d7/dbd/AsciiReader_8hpp.html" target="_top" xlink:title="This class reads event&#45;based data from ascii&#45;files in the same syntax as Pawian&#39;s epemEvtReader...">
-<polygon fill="white" stroke="red" points="3124.5,-264.5 3124.5,-305.5 3291.5,-305.5 3291.5,-264.5 3124.5,-264.5"/>
-<text text-anchor="start" x="3132.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3132.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="3208" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/AsciiReader/AsciiReader.hpp</text>
+<polygon fill="white" stroke="red" points="1354.13,-264.5 1354.13,-305.5 1521.13,-305.5 1521.13,-264.5 1354.13,-264.5"/>
+<text text-anchor="start" x="1362.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1362.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="1437.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/AsciiReader/AsciiReader.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node42 -->
-<g id="edge98" class="edge"><title>Node1&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M2747.82,-596.82C2860.92,-588.579 3064.78,-570.837 3134,-546 3234.91,-509.793 3282.67,-491.225 3318,-390 3324.15,-372.376 3327.42,-364.117 3318,-348 3306.83,-328.883 3287.35,-315.2 3267.86,-305.639"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.56,-593.33 2737.83,-597.54 2748.06,-600.312 2747.56,-593.33"/>
+<g id="edge97" class="edge"><title>Node1&#45;&gt;Node42</title>
+<path fill="none" stroke="midnightblue" d="M2161.49,-601.65C2019.12,-599.897 1723.72,-590.786 1632.63,-546 1528.07,-494.591 1465.32,-356.945 1444.96,-305.637"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.85,-605.154 2171.89,-601.768 2161.93,-598.155 2161.85,-605.154"/>
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
 <g id="a_node43"><a xlink:href="../../df/d53/RootReader_8hpp.html" target="_top" xlink:title="This class reads event&#45;based data from root&#45;files. ">
-<polygon fill="white" stroke="red" points="2697.5,-264.5 2697.5,-305.5 2864.5,-305.5 2864.5,-264.5 2697.5,-264.5"/>
-<text text-anchor="start" x="2705.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2705.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="2781" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootReader.hpp</text>
+<polygon fill="white" stroke="red" points="847.132,-264.5 847.132,-305.5 1014.13,-305.5 1014.13,-264.5 847.132,-264.5"/>
+<text text-anchor="start" x="855.132" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="855.132" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="930.632" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootReader.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node43 -->
-<g id="edge101" class="edge"><title>Node1&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M2664.13,-571.998C2655.97,-521.827 2646.48,-419.383 2688,-348 2698.63,-329.716 2717.07,-315.762 2734.74,-305.766"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2660.74,-572.906 2665.89,-582.165 2667.64,-571.716 2660.74,-572.906"/>
+<g id="edge100" class="edge"><title>Node1&#45;&gt;Node43</title>
+<path fill="none" stroke="midnightblue" d="M2161.96,-598.463C2010.36,-591.073 1680.19,-572.458 1569.63,-546 1330.27,-488.713 1063.43,-355.859 967.476,-305.673"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2161.97,-601.967 2172.13,-598.955 2162.31,-594.975 2161.97,-601.967"/>
 </g>
-<!-- Node45 -->
-<g id="node45" class="node"><title>Node45</title>
-<g id="a_node45"><a xlink:href="../../d2/d8f/HelicityKinematics_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/HelicityKinematics.cpp">
-<polygon fill="white" stroke="black" points="3362,-174.5 3362,-215.5 3564,-215.5 3564,-174.5 3362,-174.5"/>
-<text text-anchor="start" x="3370" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3370" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="middle" x="3463" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/HelicityKinematics.cpp</text>
+<!-- Node46 -->
+<g id="node46" class="node"><title>Node46</title>
+<g id="a_node46"><a xlink:href="../../d2/df3/RootEfficiency_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/DataReader\l/RootReader/RootEfficiency.cpp">
+<polygon fill="white" stroke="black" points="3293.13,-504.5 3293.13,-545.5 3460.13,-545.5 3460.13,-504.5 3293.13,-504.5"/>
+<text text-anchor="start" x="3301.13" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3301.13" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="3376.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootEfficiency.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node45 -->
-<g id="edge115" class="edge"><title>Node1&#45;&gt;Node45</title>
-<path fill="none" stroke="midnightblue" d="M2748,-602.257C2860.65,-600.889 3074.63,-591.744 3250,-546 3354.75,-518.676 3473,-556.259 3473,-448 3473,-448 3473,-448 3473,-368 3473,-312.664 3467.78,-247.482 3464.88,-215.583"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.71,-598.76 2737.75,-602.363 2747.78,-605.759 2747.71,-598.76"/>
+<!-- Node1&#45;&gt;Node46 -->
+<g id="edge99" class="edge"><title>Node1&#45;&gt;Node46</title>
+<path fill="none" stroke="midnightblue" d="M2317.22,-601.777C2490.54,-600.416 2922.05,-592.227 3279.63,-546 3283.98,-545.438 3288.43,-544.789 3292.9,-544.077"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.15,-598.278 2307.17,-601.851 2317.2,-605.277 2317.15,-598.278"/>
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="../../d2/df3/RootEfficiency_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/DataReader\l/RootReader/RootEfficiency.cpp">
-<polygon fill="white" stroke="black" points="3809.5,-504.5 3809.5,-545.5 3976.5,-545.5 3976.5,-504.5 3809.5,-504.5"/>
-<text text-anchor="start" x="3817.5" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3817.5" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="3893" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootEfficiency.cpp</text>
+<g id="a_node47"><a xlink:href="../../d1/d93/GenDalitzApp_8cpp.html" target="_top" xlink:title="Application to generate J/Psi &#45;&gt; g pi pi. ">
+<polygon fill="white" stroke="black" points="3478.13,-504.5 3478.13,-545.5 3645.13,-545.5 3645.13,-504.5 3478.13,-504.5"/>
+<text text-anchor="start" x="3486.13" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3486.13" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/executables</text>
+<text text-anchor="middle" x="3561.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GenDalitzApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node47 -->
-<g id="edge100" class="edge"><title>Node1&#45;&gt;Node47</title>
-<path fill="none" stroke="midnightblue" d="M2747.66,-602.234C2930.94,-601.894 3404.4,-595.809 3796,-546 3800.35,-545.447 3804.8,-544.805 3809.27,-544.099"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.58,-598.734 2737.58,-602.247 2747.59,-605.734 2747.58,-598.734"/>
+<g id="edge107" class="edge"><title>Node1&#45;&gt;Node47</title>
+<path fill="none" stroke="midnightblue" d="M2317.48,-600.148C2551.21,-594.319 3244.52,-574.999 3468.63,-546 3471.74,-545.597 3474.91,-545.144 3478.09,-544.651"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.27,-596.652 2307.36,-600.399 2317.45,-603.65 2317.27,-596.652"/>
 </g>
 <!-- Node48 -->
 <g id="node48" class="node"><title>Node48</title>
-<g id="a_node48"><a xlink:href="../../d1/d93/GenDalitzApp_8cpp.html" target="_top" xlink:title="Application to generate J/Psi &#45;&gt; g pi pi. ">
-<polygon fill="white" stroke="black" points="3994,-504.5 3994,-545.5 4152,-545.5 4152,-504.5 3994,-504.5"/>
-<text text-anchor="start" x="4002" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="4002" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="4073" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFit/GenDalitzApp.cpp</text>
+<g id="a_node48"><a xlink:href="../../de/d5e/GenPhspApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/executables\l/GenPhspApp.cpp">
+<polygon fill="white" stroke="black" points="3663.13,-504.5 3663.13,-545.5 3830.13,-545.5 3830.13,-504.5 3663.13,-504.5"/>
+<text text-anchor="start" x="3671.13" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3671.13" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/executables</text>
+<text text-anchor="middle" x="3746.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/GenPhspApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node48 -->
-<g id="edge104" class="edge"><title>Node1&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M2747.78,-600.536C2992.3,-595.641 3743.58,-578.304 3985,-546 3987.95,-545.605 3990.95,-545.159 3993.97,-544.671"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.48,-597.041 2737.55,-600.739 2747.62,-604.039 2747.48,-597.041"/>
+<g id="edge108" class="edge"><title>Node1&#45;&gt;Node48</title>
+<path fill="none" stroke="midnightblue" d="M2317.91,-600.676C2575.03,-596.05 3392.04,-579.058 3653.63,-546 3656.75,-545.607 3659.91,-545.161 3663.1,-544.674"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.48,-597.183 2307.55,-600.862 2317.61,-604.182 2317.48,-597.183"/>
 </g>
 <!-- Node49 -->
 <g id="node49" class="node"><title>Node49</title>
-<g id="a_node49"><a xlink:href="../../de/d5e/GenPhspApp_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/DalitzFit/GenPhspApp.cpp">
-<polygon fill="white" stroke="black" points="4170,-504.5 4170,-545.5 4328,-545.5 4328,-504.5 4170,-504.5"/>
-<text text-anchor="start" x="4178" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="4178" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="4249" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFit/GenPhspApp.cpp</text>
+<g id="a_node49"><a xlink:href="../../d2/d8f/HelicityKinematics_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/HelicityKinematics.cpp">
+<polygon fill="white" stroke="black" points="3848.63,-504.5 3848.63,-545.5 4050.63,-545.5 4050.63,-504.5 3848.63,-504.5"/>
+<text text-anchor="start" x="3856.63" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3856.63" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="3949.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/HelicityKinematics.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node49 -->
-<g id="edge105" class="edge"><title>Node1&#45;&gt;Node49</title>
-<path fill="none" stroke="midnightblue" d="M2747.95,-600.959C3013.69,-597.114 3882.93,-582.028 4160,-546 4163.14,-545.592 4166.33,-545.125 4169.55,-544.612"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.58,-597.464 2737.63,-601.107 2747.68,-604.463 2747.58,-597.464"/>
+<g id="edge113" class="edge"><title>Node1&#45;&gt;Node49</title>
+<path fill="none" stroke="midnightblue" d="M2317.58,-600.751C2595.68,-596.063 3538.52,-578.125 3838.63,-546 3841.84,-545.656 3845.1,-545.273 3848.39,-544.859"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.52,-597.251 2307.58,-600.919 2317.63,-604.25 2317.52,-597.251"/>
 </g>
 <!-- Node50 -->
 <g id="node50" class="node"><title>Node50</title>
 <g id="a_node50"><a xlink:href="../../db/d11/RootGenerator_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Tools\l/RootGenerator.cpp">
-<polygon fill="white" stroke="black" points="4346,-504.5 4346,-545.5 4484,-545.5 4484,-504.5 4346,-504.5"/>
-<text text-anchor="start" x="4354" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="4354" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
-<text text-anchor="middle" x="4415" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootGenerator.cpp</text>
+<polygon fill="white" stroke="black" points="4068.63,-504.5 4068.63,-545.5 4206.63,-545.5 4206.63,-504.5 4068.63,-504.5"/>
+<text text-anchor="start" x="4076.63" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="4076.63" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
+<text text-anchor="middle" x="4137.63" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootGenerator.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node50 -->
-<g id="edge117" class="edge"><title>Node1&#45;&gt;Node50</title>
-<path fill="none" stroke="midnightblue" d="M2747.88,-601.595C3033.54,-599.764 4023.42,-590.297 4336,-546 4339.22,-545.543 4342.5,-545.007 4345.81,-544.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2747.59,-598.097 2737.61,-601.659 2747.63,-605.096 2747.59,-598.097"/>
+<g id="edge116" class="edge"><title>Node1&#45;&gt;Node50</title>
+<path fill="none" stroke="midnightblue" d="M2318.01,-601.883C2620.99,-601.077 3715.7,-594.776 4059.63,-546 4062.54,-545.588 4065.49,-545.109 4068.47,-544.576"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2317.56,-598.384 2307.57,-601.91 2317.58,-605.384 2317.56,-598.384"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d5/dc2/Dictionary_8hpp.html" target="_top" xlink:title="This class gathers information from modules, namely what they need as input and what they provide as ...">
-<polygon fill="white" stroke="red" points="2152.5,-174.5 2152.5,-215.5 2287.5,-215.5 2287.5,-174.5 2152.5,-174.5"/>
-<text text-anchor="start" x="2160.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2160.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="2220" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Dictionary.hpp</text>
+<g id="a_node3"><a xlink:href="../../d5/d10/Estimator_8hpp.html" target="_top" xlink:title="Estimator interface. ">
+<polygon fill="white" stroke="red" points="2263.13,-174.5 2263.13,-215.5 2398.13,-215.5 2398.13,-174.5 2263.13,-174.5"/>
+<text text-anchor="start" x="2271.13" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2271.13" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2330.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Estimator.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M2000.34,-263.241C2042.64,-251.627 2095.87,-236.586 2143,-222 2149.47,-219.997 2156.22,-217.832 2162.92,-215.635"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1999.38,-259.874 1990.66,-265.89 2001.23,-266.625 1999.38,-259.874"/>
+<path fill="none" stroke="midnightblue" d="M1852.56,-274.944C1940.74,-264.25 2088.52,-244.98 2214.63,-222 2230.37,-219.133 2247.21,-215.619 2263.04,-212.112"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1851.88,-271.501 1842.37,-276.174 1852.71,-278.45 1851.88,-271.501"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d10/Estimator_8hpp.html" target="_top" xlink:title="This class provides the interface to classes which estimate the &quot;closeness&quot; of the modeled intensity ...">
-<polygon fill="white" stroke="red" points="957.5,-174.5 957.5,-215.5 1092.5,-215.5 1092.5,-174.5 957.5,-174.5"/>
-<text text-anchor="start" x="965.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="965.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="1025" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Estimator.hpp</text>
+<g id="a_node4"><a xlink:href="../../d5/d8d/ChiOneD_8hpp.html" target="_top" xlink:title="This class calculates a simple &#160;of a intensity and a dataset. ">
+<polygon fill="white" stroke="red" points="1999.63,-84.5 1999.63,-125.5 2155.63,-125.5 2155.63,-84.5 1999.63,-84.5"/>
+<text text-anchor="start" x="2007.63" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2007.63" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
+<text text-anchor="middle" x="2077.63" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ChiOneD/ChiOneD.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M1845.17,-278.651C1647.31,-264.982 1138.06,-229.328 1102,-222 1093.84,-220.342 1085.35,-218.067 1077.12,-215.548"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1844.99,-282.147 1855.21,-279.344 1845.47,-275.164 1844.99,-282.147"/>
+<g id="edge14" class="edge"><title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M1852.35,-272.707C1894.2,-263.876 1945.18,-248.474 1984.63,-222 1987.16,-220.305 2036.39,-158.214 2062.17,-125.588"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1851.57,-269.292 1842.47,-274.706 1852.96,-276.153 1851.57,-269.292"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d5/d8d/ChiOneD_8hpp.html" target="_top" xlink:title="This class calculates a simple &#160;of a intensity and a dataset. ">
-<polygon fill="white" stroke="red" points="1633,-84.5 1633,-125.5 1789,-125.5 1789,-84.5 1633,-84.5"/>
-<text text-anchor="start" x="1641" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1641" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
-<text text-anchor="middle" x="1711" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ChiOneD/ChiOneD.hpp</text>
+<g id="a_node5"><a xlink:href="../../d7/de4/MinLogLH_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Estimator\l/MinLogLH/MinLogLH.hpp">
+<polygon fill="white" stroke="red" points="2367.63,-84.5 2367.63,-125.5 2523.63,-125.5 2523.63,-84.5 2367.63,-84.5"/>
+<text text-anchor="start" x="2375.63" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2375.63" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
+<text text-anchor="middle" x="2445.63" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MinLogLH/MinLogLH.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge15" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M1849.05,-260.506C1826.52,-250.97 1802.78,-238.283 1784,-222 1752.72,-194.876 1730.24,-151.035 1719.04,-125.732"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1848.03,-263.87 1858.61,-264.401 1850.67,-257.387 1848.03,-263.87"/>
+<path fill="none" stroke="midnightblue" d="M1852.57,-277.461C2019.19,-263.334 2395.89,-230.547 2406.63,-222 2436.06,-198.584 2443.44,-152.095 2445.19,-125.633"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1852.05,-273.992 1842.38,-278.323 1852.64,-280.967 1852.05,-273.992"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d7/de4/MinLogLH_8hpp.html" target="_top" xlink:title="This class calculates a simple &#45;log(LH) of a intensity and a dataset. ">
-<polygon fill="white" stroke="red" points="919,-84.5 919,-125.5 1075,-125.5 1075,-84.5 919,-84.5"/>
-<text text-anchor="start" x="927" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="927" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
-<text text-anchor="middle" x="997" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MinLogLH/MinLogLH.hpp</text>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../db/d41/RunManager_8hpp.html" target="_top" xlink:title="Contains the RunManger class which controls a simple analysis with ComPWA. ">
+<polygon fill="white" stroke="red" points="1805.63,-84.5 1805.63,-125.5 1943.63,-125.5 1943.63,-84.5 1805.63,-84.5"/>
+<text text-anchor="start" x="1813.63" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1813.63" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
+<text text-anchor="middle" x="1874.63" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RunManager.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge16" class="edge"><title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M1845.33,-277.824C1750.16,-269.133 1595.47,-251.029 1546,-222 1519.54,-206.473 1529.89,-182.772 1503,-168 1436.99,-131.736 1240.68,-141.729 1166,-132 1136.27,-128.127 1103.69,-123.263 1075.14,-118.793"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1845.21,-281.327 1855.49,-278.736 1845.84,-274.355 1845.21,-281.327"/>
+<!-- Node2&#45;&gt;Node10 -->
+<g id="edge29" class="edge"><title>Node2&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M1787.4,-255.026C1798.26,-231.173 1814.74,-196.731 1831.63,-168 1840.26,-153.321 1851.22,-137.562 1859.91,-125.605"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1784.17,-253.685 1783.25,-264.24 1790.55,-256.563 1784.17,-253.685"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../db/d41/RunManager_8hpp.html" target="_top" xlink:title="Contains the RunManger class which controls a simple analysis with ComPWA. ">
-<polygon fill="white" stroke="red" points="1983,-84.5 1983,-125.5 2121,-125.5 2121,-84.5 1983,-84.5"/>
-<text text-anchor="start" x="1991" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1991" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
-<text text-anchor="middle" x="2052" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RunManager.hpp</text>
+<g id="a_node11"><a xlink:href="../../de/d88/FitResult_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/FitResult.hpp">
+<polygon fill="white" stroke="red" points="1841.13,-174.5 1841.13,-215.5 1976.13,-215.5 1976.13,-174.5 1841.13,-174.5"/>
+<text text-anchor="start" x="1849.13" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1849.13" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="1908.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FitResult.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node11 -->
-<g id="edge30" class="edge"><title>Node2&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M1937,-255.078C1949.39,-230.78 1968.75,-195.689 1990,-168 2001.77,-152.664 2017.12,-137.285 2029.6,-125.681"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1933.81,-253.634 1932.45,-264.141 1940.07,-256.775 1933.81,-253.634"/>
-</g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../de/d88/FitResult_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/FitResult.hpp">
-<polygon fill="white" stroke="red" points="1999.5,-174.5 1999.5,-215.5 2134.5,-215.5 2134.5,-174.5 1999.5,-174.5"/>
-<text text-anchor="start" x="2007.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2007.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="2067" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FitResult.hpp</text>
-</a>
-</g>
+<g id="edge10" class="edge"><title>Node2&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M1812.98,-258.816C1833.79,-245.151 1859.14,-228.503 1878.51,-215.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1810.81,-256.055 1804.37,-264.47 1814.65,-261.906 1810.81,-256.055"/>
 </g>
 <!-- Node2&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node2&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M1963.64,-259.163C1986.2,-245.379 2013.86,-228.477 2034.88,-215.627"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1961.67,-256.269 1954.96,-264.47 1965.32,-262.242 1961.67,-256.269"/>
+<g id="edge13" class="edge"><title>Node2&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1852.04,-265.287C1917.04,-249.571 2009,-227.339 2071.07,-212.333"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1851.14,-261.902 1842.24,-267.654 1852.79,-268.706 1851.14,-261.902"/>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d8/d56/SliceFitUB_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Estimator\l/SliceFitUB/SliceFitUB.hpp">
+<polygon fill="white" stroke="red" points="1396.63,-174.5 1396.63,-215.5 1552.63,-215.5 1552.63,-174.5 1396.63,-174.5"/>
+<text text-anchor="start" x="1404.63" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1404.63" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
+<text text-anchor="middle" x="1474.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFitUB/SliceFitUB.hpp</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node13 -->
-<g id="edge14" class="edge"><title>Node2&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M1845.24,-273.735C1762.6,-262.476 1628.21,-243.17 1513,-222 1496.02,-218.879 1477.77,-215.131 1460.75,-211.464"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1844.93,-277.224 1855.31,-275.101 1845.87,-270.288 1844.93,-277.224"/>
+<g id="edge16" class="edge"><title>Node2&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M1697.18,-261.599C1656.76,-249.873 1606.51,-235.237 1561.63,-222 1554.53,-219.904 1547.1,-217.701 1539.7,-215.501"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1696.39,-265.014 1706.97,-264.438 1698.34,-258.291 1696.39,-265.014"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d8/d56/SliceFitUB_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Estimator\l/SliceFitUB/SliceFitUB.hpp">
-<polygon fill="white" stroke="red" points="1555,-174.5 1555,-215.5 1711,-215.5 1711,-174.5 1555,-174.5"/>
-<text text-anchor="start" x="1563" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1563" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
-<text text-anchor="middle" x="1633" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SliceFitUB/SliceFitUB.hpp</text>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="../../d8/d43/PlotData_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PlotData.hpp">
+<polygon fill="white" stroke="black" points="668.632,-174.5 668.632,-215.5 826.632,-215.5 826.632,-174.5 668.632,-174.5"/>
+<text text-anchor="start" x="676.632" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="676.632" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
+<text text-anchor="middle" x="747.632" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PlotData.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node14 -->
-<g id="edge17" class="edge"><title>Node2&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M1848.86,-261.504C1802.08,-247.306 1742.24,-229.147 1697.43,-215.551"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1848.05,-264.915 1858.64,-264.47 1850.09,-258.217 1848.05,-264.915"/>
+<!-- Node2&#45;&gt;Node16 -->
+<g id="edge19" class="edge"><title>Node2&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M1697.08,-274.891C1648.93,-269.454 1585.74,-262.713 1529.63,-258 1271.82,-236.344 1206.18,-246.608 948.632,-222 908.351,-218.151 863.699,-212.513 826.731,-207.471"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1696.78,-278.38 1707.11,-276.03 1697.57,-271.425 1696.78,-278.38"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/DalitzAnalysis_D0KsKK\l/PlotData.hpp">
-<polygon fill="white" stroke="red" points="2963,-169 2963,-221 3121,-221 3121,-169 2963,-169"/>
-<text text-anchor="start" x="2971" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2971" y="-198" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="start" x="2971" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzAnalysis_D0KsKK</text>
-<text text-anchor="middle" x="3042" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">/PlotData.hpp</text>
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="../../df/d1f/CoherentIntensity_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/CoherentIntensity.hpp">
+<polygon fill="white" stroke="red" points="1181.13,-174.5 1181.13,-215.5 1378.13,-215.5 1378.13,-174.5 1181.13,-174.5"/>
+<text text-anchor="start" x="1189.13" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1189.13" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="1279.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/CoherentIntensity.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node17 -->
-<g id="edge20" class="edge"><title>Node2&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M2000.93,-281.571C2208.27,-274.748 2770.11,-253.804 2953,-222 2956.17,-221.448 2959.39,-220.824 2962.63,-220.142"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2000.61,-278.08 1990.73,-281.905 2000.84,-285.076 2000.61,-278.08"/>
+<!-- Node2&#45;&gt;Node18 -->
+<g id="edge22" class="edge"><title>Node2&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M1699.52,-261.964C1693.49,-260.513 1687.48,-259.168 1681.63,-258 1552.54,-232.205 1517.17,-245.444 1387.63,-222 1377.38,-220.145 1366.65,-217.916 1356.1,-215.553"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1699.09,-265.464 1709.64,-264.491 1700.79,-258.673 1699.09,-265.464"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d0/dc0/PythonDalitzFit_2PlotData_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Examples\l/PythonDalitzFit/PlotData.hpp">
-<polygon fill="white" stroke="black" points="2787,-174.5 2787,-215.5 2945,-215.5 2945,-174.5 2787,-174.5"/>
-<text text-anchor="start" x="2795" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2795" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Examples</text>
-<text text-anchor="middle" x="2866" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PythonDalitzFit/PlotData.hpp</text>
+<g id="a_node19"><a xlink:href="../../d0/d6d/IncoherentIntensity_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/Incoherent\lIntensity.hpp">
+<polygon fill="white" stroke="red" points="1463.13,-79 1463.13,-131 1612.13,-131 1612.13,-79 1463.13,-79"/>
+<text text-anchor="start" x="1471.13" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1471.13" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="start" x="1471.13" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/Incoherent</text>
+<text text-anchor="middle" x="1537.63" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">Intensity.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node19 -->
-<g id="edge22" class="edge"><title>Node2&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M2000.83,-276.737C2177.72,-260.23 2608.4,-220.039 2786.69,-203.401"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2000.45,-273.257 1990.82,-277.671 2001.1,-280.227 2000.45,-273.257"/>
+<g id="edge24" class="edge"><title>Node2&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M1767.12,-254.566C1759.01,-228.434 1743.63,-190.934 1717.63,-168 1713.29,-164.174 1659.87,-145.99 1612.34,-130.296"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1763.8,-255.698 1769.97,-264.312 1770.52,-253.731 1763.8,-255.698"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="../../df/d1f/CoherentIntensity_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/CoherentIntensity.hpp">
-<polygon fill="white" stroke="red" points="2305.5,-174.5 2305.5,-215.5 2502.5,-215.5 2502.5,-174.5 2305.5,-174.5"/>
-<text text-anchor="start" x="2313.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2313.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="middle" x="2404" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/CoherentIntensity.hpp</text>
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="../../df/de6/DalitzPlot_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Tools\l/DalitzPlot.hpp">
+<polygon fill="white" stroke="red" points="512.632,-174.5 512.632,-215.5 650.632,-215.5 650.632,-174.5 512.632,-174.5"/>
+<text text-anchor="start" x="520.632" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="520.632" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
+<text text-anchor="middle" x="581.632" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzPlot.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node21 -->
-<g id="edge25" class="edge"><title>Node2&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M2000.58,-272.76C2076.23,-261.409 2194.42,-242.643 2296,-222 2305.64,-220.041 2315.72,-217.831 2325.69,-215.547"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2000.02,-269.304 1990.65,-274.244 2001.06,-276.227 2000.02,-269.304"/>
+<!-- Node2&#45;&gt;Node20 -->
+<g id="edge25" class="edge"><title>Node2&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M1696.85,-274.453C1648.75,-268.87 1585.69,-262.13 1529.63,-258 1143.68,-229.565 1040.27,-291.875 659.632,-222 651.068,-220.428 642.157,-218.129 633.55,-215.538"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1696.54,-277.941 1706.88,-275.626 1697.36,-270.988 1696.54,-277.941"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="../../d0/d6d/IncoherentIntensity_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/HelicityFormalism/Incoherent\lIntensity.hpp">
-<polygon fill="white" stroke="red" points="1807.5,-79 1807.5,-131 1956.5,-131 1956.5,-79 1807.5,-79"/>
-<text text-anchor="start" x="1815.5" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1815.5" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="start" x="1815.5" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityFormalism/Incoherent</text>
-<text text-anchor="middle" x="1882" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">Intensity.hpp</text>
+<g id="a_node22"><a xlink:href="../../d0/d27/Integration_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Tools\l/Integration.hpp">
+<polygon fill="white" stroke="red" points="1570.63,-174.5 1570.63,-215.5 1708.63,-215.5 1708.63,-174.5 1570.63,-174.5"/>
+<text text-anchor="start" x="1578.63" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1578.63" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
+<text text-anchor="middle" x="1639.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Integration.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node22 -->
 <g id="edge27" class="edge"><title>Node2&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M1846.09,-262.89C1826.41,-253.633 1807.56,-240.504 1796,-222 1783.29,-201.645 1785.06,-189.364 1796,-168 1803.72,-152.926 1816.99,-140.679 1830.84,-131.174"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1844.92,-266.196 1855.48,-267.002 1847.72,-259.784 1844.92,-266.196"/>
+<path fill="none" stroke="midnightblue" d="M1736.28,-258.999C1715.26,-245.3 1689.58,-228.56 1669.98,-215.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1734.38,-261.941 1744.67,-264.47 1738.21,-256.077 1734.38,-261.941"/>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d0/d27/Integration_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Tools\l/Integration.hpp">
-<polygon fill="white" stroke="red" points="1805,-174.5 1805,-215.5 1943,-215.5 1943,-174.5 1805,-174.5"/>
-<text text-anchor="start" x="1813" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1813" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Tools</text>
-<text text-anchor="middle" x="1874" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Integration.hpp</text>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M2264.94,-171.152C2224.35,-157.034 2172.8,-139.103 2134.06,-125.627"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2263.89,-174.49 2274.48,-174.47 2266.19,-167.879 2263.89,-174.49"/>
+</g>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node3&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M2364.5,-168.081C2382.18,-154.558 2403.45,-138.276 2419.78,-125.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2361.97,-165.613 2356.15,-174.47 2366.22,-171.172 2361.97,-165.613"/>
+</g>
+<!-- Node3&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node3&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M2263.54,-171.727C2258.52,-170.368 2253.51,-169.106 2248.63,-168 2135.72,-142.413 2104.55,-152.678 1990.63,-132 1975.4,-129.235 1959.14,-125.859 1943.76,-122.467"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2262.6,-175.098 2273.18,-174.442 2264.5,-168.361 2262.6,-175.098"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../de/d8e/MinLogLH_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Estimator\l/MinLogLH/MinLogLH.cpp">
+<polygon fill="white" stroke="black" points="2438.63,-0.5 2438.63,-41.5 2594.63,-41.5 2594.63,-0.5 2438.63,-0.5"/>
+<text text-anchor="start" x="2446.63" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2446.63" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
+<text text-anchor="middle" x="2516.63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MinLogLH/MinLogLH.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node23 -->
-<g id="edge28" class="edge"><title>Node2&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M1907.11,-255.468C1899.89,-242.501 1891.53,-227.481 1885.01,-215.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1904.2,-257.436 1912.13,-264.47 1910.32,-254.03 1904.2,-257.436"/>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M2469.41,-76.5438C2479.3,-65.1185 2490.56,-52.1125 2499.6,-41.6671"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2466.72,-74.2991 2462.82,-84.1501 2472.01,-78.8812 2466.72,-74.2991"/>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M1086.85,-171.626C1091.93,-170.244 1097.03,-169.007 1102,-168 1314.28,-125.014 1373.56,-162.466 1588,-132 1602.59,-129.928 1618.03,-127.141 1632.87,-124.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1085.75,-168.3 1077.12,-174.442 1087.7,-175.024 1085.75,-168.3"/>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M2357.48,-94.4913C2302.16,-88.8598 2229.31,-82.0544 2164.63,-78 1541.3,-38.9242 787.494,-26.1847 544.895,-22.9422"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2357.3,-97.9905 2367.6,-95.5282 2358.01,-91.027 2357.3,-97.9905"/>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M1015.68,-164.71C1011.61,-151.919 1006.94,-137.253 1003.29,-125.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1012.42,-166.002 1018.79,-174.47 1019.09,-163.879 1012.42,-166.002"/>
+<!-- Node5&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node5&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M2357.42,-95.1139C2199.33,-79.1884 1869.85,-45.9975 1715.19,-30.4177"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2357.28,-98.6175 2367.58,-96.1375 2357.98,-91.6527 2357.28,-98.6175"/>
 </g>
-<!-- Node4&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M1085.89,-171.693C1091.29,-170.249 1096.71,-168.982 1102,-168 1479.43,-97.8883 1586.39,-195.451 1965,-132 1974.48,-130.411 1984.39,-128.102 1993.97,-125.508"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1084.89,-168.341 1076.24,-174.461 1086.82,-175.069 1084.89,-168.341"/>
+<!-- Node5&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node5&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M2533.75,-82.3665C2585.36,-69.6958 2650.02,-53.8213 2700.08,-41.5316"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2532.82,-78.9912 2523.94,-84.7746 2534.49,-85.7893 2532.82,-78.9912"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../de/d8e/MinLogLH_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Estimator\l/MinLogLH/MinLogLH.cpp">
-<polygon fill="white" stroke="black" points="1813,-0.5 1813,-41.5 1969,-41.5 1969,-0.5 1813,-0.5"/>
-<text text-anchor="start" x="1821" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="1821" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Estimator</text>
-<text text-anchor="middle" x="1891" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/MinLogLH/MinLogLH.cpp</text>
+<!-- Node11&#45;&gt;Node6 -->
+<g id="edge11" class="edge"><title>Node11&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M1928.33,-166.288C1935.94,-155.582 1944.7,-143.227 1952.63,-132 1969.57,-108.034 1965.34,-92.882 1990.63,-78 2064.59,-34.4856 2310.86,-24.6597 2438.47,-22.526"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1925.46,-164.288 1922.52,-174.467 1931.17,-168.342 1925.46,-164.288"/>
+</g>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M1897.46,-165.09C1892.49,-152.21 1886.75,-137.367 1882.27,-125.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1894.22,-166.403 1901.09,-174.47 1900.75,-163.881 1894.22,-166.403"/>
+</g>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge17" class="edge"><title>Node13&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1401.65,-171.821C1396.58,-170.471 1391.54,-169.183 1386.63,-168 1301.63,-147.513 1202.94,-129.748 1135.79,-118.549"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1400.82,-175.224 1411.39,-174.48 1402.67,-168.471 1400.82,-175.224"/>
+</g>
+<!-- Node13&#45;&gt;Node15 -->
+<g id="edge18" class="edge"><title>Node13&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M1536.34,-170.794C1573.73,-156.732 1620.91,-138.989 1656.44,-125.627"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1534.69,-167.674 1526.56,-174.47 1537.16,-174.226 1534.69,-167.674"/>
+</g>
+<!-- Node16&#45;&gt;Node7 -->
+<g id="edge21" class="edge"><title>Node16&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M706.877,-169.142C650.316,-134.644 549.18,-72.9583 497.677,-41.5448"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="705.198,-172.218 715.558,-174.437 708.843,-166.242 705.198,-172.218"/>
+</g>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge20" class="edge"><title>Node16&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M673.965,-171.672C669.128,-170.38 664.319,-169.144 659.632,-168 578.131,-148.113 483.71,-130.467 418.665,-119.136"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="673.334,-175.128 683.903,-174.39 675.18,-168.376 673.334,-175.128"/>
+</g>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge23" class="edge"><title>Node18&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M1346.36,-171.239C1382.5,-158.912 1427.22,-143.659 1464.33,-131.002"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1345.23,-167.929 1336.89,-174.47 1347.49,-174.554 1345.23,-167.929"/>
+</g>
+<!-- Node20&#45;&gt;Node21 -->
+<g id="edge26" class="edge"><title>Node20&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M502.351,-182.213C435.085,-171.474 336.3,-153.956 251.632,-132 244.309,-130.101 236.675,-127.874 229.173,-125.536"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="502.03,-185.706 512.455,-183.813 503.125,-178.792 502.03,-185.706"/>
+</g>
+<!-- Node22&#45;&gt;Node19 -->
+<g id="edge28" class="edge"><title>Node22&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M1609.37,-167.896C1595.92,-156.283 1580.13,-142.666 1566.8,-131.166"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1607.14,-170.588 1617,-174.47 1611.71,-165.288 1607.14,-170.588"/>
+</g>
+<!-- Node25 -->
+<g id="node25" class="node"><title>Node25</title>
+<g id="a_node25"><a xlink:href="../../db/db8/Functions_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/Functions.cpp">
+<polygon fill="white" stroke="black" points="3077.13,-426.5 3077.13,-467.5 3212.13,-467.5 3212.13,-426.5 3077.13,-426.5"/>
+<text text-anchor="start" x="3085.13" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3085.13" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="3144.63" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Functions.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M1069.18,-82.0981C1075.84,-80.5331 1082.52,-79.1298 1089,-78 1351.63,-32.223 1668.8,-23.5812 1812.94,-22.1439"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1068.33,-78.7028 1059.45,-84.4938 1070,-85.4995 1068.33,-78.7028"/>
-</g>
-<!-- Node6&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M912.934,-81.9057C865.015,-69.3118 805.503,-53.6707 759.306,-41.5291"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="912.103,-85.3062 922.665,-84.4631 913.883,-78.5361 912.103,-85.3062"/>
-</g>
-<!-- Node6&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node6&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M1068.45,-81.9919C1075.35,-80.4174 1082.28,-79.0424 1089,-78 1171.67,-65.1808 2416.4,-32.4647 2744.97,-24.0157"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1067.3,-78.6706 1058.4,-84.4258 1068.95,-85.474 1067.3,-78.6706"/>
-</g>
-<!-- Node6&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M972.892,-76.5438C962.86,-65.1185 951.44,-52.1125 942.269,-41.6671"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="970.343,-78.945 979.571,-84.1501 975.603,-74.3263 970.343,-78.945"/>
-</g>
-<!-- Node12&#45;&gt;Node7 -->
-<g id="edge12" class="edge"><title>Node12&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M2103.21,-167.713C2113.9,-157.845 2124.27,-145.667 2130,-132 2139.27,-109.864 2144.91,-96.807 2130,-78 2110.08,-52.8698 2030.98,-37.9328 1969.17,-29.8894"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2100.68,-165.277 2095.43,-174.478 2105.27,-170.56 2100.68,-165.277"/>
-</g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge13" class="edge"><title>Node12&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M2061.94,-164.33C2059.78,-151.629 2057.31,-137.14 2055.37,-125.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2058.54,-165.2 2063.67,-174.47 2065.44,-164.024 2058.54,-165.2"/>
-</g>
-<!-- Node14&#45;&gt;Node15 -->
-<g id="edge18" class="edge"><title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M1556.03,-171.863C1550.95,-170.522 1545.91,-169.222 1541,-168 1471.13,-150.599 1390.99,-133.525 1333.18,-121.715"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1555.24,-175.275 1565.8,-174.484 1557.05,-168.514 1555.24,-175.275"/>
-</g>
-<!-- Node14&#45;&gt;Node16 -->
-<g id="edge19" class="edge"><title>Node14&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1595.22,-168.816C1574.73,-155.151 1549.75,-138.503 1530.67,-125.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1593.44,-171.835 1603.7,-174.47 1597.33,-166.011 1593.44,-171.835"/>
-</g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge21" class="edge"><title>Node17&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M3131.12,-174.046C3143.14,-171.771 3155.34,-169.673 3167,-168 3365.17,-139.56 3419.11,-168.258 3616,-132 3619.17,-131.417 3622.38,-130.766 3625.62,-130.062"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3130.24,-170.653 3121.09,-175.993 3131.57,-177.525 3130.24,-170.653"/>
-</g>
-<!-- Node19&#45;&gt;Node9 -->
-<g id="edge24" class="edge"><title>Node19&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M2858.7,-164.113C2850.1,-128.905 2836.07,-71.4277 2828.76,-41.5005"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2855.41,-165.385 2861.18,-174.269 2862.21,-163.725 2855.41,-165.385"/>
-</g>
-<!-- Node19&#45;&gt;Node20 -->
-<g id="edge23" class="edge"><title>Node19&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M2937.29,-171.769C2942.92,-170.374 2948.53,-169.093 2954,-168 3129.01,-133.008 3338.19,-116.718 3449.73,-110.029"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2935.99,-168.491 2927.19,-174.391 2937.75,-175.266 2935.99,-168.491"/>
-</g>
-<!-- Node21&#45;&gt;Node22 -->
-<g id="edge26" class="edge"><title>Node21&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M2318.28,-172.336C2310.77,-170.75 2303.26,-169.275 2296,-168 2154.17,-143.099 2115.32,-159.674 1974,-132 1968.3,-130.884 1962.44,-129.586 1956.57,-128.179"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2317.62,-175.774 2328.13,-174.477 2319.11,-168.934 2317.62,-175.774"/>
-</g>
-<!-- Node23&#45;&gt;Node22 -->
-<g id="edge29" class="edge"><title>Node23&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M1876.7,-164.255C1877.68,-153.506 1878.77,-141.484 1879.71,-131.166"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1873.2,-164.194 1875.78,-174.47 1880.17,-164.828 1873.2,-164.194"/>
+<!-- Node24&#45;&gt;Node25 -->
+<g id="edge32" class="edge"><title>Node24&#45;&gt;Node25</title>
+<path fill="none" stroke="midnightblue" d="M3160.05,-494.882C3157.04,-485.721 3153.79,-475.83 3151.05,-467.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3156.74,-496.023 3163.19,-504.428 3163.39,-493.835 3156.74,-496.023"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="../../db/db8/Functions_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/Functions.cpp">
-<polygon fill="white" stroke="black" points="593.5,-426.5 593.5,-467.5 728.5,-467.5 728.5,-426.5 593.5,-426.5"/>
-<text text-anchor="start" x="601.5" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="601.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="661" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Functions.cpp</text>
+<g id="a_node26"><a xlink:href="../../da/db2/FunctionTree_8hpp.html" target="_top" xlink:title="This class can be used to store a function in a tree&#45;like structure. ">
+<polygon fill="white" stroke="red" points="2668.13,-348.5 2668.13,-389.5 2803.13,-389.5 2803.13,-348.5 2668.13,-348.5"/>
+<text text-anchor="start" x="2676.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2676.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="2735.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
-<g id="edge33" class="edge"><title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M521.127,-500.887C549.343,-490.219 582.478,-477.69 609.413,-467.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="519.878,-497.618 511.762,-504.428 522.354,-504.165 519.878,-497.618"/>
+<!-- Node24&#45;&gt;Node26 -->
+<g id="edge33" class="edge"><title>Node24&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M3105.1,-501.101C3019.85,-470.851 2871.14,-418.082 2790.84,-389.588"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3104.07,-504.45 3114.67,-504.496 3106.41,-497.853 3104.07,-504.45"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="../../da/db2/FunctionTree_8hpp.html" target="_top" xlink:title="This class can be used to store a function in a tree&#45;like structure. ">
-<polygon fill="white" stroke="red" points="689.5,-348.5 689.5,-389.5 824.5,-389.5 824.5,-348.5 689.5,-348.5"/>
-<text text-anchor="start" x="697.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="697.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="757" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree.hpp</text>
+<g id="a_node27"><a xlink:href="../../d3/d0c/TreeTestApp_8cpp.html" target="_top" xlink:title="Test&#45;Application to show usage of the FunctionTree. ">
+<polygon fill="white" stroke="black" points="3406.13,-264.5 3406.13,-305.5 3541.13,-305.5 3541.13,-264.5 3406.13,-264.5"/>
+<text text-anchor="start" x="3414.13" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3414.13" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="3473.63" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/test/TreeTestApp.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
-<g id="edge34" class="edge"><title>Node25&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M537.575,-517.811C609.5,-510.443 709.432,-495.518 737,-468 757.524,-447.514 759.782,-412.051 758.871,-389.87"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="537.227,-514.328 527.623,-518.801 537.92,-521.294 537.227,-514.328"/>
-</g>
-<!-- Node28 -->
-<g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="../../d3/d0c/TreeTestApp_8cpp.html" target="_top" xlink:title="Test&#45;Application to show usage of the FunctionTree. ">
-<polygon fill="white" stroke="black" points="461.5,-264.5 461.5,-305.5 596.5,-305.5 596.5,-264.5 461.5,-264.5"/>
-<text text-anchor="start" x="469.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="469.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="529" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">/test/TreeTestApp.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node25&#45;&gt;Node28 -->
-<g id="edge55" class="edge"><title>Node25&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M429.629,-497.122C393.103,-461.467 340.625,-397.296 374,-348 379.951,-339.21 429.852,-320.176 471.451,-305.502"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="427.49,-499.918 437.144,-504.281 432.318,-494.85 427.49,-499.918"/>
+<!-- Node24&#45;&gt;Node27 -->
+<g id="edge55" class="edge"><title>Node24&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M3247.73,-504.811C3249.04,-504.535 3250.34,-504.264 3251.63,-504 3347.41,-484.404 3396.18,-533.638 3468.63,-468 3514.08,-426.828 3493.52,-343.539 3480.89,-305.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3246.59,-501.477 3237.56,-507.018 3248.07,-508.317 3246.59,-501.477"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
 <g id="a_node32"><a xlink:href="../../d6/da5/RelativisticBreitWigner_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/DecayDynamics/RelativisticBreit\lWigner.hpp">
-<polygon fill="white" stroke="red" points="154,-169 154,-221 318,-221 318,-169 154,-169"/>
-<text text-anchor="start" x="162" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="162" y="-198" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
-<text text-anchor="start" x="162" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">/DecayDynamics/RelativisticBreit</text>
-<text text-anchor="middle" x="236" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">Wigner.hpp</text>
+<polygon fill="white" stroke="red" points="3177.63,-169 3177.63,-221 3341.63,-221 3341.63,-169 3177.63,-169"/>
+<text text-anchor="start" x="3185.63" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3185.63" y="-198" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="start" x="3185.63" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">/DecayDynamics/RelativisticBreit</text>
+<text text-anchor="middle" x="3259.63" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">Wigner.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node32 -->
-<g id="edge61" class="edge"><title>Node25&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M414.07,-499.115C399.803,-490.28 384.544,-479.616 372,-468 308.411,-409.114 288.983,-391.726 255,-312 242.437,-282.526 238.137,-245.575 236.69,-221.403"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="412.42,-502.207 422.791,-504.372 416.033,-496.212 412.42,-502.207"/>
+<!-- Node24&#45;&gt;Node32 -->
+<g id="edge61" class="edge"><title>Node24&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M3208,-498.507C3220.07,-489.589 3233.01,-479.029 3243.63,-468 3288.8,-421.121 3288.09,-399.719 3327.63,-348 3340.28,-331.454 3350.54,-331.583 3357.63,-312 3365.8,-289.433 3369.21,-279.023 3357.63,-258 3349.09,-242.481 3334.84,-230.304 3319.81,-221.007"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3205.88,-495.716 3199.82,-504.405 3209.98,-501.394 3205.88,-495.716"/>
 </g>
-<!-- Node25&#45;&gt;Node33 -->
-<g id="edge62" class="edge"><title>Node25&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M382.251,-521.349C332.209,-516.115 268.139,-502.451 222,-468 165.575,-425.869 135.031,-343.447 123.48,-305.714"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="382.097,-524.85 392.384,-522.315 382.761,-517.882 382.097,-524.85"/>
+<!-- Node24&#45;&gt;Node33 -->
+<g id="edge62" class="edge"><title>Node24&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M3199.64,-496.833C3207.52,-488.306 3215.29,-478.386 3220.63,-468 3248.56,-413.684 3256.51,-340.368 3258.75,-305.712"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3196.9,-494.632 3192.45,-504.245 3201.93,-499.507 3196.9,-494.632"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
 <g id="a_node35"><a xlink:href="../../d3/d71/TreeNode_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/TreeNode.cpp">
-<polygon fill="white" stroke="black" points="383.5,-348.5 383.5,-389.5 518.5,-389.5 518.5,-348.5 383.5,-348.5"/>
-<text text-anchor="start" x="391.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="391.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="451" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TreeNode.cpp</text>
+<polygon fill="white" stroke="black" points="3346.13,-348.5 3346.13,-389.5 3481.13,-389.5 3481.13,-348.5 3346.13,-348.5"/>
+<text text-anchor="start" x="3354.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3354.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="3413.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TreeNode.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node35 -->
-<g id="edge56" class="edge"><title>Node25&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M442.001,-495.645C437.5,-487.09 433.302,-477.452 431,-468 424.425,-441.006 433.881,-409.473 441.898,-389.62"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="438.988,-497.428 446.927,-504.444 445.095,-494.008 438.988,-497.428"/>
+<!-- Node24&#45;&gt;Node35 -->
+<g id="edge56" class="edge"><title>Node24&#45;&gt;Node35</title>
+<path fill="none" stroke="midnightblue" d="M3247.73,-504.837C3249.04,-504.553 3250.34,-504.274 3251.63,-504 3295.59,-494.671 3421.82,-502.49 3450.63,-468 3469.87,-444.97 3448.94,-410.916 3431.63,-389.616"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3246.58,-501.509 3237.57,-507.095 3248.09,-508.342 3246.58,-501.509"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
 <g id="a_node36"><a xlink:href="../../df/d5a/TreeNode_8hpp.html" target="_top" xlink:title="This class acts as a container for a parameter in a function tree. ">
-<polygon fill="white" stroke="black" points="440.5,-426.5 440.5,-467.5 575.5,-467.5 575.5,-426.5 440.5,-426.5"/>
-<text text-anchor="start" x="448.5" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="448.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="508" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TreeNode.hpp</text>
+<polygon fill="white" stroke="black" points="3307.13,-426.5 3307.13,-467.5 3442.13,-467.5 3442.13,-426.5 3307.13,-426.5"/>
+<text text-anchor="start" x="3315.13" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="3315.13" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="3374.63" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TreeNode.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node36 -->
-<g id="edge57" class="edge"><title>Node25&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M477.838,-495.757C483.776,-486.354 490.255,-476.096 495.681,-467.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="474.742,-494.104 472.361,-504.428 480.66,-497.842 474.742,-494.104"/>
+<!-- Node24&#45;&gt;Node36 -->
+<g id="edge57" class="edge"><title>Node24&#45;&gt;Node36</title>
+<path fill="none" stroke="midnightblue" d="M3231.98,-500.887C3260.75,-490.219 3294.55,-477.69 3322.02,-467.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3230.58,-497.67 3222.42,-504.428 3233.02,-504.234 3230.58,-497.67"/>
 </g>
-<!-- Node27&#45;&gt;Node2 -->
-<g id="edge35" class="edge"><title>Node27&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M835.015,-362.514C1050.76,-347.341 1652.8,-305.002 1855.45,-290.751"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="834.459,-359.044 824.729,-363.237 834.95,-366.027 834.459,-359.044"/>
+<!-- Node26&#45;&gt;Node2 -->
+<g id="edge34" class="edge"><title>Node26&#45;&gt;Node2</title>
+<path fill="none" stroke="midnightblue" d="M2657.93,-361.37C2474.15,-345.689 2015.22,-306.529 1842.13,-291.76"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2657.8,-364.871 2668.06,-362.234 2658.39,-357.896 2657.8,-364.871"/>
 </g>
-<!-- Node27&#45;&gt;Node4 -->
-<g id="edge36" class="edge"><title>Node27&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M834.227,-345.487C857.901,-336.852 883.385,-325.706 905,-312 947.58,-285.002 987.715,-241.115 1009.06,-215.77"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="832.816,-342.274 824.56,-348.914 835.154,-348.872 832.816,-342.274"/>
+<!-- Node26&#45;&gt;Node3 -->
+<g id="edge35" class="edge"><title>Node26&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M2693.22,-342.795C2680.09,-333.948 2666.08,-323.357 2654.63,-312 2633.79,-291.335 2641.09,-274.218 2616.63,-258 2581.38,-234.625 2471,-215.429 2398.13,-204.864"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2691.41,-345.79 2701.69,-348.348 2695.25,-339.937 2691.41,-345.79"/>
 </g>
-<!-- Node27&#45;&gt;Node6 -->
-<g id="edge40" class="edge"><title>Node27&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M747.952,-338.583C736.819,-295.961 723.834,-216.807 763,-168 803.749,-117.221 842.112,-148.855 905,-132 912.695,-129.938 920.739,-127.734 928.731,-125.516"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="744.61,-339.631 750.638,-348.344 751.359,-337.774 744.61,-339.631"/>
+<!-- Node26&#45;&gt;Node5 -->
+<g id="edge39" class="edge"><title>Node26&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M2745.08,-338.43C2756.73,-295.617 2770.5,-216.226 2730.63,-168 2704.7,-136.632 2598.96,-120.211 2523.87,-112.335"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2741.66,-337.659 2742.27,-348.237 2748.39,-339.587 2741.66,-337.659"/>
 </g>
-<!-- Node27&#45;&gt;Node7 -->
-<g id="edge39" class="edge"><title>Node27&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M742.057,-339.268C738.342,-330.723 734.885,-321.184 733,-312 728.069,-287.978 735.173,-170.864 737,-168 783.607,-94.9266 826.431,-100.981 910,-78 1079.42,-31.4107 1611.4,-23.5398 1812.74,-22.2425"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="738.916,-340.815 746.29,-348.423 745.27,-337.877 738.916,-340.815"/>
+<!-- Node26&#45;&gt;Node6 -->
+<g id="edge38" class="edge"><title>Node26&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M2781.06,-342.095C2791.34,-333.888 2800.9,-323.815 2806.63,-312 2834.56,-254.413 2834.04,-225.835 2806.63,-168 2768.49,-87.5182 2666.97,-50.7668 2594.82,-34.4232"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2778.67,-339.509 2772.72,-348.275 2782.83,-345.133 2778.67,-339.509"/>
 </g>
-<!-- Node27&#45;&gt;Node8 -->
-<g id="edge41" class="edge"><title>Node27&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M683.071,-343.528C669.51,-335.621 657.1,-325.324 649,-312 594.976,-223.133 619.693,-177.785 649,-78 652.876,-64.8035 660.927,-51.7752 668.435,-41.6102"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="681.649,-346.737 692.115,-348.386 684.962,-340.57 681.649,-346.737"/>
+<!-- Node26&#45;&gt;Node7 -->
+<g id="edge40" class="edge"><title>Node26&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M2657.88,-361.089C2604.65,-356.625 2532.42,-351.091 2468.63,-348 2106.52,-330.454 1196.92,-360.381 837.632,-312 674.611,-290.048 588.855,-344.102 478.632,-222 433.05,-171.505 449.506,-81.4944 459.83,-41.7704"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2657.67,-364.584 2667.93,-361.938 2658.26,-357.609 2657.67,-364.584"/>
 </g>
-<!-- Node27&#45;&gt;Node9 -->
-<g id="edge42" class="edge"><title>Node27&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M757.799,-338.26C760.751,-293.483 773.44,-209.578 826,-168 916.801,-96.1698 975.664,-172.839 1084,-132 1124.83,-116.608 1124.42,-91.2311 1166,-78 1204.04,-65.897 2420.21,-32.7435 2744.95,-24.089"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="754.29,-338.319 757.25,-348.492 761.28,-338.694 754.29,-338.319"/>
+<!-- Node26&#45;&gt;Node8 -->
+<g id="edge44" class="edge"><title>Node26&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M2756.06,-339.987C2761.19,-331.424 2765.99,-321.696 2768.63,-312 2785.53,-250.041 2796.04,-218.709 2756.63,-168 2723.71,-125.642 2584.96,-89.8148 2532.63,-78 2378.51,-43.2026 1908.26,-28.4805 1715.45,-23.7964"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2753.09,-338.127 2750.66,-348.44 2758.99,-341.894 2753.09,-338.127"/>
 </g>
-<!-- Node27&#45;&gt;Node10 -->
-<g id="edge46" class="edge"><title>Node27&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M712.49,-342.214C702.244,-333.965 692.692,-323.843 687,-312 659.276,-254.317 655.741,-223.847 687,-168 723.757,-102.33 803.462,-62.6154 860.506,-41.5268"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="710.691,-345.239 720.795,-348.425 714.882,-339.633 710.691,-345.239"/>
+<!-- Node26&#45;&gt;Node9 -->
+<g id="edge45" class="edge"><title>Node26&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M2810.46,-343.52C2824.06,-335.622 2836.49,-325.332 2844.63,-312 2898.82,-223.234 2887.97,-172.54 2844.63,-78 2837.87,-63.241 2825.08,-50.898 2812.62,-41.5893"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2808.56,-340.569 2801.39,-348.372 2811.86,-346.741 2808.56,-340.569"/>
 </g>
-<!-- Node27&#45;&gt;Node13 -->
-<g id="edge37" class="edge"><title>Node27&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M834.762,-353.87C888.512,-343.587 961.491,-328.601 1025,-312 1136.96,-282.734 1265.39,-240.144 1337.08,-215.538"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="833.787,-350.493 824.617,-355.799 835.095,-357.37 833.787,-350.493"/>
+<!-- Node26&#45;&gt;Node12 -->
+<g id="edge36" class="edge"><title>Node26&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M2684.92,-344.171C2663.8,-334.237 2639.02,-322.572 2616.63,-312 2565.94,-288.064 2556.31,-274.191 2502.63,-258 2395.58,-225.707 2363.58,-242.345 2253.63,-222 2238.23,-219.151 2221.77,-215.683 2206.25,-212.22"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2683.5,-347.371 2694.04,-348.459 2686.48,-341.036 2683.5,-347.371"/>
 </g>
-<!-- Node27&#45;&gt;Node15 -->
-<g id="edge44" class="edge"><title>Node27&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M774.331,-339.545C779.689,-330.724 785.6,-320.967 791,-312 829.455,-248.14 815.085,-209.514 877,-168 966.586,-107.932 1010.66,-150.059 1117,-132 1135.74,-128.818 1155.86,-125.143 1174.77,-121.576"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="771.198,-337.962 768.994,-348.325 777.179,-341.598 771.198,-337.962"/>
+<!-- Node26&#45;&gt;Node14 -->
+<g id="edge42" class="edge"><title>Node26&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M2657.85,-361.594C2604.61,-357.352 2532.38,-351.875 2468.63,-348 2126.22,-327.186 2035.2,-373.019 1697.63,-312 1620.45,-298.049 1606.41,-274.012 1529.63,-258 1451.36,-241.676 1240.66,-262.345 1171.63,-222 1146.3,-207.192 1153.7,-189.412 1133.63,-168 1118.84,-152.222 1099.96,-136.956 1084.59,-125.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2657.66,-365.09 2667.91,-362.399 2658.22,-358.112 2657.66,-365.09"/>
 </g>
-<!-- Node27&#45;&gt;Node16 -->
-<g id="edge45" class="edge"><title>Node27&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M786.932,-341.548C796.995,-332.387 808.159,-321.924 818,-312 878.714,-250.778 870.89,-206.579 948,-168 1026.43,-128.76 1254,-143.04 1341,-132 1367.38,-128.652 1396.09,-124.233 1421.81,-119.99"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="784.566,-338.968 779.492,-348.269 789.258,-344.163 784.566,-338.968"/>
+<!-- Node26&#45;&gt;Node15 -->
+<g id="edge43" class="edge"><title>Node26&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M2734.19,-337.9C2731.09,-287.564 2721.9,-189.675 2696.63,-168 2658.65,-135.417 1846,-140.152 1796.63,-132 1787.04,-130.417 1777.03,-128.112 1767.33,-125.519"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2730.71,-338.379 2734.78,-348.163 2737.7,-337.979 2730.71,-338.379"/>
 </g>
-<!-- Node27&#45;&gt;Node28 -->
-<g id="edge38" class="edge"><title>Node27&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M693.142,-345.033C658.557,-332.595 616.285,-317.392 583.301,-305.529"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="692.084,-348.372 702.678,-348.463 694.453,-341.785 692.084,-348.372"/>
+<!-- Node26&#45;&gt;Node27 -->
+<g id="edge37" class="edge"><title>Node26&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M2813.21,-364.28C2931.3,-357.882 3162.99,-342.442 3357.63,-312 3373.33,-309.544 3390.08,-306.214 3405.83,-302.757"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2812.98,-360.787 2803.18,-364.816 2813.35,-367.777 2812.98,-360.787"/>
 </g>
-<!-- Node27&#45;&gt;Node29 -->
-<g id="edge43" class="edge"><title>Node27&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M834.741,-348.822C870.604,-339.149 913.456,-326.409 951,-312 1025.49,-283.411 1108.45,-240.487 1154.41,-215.659"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="833.581,-345.509 824.821,-351.469 835.385,-352.273 833.581,-345.509"/>
+<!-- Node26&#45;&gt;Node28 -->
+<g id="edge41" class="edge"><title>Node26&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M2715.06,-339.914C2689.4,-304.895 2646.22,-245.944 2623.92,-215.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2712.45,-342.271 2721.18,-348.269 2718.09,-338.134 2712.45,-342.271"/>
 </g>
-<!-- Node27&#45;&gt;Node30 -->
-<g id="edge47" class="edge"><title>Node27&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M834.693,-359.014C972.053,-343.128 1256.02,-310.285 1391.25,-294.645"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="834.192,-355.549 824.661,-360.175 834.997,-362.502 834.192,-355.549"/>
+<!-- Node26&#45;&gt;Node29 -->
+<g id="edge46" class="edge"><title>Node26&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M2657.68,-349.84C2598.24,-335.994 2516.9,-317.045 2458.3,-303.393"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2657.23,-353.329 2667.76,-352.19 2658.82,-346.512 2657.23,-353.329"/>
 </g>
-<!-- Node27&#45;&gt;Node31 -->
-<g id="edge48" class="edge"><title>Node27&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M679.386,-355.463C617.543,-345.062 528.884,-329.23 452,-312 449.252,-311.384 446.464,-310.744 443.653,-310.084"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="679.018,-358.95 689.459,-357.149 680.174,-352.046 679.018,-358.95"/>
+<!-- Node26&#45;&gt;Node30 -->
+<g id="edge47" class="edge"><title>Node26&#45;&gt;Node30</title>
+<path fill="none" stroke="midnightblue" d="M2813.1,-348.575C2861.06,-336.547 2922.84,-321.055 2972.93,-308.495"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2812.24,-345.182 2803.39,-351.01 2813.94,-351.972 2812.24,-345.182"/>
 </g>
-<!-- Node27&#45;&gt;Node33 -->
-<g id="edge50" class="edge"><title>Node27&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M679.188,-361.18C580.307,-352.086 404.5,-334.491 255,-312 239.678,-309.695 223.455,-306.917 207.739,-304.048"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="679.116,-364.688 689.393,-362.113 679.753,-357.717 679.116,-364.688"/>
+<!-- Node26&#45;&gt;Node33 -->
+<g id="edge50" class="edge"><title>Node26&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M2813.57,-360.703C2899.17,-351.999 3040.46,-335.601 3160.63,-312 3170.05,-310.151 3179.9,-307.925 3189.58,-305.563"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2813.01,-357.242 2803.41,-361.726 2813.71,-364.206 2813.01,-357.242"/>
 </g>
-<!-- Node27&#45;&gt;Node34 -->
-<g id="edge52" class="edge"><title>Node27&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M835.216,-367.352C1167.79,-364.378 2465.94,-350.489 2873,-312 2900.71,-309.38 2930.9,-304.869 2957.45,-300.333"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="834.695,-363.856 824.726,-367.445 834.757,-370.856 834.695,-363.856"/>
+<!-- Node26&#45;&gt;Node34 -->
+<g id="edge52" class="edge"><title>Node26&#45;&gt;Node34</title>
+<path fill="none" stroke="midnightblue" d="M2657.89,-360.998C2604.66,-356.494 2532.43,-350.95 2468.63,-348 2242.06,-337.525 651.814,-346.446 427.632,-312 417.87,-310.5 407.674,-308.202 397.828,-305.579"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2657.67,-364.493 2667.93,-361.855 2658.27,-357.518 2657.67,-364.493"/>
 </g>
-<!-- Node31&#45;&gt;Node32 -->
-<g id="edge49" class="edge"><title>Node31&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M311.806,-252.534C298.023,-242.254 282.904,-230.979 269.819,-221.221"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="310.077,-255.61 320.186,-258.783 314.262,-249.999 310.077,-255.61"/>
+<!-- Node31 -->
+<g id="node31" class="node"><title>Node31</title>
+<g id="a_node31"><a xlink:href="../../d4/db6/NonResonant_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/DecayDynamics/NonResonant.hpp">
+<polygon fill="white" stroke="red" points="2955.63,-174.5 2955.63,-215.5 3129.63,-215.5 3129.63,-174.5 2955.63,-174.5"/>
+<text text-anchor="start" x="2963.63" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="2963.63" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="3042.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DecayDynamics/NonResonant.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node30&#45;&gt;Node31 -->
+<g id="edge48" class="edge"><title>Node30&#45;&gt;Node31</title>
+<path fill="none" stroke="midnightblue" d="M3054.57,-248.515C3052.01,-237.257 3049.27,-225.227 3047.07,-215.525"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3051.22,-249.571 3056.85,-258.547 3058.04,-248.02 3051.22,-249.571"/>
+</g>
+<!-- Node30&#45;&gt;Node32 -->
+<g id="edge49" class="edge"><title>Node30&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M3128.01,-254.798C3152.4,-243.9 3179.86,-231.632 3203.37,-221.133"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3126.52,-251.626 3118.82,-258.901 3129.38,-258.018 3126.52,-251.626"/>
 </g>
 <!-- Node33&#45;&gt;Node32 -->
 <g id="edge51" class="edge"><title>Node33&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M152.568,-258.221C168.233,-246.538 186.689,-232.774 202.255,-221.166"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="150.112,-255.686 144.188,-264.47 154.297,-261.297 150.112,-255.686"/>
+<path fill="none" stroke="midnightblue" d="M3259.63,-254.255C3259.63,-243.506 3259.63,-231.484 3259.63,-221.166"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3256.13,-254.47 3259.63,-264.47 3263.13,-254.47 3256.13,-254.47"/>
 </g>
-<!-- Node34&#45;&gt;Node18 -->
-<g id="edge53" class="edge"><title>Node34&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M3098.3,-261.738C3103.91,-260.311 3109.53,-259.035 3115,-258 3226.85,-236.842 3527.3,-278.724 3626,-222 3661.07,-201.846 3683.87,-159.054 3695.58,-131.458"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3097,-258.465 3088.25,-264.448 3098.82,-265.223 3097,-258.465"/>
+<!-- Node34&#45;&gt;Node17 -->
+<g id="edge53" class="edge"><title>Node34&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M339.632,-254.206C339.632,-217.635 339.632,-156.653 339.632,-125.546"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="336.132,-254.271 339.632,-264.271 343.132,-254.271 336.132,-254.271"/>
 </g>
-<!-- Node34&#45;&gt;Node20 -->
-<g id="edge54" class="edge"><title>Node34&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M3098.31,-261.755C3103.91,-260.325 3109.53,-259.043 3115,-258 3168.73,-247.756 3568.76,-262.069 3606,-222 3622.34,-204.42 3616.36,-189.648 3606,-168 3597.48,-150.197 3581.07,-135.878 3565.59,-125.504"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3097,-258.483 3088.26,-264.47 3098.83,-265.24 3097,-258.483"/>
+<!-- Node34&#45;&gt;Node21 -->
+<g id="edge54" class="edge"><title>Node34&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M314.011,-256.526C280.195,-220.266 221.493,-157.321 191.861,-125.546"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="311.853,-259.345 321.233,-264.271 316.972,-254.57 311.853,-259.345"/>
+</g>
+<!-- Node36&#45;&gt;Node26 -->
+<g id="edge58" class="edge"><title>Node36&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M3296.89,-435.685C3272.49,-432.506 3245.45,-429.044 3220.63,-426 3071.72,-407.735 2896.88,-387.956 2803.14,-377.489"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3296.44,-439.156 3306.81,-436.981 3297.35,-432.215 3296.44,-439.156"/>
 </g>
 <!-- Node36&#45;&gt;Node27 -->
-<g id="edge58" class="edge"><title>Node36&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M581.906,-423.442C617.249,-412.655 659.146,-399.867 693.094,-389.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="580.666,-420.161 572.124,-426.428 582.71,-426.856 580.666,-420.161"/>
-</g>
-<!-- Node36&#45;&gt;Node28 -->
-<g id="edge59" class="edge"><title>Node36&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M519.757,-416.918C522.687,-408.385 525.436,-398.941 527,-390 532.072,-361.004 531.496,-326.77 530.408,-305.723"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="516.425,-415.839 516.295,-426.433 523.003,-418.232 516.425,-415.839"/>
+<g id="edge59" class="edge"><title>Node36&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M3350.77,-418.504C3336.05,-398.04 3322.46,-369.968 3336.63,-348 3345.9,-333.63 3381.56,-317.732 3414.17,-305.632"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3348.01,-420.653 3356.85,-426.493 3353.58,-416.415 3348.01,-420.653"/>
 </g>
 <!-- Node36&#45;&gt;Node35 -->
 <g id="edge60" class="edge"><title>Node36&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M487.253,-418.338C480.083,-408.778 472.205,-398.273 465.629,-389.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="484.521,-420.528 493.321,-426.428 490.121,-416.328 484.521,-420.528"/>
+<path fill="none" stroke="midnightblue" d="M3389.27,-417.466C3394.06,-408.143 3399.26,-398.007 3403.62,-389.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3386.13,-415.933 3384.68,-426.428 3392.36,-419.129 3386.13,-415.933"/>
 </g>
-<!-- Node38&#45;&gt;Node7 -->
-<g id="edge94" class="edge"><title>Node38&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M2867.58,-419.347C2876.6,-410.647 2885.9,-400.505 2893,-390 2910.8,-363.675 2922.08,-276.38 2948,-258 3004.74,-217.766 3525.25,-272.58 3573,-222 3589.48,-204.548 3589.22,-185.689 3573,-168 3518.03,-108.05 2293.51,-42.2816 1969.22,-25.8695"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2865.06,-416.915 2860.12,-426.292 2869.83,-422.038 2865.06,-416.915"/>
+<!-- Node38&#45;&gt;Node6 -->
+<g id="edge92" class="edge"><title>Node38&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M2148.47,-445.21C2328.46,-442.671 2761.91,-432.195 2811.63,-390 2918.66,-299.183 2880.52,-154.193 2762.63,-78 2712.51,-45.6053 2646.06,-31.8304 2594.86,-26.0317"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2148.23,-441.713 2138.28,-445.349 2148.32,-448.713 2148.23,-441.713"/>
 </g>
-<!-- Node38&#45;&gt;Node24 -->
-<g id="edge66" class="edge"><title>Node38&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M2758.3,-437.531C2677.05,-428.125 2546.01,-411.404 2434,-390 2429.39,-389.12 2424.66,-388.147 2419.9,-387.119"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2758.11,-441.032 2768.44,-438.697 2758.91,-434.078 2758.11,-441.032"/>
+<!-- Node38&#45;&gt;Node23 -->
+<g id="edge66" class="edge"><title>Node38&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M2123.58,-422.189C2146.96,-411.675 2174.1,-399.469 2196.26,-389.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2121.84,-419.135 2114.15,-426.428 2124.71,-425.519 2121.84,-419.135"/>
 </g>
-<!-- Node38&#45;&gt;Node30 -->
-<g id="edge95" class="edge"><title>Node38&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M2758.22,-440.38C2664.99,-432.589 2515.17,-416.403 2466,-390 2443.82,-378.091 2450.8,-358.678 2428,-348 2339.08,-306.349 1641.62,-329.516 1545,-312 1536.33,-310.429 1527.31,-308.13 1518.6,-305.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2758.21,-443.891 2768.46,-441.221 2758.78,-436.914 2758.21,-443.891"/>
+<!-- Node38&#45;&gt;Node29 -->
+<g id="edge93" class="edge"><title>Node38&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M2009.15,-421.24C1996.56,-413.208 1984.94,-402.932 1977.63,-390 1968.45,-373.749 1965.19,-361.913 1977.63,-348 2025.63,-294.333 2229.15,-326.71 2299.63,-312 2308,-310.253 2316.73,-308.027 2325.26,-305.614"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2007.59,-424.381 2017.98,-426.446 2011.14,-418.351 2007.59,-424.381"/>
+</g>
+<!-- Node38&#45;&gt;Node31 -->
+<g id="edge94" class="edge"><title>Node38&#45;&gt;Node31</title>
+<path fill="none" stroke="midnightblue" d="M2148.24,-445.776C2346.54,-444.525 2860.49,-436.757 2920.63,-390 2969.34,-352.129 2928.28,-308.568 2963.63,-258 2975.52,-240.996 2993.43,-226.404 3009.19,-215.655"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2148.16,-442.277 2138.18,-445.836 2148.2,-449.276 2148.16,-442.277"/>
 </g>
 <!-- Node38&#45;&gt;Node34 -->
-<g id="edge96" class="edge"><title>Node38&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M2892.31,-422.009C2909.76,-413.244 2928.46,-402.395 2944,-390 2975.06,-365.218 3003.25,-328.173 3018.96,-305.633"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2890.77,-418.865 2883.33,-426.4 2893.85,-425.154 2890.77,-418.865"/>
+<g id="edge95" class="edge"><title>Node38&#45;&gt;Node34</title>
+<path fill="none" stroke="midnightblue" d="M1992.8,-445.493C1755.69,-442.705 1022.25,-424.875 427.632,-312 418.555,-310.277 409.073,-308 399.837,-305.508"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1993,-448.995 2003.04,-445.607 1993.08,-441.996 1993,-448.995"/>
 </g>
 <!-- Node38&#45;&gt;Node37 -->
 <g id="edge67" class="edge"><title>Node38&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M2913.63,-433.285C2975.24,-422.812 3063.44,-406.97 3140,-390 3143.1,-389.313 3146.27,-388.587 3149.46,-387.836"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2912.87,-429.863 2903.6,-434.983 2914.04,-436.765 2912.87,-429.863"/>
+<path fill="none" stroke="midnightblue" d="M2148.41,-428.836C2196.64,-418.04 2259.84,-403.62 2315.63,-390 2318.72,-389.247 2321.87,-388.467 2325.05,-387.673"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2147.35,-425.486 2138.35,-431.083 2148.88,-432.318 2147.35,-425.486"/>
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
 <g id="a_node39"><a xlink:href="../../db/d76/TwoBodyKinematics_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Core\l/TwoBodyKinematics.hpp">
-<polygon fill="white" stroke="black" points="2996.5,-348.5 2996.5,-389.5 3131.5,-389.5 3131.5,-348.5 2996.5,-348.5"/>
-<text text-anchor="start" x="3004.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3004.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="3064" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TwoBodyKinematics.hpp</text>
+<polygon fill="white" stroke="black" points="1796.13,-348.5 1796.13,-389.5 1931.13,-389.5 1931.13,-348.5 1796.13,-348.5"/>
+<text text-anchor="start" x="1804.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1804.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="1863.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/TwoBodyKinematics.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node38&#45;&gt;Node39 -->
 <g id="edge68" class="edge"><title>Node38&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M2904.5,-423.165C2936.69,-412.437 2974.66,-399.779 3005.48,-389.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2903.1,-419.945 2894.72,-426.428 2905.31,-426.586 2903.1,-419.945"/>
+<path fill="none" stroke="midnightblue" d="M2007.68,-422.887C1978.62,-412.219 1944.5,-399.69 1916.76,-389.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2006.73,-426.267 2017.32,-426.428 2009.14,-419.696 2006.73,-426.267"/>
 </g>
 <!-- Node38&#45;&gt;Node41 -->
 <g id="edge70" class="edge"><title>Node38&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M2758.49,-424.734C2718.34,-413.718 2669.64,-400.357 2630.41,-389.594"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2757.67,-428.138 2768.24,-427.408 2759.52,-421.387 2757.67,-428.138"/>
+<path fill="none" stroke="midnightblue" d="M1992.91,-433.945C1903.27,-420.042 1756.45,-397.27 1664.35,-382.985"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1992.6,-437.438 2003.01,-435.512 1993.67,-430.521 1992.6,-437.438"/>
 </g>
 <!-- Node44 -->
 <g id="node44" class="node"><title>Node44</title>
 <g id="a_node44"><a xlink:href="../../df/d44/RootReader_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/DataReader\l/RootReader/RootReader.cpp">
-<polygon fill="white" stroke="black" points="3176.5,-174.5 3176.5,-215.5 3343.5,-215.5 3343.5,-174.5 3176.5,-174.5"/>
-<text text-anchor="start" x="3184.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="3184.5" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="3260" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootReader.cpp</text>
+<polygon fill="white" stroke="black" points="958.132,-174.5 958.132,-215.5 1125.13,-215.5 1125.13,-174.5 958.132,-174.5"/>
+<text text-anchor="start" x="966.132" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="966.132" y="-192.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="1041.63" y="-181.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RootReader/RootReader.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node38&#45;&gt;Node44 -->
-<g id="edge93" class="edge"><title>Node38&#45;&gt;Node44</title>
-<path fill="none" stroke="midnightblue" d="M2856.61,-418.029C2862.42,-409.334 2868.41,-399.525 2873,-390 2899.8,-334.425 2868.95,-297.92 2916,-258 2956.45,-223.677 3099.94,-232.218 3152,-222 3161.84,-220.069 3172.14,-217.849 3182.3,-215.538"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2853.7,-416.08 2850.91,-426.3 2859.46,-420.052 2853.7,-416.08"/>
+<g id="edge91" class="edge"><title>Node38&#45;&gt;Node44</title>
+<path fill="none" stroke="midnightblue" d="M1992.71,-446.225C1879.63,-444.829 1664.24,-435.665 1487.63,-390 1326.58,-348.358 1149.29,-255.923 1076.12,-215.528"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1992.96,-449.727 2003,-446.333 1993.04,-442.728 1992.96,-449.727"/>
 </g>
-<!-- Node46 -->
-<g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="../../d6/de4/DataCorrection_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/DataReader\l/DataCorrection.cpp">
-<polygon fill="white" stroke="black" points="2697.5,-348.5 2697.5,-389.5 2864.5,-389.5 2864.5,-348.5 2697.5,-348.5"/>
-<text text-anchor="start" x="2705.5" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="2705.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
-<text text-anchor="middle" x="2781" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataCorrection.cpp</text>
+<!-- Node45 -->
+<g id="node45" class="node"><title>Node45</title>
+<g id="a_node45"><a xlink:href="../../d6/de4/DataCorrection_8cpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/DataReader\l/DataCorrection.cpp">
+<polygon fill="white" stroke="black" points="1987.13,-348.5 1987.13,-389.5 2154.13,-389.5 2154.13,-348.5 1987.13,-348.5"/>
+<text text-anchor="start" x="1995.13" y="-377.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="1995.13" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/DataReader</text>
+<text text-anchor="middle" x="2070.63" y="-355.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DataCorrection.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node46 -->
-<g id="edge92" class="edge"><title>Node38&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M2815.77,-418.048C2808.91,-408.566 2801.4,-398.185 2795.12,-389.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2813.14,-420.379 2821.84,-426.428 2818.81,-416.275 2813.14,-420.379"/>
+<!-- Node38&#45;&gt;Node45 -->
+<g id="edge90" class="edge"><title>Node38&#45;&gt;Node45</title>
+<path fill="none" stroke="midnightblue" d="M2070.63,-416.297C2070.63,-407.301 2070.63,-397.653 2070.63,-389.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2067.13,-416.428 2070.63,-426.428 2074.13,-416.428 2067.13,-416.428"/>
 </g>
 <!-- Node39&#45;&gt;Node40 -->
 <g id="edge69" class="edge"><title>Node39&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M3141.41,-347.71C3212.54,-330.767 3232.84,-330.84 3300,-312 3306.93,-310.057 3314.15,-307.856 3321.28,-305.577"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3140.41,-344.35 3131.51,-350.099 3142.05,-351.155 3140.41,-344.35"/>
+<path fill="none" stroke="midnightblue" d="M1941.73,-348.842C1943.04,-348.556 1944.34,-348.275 1945.63,-348 2032.25,-329.499 2055.69,-333.427 2141.63,-312 2149.31,-310.085 2157.33,-307.849 2165.21,-305.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1940.57,-345.515 1931.58,-351.109 1942.1,-352.346 1940.57,-345.515"/>
 </g>
 <!-- Node41&#45;&gt;Node2 -->
 <g id="edge71" class="edge"><title>Node41&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M2465.33,-348.542C2464.21,-348.358 2463.1,-348.177 2462,-348 2293.43,-320.981 2093.37,-301.142 1990.91,-291.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2465.04,-352.044 2475.49,-350.29 2466.23,-345.145 2465.04,-352.044"/>
+<path fill="none" stroke="midnightblue" d="M1636.31,-344.464C1665.41,-332.167 1700.6,-317.291 1728.21,-305.623"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1634.95,-341.242 1627.1,-348.359 1637.67,-347.689 1634.95,-341.242"/>
 </g>
-<!-- Node41&#45;&gt;Node3 -->
-<g id="edge72" class="edge"><title>Node41&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M2511.26,-343.778C2443.52,-309.406 2320.82,-247.152 2258.52,-215.545"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2509.94,-347.033 2520.44,-348.437 2513.11,-340.791 2509.94,-347.033"/>
+<!-- Node41&#45;&gt;Node4 -->
+<g id="edge84" class="edge"><title>Node41&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M1674.45,-355.231C1727.21,-346.404 1793.72,-332.498 1850.63,-312 1931.06,-283.031 1961.1,-283.356 2020.63,-222 2047.66,-194.14 2064.19,-150.959 2072.07,-125.888"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1673.72,-351.803 1664.42,-356.875 1674.86,-358.711 1673.72,-351.803"/>
 </g>
 <!-- Node41&#45;&gt;Node5 -->
-<g id="edge86" class="edge"><title>Node41&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M2561.8,-338.269C2564.19,-293.504 2561.13,-209.615 2511,-168 2449.97,-117.334 1876.17,-145.453 1798,-132 1788.68,-130.396 1778.95,-128.115 1769.51,-125.564"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2558.29,-338.289 2561.13,-348.498 2565.28,-338.751 2558.29,-338.289"/>
+<g id="edge85" class="edge"><title>Node41&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M1674.43,-353.452C1688.23,-351.501 1702.29,-349.618 1715.63,-348 1800.06,-337.765 2020.39,-349.681 2096.63,-312 2125.95,-297.508 2117.53,-272.92 2146.63,-258 2204.42,-228.377 2391.78,-268.964 2436.63,-222 2461.05,-196.435 2456.29,-151.616 2450.83,-125.812"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1673.84,-350 1664.44,-354.882 1674.83,-356.929 1673.84,-350"/>
 </g>
-<!-- Node41&#45;&gt;Node6 -->
-<g id="edge87" class="edge"><title>Node41&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M2465.47,-348.588C2463.97,-348.382 2462.48,-348.186 2461,-348 2135.17,-307.048 2043.58,-383.193 1723,-312 1716.55,-310.569 1508.06,-226.246 1503,-222 1481.28,-203.76 1492.98,-183.151 1469,-168 1411.68,-131.777 1233.19,-141.157 1166,-132 1136.29,-127.951 1103.72,-123.05 1075.17,-118.599"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2465.07,-352.066 2475.47,-350.066 2466.09,-345.141 2465.07,-352.066"/>
+<!-- Node41&#45;&gt;Node7 -->
+<g id="edge87" class="edge"><title>Node41&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M1486.66,-367.781C1203.04,-366.6 368.2,-359.116 255.632,-312 131.275,-259.95 -25.8902,-179.674 62.6323,-78 103.74,-30.7852 281.119,-22.1058 386.359,-21.2337"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1486.9,-371.282 1496.92,-367.822 1486.93,-364.282 1486.9,-371.282"/>
 </g>
-<!-- Node41&#45;&gt;Node9 -->
-<g id="edge89" class="edge"><title>Node41&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M2584.14,-340.842C2592.26,-331.817 2601.17,-321.615 2609,-312 2689.14,-213.586 2777.02,-89.4114 2810.25,-41.8084"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2581.39,-338.667 2577.27,-348.426 2586.58,-343.368 2581.39,-338.667"/>
+<!-- Node41&#45;&gt;Node10 -->
+<g id="edge89" class="edge"><title>Node41&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M1608.7,-341.138C1632.26,-318.709 1666.89,-286 1697.63,-258 1742.33,-217.289 1753.66,-207.265 1799.63,-168 1816.46,-153.627 1835.71,-137.728 1850.49,-125.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1605.98,-338.895 1601.16,-348.328 1610.81,-343.961 1605.98,-338.895"/>
 </g>
-<!-- Node41&#45;&gt;Node11 -->
-<g id="edge91" class="edge"><title>Node41&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M2574.55,-339.271C2595.41,-296.354 2625.26,-215.48 2583,-168 2552.78,-134.05 2257.94,-115.756 2121.11,-109.035"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2571.36,-337.819 2570,-348.326 2577.62,-340.959 2571.36,-337.819"/>
+<!-- Node41&#45;&gt;Node12 -->
+<g id="edge72" class="edge"><title>Node41&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1674.44,-353.585C1688.24,-351.614 1702.3,-349.691 1715.63,-348 1791.23,-338.414 1990.9,-350.542 2056.63,-312 2094.5,-289.795 2119.35,-242.388 2130.98,-215.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1673.85,-350.134 1664.45,-355.025 1674.85,-357.062 1673.85,-350.134"/>
 </g>
 <!-- Node41&#45;&gt;Node13 -->
-<g id="edge73" class="edge"><title>Node41&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M2465.28,-348.418C2464.18,-348.273 2463.09,-348.134 2462,-348 2365.97,-336.193 1678.27,-355.802 1592,-312 1564.64,-298.11 1573.64,-276.28 1549,-258 1532.79,-245.975 1488.46,-228.814 1451.18,-215.594"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2464.88,-351.897 2475.28,-349.857 2465.88,-344.968 2464.88,-351.897"/>
+<g id="edge86" class="edge"><title>Node41&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M1581.83,-338.054C1581.4,-314.601 1577.69,-282.034 1562.63,-258 1551.42,-240.103 1532.96,-225.926 1515.84,-215.671"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1578.33,-338.122 1581.82,-348.125 1585.33,-338.127 1578.33,-338.122"/>
 </g>
-<!-- Node41&#45;&gt;Node14 -->
-<g id="edge88" class="edge"><title>Node41&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M2465.28,-348.445C2464.18,-348.291 2463.09,-348.143 2462,-348 2190.1,-312.216 2109.68,-387.402 1846,-312 1773.53,-291.277 1698.27,-242.821 1659.55,-215.546"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2464.86,-351.921 2475.27,-349.947 2465.9,-344.999 2464.86,-351.921"/>
-</g>
-<!-- Node41&#45;&gt;Node21 -->
-<g id="edge90" class="edge"><title>Node41&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M2534.49,-340.799C2503.03,-305.896 2449.24,-246.202 2421.57,-215.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2531.93,-343.184 2541.22,-348.269 2537.13,-338.498 2531.93,-343.184"/>
+<!-- Node41&#45;&gt;Node18 -->
+<g id="edge88" class="edge"><title>Node41&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M1570.36,-338.74C1559.69,-309.973 1542.78,-268.846 1529.63,-258 1527.92,-256.59 1432.5,-233.159 1360.06,-215.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1567.14,-340.132 1573.85,-348.33 1573.71,-337.736 1567.14,-340.132"/>
 </g>
 <!-- Node41&#45;&gt;Node42 -->
-<g id="edge74" class="edge"><title>Node41&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M2652.48,-352.721C2664.42,-351.002 2676.48,-349.376 2688,-348 2877.11,-325.397 2927.57,-345.789 3115,-312 3124.57,-310.275 3134.58,-307.997 3144.33,-305.505"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2651.89,-349.271 2642.5,-354.185 2652.9,-356.197 2651.89,-349.271"/>
+<g id="edge73" class="edge"><title>Node41&#45;&gt;Node42</title>
+<path fill="none" stroke="midnightblue" d="M1537.66,-343.358C1516.69,-331.334 1491.8,-317.063 1472.1,-305.765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1535.96,-346.421 1546.38,-348.359 1539.45,-340.348 1535.96,-346.421"/>
 </g>
 <!-- Node41&#45;&gt;Node43 -->
-<g id="edge75" class="edge"><title>Node41&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M2621.61,-344.874C2655.2,-332.465 2696.15,-317.341 2728.13,-305.529"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2620.06,-341.715 2611.89,-348.463 2622.49,-348.281 2620.06,-341.715"/>
+<g id="edge74" class="edge"><title>Node41&#45;&gt;Node43</title>
+<path fill="none" stroke="midnightblue" d="M1486.9,-356.175C1360.03,-340.171 1135.61,-311.859 1014.21,-296.544"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1486.63,-359.669 1496.99,-357.448 1487.5,-352.724 1486.63,-359.669"/>
+</g>
+<!-- Node43&#45;&gt;Node7 -->
+<g id="edge77" class="edge"><title>Node43&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M836.747,-282.707C725.692,-279.135 550.004,-266.395 503.632,-222 477.847,-197.314 469.095,-87.0618 466.549,-41.6474"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="836.852,-286.212 846.953,-283.016 837.064,-279.215 836.852,-286.212"/>
 </g>
 <!-- Node43&#45;&gt;Node8 -->
-<g id="edge78" class="edge"><title>Node43&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M2752.34,-257.201C2721.9,-230.307 2671.2,-189.829 2620,-168 2416.32,-81.1633 2350.21,-101.138 2130,-78 1556.05,-17.6935 1407.2,-88.9687 832,-42 809.923,-40.1973 786.09,-37.3487 764.171,-34.3604"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2750.22,-259.997 2760,-264.062 2754.89,-254.783 2750.22,-259.997"/>
+<g id="edge81" class="edge"><title>Node43&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M915.12,-255.097C910.463,-244.932 905.973,-233.236 903.632,-222 898.738,-198.504 896.248,-190.836 903.632,-168 918.813,-121.052 925.686,-102.293 968.632,-78 1017.93,-50.1143 1380.83,-32.0877 1547.88,-25.1808"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="912.069,-256.829 919.571,-264.31 918.372,-253.783 912.069,-256.829"/>
 </g>
 <!-- Node43&#45;&gt;Node9 -->
-<g id="edge80" class="edge"><title>Node43&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M2859.63,-262.078C2865.83,-260.61 2872,-259.229 2878,-258 2933.2,-246.685 3092.09,-264.579 3129,-222 3204.79,-134.559 3016.94,-70.0393 2903.24,-40.2758"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2858.8,-258.68 2849.91,-264.448 2860.45,-265.481 2858.8,-258.68"/>
+<g id="edge82" class="edge"><title>Node43&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1024.26,-277.347C1108.14,-271.571 1234.55,-263.321 1344.63,-258 1462.56,-252.299 2292.63,-252.699 2406.63,-222 2442.95,-212.221 2659.78,-90.1469 2745.14,-41.6617"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1023.98,-273.858 1014.25,-278.039 1024.47,-280.841 1023.98,-273.858"/>
 </g>
-<!-- Node43&#45;&gt;Node10 -->
-<g id="edge84" class="edge"><title>Node43&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M2778.7,-254.379C2773.33,-207.839 2755.54,-118.708 2697,-78 2679.45,-65.7992 1357.54,-32.5931 1008.65,-24.0342"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2775.23,-254.85 2779.75,-264.436 2782.2,-254.128 2775.23,-254.85"/>
+<!-- Node43&#45;&gt;Node14 -->
+<g id="edge79" class="edge"><title>Node43&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M917.222,-254.839C907.886,-229.817 899.831,-193.816 916.632,-168 930.625,-146.5 953.961,-132.4 977.609,-123.175"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="913.991,-256.187 920.952,-264.174 920.491,-253.589 913.991,-256.187"/>
 </g>
 <!-- Node43&#45;&gt;Node15 -->
-<g id="edge82" class="edge"><title>Node43&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M2687.4,-275.684C2640.99,-267.737 2586.21,-252.23 2545,-222 2522.13,-205.225 2535.6,-182.112 2511,-168 2458.06,-137.63 1473.74,-137.937 1413,-132 1386.97,-129.456 1358.75,-125.302 1333.4,-121.053"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2687.05,-279.171 2697.48,-277.314 2688.16,-272.261 2687.05,-279.171"/>
+<g id="edge80" class="edge"><title>Node43&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M925.903,-254.167C923.538,-227.427 925.146,-189.239 948.632,-168 1004.09,-117.847 1546.94,-144.68 1620.63,-132 1630.05,-130.379 1639.89,-128.09 1649.43,-125.534"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="922.429,-254.592 927.013,-264.144 929.386,-253.818 922.429,-254.592"/>
 </g>
 <!-- Node43&#45;&gt;Node16 -->
-<g id="edge83" class="edge"><title>Node43&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M2736.83,-259.524C2679.93,-228.487 2583.75,-177.811 2545,-168 2346.44,-117.732 1827.26,-157.27 1624,-132 1609.7,-130.223 1594.61,-127.634 1580.07,-124.77"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2735.16,-262.598 2745.61,-264.327 2738.52,-256.457 2735.16,-262.598"/>
+<g id="edge76" class="edge"><title>Node43&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M880.874,-260.073C851.877,-246.129 815.762,-228.762 788.448,-215.627"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="879.49,-263.29 890.019,-264.47 882.523,-256.982 879.49,-263.29"/>
 </g>
-<!-- Node43&#45;&gt;Node17 -->
-<g id="edge77" class="edge"><title>Node43&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M2848.51,-261.239C2885.07,-248.912 2930.31,-233.659 2967.85,-221.002"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2847.28,-257.958 2838.92,-264.47 2849.52,-264.592 2847.28,-257.958"/>
+<!-- Node43&#45;&gt;Node20 -->
+<g id="edge83" class="edge"><title>Node43&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M837.115,-264.943C784.632,-253.664 718.135,-238.401 659.632,-222 652.623,-220.035 645.31,-217.821 638.094,-215.535"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="836.571,-268.405 847.082,-267.073 838.034,-261.56 836.571,-268.405"/>
 </g>
-<!-- Node43&#45;&gt;Node19 -->
-<g id="edge79" class="edge"><title>Node43&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M2807.11,-256.969C2819.95,-243.673 2835.15,-227.935 2846.89,-215.78"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2804.29,-254.846 2799.86,-264.47 2809.33,-259.709 2804.29,-254.846"/>
-</g>
-<!-- Node43&#45;&gt;Node29 -->
-<g id="edge81" class="edge"><title>Node43&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M2687.37,-280.916C2385.76,-270.861 1451.29,-238.71 1316,-222 1300.82,-220.124 1284.74,-217.391 1269.33,-214.393"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2687.29,-284.416 2697.4,-281.25 2687.52,-277.419 2687.29,-284.416"/>
+<!-- Node43&#45;&gt;Node28 -->
+<g id="edge78" class="edge"><title>Node43&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M1024.26,-277.262C1108.14,-271.431 1234.55,-263.146 1344.63,-258 1604.92,-245.832 2259.06,-261.366 2516.63,-222 2526.82,-220.442 2537.49,-218.133 2547.81,-215.522"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1023.98,-273.773 1014.24,-277.961 1024.46,-280.756 1023.98,-273.773"/>
 </g>
 <!-- Node43&#45;&gt;Node44 -->
-<g id="edge76" class="edge"><title>Node43&#45;&gt;Node44</title>
-<path fill="none" stroke="midnightblue" d="M2859.09,-262.087C2865.46,-260.599 2871.82,-259.212 2878,-258 3003.28,-233.416 3037.72,-246.584 3163,-222 3172.41,-220.154 3182.25,-217.9 3191.91,-215.501"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2857.99,-258.752 2849.09,-264.499 2859.63,-265.557 2857.99,-258.752"/>
-</g>
-<!-- Node43&#45;&gt;Node45 -->
-<g id="edge85" class="edge"><title>Node43&#45;&gt;Node45</title>
-<path fill="none" stroke="midnightblue" d="M2874.67,-264.609C2888.49,-262.142 2902.59,-259.84 2916,-258 3108.63,-231.576 3159.93,-252.254 3352,-222 3363.14,-220.245 3374.83,-217.982 3386.26,-215.525"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2873.87,-261.196 2864.66,-266.432 2875.13,-268.082 2873.87,-261.196"/>
+<g id="edge75" class="edge"><title>Node43&#45;&gt;Node44</title>
+<path fill="none" stroke="midnightblue" d="M963.325,-258.081C980.383,-244.558 1000.92,-228.276 1016.68,-215.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="960.929,-255.515 955.267,-264.47 965.277,-261 960.929,-255.515"/>
 </g>
 </g>
 </svg>

@@ -97,64 +97,63 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">DalitzFitD03K.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d7b/DalitzFitD03K_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Standard header files go here</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;boost/program_options.hpp&gt;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;boost/serialization/export.hpp&gt;</span></div>
+<a href="../../db/d7b/DalitzFitD03K_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (c) 2013, 2017 The ComPWA Team.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the ComPWA framework, check</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// https://github.com/ComPWA/ComPWA/license.txt for details.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// Standard header files go here</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">// Root header files go here</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;boost/program_options.hpp&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;boost/serialization/export.hpp&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// Core header files go here</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d7d/Event_8hpp.html">Core/Event.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d65/Particle_8hpp.html">Core/Particle.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/db2/FunctionTree_8hpp.html">Core/FunctionTree.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d0c/TableFormater_8hpp.html">Core/TableFormater.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/def/AbsParameter_8hpp.html">Core/AbsParameter.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/db4/Logging_8hpp.html">Core/Logging.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// ComPWA header files go here</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d53/RootReader_8hpp.html">DataReader/RootReader/RootReader.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d5e/RootEfficiency_8hpp.html">DataReader/RootReader/RootEfficiency.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d9c/CorrectionTable_8hpp.html">DataReader/CorrectionTable.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dee/DataCorrection_8hpp.html">DataReader/DataCorrection.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/de4/MinLogLH_8hpp.html">Estimator/MinLogLH/MinLogLH.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d15/MinuitIF_8hpp.html">Optimizer/Minuit2/MinuitIF.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d89/MinuitResult_8hpp.html">Optimizer/Minuit2/MinuitResult.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d1f/HelicityFormalism_8hpp.html">Physics/HelicityFormalism.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d41/RunManager_8hpp.html">Tools/RunManager.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/ded/RootGenerator_8hpp.html">Tools/RootGenerator.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d6a/FitFractions_8hpp.html">Tools/FitFractions.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp.html">PlotData.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html">Tools.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html">systematics.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">using namespace </span>ComPWA;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">ComPWA::DataReader::RootReader</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">using namespace </span>ComPWA::Physics::HelicityFormalism;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;BOOST_CLASS_EXPORT(<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html">Optimizer::Minuit2::MinuitResult</a>)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/*****************************************************************************</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment"> * The main function.</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"> *****************************************************************************/</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../db/d7b/DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   64</a></span>&#160;int <a class="code" href="../../db/d7b/DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// Root header files go here</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// Core header files go here</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d7d/Event_8hpp.html">Core/Event.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d65/Particle_8hpp.html">Core/Particle.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dce/Parameter_8hpp.html">Core/Parameter.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d9f/ParameterList_8hpp.html">Core/ParameterList.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/db2/FunctionTree_8hpp.html">Core/FunctionTree.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d0c/TableFormater_8hpp.html">Core/TableFormater.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/def/AbsParameter_8hpp.html">Core/AbsParameter.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/db4/Logging_8hpp.html">Core/Logging.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// ComPWA header files go here</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d53/RootReader_8hpp.html">DataReader/RootReader/RootReader.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d5e/RootEfficiency_8hpp.html">DataReader/RootReader/RootEfficiency.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d9c/CorrectionTable_8hpp.html">DataReader/CorrectionTable.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dee/DataCorrection_8hpp.html">DataReader/DataCorrection.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/de4/MinLogLH_8hpp.html">Estimator/MinLogLH/MinLogLH.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d15/MinuitIF_8hpp.html">Optimizer/Minuit2/MinuitIF.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d89/MinuitResult_8hpp.html">Optimizer/Minuit2/MinuitResult.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d1f/HelicityFormalism_8hpp.html">Physics/HelicityFormalism.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d41/RunManager_8hpp.html">Tools/RunManager.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/ded/RootGenerator_8hpp.html">Tools/RootGenerator.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d6a/FitFractions_8hpp.html">Tools/FitFractions.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/de6/DalitzPlot_8hpp.html">Tools/DalitzPlot.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d65/ParameterTools_8hpp.html">Tools/ParameterTools.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html">systematics.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">using namespace </span>ComPWA;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">using</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">ComPWA::DataReader::RootReader</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">using namespace </span>ComPWA::Physics::HelicityFormalism;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;BOOST_CLASS_EXPORT(<a class="code" href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html">Optimizer::Minuit2::MinuitResult</a>)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;int <a class="code" href="../../db/d7b/DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv) {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">// Read command line input</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keyword">namespace </span>po = boost::program_options;</div>
@@ -328,7 +327,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      <span class="stringliteral">&quot;disabled, &gt;0 = MC precision&quot;</span>);</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keywordtype">bool</span> enablePlotting;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <span class="keywordtype">bool</span> plotDataSample;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <span class="keywordtype">bool</span> DalitzPlotSample;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  <span class="keywordtype">int</span> plotSize;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  <span class="keywordtype">bool</span> plotCorrectEfficiency;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  <span class="keywordtype">int</span> plotNBins;</div>
@@ -337,7 +336,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  config_plot.add_options()(<span class="stringliteral">&quot;plotting&quot;</span>,</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                            po::value&lt;bool&gt;(&amp;enablePlotting)-&gt;default_value(1),</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                            <span class="stringliteral">&quot;Enable/Disable plotting&quot;</span>)(</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <span class="stringliteral">&quot;plotData&quot;</span>, po::value&lt;bool&gt;(&amp;plotDataSample)-&gt;default_value(1),</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <span class="stringliteral">&quot;DalitzPlot&quot;</span>, po::value&lt;bool&gt;(&amp;DalitzPlotSample)-&gt;default_value(1),</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      <span class="stringliteral">&quot;Enable/Disable plotting of data&quot;</span>)(</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      <span class="stringliteral">&quot;plotSize&quot;</span>, po::value&lt;int&gt;(&amp;plotSize)-&gt;default_value(100000),</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      <span class="stringliteral">&quot;Size of sample for amplitude plot&quot;</span>)(</div>
@@ -381,7 +380,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <span class="keywordflow">if</span> (disableFileLog)</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    logFileName = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html">Logging</a> log(logFileName, boost::log::trivial::info); <span class="comment">// initialize logging</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  log.<a class="code" href="../../d8/d8a/classComPWA_1_1Logging.html#a761008c3147f87338bad5a30237acf8f">SetLogLevel</a>(logLevel);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  log.SetLogLevel(logLevel);</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="comment">// check configuration</span></div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  assert(!outputDir.empty());</div>
@@ -655,7 +654,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;plotting size: &quot;</span> &lt;&lt; plotSize;</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;number of bins: &quot;</span> &lt;&lt; plotNBins;</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;Correct samples for efficiency: &quot;</span> &lt;&lt; plotCorrectEfficiency;</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;plotDataSample: &quot;</span> &lt;&lt; plotDataSample;</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;DalitzPlotSample: &quot;</span> &lt;&lt; DalitzPlotSample;</div>
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;plotAmplitude: &quot;</span> &lt;&lt; plotAmplitude;</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  }</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;===============================================&quot;</span>;</div>
@@ -680,7 +679,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    }</div>
 <div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;</div>
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    <span class="keywordflow">if</span> (useRandomStartValues)</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;      <a class="code" href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html#a5842019f1b1914c6fd0fd07406160da8">randomStartValues</a>(fitPar);</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;      <a class="code" href="../../df/d1b/Tools_8hpp.html#a5842019f1b1914c6fd0fd07406160da8">randomStartValues</a>(fitPar);</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(debug) &lt;&lt; <span class="stringliteral">&quot;Initial LH=&quot;</span> &lt;&lt; esti-&gt;controlParameter(fitPar) &lt;&lt; <span class="stringliteral">&quot;.&quot;</span>;</div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    <span class="comment">// Use Geneva as pre fitter</span></div>
@@ -698,154 +697,151 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <span class="comment">//      preResult-&gt;print();</span></div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="comment">//    }</span></div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    std::shared_ptr&lt;Optimizer::Optimizer&gt; opti;</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="comment">// Set start error of 0.05 for parameters</span></div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <a class="code" href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html#a31a8857022a84498880cde515b7ef23b">setErrorOnParameterList</a>(fitPar, 0.05, useMinos);</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keyword">auto</span> minuitif = <span class="keyword">new</span> <a class="code" href="../../dc/dc6/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html">Optimizer::Minuit2::MinuitIF</a>(esti, fitPar);</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    minuitif-&gt;SetHesse(useHesse);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a7e991e9e94f887013efdcfc2ed21921a">SetOptimizer</a>(std::shared_ptr&lt;Optimizer::Optimizer&gt;(minuitif));</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    <span class="comment">//====== STARTING MINIMIZATION ======</span></div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    result = run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a266d116b13cd1dec100ab72a1e265653">Fit</a>(fitPar);</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <span class="comment">//====== FIT RESULT =======</span></div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="comment">//    auto minuitResult =</span></div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <span class="comment">//        dynamic_cast&lt;Optimizer::Minuit2::MinuitResult *&gt;(&amp;*result);</span></div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    finalParList = result-&gt;GetFinalParameters();</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="comment">// Calculation of fit fractions</span></div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    std::vector&lt;std::pair&lt;std::string, std::string&gt;&gt; fitComponents;</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    fitComponents.push_back(</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;phi(1020)&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="comment">//    fitComponents.push_back(std::pair&lt;std::string, std::string&gt;(</span></div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="comment">//        &quot;phi(1020) a0(980)0&quot;, &quot;D0toKSK+K-&quot;));</span></div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    fitComponents.push_back(</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a0(980)0&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    fitComponents.push_back(</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a0(980)+&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    fitComponents.push_back(</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a2(1320)-&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ff =</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#aca2fcf9e33f7607edc417af3e4f26891">Tools::CalculateFitFractions</a>(fitModelKin, intens, toyPoints, fitComponents);</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    result-&gt;SetFitFractions(ff);</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    result-&gt;Print();</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    std::ofstream ofs(fileNamePrefix + std::string(<span class="stringliteral">&quot;-fitResult.xml&quot;</span>));</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    boost::archive::xml_oarchive oa(ofs);</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    oa &lt;&lt; BOOST_SERIALIZATION_NVP(result);</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordflow">if</span> (!disableFileLog) { <span class="comment">// Write fit result</span></div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;      <span class="comment">// Save final amplitude</span></div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;      boost::property_tree::ptree ptout;</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;      ptout.add_child(<span class="stringliteral">&quot;IncoherentIntensity&quot;</span>, IncoherentIntensity::Save(intens));</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;      boost::property_tree::xml_parser::write_xml(</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;          fileNamePrefix + std::string(<span class="stringliteral">&quot;-Model.xml&quot;</span>), ptout, std::locale());</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;      <span class="comment">// Does not compile with boost1.54</span></div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;      <span class="comment">//      boost::property_tree::xml_parser::write_xml(</span></div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;      <span class="comment">//          fileNamePrefix + std::string(&quot;-Model.xml&quot;), ptout,</span></div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      <span class="comment">//          std::locale(),</span></div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;      <span class="comment">//          boost::property_tree::xml_writer_make_settings&lt;std::string&gt;(&#39;</span></div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;      <span class="comment">//          &#39;, 4,</span></div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;      <span class="comment">//                                                                      &quot;utf-8&quot;));</span></div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;      <span class="comment">//      LOG(info) &lt;&lt; &quot;Average resonance width of fit model: &quot;</span></div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;      <span class="comment">//                &lt;&lt; fitAmpSum-&gt;averageWidth();</span></div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    }</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="comment">//    if (!trueModelFile.empty()) {</span></div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="comment">//      double confLevel = std::sqrt(</span></div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <span class="comment">//          2 * (minuitResult-&gt;GetTrueLH() - minuitResult-&gt;GetFinalLH()));</span></div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    <span class="comment">//      LOG(info) &lt;&lt; &quot;CHI2 TEST: &quot;</span></div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    <span class="comment">//                &lt;&lt; &quot; finalLH = &quot; &lt;&lt; minuitResult-&gt;GetFinalLH()</span></div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    <span class="comment">//                &lt;&lt; &quot; trueLH = &quot; &lt;&lt; minuitResult-&gt;GetTrueLH()</span></div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;    <span class="comment">//                &lt;&lt; &quot; -&gt; confLevel [sigma] = &quot; &lt;&lt; confLevel;</span></div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    <span class="comment">//    }</span></div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!inputResult.empty()) {</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;Reading MinuitResult from &quot;</span> &lt;&lt; inputResult;</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    std::shared_ptr&lt;Optimizer::Minuit2::MinuitResult&gt; inResult;</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    std::ifstream ifs(inputResult);</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <span class="keywordflow">if</span> (!ifs.good())</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;input stream not good!&quot;</span>);</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    boost::archive::xml_iarchive ia(ifs);</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    ia &gt;&gt; BOOST_SERIALIZATION_NVP(inResult);</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    ifs.close();</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    inResult-&gt;SetIntensity(intens);</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    <span class="comment">//    inResult-&gt;SetUseCorrelatedErrors(fitFractionError);</span></div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="keywordflow">if</span> (calculateInterference)</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;      inResult-&gt;SetCalcInterference(0);</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <span class="comment">//    inResult-&gt;SetFitFractions(ParameterList()); // reset fractions list</span></div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    result = inResult;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    result-&gt;Print();</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;  }</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;  <span class="comment">// Fill final parameters if minimization was not run</span></div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;  <span class="keywordflow">if</span> (!finalParList.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a885ad74236815f810659995a66b810af">GetNParameter</a>()) {</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> tmpList;</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <span class="comment">//    Amplitude::FillAmpParameterToList(ampVec, tmpList);</span></div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    finalParList.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a5677c2401ae23d4f045d58cdcb00653a">DeepCopy</a>(tmpList);</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;  }</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;  <span class="comment">//======================= PLOTTING =============================</span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;  <span class="keywordflow">if</span> (enablePlotting) {</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <span class="comment">//    if (fittingMethod != &quot;plotOnly&quot;)</span></div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <span class="comment">//      Amplitude::UpdateAmpParameterList(ampVec, finalParList);</span></div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <span class="comment">//------- phase-space sample</span></div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    std::shared_ptr&lt;ComPWA::Data&gt; pl_phspSample(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>());</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;Plotting results...&quot;</span>;</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    <span class="keywordflow">if</span> (!phspEfficiencyFile.empty()) { <span class="comment">// unbinned plotting</span></div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                                       <span class="comment">// sample with accepted phsp events</span></div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;      pl_phspSample = std::shared_ptr&lt;Data&gt;(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>(</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;          phspEfficiencyFile, phspEfficiencyFileTreeName, plotSize));</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;      std::shared_ptr&lt;Data&gt; plotTruePhsp;</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;      <span class="keywordflow">if</span> (!phspEfficiencyFileTrueTreeName.empty())</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        plotTruePhsp = std::shared_ptr&lt;Data&gt;(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>(</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;            phspEfficiencyFile, phspEfficiencyFileTrueTreeName, plotSize));</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a2f5145a2f25e47e2215ac4dab15c2511">SetPhspSample</a>(pl_phspSample, plotTruePhsp);</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;      <span class="comment">// make sure no efficiency is set</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;      <span class="comment">//      Amplitude::SetAmpEfficiency(</span></div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;      <span class="comment">//          ampVec, std::shared_ptr&lt;Efficiency&gt;(new UnitEfficiency));</span></div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    } <span class="keywordflow">else</span> { <span class="comment">// binned plotting</span></div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a2f5145a2f25e47e2215ac4dab15c2511">SetPhspSample</a>(pl_phspSample);</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#adab0d718f79132c1ceb57dbbb839bc83">GeneratePhsp</a>(plotSize); <span class="comment">// we generate a very large sample for</span></div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                                  <span class="comment">// plotting</span></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    }</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="comment">// reduce sample to phsp</span></div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    pl_phspSample-&gt;ReduceToPhsp(trueModelKin);</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    pl_phspSample-&gt;SetEfficiency(trueModelKin, eff);</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="comment">//-------- Instance of plotData</span></div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <a class="code" href="../../da/d41/classplotData.html">plotData</a> pl(fitModelKin, fileNamePrefix, plotNBins);</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    <span class="comment">// set data sample</span></div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#abbd3a8c347131b4c0a39fcc168fda11e">SetData</a>(sample);</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="comment">// set phsp sample</span></div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#ac74fea5a608d9fef55ef7af8a7e307e4">SetPhspData</a>(pl_phspSample);</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="comment">// set amplitude</span></div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#a5dcf3ee2de59c3bd6c43fd5293dc7888">SetFitAmp</a>(intens, <span class="stringliteral">&quot;&quot;</span>, kBlue - 4);</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="comment">// select components to plot</span></div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#a75164a1732a22b7de611b7cd93f15aad">DrawComponent</a>(<span class="stringliteral">&quot;D0toKSK+K-&quot;</span>, <span class="stringliteral">&quot;Signal&quot;</span>, kGreen);</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#a75164a1732a22b7de611b7cd93f15aad">DrawComponent</a>(<span class="stringliteral">&quot;BkgD0toKSK+K-&quot;</span>, <span class="stringliteral">&quot;Background&quot;</span>, kRed);</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;    <span class="comment">//    pl.DrawComponent(&quot;a0(980)0&quot;, &quot;a_{0}(980)^{0}&quot;, kMagenta+2);</span></div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="comment">//    pl.DrawComponent(&quot;phi(1020)&quot;, &quot;#phi(1020)&quot;, kMagenta);</span></div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    <span class="comment">// Set start error of 0.05 for parameters</span></div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <a class="code" href="../../df/d1b/Tools_8hpp.html#a31a8857022a84498880cde515b7ef23b">setErrorOnParameterList</a>(fitPar, 0.05, useMinos);</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keyword">auto</span> minuitif = <span class="keyword">new</span> <a class="code" href="../../dc/dc6/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html">Optimizer::Minuit2::MinuitIF</a>(esti, fitPar);</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    minuitif-&gt;SetHesse(useHesse);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a7e991e9e94f887013efdcfc2ed21921a">SetOptimizer</a>(std::shared_ptr&lt;Optimizer::Optimizer&gt;(minuitif));</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <span class="comment">//====== STARTING MINIMIZATION ======</span></div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    result = run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a266d116b13cd1dec100ab72a1e265653">Fit</a>(fitPar);</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="comment">//====== FIT RESULT =======</span></div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <span class="comment">//    auto minuitResult =</span></div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="comment">//        dynamic_cast&lt;Optimizer::Minuit2::MinuitResult *&gt;(&amp;*result);</span></div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    finalParList = result-&gt;GetFinalParameters();</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    <span class="comment">// Calculation of fit fractions</span></div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    std::vector&lt;std::pair&lt;std::string, std::string&gt;&gt; fitComponents;</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    fitComponents.push_back(</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;phi(1020)&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="comment">//    fitComponents.push_back(std::pair&lt;std::string, std::string&gt;(</span></div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="comment">//        &quot;phi(1020) a0(980)0&quot;, &quot;D0toKSK+K-&quot;));</span></div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    fitComponents.push_back(</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a0(980)0&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    fitComponents.push_back(</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a0(980)+&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    fitComponents.push_back(</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        std::pair&lt;std::string, std::string&gt;(<span class="stringliteral">&quot;a2(1320)-&quot;</span>, <span class="stringliteral">&quot;D0toKSK+K-&quot;</span>));</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> ff =</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <a class="code" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#aca2fcf9e33f7607edc417af3e4f26891">Tools::CalculateFitFractions</a>(fitModelKin, intens, toyPoints, fitComponents);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    result-&gt;SetFitFractions(ff);</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    result-&gt;Print();</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    std::ofstream ofs(fileNamePrefix + std::string(<span class="stringliteral">&quot;-fitResult.xml&quot;</span>));</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    boost::archive::xml_oarchive oa(ofs);</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    oa &lt;&lt; BOOST_SERIALIZATION_NVP(result);</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    <span class="keywordflow">if</span> (!disableFileLog) { <span class="comment">// Write fit result</span></div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;      <span class="comment">// Save final amplitude</span></div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;      boost::property_tree::ptree ptout;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;      ptout.add_child(<span class="stringliteral">&quot;IncoherentIntensity&quot;</span>, IncoherentIntensity::Save(intens));</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;      boost::property_tree::xml_parser::write_xml(</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;          fileNamePrefix + std::string(<span class="stringliteral">&quot;-Model.xml&quot;</span>), ptout, std::locale());</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;      <span class="comment">// Does not compile with boost1.54</span></div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;      <span class="comment">//      boost::property_tree::xml_parser::write_xml(</span></div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;      <span class="comment">//          fileNamePrefix + std::string(&quot;-Model.xml&quot;), ptout,</span></div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;      <span class="comment">//          std::locale(),</span></div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      <span class="comment">//          boost::property_tree::xml_writer_make_settings&lt;std::string&gt;(&#39;</span></div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;      <span class="comment">//          &#39;, 4,</span></div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;      <span class="comment">//                                                                      &quot;utf-8&quot;));</span></div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;      <span class="comment">//      LOG(info) &lt;&lt; &quot;Average resonance width of fit model: &quot;</span></div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;      <span class="comment">//                &lt;&lt; fitAmpSum-&gt;averageWidth();</span></div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    }</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <span class="comment">//    if (!trueModelFile.empty()) {</span></div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="comment">//      double confLevel = std::sqrt(</span></div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="comment">//          2 * (minuitResult-&gt;GetTrueLH() - minuitResult-&gt;GetFinalLH()));</span></div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <span class="comment">//      LOG(info) &lt;&lt; &quot;CHI2 TEST: &quot;</span></div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    <span class="comment">//                &lt;&lt; &quot; finalLH = &quot; &lt;&lt; minuitResult-&gt;GetFinalLH()</span></div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    <span class="comment">//                &lt;&lt; &quot; trueLH = &quot; &lt;&lt; minuitResult-&gt;GetTrueLH()</span></div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    <span class="comment">//                &lt;&lt; &quot; -&gt; confLevel [sigma] = &quot; &lt;&lt; confLevel;</span></div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;    <span class="comment">//    }</span></div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!inputResult.empty()) {</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;Reading MinuitResult from &quot;</span> &lt;&lt; inputResult;</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;    std::shared_ptr&lt;Optimizer::Minuit2::MinuitResult&gt; inResult;</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    std::ifstream ifs(inputResult);</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    <span class="keywordflow">if</span> (!ifs.good())</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;input stream not good!&quot;</span>);</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    boost::archive::xml_iarchive ia(ifs);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    ia &gt;&gt; BOOST_SERIALIZATION_NVP(inResult);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    ifs.close();</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <span class="comment">//    inResult-&gt;SetUseCorrelatedErrors(fitFractionError);</span></div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    <span class="keywordflow">if</span> (calculateInterference)</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;      inResult-&gt;SetCalcInterference(0);</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="comment">//    inResult-&gt;SetFitFractions(ParameterList()); // reset fractions list</span></div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    result = inResult;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    result-&gt;Print();</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;  }</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;  <span class="comment">// Fill final parameters if minimization was not run</span></div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;  <span class="keywordflow">if</span> (!finalParList.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a885ad74236815f810659995a66b810af">GetNParameter</a>()) {</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> tmpList;</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <span class="comment">//    Amplitude::FillAmpParameterToList(ampVec, tmpList);</span></div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    finalParList.<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html#a5677c2401ae23d4f045d58cdcb00653a">DeepCopy</a>(tmpList);</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;  }</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;  <span class="comment">//======================= PLOTTING =============================</span></div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;  <span class="keywordflow">if</span> (enablePlotting) {</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <span class="comment">//    if (fittingMethod != &quot;plotOnly&quot;)</span></div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="comment">//      Amplitude::UpdateAmpParameterList(ampVec, finalParList);</span></div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <span class="comment">//------- phase-space sample</span></div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    std::shared_ptr&lt;ComPWA::Data&gt; pl_phspSample(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>());</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;Plotting results...&quot;</span>;</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <span class="keywordflow">if</span> (!phspEfficiencyFile.empty()) { <span class="comment">// unbinned plotting</span></div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;                                       <span class="comment">// sample with accepted phsp events</span></div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      pl_phspSample = std::shared_ptr&lt;Data&gt;(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>(</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;          phspEfficiencyFile, phspEfficiencyFileTreeName, plotSize));</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;      std::shared_ptr&lt;Data&gt; plotTruePhsp;</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;      <span class="keywordflow">if</span> (!phspEfficiencyFileTrueTreeName.empty())</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        plotTruePhsp = std::shared_ptr&lt;Data&gt;(<span class="keyword">new</span> <a class="code" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>(</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;            phspEfficiencyFile, phspEfficiencyFileTrueTreeName, plotSize));</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a2f5145a2f25e47e2215ac4dab15c2511">SetPhspSample</a>(pl_phspSample, plotTruePhsp);</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;      <span class="comment">// make sure no efficiency is set</span></div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;      <span class="comment">//      Amplitude::SetAmpEfficiency(</span></div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;      <span class="comment">//          ampVec, std::shared_ptr&lt;Efficiency&gt;(new UnitEfficiency));</span></div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    } <span class="keywordflow">else</span> { <span class="comment">// binned plotting</span></div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#a2f5145a2f25e47e2215ac4dab15c2511">SetPhspSample</a>(pl_phspSample);</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;      run.<a class="code" href="../../dc/dff/classComPWA_1_1RunManager.html#adab0d718f79132c1ceb57dbbb839bc83">GeneratePhsp</a>(plotSize); <span class="comment">// we generate a very large sample for</span></div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;                                  <span class="comment">// plotting</span></div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    }</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="comment">// reduce sample to phsp</span></div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    pl_phspSample-&gt;ReduceToPhsp(trueModelKin);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    pl_phspSample-&gt;SetEfficiency(trueModelKin, eff);</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="comment">//-------- Instance of DalitzPlot</span></div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <a class="code" href="../../da/dca/classDalitzPlot.html">DalitzPlot</a> pl(fitModelKin, fileNamePrefix, plotNBins);</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="comment">// set data sample</span></div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    pl.SetData(sample);</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    <span class="comment">// set phsp sample</span></div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    pl.SetPhspData(pl_phspSample);</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="comment">// set amplitude</span></div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    pl.SetFitAmp(intens, <span class="stringliteral">&quot;&quot;</span>, kBlue - 4);</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="comment">// select components to plot</span></div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    pl.DrawComponent(<span class="stringliteral">&quot;D0toKSK+K-&quot;</span>, <span class="stringliteral">&quot;Signal&quot;</span>, kGreen);</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    pl.DrawComponent(<span class="stringliteral">&quot;BkgD0toKSK+K-&quot;</span>, <span class="stringliteral">&quot;Background&quot;</span>, kRed);</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="comment">//    pl.DrawComponent(&quot;a0(980)0&quot;, &quot;a_{0}(980)^{0}&quot;, kMagenta+2);</span></div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="comment">//    pl.DrawComponent(&quot;phi(1020)&quot;, &quot;#phi(1020)&quot;, kMagenta);</span></div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="comment">// pl.setCorrectEfficiency(plotCorrectEfficiency);</span></div>
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="comment">// pl.setCorrectEfficiency(plotCorrectEfficiency);</span></div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <span class="comment">// Fill histograms and create canvases</span></div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    pl.<a class="code" href="../../da/d41/classplotData.html#a52c009e3c21166fac885c6f7046e035c">Plot</a>();</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;  }</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;  <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;FINISHED!&quot;</span>;</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;  <span class="comment">// Exit code is exit code of fit routine. 0 is good/ 1 is bad</span></div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  <span class="keywordflow">if</span> (result)</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="keywordflow">return</span> result-&gt;HasFailed();</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;}</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="comment">// Fill histograms and create canvases</span></div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    pl.Plot();</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;  }</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;  <a class="code" href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a>(info) &lt;&lt; <span class="stringliteral">&quot;FINISHED!&quot;</span>;</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;  <span class="comment">// Exit code is exit code of fit routine. 0 is good/ 1 is bad</span></div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;  <span class="keywordflow">if</span> (result)</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <span class="keywordflow">return</span> result-&gt;HasFailed();</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;}</div>
 <div class="ttc" id="MinuitResult_8hpp_html"><div class="ttname"><a href="../../d3/d89/MinuitResult_8hpp.html">MinuitResult.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult_html"><div class="ttname"><a href="../../d7/df4/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html">ComPWA::Optimizer::Minuit2::MinuitResult</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d89/MinuitResult_8hpp_source.html#l00047">MinuitResult.hpp:47</a></div></div>
-<div class="ttc" id="classplotData_html_a5dcf3ee2de59c3bd6c43fd5293dc7888"><div class="ttname"><a href="../../da/d41/classplotData.html#a5dcf3ee2de59c3bd6c43fd5293dc7888">plotData::SetFitAmp</a></div><div class="ttdeci">void SetFitAmp(std::shared_ptr&lt; ComPWA::AmpIntensity &gt; intens, std::string title=&quot;&quot;, Color_t color=kBlack)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df1/DalitzAnalysis__D0KsKK_2PlotData_8cpp_source.html#l00109">PlotData.cpp:109</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a11115a08d36da25dd932718ce8ae4185"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a11115a08d36da25dd932718ce8ae4185">ComPWA::RunManager::SetGenerator</a></div><div class="ttdeci">virtual void SetGenerator(std::shared_ptr&lt; Generator &gt; d)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/RunManager_8hpp_source.html#l00075">RunManager.hpp:75</a></div></div>
 <div class="ttc" id="classComPWA_1_1DataReader_1_1RootReader_html"><div class="ttname"><a href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">ComPWA::DataReader::RootReader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/RootReader_8hpp_source.html#l00035">RootReader.hpp:35</a></div></div>
 <div class="ttc" id="DataCorrection_8hpp_html"><div class="ttname"><a href="../../d2/dee/DataCorrection_8hpp.html">DataCorrection.hpp</a></div></div>
@@ -854,33 +850,31 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="MinuitIF_8hpp_html"><div class="ttname"><a href="../../da/d15/MinuitIF_8hpp.html">MinuitIF.hpp</a></div><div class="ttdoc">This class provides a wrapper around the Minuit2 library. </div></div>
 <div class="ttc" id="FitFractions_8hpp_html"><div class="ttname"><a href="../../d6/d6a/FitFractions_8hpp.html">FitFractions.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF_html"><div class="ttname"><a href="../../dc/dc6/classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html">ComPWA::Optimizer::Minuit2::MinuitIF</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d15/MinuitIF_8hpp_source.html#l00037">MinuitIF.hpp:37</a></div></div>
-<div class="ttc" id="DalitzAnalysis__D0KsKK_2PlotData_8hpp_html"><div class="ttname"><a href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp.html">PlotData.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1ParameterList_html_a885ad74236815f810659995a66b810af"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html#a885ad74236815f810659995a66b810af">ComPWA::ParameterList::GetNParameter</a></div><div class="ttdeci">virtual const std::size_t GetNParameter() const </div><div class="ttdoc">Get number of parameters. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9f/ParameterList_8hpp_source.html#l00121">ParameterList.hpp:121</a></div></div>
 <div class="ttc" id="RootEfficiency_8hpp_html"><div class="ttname"><a href="../../d5/d5e/RootEfficiency_8hpp.html">RootEfficiency.hpp</a></div></div>
-<div class="ttc" id="classplotData_html_a75164a1732a22b7de611b7cd93f15aad"><div class="ttname"><a href="../../da/d41/classplotData.html#a75164a1732a22b7de611b7cd93f15aad">plotData::DrawComponent</a></div><div class="ttdeci">void DrawComponent(std::string name, std::string title=&quot;&quot;, Color_t color=kBlack)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp_source.html#l00099">PlotData.hpp:99</a></div></div>
+<div class="ttc" id="Tools_8hpp_html_a5842019f1b1914c6fd0fd07406160da8"><div class="ttname"><a href="../../df/d1b/Tools_8hpp.html#a5842019f1b1914c6fd0fd07406160da8">randomStartValues</a></div><div class="ttdeci">void randomStartValues(ComPWA::ParameterList &amp;fitPar)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d1b/Tools_8hpp_source.html#l00053">Tools.hpp:53</a></div></div>
 <div class="ttc" id="RootGenerator_8hpp_html"><div class="ttname"><a href="../../d7/ded/RootGenerator_8hpp.html">RootGenerator.hpp</a></div></div>
-<div class="ttc" id="DalitzAnalysis__D0KsKK_2Tools_8hpp_html_a31a8857022a84498880cde515b7ef23b"><div class="ttname"><a href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html#a31a8857022a84498880cde515b7ef23b">setErrorOnParameterList</a></div><div class="ttdeci">void setErrorOnParameterList(ComPWA::ParameterList &amp;list, double error, bool asym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp_source.html#l00038">Tools.hpp:38</a></div></div>
 <div class="ttc" id="ParameterList_8hpp_html"><div class="ttname"><a href="../../df/d9f/ParameterList_8hpp.html">ParameterList.hpp</a></div><div class="ttdoc">This class provides a list of fit parameters which can have different types. </div></div>
 <div class="ttc" id="classComPWA_1_1dataPoint_html"><div class="ttname"><a href="../../d1/da0/classComPWA_1_1dataPoint.html">ComPWA::dataPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd4/DataPoint_8hpp_source.html#l00025">DataPoint.hpp:25</a></div></div>
 <div class="ttc" id="Particle_8hpp_html"><div class="ttname"><a href="../../d3/d65/Particle_8hpp.html">Particle.hpp</a></div><div class="ttdoc">This class provides a internal container for information of a particle. </div></div>
 <div class="ttc" id="Logging_8hpp_html"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html">Logging.hpp</a></div></div>
+<div class="ttc" id="Tools_8hpp_html_a31a8857022a84498880cde515b7ef23b"><div class="ttname"><a href="../../df/d1b/Tools_8hpp.html#a31a8857022a84498880cde515b7ef23b">setErrorOnParameterList</a></div><div class="ttdeci">void setErrorOnParameterList(ComPWA::ParameterList &amp;list, double error, bool asym)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d1b/Tools_8hpp_source.html#l00038">Tools.hpp:38</a></div></div>
 <div class="ttc" id="RootReader_8hpp_html"><div class="ttname"><a href="../../df/d53/RootReader_8hpp.html">RootReader.hpp</a></div><div class="ttdoc">This class reads event-based data from root-files. </div></div>
 <div class="ttc" id="CorrectionTable_8hpp_html"><div class="ttname"><a href="../../d4/d9c/CorrectionTable_8hpp.html">CorrectionTable.hpp</a></div></div>
 <div class="ttc" id="namespaceComPWA_html_ae55fa466601a74a592fda801c045f205"><div class="ttname"><a href="../../da/da9/namespaceComPWA.html#ae55fa466601a74a592fda801c045f205">ComPWA::ReadParticles</a></div><div class="ttdeci">void ReadParticles(std::shared_ptr&lt; PartList &gt; list, boost::property_tree::ptree pt)</div><div class="ttdoc">Read list of particles from a boost::property_tree. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/Properties_8hpp_source.html#l00152">Properties.hpp:152</a></div></div>
 <div class="ttc" id="HelicityFormalism_8hpp_html"><div class="ttname"><a href="../../d3/d1f/HelicityFormalism_8hpp.html">HelicityFormalism.hpp</a></div></div>
+<div class="ttc" id="DalitzPlot_8hpp_html"><div class="ttname"><a href="../../df/de6/DalitzPlot_8hpp.html">DalitzPlot.hpp</a></div></div>
 <div class="ttc" id="DalitzAnalysis__D0KsKK_2systematics_8hpp_html_a7f469d7dcef596eafdf1ee4d43241aab"><div class="ttname"><a href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html#a7f469d7dcef596eafdf1ee4d43241aab">getTrackingCorrection</a></div><div class="ttdeci">MomentumCorrection * getTrackingCorrection()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp_source.html#l00013">systematics.hpp:13</a></div></div>
-<div class="ttc" id="DalitzFitD03K_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../db/d7b/DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/DalitzFitD03K_8cpp_source.html#l00064">DalitzFitD03K.cpp:64</a></div></div>
-<div class="ttc" id="DalitzAnalysis__D0KsKK_2Tools_8hpp_html"><div class="ttname"><a href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html">Tools.hpp</a></div></div>
-<div class="ttc" id="DalitzAnalysis__D0KsKK_2Tools_8hpp_html_a5842019f1b1914c6fd0fd07406160da8"><div class="ttname"><a href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp.html#a5842019f1b1914c6fd0fd07406160da8">randomStartValues</a></div><div class="ttdeci">void randomStartValues(ComPWA::ParameterList &amp;fitPar)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9e/DalitzAnalysis__D0KsKK_2Tools_8hpp_source.html#l00053">Tools.hpp:53</a></div></div>
+<div class="ttc" id="DalitzFitD03K_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../db/d7b/DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdoc">Dalitz plot analysis of the decay D0-&gt;K_S0 K_ K-. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/DalitzFitD03K_8cpp_source.html#l00064">DalitzFitD03K.cpp:64</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a739d874de0a8e661968b1e99564f1304"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a739d874de0a8e661968b1e99564f1304">ComPWA::RunManager::SetAmplitude</a></div><div class="ttdeci">virtual void SetAmplitude(std::shared_ptr&lt; AmpIntensity &gt; intens)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/RunManager_8hpp_source.html#l00063">RunManager.hpp:63</a></div></div>
-<div class="ttc" id="classComPWA_1_1Tools_1_1RootGenerator_html"><div class="ttname"><a href="../../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html">ComPWA::Tools::RootGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ded/RootGenerator_8hpp_source.html#l00027">RootGenerator.hpp:27</a></div></div>
+<div class="ttc" id="classComPWA_1_1Tools_1_1RootGenerator_html"><div class="ttname"><a href="../../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html">ComPWA::Tools::RootGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/ded/RootGenerator_8hpp_source.html#l00024">RootGenerator.hpp:24</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a78dad00abdb8c83ba22f8f4582203c4a"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a78dad00abdb8c83ba22f8f4582203c4a">ComPWA::RunManager::SetData</a></div><div class="ttdeci">virtual void SetData(std::shared_ptr&lt; Data &gt; d)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/RunManager_8hpp_source.html#l00049">RunManager.hpp:49</a></div></div>
 <div class="ttc" id="classComPWA_1_1ParameterList_html"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9f/ParameterList_8hpp_source.html#l00032">ParameterList.hpp:32</a></div></div>
+<div class="ttc" id="classDalitzPlot_html"><div class="ttname"><a href="../../da/dca/classDalitzPlot.html">DalitzPlot</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/de6/DalitzPlot_8hpp_source.html#l00071">DalitzPlot.hpp:71</a></div></div>
+<div class="ttc" id="ParameterTools_8hpp_html"><div class="ttname"><a href="../../d7/d65/ParameterTools_8hpp.html">ParameterTools.hpp</a></div><div class="ttdoc">Collection of useful routines to modify ParameterLists. </div></div>
 <div class="ttc" id="namespaceComPWA_1_1Tools_html_aca2fcf9e33f7607edc417af3e4f26891"><div class="ttname"><a href="../../d5/d4e/namespaceComPWA_1_1Tools.html#aca2fcf9e33f7607edc417af3e4f26891">ComPWA::Tools::CalculateFitFractions</a></div><div class="ttdeci">ComPWA::ParameterList CalculateFitFractions(std::shared_ptr&lt; ComPWA::Kinematics &gt; kin, std::shared_ptr&lt; ComPWA::AmpIntensity &gt; intens, std::shared_ptr&lt; std::vector&lt; dataPoint &gt;&gt; sample, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; defs)</div><div class="ttdoc">Calculate fit fractions. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6a/FitFractions_8hpp_source.html#l00159">FitFractions.hpp:159</a></div></div>
-<div class="ttc" id="classplotData_html"><div class="ttname"><a href="../../da/d41/classplotData.html">plotData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp_source.html#l00072">PlotData.hpp:72</a></div></div>
 <div class="ttc" id="DalitzAnalysis__D0KsKK_2systematics_8hpp_html_a6d87fa387728b362af528a4fe06265d4"><div class="ttname"><a href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html#a6d87fa387728b362af528a4fe06265d4">getPidCorrection</a></div><div class="ttdeci">MomentumCorrection * getPidCorrection()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp_source.html#l00063">systematics.hpp:63</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a7e991e9e94f887013efdcfc2ed21921a"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a7e991e9e94f887013efdcfc2ed21921a">ComPWA::RunManager::SetOptimizer</a></div><div class="ttdeci">virtual void SetOptimizer(std::shared_ptr&lt; Optimizer::Optimizer &gt; d)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/RunManager_8hpp_source.html#l00067">RunManager.hpp:67</a></div></div>
-<div class="ttc" id="classplotData_html_a52c009e3c21166fac885c6f7046e035c"><div class="ttname"><a href="../../da/d41/classplotData.html#a52c009e3c21166fac885c6f7046e035c">plotData::Plot</a></div><div class="ttdeci">void Plot()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df1/DalitzAnalysis__D0KsKK_2PlotData_8cpp_source.html#l00223">PlotData.cpp:223</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html">ComPWA::RunManager</a></div><div class="ttdoc">Run-Manager for a simple fit. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d41/RunManager_8hpp_source.html#l00036">RunManager.hpp:36</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a2f5145a2f25e47e2215ac4dab15c2511"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a2f5145a2f25e47e2215ac4dab15c2511">ComPWA::RunManager::SetPhspSample</a></div><div class="ttdeci">virtual void SetPhspSample(std::shared_ptr&lt; Data &gt; phsp, std::shared_ptr&lt; Data &gt; truePhsp=std::shared_ptr&lt; Data &gt;())</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d94/RunManager_8cpp_source.html#l00063">RunManager.cpp:63</a></div></div>
 <div class="ttc" id="classComPWA_1_1RunManager_html_a438b54b714dc5694b76a2c8162781b86"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a438b54b714dc5694b76a2c8162781b86">ComPWA::RunManager::Generate</a></div><div class="ttdeci">virtual bool Generate(std::shared_ptr&lt; Kinematics &gt; kin, int number)</div><div class="ttdoc">Generate signal events by Hit&amp;Miss 1) In case no phsp sample is set and the. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d94/RunManager_8cpp_source.html#l00083">RunManager.cpp:83</a></div></div>
@@ -893,22 +887,19 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="ttc" id="classComPWA_1_1RunManager_html_a266d116b13cd1dec100ab72a1e265653"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#a266d116b13cd1dec100ab72a1e265653">ComPWA::RunManager::Fit</a></div><div class="ttdeci">virtual std::shared_ptr&lt; FitResult &gt; Fit(ParameterList &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d94/RunManager_8cpp_source.html#l00050">RunManager.cpp:50</a></div></div>
 <div class="ttc" id="DalitzAnalysis__D0KsKK_2systematics_8hpp_html"><div class="ttname"><a href="../../dc/d5d/DalitzAnalysis__D0KsKK_2systematics_8hpp.html">systematics.hpp</a></div></div>
 <div class="ttc" id="Parameter_8hpp_html"><div class="ttname"><a href="../../db/dce/Parameter_8hpp.html">Parameter.hpp</a></div><div class="ttdoc">This class implements some internal container of parameters. </div></div>
-<div class="ttc" id="AbsParameter_8hpp_html"><div class="ttname"><a href="../../d8/def/AbsParameter_8hpp.html">AbsParameter.hpp</a></div><div class="ttdoc">This class defines the internal container of a parameter. </div></div>
+<div class="ttc" id="AbsParameter_8hpp_html"><div class="ttname"><a href="../../d8/def/AbsParameter_8hpp.html">AbsParameter.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1Logging_html"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html">ComPWA::Logging</a></div><div class="ttdoc">Logging class privides an interface for logging all over the framework. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/db4/Logging_8hpp_source.html#l00046">Logging.hpp:46</a></div></div>
-<div class="ttc" id="classplotData_html_abbd3a8c347131b4c0a39fcc168fda11e"><div class="ttname"><a href="../../da/d41/classplotData.html#abbd3a8c347131b4c0a39fcc168fda11e">plotData::SetData</a></div><div class="ttdeci">void SetData(std::shared_ptr&lt; DataReader::Data &gt; dataSample)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp_source.html#l00080">PlotData.hpp:80</a></div></div>
-<div class="ttc" id="classComPWA_1_1RunManager_html_adab0d718f79132c1ceb57dbbb839bc83"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#adab0d718f79132c1ceb57dbbb839bc83">ComPWA::RunManager::GeneratePhsp</a></div><div class="ttdeci">virtual bool GeneratePhsp(int number)</div><div class="ttdoc">Generate phase space events by Hit&amp;Miss. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d94/RunManager_8cpp_source.html#l00224">RunManager.cpp:224</a></div></div>
-<div class="ttc" id="classComPWA_1_1Logging_html_a761008c3147f87338bad5a30237acf8f"><div class="ttname"><a href="../../d8/d8a/classComPWA_1_1Logging.html#a761008c3147f87338bad5a30237acf8f">ComPWA::Logging::SetLogLevel</a></div><div class="ttdeci">void SetLogLevel(boost::log::trivial::severity_level minLevel)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddf/Logging_8cpp_source.html#l00058">Logging.cpp:58</a></div></div>
+<div class="ttc" id="classComPWA_1_1RunManager_html_adab0d718f79132c1ceb57dbbb839bc83"><div class="ttname"><a href="../../dc/dff/classComPWA_1_1RunManager.html#adab0d718f79132c1ceb57dbbb839bc83">ComPWA::RunManager::GeneratePhsp</a></div><div class="ttdeci">virtual bool GeneratePhsp(int number)</div><div class="ttdoc">Generate phase space events by Hit&amp;Miss. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d94/RunManager_8cpp_source.html#l00222">RunManager.cpp:222</a></div></div>
 <div class="ttc" id="Logging_8hpp_html_ac7287b93a2311534ceb8ec2fd19ca39e"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#ac7287b93a2311534ceb8ec2fd19ca39e">LOG</a></div><div class="ttdeci">#define LOG(lvl)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db4/Logging_8hpp_source.html#l00014">Logging.hpp:14</a></div></div>
 <div class="ttc" id="classComPWA_1_1ParameterList_html_a8cbd202a3a670ce91d1bdf6e548c957b"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html#a8cbd202a3a670ce91d1bdf6e548c957b">ComPWA::ParameterList::to_str</a></div><div class="ttdeci">std::string const &amp; to_str()</div><div class="ttdoc">Get string. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd8/ParameterList_8cpp_source.html#l00237">ParameterList.cpp:237</a></div></div>
-<div class="ttc" id="MinLogLH_8hpp_html"><div class="ttname"><a href="../../d7/de4/MinLogLH_8hpp.html">MinLogLH.hpp</a></div><div class="ttdoc">This class calculates a simple -log(LH) of a intensity and a dataset. </div></div>
+<div class="ttc" id="MinLogLH_8hpp_html"><div class="ttname"><a href="../../d7/de4/MinLogLH_8hpp.html">MinLogLH.hpp</a></div></div>
 <div class="ttc" id="classComPWA_1_1DataReader_1_1Data_html"><div class="ttname"><a href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a></div><div class="ttdoc">This class provides the interface to experimental data. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d4b/Data_8hpp_source.html#l00038">Data.hpp:38</a></div></div>
 <div class="ttc" id="Event_8hpp_html"><div class="ttname"><a href="../../df/d7d/Event_8hpp.html">Event.hpp</a></div><div class="ttdoc">This class provides a internal container for event-based information. </div></div>
-<div class="ttc" id="classplotData_html_ac74fea5a608d9fef55ef7af8a7e307e4"><div class="ttname"><a href="../../da/d41/classplotData.html#ac74fea5a608d9fef55ef7af8a7e307e4">plotData::SetPhspData</a></div><div class="ttdeci">void SetPhspData(std::shared_ptr&lt; DataReader::Data &gt; phsp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d09/DalitzAnalysis__D0KsKK_2PlotData_8hpp_source.html#l00084">PlotData.hpp:84</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:25 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

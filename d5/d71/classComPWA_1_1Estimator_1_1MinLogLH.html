@@ -98,118 +98,111 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/d54/classComPWA_1_1Estimator_1_1MinLogLH-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ComPWA::Estimator::MinLogLH Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Negative Log Likelihood-Estimator.  
+ <a href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bcb6c667b5cd3ff520d3e224ad671db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a8bcb6c667b5cd3ff520d3e224ad671db">MinLogLH</a> ()</td></tr>
-<tr class="separator:a8bcb6c667b5cd3ff520d3e224ad671db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c93a2060c84ab7a5da379988e071c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ae4c93a2060c84ab7a5da379988e071c2">MinLogLH</a> (std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt; kin, std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt; amp, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt; data, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt; phspSample, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt; accSample, unsigned int startEvent, unsigned int nEvents)</td></tr>
-<tr class="memdesc:ae4c93a2060c84ab7a5da379988e071c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for MinLohLH.  <a href="#ae4c93a2060c84ab7a5da379988e071c2">More...</a><br/></td></tr>
-<tr class="separator:ae4c93a2060c84ab7a5da379988e071c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7961305d1b64df41c1b2e70864bc140"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ab7961305d1b64df41c1b2e70864bc140">~MinLogLH</a> ()</td></tr>
-<tr class="separator:ab7961305d1b64df41c1b2e70864bc140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a232569dd1c39a9c8c37d0a3dac55a41c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a232569dd1c39a9c8c37d0a3dac55a41c">controlParameter</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;minPar)</td></tr>
-<tr class="separator:a232569dd1c39a9c8c37d0a3dac55a41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81b979e5158b774baa8533b7c5490376"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a81b979e5158b774baa8533b7c5490376">HasTree</a> ()</td></tr>
-<tr class="separator:a81b979e5158b774baa8533b7c5490376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a604fefcb130e696c37d68a088a7354ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a604fefcb130e696c37d68a088a7354ef">UseFunctionTree</a> (bool onoff)</td></tr>
-<tr class="separator:a604fefcb130e696c37d68a088a7354ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4779fea644fde780b21ff1e46a7d68"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#afd4779fea644fde780b21ff1e46a7d68">GetTree</a> ()</td></tr>
-<tr class="separator:afd4779fea644fde780b21ff1e46a7d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77f59d6e9587720d34fea02469948a36"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a77f59d6e9587720d34fea02469948a36">GetIntensity</a> ()</td></tr>
-<tr class="separator:a77f59d6e9587720d34fea02469948a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a898e5dbd9a2a98094c0a9f1b58b19313"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a898e5dbd9a2a98094c0a9f1b58b19313">GetNEvents</a> ()</td></tr>
-<tr class="separator:a898e5dbd9a2a98094c0a9f1b58b19313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classComPWA_1_1IEstimator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComPWA_1_1IEstimator')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html">ComPWA::IEstimator</a></td></tr>
-<tr class="memitem:a3e10aa41c8a02a7e0bb3f3fe5e73b662 inherit pub_methods_classComPWA_1_1IEstimator"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a3e10aa41c8a02a7e0bb3f3fe5e73b662">nCalls</a> ()</td></tr>
-<tr class="separator:a3e10aa41c8a02a7e0bb3f3fe5e73b662 inherit pub_methods_classComPWA_1_1IEstimator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb55e3f6cd4e0dbe4d54685d46264a4c inherit pub_methods_classComPWA_1_1IEstimator"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#afb55e3f6cd4e0dbe4d54685d46264a4c">getNEvents</a> ()</td></tr>
-<tr class="separator:afb55e3f6cd4e0dbe4d54685d46264a4c inherit pub_methods_classComPWA_1_1IEstimator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9eef0ce3bbecaebfbecc7f6ab42c9ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#af9eef0ce3bbecaebfbecc7f6ab42c9ed">MinLogLH</a> (std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a> &gt; kin, std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a> &gt; amp, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt; data, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt; phspSample, std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt; accSample, unsigned int firstEvent, unsigned int nEvents)</td></tr>
+<tr class="memdesc:af9eef0ce3bbecaebfbecc7f6ab42c9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html" title="Negative Log Likelihood-Estimator. ">MinLogLH</a>.  <a href="#af9eef0ce3bbecaebfbecc7f6ab42c9ed">More...</a><br/></td></tr>
+<tr class="separator:af9eef0ce3bbecaebfbecc7f6ab42c9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc82a903f43eaf8a073d577455a99f5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#aabc82a903f43eaf8a073d577455a99f5">controlParameter</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a> &amp;par)</td></tr>
+<tr class="memdesc:aabc82a903f43eaf8a073d577455a99f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of minimum log likelhood function.  <a href="#aabc82a903f43eaf8a073d577455a99f5">More...</a><br/></td></tr>
+<tr class="separator:aabc82a903f43eaf8a073d577455a99f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f28b892872707e8909048d8c26344f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a97f28b892872707e8909048d8c26344f">UseFunctionTree</a> (bool onoff=true)</td></tr>
+<tr class="memdesc:a97f28b892872707e8909048d8c26344f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the use of a <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>.  <a href="#a97f28b892872707e8909048d8c26344f">More...</a><br/></td></tr>
+<tr class="separator:a97f28b892872707e8909048d8c26344f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764924744dc6847fd8aed96922af1aed"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">ComPWA::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a764924744dc6847fd8aed96922af1aed">GetTree</a> ()</td></tr>
+<tr class="memdesc:a764924744dc6847fd8aed96922af1aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>.  <a href="#a764924744dc6847fd8aed96922af1aed">More...</a><br/></td></tr>
+<tr class="separator:a764924744dc6847fd8aed96922af1aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff78547746e5b691ad8a3202d364fe37"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#aff78547746e5b691ad8a3202d364fe37">NSteps</a> ()</td></tr>
+<tr class="memdesc:aff78547746e5b691ad8a3202d364fe37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of likelihood evaluations.  <a href="#aff78547746e5b691ad8a3202d364fe37">More...</a><br/></td></tr>
+<tr class="separator:aff78547746e5b691ad8a3202d364fe37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:af44dc770a2900d21a3613fdd20cbcab5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#af44dc770a2900d21a3613fdd20cbcab5">IniLHtree</a> ()</td></tr>
+<tr class="memdesc:af44dc770a2900d21a3613fdd20cbcab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>.  <a href="#af44dc770a2900d21a3613fdd20cbcab5">More...</a><br/></td></tr>
 <tr class="separator:af44dc770a2900d21a3613fdd20cbcab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d6c61b1180e5d28d734036c24eec9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ad0d6c61b1180e5d28d734036c24eec9a">CalcSumOfWeights</a> ()</td></tr>
-<tr class="separator:ad0d6c61b1180e5d28d734036c24eec9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:afa18ddc44df87e3b77a6c50a475c79ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#afa18ddc44df87e3b77a6c50a475c79ba">Reset</a> ()</td></tr>
-<tr class="separator:afa18ddc44df87e3b77a6c50a475c79ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a626e69f63a4eaada56cca2dd749cb67d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a626e69f63a4eaada56cca2dd749cb67d">kin_</a></td></tr>
-<tr class="separator:a626e69f63a4eaada56cca2dd749cb67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07298e2115090001d4cb1a17d0a275ff"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a07298e2115090001d4cb1a17d0a275ff">_intens</a></td></tr>
-<tr class="memdesc:a07298e2115090001d4cb1a17d0a275ff"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d3e/classAmplitude.html" title="Physics Interface Base-Class. ">Amplitude</a> model.  <a href="#a07298e2115090001d4cb1a17d0a275ff">More...</a><br/></td></tr>
-<tr class="separator:a07298e2115090001d4cb1a17d0a275ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa14819c806fea7d223c0b7591de66e3e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#aa14819c806fea7d223c0b7591de66e3e">_tree</a></td></tr>
-<tr class="separator:aa14819c806fea7d223c0b7591de66e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eeaa543cbb7d72ef1430ed2f58188a6"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a1eeaa543cbb7d72ef1430ed2f58188a6">nEvts_</a></td></tr>
-<tr class="separator:a1eeaa543cbb7d72ef1430ed2f58188a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3057c04041f25bf11d6c08227cf52756"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a3057c04041f25bf11d6c08227cf52756">nPhsp_</a></td></tr>
-<tr class="separator:a3057c04041f25bf11d6c08227cf52756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acabfd8d319983d4d3ef8b65023deafac"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#acabfd8d319983d4d3ef8b65023deafac">nStartEvt_</a></td></tr>
-<tr class="memdesc:acabfd8d319983d4d3ef8b65023deafac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process data sample from position <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#acabfd8d319983d4d3ef8b65023deafac" title="Process data sample from position nStartEvt_ on. ">nStartEvt_</a> on.  <a href="#acabfd8d319983d4d3ef8b65023deafac">More...</a><br/></td></tr>
-<tr class="separator:acabfd8d319983d4d3ef8b65023deafac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a470cf2c04f83215d6513b9e1fcf01279"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a470cf2c04f83215d6513b9e1fcf01279">nUseEvt_</a></td></tr>
-<tr class="memdesc:a470cf2c04f83215d6513b9e1fcf01279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of events to process in _dataSample sample.  <a href="#a470cf2c04f83215d6513b9e1fcf01279">More...</a><br/></td></tr>
-<tr class="separator:a470cf2c04f83215d6513b9e1fcf01279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e79dffed018a7ba3f006d04d8d485d5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a6e79dffed018a7ba3f006d04d8d485d5">_dataSample</a></td></tr>
-<tr class="memdesc:a6e79dffed018a7ba3f006d04d8d485d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data sample.  <a href="#a6e79dffed018a7ba3f006d04d8d485d5">More...</a><br/></td></tr>
-<tr class="separator:a6e79dffed018a7ba3f006d04d8d485d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a782f6acf549ec65b00ca3e1992e33438"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a782f6acf549ec65b00ca3e1992e33438">_kin</a></td></tr>
+<tr class="separator:a782f6acf549ec65b00ca3e1992e33438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071705002b9268148e67a464b3312130"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a071705002b9268148e67a464b3312130">_intens</a></td></tr>
+<tr class="memdesc:a071705002b9268148e67a464b3312130"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> model.  <a href="#a071705002b9268148e67a464b3312130">More...</a><br/></td></tr>
+<tr class="separator:a071705002b9268148e67a464b3312130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f9a1c4cff4253071b78cfa4756b263"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">ComPWA::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ae6f9a1c4cff4253071b78cfa4756b263">_tree</a></td></tr>
+<tr class="separator:ae6f9a1c4cff4253071b78cfa4756b263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c944057dfdb2f4093fd3c3b0f96eca"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ab3c944057dfdb2f4093fd3c3b0f96eca">_firstEvent</a></td></tr>
+<tr class="memdesc:ab3c944057dfdb2f4093fd3c3b0f96eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process data sample from position _firstEvent on.  <a href="#ab3c944057dfdb2f4093fd3c3b0f96eca">More...</a><br/></td></tr>
+<tr class="separator:ab3c944057dfdb2f4093fd3c3b0f96eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb1e8e48e4ce1403e55614f4e36d5c5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#adeb1e8e48e4ce1403e55614f4e36d5c5">_nEvents</a></td></tr>
+<tr class="memdesc:adeb1e8e48e4ce1403e55614f4e36d5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of events to process in _dataSample sample.  <a href="#adeb1e8e48e4ce1403e55614f4e36d5c5">More...</a><br/></td></tr>
+<tr class="separator:adeb1e8e48e4ce1403e55614f4e36d5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a85b65233b834b70e95fa135b673c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#af7a85b65233b834b70e95fa135b673c7">_nCalls</a></td></tr>
+<tr class="memdesc:af7a85b65233b834b70e95fa135b673c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of likelihood evaluations.  <a href="#af7a85b65233b834b70e95fa135b673c7">More...</a><br/></td></tr>
+<tr class="separator:af7a85b65233b834b70e95fa135b673c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add514a3ad097aa17ea6fd079001d39e0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#add514a3ad097aa17ea6fd079001d39e0">_dataSample</a></td></tr>
+<tr class="memdesc:add514a3ad097aa17ea6fd079001d39e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data sample.  <a href="#add514a3ad097aa17ea6fd079001d39e0">More...</a><br/></td></tr>
+<tr class="separator:add514a3ad097aa17ea6fd079001d39e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a883275cb46cc56c2d82beee8d20dcf7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a883275cb46cc56c2d82beee8d20dcf7e">_dataSampleList</a></td></tr>
-<tr class="memdesc:a883275cb46cc56c2d82beee8d20dcf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">_dataSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#a883275cb46cc56c2d82beee8d20dcf7e">More...</a><br/></td></tr>
+<tr class="memdesc:a883275cb46cc56c2d82beee8d20dcf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">_dataSample stored 'horizontally' as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#a883275cb46cc56c2d82beee8d20dcf7e">More...</a><br/></td></tr>
 <tr class="separator:a883275cb46cc56c2d82beee8d20dcf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a217c910552c9d31e3326cdb6debb9591"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a217c910552c9d31e3326cdb6debb9591">_sumOfWeights</a></td></tr>
 <tr class="memdesc:a217c910552c9d31e3326cdb6debb9591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum of weights in _dataSample.  <a href="#a217c910552c9d31e3326cdb6debb9591">More...</a><br/></td></tr>
 <tr class="separator:a217c910552c9d31e3326cdb6debb9591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea3d47d37b62211935530bd552e85fd"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a8ea3d47d37b62211935530bd552e85fd">_phspSample</a></td></tr>
-<tr class="memdesc:a8ea3d47d37b62211935530bd552e85fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">phsp sample for normalization  <a href="#a8ea3d47d37b62211935530bd552e85fd">More...</a><br/></td></tr>
-<tr class="separator:a8ea3d47d37b62211935530bd552e85fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a952c8b35cb11dcd7128ed0266ceb7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a38a952c8b35cb11dcd7128ed0266ceb7">_phspSample</a></td></tr>
+<tr class="memdesc:a38a952c8b35cb11dcd7128ed0266ceb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">phsp sample for normalization  <a href="#a38a952c8b35cb11dcd7128ed0266ceb7">More...</a><br/></td></tr>
+<tr class="separator:a38a952c8b35cb11dcd7128ed0266ceb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9e36d642243915505bdf1281445e0a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ac9e36d642243915505bdf1281445e0a8">_phspSampleList</a></td></tr>
-<tr class="memdesc:ac9e36d642243915505bdf1281445e0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">_phspSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#ac9e36d642243915505bdf1281445e0a8">More...</a><br/></td></tr>
+<tr class="memdesc:ac9e36d642243915505bdf1281445e0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">_phspSample stored 'horizontally' as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#ac9e36d642243915505bdf1281445e0a8">More...</a><br/></td></tr>
 <tr class="separator:ac9e36d642243915505bdf1281445e0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a355d91ac82ac359963466bea3ef1fe38"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a355d91ac82ac359963466bea3ef1fe38">_phspAccSample</a></td></tr>
-<tr class="memdesc:a355d91ac82ac359963466bea3ef1fe38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phsp sample with applied efficency.  <a href="#a355d91ac82ac359963466bea3ef1fe38">More...</a><br/></td></tr>
-<tr class="separator:a355d91ac82ac359963466bea3ef1fe38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f30b414135126020e801c685d205b1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ac1f30b414135126020e801c685d205b1">_phspAccSample</a></td></tr>
+<tr class="memdesc:ac1f30b414135126020e801c685d205b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phsp sample with applied efficency.  <a href="#ac1f30b414135126020e801c685d205b1">More...</a><br/></td></tr>
+<tr class="separator:ac1f30b414135126020e801c685d205b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a008a12af8ec6c9355c7e1362113f8455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a008a12af8ec6c9355c7e1362113f8455">_phspAccSampleList</a></td></tr>
-<tr class="memdesc:a008a12af8ec6c9355c7e1362113f8455"><td class="mdescLeft">&#160;</td><td class="mdescRight">_phspAccSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#a008a12af8ec6c9355c7e1362113f8455">More...</a><br/></td></tr>
+<tr class="memdesc:a008a12af8ec6c9355c7e1362113f8455"><td class="mdescLeft">&#160;</td><td class="mdescRight">_phspAccSample 'horizontally' stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a>  <a href="#a008a12af8ec6c9355c7e1362113f8455">More...</a><br/></td></tr>
 <tr class="separator:a008a12af8ec6c9355c7e1362113f8455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae92fc772a5ba3f21b2246a713bad7a06"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#ae92fc772a5ba3f21b2246a713bad7a06">_phspAccSampleEff</a></td></tr>
 <tr class="memdesc:ae92fc772a5ba3f21b2246a713bad7a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total efficiency of phsp with applied efficency.  <a href="#ae92fc772a5ba3f21b2246a713bad7a06">More...</a><br/></td></tr>
 <tr class="separator:ae92fc772a5ba3f21b2246a713bad7a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classComPWA_1_1IEstimator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classComPWA_1_1IEstimator')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html">ComPWA::IEstimator</a></td></tr>
 <tr class="memitem:a5f32199ba3cfc3c48779c7fb27a83570 inherit pro_attribs_classComPWA_1_1IEstimator"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a5f32199ba3cfc3c48779c7fb27a83570">f</a></td></tr>
 <tr class="separator:a5f32199ba3cfc3c48779c7fb27a83570 inherit pro_attribs_classComPWA_1_1IEstimator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ec8625ac5dff4342ba77ececac7360 inherit pro_attribs_classComPWA_1_1IEstimator"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a37ec8625ac5dff4342ba77ececac7360">_calls</a></td></tr>
-<tr class="separator:a37ec8625ac5dff4342ba77ececac7360 inherit pro_attribs_classComPWA_1_1IEstimator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<div class="textblock"><p>Negative Log Likelihood-Estimator. </p>
+<p>This class calculates a simple -log(LH) using an <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> and datasets for data and phase space. The class fulfills the <a class="el" href="../../d6/d05/namespaceComPWA_1_1Estimator.html" title="Namespace for all ComPWA Estimator modules. ">Estimator</a> interface.</p>
+<dl class="section user"><dt>Log likelihood</dt><dd>The negative log LH is given by: <p class="formulaDsp">
+<img class="formulaDsp" alt="\[ -log \mathcal{L} = - \frac{N}{\sum_{ev} w_{ev}} \sum_{ev} w_{ev} \log T(ev). \]" src="../../form_1.png"/>
+</p>
+ With the the value of <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> <img class="formulaInl" alt="$T(ev)$" src="../../form_2.png"/> for a given event <img class="formulaInl" alt="$ev$" src="../../form_3.png"/>. The sum over all weights is necessary to normalize the weights to one. Otherwise the error estimate would be incorrect. <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> is normalized over the phase space region and therefore the likelihood function is also normalized.</dd></dl>
+<dl class="section user"><dt>Efficiency correction</dt><dd><a class="el" href="../../d7/d11/classComPWA_1_1Efficiency.html">Efficiency</a> correction is performed within <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a>, more details are given in <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a>. Either each event in phspSample has its efficiency stored inside or another phase space sample accSample must be provided to which the efficiency is applied. That means that accSample has passed reconstruction and selection. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for ComPWA::Estimator::MinLogLH:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dd3/classComPWA_1_1Estimator_1_1MinLogLH__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dd3/classComPWA_1_1Estimator_1_1MinLogLH__inherit__graph.svg" width="166" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -221,70 +214,45 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8bcb6c667b5cd3ff520d3e224ad671db"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ComPWA::Estimator::MinLogLH::MinLogLH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae4c93a2060c84ab7a5da379988e071c2"></a>
+<a class="anchor" id="af9eef0ce3bbecaebfbecc7f6ab42c9ed"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">MinLogLH::MinLogLH </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a> &gt;&#160;</td>
           <td class="paramname"><em>kin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a> &gt;&#160;</td>
           <td class="paramname"><em>amp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td>
           <td class="paramname"><em>phspSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a> &gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a> &gt;&#160;</td>
           <td class="paramname"><em>accSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>startEvent</em>, </td>
+          <td class="paramname"><em>firstEvent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -300,77 +268,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor for MinLohLH. </p>
-<p>An unbinned efficiency correction can be applied using <code>accSample</code>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">amp</td><td>amplitude </td></tr>
-    <tr><td class="paramname">data</td><td>data sample </td></tr>
-    <tr><td class="paramname">phspSample</td><td>phsp sample for normalization </td></tr>
-    <tr><td class="paramname">accSample</td><td>sample of efficiency applied phsp events for unbinned efficiency correction </td></tr>
-    <tr><td class="paramname">startEvent</td><td>use </td></tr>
-    <tr><td class="paramname">data</td><td>from that position on </td></tr>
-    <tr><td class="paramname">nEvents</td><td>number of events to process </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Constructor for <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html" title="Negative Log Likelihood-Estimator. ">MinLogLH</a>. </p>
 
 <p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab7961305d1b64df41c1b2e70864bc140"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual ComPWA::Estimator::MinLogLH::~MinLogLH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad0d6c61b1180e5d28d734036c24eec9a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MinLogLH::CalcSumOfWeights </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a232569dd1c39a9c8c37d0a3dac55a41c"></a>
+<a class="anchor" id="aabc82a903f43eaf8a073d577455a99f5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -380,8 +285,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">double MinLogLH::controlParameter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>minPar</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>par</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -392,13 +297,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#ae67b2c30bed2309024ba7259788f4a99">ComPWA::IEstimator</a>.</p>
+<p>Value of minimum log likelhood function. </p>
 
-<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00137">137</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
+<p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a60b1c4c94ec0dfef848284bb96167853">ComPWA::IEstimator</a>.</p>
+
+<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a77f59d6e9587720d34fea02469948a36"></a>
+<a class="anchor" id="a764924744dc6847fd8aed96922af1aed"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -406,7 +313,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a>&gt; ComPWA::Estimator::MinLogLH::GetIntensity </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt; MinLogLH::GetTree </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -414,93 +321,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#ac163ef89eeb7bf87a417047ff9eb0a64">ComPWA::IEstimator</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a898e5dbd9a2a98094c0a9f1b58b19313"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int ComPWA::Estimator::MinLogLH::GetNEvents </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00089">89</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afd4779fea644fde780b21ff1e46a7d68"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::Estimator::MinLogLH::GetTree </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Get the <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<p>If no <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> is available an std::runtime_error exception is thrown. </p>
 
 <p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#af8fd178b2b48c29c48a404a0db8527f7">ComPWA::IEstimator</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a81b979e5158b774baa8533b7c5490376"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool ComPWA::Estimator::MinLogLH::HasTree </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#aa3916e6c3657d98265cfd74218b71440">ComPWA::IEstimator</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00056">56</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
 
 </div>
 </div>
@@ -525,11 +356,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
+<p>Initialize <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<p>If the <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> model does not provide a <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> or if a tree with error is constructed, an exception is thrown. </p>
+
+<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afa18ddc44df87e3b77a6c50a475c79ba"></a>
+<a class="anchor" id="aff78547746e5b691ad8a3202d364fe37"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -537,35 +371,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MinLogLH::Reset </td>
+          <td class="memname">virtual int ComPWA::Estimator::MinLogLH::NSteps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a604fefcb130e696c37d68a088a7354ef"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::Estimator::MinLogLH::UseFunctionTree </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>onoff</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -576,12 +384,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Number of likelihood evaluations. </p>
+
+<p>Implements <a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a073bdf9c6c9748ae7f300e85d2a225de">ComPWA::IEstimator</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6e79dffed018a7ba3f006d04d8d485d5"></a>
+<a class="anchor" id="a97f28b892872707e8909048d8c26344f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -589,19 +400,49 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_dataSample</td>
+          <td class="memname">void MinLogLH::UseFunctionTree </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onoff</em> = <code>true</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Trigger the use of a <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<p>If no tree is provided by the <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> implementation an exception is thrown. </p>
+
+<p>Definition at line <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html#l00090">90</a> of file <a class="el" href="../../de/d8e/MinLogLH_8cpp_source.html">MinLogLH.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="add514a3ad097aa17ea6fd079001d39e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_dataSample</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Data sample. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00102">102</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -618,18 +459,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>_dataSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
+<p>_dataSample stored 'horizontally' as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00121">121</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00105">105</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a07298e2115090001d4cb1a17d0a275ff"></a>
+<a class="anchor" id="ab3c944057dfdb2f4093fd3c3b0f96eca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -637,23 +478,23 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a>&gt; ComPWA::Estimator::MinLogLH::_intens</td>
+          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::_firstEvent</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../d9/d3e/classAmplitude.html" title="Physics Interface Base-Class. ">Amplitude</a> model. </p>
+<p>Process data sample from position _firstEvent on. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00102">102</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a355d91ac82ac359963466bea3ef1fe38"></a>
+<a class="anchor" id="a071705002b9268148e67a464b3312130"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -661,19 +502,113 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_phspAccSample</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">ComPWA::AmpIntensity</a>&gt; ComPWA::Estimator::MinLogLH::_intens</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> model. </p>
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00086">86</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a782f6acf549ec65b00ca3e1992e33438"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a>&gt; ComPWA::Estimator::MinLogLH::_kin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7a85b65233b834b70e95fa135b673c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ComPWA::Estimator::MinLogLH::_nCalls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of likelihood evaluations. </p>
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00097">97</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adeb1e8e48e4ce1403e55614f4e36d5c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::_nEvents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of events to process in _dataSample sample. </p>
+
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1f30b414135126020e801c685d205b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_phspAccSample</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Phsp sample with applied efficency. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -690,14 +625,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Total efficiency of phsp with applied efficency. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00139">139</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -714,18 +649,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>_phspAccSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
+<p>_phspAccSample 'horizontally' stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00120">120</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8ea3d47d37b62211935530bd552e85fd"></a>
+<a class="anchor" id="a38a952c8b35cb11dcd7128ed0266ceb7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -733,19 +668,19 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_phspSample</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">ComPWA::DataReader::Data</a>&gt; ComPWA::Estimator::MinLogLH::_phspSample</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>phsp sample for normalization </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00127">127</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00111">111</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -762,14 +697,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>_phspSample stored as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
+<p>_phspSample stored 'horizontally' as <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00130">130</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -786,18 +721,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Sum of weights in _dataSample. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00124">124</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa14819c806fea7d223c0b7591de66e3e"></a>
+<a class="anchor" id="ae6f9a1c4cff4253071b78cfa4756b263"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -805,131 +740,17 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>&gt; ComPWA::Estimator::MinLogLH::_tree</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">ComPWA::FunctionTree</a>&gt; ComPWA::Estimator::MinLogLH::_tree</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a626e69f63a4eaada56cca2dd749cb67d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a>&gt; ComPWA::Estimator::MinLogLH::kin_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1eeaa543cbb7d72ef1430ed2f58188a6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::nEvts_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3057c04041f25bf11d6c08227cf52756"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::nPhsp_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00107">107</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acabfd8d319983d4d3ef8b65023deafac"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::nStartEvt_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Process data sample from position <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#acabfd8d319983d4d3ef8b65023deafac" title="Process data sample from position nStartEvt_ on. ">nStartEvt_</a> on. </p>
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00110">110</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a470cf2c04f83215d6513b9e1fcf01279"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ComPWA::Estimator::MinLogLH::nUseEvt_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Number of events to process in _dataSample sample. </p>
-
-<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html#l00088">88</a> of file <a class="el" href="../../d7/de4/MinLogLH_8hpp_source.html">MinLogLH.hpp</a>.</p>
 
 </div>
 </div>
@@ -941,7 +762,7 @@ Additional Inherited Members</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:37 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

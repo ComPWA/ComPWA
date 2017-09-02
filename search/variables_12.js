@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['s_5fdata',['s_data',['../da/d41/classplotData.html#a2a773c72f0a43bb9e7351799b6b176d9',1,'plotData']]],
-  ['s_5fhitmiss',['s_hitMiss',['../da/d41/classplotData.html#ac996e6fa5269719ee8c5dccc56fb9d96',1,'plotData']]],
-  ['s_5fphsp',['s_phsp',['../da/d41/classplotData.html#a45085a66e1bbfdf328ad0ec3cf68f811',1,'plotData']]],
+  ['s_5fdata',['s_data',['../da/d41/classplotData.html#ac2b2bd8ed028b3a509216982e6421977',1,'plotData::s_data()'],['../da/dca/classDalitzPlot.html#a96b7e73a330305fb27dbba0b686a4451',1,'DalitzPlot::s_data()']]],
+  ['s_5fhitmiss',['s_hitMiss',['../da/d41/classplotData.html#ace0317f1fc3c30379e5d570c51de9d78',1,'plotData::s_hitMiss()'],['../da/dca/classDalitzPlot.html#a1ad96e2e8b740960ca43d683cc6fd4f6',1,'DalitzPlot::s_hitMiss()']]],
+  ['s_5fphsp',['s_phsp',['../da/d41/classplotData.html#a8d545fa63796b6db2c81ecf7b4b5d6a7',1,'plotData::s_phsp()'],['../da/dca/classDalitzPlot.html#aee9e2d3f90bdae983a900cd325f74268',1,'DalitzPlot::s_phsp()']]],
   ['same_5ftype',['same_type',['../d4/dd0/classComPWA_1_1Physics_1_1QFT_1_1Conversion.html#ab43e7ffba0b71be17ec4d0747f4985bc',1,'ComPWA::Physics::QFT::Conversion::same_type()'],['../d0/d63/classComPWA_1_1Physics_1_1QFT_1_1Conversion_3_01__T_00_01__T_01_4.html#a7e12c18fe438463c2faed603d41b55e3',1,'ComPWA::Physics::QFT::Conversion&lt; _T, _T &gt;::same_type()']]],
   ['sampledata_5f',['sampleData_',['../dc/dff/classComPWA_1_1RunManager.html#aedca16fbc9adc47b209ef51e90c75474',1,'ComPWA::RunManager']]],
   ['samplephsp_5f',['samplePhsp_',['../dc/dff/classComPWA_1_1RunManager.html#a50bf611522b36bcac2d9b5fb319597b6',1,'ComPWA::RunManager']]],

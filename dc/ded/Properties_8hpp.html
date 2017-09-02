@@ -104,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;boost/property_tree/ptree.hpp&gt;</code><br/>
+<code>#include &lt;boost/property_tree/xml_parser.hpp&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d2/de9/Exceptions_8hpp_source.html">Core/Exceptions.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/dce/Parameter_8hpp_source.html">Core/Parameter.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d9/dfb/Spin_8hpp_source.html">Core/Spin.hpp</a>&gt;</code><br/>
@@ -112,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d1b/Properties_8hpp__incl.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d1b/Properties_8hpp__incl.svg" width="100%" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -163,6 +164,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae55fa466601a74a592fda801c045f205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae55fa466601a74a592fda801c045f205">ComPWA::ReadParticles</a> (std::shared_ptr&lt; PartList &gt; list, boost::property_tree::ptree pt)</td></tr>
 <tr class="memdesc:ae55fa466601a74a592fda801c045f205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read list of particles from a boost::property_tree.  <a href="#ae55fa466601a74a592fda801c045f205">More...</a><br/></td></tr>
 <tr class="separator:ae55fa466601a74a592fda801c045f205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fff17a777be17116c400198754ab325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a7fff17a777be17116c400198754ab325">ComPWA::ReadParticles</a> (std::shared_ptr&lt; PartList &gt; list, std::stringstream &amp;stream)</td></tr>
+<tr class="memdesc:a7fff17a777be17116c400198754ab325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read list of particles from a stream.  <a href="#a7fff17a777be17116c400198754ab325">More...</a><br/></td></tr>
+<tr class="separator:a7fff17a777be17116c400198754ab325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b66405809fd2929152105a05d3626f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#a0b66405809fd2929152105a05d3626f2">ComPWA::ReadParticles</a> (std::shared_ptr&lt; PartList &gt; list, std::string str)</td></tr>
+<tr class="memdesc:a0b66405809fd2929152105a05d3626f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read list of particles from a string.  <a href="#a0b66405809fd2929152105a05d3626f2">More...</a><br/></td></tr>
+<tr class="separator:a0b66405809fd2929152105a05d3626f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae797a22104aa489437e1301cd8570aab"><td class="memItemLeft" align="right" valign="top">boost::property_tree::ptree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da9/namespaceComPWA.html#ae797a22104aa489437e1301cd8570aab">ComPWA::SaveParticles</a> (std::shared_ptr&lt; PartList &gt; list)</td></tr>
 <tr class="memdesc:ae797a22104aa489437e1301cd8570aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save particle list to boost::property_tree.  <a href="#ae797a22104aa489437e1301cd8570aab">More...</a><br/></td></tr>
 <tr class="separator:ae797a22104aa489437e1301cd8570aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,7 +178,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:26 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

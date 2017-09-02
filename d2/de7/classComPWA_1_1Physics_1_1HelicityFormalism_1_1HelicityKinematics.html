@@ -218,7 +218,7 @@ double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of the <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a> interface for amplitude models using the helicity formalism. </p>
-<p>The basic functionality is the calculatation of the kinematics variables from four-momenta. The variables that are used by a <a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html">Resonance</a> within a <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> depend on the <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> in which the <a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html">Resonance</a> appears. For the helicity formalism for each <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> the invariant mass <img class="formulaInl" alt="$m^2$" src="../../form_1.png"/>, and the helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_2.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_3.png"/> are calculated (<a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#helicityangles">Helicity Angles</a>).</p>
+<p>The basic functionality is the calculatation of the kinematics variables from four-momenta. The variables that are used by a <a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html" title="Resonance class is an interface classe that resembles a two-body decay. ">Resonance</a> within a <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html" title="This class provides the interface an amplitude intensity. ">AmpIntensity</a> depend on the <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> in which the <a class="el" href="../../d5/d84/classComPWA_1_1Physics_1_1Resonance.html" title="Resonance class is an interface classe that resembles a two-body decay. ">Resonance</a> appears. For the helicity formalism for each <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> the invariant mass <img class="formulaInl" alt="$m^2$" src="../../form_4.png"/>, and the helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_5.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_6.png"/> are calculated (<a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#helicityangles">Helicity Angles</a>).</p>
 <p>The <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> is basically defined by the four-momenta of the resonance decay products and the sum of four-momenta of all other final state particles in the decay. Since usually a large number of possible SubSystems can be defined in a particle decay but only few of them are used, we introuce a bookkeeping system (<a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#dataID">DataID</a>). This increases efficiency (cpu+memory) significantly.</p>
 <h1><a class="anchor" id="dataID"></a>
 DataID</h1>
@@ -226,7 +226,7 @@ DataID</h1>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#aa8cd5811ed0f1026281ffe28d31e4e5e" title="Get ID of data for subSys. ">GetDataID(SubSystem s)</a></dd></dl>
 <h1><a class="anchor" id="helicityangles"></a>
 Helicity Angles</h1>
-<p>The helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_2.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_3.png"/> are defined as follows: A resonance R originating from another particles decays to two final state particles <img class="formulaInl" alt="$f_1,f_2$" src="../../form_4.png"/>. The momentum of the resonance R is shown in the rest frame of the parent decay while the momenta of the final state particles are boosted to the rest frame of the resonance. The helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_2.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_3.png"/> are then calculated between the momentum direction of <img class="formulaInl" alt="$f_1$" src="../../form_5.png"/> (or <img class="formulaInl" alt="$f_2$" src="../../form_6.png"/>) and the momentum direction of the resonance. A (two-dimensional) illustration is given below </p>
+<p>The helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_5.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_6.png"/> are defined as follows: A resonance R originating from another particles decays to two final state particles <img class="formulaInl" alt="$f_1,f_2$" src="../../form_7.png"/>. The momentum of the resonance R is shown in the rest frame of the parent decay while the momenta of the final state particles are boosted to the rest frame of the resonance. The helicity angles <img class="formulaInl" alt="$cos\Theta$" src="../../form_5.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_6.png"/> are then calculated between the momentum direction of <img class="formulaInl" alt="$f_1$" src="../../form_8.png"/> (or <img class="formulaInl" alt="$f_2$" src="../../form_9.png"/>) and the momentum direction of the resonance. A (two-dimensional) illustration is given below </p>
 <div class="image">
 <img src="../../HelicityAngle.png" alt="HelicityAngle.png"/>
 <div class="caption">
@@ -284,7 +284,7 @@ Helicity angle</div></div>
 <p>Create <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html" title="Implementation of the ComPWA::Kinematics interface for amplitude models using the helicity formalism...">HelicityKinematics</a> from inital and final state particle lists. </p>
 <p>The lists contain the pid of initial and final state. The position of a particle in initial or final state list is used later on for identification. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -328,7 +328,7 @@ Helicity angle</div></div>
 </div><!-- fragment --><p> The Id is the position of the particle in input data. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html" title="Implementation of the ComPWA::Kinematics interface for amplitude models using the helicity formalism...">HelicityKinematics</a>(std::vector&lt;pid&gt; initialState, std::vector&lt;pid&gt; finalState) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Helicity angle</div></div>
 </div><div class="memdoc">
 <p>We use the formulae from (PDG2016 <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">Kinematics</a> Fig.47.3). I hope the generalization to n-body decays is correct. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00288">288</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00286">286</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +483,7 @@ Helicity angle</div></div>
 
 <p>Implements <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#a6e21f32a11831ae3e892c927afed7684">ComPWA::Kinematics</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -524,16 +524,16 @@ Helicity angle</div></div>
 </div><div class="memdoc">
 
 <p>Fill <code>point</code> with variables for <code>sys</code>. </p>
-<p>The triple ( <img class="formulaInl" alt="$m^2, cos\Theta, \phi$" src="../../form_7.png"/>) is added to <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> for <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> <code>sys</code>. Invariant mass limits of the <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> can be given via <code>limits</code>. For a more general introduction see <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#helicityangles">Helicity Angles</a>. The step-by-step procedure to calculate the helicity angles is:</p>
+<p>The triple ( <img class="formulaInl" alt="$m^2, cos\Theta, \phi$" src="../../form_10.png"/>) is added to <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> for <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> <code>sys</code>. Invariant mass limits of the <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> can be given via <code>limits</code>. For a more general introduction see <a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#helicityangles">Helicity Angles</a>. The step-by-step procedure to calculate the helicity angles is:</p>
 <ol type="1">
 <li>Calculate four-momenta of center-of-mass system, resonance and of one final state particle by summing up the corresponding four-momenta given by <code>event</code>.</li>
-<li>The invariant mass <img class="formulaInl" alt="$m^2$" src="../../form_1.png"/> is directly calculated from the four-momentum of the resonance.</li>
+<li>The invariant mass <img class="formulaInl" alt="$m^2$" src="../../form_4.png"/> is directly calculated from the four-momentum of the resonance.</li>
 <li>Boost the four-momentum of the resonance to the center-of-mass frame of the parent decay.</li>
 <li>Boost the four-momentum of the final state particle in the rest frame of the resonance.</li>
-<li>Calculate <img class="formulaInl" alt="$cos\Theta$" src="../../form_2.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_3.png"/> between those boosted momenta. </li>
+<li>Calculate <img class="formulaInl" alt="$cos\Theta$" src="../../form_5.png"/> and <img class="formulaInl" alt="$\phi$" src="../../form_6.png"/> between those boosted momenta. </li>
 </ol>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ Helicity angle</div></div>
 <p>Fill <code>point</code> with variables for <code>sys</code>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d2/de7/classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a55c4d42af79da7e96a2f8f526783b2c7" title="Fill point from event. ">EventToDataPoint</a>(const <a class="el" href="../../df/d16/classComPWA_1_1Event.html">Event</a> &amp;event, <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &amp;point, <a class="el" href="../../d9/d53/classComPWA_1_1SubSystem.html" title="Definition of a two-body decay node within a sequential decay tree. ">SubSystem</a> sys, const std::pair&lt;double, double&gt; limits) const; </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Helicity angle</div></div>
 
 <p>Get phase space bounds for the invariant mass of <code>subSys</code>. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00277">277</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -700,7 +700,7 @@ Helicity angle</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00283">283</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00281">281</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -840,7 +840,7 @@ Helicity angle</div></div>
 <p>See (Martin and Spearman, Elementary <a class="el" href="../../dc/d50/classComPWA_1_1Particle.html">Particle</a> Theory. 1970) </p>
 <dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Only used as cross-check. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -870,7 +870,7 @@ Helicity angle</div></div>
 
 <p>Implements <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html#aadb25c2552af47f322517f699dc8c9f9">ComPWA::Kinematics</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d2/d8f/HelicityKinematics_8cpp_source.html">HelicityKinematics.cpp</a>.</p>
 
 </div>
 </div>
@@ -953,7 +953,7 @@ Helicity angle</div></div>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:37 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

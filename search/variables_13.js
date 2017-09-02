@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['t_5feff',['t_eff',['../dd/d89/classdalitzHisto.html#a4ad63aca0665f00b89b3812620d54c0b',1,'dalitzHisto']]],
-  ['t_5fpoint',['t_point',['../dd/d89/classdalitzHisto.html#ae4205cb3e9fde09fc296df71152c1ab1',1,'dalitzHisto']]],
-  ['t_5fweight',['t_weight',['../dd/d89/classdalitzHisto.html#a2a7b04fc63417b60a0a8e53d7a00fe23',1,'dalitzHisto']]],
+  ['t_5feff',['t_eff',['../dd/d89/classdalitzHisto.html#a4ad63aca0665f00b89b3812620d54c0b',1,'dalitzHisto::t_eff()'],['../d7/d73/classDalitzHisto.html#aa38eae359a20892bcd599e530f4926fc',1,'DalitzHisto::t_eff()']]],
+  ['t_5fpoint',['t_point',['../dd/d89/classdalitzHisto.html#a74bf25d9a4c7d46715950badd58ec324',1,'dalitzHisto::t_point()'],['../d7/d73/classDalitzHisto.html#ab4487db71f6c48d97858b90265a261cd',1,'DalitzHisto::t_point()']]],
+  ['t_5fweight',['t_weight',['../dd/d89/classdalitzHisto.html#a2a7b04fc63417b60a0a8e53d7a00fe23',1,'dalitzHisto::t_weight()'],['../d7/d73/classDalitzHisto.html#a7b332045fd506bb6683e6027cdc6f78c',1,'DalitzHisto::t_weight()']]],
   ['testslice',['testSlice',['../d3/dbc/SliceFitRANDApp_8cpp.html#a930ac975e5c7a1de403a0a999d8643bd',1,'SliceFitRANDApp.cpp']]],
   ['text_5fcolor',['text_color',['../df/d4c/structNeatPlotting_1_1TextStyle.html#ae319da19a7eddd9d8fe4e7b799b6f5ac',1,'NeatPlotting::TextStyle']]],
   ['text_5ffont',['text_font',['../df/d4c/structNeatPlotting_1_1TextStyle.html#af79ef6f2e886ed8d5440da56df1346d5',1,'NeatPlotting::TextStyle']]],

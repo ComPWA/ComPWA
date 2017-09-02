@@ -160,13 +160,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;               <span class="keyword">const</span> <span class="keywordtype">double</span> _m2, <span class="keyword">const</span> <span class="keywordtype">double</span> _J, <span class="keyword">const</span> <span class="keywordtype">double</span> _M) {</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">// convert to pure integers (each 2*spin)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordtype">int</span> j1 = (int)(2. * _j1);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a> = (int)(2. * _m1);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a> = (int)(2. * _m1);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">int</span> j2 = (int)(2. * _j2);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a> = (int)(2. * _m2);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a> = (int)(2. * _m2);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordtype">int</span> J = (int)(2. * _J);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a> = (int)(2. * _M);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a> = (int)(2. * _M);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">if</span> ((m1 + m2) != <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">if</span> ((m1 + m2) != <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">return</span> 0.;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span> (m1 &gt; j1)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> 0;</div>
@@ -178,16 +178,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">double</span> sum = 0;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">while</span> (((d3 = (j1 - j2 - M) / 2 + nu) &lt; 0) ||</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;         ((n2 = (j1 - <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a>) / 2 + nu) &lt; 0)) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;         ((n2 = (j1 - <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a>) / 2 + nu) &lt; 0)) {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    nu++;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keywordflow">while</span> (((d1 = (J - j1 + j2) / 2 - nu) &gt;= 0) &amp;&amp;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;         ((d2 = (J + <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 - nu) &gt;= 0) &amp;&amp;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;         ((d2 = (J + <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 - nu) &gt;= 0) &amp;&amp;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;         ((n1 = (j2 + J + m1) / 2 - nu) &gt;= 0)) {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    d3 = ((j1 - j2 - <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 + nu);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    n2 = ((j1 - <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a>) / 2 + nu);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    d3 = ((j1 - j2 - <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 + nu);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    n2 = ((j1 - <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a>) / 2 + nu);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    d0 = <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>((<span class="keywordtype">double</span>)nu);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    exp = nu + (j2 + <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a>) / 2;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    exp = nu + (j2 + <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a>) / 2;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    n0 = (double)pow(-1., exp);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    sum += ((n0 * <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>(n1) * <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>(n2)) /</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            (d0 * <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>(d1) * <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>(d2) * <a class="code" href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">dfact</a>(d3)));</div>
@@ -227,7 +227,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                <span class="keywordtype">double</span> _beta) {</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="keywordtype">int</span> J = 2 * _J;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a> = 2 * _M;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a> = 2 * _M;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordtype">int</span> N = 2 * _N;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordtype">double</span> beta = _beta;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
@@ -248,14 +248,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="keywordflow">if</span> (beta &lt; 0) {</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    beta = fabs(beta);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    temp_M = <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    temp_M = <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    M = N;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    N = temp_M;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  m_p_n = (M + N) / 2;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  j_p_m = (J + <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  j_m_m = (J - <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  j_p_m = (J + <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  j_m_m = (J - <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  j_p_n = (J + N) / 2;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  j_m_n = (J - N) / 2;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
@@ -270,7 +270,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    kmn1 = 2 * k - (M + N) / 2;</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    jmnk = J + (M + N) / 2 - 2 * k;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    jmk = (J + <a class="code" href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 - k;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    jmk = (J + <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a>) / 2 - k;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    jnk = (J + N) / 2 - k;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    kmn2 = k - (M + N) / 2;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
@@ -398,22 +398,22 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _Utils_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="WignerD_8h_html_a74e75242132eaabbc1c512488a135926"><div class="ttname"><a href="../../d9/d6e/WignerD_8h.html#a74e75242132eaabbc1c512488a135926">MIN</a></div><div class="ttdeci">#define MIN(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00053">WignerD.h:53</a></div></div>
+<div class="ttc" id="SliceFitApp_8cpp_html_ada5f2cdf434605648b802a0e13f67c82"><div class="ttname"><a href="../../d6/d9a/SliceFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a></div><div class="ttdeci">const Double_t m2</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9a/SliceFitApp_8cpp_source.html#l00064">SliceFitApp.cpp:64</a></div></div>
 <div class="ttc" id="WignerD_8h_html_aacc3ee1a7f283f8ef65cea31f4436a95"><div class="ttname"><a href="../../d9/d6e/WignerD_8h.html#aacc3ee1a7f283f8ef65cea31f4436a95">MAX</a></div><div class="ttdeci">#define MAX(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00052">WignerD.h:52</a></div></div>
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_ad80155caad4f12697eff88981f920045"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ad80155caad4f12697eff88981f920045">ComPWA::Physics::QFT::factorial</a></div><div class="ttdeci">int factorial(int __i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00039">WignerD.h:39</a></div></div>
-<div class="ttc" id="DalitzFitApp_8cpp_html_acb959f7b0abeddfde4175cb62025d56a"><div class="ttname"><a href="../../da/d2a/DalitzFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a></div><div class="ttdeci">const Double_t M</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2a/DalitzFitApp_8cpp_source.html#l00066">DalitzFitApp.cpp:66</a></div></div>
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_ab54d57e77d7671ecb1ac2a78208be22b"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#ab54d57e77d7671ecb1ac2a78208be22b">ComPWA::Physics::QFT::dfact</a></div><div class="ttdeci">double dfact(double __x)</div><div class="ttdoc">Utility function used by Clebsch. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00056">WignerD.h:56</a></div></div>
 <div class="ttc" id="classComPWA_1_1Spin_html"><div class="ttname"><a href="../../d4/d1a/classComPWA_1_1Spin.html">ComPWA::Spin</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dfb/Spin_8hpp_source.html#l00025">Spin.hpp:25</a></div></div>
-<div class="ttc" id="DalitzFitApp_8cpp_html_ad4b1dc0c54e834c5c1ca325ebcd66fc3"><div class="ttname"><a href="../../da/d2a/DalitzFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a></div><div class="ttdeci">const Double_t m1</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2a/DalitzFitApp_8cpp_source.html#l00068">DalitzFitApp.cpp:68</a></div></div>
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_aebf4eaa5dfeedbf22b53ac01a53092bc"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#aebf4eaa5dfeedbf22b53ac01a53092bc">ComPWA::Physics::QFT::Wigner_d</a></div><div class="ttdeci">double Wigner_d(const double _J, const double _M, const double _N, double _beta)</div><div class="ttdoc">Returns . </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00137">WignerD.h:137</a></div></div>
+<div class="ttc" id="SliceFitApp_8cpp_html_acb959f7b0abeddfde4175cb62025d56a"><div class="ttname"><a href="../../d6/d9a/SliceFitApp_8cpp.html#acb959f7b0abeddfde4175cb62025d56a">M</a></div><div class="ttdeci">const Double_t M</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9a/SliceFitApp_8cpp_source.html#l00061">SliceFitApp.cpp:61</a></div></div>
 <div class="ttc" id="classComPWA_1_1Spin_html_af478378047aaf39645be7f9145a3811b"><div class="ttname"><a href="../../d4/d1a/classComPWA_1_1Spin.html#af478378047aaf39645be7f9145a3811b">ComPWA::Spin::GetDenominator</a></div><div class="ttdeci">unsigned int GetDenominator() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dfb/Spin_8hpp_source.html#l00241">Spin.hpp:241</a></div></div>
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_aa7be03a019d19157a1a3de9f147d48b8"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#aa7be03a019d19157a1a3de9f147d48b8">ComPWA::Physics::QFT::Clebsch</a></div><div class="ttdeci">double Clebsch(const double _j1, const double _m1, const double _j2, const double _m2, const double _J, const double _M)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00064">WignerD.h:64</a></div></div>
-<div class="ttc" id="DalitzFitApp_8cpp_html_ada5f2cdf434605648b802a0e13f67c82"><div class="ttname"><a href="../../da/d2a/DalitzFitApp_8cpp.html#ada5f2cdf434605648b802a0e13f67c82">m2</a></div><div class="ttdeci">const Double_t m2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2a/DalitzFitApp_8cpp_source.html#l00069">DalitzFitApp.cpp:69</a></div></div>
+<div class="ttc" id="SliceFitApp_8cpp_html_ad4b1dc0c54e834c5c1ca325ebcd66fc3"><div class="ttname"><a href="../../d6/d9a/SliceFitApp_8cpp.html#ad4b1dc0c54e834c5c1ca325ebcd66fc3">m1</a></div><div class="ttdeci">const Double_t m1</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9a/SliceFitApp_8cpp_source.html#l00063">SliceFitApp.cpp:63</a></div></div>
 <div class="ttc" id="namespaceComPWA_1_1Physics_1_1QFT_html_a8484b00478684faab3f0cb120fddf57f"><div class="ttname"><a href="../../dd/dc0/namespaceComPWA_1_1Physics_1_1QFT.html#a8484b00478684faab3f0cb120fddf57f">ComPWA::Physics::QFT::Wigner_D</a></div><div class="ttdeci">std::complex&lt; double &gt; Wigner_D(double __alpha, double __beta, double __gamma, const double __j, const double __m, const double __n)</div><div class="ttdoc">Returns the Wigner D-function . </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6e/WignerD_8h_source.html#l00208">WignerD.h:208</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:36 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:26 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

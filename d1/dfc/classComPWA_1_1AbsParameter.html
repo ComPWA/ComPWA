@@ -107,6 +107,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="../../d9/de5/classBase.html">Base</a> class for internal parameter.  
+ <a href="../../d1/dfc/classComPWA_1_1AbsParameter.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -185,8 +188,10 @@ Friends</h2></td></tr>
 <tr class="separator:a6e7473d049c9b08dc4f9e05a0e78b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<div class="textblock"><p><a class="el" href="../../d9/de5/classBase.html">Base</a> class for internal parameter. </p>
+<p>This class defines the internal container of a parameter. For the use in the function tree, the observer pattern is used and this class takes over the role of the Subject. Therefore the actual implementations of <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html" title="Base class for internal parameter. ">AbsParameter</a> are the ConcreteSubjects of the observer pattern and the TreeNodes take the role of the observers. </p>
+
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for ComPWA::AbsParameter:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -238,7 +243,7 @@ Friends</h2></td></tr>
 
 <p>Constructor with name of parameter and optional type. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00060">60</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -265,7 +270,7 @@ Friends</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -294,7 +299,7 @@ Friends</h2></td></tr>
 
 <p>Attaches a new <a class="el" href="../../da/da8/classComPWA_1_1TreeNode.html">TreeNode</a> as Observer. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +327,7 @@ Friends</h2></td></tr>
 
 <p>Removes TreeNodes not needed as Observer anymore. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -349,7 +354,7 @@ Friends</h2></td></tr>
 
 <p>Getter for name of object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00067">67</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -430,7 +435,7 @@ Friends</h2></td></tr>
 
 <p>Notify all observing TreeNodes that parameter changed. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00095">95</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -468,7 +473,7 @@ template&lt;class archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00161">161</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00166">166</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -496,7 +501,7 @@ template&lt;class archive &gt; </div>
 
 <p>Getter for name of object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -526,7 +531,7 @@ template&lt;class archive &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>string with parameter information </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>operator&lt;&lt;, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +558,7 @@ template&lt;class archive &gt; </div>
 
 <p>Getter for type of object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00068">68</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -610,7 +615,7 @@ template&lt;class archive &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>string with parameter information </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00145">145</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -633,7 +638,7 @@ template&lt;class archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00159">159</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -674,7 +679,7 @@ template&lt;class archive &gt; </div>
 <p>Declaring the stream-operator &lt;&lt; as friend allows to stream parameter information to the output as easily as a generic type. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -714,7 +719,7 @@ template&lt;class archive &gt; </div>
 <p>Declaring the stream-operator &lt;&lt; as friend allows to stream parameter information to the output as easily as a generic type. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a397961553b509dd400aae9ed80abc891" title="Interface to output string, to be implemented by parameter implementations. ">make_str()</a>, <a class="el" href="../../d1/dfc/classComPWA_1_1AbsParameter.html#a96fa0aba11de6ace95eae03712442322" title="A public function returning a string with parameter information. ">to_str()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -739,7 +744,7 @@ template&lt;class archive &gt; </div>
 
 <p>internal name of the parameter </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00148">148</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00153">153</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -764,7 +769,7 @@ template&lt;class archive &gt; </div>
 <p>list of observers, e.g. </p>
 <p>TreeNodes </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00152">152</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00157">157</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -788,7 +793,7 @@ template&lt;class archive &gt; </div>
 
 <p>ParType enum for type of parameter. </p>
 
-<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00149">149</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html#l00154">154</a> of file <a class="el" href="../../d8/def/AbsParameter_8hpp_source.html">AbsParameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -799,7 +804,7 @@ template&lt;class archive &gt; </div>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:37 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:27 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

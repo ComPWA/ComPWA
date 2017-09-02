@@ -3,7 +3,7 @@ var searchData=
   ['absolute_5fposition_5fx',['absolute_position_x',['../de/dc5/classNeatPlotting_1_1PlotLabel.html#a8ea79d9d1f4fe1bf3659bc45f383903e',1,'NeatPlotting::PlotLabel']]],
   ['absolute_5fposition_5fy',['absolute_position_y',['../de/dc5/classNeatPlotting_1_1PlotLabel.html#a95dd98ccce97d37b6bdaa6ca4bc7df39',1,'NeatPlotting::PlotLabel']]],
   ['active',['active',['../da/d81/structNeatPlotting_1_1AxisRange.html#a8a708362981eb1bff03f5a366d8b9111',1,'NeatPlotting::AxisRange']]],
-  ['amplitude',['amplitude',['../d9/d54/structComPWA_1_1ampInfo.html#a0b9d5a33f84f48bd18609266ffbe1ae0',1,'ComPWA::ampInfo']]],
+  ['amplitudemodel',['amplitudeModel',['../dc/d7e/Examples_2DalitzFit_2DalitzFitApp_8cpp.html#a16de9f35f6f5a5f69975dd3fce512b75',1,'DalitzFitApp.cpp']]],
   ['antisys',['antiSys',['../dc/d06/classCorrectionTable.html#a375e27fe78092a32da5314705151ad9c',1,'CorrectionTable']]],
   ['antisyserror',['antiSysError',['../dc/d06/classCorrectionTable.html#af44aaee10ac6589bcb0175211f265c34',1,'CorrectionTable']]],
   ['argc',['argc',['../dc/dfe/classPythonFit.html#a37d75c5a05642a4f576943871b4771a6',1,'PythonFit']]],

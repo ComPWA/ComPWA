@@ -103,15 +103,15 @@ Build Tool: Boost.Build</h2>
 <p>The <a class="el" href="da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a> libraries and example-executables are build using the build tool provided by the boost library. First, one needs to provide some paths to external tools via environmental libraries, as can be seen in the setEnv blank file. Secondly, you call the configure.pl which looks for available modules and asks which you want to build. Now you can call bjam to compile the code. All libraries will be located in the lib folder, all binaries in the bin folder. Boost.Build uses Jamfiles for the build configuration. The main file used when bjam is called is Jamroot in the root directory of <a class="el" href="da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a>. In the subdirectories of the interfaces and the actual implementations you can find Jamfiles to manage the build process.</p>
 <h2><a class="anchor" id="step2"></a>
 Used External Libraries</h2>
-<p>The core Framework only needs a boost installation and a compiler supporting c++11. But for the examples and most likely also for starting some fits and plotting some output, it is recommended to have a root installation (for plots and maybe DataReader::Data storage/reading) and a Minuit2 (for optimization) installation ready. Besides Minuit2 also Geneva can be used as optimizer if a compatible installation is available.</p>
+<p>The core Framework only needs a boost installation and a compiler supporting c++11. But for the examples and most likely also for starting some fits and plotting some output, it is recommended to have a <a class="el" href="d0/d10/namespaceROOT.html">ROOT</a> installation (for plots and maybe DataReader::Data storage/reading) and a Minuit2 (for optimization) installation ready. Besides Minuit2 also Geneva can be used as optimizer if a compatible installation is available.</p>
 <h1><a class="anchor" id="starting"></a>
 Getting Started</h1>
-<p>A good point to start learning how <a class="el" href="da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a> works is by looking in the IntegrationTestApp.cpp executable, where a simple fit is performed using all modules of the framework. ... </p>
+<p>A good point to start learning how <a class="el" href="da/da9/namespaceComPWA.html" title="General namespace for the ComPWA modules and classes. ">ComPWA</a> works is by looking in the Examples folder. Especially Examples/DalitzFit is a very simple fitting routine. </p>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:38 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -108,37 +108,31 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae67b2c30bed2309024ba7259788f4a99"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#ae67b2c30bed2309024ba7259788f4a99">controlParameter</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;minPar)=0</td></tr>
-<tr class="separator:ae67b2c30bed2309024ba7259788f4a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3916e6c3657d98265cfd74218b71440"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#aa3916e6c3657d98265cfd74218b71440">HasTree</a> ()=0</td></tr>
-<tr class="separator:aa3916e6c3657d98265cfd74218b71440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b1c4c94ec0dfef848284bb96167853"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a60b1c4c94ec0dfef848284bb96167853">controlParameter</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;par)=0</td></tr>
+<tr class="memdesc:a60b1c4c94ec0dfef848284bb96167853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate value of <a class="el" href="../../d6/d05/namespaceComPWA_1_1Estimator.html" title="Namespace for all ComPWA Estimator modules. ">Estimator</a> given parameters <code>par</code>.  <a href="#a60b1c4c94ec0dfef848284bb96167853">More...</a><br/></td></tr>
+<tr class="separator:a60b1c4c94ec0dfef848284bb96167853"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8fd178b2b48c29c48a404a0db8527f7"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#af8fd178b2b48c29c48a404a0db8527f7">GetTree</a> ()=0</td></tr>
+<tr class="memdesc:af8fd178b2b48c29c48a404a0db8527f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>.  <a href="#af8fd178b2b48c29c48a404a0db8527f7">More...</a><br/></td></tr>
 <tr class="separator:af8fd178b2b48c29c48a404a0db8527f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac163ef89eeb7bf87a417047ff9eb0a64"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#ac163ef89eeb7bf87a417047ff9eb0a64">GetIntensity</a> ()=0</td></tr>
-<tr class="separator:ac163ef89eeb7bf87a417047ff9eb0a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e10aa41c8a02a7e0bb3f3fe5e73b662"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a3e10aa41c8a02a7e0bb3f3fe5e73b662">nCalls</a> ()</td></tr>
-<tr class="separator:a3e10aa41c8a02a7e0bb3f3fe5e73b662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb55e3f6cd4e0dbe4d54685d46264a4c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#afb55e3f6cd4e0dbe4d54685d46264a4c">getNEvents</a> ()</td></tr>
-<tr class="separator:afb55e3f6cd4e0dbe4d54685d46264a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073bdf9c6c9748ae7f300e85d2a225de"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a073bdf9c6c9748ae7f300e85d2a225de">NSteps</a> ()=0</td></tr>
+<tr class="memdesc:a073bdf9c6c9748ae7f300e85d2a225de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kind for status flag during the minimization process.  <a href="#a073bdf9c6c9748ae7f300e85d2a225de">More...</a><br/></td></tr>
+<tr class="separator:a073bdf9c6c9748ae7f300e85d2a225de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a5f32199ba3cfc3c48779c7fb27a83570"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a5f32199ba3cfc3c48779c7fb27a83570">f</a></td></tr>
 <tr class="separator:a5f32199ba3cfc3c48779c7fb27a83570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ec8625ac5dff4342ba77ececac7360"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d1d/classComPWA_1_1IEstimator.html#a37ec8625ac5dff4342ba77ececac7360">_calls</a></td></tr>
-<tr class="separator:a37ec8625ac5dff4342ba77ececac7360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for ComPWA::IEstimator:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/dd8/classComPWA_1_1IEstimator__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd8/classComPWA_1_1IEstimator__inherit__graph.svg" width="343" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -146,11 +140,11 @@ Protected Attributes</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dba/classComPWA_1_1IEstimator__coll__graph.svg" width="158" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dba/classComPWA_1_1IEstimator__coll__graph.svg" width="158" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae67b2c30bed2309024ba7259788f4a99"></a>
+<a class="anchor" id="a60b1c4c94ec0dfef848284bb96167853"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -161,7 +155,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">virtual double ComPWA::IEstimator::controlParameter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;&#160;</td>
-          <td class="paramname"><em>minPar</em></td><td>)</td>
+          <td class="paramname"><em>par</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -172,57 +166,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a232569dd1c39a9c8c37d0a3dac55a41c">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a01aed70ef28801d04721b8c5068faa15">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
+<p>Calculate value of <a class="el" href="../../d6/d05/namespaceComPWA_1_1Estimator.html" title="Namespace for all ComPWA Estimator modules. ">Estimator</a> given parameters <code>par</code>. </p>
 
-</div>
-</div>
-<a class="anchor" id="ac163ef89eeb7bf87a417047ff9eb0a64"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a>&gt; ComPWA::IEstimator::GetIntensity </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a77f59d6e9587720d34fea02469948a36">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aaf9df1387157f1fca4b071f33517b896">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afb55e3f6cd4e0dbe4d54685d46264a4c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int ComPWA::IEstimator::getNEvents </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#aabc82a903f43eaf8a073d577455a99f5">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a01aed70ef28801d04721b8c5068faa15">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
 
 </div>
 </div>
@@ -247,11 +193,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#afd4779fea644fde780b21ff1e46a7d68">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aeb901894243421ee1f2b7ac12b5a2305">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
+<p>Get the <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<p>If no <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> is available an exception is thrown. </p>
+
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a764924744dc6847fd8aed96922af1aed">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aeb901894243421ee1f2b7ac12b5a2305">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa3916e6c3657d98265cfd74218b71440"></a>
+<a class="anchor" id="a073bdf9c6c9748ae7f300e85d2a225de"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -259,7 +208,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ComPWA::IEstimator::HasTree </td>
+          <td class="memname">virtual int ComPWA::IEstimator::NSteps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -272,58 +221,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#a81b979e5158b774baa8533b7c5490376">ComPWA::Estimator::MinLogLH</a>, and <a class="el" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aa8be362b96891df0388db5b1d1c8ac8a">ComPWA::Estimator::ChiOneD::ChiOneD</a>.</p>
+<p>Kind for status flag during the minimization process. </p>
+<p>(e.g. number of likelihood evaluations) </p>
 
-</div>
-</div>
-<a class="anchor" id="a3e10aa41c8a02a7e0bb3f3fe5e73b662"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int ComPWA::IEstimator::nCalls </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
+<p>Implemented in <a class="el" href="../../d5/d71/classComPWA_1_1Estimator_1_1MinLogLH.html#aff78547746e5b691ad8a3202d364fe37">ComPWA::Estimator::MinLogLH</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a37ec8625ac5dff4342ba77ececac7360"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ComPWA::IEstimator::_calls</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a5f32199ba3cfc3c48779c7fb27a83570"></a>
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +247,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d10/Estimator_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d5/d10/Estimator_8hpp_source.html">Estimator.hpp</a>.</p>
 
 </div>
 </div>
@@ -353,7 +258,7 @@ Protected Attributes</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:37 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:27 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

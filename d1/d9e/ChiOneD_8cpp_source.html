@@ -115,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">using</span> DataReader::Data;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d8/dff/classEstimator.html">Estimator</a> {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d7/d79/classChiOneD.html">ChiOneD</a> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d0/d38/namespaceComPWA_1_1Estimator_1_1ChiOneD.html">   19</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html">ChiOneD</a> {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a1d026a7e4e3b0a18214f9647ecb2339b">   21</a></span>&#160;<a class="code" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html">ChiOneD::ChiOneD</a>(std::shared_ptr&lt;Kinematics&gt; kin,</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                 std::shared_ptr&lt;AmpIntensity&gt; inPIF,</div>
@@ -123,10 +123,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    : pPIF_(inPIF), pDIF_(inDIF) {}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a01aed70ef28801d04721b8c5068faa15">   26</a></span>&#160;<span class="keywordtype">double</span> ChiOneD::controlParameter(<a class="code" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;minPar) {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a> = <a class="code" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a2b96cee9286679d28f32561aed5dd8c6">pDIF_</a>-&gt;GetNBins();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a> = <a class="code" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a2b96cee9286679d28f32561aed5dd8c6">pDIF_</a>-&gt;GetNBins();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordtype">double</span> chi = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> bin = 0; bin &lt; <a class="code" href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a>; bin++) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> bin = 0; bin &lt; <a class="code" href="../../d6/d9a/SliceFitApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a>; bin++) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">double</span> m12, weight;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a2b96cee9286679d28f32561aed5dd8c6">pDIF_</a>-&gt;GetBin(bin, m12, weight);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
@@ -147,10 +147,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;} <span class="comment">/* namespace ChiOneD */</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;} <span class="comment">/* namespace Estimator */</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;} <span class="comment">/* namespace ComPWA */</span></div>
+<div class="ttc" id="SliceFitApp_8cpp_html_a96a67ad10aa115cb67ad96beb4c9f696"><div class="ttname"><a href="../../d6/d9a/SliceFitApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a></div><div class="ttdeci">unsigned int nBins</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9a/SliceFitApp_8cpp_source.html#l00071">SliceFitApp.cpp:71</a></div></div>
 <div class="ttc" id="ParameterList_8hpp_html"><div class="ttname"><a href="../../df/d9f/ParameterList_8hpp.html">ParameterList.hpp</a></div><div class="ttdoc">This class provides a list of fit parameters which can have different types. </div></div>
-<div class="ttc" id="DalitzDataPlotterApp_8cpp_html_a96a67ad10aa115cb67ad96beb4c9f696"><div class="ttname"><a href="../../d4/d8c/DalitzDataPlotterApp_8cpp.html#a96a67ad10aa115cb67ad96beb4c9f696">nBins</a></div><div class="ttdeci">unsigned int nBins</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d8c/DalitzDataPlotterApp_8cpp_source.html#l00047">DalitzDataPlotterApp.cpp:47</a></div></div>
 <div class="ttc" id="ChiOneD_8hpp_html"><div class="ttname"><a href="../../d5/d8d/ChiOneD_8hpp.html">ChiOneD.hpp</a></div><div class="ttdoc">This class calculates a simple  of a intensity and a dataset. </div></div>
-<div class="ttc" id="classChiOneD_html"><div class="ttname"><a href="../../d7/d79/classChiOneD.html">ChiOneD</a></div><div class="ttdoc">Simple -Estimator. </div></div>
 <div class="ttc" id="classComPWA_1_1ParameterList_html"><div class="ttname"><a href="../../d2/d1c/classComPWA_1_1ParameterList.html">ComPWA::ParameterList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9f/ParameterList_8hpp_source.html#l00032">ParameterList.hpp:32</a></div></div>
 <div class="ttc" id="classEstimator_html"><div class="ttname"><a href="../../d8/dff/classEstimator.html">Estimator</a></div><div class="ttdoc">Estimator Interface Base-Class. </div></div>
 <div class="ttc" id="classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD_html_a2b96cee9286679d28f32561aed5dd8c6"><div class="ttname"><a href="../../d9/ddf/classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a2b96cee9286679d28f32561aed5dd8c6">ComPWA::Estimator::ChiOneD::ChiOneD::pDIF_</a></div><div class="ttdeci">std::shared_ptr&lt; DataReader::Data &gt; pDIF_</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8d/ChiOneD_8hpp_source.html#l00053">ChiOneD.hpp:53</a></div></div>
@@ -159,7 +158,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 29 2017 05:15:35 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 2 2017 11:45:25 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -7,8 +7,8 @@ var searchData=
   ['complexify',['Complexify',['../d0/dc9/classComPWA_1_1Complexify.html',1,'ComPWA']]],
   ['complexparameter',['ComplexParameter',['../da/dd8/classComPWA_1_1ComplexParameter.html',1,'ComPWA']]],
   ['constant',['Constant',['../d3/dc6/classComPWA_1_1Constant.html',1,'ComPWA']]],
-  ['conversion',['Conversion',['../dc/d41/classConversion.html',1,'']]],
   ['conversion',['Conversion',['../d4/dd0/classComPWA_1_1Physics_1_1QFT_1_1Conversion.html',1,'ComPWA::Physics::QFT']]],
+  ['conversion',['Conversion',['../dc/d41/classConversion.html',1,'']]],
   ['conversion_3c_20_5ft_2c_20_5ft_20_3e',['Conversion&lt; _T, _T &gt;',['../d0/d63/classComPWA_1_1Physics_1_1QFT_1_1Conversion_3_01__T_00_01__T_01_4.html',1,'ComPWA::Physics::QFT']]],
   ['correctiontable',['CorrectionTable',['../dc/d06/classCorrectionTable.html',1,'']]],
   ['coupling',['Coupling',['../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html',1,'ComPWA::Physics::DecayDynamics']]]
