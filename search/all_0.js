@@ -59,7 +59,7 @@ var searchData=
   ['_5fmassa',['_massA',['../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a51db4ef89b041e8250bf04579d30fbe6',1,'ComPWA::Physics::DecayDynamics::Coupling']]],
   ['_5fmassb',['_massB',['../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a580d9915bb8e00b8889143c9e5aa3712',1,'ComPWA::Physics::DecayDynamics::Coupling']]],
   ['_5fmcprecision',['_mcPrecision',['../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a9c4b5828834976ba5d88151ab62ecd64',1,'ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction']]],
-  ['_5fmesonradius',['_mesonRadius',['../d7/d84/classComPWA_1_1Physics_1_1DecayDynamics_1_1AmpFlatteRes.html#a27990031f9ce2cf8f644367e2c003f7a',1,'ComPWA::Physics::DecayDynamics::AmpFlatteRes::_mesonRadius()'],['../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#ad2031622f5667c0d5846ff385a034670',1,'ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::_mesonRadius()']]],
+  ['_5fmesonradius',['_mesonRadius',['../d7/d84/classComPWA_1_1Physics_1_1DecayDynamics_1_1AmpFlatteRes.html#a27990031f9ce2cf8f644367e2c003f7a',1,'ComPWA::Physics::DecayDynamics::AmpFlatteRes::_mesonRadius()'],['../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a9bf1778bed317da37bd2131978a7a468',1,'ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::_mesonRadius()']]],
   ['_5fmodified',['_modified',['../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a63495d45f2ea91885dae6bc235d7e184',1,'ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction']]],
   ['_5fmu',['_mu',['../dc/d3c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpWignerD.html#a404256a74c68f316d16c35890ea2768a',1,'ComPWA::Physics::HelicityFormalism::AmpWignerD']]],
   ['_5fmydata',['_myData',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a4727e701209b47557508cc64c4235578',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
@@ -111,7 +111,7 @@ var searchData=
   ['_5fvalue',['_value',['../d3/dc6/classComPWA_1_1Constant.html#a7a876cb1230d9d4f92a36012855a2520',1,'ComPWA::Constant::_value()'],['../da/da8/classComPWA_1_1TreeNode.html#a1932bbf168ef87acaad6cb282ee2e0da',1,'ComPWA::TreeNode::_value()']]],
   ['_5fvarnames',['_varNames',['../db/d37/classComPWA_1_1Kinematics.html#a8d22b8eb8efd3aa35daaf85e99881c8d',1,'ComPWA::Kinematics']]],
   ['_5fvartitles',['_varTitles',['../db/d37/classComPWA_1_1Kinematics.html#a4d5b0a3a9fa4564bb0d53758b510b90c',1,'ComPWA::Kinematics']]],
-  ['_5fwidth',['_width',['../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a3d04eb7e948fb7e3780f663a90daa3f5',1,'ComPWA::Physics::DecayDynamics::RelativisticBreitWigner']]],
+  ['_5fwidth',['_width',['../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a13ef36d356f81d00014f9bfe19583eec',1,'ComPWA::Physics::DecayDynamics::RelativisticBreitWigner']]],
   ['_5fxvalue',['_xValue',['../de/d89/classPolyFit.html#a2579448f36a30e325c07e11a0d840e14',1,'PolyFit']]],
   ['_5fyvalue',['_yValue',['../de/d89/classPolyFit.html#ac283795313dfdd5cb807c0b1621bcd03',1,'PolyFit']]]
 ];

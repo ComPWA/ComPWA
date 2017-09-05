@@ -135,7 +135,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aca2fcf9e33f7607edc417af3e4f26891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate fit fractions.  <a href="#aca2fcf9e33f7607edc417af3e4f26891">More...</a><br/></td></tr>
 <tr class="separator:aca2fcf9e33f7607edc417af3e4f26891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c641f541c4d724722ab39afb6477639"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a0c641f541c4d724722ab39afb6477639">CalcFractionError</a> (<a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;parameters, std::vector&lt; std::vector&lt; double &gt;&gt; covariance, <a class="el" href="../../d2/d1c/classComPWA_1_1ParameterList.html">ParameterList</a> &amp;ffList, std::shared_ptr&lt; <a class="el" href="../../db/d37/classComPWA_1_1Kinematics.html">ComPWA::Kinematics</a> &gt; kin, std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt; intens, std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &gt;&gt; sample, int nSets, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; defs)</td></tr>
-<tr class="memdesc:a0c641f541c4d724722ab39afb6477639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate errors on fit fractions The error of normalization due the the fit error on magnitudes and phases is ignored.  <a href="#a0c641f541c4d724722ab39afb6477639">More...</a><br/></td></tr>
+<tr class="memdesc:a0c641f541c4d724722ab39afb6477639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate errors on fit fractions.  <a href="#a0c641f541c4d724722ab39afb6477639">More...</a><br/></td></tr>
 <tr class="separator:a0c641f541c4d724722ab39afb6477639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a558d469026c10585e6123321d1420ab5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4e/namespaceComPWA_1_1Tools.html#a558d469026c10585e6123321d1420ab5">Integral</a> (std::shared_ptr&lt; <a class="el" href="../../db/df8/classComPWA_1_1AmpIntensity.html">AmpIntensity</a> &gt; intens, std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../d1/da0/classComPWA_1_1dataPoint.html">dataPoint</a> &gt;&gt; sample, double phspVolume=1.0)</td></tr>
 <tr class="separator:a558d469026c10585e6123321d1420ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,8 +213,8 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculate errors on fit fractions The error of normalization due the the fit error on magnitudes and phases is ignored. </p>
-<p>If we want to calculate the errors correctly we have to generate a set of fit parameters that are smeard by a multidimensional gaussian and the covariance matrix of the fit. For every set we calculate the fit frations and calculate its mean. The can be a very time consuming method, especially if the function tree is not used. </p>
+<p>Calculate errors on fit fractions. </p>
+<p>The error of normalization due the the fit error on magnitudes and phases is ignored. If we want to calculate the errors correctly we have to generate a set of fit parameters that are smeard by a multidimensional gaussian and the covariance matrix of the fit. For every set we calculate the fit frations and calculate its mean. The can be a very time consuming method, especially if the <a class="el" href="../../d3/de1/classComPWA_1_1FunctionTree.html">FunctionTree</a> is not used. </p>
 
 <p>Definition at line <a class="el" href="../../d6/d6a/FitFractions_8hpp_source.html#l00178">178</a> of file <a class="el" href="../../d6/d6a/FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
 
@@ -625,7 +625,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 2 2017 11:45:28 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 5 2017 08:37:30 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

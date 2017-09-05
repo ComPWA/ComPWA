@@ -35,34 +35,35 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../db/df8/classComPWA_1_1AmpIntensity.html" target="_top" xlink:title="This class provides the interface an amplitude intensity. ">
-<polygon fill="white" stroke="black" points="-0.5,-283 -0.5,-505 124.5,-505 124.5,-283 -0.5,-283"/>
-<text text-anchor="middle" x="62" y="-493" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::AmpIntensity</text>
-<polyline fill="none" stroke="black" points="-0.5,-486 124.5,-486 "/>
-<text text-anchor="start" x="7.5" y="-474" font-family="Helvetica,sans-Serif" font-size="10.00"># _name</text>
-<text text-anchor="start" x="7.5" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00"># _eff</text>
-<text text-anchor="start" x="7.5" y="-452" font-family="Helvetica,sans-Serif" font-size="10.00"># _strength</text>
-<text text-anchor="start" x="7.5" y="-441" font-family="Helvetica,sans-Serif" font-size="10.00"># _current_strength</text>
-<polyline fill="none" stroke="black" points="-0.5,-434 124.5,-434 "/>
-<text text-anchor="start" x="7.5" y="-422" font-family="Helvetica,sans-Serif" font-size="10.00">+ AmpIntensity()</text>
-<text text-anchor="start" x="7.5" y="-411" font-family="Helvetica,sans-Serif" font-size="10.00">+ Clone()</text>
-<text text-anchor="start" x="7.5" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00">+ Intensity()</text>
-<text text-anchor="start" x="7.5" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00">+ Name()</text>
-<text text-anchor="start" x="7.5" y="-378" font-family="Helvetica,sans-Serif" font-size="10.00">+ Strength()</text>
-<text text-anchor="start" x="7.5" y="-367" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetParameters()</text>
-<text text-anchor="start" x="7.5" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetParametersFast()</text>
-<text text-anchor="start" x="7.5" y="-345" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFitFractions()</text>
-<text text-anchor="start" x="7.5" y="-334" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetPhspSample()</text>
-<text text-anchor="start" x="7.5" y="-323" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetComponent()</text>
-<text text-anchor="start" x="7.5" y="-312" font-family="Helvetica,sans-Serif" font-size="10.00">+ Reset()</text>
-<text text-anchor="start" x="7.5" y="-301" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
-<text text-anchor="start" x="7.5" y="-290" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
+<polygon fill="white" stroke="black" points="-0.5,-277.5 -0.5,-510.5 124.5,-510.5 124.5,-277.5 -0.5,-277.5"/>
+<text text-anchor="middle" x="62" y="-498.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::AmpIntensity</text>
+<polyline fill="none" stroke="black" points="-0.5,-491.5 124.5,-491.5 "/>
+<text text-anchor="start" x="7.5" y="-479.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _name</text>
+<text text-anchor="start" x="7.5" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _eff</text>
+<text text-anchor="start" x="7.5" y="-457.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _strength</text>
+<text text-anchor="start" x="7.5" y="-446.5" font-family="Helvetica,sans-Serif" font-size="10.00"># _current_strength</text>
+<polyline fill="none" stroke="black" points="-0.5,-439.5 124.5,-439.5 "/>
+<text text-anchor="start" x="7.5" y="-427.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AmpIntensity()</text>
+<text text-anchor="start" x="7.5" y="-416.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Clone()</text>
+<text text-anchor="start" x="7.5" y="-405.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Intensity()</text>
+<text text-anchor="start" x="7.5" y="-394.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Name()</text>
+<text text-anchor="start" x="7.5" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Strength()</text>
+<text text-anchor="start" x="7.5" y="-372.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetParameters()</text>
+<text text-anchor="start" x="7.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetParametersFast()</text>
+<text text-anchor="start" x="7.5" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UpdateParameters()</text>
+<text text-anchor="start" x="7.5" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetFitFractions()</text>
+<text text-anchor="start" x="7.5" y="-328.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SetPhspSample()</text>
+<text text-anchor="start" x="7.5" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetComponent()</text>
+<text text-anchor="start" x="7.5" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Reset()</text>
+<text text-anchor="start" x="7.5" y="-295.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ HasTree()</text>
+<text text-anchor="start" x="7.5" y="-284.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetTree()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M92.224,-272.944C97.3259,-252.678 102.587,-231.781 107.582,-211.938"/>
-<polygon fill="none" stroke="midnightblue" points="88.7814,-272.282 89.7341,-282.834 95.5696,-273.991 88.7814,-272.282"/>
+<path fill="none" stroke="midnightblue" d="M93.5237,-267.781C98.2226,-249.116 103.025,-230.04 107.603,-211.853"/>
+<polygon fill="none" stroke="midnightblue" points="90.1249,-266.945 91.0776,-277.497 96.9131,-268.654 90.1249,-266.945"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
