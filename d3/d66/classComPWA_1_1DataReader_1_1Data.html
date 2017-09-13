@@ -113,6 +113,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ada05d27aa58e205684a9947f25d529b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#ada05d27aa58e205684a9947f25d529b0">Data</a> (bool binning=0, unsigned int maxBins=0, double maxW=0.0)</td></tr>
 <tr class="separator:ada05d27aa58e205684a9947f25d529b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33fdbd1a6ec2623b27789ca66829f686"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a33fdbd1a6ec2623b27789ca66829f686">~Data</a> ()</td></tr>
+<tr class="separator:a33fdbd1a6ec2623b27789ca66829f686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa49301c0a8d8e51430dd0fe29af3dc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">Data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#a6fa49301c0a8d8e51430dd0fe29af3dc">Clone</a> () const </td></tr>
 <tr class="separator:a6fa49301c0a8d8e51430dd0fe29af3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc34936d242431adf7dd2787890f20ac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html">Data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html#adc34936d242431adf7dd2787890f20ac">EmptyClone</a> () const </td></tr>
@@ -197,7 +199,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class provides the interface to experimental data. </p>
-<p>It does not provide any functionality for data read in and write out. Since this is in many cases not needed this class is not pure virtual. This functionality is implemented in derived classes (<a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a> and <a class="el" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">AsciiReader</a>). This class is also supposed to handle binned data but the implemenation of this functionality currently a bit deprecated. </p>
+<p>It does not provide any functionality for data read in and write out. Since this is in many cases not needed this class is not pure virtual. This functionality is implemented in derived classes (<a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html" title="Data class for read/write of ROOT files. ">RootReader</a> and <a class="el" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">AsciiReader</a>). This class is also supposed to handle binned data but the implemenation of this functionality currently a bit deprecated. </p>
 
 <p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -205,7 +207,7 @@ Protected Attributes</h2></td></tr>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/da8/classComPWA_1_1DataReader_1_1Data__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/da8/classComPWA_1_1DataReader_1_1Data__inherit__graph.svg" width="372" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -248,6 +250,31 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d8/db3/Data_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d8/db3/Data_8cpp_source.html">Data.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a33fdbd1a6ec2623b27789ca66829f686"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ComPWA::DataReader::Data::~Data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -358,9 +385,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a14d5475fc8a326cab8652e99f7d691ca">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5f00762cc380b15f1f79e2f65f131ec7">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a85f58a47afff29ea1c6d0192f2ed87e9">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a5f00762cc380b15f1f79e2f65f131ec7">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -385,9 +412,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#adfa6050a4c1226398f7855a82902ebe1">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a69ce95384112c620fc5962a9b2556e4d">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a715648c447387bf8cf322e47834b612b">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#a69ce95384112c620fc5962a9b2556e4d">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -478,7 +505,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get event by its position <code>id</code>. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -505,7 +532,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get a reference to the internal event storage. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00060">60</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -587,7 +614,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd></dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -612,7 +639,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -914,11 +941,11 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Write sample to file. </p>
-<p>Method is supposed to be implemented by derived classes (<a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html">RootReader</a>, <a class="el" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">AsciiReader</a>). Sine <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html" title="This class provides the interface to experimental data. ">Data</a> is not a pure virtual class we implement a function with an error message. </p>
+<p>Method is supposed to be implemented by derived classes (<a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html" title="Data class for read/write of ROOT files. ">RootReader</a>, <a class="el" href="../../d1/df8/namespaceComPWA_1_1DataReader_1_1AsciiReader.html">AsciiReader</a>). Sine <a class="el" href="../../d3/d66/classComPWA_1_1DataReader_1_1Data.html" title="This class provides the interface to experimental data. ">Data</a> is not a pure virtual class we implement a function with an error message. </p>
 
-<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#abf4063731088a1e2c312871f76738fa3">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#ab794f7cbeee9236ab1f0686d1682b36c">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html#a6c3348510d2089eda82e0ccf1b07fe41">ComPWA::DataReader::RootReader</a>, and <a class="el" href="../../de/dc9/classComPWA_1_1DataReader_1_1AsciiReader_1_1AsciiReader.html#ab794f7cbeee9236ab1f0686d1682b36c">ComPWA::DataReader::AsciiReader::AsciiReader</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00111">111</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -943,7 +970,7 @@ Protected Attributes</h2></td></tr>
 
 <p>DataPoints are stored as 'horizontal' structure. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -967,7 +994,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Binning. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00132">132</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00134">134</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -989,7 +1016,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00134">134</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1040,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Vector of events. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -1035,7 +1062,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1086,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Maximum weight of events. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00129">129</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d4b/Data_8hpp_source.html#l00131">131</a> of file <a class="el" href="../../d2/d4b/Data_8hpp_source.html">Data.hpp</a>.</p>
 
 </div>
 </div>
@@ -1071,7 +1098,7 @@ Protected Attributes</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 13 2017 07:28:39 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 13 2017 07:50:41 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

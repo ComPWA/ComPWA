@@ -60,6 +60,7 @@ var searchData=
   ['_5fmassb',['_massB',['../d3/d5e/classComPWA_1_1Physics_1_1DecayDynamics_1_1Coupling.html#a580d9915bb8e00b8889143c9e5aa3712',1,'ComPWA::Physics::DecayDynamics::Coupling']]],
   ['_5fmcprecision',['_mcPrecision',['../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a9c4b5828834976ba5d88151ab62ecd64',1,'ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction']]],
   ['_5fmesonradius',['_mesonRadius',['../d7/d84/classComPWA_1_1Physics_1_1DecayDynamics_1_1AmpFlatteRes.html#a27990031f9ce2cf8f644367e2c003f7a',1,'ComPWA::Physics::DecayDynamics::AmpFlatteRes::_mesonRadius()'],['../dc/d57/classComPWA_1_1Physics_1_1DecayDynamics_1_1RelativisticBreitWigner.html#a9bf1778bed317da37bd2131978a7a468',1,'ComPWA::Physics::DecayDynamics::RelativisticBreitWigner::_mesonRadius()']]],
+  ['_5fminloglh',['_minLogLh',['../d2/d37/classComPWA_1_1Estimator_1_1SumMinLogLH.html#a4ffb3764ba2f317d2419971dc3c7525d',1,'ComPWA::Estimator::SumMinLogLH']]],
   ['_5fmodified',['_modified',['../de/d24/classComPWA_1_1Physics_1_1DecayDynamics_1_1AbstractDynamicalFunction.html#a63495d45f2ea91885dae6bc235d7e184',1,'ComPWA::Physics::DecayDynamics::AbstractDynamicalFunction']]],
   ['_5fmu',['_mu',['../dc/d3c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1AmpWignerD.html#a404256a74c68f316d16c35890ea2768a',1,'ComPWA::Physics::HelicityFormalism::AmpWignerD']]],
   ['_5fmydata',['_myData',['../d5/de0/classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a4727e701209b47557508cc64c4235578',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],

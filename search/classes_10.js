@@ -8,6 +8,5 @@ var searchData=
   ['rootefficiency',['RootEfficiency',['../df/d4c/classComPWA_1_1DataReader_1_1RootEfficiency.html',1,'ComPWA::DataReader']]],
   ['rootgenerator',['RootGenerator',['../d9/d48/classComPWA_1_1Tools_1_1RootGenerator.html',1,'ComPWA::Tools']]],
   ['rootreader',['RootReader',['../d8/dfe/classComPWA_1_1DataReader_1_1RootReader.html',1,'ComPWA::DataReader']]],
-  ['rootreader',['RootReader',['../d2/d4d/classRootReader.html',1,'']]],
   ['runmanager',['RunManager',['../dc/dff/classComPWA_1_1RunManager.html',1,'ComPWA']]]
 ];

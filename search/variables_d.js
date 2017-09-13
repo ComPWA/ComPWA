@@ -24,8 +24,6 @@ var searchData=
   ['mean_5findividual_5ferror',['mean_individual_error',['../d0/d20/structNeatPlotting_1_1SystematicsAnalyser_1_1SystematicDependencyGraphBundle.html#aa4df991ea10e852cae5365b1af170403',1,'NeatPlotting::SystematicsAnalyser::SystematicDependencyGraphBundle']]],
   ['min_5f',['min_',['../da/dd8/classComPWA_1_1ComplexParameter.html#a5611a24b6d32851465472e4024805e87',1,'ComPWA::ComplexParameter::min_()'],['../d1/d81/classComPWA_1_1DoubleParameter.html#a7d7828526fde60f9010e36c17a7c44c9',1,'ComPWA::DoubleParameter::min_()'],['../d2/d19/classComPWA_1_1IntegerParameter.html#ac91490908db4cdd9b70f884aed8ad0f1',1,'ComPWA::IntegerParameter::min_()']]],
   ['minsq',['minSq',['../d6/d28/classComPWA_1_1Tools_1_1UniformTwoBodyGenerator.html#a09c43fa0a4bdf91069619d3729e45e6e',1,'ComPWA::Tools::UniformTwoBodyGenerator']]],
-  ['msq1',['mSq1',['../d7/d09/classComPWA_1_1TwoBodyKinematics.html#ab4710dd48d444990ffc1d24ee01cba86',1,'ComPWA::TwoBodyKinematics']]],
-  ['msq2',['mSq2',['../d7/d09/classComPWA_1_1TwoBodyKinematics.html#a37534b6aee5fcb0d90ee2cb7d001f2c7',1,'ComPWA::TwoBodyKinematics']]],
   ['mu',['mu',['../d0/d24/structComPWA_1_1Tools_1_1testGauss.html#ae34aab8efd438be6540f69ebcfd8fad4',1,'ComPWA::Tools::testGauss']]],
   ['myparticles',['myParticles',['../dc/d7e/Examples_2DalitzFit_2DalitzFitApp_8cpp.html#ae3e28ed6f4dfdd5aa2c356355381d7bb',1,'DalitzFitApp.cpp']]]
 ];

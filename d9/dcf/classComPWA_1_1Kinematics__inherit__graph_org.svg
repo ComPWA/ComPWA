@@ -72,38 +72,34 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/d09/classComPWA_1_1TwoBodyKinematics.html" target="_top" xlink:title="{ComPWA::TwoBodyKinematics\n|# _M\l# _spinM\l# mSq1\l# m1\l# spin1\l# mSq2\l# m2\l# spin2\l# mass_sq_min\l# mass_sq_max\l# mass_min\l# mass_max\l|+ init()\l+ TwoBodyKinematics()\l+ EventToDataPoint()\l+ FillDataPoint()\l+ IsWithinPhsp()\l+ IsWithinBoxPhsp()\l+ GetNVars()\l+ GetMass()\l# calculatePSArea()\l}">
-<polygon fill="white" stroke="black" points="168.5,-6 168.5,-272 325.5,-272 325.5,-6 168.5,-6"/>
-<text text-anchor="middle" x="247" y="-260" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::TwoBodyKinematics</text>
-<polyline fill="none" stroke="black" points="168.5,-253 325.5,-253 "/>
-<text text-anchor="start" x="176.5" y="-241" font-family="Helvetica,sans-Serif" font-size="10.00"># _M</text>
-<text text-anchor="start" x="176.5" y="-230" font-family="Helvetica,sans-Serif" font-size="10.00"># _spinM</text>
-<text text-anchor="start" x="176.5" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00"># mSq1</text>
-<text text-anchor="start" x="176.5" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00"># m1</text>
-<text text-anchor="start" x="176.5" y="-197" font-family="Helvetica,sans-Serif" font-size="10.00"># spin1</text>
-<text text-anchor="start" x="176.5" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00"># mSq2</text>
-<text text-anchor="start" x="176.5" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00"># m2</text>
-<text text-anchor="start" x="176.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00"># spin2</text>
-<text text-anchor="start" x="176.5" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_sq_min</text>
-<text text-anchor="start" x="176.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_sq_max</text>
-<text text-anchor="start" x="176.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_min</text>
-<text text-anchor="start" x="176.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_max</text>
-<polyline fill="none" stroke="black" points="168.5,-113 325.5,-113 "/>
-<text text-anchor="start" x="176.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ init()</text>
-<text text-anchor="start" x="176.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ TwoBodyKinematics()</text>
-<text text-anchor="start" x="176.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">+ EventToDataPoint()</text>
-<text text-anchor="start" x="176.5" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">+ FillDataPoint()</text>
-<text text-anchor="start" x="176.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinPhsp()</text>
-<text text-anchor="start" x="176.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinBoxPhsp()</text>
-<text text-anchor="start" x="176.5" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNVars()</text>
-<text text-anchor="start" x="176.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetMass()</text>
-<text text-anchor="start" x="176.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00"># calculatePSArea()</text>
+<g id="a_node3"><a xlink:href="../../d7/d09/classComPWA_1_1TwoBodyKinematics.html" target="_top" xlink:title="{ComPWA::TwoBodyKinematics\n|# _M\l# _spinM\l# m1\l# m2\l# mass_sq_min\l# mass_sq_max\l# mass_min\l# mass_max\l|+ init()\l+ TwoBodyKinematics()\l+ EventToDataPoint()\l+ FillDataPoint()\l+ IsWithinPhsp()\l+ IsWithinBoxPhsp()\l+ GetNVars()\l+ GetMass()\l# calculatePSArea()\l}">
+<polygon fill="white" stroke="black" points="168.5,-28 168.5,-250 325.5,-250 325.5,-28 168.5,-28"/>
+<text text-anchor="middle" x="247" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::TwoBodyKinematics</text>
+<polyline fill="none" stroke="black" points="168.5,-231 325.5,-231 "/>
+<text text-anchor="start" x="176.5" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00"># _M</text>
+<text text-anchor="start" x="176.5" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00"># _spinM</text>
+<text text-anchor="start" x="176.5" y="-197" font-family="Helvetica,sans-Serif" font-size="10.00"># m1</text>
+<text text-anchor="start" x="176.5" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00"># m2</text>
+<text text-anchor="start" x="176.5" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_sq_min</text>
+<text text-anchor="start" x="176.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_sq_max</text>
+<text text-anchor="start" x="176.5" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_min</text>
+<text text-anchor="start" x="176.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00"># mass_max</text>
+<polyline fill="none" stroke="black" points="168.5,-135 325.5,-135 "/>
+<text text-anchor="start" x="176.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">+ init()</text>
+<text text-anchor="start" x="176.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00">+ TwoBodyKinematics()</text>
+<text text-anchor="start" x="176.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">+ EventToDataPoint()</text>
+<text text-anchor="start" x="176.5" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00">+ FillDataPoint()</text>
+<text text-anchor="start" x="176.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinPhsp()</text>
+<text text-anchor="start" x="176.5" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">+ IsWithinBoxPhsp()</text>
+<text text-anchor="start" x="176.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetNVars()</text>
+<text text-anchor="start" x="176.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">+ GetMass()</text>
+<text text-anchor="start" x="176.5" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00"># calculatePSArea()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M197.227,-304.945C200.488,-294.139 203.802,-283.157 207.091,-272.255"/>
+<path fill="none" stroke="midnightblue" d="M197.185,-305.084C202.66,-286.94 208.287,-268.295 213.697,-250.365"/>
 <polygon fill="none" stroke="midnightblue" points="193.788,-304.227 194.25,-314.812 200.49,-306.249 193.788,-304.227"/>
 </g>
 </g>
