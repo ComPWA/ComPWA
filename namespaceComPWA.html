@@ -234,6 +234,9 @@ Functions</h2></td></tr>
 <tr class="separator:a02936cb68b40d6a19cab475b48bce6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccafc046b9e35272778e39f177faac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#acccafc046b9e35272778e39f177faac3">initializeWithFitResult</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;Intens, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
 <tr class="separator:acccafc046b9e35272778e39f177faac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a943bfaa3525d2dcc83790c5af1d76d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a943bfaa3525d2dcc83790c5af1d76d90">enableDisableLvl</a> (el::Logger *logger, std::array&lt; std::string, 5 &gt; levels)</td></tr>
+<tr class="memdesc:a943bfaa3525d2dcc83790c5af1d76d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable levels TRACE, DEBUG, INFO, WARNING, ERROR, FATAL.  <a href="#a943bfaa3525d2dcc83790c5af1d76d90">More...</a><br /></td></tr>
+<tr class="separator:a943bfaa3525d2dcc83790c5af1d76d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339218eb3dc55c220b85b09576ff3af6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a339218eb3dc55c220b85b09576ff3af6">insertParticles</a> (<a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ParticleList</a> &amp;list, const boost::property_tree::ptree &amp;pt)</td></tr>
 <tr class="memdesc:a339218eb3dc55c220b85b09576ff3af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read list of particles from a boost::property_tree.  <a href="#a339218eb3dc55c220b85b09576ff3af6">More...</a><br /></td></tr>
 <tr class="separator:a339218eb3dc55c220b85b09576ff3af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,6 +351,37 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="Event_8cpp_source.html#l00021">21</a> of file <a class="el" href="Event_8cpp_source.html">Event.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a943bfaa3525d2dcc83790c5af1d76d90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::enableDisableLvl </td>
+          <td>(</td>
+          <td class="paramtype">el::Logger *&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::array&lt; std::string, 5 &gt;&#160;</td>
+          <td class="paramname"><em>levels</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable or disable levels TRACE, DEBUG, INFO, WARNING, ERROR, FATAL. </p>
+<p>An array of strings is passed. E.g {"0","1","1","1","1","1"} to disable TRACE and enable all other levels. </p>
+
+<p>Definition at line <a class="el" href="Logging_8cpp_source.html#l00046">46</a> of file <a class="el" href="Logging_8cpp_source.html">Logging.cpp</a>.</p>
 
 </div>
 </div>
@@ -778,7 +812,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 14:36:25 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 8 2019 15:40:15 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

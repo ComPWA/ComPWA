@@ -15,7 +15,7 @@ var searchData=
   ['numbereventstoprocess',['NumberEventsToProcess',['../classComPWA_1_1Data_1_1Root_1_1RootDataIO.html#a1752d9c83ef35f26c699ae1f6f3403a5',1,'ComPWA::Data::Root::RootDataIO']]],
   ['numbergenerator',['NumberGenerator',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html#adf7b6d68aa9d8796e9cfaa3a70b80adb',1,'ComPWA::Data::EvtGen::EvtGenStdRandomEngine']]],
   ['numberofparticles',['NumberOfParticles',['../classComPWA_1_1Data_1_1AsciiReader.html#a5f05b8d48208272740691bc7609919d0',1,'ComPWA::Data::AsciiReader']]],
-  ['numbins',['numBins',['../classComPWA_1_1Data_1_1CorrectionTable.html#ad6994e80722002af74949d9170d62664',1,'ComPWA::Data::CorrectionTable::numBins()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#af934c7108ee78ffb090fcf5a1ce2feff',1,'ComPWA::Tools::Plotting::DalitzHisto::NumBins()']]],
+  ['numbins',['NumBins',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#af934c7108ee78ffb090fcf5a1ce2feff',1,'ComPWA::Tools::Plotting::DalitzHisto::NumBins()'],['../classComPWA_1_1Data_1_1CorrectionTable.html#ad6994e80722002af74949d9170d62664',1,'ComPWA::Data::CorrectionTable::numBins()']]],
   ['numevents',['numEvents',['../classComPWA_1_1ProgressBar.html#aa6adf4504d0e20fa9257625be4005334',1,'ComPWA::ProgressBar']]],
   ['numparameters',['numParameters',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a585aaafc8289ce559ae7fa039397f8a2',1,'ComPWA::FunctionTree::ParameterList']]],
   ['numvalues',['numValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#aa195207b1631897dcf13ddb2fd693e54',1,'ComPWA::FunctionTree::ParameterList']]],

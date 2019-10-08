@@ -29,6 +29,7 @@ var searchData=
   ['getinverror',['GetInvError',['../classComPWA_1_1Data_1_1CorrectionTable.html#a836b0fb41e43c958a9e45ef65b02adbc',1,'ComPWA::Data::CorrectionTable']]],
   ['getinvvalue',['GetInvValue',['../classComPWA_1_1Data_1_1CorrectionTable.html#acc1104fa158d1a0e7a65806154ff2d73',1,'ComPWA::Data::CorrectionTable']]],
   ['getkinematicvariablenames',['getKinematicVariableNames',['../classComPWA_1_1Kinematics.html#ae6f035728148931d74eda39233141424',1,'ComPWA::Kinematics::getKinematicVariableNames()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a34975e8c63701b786115ffaa4aadfa03',1,'ComPWA::Physics::EvtGen::DalitzKinematics::getKinematicVariableNames()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a97e163e076640b36944216ac95bfe7ce',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::getKinematicVariableNames()']]],
+  ['getloglevel',['getLogLevel',['../classComPWA_1_1Logging.html#a526f80b15044f3723884b5229ebee79f',1,'ComPWA::Logging']]],
   ['getmass',['getMass',['../classComPWA_1_1ParticleProperties.html#a89e3d222f7a30228f899aa99ba3aecfb',1,'ComPWA::ParticleProperties']]],
   ['getmassa',['GetMassA',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a214a14a8cb009445b916553f487067df',1,'ComPWA::Physics::Dynamics::Coupling']]],
   ['getmassb',['GetMassB',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a3818e80db82b9ef55834117d78386cf9',1,'ComPWA::Physics::Dynamics::Coupling']]],
