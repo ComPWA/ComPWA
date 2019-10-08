@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['sequentialtwobodydecay',['SequentialTwoBodyDecay',['../d3/d8c/classComPWA_1_1Physics_1_1HelicityFormalism_1_1SequentialTwoBodyDecay.html',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['slicefit',['SliceFit',['../dc/d61/classSliceFit.html',1,'']]],
-  ['slicefit',['SliceFit',['../d2/d94/classComPWA_1_1Estimator_1_1SliceFit_1_1SliceFit.html',1,'ComPWA::Estimator::SliceFit']]],
-  ['slicefitub',['SliceFitUB',['../de/d7c/classComPWA_1_1Estimator_1_1SliceFitUB_1_1SliceFitUB.html',1,'ComPWA::Estimator::SliceFitUB']]],
-  ['spin',['Spin',['../dd/de3/classSpin.html',1,'']]],
-  ['spin',['Spin',['../d4/d1a/classComPWA_1_1Spin.html',1,'ComPWA']]],
-  ['squareroot',['SquareRoot',['../df/df9/classComPWA_1_1SquareRoot.html',1,'ComPWA']]],
-  ['strategy',['Strategy',['../d2/df2/classStrategy.html',1,'']]],
-  ['strategy',['Strategy',['../d3/df8/classComPWA_1_1Strategy.html',1,'ComPWA']]],
-  ['subsystem',['SubSystem',['../d9/d53/classComPWA_1_1SubSystem.html',1,'ComPWA']]],
-  ['subtype',['SubType',['../df/dfa/classComPWA_1_1Physics_1_1QFT_1_1SubType.html',1,'ComPWA::Physics::QFT']]],
-  ['summinloglh',['SumMinLogLH',['../d2/d37/classComPWA_1_1Estimator_1_1SumMinLogLH.html',1,'ComPWA::Estimator']]],
-  ['systematicdependencygraphbundle',['SystematicDependencyGraphBundle',['../d0/d20/structNeatPlotting_1_1SystematicsAnalyser_1_1SystematicDependencyGraphBundle.html',1,'NeatPlotting::SystematicsAnalyser']]],
-  ['systematicsanalyser',['SystematicsAnalyser',['../d6/d31/classNeatPlotting_1_1SystematicsAnalyser.html',1,'NeatPlotting']]]
+  ['quadmatrix',['quadmatrix',['../dd/de9/structquadmatrix.html',1,'']]],
+  ['quadric',['quadric',['../dc/db9/structquadric.html',1,'']]],
+  ['queue_5fand_5fmutex',['queue_and_mutex',['../d2/dfd/structtbb_1_1internal_1_1queue__and__mutex.html',1,'tbb::internal']]],
+  ['queueing',['queueing',['../d2/d5c/structinternal_1_1graph__policy__namespace_1_1queueing.html',1,'internal::graph_policy_namespace']]],
+  ['queueing_5fport',['queueing_port',['../d8/dfa/classinternal_1_1queueing__port.html',1,'internal']]],
+  ['queueing_5fport_5foperation',['queueing_port_operation',['../db/d94/classinternal_1_1queueing__port_1_1queueing__port__operation.html',1,'internal::queueing_port']]],
+  ['queueinserttask',['QueueInsertTask',['../dd/d6b/structQueueInsertTask.html',1,'']]],
+  ['queueprocesstask',['QueueProcessTask',['../d7/d5c/structQueueProcessTask.html',1,'']]],
+  ['queuepushhelper',['QueuePushHelper',['../d3/d99/structQueuePushHelper.html',1,'']]],
+  ['queuestream',['QueueStream',['../dd/d0e/structQueueStream.html',1,'']]],
+  ['queuing_5fmutex',['queuing_mutex',['../de/d2b/classtbb_1_1queuing__mutex.html',1,'tbb']]],
+  ['queuing_5frw_5fmutex',['queuing_rw_mutex',['../dd/d53/classtbb_1_1queuing__rw__mutex.html',1,'tbb']]],
+  ['queuingmutex',['QueuingMutex',['../df/dd9/classQueuingMutex.html',1,'']]],
+  ['queuingmutex_5fcontext',['QueuingMutex_Context',['../d1/dc6/structQueuingMutex__Context.html',1,'']]],
+  ['queuingmutex_5funtil',['QueuingMutex_Until',['../df/df6/structQueuingMutex__Until.html',1,'']]]
 ];

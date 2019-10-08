@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['j_5fdenominator_5f',['J_denominator_',['../d4/d1a/classComPWA_1_1Spin.html#a9d5e2b00e3588c150002429243a059f7',1,'ComPWA::Spin']]],
-  ['j_5fnumerator_5f',['J_numerator_',['../d4/d1a/classComPWA_1_1Spin.html#a66ae04e3d92f3165467abaa2f70a5fb1',1,'ComPWA::Spin']]],
-  ['j_5fz_5fnumerator_5f',['J_z_numerator_',['../d4/d1a/classComPWA_1_1Spin.html#abf2a433d5cb90c709e05c0b30c61a8e5',1,'ComPWA::Spin']]]
+  ['j',['j',['../d9/d94/classcall__dtrsm__functor.html#a727bc2ae2a19ab58e59bb2dd2decb399',1,'call_dtrsm_functor::j()'],['../d3/d40/classcall__dsyr2k__functor.html#af009165d7b7ac6185f90f0042a8e5a4a',1,'call_dsyr2k_functor::j()'],['../dd/de9/structquadmatrix.html#ac171e4df63bc0ce6047554a18567083e',1,'quadmatrix::j()'],['../d8/d83/classDagTask.html#a74dd83e1f5565840598d0e89109aeafb',1,'DagTask::j()']]],
+  ['ja',['ja',['../de/def/structState.html#ae1e7459eabf80ef6a3c62aad9c81a0c2',1,'State']]],
+  ['jitterscale',['jitterscale',['../de/d2b/trace_8serial_8cpp.html#a0e27680e80db14d6ec39816d98bbeabf',1,'jitterscale():&#160;trace.serial.cpp'],['../dd/d29/trace_8simple_8cpp.html#a0e27680e80db14d6ec39816d98bbeabf',1,'jitterscale():&#160;trace.simple.cpp'],['../dd/d3c/trace_8tbb_8cpp.html#a0e27680e80db14d6ec39816d98bbeabf',1,'jitterscale():&#160;trace.tbb.cpp'],['../d8/dd9/trace_8tbb1d_8cpp.html#a0e27680e80db14d6ec39816d98bbeabf',1,'jitterscale():&#160;trace.tbb1d.cpp']]],
+  ['job',['job',['../d0/d4d/classrml_1_1internal_1_1omp__dispatch__type.html#ac748be5435260abddf6cf70cbe9e05da',1,'rml::internal::omp_dispatch_type::job()'],['../de/def/structState.html#afb8ff442e17a96bbd2acec6d2cefbcda',1,'State::job()'],['../d7/d20/structMyTeam_1_1info__type.html#af5f1b730862fba83ebbdb80539edde2b',1,'MyTeam::info_type::job()']]],
+  ['job_5farray',['job_array',['../da/d91/classClientBase.html#aec9598b61d4c7e4ee929227cbabe4636',1,'ClientBase']]],
+  ['job_5fcreated',['job_created',['../de/def/structState.html#a913595a1b9cbd8b58f9c3edd27a0335a',1,'State']]],
+  ['job_5fdestroyed',['job_destroyed',['../de/def/structState.html#a5a79770144f48f3e0e2aa4cff2f72cd1',1,'State']]],
+  ['job_5freceived',['job_received',['../de/def/structState.html#ac019b01cfde4626c707feaed606e1201',1,'State']]],
+  ['jobarraysize',['JobArraySize',['../d4/d30/test__server_8h.html#af54589088a029b241f655c7d703e3144',1,'test_server.h']]],
+  ['join_5fcount',['join_count',['../dd/d31/classFooBody.html#a9158e2342b0b834e8d592ac00460549c',1,'FooBody']]],
+  ['jpsidecaykinematics',['JpsiDecayKinematics',['../d9/d34/FormFactorTests_8cpp.html#accaea52d07a4d0ec8731891691a6320b',1,'JpsiDecayKinematics():&#160;FormFactorTests.cpp'],['../d7/dd0/IntegrationTest_8cpp.html#accaea52d07a4d0ec8731891691a6320b',1,'JpsiDecayKinematics():&#160;IntegrationTest.cpp'],['../df/d51/SaveAndLoadFitResultTest_8cpp.html#accaea52d07a4d0ec8731891691a6320b',1,'JpsiDecayKinematics():&#160;SaveAndLoadFitResultTest.cpp']]],
+  ['jpsidecaytree',['JpsiDecayTree',['../d9/d34/FormFactorTests_8cpp.html#a9d4ee9969028b13e847805f2e0ac5919',1,'JpsiDecayTree():&#160;FormFactorTests.cpp'],['../d7/dd0/IntegrationTest_8cpp.html#a9d4ee9969028b13e847805f2e0ac5919',1,'JpsiDecayTree():&#160;IntegrationTest.cpp'],['../df/d51/SaveAndLoadFitResultTest_8cpp.html#a9d4ee9969028b13e847805f2e0ac5919',1,'JpsiDecayTree():&#160;SaveAndLoadFitResultTest.cpp'],['../d0/dc1/UpdatePTreeParameterTest_8cpp.html#a9d4ee9969028b13e847805f2e0ac5919',1,'JpsiDecayTree():&#160;UpdatePTreeParameterTest.cpp']]]
 ];

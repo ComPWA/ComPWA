@@ -2,16 +2,46 @@
 \usepackage{epsfig}
 \pagestyle{empty}
 \begin{document}
+$(s,\theta,\phi)$
+\pagebreak
+
 $\chi^{2}$
 \pagebreak
 
-\[ -log \mathcal{L} = - \frac{N}{\sum_{ev} w_{ev}} \sum_{ev} w_{ev} \log T(ev). \]
+\[ -log \mathcal{L} = N_{\mathrm{obs}} * \log(\lambda) - \sum_i^{N_{\mathrm{obs}}} \log(I(x_i)) \]
 \pagebreak
 
-$T(ev)$
+$I(x_i)$
 \pagebreak
 
-$ev$
+$x_i$
+\pagebreak
+
+$ \lambda = \frac{V}{\sum w_i}\sum_i^{N_{\mathrm{phsp}}} I(x_i)\cdot \epsilon_i \cdot w_i $
+\pagebreak
+
+$ \epsilon $
+\pagebreak
+
+$ w $
+\pagebreak
+
+$ V $
+\pagebreak
+
+\[ \mathcal{A}_R(s) = \frac{g_p*g}{s - M_R^2 + i \sqrt{s} \Gamma_R B^2} \]
+\pagebreak
+
+$ g_p, g$
+\pagebreak
+
+$ B^2$
+\pagebreak
+
+\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right)^{2L+1} \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{F(\sqrt{s})}{F(\sqrt{s_R})} \right)^{2} \]
+\pagebreak
+
+\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right) \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{B_L(\sqrt{s})}{B_L(\sqrt{s_R})} \right)^{2} \]
 \pagebreak
 
 $m^2$
@@ -194,10 +224,25 @@ $d^{j}_{m,n}(\beta)$
 $D^{j}_{m,n}(\alpha,\beta,\gamma)$
 \pagebreak
 
-\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m} \]
+\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]
 \pagebreak
 
 $c_i$
+\pagebreak
+
+$A_i$
+\pagebreak
+
+\[ f´(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]
+\pagebreak
+
+\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]
+\pagebreak
+
+\[ I \approx Q_N = V*\langle f \rangle. \]
+\pagebreak
+
+\[ \mathrm{Var}(Q_N) &= \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]
 \pagebreak
 
 \end{document}

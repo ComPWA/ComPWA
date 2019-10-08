@@ -1,10 +1,25 @@
 var searchData=
 [
-  ['efficiency_2ecpp',['Efficiency.cpp',['../d0/d3c/Efficiency_8cpp.html',1,'']]],
-  ['efficiency_2ehpp',['Efficiency.hpp',['../d8/d6f/Efficiency_8hpp.html',1,'']]],
-  ['estimator_2ehpp',['Estimator.hpp',['../d5/d10/Estimator_8hpp.html',1,'']]],
-  ['estimatortestapp_2ecpp',['EstimatorTestApp.cpp',['../d4/d31/EstimatorTestApp_8cpp.html',1,'']]],
-  ['event_2ecpp',['Event.cpp',['../d7/d9f/Event_8cpp.html',1,'']]],
-  ['event_2ehpp',['Event.hpp',['../df/d7d/Event_8hpp.html',1,'']]],
-  ['exceptions_2ehpp',['Exceptions.hpp',['../d2/de9/Exceptions_8hpp.html',1,'']]]
+  ['d2dvideo_2ecpp',['d2dvideo.cpp',['../d8/d35/d2dvideo_8cpp.html',1,'']]],
+  ['d_5flatch_2eh',['D_latch.h',['../da/ddc/D__latch_8h.html',1,'']]],
+  ['dalitzfitapp_2ecpp',['DalitzFitApp.cpp',['../da/d2a/DalitzFitApp_8cpp.html',1,'']]],
+  ['dalitzfitd03k_2ecpp',['DalitzFitD03K.cpp',['../db/d7b/DalitzFitD03K_8cpp.html',1,'']]],
+  ['dalitzkinematics_2ecpp',['DalitzKinematics.cpp',['../df/dbe/DalitzKinematics_8cpp.html',1,'']]],
+  ['dalitzkinematics_2ehpp',['DalitzKinematics.hpp',['../d7/dd9/DalitzKinematics_8hpp.html',1,'']]],
+  ['dalitzplot_2ecpp',['DalitzPlot.cpp',['../db/d2b/DalitzPlot_8cpp.html',1,'']]],
+  ['dalitzplot_2ehpp',['DalitzPlot.hpp',['../df/de6/DalitzPlot_8hpp.html',1,'']]],
+  ['datacorrection_2ecpp',['DataCorrection.cpp',['../d6/de4/DataCorrection_8cpp.html',1,'']]],
+  ['datacorrection_2ehpp',['DataCorrection.hpp',['../d2/dee/DataCorrection_8hpp.html',1,'']]],
+  ['dataset_2ecpp',['DataSet.cpp',['../dc/dae/DataSet_8cpp.html',1,'']]],
+  ['dataset_2ehpp',['DataSet.hpp',['../d7/d5a/DataSet_8hpp.html',1,'']]],
+  ['decompress_2ecpp',['decompress.cpp',['../d7/d96/decompress_8cpp.html',1,'']]],
+  ['dining_5fphilosophers_2ecpp',['dining_philosophers.cpp',['../d5/d06/dining__philosophers_8cpp.html',1,'']]],
+  ['directxbase_2ecpp',['DirectXBase.cpp',['../d6/d04/DirectXBase_8cpp.html',1,'']]],
+  ['directxbase_2eh',['DirectXBase.h',['../db/d43/DirectXBase_8h.html',1,'']]],
+  ['directxpage_2examl_2ecpp',['DirectXPage.xaml.cpp',['../d0/d75/DirectXPage_8xaml_8cpp.html',1,'']]],
+  ['directxpage_2examl_2eh',['DirectXPage.xaml.h',['../d0/d79/DirectXPage_8xaml_8h.html',1,'']]],
+  ['disable_5fwarnings_2eh',['disable_warnings.h',['../d7/d5e/disable__warnings_8h.html',1,'']]],
+  ['dot_5fproduct_2ecpp',['dot_product.cpp',['../d9/d0d/dot__product_8cpp.html',1,'']]],
+  ['dynamic_5flink_2ecpp',['dynamic_link.cpp',['../d9/dae/dynamic__link_8cpp.html',1,'']]],
+  ['dynamic_5flink_2eh',['dynamic_link.h',['../d6/d2d/dynamic__link_8h.html',1,'']]]
 ];

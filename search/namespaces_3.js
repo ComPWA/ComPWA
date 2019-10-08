@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['neatplotting',['NeatPlotting',['../d7/dfa/namespaceNeatPlotting.html',1,'']]]
+  ['dx',['DX',['../da/d69/namespaceDX.html',1,'']]]
 ];
