@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['q',['q',['../som__graph_8cpp.html#ae900b2add8deca663438fb20de69acce',1,'som_graph.cpp']]],
-  ['q_5ftail',['q_tail',['../classtbb_1_1queuing__mutex.html#a087bf9251b9a1c63503594b1816e4dce',1,'tbb::queuing_mutex::q_tail()'],['../classtbb_1_1queuing__rw__mutex.html#af4b3071dfe4d6b47739dcf9190135540',1,'tbb::queuing_rw_mutex::q_tail()']]],
-  ['quadric_5fmethods',['quadric_methods',['../quadric_8cpp.html#a3648c342c0a6a42ea9d323127746e1fb',1,'quadric.cpp']]],
-  ['queue',['Queue',['../structQueueStream.html#a3b4d9dec1d0498ef2f49af2c52b43112',1,'QueueStream::Queue()'],['../classInputFilter.html#aa16ac190d4ffe915f8705a34be51667d',1,'InputFilter::Queue()'],['../classBody.html#ad3ffb0508b43535008c0c25954600754',1,'Body::queue()'],['../structTestNegativeQueueBody.html#a570fcce01301653e99dd55381a13d585',1,'TestNegativeQueueBody::queue()']]],
-  ['quick_5ftask_5fsize',['quick_task_size',['../classtbb_1_1internal_1_1generic__scheduler.html#afbb75edc69c2ed1bcbf70098ca24a523',1,'tbb::internal::generic_scheduler']]]
+  ['seed',['Seed',['../classComPWA_1_1StdUniformRealGenerator.html#a074751ef321361ce7d6fd9de52cb0e22',1,'ComPWA::StdUniformRealGenerator::Seed()'],['../classComPWA_1_1Data_1_1Root_1_1RootUniformRealGenerator.html#acc3addf54711ac9147a61af4ddb4e0d1',1,'ComPWA::Data::Root::RootUniformRealGenerator::Seed()']]],
+  ['sep',['sep',['../classComPWA_1_1TableFormatter.html#a6566448d68709282dbeadb342a3deea5',1,'ComPWA::TableFormatter']]],
+  ['sigma',['Sigma',['../structComPWA_1_1Physics_1_1Dynamics_1_1Voigtian_1_1InputInfo.html#a24891b8d58b6ee326acd38fd9b89c6cf',1,'ComPWA::Physics::Dynamics::Voigtian::InputInfo']]],
+  ['starttime',['startTime',['../classComPWA_1_1ProgressBar.html#a7a18470d483e4dc3d2bf59fe74485f09',1,'ComPWA::ProgressBar']]],
+  ['strat',['Strat',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a82d2d6aab67d2214ebeaa6ece395747a',1,'ComPWA::FunctionTree::TreeNode']]],
+  ['subsystems',['Subsystems',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a78e0cd5f3b0e9df162dcca065bb08a6e',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
+  ['sum',['sum',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#a72d2078d24ac2c72dd539f72d9f4326e',1,'ComPWA::FunctionTree::KahanSummation::sum()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#acbbf98f007af16dcd217f0bf71723257',1,'ComPWA::Tools::KahanSummation::sum()']]],
+  ['sys',['sys',['../classComPWA_1_1Data_1_1CorrectionTable.html#adfc7907f21ce9abd8609950310d8f44c',1,'ComPWA::Data::CorrectionTable']]],
+  ['syserror',['sysError',['../classComPWA_1_1Data_1_1CorrectionTable.html#a7ee0cf94b97cad0352f84c000fe8e177',1,'ComPWA::Data::CorrectionTable']]]
 ];

@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -128,14 +127,14 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#afb14c178429c8bf5c3f1b01bdccfc86d">calculateFitFractions</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
 <tr class="memdesc:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_74.png"/>
+<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_21.png"/>
 </p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_75.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_76.png"/> and the denominator is the integral over the whole intensity.  <a href="#afb14c178429c8bf5c3f1b01bdccfc86d">More...</a><br /></td></tr>
+<p> The <img class="formulaInl" alt="$c_i$" src="form_22.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_23.png"/> and the denominator is the integral over the whole intensity.  <a href="#afb14c178429c8bf5c3f1b01bdccfc86d">More...</a><br /></td></tr>
 <tr class="separator:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ba578bced3f86295bd58140c86cfe3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a7ba578bced3f86295bd58140c86cfe3e">calculateFitFractionsWithCovarianceErrorPropagation</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;Sample, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
 <tr class="memdesc:a7ba578bced3f86295bd58140c86cfe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions with errors.  <a href="#a7ba578bced3f86295bd58140c86cfe3e">More...</a><br /></td></tr>
 <tr class="separator:a7ba578bced3f86295bd58140c86cfe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a9b2ace482f3dc3e36fff7ace6dfac055">KahanSum</a> (<a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> accumulation, double <a class="el" href="Fibonacci_8cpp.html#a2507091f87afae57e117a984a7c4dd61">value</a>)</td></tr>
+<tr class="memitem:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a9b2ace482f3dc3e36fff7ace6dfac055">KahanSum</a> (<a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> accumulation, double value)</td></tr>
 <tr class="memdesc:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> keeps track of lost bits and reduced the uncertainty in the summation of many large/small numbers.  <a href="#a9b2ace482f3dc3e36fff7ace6dfac055">More...</a><br /></td></tr>
 <tr class="separator:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8c5e48032c9d15ae35a8dab9be8c164"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ab8c5e48032c9d15ae35a8dab9be8c164">integrateWithError</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume=1.0)</td></tr>
@@ -145,36 +144,36 @@ Functions</h2></td></tr>
 <tr class="separator:a979b8f9a51c41c1ba339ca335e08a695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11f777a3198038fd4492c674f28d4176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a11f777a3198038fd4492c674f28d4176">maximum</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
 <tr class="separator:a11f777a3198038fd4492c674f28d4176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85922e0c8df8d8bd07812f33b85a70ab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a85922e0c8df8d8bd07812f33b85a70ab">KallenFunction</a> (double <a class="el" href="ittnotify__static_8h.html#a571c9802609300b38fd3d5ac52b1773c">s</a>, double m1, double m2)</td></tr>
+<tr class="memitem:a85922e0c8df8d8bd07812f33b85a70ab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a85922e0c8df8d8bd07812f33b85a70ab">KallenFunction</a> (double s, double m1, double m2)</td></tr>
 <tr class="memdesc:a85922e0c8df8d8bd07812f33b85a70ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kallen function.  <a href="#a85922e0c8df8d8bd07812f33b85a70ab">More...</a><br /></td></tr>
 <tr class="separator:a85922e0c8df8d8bd07812f33b85a70ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ed2da2921ed59b0d517893c54accc4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a40ed2da2921ed59b0d517893c54accc4">ThresholdFunction</a> (double <a class="el" href="ittnotify__static_8h.html#a571c9802609300b38fd3d5ac52b1773c">s</a>, double m1, double m2)</td></tr>
+<tr class="memitem:a40ed2da2921ed59b0d517893c54accc4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a40ed2da2921ed59b0d517893c54accc4">ThresholdFunction</a> (double s, double m1, double m2)</td></tr>
 <tr class="memdesc:a40ed2da2921ed59b0d517893c54accc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Threshold function.  <a href="#a40ed2da2921ed59b0d517893c54accc4">More...</a><br /></td></tr>
 <tr class="separator:a40ed2da2921ed59b0d517893c54accc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abca227302137498f25874cf4cfde560f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#abca227302137498f25874cf4cfde560f">PhspTwoParticles</a> (double <a class="el" href="ittnotify__static_8h.html#a571c9802609300b38fd3d5ac52b1773c">s</a>, double m1, double m2)</td></tr>
+<tr class="memitem:abca227302137498f25874cf4cfde560f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#abca227302137498f25874cf4cfde560f">PhspTwoParticles</a> (double s, double m1, double m2)</td></tr>
 <tr class="memdesc:abca227302137498f25874cf4cfde560f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase space element for a two particle decay.  <a href="#abca227302137498f25874cf4cfde560f">More...</a><br /></td></tr>
 <tr class="separator:abca227302137498f25874cf4cfde560f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e05ac65890123b90b8e0b24752b0e1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a0e05ac65890123b90b8e0b24752b0e1a">PhspNParaticles</a> (double <a class="el" href="ittnotify__static_8h.html#a571c9802609300b38fd3d5ac52b1773c">s</a>, std::vector&lt; double &gt; masses)</td></tr>
+<tr class="memitem:a0e05ac65890123b90b8e0b24752b0e1a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a0e05ac65890123b90b8e0b24752b0e1a">PhspNParaticles</a> (double s, std::vector&lt; double &gt; masses)</td></tr>
 <tr class="separator:a0e05ac65890123b90b8e0b24752b0e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a4e893a7198980186f901cea02e578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a86a4e893a7198980186f901cea02e578">updateParameterRangeByType</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;ParameterType, double Min, double Max)</td></tr>
+<tr class="memitem:a86a4e893a7198980186f901cea02e578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a86a4e893a7198980186f901cea02e578">updateParameterRangeByType</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;ParameterType, double Min, double Max)</td></tr>
 <tr class="memdesc:a86a4e893a7198980186f901cea02e578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update range of specified parameters of a ptree.  <a href="#a86a4e893a7198980186f901cea02e578">More...</a><br /></td></tr>
 <tr class="separator:a86a4e893a7198980186f901cea02e578"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a834152033661e32a57fe0b179daca884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a834152033661e32a57fe0b179daca884">updateParameterRangeByName</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;ParameterName, double Min, double Max)</td></tr>
+<tr class="memitem:a834152033661e32a57fe0b179daca884"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a834152033661e32a57fe0b179daca884">updateParameterRangeByName</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;ParameterName, double Min, double Max)</td></tr>
 <tr class="memdesc:a834152033661e32a57fe0b179daca884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update range of specified parameters of a ptree.  <a href="#a834152033661e32a57fe0b179daca884">More...</a><br /></td></tr>
 <tr class="separator:a834152033661e32a57fe0b179daca884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14794c05f2fa8e268342e75154233d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a14794c05f2fa8e268342e75154233d00">updateParameterValue</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double <a class="el" href="common_8h.html#a18cf6695002fb1308814915b24fb1c4b">Value</a>)</td></tr>
+<tr class="memitem:a14794c05f2fa8e268342e75154233d00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a14794c05f2fa8e268342e75154233d00">updateParameterValue</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double Value)</td></tr>
 <tr class="memdesc:a14794c05f2fa8e268342e75154233d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update value of specified parameters of a ptree.  <a href="#a14794c05f2fa8e268342e75154233d00">More...</a><br /></td></tr>
 <tr class="separator:a14794c05f2fa8e268342e75154233d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e066a4e86e40fa658ef8865a4d0b65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ab6e066a4e86e40fa658ef8865a4d0b65">fixParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double <a class="el" href="common_8h.html#a18cf6695002fb1308814915b24fb1c4b">Value</a>=-999)</td></tr>
+<tr class="memitem:ab6e066a4e86e40fa658ef8865a4d0b65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ab6e066a4e86e40fa658ef8865a4d0b65">fixParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double Value=-999)</td></tr>
 <tr class="memdesc:ab6e066a4e86e40fa658ef8865a4d0b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix specified parameters of a ptree.  <a href="#ab6e066a4e86e40fa658ef8865a4d0b65">More...</a><br /></td></tr>
 <tr class="separator:ab6e066a4e86e40fa658ef8865a4d0b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b22b13581e494c2eceae4780fd5c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a89b22b13581e494c2eceae4780fd5c8a">releaseParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double <a class="el" href="common_8h.html#a18cf6695002fb1308814915b24fb1c4b">Value</a>=-999)</td></tr>
+<tr class="memitem:a89b22b13581e494c2eceae4780fd5c8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a89b22b13581e494c2eceae4780fd5c8a">releaseParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string ParameterName, double Value=-999)</td></tr>
 <tr class="memdesc:a89b22b13581e494c2eceae4780fd5c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release specified parameters of a ptree.  <a href="#a89b22b13581e494c2eceae4780fd5c8a">More...</a><br /></td></tr>
 <tr class="separator:a89b22b13581e494c2eceae4780fd5c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bc743544ed7c8d9b04016aced86ce22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a0bc743544ed7c8d9b04016aced86ce22">updateParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;KeyType, const std::string &amp;KeyValue, double <a class="el" href="common_8h.html#a18cf6695002fb1308814915b24fb1c4b">Value</a>, bool Fix, double Min, double Max, bool UpdateValue, bool UpdateFix, bool UpdateRange)</td></tr>
+<tr class="memitem:a0bc743544ed7c8d9b04016aced86ce22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a0bc743544ed7c8d9b04016aced86ce22">updateParameter</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;KeyType, const std::string &amp;KeyValue, double Value, bool Fix, double Min, double Max, bool UpdateValue, bool UpdateFix, bool UpdateRange)</td></tr>
 <tr class="memdesc:a0bc743544ed7c8d9b04016aced86ce22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update specified parameters of a ptree.  <a href="#a0bc743544ed7c8d9b04016aced86ce22">More...</a><br /></td></tr>
 <tr class="separator:a0bc743544ed7c8d9b04016aced86ce22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0a45e3c520322cc46c0ae471d7413f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ac0a45e3c520322cc46c0ae471d7413f2">updateParameter</a> (boost::property_tree::ptree &amp;Tree, const <a class="el" href="namespaceComPWA.html#ac01ae5d2537b3632cdd0f303f1c8c5d2">FitParameterList</a> &amp;FitParameters)</td></tr>
+<tr class="memitem:ac0a45e3c520322cc46c0ae471d7413f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ac0a45e3c520322cc46c0ae471d7413f2">updateParameter</a> (boost::property_tree::ptree &amp;Tree, const <a class="el" href="namespaceComPWA.html#ac01ae5d2537b3632cdd0f303f1c8c5d2">FitParameterList</a> &amp;FitParameters)</td></tr>
 <tr class="memdesc:ac0a45e3c520322cc46c0ae471d7413f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update value, range, fix status of parameters of a ptree, the new values comes from <code>fitParameters</code>.  <a href="#ac0a45e3c520322cc46c0ae471d7413f2">More...</a><br /></td></tr>
 <tr class="separator:ac0a45e3c520322cc46c0ae471d7413f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -225,9 +224,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_74.png"/>
+<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_21.png"/>
 </p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_75.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_76.png"/> and the denominator is the integral over the whole intensity. </p>
+<p> The <img class="formulaInl" alt="$c_i$" src="form_22.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_23.png"/> and the denominator is the integral over the whole intensity. </p>
 <p>The integrals are performed via Monte Carlo integration method. </p>
 
 <p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00131">131</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
@@ -272,7 +271,7 @@ Functions</h2></td></tr>
 
 <p>Calculates the fit fractions with errors. </p>
 <p>The errors are calculated by generating sets of fit parameters that are smeared by a multidimensional gaussian using the covariance matrix of the fit. For every set the fit fractions are calculated. From this distribution the standard errors give the errors of the fit fractions. This can be a very time consuming method. Calculates the fit fractions with errors via error propagation from the covariance matrix. The gradients are calculated via numerical differentiation: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]" src="form_77.png"/>
+<img class="formulaDsp" alt="\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]" src="form_24.png"/>
 </p>
  
 <p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00304">304</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
@@ -284,7 +283,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::fixParameter </td>
+          <td class="memname">void ComPWA::Tools::fixParameter </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -389,13 +388,13 @@ Functions</h2></td></tr>
 
 <p>Calculate integral and its error. </p>
 <p>We follow <a href="https://en.wikipedia.org/wiki/Monte_Carlo_integration">https://en.wikipedia.org/wiki/Monte_Carlo_integration</a>. The average intensity is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_78.png"/>
+<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_25.png"/>
 </p>
 <p> and the integral estimate Q_N using a sample size of N events is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_79.png"/>
+<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_26.png"/>
 </p>
 <p> The variance is given by </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_80.png"/>
+<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_27.png"/>
 </p>
 <p> We use a Kahan summation to improve numerical stability. We return ${{Var}(Q_N)}$ as error. </p>
 
@@ -592,7 +591,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::releaseParameter </td>
+          <td class="memname">void ComPWA::Tools::releaseParameter </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -681,7 +680,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::updateParameter </td>
+          <td class="memname">void ComPWA::Tools::updateParameter </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -774,7 +773,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::updateParameter </td>
+          <td class="memname">void ComPWA::Tools::updateParameter </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -811,7 +810,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::updateParameterRangeByName </td>
+          <td class="memname">void ComPWA::Tools::updateParameterRangeByName </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -862,7 +861,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::updateParameterRangeByType </td>
+          <td class="memname">void ComPWA::Tools::updateParameterRangeByType </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -913,7 +912,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ittnotify__static_8h.html#a3935b8702cc0ea3c8cc263b5095d0dc0">void</a> ComPWA::Tools::updateParameterValue </td>
+          <td class="memname">void ComPWA::Tools::updateParameterValue </td>
           <td>(</td>
           <td class="paramtype">boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>Tree</em>, </td>
@@ -956,7 +955,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 14:23:23 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 8 2019 14:26:49 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

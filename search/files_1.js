@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['aggregator_2eh',['aggregator.h',['../aggregator_8h.html',1,'']]],
-  ['algorithm_5fimpl_2eh',['algorithm_impl.h',['../algorithm__impl_8h.html',1,'']]],
-  ['aligned_5fspace_2eh',['aligned_space.h',['../aligned__space_8h.html',1,'']]],
-  ['api_2ecpp',['api.cpp',['../api_8cpp.html',1,'']]],
-  ['api_2eh',['api.h',['../api_8h.html',1,'']]],
-  ['apigeom_2ecpp',['apigeom.cpp',['../apigeom_8cpp.html',1,'']]],
-  ['apitrigeom_2ecpp',['apitrigeom.cpp',['../apitrigeom_8cpp.html',1,'']]],
-  ['apitrigeom_2eh',['apitrigeom.h',['../apitrigeom_8h.html',1,'']]],
-  ['app_2examl_2ecpp',['App.xaml.cpp',['../App_8xaml_8cpp.html',1,'']]],
-  ['app_2examl_2eh',['App.xaml.h',['../App_8xaml_8h.html',1,'']]],
-  ['arena_2ecpp',['arena.cpp',['../arena_8cpp.html',1,'']]],
-  ['arena_2eh',['arena.h',['../arena_8h.html',1,'']]],
-  ['asciireader_2ecpp',['AsciiReader.cpp',['../AsciiReader_8cpp.html',1,'']]],
-  ['asciireader_2ehpp',['AsciiReader.hpp',['../AsciiReader_8hpp.html',1,'']]],
-  ['assemblyinfo_2ecpp',['AssemblyInfo.cpp',['../AssemblyInfo_8cpp.html',1,'']]],
-  ['atomic_2eh',['atomic.h',['../atomic_8h.html',1,'']]],
-  ['atomic_5fsupport_2ec',['atomic_support.c',['../atomic__support_8c.html',1,'']]]
+  ['bossadapter_2ecpp',['BOSSAdapter.cpp',['../BOSSAdapter_8cpp.html',1,'']]],
+  ['bossadapter_2ehpp',['BOSSAdapter.hpp',['../BOSSAdapter_8hpp.html',1,'']]],
+  ['builderxml_2ecpp',['BuilderXML.cpp',['../BuilderXML_8cpp.html',1,'']]],
+  ['builderxml_2ehpp',['BuilderXML.hpp',['../BuilderXML_8hpp.html',1,'']]]
 ];

@@ -1,30 +1,4 @@
 var searchData=
 [
-  ['gate',['gate',['../classgate.html',1,'']]],
-  ['gate_3c_201_20_3e',['gate&lt; 1 &gt;',['../classgate_3_011_01_4.html',1,'']]],
-  ['gate_3c_202_20_3e',['gate&lt; 2 &gt;',['../classgate_3_012_01_4.html',1,'']]],
-  ['gate_3c_203_20_3e',['gate&lt; 3 &gt;',['../classgate_3_013_01_4.html',1,'']]],
-  ['gate_3c_204_20_3e',['gate&lt; 4 &gt;',['../classgate_3_014_01_4.html',1,'']]],
-  ['gen_5fedges',['gen_edges',['../classgen__edges.html',1,'']]],
-  ['gen_5fvertices',['gen_vertices',['../classgen__vertices.html',1,'']]],
-  ['generic_5fconnection',['generic_connection',['../classrml_1_1internal_1_1generic__connection.html',1,'rml::internal']]],
-  ['generic_5fconnection_3c_20omp_5fserver_2c_20omp_5fclient_20_3e',['generic_connection&lt; omp_server, omp_client &gt;',['../classrml_1_1internal_1_1generic__connection.html',1,'rml::internal']]],
-  ['generic_5fconnection_3c_20tbb_5fserver_2c_20tbb_5fclient_20_3e',['generic_connection&lt; tbb_server, tbb_client &gt;',['../classrml_1_1internal_1_1generic__connection.html',1,'rml::internal']]],
-  ['generic_5frange_5ftype',['generic_range_type',['../classtbb_1_1concurrent__vector_1_1generic__range__type.html',1,'tbb::concurrent_vector']]],
-  ['generic_5frange_5ftype',['generic_range_type',['../classtbb_1_1interface6_1_1enumerable__thread__specific_1_1generic__range__type.html',1,'tbb::interface6::enumerable_thread_specific']]],
-  ['generic_5fscheduler',['generic_scheduler',['../classtbb_1_1internal_1_1generic__scheduler.html',1,'tbb::internal']]],
-  ['genevaif',['GenevaIF',['../classGenevaIF.html',1,'']]],
-  ['genevaif',['GenevaIF',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html',1,'ComPWA::Optimizer::Geneva']]],
-  ['genevaresult',['GenevaResult',['../structComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html',1,'ComPWA::Optimizer::Geneva']]],
-  ['global_5fcontrol',['global_control',['../classtbb_1_1interface9_1_1global__control.html',1,'tbb::interface9']]],
-  ['globalblockfields',['GlobalBlockFields',['../classrml_1_1internal_1_1GlobalBlockFields.html',1,'rml::internal']]],
-  ['governor',['governor',['../classtbb_1_1internal_1_1governor.html',1,'tbb::internal']]],
-  ['graph',['Graph',['../classGraph.html',1,'']]],
-  ['graph',['graph',['../classtbb_1_1flow_1_1interface10_1_1graph.html',1,'tbb::flow::interface10']]],
-  ['graph_5fiterator',['graph_iterator',['../classtbb_1_1flow_1_1interface10_1_1graph__iterator.html',1,'tbb::flow::interface10']]],
-  ['graph_5fnode',['graph_node',['../classtbb_1_1flow_1_1interface10_1_1graph__node.html',1,'tbb::flow::interface10']]],
-  ['graph_5fproxy',['graph_proxy',['../classtbb_1_1flow_1_1interface10_1_1graph__proxy.html',1,'tbb::flow::interface10']]],
-  ['growby',['GrowBy',['../classGrowBy.html',1,'']]],
-  ['growtoatleast',['GrowToAtLeast',['../classGrowToAtLeast.html',1,'']]],
-  ['guardedsize',['GuardedSize',['../classrml_1_1internal_1_1GuardedSize.html',1,'rml::internal']]]
+  ['helicitykinematics',['HelicityKinematics',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html',1,'ComPWA::Physics::HelicityFormalism']]]
 ];

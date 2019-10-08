@@ -1,27 +1,5 @@
 var searchData=
 [
-  ['_5faggregator_5fimpl_2eh',['_aggregator_impl.h',['../__aggregator__impl_8h.html',1,'']]],
-  ['_5fconcurrent_5fqueue_5fimpl_2eh',['_concurrent_queue_impl.h',['../__concurrent__queue__impl_8h.html',1,'']]],
-  ['_5fconcurrent_5funordered_5fimpl_2eh',['_concurrent_unordered_impl.h',['../__concurrent__unordered__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fasync_5fmsg_5fimpl_2eh',['_flow_graph_async_msg_impl.h',['../__flow__graph__async__msg__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fbody_5fimpl_2eh',['_flow_graph_body_impl.h',['../__flow__graph__body__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fcache_5fimpl_2eh',['_flow_graph_cache_impl.h',['../__flow__graph__cache__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fimpl_2eh',['_flow_graph_impl.h',['../__flow__graph__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5findexer_5fimpl_2eh',['_flow_graph_indexer_impl.h',['../__flow__graph__indexer__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fitem_5fbuffer_5fimpl_2eh',['_flow_graph_item_buffer_impl.h',['../__flow__graph__item__buffer__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fjoin_5fimpl_2eh',['_flow_graph_join_impl.h',['../__flow__graph__join__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fnode_5fimpl_2eh',['_flow_graph_node_impl.h',['../__flow__graph__node__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5fstreaming_5fnode_2eh',['_flow_graph_streaming_node.h',['../__flow__graph__streaming__node_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5ftagged_5fbuffer_5fimpl_2eh',['_flow_graph_tagged_buffer_impl.h',['../__flow__graph__tagged__buffer__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5ftrace_5fimpl_2eh',['_flow_graph_trace_impl.h',['../__flow__graph__trace__impl_8h.html',1,'']]],
-  ['_5fflow_5fgraph_5ftypes_5fimpl_2eh',['_flow_graph_types_impl.h',['../__flow__graph__types__impl_8h.html',1,'']]],
-  ['_5fmutex_5fpadding_2eh',['_mutex_padding.h',['../__mutex__padding_8h.html',1,'']]],
-  ['_5frange_5fiterator_2eh',['_range_iterator.h',['../__range__iterator_8h.html',1,'']]],
-  ['_5ftbb_5fhash_5fcompare_5fimpl_2eh',['_tbb_hash_compare_impl.h',['../__tbb__hash__compare__impl_8h.html',1,'']]],
-  ['_5ftbb_5fstrings_2eh',['_tbb_strings.h',['../__tbb__strings_8h.html',1,'']]],
-  ['_5ftbb_5ftrace_5fimpl_2eh',['_tbb_trace_impl.h',['../__tbb__trace__impl_8h.html',1,'']]],
-  ['_5ftbb_5fwindef_2eh',['_tbb_windef.h',['../__tbb__windef_8h.html',1,'']]],
-  ['_5ftemplate_5fhelpers_2eh',['_template_helpers.h',['../__template__helpers_8h.html',1,'']]],
-  ['_5fx86_5feliding_5fmutex_5fimpl_2eh',['_x86_eliding_mutex_impl.h',['../__x86__eliding__mutex__impl_8h.html',1,'']]],
-  ['_5fx86_5frtm_5frw_5fmutex_5fimpl_2eh',['_x86_rtm_rw_mutex_impl.h',['../__x86__rtm__rw__mutex__impl_8h.html',1,'']]]
+  ['asciireader_2ecpp',['AsciiReader.cpp',['../AsciiReader_8cpp.html',1,'']]],
+  ['asciireader_2ehpp',['AsciiReader.hpp',['../AsciiReader_8hpp.html',1,'']]]
 ];

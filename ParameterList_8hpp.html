@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -158,13 +157,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a210da9360f200fb77ceaaa46167dbf1a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; FitParameter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a210da9360f200fb77ceaaa46167dbf1a">ComPWA::FunctionTree::FindParameter</a> (std::string <a class="el" href="ittnotify__static_8h.html#a6817092199890aa04620440e2a82ce1d">name</a>, const ParameterList &amp;<a class="el" href="fractal__video_8h.html#a59bfeead050517531004004b10de7292">v</a>)</td></tr>
+<tr class="memitem:a210da9360f200fb77ceaaa46167dbf1a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; FitParameter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a210da9360f200fb77ceaaa46167dbf1a">ComPWA::FunctionTree::FindParameter</a> (std::string name, const ParameterList &amp;v)</td></tr>
 <tr class="memdesc:a210da9360f200fb77ceaaa46167dbf1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html" title="This class provides a list of parameters and values of different types. ">ParameterList</a> for a <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">FitParameter</a> with <code>name</code>.  <a href="namespaceComPWA_1_1FunctionTree.html#a210da9360f200fb77ceaaa46167dbf1a">More...</a><br /></td></tr>
 <tr class="separator:a210da9360f200fb77ceaaa46167dbf1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc195964e5f1d87f6d1a913382ce5111"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; FitParameter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#abc195964e5f1d87f6d1a913382ce5111">ComPWA::FunctionTree::FindParameter</a> (std::string <a class="el" href="ittnotify__static_8h.html#a6817092199890aa04620440e2a82ce1d">name</a>, std::vector&lt; std::shared_ptr&lt; FitParameter &gt;&gt; &amp;<a class="el" href="fractal__video_8h.html#a59bfeead050517531004004b10de7292">v</a>)</td></tr>
+<tr class="memitem:abc195964e5f1d87f6d1a913382ce5111"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; FitParameter &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#abc195964e5f1d87f6d1a913382ce5111">ComPWA::FunctionTree::FindParameter</a> (std::string name, std::vector&lt; std::shared_ptr&lt; FitParameter &gt;&gt; &amp;v)</td></tr>
 <tr class="memdesc:abc195964e5f1d87f6d1a913382ce5111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search list for a <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">FitParameter</a> with <code>name</code>.  <a href="namespaceComPWA_1_1FunctionTree.html#abc195964e5f1d87f6d1a913382ce5111">More...</a><br /></td></tr>
 <tr class="separator:abc195964e5f1d87f6d1a913382ce5111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dec4982ca71cb3dbe5340326aa29937"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="common_8h.html#a18cf6695002fb1308814915b24fb1c4b">Value</a>&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a3dec4982ca71cb3dbe5340326aa29937">ComPWA::FunctionTree::findMDoubleValue</a> (const std::string &amp;<a class="el" href="ittnotify__static_8h.html#a6817092199890aa04620440e2a82ce1d">name</a>, const ParameterList &amp;list)</td></tr>
+<tr class="memitem:a3dec4982ca71cb3dbe5340326aa29937"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; Value&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a3dec4982ca71cb3dbe5340326aa29937">ComPWA::FunctionTree::findMDoubleValue</a> (const std::string &amp;name, const ParameterList &amp;list)</td></tr>
 <tr class="separator:a3dec4982ca71cb3dbe5340326aa29937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -175,7 +174,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 14:23:21 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 8 2019 14:26:49 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
