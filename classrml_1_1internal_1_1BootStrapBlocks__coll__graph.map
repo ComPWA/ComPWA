@@ -1,0 +1,7 @@
+<map id="rml::internal::BootStrapBlocks" name="rml::internal::BootStrapBlocks">
+<area shape="rect" id="node2" href="$structrml_1_1internal_1_1FreeObject.html" title="{rml::internal::FreeObject\n||}" alt="" coords="5,5,180,83"/>
+<area shape="rect" id="node6" href="$classrml_1_1internal_1_1LocalBlockFields.html" title="{rml::internal::LocalBlock\lFields\n|# allocatedCount\l# objectSize\l# isFull\l|}" alt="" coords="89,160,264,281"/>
+<area shape="rect" id="node3" href="$classMallocMutex.html" title="Stripped down version of spin_mutex. " alt="" coords="467,476,569,553"/>
+<area shape="rect" id="node5" href="$classrml_1_1internal_1_1Block.html" title="{rml::internal::Block\n|&#45; emptyEnoughRatio\l|+ empty()\l+ allocate()\l+ allocateFromFreeList()\l+ emptyEnoughToUse()\l+ freeListNonNull()\l+ freePublicObject()\l+ freeOwnObject()\l+ reset()\l+ privatizePublicFreeList()\l+ restoreBumpPtr()\land 11 more...\l# cleanBlockHeader()\l&#45; allocateFromBumpPtr()\l&#45; findAllocatedObject()\l&#45; isProperlyPlaced()\l&#45; markOwned()\l&#45; markOrphaned()\l}" alt="" coords="159,359,346,671"/>
+<area shape="rect" id="node7" href="$structrml_1_1internal_1_1Padding.html" title="{rml::internal::Padding\l\&lt; 2 *blockHeaderAlignment\l&#45;sizeof(LocalBlockFields)\&gt;\n||}" alt="" coords="288,167,489,274"/>
+</map>

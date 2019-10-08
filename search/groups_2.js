@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['domains',['Domains',['../d2/dea/group__domains.html',1,'']]]
+  ['domains',['Domains',['../group__domains.html',1,'']]]
 ];

@@ -96,13 +96,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><p>Requirements on the iterator type <code>It</code> and its value type <code>T</code> for <code>parallel_sort:</code> </p>
 <ul>
 <li><div class="fragment"><div class="line"><span class="keywordtype">void</span> iter_swap( It a, It b ) </div></div><!-- fragment --> Swaps the values of the elements the given iterators <code>a</code> and <code>b</code> are pointing to. <code>It</code> should be a random access iterator.</li>
-<li><div class="fragment"><div class="line"><span class="keywordtype">bool</span> Compare::operator()( <span class="keyword">const</span> <a class="code" href="d7/dc8/test__openmp_8cpp.html#a093785d397f1241df99623afd0e4bb5a">T</a>&amp; x, <span class="keyword">const</span> <a class="code" href="d7/dc8/test__openmp_8cpp.html#a093785d397f1241df99623afd0e4bb5a">T</a>&amp; y ) </div></div><!-- fragment --> True if x comes before y; </li>
+<li><div class="fragment"><div class="line"><span class="keywordtype">bool</span> Compare::operator()( <span class="keyword">const</span> T&amp; x, <span class="keyword">const</span> T&amp; y ) </div></div><!-- fragment --> True if x comes before y; </li>
 </ul>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 13:12:19 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 8 2019 14:08:02 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

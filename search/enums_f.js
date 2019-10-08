@@ -1,21 +1,8 @@
 var searchData=
 [
-  ['scalableallocationcmd',['ScalableAllocationCmd',['../dc/d84/scalable__allocator_8h.html#a57dd71201713941030ef626baa8fa0eb',1,'scalable_allocator.h']]],
-  ['scalableallocationresult',['ScalableAllocationResult',['../dc/d84/scalable__allocator_8h.html#abd5aafe33a307bbbe334f0049e625cd1',1,'scalable_allocator.h']]],
-  ['sessionoptions',['SessionOptions',['../d1/df1/namespacePerf.html#aadacca247e3a19654c41f8223cd4f48e',1,'Perf']]],
-  ['severity',['Severity',['../de/dbc/EvtReport_8hh.html#a11717da96dc4e4a5f79371318448f82b',1,'EvtReport.hh']]],
-  ['signal_5ft',['signal_t',['../dc/dcc/basics_8h.html#aedfd99612f33cabeb5d2af288bcd95a5',1,'basics.h']]],
-  ['sorting',['Sorting',['../d7/da2/classStatisticsCollector.html#a428ba472038844565822a1dfbec05dc6',1,'StatisticsCollector']]],
-  ['spintype',['spintype',['../d4/db6/classEvtSpinType.html#adad997434a77949cceae7191b64cef03',1,'EvtSpinType']]],
-  ['state',['State',['../d8/d5d/classFoo.html#ac121be572d3076179590fb114e53a748',1,'Foo::State()'],['../d6/d17/classrml_1_1internal_1_1GuardedSize.html#a101bd64153c2bea266a3abcf51597915',1,'rml::internal::GuardedSize::State()']]],
-  ['state_5ft',['state_t',['../d6/dca/classtbb_1_1mutex.html#ad35737cbe356d6814f59abba680ab067',1,'tbb::mutex::state_t()'],['../da/d12/classtbb_1_1internal_1_1rml_1_1ipc__worker.html#a2b3fd2f049c8127d45a07bdaa4fc3f6b',1,'tbb::internal::rml::ipc_worker::state_t()'],['../d5/d2f/classMyJob.html#a44f37d865cfb3f176ea9c11a1e8e8990',1,'MyJob::state_t()'],['../da/d91/classClientBase.html#a2c65b478eaf40b5bf4c6f7fb83a81990',1,'ClientBase::state_t()'],['../d6/d0b/classtbb_1_1internal_1_1rml_1_1private__worker.html#a37bb91ea8c50cfff8c255b1b700e2234',1,'tbb::internal::rml::private_worker::state_t()'],['../de/d9a/classHarness_1_1NoAfterlife.html#a05d7ce25b8fa1e71ee33c0dac39794ba',1,'Harness::NoAfterlife::state_t()'],['../d5/de8/classMyData.html#a5e157c5d8f043c9d1932d7580553d3bc',1,'MyData::state_t()'],['../d7/d39/test__concurrent__queue__v2_8cpp.html#aa0aafed44fec19806d8f9ad834be1248',1,'state_t():&#160;test_concurrent_queue_v2.cpp'],['../dc/d1d/test__concurrent__queue_8cpp.html#aa0aafed44fec19806d8f9ad834be1248',1,'state_t():&#160;test_concurrent_queue.cpp']]],
-  ['state_5ft_5fflags',['state_t_flags',['../df/d30/namespacetbb.html#ad819a3df876043ef1be649b4f80934ca',1,'tbb']]],
-  ['state_5ftype',['state_type',['../d6/d4e/classAccumulator.html#a760d74dd64eb9c2198b61875653a0e6e',1,'Accumulator']]],
-  ['statevalue',['StateValue',['../d1/d8e/structHarness_1_1StateTrackableBase.html#ab3e365d64f7e88ee99a418da22c3acbc',1,'Harness::StateTrackableBase']]],
-  ['status_5ft',['status_t',['../dd/d0d/classtbb_1_1interface5_1_1reader__writer__lock.html#a29bbf9ca21c12b313d9fa5326feaf3ed',1,'tbb::interface5::reader_writer_lock']]],
-  ['status_5ftype',['status_type',['../d2/d00/classrml_1_1factory.html#a4c1de6c79581a01b37d4ff16340e44c9',1,'rml::factory']]],
-  ['statustype',['statusType',['../d6/db1/classKeyCompare.html#a0ae889332c16c07625d027d9eafedeb3',1,'KeyCompare']]],
-  ['string_5findex',['string_index',['../d0/d9e/namespacetbb_1_1internal.html#a420aaeba8d619a03f066244d671fe314',1,'tbb::internal']]],
-  ['string_5frequired',['string_required',['../dc/ddf/test__tbb__version_8cpp.html#a24f5b267393bc143788c08f4641a1830',1,'test_tbb_version.cpp']]],
-  ['symbol_5ftype_5ft',['symbol_type_t',['../dd/da9/namespacetbb_1_1interface6_1_1internal_1_1runtime__loader.html#a89da562f9282eb84e44dae27f5290151',1,'tbb::interface6::internal::runtime_loader']]]
+  ['task_5fextra_5fstate',['task_extra_state',['../namespacetbb_1_1internal.html#a5fb219223e38c8bbcc47d7c943f48e54',1,'tbb::internal']]],
+  ['task_5fgroup_5fstatus',['task_group_status',['../namespacetbb.html#a4454db821441ca68bad263d82c40fb7a',1,'tbb']]],
+  ['testmethods',['TestMethods',['../namespacePerf_1_1internal.html#a1211044b7641be76b1ff7fbc350330e6',1,'Perf::internal']]],
+  ['thread_5fstate_5ft',['thread_state_t',['../namespacerml_1_1internal.html#aac858578632da79a900514aa9ae85cba',1,'rml::internal']]],
+  ['timestampunit',['TimestampUnit',['../namespaceel_1_1base.html#a1b886858c6409097395b24b1bdf03c39',1,'el::base']]]
 ];

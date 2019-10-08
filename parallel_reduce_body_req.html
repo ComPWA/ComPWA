@@ -93,18 +93,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Requirements on parallel_reduce body </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Class <code><a class="el" href="d7/d80/classBody.html">Body</a></code> implementing the concept of parallel_reduce body must define:</p>
+<div class="textblock"><p>Class <code><a class="el" href="classBody.html">Body</a></code> implementing the concept of parallel_reduce body must define:</p>
 <ul>
-<li><div class="fragment"><div class="line"><a class="code" href="d7/d80/classBody.html#a7486f090b37d3ecbe8f5f195e95d2832">Body::Body</a>( <a class="code" href="d7/d80/classBody.html">Body</a>&amp;, <a class="code" href="d0/d3d/namespace____pstl_1_1par__backend.html#adb7a64ba8eeda52d9bf1c82dcdf626fd">split</a> ); </div></div><!-- fragment --> Splitting constructor. Must be able to run concurrently with operator() and method <code>join</code> </li>
+<li><div class="fragment"><div class="line"><a class="code" href="classBody.html#a7727b0d8c998bbc2942e4c802e31e2eb">Body::Body</a>( <a class="code" href="classBody.html">Body</a>&amp;, <a class="code" href="namespace____pstl_1_1par__backend.html#adb7a64ba8eeda52d9bf1c82dcdf626fd">split</a> ); </div></div><!-- fragment --> Splitting constructor. Must be able to run concurrently with operator() and method <code>join</code> </li>
 <li><div class="fragment"><div class="line">Body::~Body(); </div></div><!-- fragment --> Destructor</li>
-<li><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="d7/d80/classBody.html#aacd831f5b7d15309e52c8c3068d9b569">Body::operator()</a>( <a class="code" href="dc/d49/classtbb_1_1blocked__range.html">Range</a>&amp; r ); </div></div><!-- fragment --> Function call operator applying body to range <code>r</code> and accumulating the result</li>
-<li><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="d7/d80/classBody.html#adf9e55d5d765b802609283214ed5384b">Body::join</a>( <a class="code" href="d7/d80/classBody.html">Body</a>&amp; b ); </div></div><!-- fragment --> Join results. The result in <code>b</code> should be merged into the result of <code>this</code> </li>
+<li><div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="classBody.html#a4ee7f6b3f63c08d6b0811a3026c4a21e">Body::operator()</a>( Range&amp; r ); </div></div><!-- fragment --> Function call operator applying body to range <code>r</code> and accumulating the result</li>
+<li><div class="fragment"><div class="line"><span class="keywordtype">void</span> Body::join( <a class="code" href="classBody.html">Body</a>&amp; b ); </div></div><!-- fragment --> Join results. The result in <code>b</code> should be merged into the result of <code>this</code> </li>
 </ul>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 13:12:19 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 8 2019 14:08:02 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
