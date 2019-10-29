@@ -114,6 +114,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntegrationSample.html">IntegrationSample</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html">IntensityBuilderXML</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html">ParticleStateTransitionKinematicsInfo</a></td></tr>
@@ -132,6 +134,17 @@ Functions</h2></td></tr>
 <tr class="separator:ae25ae9dce6fb6cd26b090b00e9bc2176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606007929d10fb4e381210d3156d46bb"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a606007929d10fb4e381210d3156d46bb">operator&lt;&lt;</a> (std::ostream &amp;outstream, const <a class="el" href="classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html">ParticleStateTransitionKinematicsInfo</a> &amp;kininfo)</td></tr>
 <tr class="separator:a606007929d10fb4e381210d3156d46bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6484b50f664761743b5e25dff5ed3380"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a6484b50f664761743b5e25dff5ed3380">SRange</a> (double s, std::vector&lt; double &gt; &amp;masses)</td></tr>
+<tr class="separator:a6484b50f664761743b5e25dff5ed3380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503c889052b196aa28cf931b30655e53"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a503c889052b196aa28cf931b30655e53">PhspVolume</a> (double s, std::vector&lt; double &gt; &amp;FSMasses, std::size_t SampleSize=1000)</td></tr>
+<tr class="memdesc:a503c889052b196aa28cf931b30655e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute phasespace volume of momentum space for an arbitrary number of particles in the final state using Riemann integration.  <a href="#a503c889052b196aa28cf931b30655e53">More...</a><br /></td></tr>
+<tr class="separator:a503c889052b196aa28cf931b30655e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f499b6166715bea08b92cbce59ffde"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#aa7f499b6166715bea08b92cbce59ffde">PhspVolumeTwoParticles</a> (double s, double m1, double m2)</td></tr>
+<tr class="memdesc:aa7f499b6166715bea08b92cbce59ffde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase space element for a two particle decay.  <a href="#aa7f499b6166715bea08b92cbce59ffde">More...</a><br /></td></tr>
+<tr class="separator:aa7f499b6166715bea08b92cbce59ffde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6281d76ba750e7d7576657fdacd8a9a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a6281d76ba750e7d7576657fdacd8a9a2">KallenFunction</a> (double x, double y, double z)</td></tr>
+<tr class="memdesc:a6281d76ba750e7d7576657fdacd8a9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original <a href="https://en.wikipedia.org/wiki/K%C3%A4ll%C3%A9n_function">Källén function</a>, that is, not having square values in its argument.  <a href="#a6281d76ba750e7d7576657fdacd8a9a2">More...</a><br /></td></tr>
+<tr class="separator:a6281d76ba750e7d7576657fdacd8a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b675497c44eacbefa0082c18d7044a"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a54b675497c44eacbefa0082c18d7044a">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="classComPWA_1_1Physics_1_1SubSystem.html">SubSystem</a> &amp;s)</td></tr>
 <tr class="separator:a54b675497c44eacbefa0082c18d7044a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eba68d6543b91b517a20c766a791986"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a3eba68d6543b91b517a20c766a791986">stringToVectInt</a> (std::string str)</td></tr>
@@ -213,6 +226,43 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6281d76ba750e7d7576657fdacd8a9a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ComPWA::Physics::KallenFunction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Original <a href="https://en.wikipedia.org/wiki/K%C3%A4ll%C3%A9n_function">Källén function</a>, that is, not having square values in its argument. </p>
+<p>We use this function instead of the one that can be factorised (see <a href="https://en.wikipedia.org/wiki/Heron%27s_formula">Heron's formula</a>), because we need to enter <img class="formulaInl" alt="$s$" src="form_22.png"/> without taking its square root. </p>
+
+<p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00080">80</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a54b675497c44eacbefa0082c18d7044a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -269,6 +319,109 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a503c889052b196aa28cf931b30655e53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; double, double &gt; ComPWA::Physics::PhspVolume </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>FSMasses</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>SampleSize</em> = <code>1000</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute phasespace volume of momentum space for an arbitrary number of particles in the final state using Riemann integration. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pair: first value is the volume, second is the error (currently set to <code>0.</code>)  Implement errors (second member of the pair).  Algorithm might be improved with <a href="https://en.wikipedia.org/wiki/Simpson%27s_rule">Simpson's rule</a>, because we integrate over a function that is polynomial in the limit <img class="formulaInl" alt="$m_i\rightarrow 0$" src="form_21.png"/> </dd></dl>
+<p>: Better to reuse this sample per recursion. Now it is regenerated for each iteration. </p>
+
+<p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00041">41</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7f499b6166715bea08b92cbce59ffde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ComPWA::Physics::PhspVolumeTwoParticles </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>m1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>m2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Phase space element for a two particle decay. </p>
+<p>An analytic solution exists only for the volume of the phasespace of two-particle decays. </p>
+
+<p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00076">76</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6484b50f664761743b5e25dff5ed3380"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;double, double&gt; ComPWA::Physics::SRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>masses</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00029">29</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a3eba68d6543b91b517a20c766a791986"></a>
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +455,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 28 2019 18:43:16 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 29 2019 11:32:01 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

@@ -20,7 +20,7 @@ var searchData=
   ['updateptreeparameter_2ecpp',['UpdatePTreeParameter.cpp',['../UpdatePTreeParameter_8cpp.html',1,'']]],
   ['updateptreeparameter_2ehpp',['UpdatePTreeParameter.hpp',['../UpdatePTreeParameter_8hpp.html',1,'']]],
   ['use_5fcontinued_5ffraction',['USE_CONTINUED_FRACTION',['../Faddeeva_8cc.html#a164b067c74dd1cffc4b85663b6e09c44',1,'Faddeeva.cc']]],
-  ['usehesse',['useHesse',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a37f6f4ef1a623a932f85bf98698d6256',1,'ComPWA::Optimizer::Minuit2::MinuitIF::useHesse(bool x)'],['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#acaf95f3c29e06c3abb44d9653279e5c9',1,'ComPWA::Optimizer::Minuit2::MinuitIF::UseHesse()']]],
-  ['useminos',['useMinos',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ab8d84fdd62b2fe942787e4c68913cb1c',1,'ComPWA::Optimizer::Minuit2::MinuitIF::useMinos(bool x)'],['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ada77cddee2c8cf8a9b2ef131389a5365',1,'ComPWA::Optimizer::Minuit2::MinuitIF::UseMinos()']]],
+  ['usehesse',['UseHesse',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#acaf95f3c29e06c3abb44d9653279e5c9',1,'ComPWA::Optimizer::Minuit2::MinuitIF::UseHesse()'],['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a37f6f4ef1a623a932f85bf98698d6256',1,'ComPWA::Optimizer::Minuit2::MinuitIF::useHesse(bool x)']]],
+  ['useminos',['UseMinos',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ada77cddee2c8cf8a9b2ef131389a5365',1,'ComPWA::Optimizer::Minuit2::MinuitIF::UseMinos()'],['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ab8d84fdd62b2fe942787e4c68913cb1c',1,'ComPWA::Optimizer::Minuit2::MinuitIF::useMinos(bool x)']]],
   ['utils_2ehpp',['Utils.hpp',['../Utils_8hpp.html',1,'']]]
 ];

@@ -3,7 +3,6 @@ var searchData=
   ['tableformatter',['TableFormatter',['../classComPWA_1_1TableFormatter.html#ab163126796546e99732f2ce31cd99ecb',1,'ComPWA::TableFormatter']]],
   ['threemomentum',['threeMomentum',['../classComPWA_1_1Particle.html#a127db2f6e1cef13ed1e7ae2b95b2182d',1,'ComPWA::Particle']]],
   ['threemomentumsq',['threeMomentumSq',['../classComPWA_1_1FourMomentum.html#a900be69fc7dba190e8157b5ca6aa7a34',1,'ComPWA::FourMomentum']]],
-  ['thresholdfunction',['ThresholdFunction',['../namespaceComPWA_1_1Tools.html#a40ed2da2921ed59b0d517893c54accc4',1,'ComPWA::Tools']]],
   ['timepassed',['timePassed',['../classComPWA_1_1ProgressBar.html#a6afa4c4c21cfcb054a47306ed4228d05',1,'ComPWA::ProgressBar']]],
   ['timeremaining',['timeRemaining',['../classComPWA_1_1ProgressBar.html#ae79c6b90ab6950831b46168d9f19c7ab',1,'ComPWA::ProgressBar']]],
   ['title',['title',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a5662976ccc5d53d6da3412daeef052f9',1,'ComPWA::Data::MomentumCorrection']]],
