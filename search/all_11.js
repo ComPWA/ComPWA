@@ -24,7 +24,7 @@ var searchData=
   ['resos',['Resos',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a4ec97b0b04baf093d0beb0718aa49a4b',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['rootangleefficiency',['RootAngleEfficiency',['../classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html#aff69249356d554b7ee35403f247aaab1',1,'ComPWA::Data::Root::RootAngleEfficiency::RootAngleEfficiency(TEfficiency *eff)'],['../classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html#af294f93e1bb8811d5cb8cf53ee93c070',1,'ComPWA::Data::Root::RootAngleEfficiency::RootAngleEfficiency(TH1 *passed, TH1 *total)'],['../classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html#aa23d03d584fa35128345647f91e2a161',1,'ComPWA::Data::Root::RootAngleEfficiency::RootAngleEfficiency(const RootAngleEfficiency &amp;p)']]],
   ['rootangleefficiency',['RootAngleEfficiency',['../classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html',1,'ComPWA::Data::Root']]],
-  ['rootdataio',['RootDataIO',['../classComPWA_1_1Data_1_1Root_1_1RootDataIO.html#a97fee44edfe4887fdb804e1a7514e1ae',1,'ComPWA::Data::Root::RootDataIO']]],
+  ['rootdataio',['RootDataIO',['../classComPWA_1_1Data_1_1Root_1_1RootDataIO.html#af1ea6c29693704707ecb5a62acf9542d',1,'ComPWA::Data::Root::RootDataIO']]],
   ['rootdataio',['RootDataIO',['../classComPWA_1_1Data_1_1Root_1_1RootDataIO.html',1,'ComPWA::Data::Root']]],
   ['rootdataio_2ecpp',['RootDataIO.cpp',['../RootDataIO_8cpp.html',1,'']]],
   ['rootdataio_2ehpp',['RootDataIO.hpp',['../RootDataIO_8hpp.html',1,'']]],
