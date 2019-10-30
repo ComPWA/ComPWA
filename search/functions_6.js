@@ -9,12 +9,12 @@ var searchData=
   ['get_5fvalue',['get_value',['../structBoolTranslator.html#a2c635f17e7feddc8414892aaad164b46',1,'BoolTranslator']]],
   ['getantisystematics',['GetAntiSystematics',['../classComPWA_1_1Data_1_1CorrectionTable.html#a0f7107e43c0768bc61108490e88b2e2f',1,'ComPWA::Data::CorrectionTable']]],
   ['getantisystematicserror',['GetAntiSystematicsError',['../classComPWA_1_1Data_1_1CorrectionTable.html#a10493e4ddac09c8d098a6e04830e79c2',1,'ComPWA::Data::CorrectionTable']]],
-  ['getcovariancematrix',['getCovarianceMatrix',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#aebb5c5e0e76f5c4e14cbe987b9c5fa8b',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
+  ['getcovariancematrix',['getCovarianceMatrix',['../namespaceComPWA_1_1Optimizer_1_1Minuit2.html#a9f4eec47249411d57150750324c8501b',1,'ComPWA::Optimizer::Minuit2']]],
   ['getdataid',['getDataID',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a26b633ec32bead913a46dbcae5967d43',1,'ComPWA::Physics::EvtGen::DalitzKinematics::getDataID()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a11a9799c20878906bb280cfed17c18a5',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::getDataID()']]],
   ['getdecayinfo',['getDecayInfo',['../classComPWA_1_1ParticleProperties.html#a6f7fad52dc4b606a27bc803e6e9c7673',1,'ComPWA::ParticleProperties']]],
   ['getdecaytype',['getDecayType',['../classComPWA_1_1ParticleProperties.html#ad9b3880806a8a05a0b25f638f942ccf8',1,'ComPWA::ParticleProperties']]],
   ['geterror',['GetError',['../classComPWA_1_1Data_1_1CorrectionTable.html#a68a54294bd610407fa5383b7743f9b51',1,'ComPWA::Data::CorrectionTable']]],
-  ['getfinalparameters',['getFinalParameters',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a202db1740c61fb88defa88016df89ac4',1,'ComPWA::Optimizer::Geneva::GenevaIF::getFinalParameters()'],['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a18755765451e3ee61115897671527e6e',1,'ComPWA::Optimizer::Minuit2::MinuitIF::getFinalParameters()']]],
+  ['getfinalparameters',['getFinalParameters',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a202db1740c61fb88defa88016df89ac4',1,'ComPWA::Optimizer::Geneva::GenevaIF::getFinalParameters()'],['../namespaceComPWA_1_1Optimizer_1_1Minuit2.html#ae71de8cc0adf2ce373e48a84c20f7308',1,'ComPWA::Optimizer::Minuit2::getFinalParameters()']]],
   ['getfinalstateidtonamemapping',['getFinalStateIDToNameMapping',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#af4d113c5cbb2056c562db4e7094d08e5',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
   ['getfinalstatemasses',['getFinalStateMasses',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#ad70965a9724de0a5893fe12a4bdfecdb',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
   ['getfinalstateparticlecount',['getFinalStateParticleCount',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a421cd4c16c8605cb132ceecf9d432b40',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
@@ -31,8 +31,6 @@ var searchData=
   ['getkinematicvariablenames',['getKinematicVariableNames',['../classComPWA_1_1Kinematics.html#ae6f035728148931d74eda39233141424',1,'ComPWA::Kinematics::getKinematicVariableNames()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a34975e8c63701b786115ffaa4aadfa03',1,'ComPWA::Physics::EvtGen::DalitzKinematics::getKinematicVariableNames()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a97e163e076640b36944216ac95bfe7ce',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::getKinematicVariableNames()']]],
   ['getloglevel',['getLogLevel',['../classComPWA_1_1Logging.html#a526f80b15044f3723884b5229ebee79f',1,'ComPWA::Logging']]],
   ['getmass',['getMass',['../classComPWA_1_1ParticleProperties.html#a89e3d222f7a30228f899aa99ba3aecfb',1,'ComPWA::ParticleProperties']]],
-  ['getmassa',['GetMassA',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a214a14a8cb009445b916553f487067df',1,'ComPWA::Physics::Dynamics::Coupling']]],
-  ['getmassb',['GetMassB',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a3818e80db82b9ef55834117d78386cf9',1,'ComPWA::Physics::Dynamics::Coupling']]],
   ['getmaximumsampleweight',['getMaximumSampleWeight',['../namespaceComPWA.html#a45bdb5459715fa0d3e497e5371605231',1,'ComPWA']]],
   ['getname',['getName',['../classComPWA_1_1ParticleProperties.html#a146694db0daebc8537f58c9254b81c24',1,'ComPWA::ParticleProperties']]],
   ['getnamesdownward',['GetNamesDownward',['../classComPWA_1_1FunctionTree_1_1FunctionTree.html#a61998221eb4621577fe77067957782a3',1,'ComPWA::FunctionTree::FunctionTree']]],
@@ -54,6 +52,5 @@ var searchData=
   ['gettotalsystematics',['GetTotalSystematics',['../classComPWA_1_1Data_1_1CorrectionTable.html#aedd9a4a69416450ccdfeaa801a91c329',1,'ComPWA::Data::CorrectionTable']]],
   ['gettotalsystematicserror',['GetTotalSystematicsError',['../classComPWA_1_1Data_1_1CorrectionTable.html#afb290ac8b84830faeca187ae26e36e8e',1,'ComPWA::Data::CorrectionTable']]],
   ['gettrackingcorrection',['getTrackingCorrection',['../namespaceComPWA_1_1Data.html#a8b8e5bd334e0ee04c88ecf58dcd40567',1,'ComPWA::Data']]],
-  ['getvalue',['GetValue',['../classComPWA_1_1Data_1_1CorrectionTable.html#a4297d68a41037d721689255979aa0200',1,'ComPWA::Data::CorrectionTable']]],
-  ['getvalueparameter',['GetValueParameter',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a21a0c3922421d908f46ede55e913c3e0',1,'ComPWA::Physics::Dynamics::Coupling']]]
+  ['getvalue',['GetValue',['../classComPWA_1_1Data_1_1CorrectionTable.html#a4297d68a41037d721689255979aa0200',1,'ComPWA::Data::CorrectionTable']]]
 ];

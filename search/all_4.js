@@ -23,7 +23,7 @@ var searchData=
   ['dataset',['DataSet',['../structComPWA_1_1Data_1_1DataSet.html',1,'ComPWA::Data']]],
   ['dataset_2ecpp',['DataSet.cpp',['../DataSet_8cpp.html',1,'']]],
   ['dataset_2ehpp',['DataSet.hpp',['../DataSet_8hpp.html',1,'']]],
-  ['daughtermasses',['DaughterMasses',['../structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html#ac3145b98bfc365fd8b5d012f6722b89b',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner::InputInfo']]],
+  ['daughtermasses',['DaughterMasses',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a08400d29530aadaaceb33013958957f2',1,'ComPWA::Physics::Dynamics::InputInfo']]],
   ['dawson',['Dawson',['../Faddeeva_8cc.html#a9f9b8aa6d1143a656c0f27d1a6828e2e',1,'Dawson(double x):&#160;Faddeeva.cc'],['../Faddeeva_8cc.html#a3f435476f41c8cfeb7f3a9a379dc6130',1,'Dawson(cmplx z, double relerr):&#160;Faddeeva.cc']]],
   ['decayinfo',['DecayInfo',['../classComPWA_1_1ParticleProperties.html#a29e6dc20a0d37bbe68f854c535389602',1,'ComPWA::ParticleProperties']]],
   ['deepcopy',['DeepCopy',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a3310e3b6113d6154f7ce053d8b05d87a',1,'ComPWA::FunctionTree::ParameterList']]],

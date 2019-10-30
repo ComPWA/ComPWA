@@ -11,7 +11,6 @@ var searchData=
   ['configfiledir',['ConfigFileDir',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#aaf09f64f68b7b411df5d7ed00af3c0cc',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
   ['correction',['correction',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#ad0ed90796a5cfa01191a561188742482',1,'ComPWA::FunctionTree::KahanSummation::correction()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#af58d3c236b5488299a1c5cfaa47aebf2',1,'ComPWA::Tools::KahanSummation::correction()']]],
   ['corrections',['Corrections',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a3512be3be475403b205792b4a8ead5ed',1,'ComPWA::Data::MomentumCorrection']]],
-  ['couplings',['Couplings',['../structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html#a2630e8bb26db0e8e085f8fd21248617e',1,'ComPWA::Physics::Dynamics::Flatte::InputInfo']]],
   ['covariancematrix',['CovarianceMatrix',['../structComPWA_1_1FitResult.html#a39849e8533626aefeeb8e83cf4071e37',1,'ComPWA::FitResult']]],
   ['covposdef',['CovPosDef',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a613c4554aff48a4fc96a6464ca28a9eb',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
   ['curcol',['CurCol',['../classComPWA_1_1TableFormatter.html#a74d6b0a9db66f3bd68b392e7fee75264',1,'ComPWA::TableFormatter']]],

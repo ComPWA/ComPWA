@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l',['L',['../structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html#a277e4aa823c594065e7a58731ef936b1',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner::InputInfo']]],
+  ['l',['L',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a7ae1430be73f2cbfdb439cb1c9655f55',1,'ComPWA::Physics::Dynamics::InputInfo']]],
   ['lastsep',['lastSep',['../classComPWA_1_1TableFormatter.html#a8ab7da36776137dbf6029f20f5241e92',1,'ComPWA::TableFormatter']]],
   ['lastupdate',['lastUpdate',['../classComPWA_1_1ProgressBar.html#acb40781f65162a830f07acae64cc7792',1,'ComPWA::ProgressBar']]],
   ['level',['Level',['../classComPWA_1_1Logging.html#a691404c4796b218ec860620afa17bdc8',1,'ComPWA::Logging']]],

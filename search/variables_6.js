@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fftype',['FFType',['../structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html#a946d9c3fe45e7d8f8615bcbe3b8c61a0',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner::InputInfo']]],
+  ['fftype',['FFType',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#af302546ba1c92e7e18fc9e90ab2079e7',1,'ComPWA::Physics::Dynamics::InputInfo']]],
   ['finalestimatorvalue',['FinalEstimatorValue',['../structComPWA_1_1FitResult.html#a27b6c00d3cf66b430a4933afb67a50ac',1,'ComPWA::FitResult']]],
   ['finalparameters',['FinalParameters',['../structComPWA_1_1FitResult.html#a721ef8284f84002b4cafda6bf867ed0c',1,'ComPWA::FitResult']]],
   ['finalstate',['FinalState',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a9f307b851a63c4bcd9f2e1d368caa642',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
