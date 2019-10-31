@@ -257,7 +257,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Original <a href="https://en.wikipedia.org/wiki/K%C3%A4ll%C3%A9n_function">Källén function</a>, that is, not having square values in its argument. </p>
-<p>We use this function instead of the one that can be factorised (see <a href="https://en.wikipedia.org/wiki/Heron%27s_formula">Heron's formula</a>), because we need to enter <img class="formulaInl" alt="$s$" src="form_22.png"/> without taking its square root. </p>
+<p>We use this function instead of the one that can be factorised (see <a href="https://en.wikipedia.org/wiki/Heron%27s_formula">Heron's formula</a>), because we need to enter <img class="formulaInl" alt="$s$" src="form_24.png"/> without taking its square root. </p>
 
 <p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00080">80</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
 
@@ -350,8 +350,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Compute phasespace volume of momentum space for an arbitrary number of particles in the final state using Riemann integration. </p>
-<dl class="section return"><dt>Returns</dt><dd>A pair: first value is the volume, second is the error (currently set to <code>0.</code>)  Implement errors (second member of the pair).  Algorithm might be improved with <a href="https://en.wikipedia.org/wiki/Simpson%27s_rule">Simpson's rule</a>, because we integrate over a function that is polynomial in the limit <img class="formulaInl" alt="$m_i\rightarrow 0$" src="form_21.png"/> </dd></dl>
-<p>: Better to reuse this sample per recursion. Now it is regenerated for each iteration. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pair: first value is the volume, second is the error (currently set to <code>0.</code>) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd><p class="startdd">Implement errors (second member of the pair). </p>
+<p class="enddd">Algorithm might be improved with <a href="https://en.wikipedia.org/wiki/Simpson%27s_rule">Simpson's rule</a>, because we integrate over a function that is polynomial in the limit <img class="formulaInl" alt="$m_i\rightarrow 0$" src="form_23.png"/> </p>
+</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Better to reuse this sample per recursion. Now it is regenerated for each iteration. </dd></dl>
 
 <p>Definition at line <a class="el" href="PhspVolume_8cpp_source.html#l00041">41</a> of file <a class="el" href="PhspVolume_8cpp_source.html">PhspVolume.cpp</a>.</p>
 
@@ -455,7 +458,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 30 2019 16:55:56 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 31 2019 08:48:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

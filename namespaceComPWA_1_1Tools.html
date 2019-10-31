@@ -127,9 +127,9 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#afb14c178429c8bf5c3f1b01bdccfc86d">calculateFitFractions</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
 <tr class="memdesc:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_23.png"/>
+<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_25.png"/>
 </p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_24.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_25.png"/> and the denominator is the integral over the whole intensity.  <a href="#afb14c178429c8bf5c3f1b01bdccfc86d">More...</a><br /></td></tr>
+<p> The <img class="formulaInl" alt="$c_i$" src="form_26.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_27.png"/> and the denominator is the integral over the whole intensity.  <a href="#afb14c178429c8bf5c3f1b01bdccfc86d">More...</a><br /></td></tr>
 <tr class="separator:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ba578bced3f86295bd58140c86cfe3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a7ba578bced3f86295bd58140c86cfe3e">calculateFitFractionsWithCovarianceErrorPropagation</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;Sample, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
 <tr class="memdesc:a7ba578bced3f86295bd58140c86cfe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions with errors.  <a href="#a7ba578bced3f86295bd58140c86cfe3e">More...</a><br /></td></tr>
@@ -215,9 +215,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_23.png"/>
+<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_25.png"/>
 </p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_24.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_25.png"/> and the denominator is the integral over the whole intensity. </p>
+<p> The <img class="formulaInl" alt="$c_i$" src="form_26.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_27.png"/> and the denominator is the integral over the whole intensity. </p>
 <p>The integrals are performed via Monte Carlo integration method. </p>
 
 <p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00131">131</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
@@ -262,7 +262,7 @@ Functions</h2></td></tr>
 
 <p>Calculates the fit fractions with errors. </p>
 <p>The errors are calculated by generating sets of fit parameters that are smeared by a multidimensional gaussian using the covariance matrix of the fit. For every set the fit fractions are calculated. From this distribution the standard errors give the errors of the fit fractions. This can be a very time consuming method. Calculates the fit fractions with errors via error propagation from the covariance matrix. The gradients are calculated via numerical differentiation: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]" src="form_26.png"/>
+<img class="formulaDsp" alt="\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]" src="form_28.png"/>
 </p>
  
 <p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00304">304</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
@@ -379,15 +379,15 @@ Functions</h2></td></tr>
 
 <p>Calculate integral and its error. </p>
 <p>We follow <a href="https://en.wikipedia.org/wiki/Monte_Carlo_integration">https://en.wikipedia.org/wiki/Monte_Carlo_integration</a>. The average intensity is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_27.png"/>
+<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_29.png"/>
 </p>
 <p> and the integral estimate Q_N using a sample size of N events is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_28.png"/>
+<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_30.png"/>
 </p>
 <p> The variance is given by </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_29.png"/>
+<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_31.png"/>
 </p>
-<p> We use a Kahan summation to improve numerical stability. We return ${{Var}(Q_N)}$ as error. </p>
+<p> We use a Kahan summation to improve numerical stability. We return <img class="formulaInl" alt="$ \sqrt{\mathrm{Var}(Q_N)} $" src="form_32.png"/> as error. </p>
 
 </div>
 </div>
@@ -808,7 +808,7 @@ Functions</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 30 2019 16:55:56 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 31 2019 08:48:40 for ComPWA by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
