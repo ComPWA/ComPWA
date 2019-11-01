@@ -2,7 +2,7 @@ var searchData=
 [
   ['random',['random',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html#ad0623b2b32bfee76043e4c9a88a07745',1,'ComPWA::Data::EvtGen::EvtGenStdRandomEngine']]],
   ['readdata',['readData',['../classComPWA_1_1Data_1_1AsciiReader.html#a23ae672034b093a9b74b6f9a9f5bef95',1,'ComPWA::Data::AsciiReader::readData()'],['../classComPWA_1_1Data_1_1Root_1_1RootDataIO.html#a92bc4e26934376b44e63d03e4f7bfaa6',1,'ComPWA::Data::Root::RootDataIO::readData()']]],
-  ['readparticles',['readParticles',['../namespaceComPWA.html#a381a6fe8ccb17cc2463fba2ff388ba84',1,'ComPWA::readParticles(std::stringstream &amp;Stream)'],['../namespaceComPWA.html#a636f080937cdc35a280f3a286e52c5fc',1,'ComPWA::readParticles(std::string FileName)']]],
+  ['readparticles',['readParticles',['../namespaceComPWA.html#a381a6fe8ccb17cc2463fba2ff388ba84',1,'ComPWA::readParticles(std::stringstream &amp;Stream)'],['../namespaceComPWA.html#a636f080937cdc35a280f3a286e52c5fc',1,'ComPWA::readParticles(std::string FileName)'],['../namespaceComPWA.html#a64579d27cfee064dbb386d6d10d1a9cd',1,'ComPWA::readParticles(boost::property_tree::ptree &amp;pt)']]],
   ['recalculate',['recalculate',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a9767b98ecd60a242c4db43e670bff0de',1,'ComPWA::FunctionTree::TreeNode']]],
   ['redistributeindexlists',['redistributeIndexLists',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#abb69ba437a26abf44c57695511126128',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
   ['reducetophasespace',['reduceToPhaseSpace',['../namespaceComPWA_1_1Data.html#aa74096326a3cc977113959e8442f5328',1,'ComPWA::Data']]],
