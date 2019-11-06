@@ -2,6 +2,8 @@ var searchData=
 [
   ['adapter',['Adapter',['../namespaceComPWA_1_1Tools_1_1Adapter.html',1,'ComPWA::Tools']]],
   ['boss',['BOSS',['../namespaceComPWA_1_1Tools_1_1Adapter_1_1BOSS.html',1,'ComPWA::Tools::Adapter']]],
+  ['calculateaic',['calculateAIC',['../GoodnessOfFit_8hpp.html#a50a1dc1dbb60b766524fa197c47bf1b8',1,'GoodnessOfFit.hpp']]],
+  ['calculatebic',['calculateBIC',['../GoodnessOfFit_8hpp.html#a38d64d3065cec3c91b1d133f7353c491',1,'GoodnessOfFit.hpp']]],
   ['calculatefinalstateidmasssum',['calculateFinalStateIDMassSum',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a1616094a89c780fc6b93b46a15ebf6ad',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
   ['calculatefitfractions',['calculateFitFractions',['../namespaceComPWA_1_1Tools.html#afb14c178429c8bf5c3f1b01bdccfc86d',1,'ComPWA::Tools']]],
   ['calculatefitfractionswithcovarianceerrorpropagation',['calculateFitFractionsWithCovarianceErrorPropagation',['../namespaceComPWA_1_1Tools.html#a7ba578bced3f86295bd58140c86cfe3e',1,'ComPWA::Tools']]],
@@ -86,8 +88,8 @@ var searchData=
   ['data',['Data',['../namespaceComPWA_1_1Data.html',1,'ComPWA']]],
   ['dynamics',['Dynamics',['../namespaceComPWA_1_1Physics_1_1Dynamics.html',1,'ComPWA::Physics']]],
   ['estimator',['Estimator',['../namespaceComPWA_1_1Estimator.html',1,'ComPWA']]],
-  ['evtgen',['EvtGen',['../namespaceComPWA_1_1Data_1_1EvtGen.html',1,'ComPWA::Data']]],
   ['evtgen',['EvtGen',['../namespaceComPWA_1_1Physics_1_1EvtGen.html',1,'ComPWA::Physics']]],
+  ['evtgen',['EvtGen',['../namespaceComPWA_1_1Data_1_1EvtGen.html',1,'ComPWA::Data']]],
   ['flatte',['Flatte',['../namespaceComPWA_1_1Physics_1_1Dynamics_1_1Flatte.html',1,'ComPWA::Physics::Dynamics']]],
   ['functiontree',['FunctionTree',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a20f947c22b958528f0a60a7c7f810bbc',1,'ComPWA::FunctionTree::TreeNode']]],
   ['functiontree',['FunctionTree',['../namespaceComPWA_1_1FunctionTree.html',1,'ComPWA']]],

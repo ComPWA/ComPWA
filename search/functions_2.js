@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['calculateaic',['calculateAIC',['../GoodnessOfFit_8hpp.html#a50a1dc1dbb60b766524fa197c47bf1b8',1,'GoodnessOfFit.hpp']]],
+  ['calculatebic',['calculateBIC',['../GoodnessOfFit_8hpp.html#a38d64d3065cec3c91b1d133f7353c491',1,'GoodnessOfFit.hpp']]],
   ['calculatefinalstateidmasssum',['calculateFinalStateIDMassSum',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a1616094a89c780fc6b93b46a15ebf6ad',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
   ['calculatefitfractions',['calculateFitFractions',['../namespaceComPWA_1_1Tools.html#afb14c178429c8bf5c3f1b01bdccfc86d',1,'ComPWA::Tools']]],
   ['calculatefitfractionswithcovarianceerrorpropagation',['calculateFitFractionsWithCovarianceErrorPropagation',['../namespaceComPWA_1_1Tools.html#a7ba578bced3f86295bd58140c86cfe3e',1,'ComPWA::Tools']]],
