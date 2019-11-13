@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['complex',['COMPLEX',['../namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2baa77e8a985f33cbdd3deafbf3bfe8287ef',1,'ComPWA::FunctionTree']]],
+  ['crystalbarrel',['CrystalBarrel',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494bae841995d42ec91e4cba1ce59e765c59f',1,'ComPWA::Physics::Dynamics']]]
+];

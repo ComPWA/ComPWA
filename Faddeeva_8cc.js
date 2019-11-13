@@ -1,0 +1,26 @@
+var Faddeeva_8cc =
+[
+    [ "Inf", "Faddeeva_8cc.html#a311d23688bfa914e83491178976adab9", null ],
+    [ "NaN", "Faddeeva_8cc.html#a953f667fb27fb68dd74a487d002b19b5", null ],
+    [ "USE_CONTINUED_FRACTION", "Faddeeva_8cc.html#a164b067c74dd1cffc4b85663b6e09c44", null ],
+    [ "cmplx", "Faddeeva_8cc.html#a57f4abacd6cf20e044c249fb162f706c", null ],
+    [ "cpolar", "Faddeeva_8cc.html#a395a4d07353055f40c986b1d5d58c130", null ],
+    [ "Dawson", "Faddeeva_8cc.html#a9f9b8aa6d1143a656c0f27d1a6828e2e", null ],
+    [ "Dawson", "Faddeeva_8cc.html#a3f435476f41c8cfeb7f3a9a379dc6130", null ],
+    [ "erf", "Faddeeva_8cc.html#ad378171c5eb057a3402c8ded94af06cb", null ],
+    [ "erf", "Faddeeva_8cc.html#a637464f3c2189af13d8caf12bc6aad3d", null ],
+    [ "erfc", "Faddeeva_8cc.html#afa3451c551d6f29ef5721bc00b0a6944", null ],
+    [ "erfc", "Faddeeva_8cc.html#a4928e301d4fdc8b7605645dddd4508db", null ],
+    [ "erfcx", "Faddeeva_8cc.html#a7285af47f6da6478c8d9cc1ebc55991d", null ],
+    [ "erfcx", "Faddeeva_8cc.html#ab6b8344a46f8f5b0fae8fccf44448141", null ],
+    [ "erfcx_y100", "Faddeeva_8cc.html#a9bbed8130fc530c4948e06a10ca7dfa4", null ],
+    [ "erfi", "Faddeeva_8cc.html#a614450cab0dfcd1098357bea0543d0bf", null ],
+    [ "erfi", "Faddeeva_8cc.html#a8cb8a71ce818e97507e2c7c71e65224d", null ],
+    [ "sinc", "Faddeeva_8cc.html#a0d8a24e5c334d77075fe71062e7dedfe", null ],
+    [ "sinh_taylor", "Faddeeva_8cc.html#aa4937b661a073ebdb9f5667224252358", null ],
+    [ "sqr", "Faddeeva_8cc.html#a670452ed352cb7ce7601d9ae008bc4ca", null ],
+    [ "w", "Faddeeva_8cc.html#ab229c08c24ed3769e91f4b86f05cc9b9", null ],
+    [ "w_im", "Faddeeva_8cc.html#a01a41027966acb0180a233207d0a0acc", null ],
+    [ "w_im_y100", "Faddeeva_8cc.html#ab561c0632d6707be0007a3e71580762a", null ],
+    [ "expa2n2", "Faddeeva_8cc.html#a979fa40eea71b30eece8bbec27dba3c4", null ]
+];
