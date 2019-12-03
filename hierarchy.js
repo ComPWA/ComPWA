@@ -7,12 +7,14 @@ var hierarchy =
     [ "ComPWA::Physics::Dynamics::Coupling", "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html", null ],
     [ "ComPWA::Tools::Plotting::DalitzHisto", "classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html", null ],
     [ "ComPWA::Tools::Plotting::DalitzPlot", "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html", null ],
+    [ "ComPWA::Physics::IntensityBuilderXML::DataContainer", "structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html", null ],
     [ "ComPWA::Data::DataCorrection", "classComPWA_1_1Data_1_1DataCorrection.html", [
       [ "ComPWA::Data::MomentumCorrection", "classComPWA_1_1Data_1_1MomentumCorrection.html", null ],
       [ "ComPWA::Data::UnitCorrection", "classComPWA_1_1Data_1_1UnitCorrection.html", null ]
     ] ],
     [ "ComPWA::DataPoint", "structComPWA_1_1DataPoint.html", null ],
     [ "ComPWA::Data::DataSet", "structComPWA_1_1Data_1_1DataSet.html", null ],
+    [ "ComPWA::Tools::FitFractions::DerivativeData", "structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html", null ],
     [ "ComPWA::Efficiency", "classComPWA_1_1Efficiency.html", [
       [ "ComPWA::Data::Root::RootEfficiency", "classComPWA_1_1Data_1_1Root_1_1RootEfficiency.html", [
         [ "ComPWA::Data::Root::RootAngleEfficiency", "classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html", null ]
@@ -41,6 +43,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "ComPWA::Tools::FitFraction", "structComPWA_1_1Tools_1_1FitFraction.html", null ],
+    [ "ComPWA::Tools::FitFractions", "classComPWA_1_1Tools_1_1FitFractions.html", null ],
     [ "ComPWA::FitParameter< T >", "structComPWA_1_1FitParameter.html", null ],
     [ "ComPWA::FitParameter< double >", "structComPWA_1_1FitParameter.html", null ],
     [ "ComPWA::FitResult", "structComPWA_1_1FitResult.html", [
@@ -71,7 +74,6 @@ var hierarchy =
         [ "ComPWA::Physics::Dynamics::Voigtian::InputInfo", "structComPWA_1_1Physics_1_1Dynamics_1_1Voigtian_1_1InputInfo.html", null ]
       ] ]
     ] ],
-    [ "ComPWA::Physics::IntensityBuilderXML::IntensityBuilderState", "structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1IntensityBuilderState.html", null ],
     [ "ComPWA::Physics::IntensityBuilderXML", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html", null ],
     [ "ComPWA::FunctionTree::KahanSummation", "structComPWA_1_1FunctionTree_1_1KahanSummation.html", null ],
     [ "ComPWA::Tools::KahanSummation", "structComPWA_1_1Tools_1_1KahanSummation.html", null ],

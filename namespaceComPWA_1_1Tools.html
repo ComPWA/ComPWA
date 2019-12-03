@@ -133,6 +133,8 @@ Namespaces</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Tools_1_1FitFraction.html">FitFraction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Tools_1_1FitFractions.html">FitFractions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -140,18 +142,13 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a13902a3c2ec76e0900247f3568b79e37"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> = std::vector&lt; <a class="el" href="structComPWA_1_1Tools_1_1FitFraction.html">FitFraction</a> &gt;</td></tr>
 <tr class="separator:a13902a3c2ec76e0900247f3568b79e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6f6850d3bfbe0b5c46c85d63f207fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">IntensityComponent</a> = std::pair&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">Intensity</a> &gt;&gt;</td></tr>
+<tr class="separator:abc6f6850d3bfbe0b5c46c85d63f207fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#afb14c178429c8bf5c3f1b01bdccfc86d">calculateFitFractions</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
-<tr class="memdesc:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_25.png"/>
-</p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_26.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_27.png"/> and the denominator is the integral over the whole intensity.  <a href="#afb14c178429c8bf5c3f1b01bdccfc86d">More...</a><br /></td></tr>
-<tr class="separator:afb14c178429c8bf5c3f1b01bdccfc86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba578bced3f86295bd58140c86cfe3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a7ba578bced3f86295bd58140c86cfe3e">calculateFitFractionsWithCovarianceErrorPropagation</a> (std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt; Nominators, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt; Denominator, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;Sample, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
-<tr class="memdesc:a7ba578bced3f86295bd58140c86cfe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the fit fractions with errors.  <a href="#a7ba578bced3f86295bd58140c86cfe3e">More...</a><br /></td></tr>
-<tr class="separator:a7ba578bced3f86295bd58140c86cfe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e222e742057088a1d927a946272ab8f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a3e222e742057088a1d927a946272ab8f">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> &amp;FFList)</td></tr>
+<tr class="separator:a3e222e742057088a1d927a946272ab8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a9b2ace482f3dc3e36fff7ace6dfac055">KahanSum</a> (<a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> accumulation, double value)</td></tr>
 <tr class="memdesc:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> keeps track of lost bits and reduced the uncertainty in the summation of many large/small numbers.  <a href="#a9b2ace482f3dc3e36fff7ace6dfac055">More...</a><br /></td></tr>
 <tr class="separator:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,96 +194,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00036">36</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
+<p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00029">29</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abc6f6850d3bfbe0b5c46c85d63f207fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">ComPWA::Tools::IntensityComponent</a> = typedef std::pair&lt;std::string, std::shared_ptr&lt;<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">Intensity</a>&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00031">31</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="afb14c178429c8bf5c3f1b01bdccfc86d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> ComPWA::Tools::calculateFitFractions </td>
-          <td>(</td>
-          <td class="paramtype">std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>Nominators</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&#160;</td>
-          <td class="paramname"><em>Denominator</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>sample</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculates the fit fractions using the formula: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]" src="form_25.png"/>
-</p>
-<p> The <img class="formulaInl" alt="$c_i$" src="form_26.png"/> are the complex coefficient of the amplitudes <img class="formulaInl" alt="$A_i$" src="form_27.png"/> and the denominator is the integral over the whole intensity. </p>
-<p>The integrals are performed via Monte Carlo integration method. </p>
-
-<p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00131">131</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7ba578bced3f86295bd58140c86cfe3e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> ComPWA::Tools::calculateFitFractionsWithCovarianceErrorPropagation </td>
-          <td>(</td>
-          <td class="paramtype">std::map&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>Nominators</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &gt;&#160;</td>
-          <td class="paramname"><em>Denominator</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>Sample</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a>&#160;</td>
-          <td class="paramname"><em>Result</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculates the fit fractions with errors. </p>
-<p>The errors are calculated by generating sets of fit parameters that are smeared by a multidimensional gaussian using the covariance matrix of the fit. For every set the fit fractions are calculated. From this distribution the standard errors give the errors of the fit fractions. This can be a very time consuming method. Calculates the fit fractions with errors via error propagation from the covariance matrix. The gradients are calculated via numerical differentiation: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]" src="form_28.png"/>
-</p>
- 
-<p>Definition at line <a class="el" href="FitFractions_8hpp_source.html#l00304">304</a> of file <a class="el" href="FitFractions_8hpp_source.html">FitFractions.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ab6e066a4e86e40fa658ef8865a4d0b65"></a>
 <div class="memitem">
 <div class="memproto">
@@ -397,15 +323,15 @@ Functions</h2></td></tr>
 
 <p>Calculate integral and its error. </p>
 <p>We follow <a href="https://en.wikipedia.org/wiki/Monte_Carlo_integration">https://en.wikipedia.org/wiki/Monte_Carlo_integration</a>. The average intensity is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_29.png"/>
+<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_26.png"/>
 </p>
 <p> and the integral estimate Q_N using a sample size of N events is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_30.png"/>
+<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_27.png"/>
 </p>
 <p> The variance is given by </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_31.png"/>
+<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_28.png"/>
 </p>
-<p> We use a Kahan summation to improve numerical stability. We return <img class="formulaInl" alt="$ \sqrt{\mathrm{Var}(Q_N)} $" src="form_32.png"/> as error. </p>
+<p> We use a Kahan summation to improve numerical stability. We return <img class="formulaInl" alt="$ \sqrt{\mathrm{Var}(Q_N)} $" src="form_29.png"/> as error. </p>
 
 </div>
 </div>
@@ -499,6 +425,34 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00077">77</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e222e742057088a1d927a946272ab8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; ComPWA::Tools::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> &amp;&#160;</td>
+          <td class="paramname"><em>FFList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="FitFractions_8cpp_source.html#l00015">15</a> of file <a class="el" href="FitFractions_8cpp_source.html">FitFractions.cpp</a>.</p>
 
 </div>
 </div>
@@ -829,7 +783,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Tools.html">Tools</a></li>
-    <li class="footer">Generated on Tue Nov 26 2019 12:30:30 for ComPWA by
+    <li class="footer">Generated on Tue Dec 3 2019 15:08:18 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

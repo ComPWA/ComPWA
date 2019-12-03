@@ -129,63 +129,83 @@ $(document).ready(function(){initNavTree('classComPWA_1_1Physics_1_1IntensityBui
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1IntensityBuilderState.html">IntensityBuilderState</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa5dbc63040185782e8b1a67ed41bb001"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aa5dbc63040185782e8b1a67ed41bb001">IntensityBuilderXML</a> (<a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ParticleList</a> PartList_, <a class="el" href="classComPWA_1_1Kinematics.html">Kinematics</a> &amp;Kin, const boost::property_tree::ptree &amp;ModelTree_, std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; PhspSample_={})</td></tr>
-<tr class="separator:aa5dbc63040185782e8b1a67ed41bb001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8392412c0fd1779cbbdaf471ad0e682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#af8392412c0fd1779cbbdaf471ad0e682">IntensityBuilderXML</a> (<a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ParticleList</a> PartList_, <a class="el" href="classComPWA_1_1Kinematics.html">Kinematics</a> &amp;Kin, const boost::property_tree::ptree &amp;ModelTree_, const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; &amp;TruePhspSample_={}, const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; &amp;RecoPhspSample_={})</td></tr>
+<tr class="separator:af8392412c0fd1779cbbdaf471ad0e682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531d213870d58daccd8983c8ee41b630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html">ComPWA::FunctionTree::FunctionTreeIntensity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a531d213870d58daccd8983c8ee41b630">createIntensity</a> ()</td></tr>
 <tr class="separator:a531d213870d58daccd8983c8ee41b630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77dea96c3aaf42bddaafb89ab0d217c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">ComPWA::Tools::IntensityComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a77dea96c3aaf42bddaafb89ab0d217c3">createIntensityComponents</a> (std::vector&lt; std::vector&lt; std::string &gt;&gt; ComponentList={})</td></tr>
+<tr class="separator:a77dea96c3aaf42bddaafb89ab0d217c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a13a3012d777541f768ea97a5f3b7da26"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a13a3012d777541f768ea97a5f3b7da26">createIntensityFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:a13a3012d777541f768ea97a5f3b7da26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6eec4ce2577d33b2d07d3ca8e686f06"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ab6eec4ce2577d33b2d07d3ca8e686f06">createIncoherentIntensityFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:ab6eec4ce2577d33b2d07d3ca8e686f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a341abdac11e73a9ba390b7b8d735ae49"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a341abdac11e73a9ba390b7b8d735ae49">createCoherentIntensityFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:a341abdac11e73a9ba390b7b8d735ae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1067e8b472dd4a7eb0c1fd75b61331c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#af1067e8b472dd4a7eb0c1fd75b61331c">createStrengthIntensityFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:af1067e8b472dd4a7eb0c1fd75b61331c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e82cec9b535d581fd6c4501e83a7024"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a4e82cec9b535d581fd6c4501e83a7024">createNormalizedIntensityFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:a4e82cec9b535d581fd6c4501e83a7024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4987668f5d33a574c7607ebd7629eacf"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a4987668f5d33a574c7607ebd7629eacf">normalizeIntensityFT</a> (const boost::property_tree::ptree &amp;UnnormalizedPT, std::string IntegratorClassName)</td></tr>
-<tr class="separator:a4987668f5d33a574c7607ebd7629eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f9bec65a373df3a6782515d155ba32"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a75f9bec65a373df3a6782515d155ba32">createIntegrationStrategyFT</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; UnnormalizedIntensity, std::string IntegratorClassName)</td></tr>
-<tr class="separator:a75f9bec65a373df3a6782515d155ba32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a611686fe63f004a3f1a3d6e8982b9200"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a611686fe63f004a3f1a3d6e8982b9200">createAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:a611686fe63f004a3f1a3d6e8982b9200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa68a439341314e4d84093be783dee574"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aa68a439341314e4d84093be783dee574">createNormalizedAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt)</td></tr>
-<tr class="separator:aa68a439341314e4d84093be783dee574"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac42c1eb207b241919f38e3435719188b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ac42c1eb207b241919f38e3435719188b">createCoefficientAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:ac42c1eb207b241919f38e3435719188b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4cfc89264fd802be0f8bf2814e3addf"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#af4cfc89264fd802be0f8bf2814e3addf">createSequentialAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:af4cfc89264fd802be0f8bf2814e3addf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aea677409678d09d9e939b8c2f11445"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a5aea677409678d09d9e939b8c2f11445">createHelicityDecayFT</a> (const boost::property_tree::ptree &amp;pt, std::string suffix)</td></tr>
-<tr class="separator:a5aea677409678d09d9e939b8c2f11445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2009892a8f40c5c12b7fe7b3b9519309"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a2009892a8f40c5c12b7fe7b3b9519309">createIntensityFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a2009892a8f40c5c12b7fe7b3b9519309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b70c6b5b685ca4e52fe89907d2c4ad"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a93b70c6b5b685ca4e52fe89907d2c4ad">createIncoherentIntensityFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a93b70c6b5b685ca4e52fe89907d2c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54f920a423c9c3e2b4f7c745f628334"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aa54f920a423c9c3e2b4f7c745f628334">createIncoherentIntensityFT</a> (std::string Name, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&gt; Intensities, std::string suffix)</td></tr>
+<tr class="separator:aa54f920a423c9c3e2b4f7c745f628334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad84ec7a000c7cfd645bc0b306df3d51f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ad84ec7a000c7cfd645bc0b306df3d51f">createCoherentIntensityFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:ad84ec7a000c7cfd645bc0b306df3d51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d64a011d0dc19b802189882ee235dad"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a8d64a011d0dc19b802189882ee235dad">createCoherentIntensityFT</a> (std::string Name, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&gt; Amplitudes, std::string suffix)</td></tr>
+<tr class="separator:a8d64a011d0dc19b802189882ee235dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a5e1cda4253a9a88fe9549f31547d6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a65a5e1cda4253a9a88fe9549f31547d6">createStrengthIntensityFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a65a5e1cda4253a9a88fe9549f31547d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269d5418356bbdd2c5300739dc827305"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a269d5418356bbdd2c5300739dc827305">createNormalizedIntensityFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a269d5418356bbdd2c5300739dc827305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c5c778a97a10ec5f49b0b633cf8bb3"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a71c5c778a97a10ec5f49b0b633cf8bb3">normalizeIntensityFT</a> (const boost::property_tree::ptree &amp;UnnormalizedPT, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string IntegratorClassName, std::string suffix)</td></tr>
+<tr class="separator:a71c5c778a97a10ec5f49b0b633cf8bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8ca08c1b9ca319e5ab9559c2fa22e6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ade8ca08c1b9ca319e5ab9559c2fa22e6">createIntegrationStrategyFT</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; UnnormalizedIntensity, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt;&gt;&gt; PhspWeights, double PhspWeightSum, std::string IntegratorClassName)</td></tr>
+<tr class="separator:ade8ca08c1b9ca319e5ab9559c2fa22e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845a74bbeb5a2e13f1f4f2cb1ab21d03"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a845a74bbeb5a2e13f1f4f2cb1ab21d03">createAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a845a74bbeb5a2e13f1f4f2cb1ab21d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9028321045fa2dbe5c2b2742e7c0d1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a0d9028321045fa2dbe5c2b2742e7c0d1">createNormalizedAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a0d9028321045fa2dbe5c2b2742e7c0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056cc6e0c418bebca51ddc4146f41d9e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a056cc6e0c418bebca51ddc4146f41d9e">createCoefficientAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a056cc6e0c418bebca51ddc4146f41d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bec76faf0d28344bd45546870766341"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a5bec76faf0d28344bd45546870766341">createSequentialAmplitudeFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a5bec76faf0d28344bd45546870766341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ec06fd736e7b1394a809197790a882"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a24ec06fd736e7b1394a809197790a882">createHelicityDecayFT</a> (const boost::property_tree::ptree &amp;pt, const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;DataSample, std::string suffix)</td></tr>
+<tr class="separator:a24ec06fd736e7b1394a809197790a882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b31f48bfb8a7936179cf8381509891"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a83b31f48bfb8a7936179cf8381509891">updateDataContainerWeights</a> (<a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a> &amp;DataCon, const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;DataSample)</td></tr>
+<tr class="separator:a83b31f48bfb8a7936179cf8381509891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82fac4c99121d671e82fd1fee7e491eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a82fac4c99121d671e82fd1fee7e491eb">updateDataContainerState</a> ()</td></tr>
 <tr class="separator:a82fac4c99121d671e82fd1fee7e491eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f983ed53c8938748e8477ce14c8cf51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a6f983ed53c8938748e8477ce14c8cf51">updateDataContainerContent</a> ()</td></tr>
+<tr class="separator:a6f983ed53c8938748e8477ce14c8cf51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24bcfdc24013bbf52a5b1cfe1d3457bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a24bcfdc24013bbf52a5b1cfe1d3457bb">addFunctionTreeComponent</a> (std::string Name, std::string Type, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; FT)</td></tr>
+<tr class="separator:a24bcfdc24013bbf52a5b1cfe1d3457bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ac068ad1250dbf78158b4be6577f6cea3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ac068ad1250dbf78158b4be6577f6cea3">UniqueComponentFTMapping</a></td></tr>
+<tr class="separator:ac068ad1250dbf78158b4be6577f6cea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af72f6986c01763554d47d4d19229a412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ParticleList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#af72f6986c01763554d47d4d19229a412">PartList</a></td></tr>
 <tr class="separator:af72f6986c01763554d47d4d19229a412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a034842a1b149b34e67210c7bf2d2f14c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComPWA_1_1Kinematics.html">Kinematics</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a034842a1b149b34e67210c7bf2d2f14c">Kinematic</a></td></tr>
 <tr class="separator:a034842a1b149b34e67210c7bf2d2f14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99422fd402f236b2ecbcf72f6b588945"><td class="memItemLeft" align="right" valign="top">boost::property_tree::ptree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a99422fd402f236b2ecbcf72f6b588945">ModelTree</a></td></tr>
 <tr class="separator:a99422fd402f236b2ecbcf72f6b588945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00ae8a5dd4d3f2f0dc0cc34cc5f89277"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a00ae8a5dd4d3f2f0dc0cc34cc5f89277">PhspSample</a></td></tr>
-<tr class="separator:a00ae8a5dd4d3f2f0dc0cc34cc5f89277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f6be3ed5e5b170128f614ddd80ee93b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a8f6be3ed5e5b170128f614ddd80ee93b">PhspWeights</a></td></tr>
-<tr class="separator:a8f6be3ed5e5b170128f614ddd80ee93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a78f053fa9f6abc2d5d068ab1890aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1IntensityBuilderState.html">IntensityBuilderState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a18a78f053fa9f6abc2d5d068ab1890aa">CurrentIntensityState</a></td></tr>
-<tr class="separator:a18a78f053fa9f6abc2d5d068ab1890aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a303bfd21dabfb13afc3a1e1dd4422f5b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a303bfd21dabfb13afc3a1e1dd4422f5b">TruePhspSample</a></td></tr>
+<tr class="separator:a303bfd21dabfb13afc3a1e1dd4422f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdf30f9635e49ecf72c0346157d3911"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aafdf30f9635e49ecf72c0346157d3911">RecoPhspSample</a></td></tr>
+<tr class="separator:aafdf30f9635e49ecf72c0346157d3911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1156f6f64911708e34d6c158d49cf9d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a1156f6f64911708e34d6c158d49cf9d1">Parameters</a></td></tr>
+<tr class="separator:a1156f6f64911708e34d6c158d49cf9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9112d7de0dcea23a74d167935b3f4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a1d9112d7de0dcea23a74d167935b3f4a">Data</a></td></tr>
+<tr class="separator:a1d9112d7de0dcea23a74d167935b3f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa584a1ccc381745c8f6035d4bdb0fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abfa584a1ccc381745c8f6035d4bdb0fd">PhspData</a></td></tr>
+<tr class="separator:abfa584a1ccc381745c8f6035d4bdb0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b2cab62a3477523b6f9b03561b66b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a04b2cab62a3477523b6f9b03561b66b6">PhspRecoData</a></td></tr>
+<tr class="separator:a04b2cab62a3477523b6f9b03561b66b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00032">32</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00035">35</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for ComPWA::Physics::IntensityBuilderXML:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -195,7 +215,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa5dbc63040185782e8b1a67ed41bb001"></a>
+<a class="anchor" id="af8392412c0fd1779cbbdaf471ad0e682"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -220,8 +240,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt;&#160;</td>
-          <td class="paramname"><em>PhspSample_</em> = <code>{}</code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>TruePhspSample_</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>RecoPhspSample_</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -236,7 +262,49 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a611686fe63f004a3f1a3d6e8982b9200"></a>
+<a class="anchor" id="a24bcfdc24013bbf52a5b1cfe1d3457bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::Physics::IntensityBuilderXML::addFunctionTreeComponent </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td>
+          <td class="paramname"><em>FT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00911">911</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a845a74bbeb5a2e13f1f4f2cb1ab21d03"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -252,6 +320,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
@@ -268,11 +342,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00301">301</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00408">408</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac42c1eb207b241919f38e3435719188b"></a>
+<a class="anchor" id="a056cc6e0c418bebca51ddc4146f41d9e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -288,74 +362,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>suffix</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00399">399</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a341abdac11e73a9ba390b7b8d735ae49"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createCoherentIntensityFT </td>
-          <td>(</td>
-          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>suffix</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00100">100</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5aea677409678d09d9e939b8c2f11445"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createHelicityDecayFT </td>
-          <td>(</td>
-          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -380,7 +388,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab6eec4ce2577d33b2d07d3ca8e686f06"></a>
+<a class="anchor" id="ad84ec7a000c7cfd645bc0b306df3d51f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -388,10 +396,16 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createIncoherentIntensityFT </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createCoherentIntensityFT </td>
           <td>(</td>
           <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -412,11 +426,179 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00078">78</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00204">204</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a75f9bec65a373df3a6782515d155ba32"></a>
+<a class="anchor" id="a8d64a011d0dc19b802189882ee235dad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createCoherentIntensityFT </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>Amplitudes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00221">221</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a24ec06fd736e7b1394a809197790a882"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createHelicityDecayFT </td>
+          <td>(</td>
+          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00629">629</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93b70c6b5b685ca4e52fe89907d2c4ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createIncoherentIntensityFT </td>
+          <td>(</td>
+          <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00166">166</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa54f920a423c9c3e2b4f7c745f628334"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createIncoherentIntensityFT </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>Intensities</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00183">183</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ade8ca08c1b9ca319e5ab9559c2fa22e6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -428,6 +610,18 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt;&#160;</td>
           <td class="paramname"><em>UnnormalizedIntensity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt;&gt;&gt;&#160;</td>
+          <td class="paramname"><em>PhspWeights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>PhspWeightSum</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -448,7 +642,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00239">239</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00361">361</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
@@ -465,11 +659,29 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00041">41</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00051">51</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a13a3012d777541f768ea97a5f3b7da26"></a>
+<a class="anchor" id="a77dea96c3aaf42bddaafb89ab0d217c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">ComPWA::Tools::IntensityComponent</a> &gt; ComPWA::Physics::IntensityBuilderXML::createIntensityComponents </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; std::string &gt;&gt;&#160;</td>
+          <td class="paramname"><em>ComponentList</em> = <code>{}</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00066">66</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2009892a8f40c5c12b7fe7b3b9519309"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -485,6 +697,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
@@ -501,11 +719,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00055">55</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00134">134</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa68a439341314e4d84093be783dee574"></a>
+<a class="anchor" id="a0d9028321045fa2dbe5c2b2742e7c0d1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -516,8 +734,24 @@ Private Attributes</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a> &gt; ComPWA::Physics::IntensityBuilderXML::createNormalizedAmplitudeFT </td>
           <td>(</td>
           <td class="paramtype">const boost::property_tree::ptree &amp;&#160;</td>
-          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -527,11 +761,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00321">321</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00438">438</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4e82cec9b535d581fd6c4501e83a7024"></a>
+<a class="anchor" id="a269d5418356bbdd2c5300739dc827305"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -547,6 +781,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
@@ -563,11 +803,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00170">170</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00288">288</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af4cfc89264fd802be0f8bf2814e3addf"></a>
+<a class="anchor" id="a5bec76faf0d28344bd45546870766341"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -583,6 +823,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
@@ -599,11 +845,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00452">452</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00567">567</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af1067e8b472dd4a7eb0c1fd75b61331c"></a>
+<a class="anchor" id="a65a5e1cda4253a9a88fe9549f31547d6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -619,6 +865,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
@@ -635,11 +887,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00127">127</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00244">244</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4987668f5d33a574c7607ebd7629eacf"></a>
+<a class="anchor" id="a71c5c778a97a10ec5f49b0b633cf8bb3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -655,8 +907,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>IntegratorClassName</em>&#160;</td>
+          <td class="paramname"><em>IntegratorClassName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>suffix</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -671,7 +935,32 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00206">206</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00326">326</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f983ed53c8938748e8477ce14c8cf51"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::Physics::IntensityBuilderXML::updateDataContainerContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00883">883</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
@@ -696,12 +985,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00725">725</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00855">855</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a18a78f053fa9f6abc2d5d068ab1890aa"></a>
+<a class="anchor" id="a83b31f48bfb8a7936179cf8381509891"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -709,7 +997,21 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1IntensityBuilderState.html">IntensityBuilderState</a> ComPWA::Physics::IntensityBuilderXML::CurrentIntensityState</td>
+          <td class="memname">void ComPWA::Physics::IntensityBuilderXML::updateDataContainerWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>DataCon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>DataSample</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -719,7 +1021,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00103">103</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8cpp_source.html#l00889">889</a> of file <a class="el" href="BuilderXML_8cpp_source.html">BuilderXML.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a1d9112d7de0dcea23a74d167935b3f4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a> ComPWA::Physics::IntensityBuilderXML::Data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00155">155</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
@@ -741,7 +1066,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00098">98</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00149">149</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
@@ -763,7 +1088,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00099">99</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00150">150</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1156f6f64911708e34d6c158d49cf9d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ComPWA::FunctionTree::ParameterList</a> ComPWA::Physics::IntensityBuilderXML::Parameters</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00154">154</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
@@ -785,11 +1132,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00097">97</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00148">148</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a00ae8a5dd4d3f2f0dc0cc34cc5f89277"></a>
+<a class="anchor" id="abfa584a1ccc381745c8f6035d4bdb0fd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -797,7 +1144,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a>&gt; ComPWA::Physics::IntensityBuilderXML::PhspSample</td>
+          <td class="memname"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a> ComPWA::Physics::IntensityBuilderXML::PhspData</td>
         </tr>
       </table>
   </td>
@@ -807,11 +1154,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00100">100</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00156">156</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8f6be3ed5e5b170128f614ddd80ee93b"></a>
+<a class="anchor" id="a04b2cab62a3477523b6f9b03561b66b6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -819,7 +1166,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt;std::vector&lt;double&gt; &gt; &gt; ComPWA::Physics::IntensityBuilderXML::PhspWeights</td>
+          <td class="memname"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">DataContainer</a> ComPWA::Physics::IntensityBuilderXML::PhspRecoData</td>
         </tr>
       </table>
   </td>
@@ -829,7 +1176,73 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00101">101</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00157">157</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aafdf30f9635e49ecf72c0346157d3911"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a>&gt;&amp; ComPWA::Physics::IntensityBuilderXML::RecoPhspSample</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00152">152</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a303bfd21dabfb13afc3a1e1dd4422f5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a>&gt;&amp; ComPWA::Physics::IntensityBuilderXML::TruePhspSample</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00151">151</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac068ad1250dbf78158b4be6577f6cea3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, std::pair&lt;std::string, std::shared_ptr&lt;<a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a>&gt; &gt; &gt; ComPWA::Physics::IntensityBuilderXML::UniqueComponentFTMapping</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="BuilderXML_8hpp_source.html#l00146">146</a> of file <a class="el" href="BuilderXML_8hpp_source.html">BuilderXML.hpp</a>.</p>
 
 </div>
 </div>
@@ -844,7 +1257,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Physics.html">Physics</a></li><li class="navelem"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html">IntensityBuilderXML</a></li>
-    <li class="footer">Generated on Tue Nov 26 2019 12:30:30 for ComPWA by
+    <li class="footer">Generated on Tue Dec 3 2019 15:08:18 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

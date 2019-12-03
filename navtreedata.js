@@ -43,12 +43,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AsciiReader_8cpp.html",
-"HistTools_8hpp.html#a48cad49cf5e8dc7cbf78f040e41098b2",
-"classComPWA_1_1Data_1_1CorrectionTable.html#a028d4e99fcb285901d770cf6bfe56e49",
-"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2fe6a879300ece0de796636ca866e0a2",
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#acbdb94402627dfc9171f0f1401409226",
-"classComPWA_1_1UnitEfficiency.html#ac432d19c01e31656459eee9a6b5575d1",
-"structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a920e649ccd6a3205b137ed1d511593cb"
+"HistTools_8hpp.html#a3506f5d71370170e5a49b35b2d68e162",
+"classComPWA_1_1Data_1_1AsciiReader.html#adafa25fd1f5183d3d381d63f189b02f8",
+"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html",
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a20a5963e0b4463ec13dc674db1c3ec80",
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ae9af48a28d3568545b9b88482357cc60",
+"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -120,15 +120,18 @@ $(document).ready(function(){initNavTree('BuilderXML_8hpp.html','');});
 <div class="title">BuilderXML.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="Function_8hpp_source.html">Core/Function.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="Function_8hpp_source.html">Core/Function.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="FunctionTreeIntensity_8hpp_source.html">Core/FunctionTree/FunctionTreeIntensity.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Value_8hpp_source.html">Core/FunctionTree/Value.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="DataSet_8hpp_source.html">Data/DataSet.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ParticleStateTransitionKinematicsInfo_8hpp_source.html">Physics/ParticleStateTransitionKinematicsInfo.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="FitFractions_8hpp_source.html">Tools/FitFractions.hpp</a>&quot;</code><br />
 <code>#include &lt;boost/property_tree/ptree_fwd.hpp&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for BuilderXML.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -152,7 +155,7 @@ $(document).ready(function(){initNavTree('BuilderXML_8hpp.html','');});
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1IntensityBuilderXML.html">ComPWA::Physics::IntensityBuilderXML</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1IntensityBuilderState.html">ComPWA::Physics::IntensityBuilderXML::IntensityBuilderState</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">ComPWA::Physics::IntensityBuilderXML::DataContainer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -170,10 +173,6 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ad244ba1ef3892c0ad14623344c0db89b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html">HelicityKinematics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#ad244ba1ef3892c0ad14623344c0db89b">ComPWA::Physics::createHelicityKinematics</a> (const <a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ComPWA::ParticleList</a> &amp;PartList, const boost::property_tree::ptree &amp;pt)</td></tr>
 <tr class="separator:ad244ba1ef3892c0ad14623344c0db89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a718a818e7be4231cca59c3d15092e2"><td class="memItemLeft" align="right" valign="top">ParticleStateTransitionKinematicsInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#a2a718a818e7be4231cca59c3d15092e2">ComPWA::Physics::createKinematicsInfo</a> (const <a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ComPWA::ParticleList</a> &amp;PartList, const boost::property_tree::ptree &amp;pt)</td></tr>
-<tr class="separator:a2a718a818e7be4231cca59c3d15092e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae25ae9dce6fb6cd26b090b00e9bc2176"><td class="memItemLeft" align="right" valign="top">FourMomentum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#ae25ae9dce6fb6cd26b090b00e9bc2176">ComPWA::Physics::createFourMomentum</a> (const boost::property_tree::ptree &amp;pt)</td></tr>
-<tr class="separator:ae25ae9dce6fb6cd26b090b00e9bc2176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -182,7 +181,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fd3a82303f5206df56505f8b5712131f.html">Physics</a></li><li class="navelem"><a class="el" href="BuilderXML_8hpp.html">BuilderXML.hpp</a></li>
-    <li class="footer">Generated on Tue Nov 26 2019 12:30:30 for ComPWA by
+    <li class="footer">Generated on Tue Dec 3 2019 15:08:18 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

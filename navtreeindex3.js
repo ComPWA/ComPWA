@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html":[4,0,0,2,8],
+"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a1b2c0ea7f97be922c3b8f7281a47e934":[4,0,0,2,8,5],
+"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2468a87b77760c2ad04aa703c87998b3":[4,0,0,2,8,10],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2fe6a879300ece0de796636ca866e0a2":[4,0,0,2,8,9],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a59c479b8abff682c2c914ae0bcd365e5":[4,0,0,2,8,3],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a7591ccafe36d9f841d6c1017ce50e9c3":[4,0,0,2,8,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a8a2b2af57a01ff42aabf35e787b08c3b":[4,0,0,4,0,4,2],
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#ad283a4ee0d30987e24d9aa94546c6a49":[4,0,0,4,0,4,0],
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#aedf9ea50416886425290433a6a411b3c":[4,0,0,4,0,4,3],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html":[4,0,0,4,0,5],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a20a5963e0b4463ec13dc674db1c3ec80":[4,0,0,4,0,5,3],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a3d092b53dc79a1cdfb187844d4643ddb":[4,0,0,4,0,5,2],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a915179ddb1240f185cdbc12dad94ee62":[4,0,0,4,0,5,1]
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html":[4,0,0,4,0,5]
 };

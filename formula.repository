@@ -23,11 +23,8 @@
 \form#22:$m^2, cos\Theta, \phi$
 \form#23:$m_i\rightarrow 0$
 \form#24:$s$
-\form#25:\[ f_i = \frac{|c_i|^2 \int A_i A_i^*}{\int \sum c_l c_m^* A_l A_m^*} \]
-\form#26:$c_i$
-\form#27:$A_i$
-\form#28:\[ f'(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]
-\form#29:\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]
-\form#30:\[ I \approx Q_N = V*\langle f \rangle. \]
-\form#31:\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]
-\form#32:$ \sqrt{\mathrm{Var}(Q_N)} $
+\form#25:\[ f´(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]
+\form#26:\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]
+\form#27:\[ I \approx Q_N = V*\langle f \rangle. \]
+\form#28:\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]
+\form#29:$ \sqrt{\mathrm{Var}(Q_N)} $

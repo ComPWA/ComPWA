@@ -8,5 +8,6 @@ var searchData=
   ['bins',['bins',['../classComPWA_1_1Data_1_1CorrectionTable.html#aa07b137dbac5c890099ac3bfe8200dd4',1,'ComPWA::Data::CorrectionTable']]],
   ['boostalongy',['BoostAlongY',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#aeeebccda5de13ad8a47410436027e302',1,'ComPWA::Data::Root::RootGenerator']]],
   ['bounds',['bounds',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aa535da3ea6b20f10e6bbf2a68d4512c8',1,'ComPWA::FunctionTree::FitParameter']]],
-  ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#a64bcac051166607bf6e3503007d6bfa9',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]]
+  ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#a64bcac051166607bf6e3503007d6bfa9',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]],
+  ['buildjacobiandcovariance',['buildJacobiAndCovariance',['../classComPWA_1_1Tools_1_1FitFractions.html#a9dc6d2d40158008dd76c2a4717229ba5',1,'ComPWA::Tools::FitFractions']]]
 ];

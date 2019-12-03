@@ -6,6 +6,7 @@ var searchData=
   ['addall',['AddAll',['../classComPWA_1_1FunctionTree_1_1AddAll.html#ad3ec770c04c0229b2290aa772f1faa72',1,'ComPWA::FunctionTree::AddAll']]],
   ['addbin',['addBin',['../classComPWA_1_1Data_1_1CorrectionTable.html#abaeb44a911691d0b68e7b5fd9ecfd35b',1,'ComPWA::Data::CorrectionTable']]],
   ['addcolumn',['addColumn',['../classComPWA_1_1TableFormatter.html#ae17cb1597db94612505a25573d89c587',1,'ComPWA::TableFormatter']]],
+  ['addfunctiontreecomponent',['addFunctionTreeComponent',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a24bcfdc24013bbf52a5b1cfe1d3457bb',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['addheliresonance',['addHeliResonance',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#adcaaf29573bc9de9a1290e2bd6e0a316',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['addintensityweights',['addIntensityWeights',['../namespaceComPWA_1_1Data.html#a248b63dffeee40f7c5e6067e0c45b0f3',1,'ComPWA::Data']]],
   ['addinv',['AddInv',['../classComPWA_1_1Data_1_1CorrectionTable.html#a353e6edb328d356807ffbab769f189fd',1,'ComPWA::Data::CorrectionTable']]],

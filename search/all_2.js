@@ -20,8 +20,9 @@ var searchData=
   ['brancheff',['BranchEff',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#ad0b5f737603184ac86eafd3486717df6',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
   ['branchpoint',['BranchPoint',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a09169563d4f971214784e09c20cd039a',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
   ['branchweight',['BranchWeight',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a98ec9ba4656ed9f06a59a8a9e8dd1aa2',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html',1,'ComPWA::Physics::Dynamics']]],
   ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#a64bcac051166607bf6e3503007d6bfa9',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]],
+  ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html',1,'ComPWA::Physics::Dynamics']]],
   ['builderxml_2ecpp',['BuilderXML.cpp',['../BuilderXML_8cpp.html',1,'']]],
-  ['builderxml_2ehpp',['BuilderXML.hpp',['../BuilderXML_8hpp.html',1,'']]]
+  ['builderxml_2ehpp',['BuilderXML.hpp',['../BuilderXML_8hpp.html',1,'']]],
+  ['buildjacobiandcovariance',['buildJacobiAndCovariance',['../classComPWA_1_1Tools_1_1FitFractions.html#a9dc6d2d40158008dd76c2a4717229ba5',1,'ComPWA::Tools::FitFractions']]]
 ];

@@ -2,6 +2,7 @@ var searchData=
 [
   ['faddeeva_2ecc',['Faddeeva.cc',['../Faddeeva_8cc.html',1,'']]],
   ['faddeeva_2ehh',['Faddeeva.hh',['../Faddeeva_8hh.html',1,'']]],
+  ['fitfractions_2ecpp',['FitFractions.cpp',['../FitFractions_8cpp.html',1,'']]],
   ['fitfractions_2ehpp',['FitFractions.hpp',['../FitFractions_8hpp.html',1,'']]],
   ['fitparameter_2ecpp',['FitParameter.cpp',['../FitParameter_8cpp.html',1,'']]],
   ['fitparameter_2ehpp',['FitParameter.hpp',['../FunctionTree_2FitParameter_8hpp.html',1,'']]],

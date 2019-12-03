@@ -4,6 +4,7 @@ var searchData=
   ['sep',['sep',['../classComPWA_1_1TableFormatter.html#a6566448d68709282dbeadb342a3deea5',1,'ComPWA::TableFormatter']]],
   ['sigma',['Sigma',['../structComPWA_1_1Physics_1_1Dynamics_1_1Voigtian_1_1InputInfo.html#a24891b8d58b6ee326acd38fd9b89c6cf',1,'ComPWA::Physics::Dynamics::Voigtian::InputInfo']]],
   ['starttime',['startTime',['../classComPWA_1_1ProgressBar.html#a7a18470d483e4dc3d2bf59fe74485f09',1,'ComPWA::ProgressBar']]],
+  ['stepsize',['StepSize',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html#a228265b2a9d919a9f9ce8b813c74a0bc',1,'ComPWA::Tools::FitFractions::DerivativeData']]],
   ['strat',['Strat',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a82d2d6aab67d2214ebeaa6ece395747a',1,'ComPWA::FunctionTree::TreeNode']]],
   ['subsystems',['Subsystems',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a78e0cd5f3b0e9df162dcca065bb08a6e',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
   ['sum',['sum',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#a72d2078d24ac2c72dd539f72d9f4326e',1,'ComPWA::FunctionTree::KahanSummation::sum()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#acbbf98f007af16dcd217f0bf71723257',1,'ComPWA::Tools::KahanSummation::sum()']]],
