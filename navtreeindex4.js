@@ -240,14 +240,14 @@ var NAVTREEINDEX4 =
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#afdb91f9cebb7415b16b697e07a33ceaa":[4,0,0,5,1,0,18],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html":[4,0,0,5,1,1],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a02e1ab1a643d0f29ef18ca3459ecaa00":[4,0,0,5,1,1,1],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a097a6a1772f8929fcd06e1741da65c8a":[4,0,0,5,1,1,0],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a17961d51551fbe7d88165607a8d051a5":[4,0,0,5,1,1,11],
-"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a2876f870850b3f9923ea4ebd0e9859e1":[4,0,0,5,1,1,3],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a29d1c1f706d2aa6e27edce73365c55e8":[4,0,0,5,1,1,10],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a2a6663d997ef7415d8ab8e2c872fca9c":[4,0,0,5,1,1,8],
-"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a3ac5e43633bef0ba1678bf0acf2da901":[4,0,0,5,1,1,0],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a5332d3cb88b748233b167a093934b8d8":[4,0,0,5,1,1,4],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a6f3e3b811ec099f8cbf9ff979b1936ad":[4,0,0,5,1,1,9],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a81a0980fcc31f13afd2a9c5ec559cc9a":[4,0,0,5,1,1,7],
-"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac02489c0df0da5b16efebf865674dd8d":[4,0,0,5,1,1,4],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac208c41b7d8dbeb318bca808cbd094dd":[4,0,0,5,1,1,3],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac221f43999c31ba9e316900153550948":[4,0,0,5,1,1,6],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ad409253f8f7fc6faf82e13149c2dfb6c":[4,0,0,5,1,1,2]
 };

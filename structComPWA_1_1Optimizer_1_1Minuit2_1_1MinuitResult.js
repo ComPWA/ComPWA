@@ -14,6 +14,5 @@ var structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult =
     [ "HasValidCov", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac507bde391377616cef3a66a52775e7d", null ],
     [ "HasValidParameters", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a3bb490f202ddc3a8840bc20254fa0f53", null ],
     [ "HesseFailed", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a1e9a843ed119b6f8205b904071eac80e", null ],
-    [ "IsValid", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#afe1346d0bf1ea9fbc9616a43ca40cd05", null ],
     [ "NFcn", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af74ba55e136d8e4f8308bb9db1ef6297", null ]
 ];

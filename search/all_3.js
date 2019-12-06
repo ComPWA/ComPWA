@@ -13,7 +13,7 @@ var searchData=
   ['check_5fbounds',['check_bounds',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aa8c95e3ad44684bc77bc986ed3b86c84',1,'ComPWA::FunctionTree::FitParameter']]],
   ['checkstrategy',['checkStrategy',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a56f8b59e601fde38306f7e5bd2e3ac60',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
   ['checktype',['checkType',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a32ade3523c081542c01450bcd7f6b490',1,'ComPWA::FunctionTree::Strategy']]],
-  ['childnodes',['ChildNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a0690224c41174e59dd80ef511a31b22e',1,'ComPWA::FunctionTree::TreeNode::ChildNodes()'],['../classComPWA_1_1FunctionTree_1_1TreeNode.html#af4aefa052e828496745fb1a0bd6906cf',1,'ComPWA::FunctionTree::TreeNode::childNodes()']]],
+  ['childnodes',['childNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#af4aefa052e828496745fb1a0bd6906cf',1,'ComPWA::FunctionTree::TreeNode::childNodes()'],['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a0690224c41174e59dd80ef511a31b22e',1,'ComPWA::FunctionTree::TreeNode::ChildNodes()']]],
   ['chioned',['ChiOneD',['../classChiOneD.html',1,'ChiOneD'],['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a7f21adc761edd18a8fdb3fbfb0756566',1,'ComPWA::Estimator::ChiOneD::ChiOneD::ChiOneD()']]],
   ['chioned',['ChiOneD',['../namespaceComPWA_1_1Estimator_1_1ChiOneD.html',1,'ComPWA::Estimator']]],
   ['chioned',['ChiOneD',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html',1,'ComPWA::Estimator::ChiOneD']]],

@@ -48,7 +48,7 @@ var NAVTREEINDEX =
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html",
 "classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a20a5963e0b4463ec13dc674db1c3ec80",
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ae9af48a28d3568545b9b88482357cc60",
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241"
+"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8272acdbc526d6347f18276ccec2d5db"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

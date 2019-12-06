@@ -13,5 +13,5 @@ var searchData=
   ['intvalues',['IntValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a8146b9eb182dda3c8855eb9d9557ab96',1,'ComPWA::FunctionTree::ParameterList']]],
   ['invmassbounds',['InvMassBounds',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4ac3cc70104e37afb7aa3cf9930864b1',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
   ['isfixed',['IsFixed',['../structComPWA_1_1FitParameter.html#a31a7639eb778e4c3bafa789e728a0b93',1,'ComPWA::FitParameter::IsFixed()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a1b3ce5c9cb34b8cf5397fa323226dccd',1,'ComPWA::FunctionTree::FitParameter::IsFixed()']]],
-  ['isvalid',['IsValid',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#afe1346d0bf1ea9fbc9616a43ca40cd05',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]]
+  ['isvalid',['IsValid',['../structComPWA_1_1FitResult.html#aac87f3cca2e4101b4958cc03dec23ce2',1,'ComPWA::FitResult']]]
 ];
