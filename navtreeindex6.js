@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8272acdbc526d6347f18276ccec2d5db":[4,0,0,3,1,1,5],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241":[4,0,0,3,1,1,7],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a893df3bede32316d89e976c613c8e802":[4,0,0,3,1,1,10],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8d3fb92d7f25a10e4731270b76b7ea9e":[4,0,0,3,1,1,1],
@@ -10,9 +9,9 @@ var NAVTREEINDEX6 =
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac507bde391377616cef3a66a52775e7d":[4,0,0,3,1,1,11],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af6412ad08e17e7b312b864bd633150cd":[4,0,0,3,1,1,2],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af74ba55e136d8e4f8308bb9db1ef6297":[4,0,0,3,1,1,14],
-"structComPWA_1_1Parameter.html":[4,0,0,20],
-"structComPWA_1_1Parameter.html#a32f1b5c10c72f7082838ad44460baebc":[4,0,0,20,0],
-"structComPWA_1_1Parameter.html#ad1d27e26b1e15d81a61576dcde73fd8f":[4,0,0,20,1],
+"structComPWA_1_1Parameter.html":[4,0,0,21],
+"structComPWA_1_1Parameter.html#a32f1b5c10c72f7082838ad44460baebc":[4,0,0,21,0],
+"structComPWA_1_1Parameter.html#ad1d27e26b1e15d81a61576dcde73fd8f":[4,0,0,21,1],
 "structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html":[4,0,0,4,0,0,0],
 "structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html#a4e4deca4062a41a1de0828f0678c35f9":[4,0,0,4,0,0,0,0],
 "structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html#a5c1155ffd3b629c13abfa7d80e9ea008":[4,0,0,4,0,0,0,1],

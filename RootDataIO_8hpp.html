@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('RootDataIO_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">RootDataIO.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -141,12 +141,6 @@ $(document).ready(function(){initNavTree('RootDataIO_8hpp.html','');});
 </div>
 <p><a href="RootDataIO_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Data_1_1Root_1_1RootDataIO.html">ComPWA::Data::Root::RootDataIO</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for reading/writing <a class="el" href="namespaceComPWA_1_1Physics.html">Physics</a> Events from/to ROOT files.  <a href="classComPWA_1_1Data_1_1Root_1_1RootDataIO.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceComPWA"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html">ComPWA</a></td></tr>
@@ -154,7 +148,17 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceComPWA_1_1Data"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data.html">ComPWA::Data</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceComPWA_1_1Data_1_1Root"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html">ComPWA::Data::Root</a></td></tr>
+<tr class="memdesc:namespaceComPWA_1_1Data_1_1Root"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace with read/write functions for <a href="https://root.cern.ch/input-and-output">ROOT files</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a064b292c426ae005078c5cf0dc7fcb6b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#a064b292c426ae005078c5cf0dc7fcb6b">ComPWA::Data::Root::readData</a> (const std::string &amp;InputFileName, const std::string &amp;TreeName, long long NumberEventsToRead=-1)</td></tr>
+<tr class="memdesc:a064b292c426ae005078c5cf0dc7fcb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s from a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="namespaceComPWA_1_1Data_1_1Root.html#a064b292c426ae005078c5cf0dc7fcb6b">More...</a><br /></td></tr>
+<tr class="separator:a064b292c426ae005078c5cf0dc7fcb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf207f1613afbf62d37d510ec10249f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#aaf207f1613afbf62d37d510ec10249f4">ComPWA::Data::Root::writeData</a> (const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;Events, const std::string &amp;OutputFilePath, const std::string &amp;TreeName, bool OverwriteFile=true)</td></tr>
+<tr class="memdesc:aaf207f1613afbf62d37d510ec10249f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s to a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="namespaceComPWA_1_1Data_1_1Root.html#aaf207f1613afbf62d37d510ec10249f4">More...</a><br /></td></tr>
+<tr class="separator:aaf207f1613afbf62d37d510ec10249f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -163,7 +167,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_e3d743d0ec9b4013b28b5d69101bc7fb.html">Data</a></li><li class="navelem"><a class="el" href="dir_38ede806b5a81417cb73c367dd92d89d.html">Root</a></li><li class="navelem"><a class="el" href="RootDataIO_8hpp.html">RootDataIO.hpp</a></li>
-    <li class="footer">Generated on Fri Jan 17 2020 13:41:10 for ComPWA by
+    <li class="footer">Generated on Fri Jan 17 2020 15:20:27 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

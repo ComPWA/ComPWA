@@ -46,7 +46,7 @@ var searchData=
   ['phspvolume_2ecpp',['PhspVolume.cpp',['../PhspVolume_8cpp.html',1,'']]],
   ['phspvolume_2ehpp',['PhspVolume.hpp',['../PhspVolume_8hpp.html',1,'']]],
   ['phspvolumetwoparticles',['PhspVolumeTwoParticles',['../namespaceComPWA_1_1Physics.html#aa7f499b6166715bea08b92cbce59ffde',1,'ComPWA::Physics']]],
-  ['pid',['Pid',['../classComPWA_1_1Particle.html#ad467c5efbc435d7cd69a93668ac372e7',1,'ComPWA::Particle::Pid()'],['../classComPWA_1_1Particle.html#a900970c05719458b88d787614ffe617a',1,'ComPWA::Particle::pid() const '],['../namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112',1,'ComPWA::pid()']]],
+  ['pid',['pid',['../classComPWA_1_1Particle.html#a900970c05719458b88d787614ffe617a',1,'ComPWA::Particle::pid() const '],['../classComPWA_1_1Particle.html#ad467c5efbc435d7cd69a93668ac372e7',1,'ComPWA::Particle::Pid()'],['../namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112',1,'ComPWA::pid()']]],
   ['plot',['plot',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ae9af48a28d3568545b9b88482357cc60',1,'ComPWA::Tools::Plotting::DalitzPlot']]],
   ['pm',['pm',['../classComPWA_1_1TableFormatter.html#af9656b75c4b69bb29b0439a608bab05e',1,'ComPWA::TableFormatter']]],
   ['points',['Points',['../structenergyPar.html#ac52ae44124d7b7995b28c5ac595e9300',1,'energyPar']]],

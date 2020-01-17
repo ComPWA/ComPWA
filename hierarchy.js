@@ -35,6 +35,7 @@ var hierarchy =
         [ "ComPWA::BadIndex", "classComPWA_1_1BadIndex.html", null ],
         [ "ComPWA::BadParameter", "classComPWA_1_1BadParameter.html", null ],
         [ "ComPWA::BeyondPhsp", "classComPWA_1_1BeyondPhsp.html", null ],
+        [ "ComPWA::CorruptFile", "classComPWA_1_1CorruptFile.html", null ],
         [ "ComPWA::ParameterFixed", "classComPWA_1_1ParameterFixed.html", null ],
         [ "ComPWA::ParameterOutOfBound", "classComPWA_1_1ParameterOutOfBound.html", null ],
         [ "ComPWA::TreeBuildError", "classComPWA_1_1TreeBuildError.html", null ],
@@ -109,7 +110,6 @@ var hierarchy =
     [ "ComPWA::Resolution", "classComPWA_1_1Resolution.html", [
       [ "ComPWA::ZeroResolution", "classComPWA_1_1ZeroResolution.html", null ]
     ] ],
-    [ "ComPWA::Data::Root::RootDataIO", "classComPWA_1_1Data_1_1Root_1_1RootDataIO.html", null ],
     [ "ComPWA::Tools::Plotting::RootPlotData", "classComPWA_1_1Tools_1_1Plotting_1_1RootPlotData.html", null ],
     [ "ComPWA::FunctionTree::Strategy", "classComPWA_1_1FunctionTree_1_1Strategy.html", [
       [ "ComPWA::FunctionTree::AbsSquare", "classComPWA_1_1FunctionTree_1_1AbsSquare.html", null ],

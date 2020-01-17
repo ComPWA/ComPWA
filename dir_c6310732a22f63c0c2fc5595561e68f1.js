@@ -13,6 +13,7 @@ var dir_c6310732a22f63c0c2fc5595561e68f1 =
       [ "BadConfig", "classComPWA_1_1BadConfig.html", "classComPWA_1_1BadConfig" ],
       [ "BadParameter", "classComPWA_1_1BadParameter.html", "classComPWA_1_1BadParameter" ],
       [ "BadIndex", "classComPWA_1_1BadIndex.html", "classComPWA_1_1BadIndex" ],
+      [ "CorruptFile", "classComPWA_1_1CorruptFile.html", "classComPWA_1_1CorruptFile" ],
       [ "ParameterFixed", "classComPWA_1_1ParameterFixed.html", "classComPWA_1_1ParameterFixed" ],
       [ "WrongParType", "classComPWA_1_1WrongParType.html", "classComPWA_1_1WrongParType" ],
       [ "BeyondPhsp", "classComPWA_1_1BeyondPhsp.html", "classComPWA_1_1BeyondPhsp" ],

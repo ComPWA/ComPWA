@@ -10,6 +10,7 @@ var searchData=
   ['_7ecomplexconjugate',['~ComplexConjugate',['../classComPWA_1_1FunctionTree_1_1ComplexConjugate.html#a27973a423a2af132e01bdabd7bc26f55',1,'ComPWA::FunctionTree::ComplexConjugate']]],
   ['_7ecomplexify',['~Complexify',['../classComPWA_1_1FunctionTree_1_1Complexify.html#ad3a4a53aa237f33434194d4ded814d21',1,'ComPWA::FunctionTree::Complexify']]],
   ['_7ecorrectiontable',['~CorrectionTable',['../classComPWA_1_1Data_1_1CorrectionTable.html#ae4e455a348b98d441970ddf49640dcf8',1,'ComPWA::Data::CorrectionTable']]],
+  ['_7ecorruptfile',['~CorruptFile',['../classComPWA_1_1CorruptFile.html#acf71e1dd91204fdcb45f33f10c7f4ee7',1,'ComPWA::CorruptFile']]],
   ['_7edalitzplot',['~DalitzPlot',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a02e1ab1a643d0f29ef18ca3459ecaa00',1,'ComPWA::Tools::Plotting::DalitzPlot']]],
   ['_7edatacorrection',['~DataCorrection',['../classComPWA_1_1Data_1_1DataCorrection.html#adb42e5b656366e623a1f97238297c418',1,'ComPWA::Data::DataCorrection']]],
   ['_7edummy',['~Dummy',['../classComPWA_1_1FunctionTree_1_1Dummy.html#ade2ec5f672ef6fcf1f755c19f20329c6',1,'ComPWA::FunctionTree::Dummy']]],

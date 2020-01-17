@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1331;
+var viewWidth = 1465;
 var viewHeight = 331;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,20 +54,20 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>ComPWA::Exception</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-327 1327,-327 1327,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-327 1461,-327 1461,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="558.5,-116.5 558.5,-228.5 668.5,-228.5 668.5,-116.5 558.5,-116.5"/>
-<text text-anchor="middle" x="613.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Exception</text>
-<polyline fill="none" stroke="black" points="558.5,-209.5 668.5,-209.5 "/>
-<text text-anchor="start" x="566.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00"># what_</text>
-<polyline fill="none" stroke="black" points="558.5,-190.5 668.5,-190.5 "/>
-<text text-anchor="start" x="566.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Exception()</text>
-<text text-anchor="start" x="566.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator=()</text>
-<text text-anchor="start" x="566.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Exception()</text>
-<text text-anchor="start" x="566.5" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ what()</text>
-<text text-anchor="start" x="566.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Exception()</text>
-<text text-anchor="start" x="566.5" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Exception()</text>
+<polygon fill="#bfbfbf" stroke="black" points="620.5,-116.5 620.5,-228.5 730.5,-228.5 730.5,-116.5 620.5,-116.5"/>
+<text text-anchor="middle" x="675.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Exception</text>
+<polyline fill="none" stroke="black" points="620.5,-209.5 730.5,-209.5 "/>
+<text text-anchor="start" x="628.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00"># what_</text>
+<polyline fill="none" stroke="black" points="620.5,-190.5 730.5,-190.5 "/>
+<text text-anchor="start" x="628.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Exception()</text>
+<text text-anchor="start" x="628.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ operator=()</text>
+<text text-anchor="start" x="628.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Exception()</text>
+<text text-anchor="start" x="628.5" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ what()</text>
+<text text-anchor="start" x="628.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Exception()</text>
+<text text-anchor="start" x="628.5" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Exception()</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -85,8 +85,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M548.304,-166.62C452.384,-157.84 268.78,-134.889 122.5,-80 119.385,-78.8311 116.249,-77.5185 113.125,-76.1015"/>
-<polygon fill="none" stroke="midnightblue" points="548.162,-170.121 558.434,-167.524 548.785,-163.149 548.162,-170.121"/>
+<path fill="none" stroke="midnightblue" d="M610.26,-168.473C504.781,-161.883 291.543,-141.484 122.5,-80 119.373,-78.8627 116.227,-77.5756 113.097,-76.1788"/>
+<polygon fill="none" stroke="midnightblue" points="610.241,-171.978 620.433,-169.086 610.662,-164.991 610.241,-171.978"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -104,8 +104,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M548.13,-161.393C473.548,-148.445 348.928,-122.456 248.5,-80 245.538,-78.7478 242.554,-77.3682 239.579,-75.8981"/>
-<polygon fill="none" stroke="midnightblue" points="547.867,-164.898 558.314,-163.133 549.046,-157.998 547.867,-164.898"/>
+<path fill="none" stroke="midnightblue" d="M610.407,-164.588C524.883,-153.945 371.163,-129.378 248.5,-80 245.517,-78.7991 242.515,-77.4608 239.528,-76.0234"/>
+<polygon fill="none" stroke="midnightblue" points="610.142,-168.082 620.492,-165.818 610.989,-161.133 610.142,-168.082"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -123,8 +123,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M548.753,-145.901C505.277,-128.297 446.939,-103.871 396.5,-80 393.481,-78.5712 390.407,-77.0843 387.313,-75.5613"/>
-<polygon fill="none" stroke="midnightblue" points="547.492,-149.166 558.075,-149.663 550.111,-142.675 547.492,-149.166"/>
+<path fill="none" stroke="midnightblue" d="M610.849,-153.658C553.567,-137.063 468.151,-110.375 396.5,-80 393.425,-78.6963 390.305,-77.3121 387.173,-75.8723"/>
+<polygon fill="none" stroke="midnightblue" points="609.921,-157.034 620.499,-156.436 611.857,-150.307 609.921,-157.034"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -142,117 +142,136 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M550.782,-115.821C537.051,-103.632 522.807,-90.9872 510.024,-79.6384"/>
-<polygon fill="none" stroke="midnightblue" points="548.542,-118.514 558.344,-122.535 553.19,-113.279 548.542,-118.514"/>
+<path fill="none" stroke="midnightblue" d="M611.781,-131.714C585.008,-114.996 553.998,-95.6336 527.52,-79.1009"/>
+<polygon fill="none" stroke="midnightblue" points="609.978,-134.714 620.314,-137.042 613.686,-128.777 609.978,-134.714"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classComPWA_1_1ParameterFixed.html" target="_top" xlink:title="Parameter cannot be changed. ">
-<polygon fill="white" stroke="black" points="545.5,-0.5 545.5,-79.5 681.5,-79.5 681.5,-0.5 545.5,-0.5"/>
-<text text-anchor="middle" x="613.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::ParameterFixed</text>
-<polyline fill="none" stroke="black" points="545.5,-60.5 681.5,-60.5 "/>
-<text text-anchor="middle" x="613.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="545.5,-41.5 681.5,-41.5 "/>
-<text text-anchor="start" x="553.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterFixed()</text>
-<text text-anchor="start" x="553.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterFixed()</text>
-<text text-anchor="start" x="553.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ParameterFixed()</text>
+<g id="a_node7"><a xlink:href="classComPWA_1_1CorruptFile.html" target="_top" xlink:title="Input data file is corrupt or incomplete. ">
+<polygon fill="white" stroke="black" points="546,-0.5 546,-79.5 661,-79.5 661,-0.5 546,-0.5"/>
+<text text-anchor="middle" x="603.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::CorruptFile</text>
+<polyline fill="none" stroke="black" points="546,-60.5 661,-60.5 "/>
+<text text-anchor="middle" x="603.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="546,-41.5 661,-41.5 "/>
+<text text-anchor="start" x="554" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CorruptFile()</text>
+<text text-anchor="start" x="554" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CorruptFile()</text>
+<text text-anchor="start" x="554" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CorruptFile()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M613.5,-106.056C613.5,-97.0806 613.5,-88.1097 613.5,-79.823"/>
-<polygon fill="none" stroke="midnightblue" points="610,-106.156 613.5,-116.156 617,-106.156 610,-106.156"/>
+<path fill="none" stroke="midnightblue" d="M640.032,-107.215C634.867,-97.8536 629.688,-88.4661 624.92,-79.823"/>
+<polygon fill="none" stroke="midnightblue" points="637.07,-109.091 644.966,-116.156 643.199,-105.71 637.07,-109.091"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classComPWA_1_1ParameterOutOfBound.html" target="_top" xlink:title="Parameter out of bound. ">
-<polygon fill="white" stroke="black" points="699.5,-0.5 699.5,-79.5 865.5,-79.5 865.5,-0.5 699.5,-0.5"/>
-<text text-anchor="middle" x="782.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::ParameterOutOfBound</text>
-<polyline fill="none" stroke="black" points="699.5,-60.5 865.5,-60.5 "/>
-<text text-anchor="middle" x="782.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="699.5,-41.5 865.5,-41.5 "/>
-<text text-anchor="start" x="707.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterOutOfBound()</text>
-<text text-anchor="start" x="707.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterOutOfBound()</text>
-<text text-anchor="start" x="707.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ParameterOutOfBound()</text>
+<g id="a_node8"><a xlink:href="classComPWA_1_1ParameterFixed.html" target="_top" xlink:title="Parameter cannot be changed. ">
+<polygon fill="white" stroke="black" points="679.5,-0.5 679.5,-79.5 815.5,-79.5 815.5,-0.5 679.5,-0.5"/>
+<text text-anchor="middle" x="747.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::ParameterFixed</text>
+<polyline fill="none" stroke="black" points="679.5,-60.5 815.5,-60.5 "/>
+<text text-anchor="middle" x="747.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="679.5,-41.5 815.5,-41.5 "/>
+<text text-anchor="start" x="687.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterFixed()</text>
+<text text-anchor="start" x="687.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterFixed()</text>
+<text text-anchor="start" x="687.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ParameterFixed()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M677.131,-122.364C695.427,-108.237 715.114,-93.0348 732.463,-79.6384"/>
-<polygon fill="none" stroke="midnightblue" points="674.613,-119.887 668.837,-128.769 678.891,-125.428 674.613,-119.887"/>
+<path fill="none" stroke="midnightblue" d="M710.968,-107.215C716.133,-97.8536 721.312,-88.4661 726.08,-79.823"/>
+<polygon fill="none" stroke="midnightblue" points="707.801,-105.71 706.034,-116.156 713.93,-109.091 707.801,-105.71"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classComPWA_1_1TreeBuildError.html" target="_top" xlink:title="Error in tree at construction. ">
-<polygon fill="white" stroke="black" points="884,-0.5 884,-79.5 1013,-79.5 1013,-0.5 884,-0.5"/>
-<text text-anchor="middle" x="948.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::TreeBuildError</text>
-<polyline fill="none" stroke="black" points="884,-60.5 1013,-60.5 "/>
-<text text-anchor="middle" x="948.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="884,-41.5 1013,-41.5 "/>
-<text text-anchor="start" x="892" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TreeBuildError()</text>
-<text text-anchor="start" x="892" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TreeBuildError()</text>
-<text text-anchor="start" x="892" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TreeBuildError()</text>
+<g id="a_node9"><a xlink:href="classComPWA_1_1ParameterOutOfBound.html" target="_top" xlink:title="Parameter out of bound. ">
+<polygon fill="white" stroke="black" points="833.5,-0.5 833.5,-79.5 999.5,-79.5 999.5,-0.5 833.5,-0.5"/>
+<text text-anchor="middle" x="916.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::ParameterOutOfBound</text>
+<polyline fill="none" stroke="black" points="833.5,-60.5 999.5,-60.5 "/>
+<text text-anchor="middle" x="916.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="833.5,-41.5 999.5,-41.5 "/>
+<text text-anchor="start" x="841.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterOutOfBound()</text>
+<text text-anchor="start" x="841.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ParameterOutOfBound()</text>
+<text text-anchor="start" x="841.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~ParameterOutOfBound()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M678.333,-151.723C731.774,-134.723 809.134,-108.496 874.5,-80 877.562,-78.6652 880.671,-77.2554 883.794,-75.795"/>
-<polygon fill="none" stroke="midnightblue" points="677.12,-148.436 668.641,-154.789 679.231,-155.11 677.12,-148.436"/>
+<path fill="none" stroke="midnightblue" d="M739.74,-136.715C772.167,-119.155 811.604,-97.8007 844.992,-79.721"/>
+<polygon fill="none" stroke="midnightblue" points="737.917,-133.721 730.79,-141.561 741.25,-139.877 737.917,-133.721"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classComPWA_1_1WrongParType.html" target="_top" xlink:title="Parameter of wrong type. ">
-<polygon fill="white" stroke="black" points="1031.5,-0.5 1031.5,-79.5 1163.5,-79.5 1163.5,-0.5 1031.5,-0.5"/>
-<text text-anchor="middle" x="1097.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::WrongParType</text>
-<polyline fill="none" stroke="black" points="1031.5,-60.5 1163.5,-60.5 "/>
-<text text-anchor="middle" x="1097.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1031.5,-41.5 1163.5,-41.5 "/>
-<text text-anchor="start" x="1039.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongParType()</text>
-<text text-anchor="start" x="1039.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongParType()</text>
-<text text-anchor="start" x="1039.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~WrongParType()</text>
+<g id="a_node10"><a xlink:href="classComPWA_1_1TreeBuildError.html" target="_top" xlink:title="Error in tree at construction. ">
+<polygon fill="white" stroke="black" points="1018,-0.5 1018,-79.5 1147,-79.5 1147,-0.5 1018,-0.5"/>
+<text text-anchor="middle" x="1082.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::TreeBuildError</text>
+<polyline fill="none" stroke="black" points="1018,-60.5 1147,-60.5 "/>
+<text text-anchor="middle" x="1082.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1018,-41.5 1147,-41.5 "/>
+<text text-anchor="start" x="1026" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TreeBuildError()</text>
+<text text-anchor="start" x="1026" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ TreeBuildError()</text>
+<text text-anchor="start" x="1026" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~TreeBuildError()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M678.628,-162.281C760.592,-149.474 904.878,-122.909 1022.5,-80 1025.4,-78.9438 1028.32,-77.7984 1031.25,-76.5856"/>
-<polygon fill="none" stroke="midnightblue" points="678.054,-158.828 668.704,-163.812 679.121,-165.746 678.054,-158.828"/>
+<path fill="none" stroke="midnightblue" d="M740.767,-157.98C808.905,-142.852 918.214,-115.705 1008.5,-80 1011.61,-78.7716 1014.75,-77.4492 1017.9,-76.0595"/>
+<polygon fill="none" stroke="midnightblue" points="739.622,-154.648 730.607,-160.214 741.125,-161.485 739.622,-154.648"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classComPWA_1_1WrongVariableID.html" target="_top" xlink:title="Variable not found. ">
-<polygon fill="white" stroke="black" points="1182,-0.5 1182,-79.5 1323,-79.5 1323,-0.5 1182,-0.5"/>
-<text text-anchor="middle" x="1252.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::WrongVariableID</text>
-<polyline fill="none" stroke="black" points="1182,-60.5 1323,-60.5 "/>
-<text text-anchor="middle" x="1252.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1182,-41.5 1323,-41.5 "/>
-<text text-anchor="start" x="1190" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongVariableID()</text>
-<text text-anchor="start" x="1190" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongVariableID()</text>
-<text text-anchor="start" x="1190" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~WrongVariableID()</text>
+<g id="a_node11"><a xlink:href="classComPWA_1_1WrongParType.html" target="_top" xlink:title="Parameter of wrong type. ">
+<polygon fill="white" stroke="black" points="1165.5,-0.5 1165.5,-79.5 1297.5,-79.5 1297.5,-0.5 1165.5,-0.5"/>
+<text text-anchor="middle" x="1231.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::WrongParType</text>
+<polyline fill="none" stroke="black" points="1165.5,-60.5 1297.5,-60.5 "/>
+<text text-anchor="middle" x="1231.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1165.5,-41.5 1297.5,-41.5 "/>
+<text text-anchor="start" x="1173.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongParType()</text>
+<text text-anchor="start" x="1173.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongParType()</text>
+<text text-anchor="start" x="1173.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~WrongParType()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
 <g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M678.903,-166.992C784.765,-158.33 999.273,-135.093 1172.5,-80 1175.59,-79.0166 1178.72,-77.9321 1181.84,-76.7696"/>
-<polygon fill="none" stroke="midnightblue" points="678.383,-163.522 668.694,-167.809 678.942,-170.5 678.383,-163.522"/>
+<path fill="none" stroke="midnightblue" d="M740.791,-165.181C834.778,-154.731 1012.71,-129.856 1156.5,-80 1159.41,-78.9904 1162.35,-77.884 1165.29,-76.7034"/>
+<polygon fill="none" stroke="midnightblue" points="740.142,-161.731 730.582,-166.296 740.902,-168.69 740.142,-161.731"/>
+</g>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="classComPWA_1_1WrongVariableID.html" target="_top" xlink:title="Variable not found. ">
+<polygon fill="white" stroke="black" points="1316,-0.5 1316,-79.5 1457,-79.5 1457,-0.5 1316,-0.5"/>
+<text text-anchor="middle" x="1386.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::WrongVariableID</text>
+<polyline fill="none" stroke="black" points="1316,-60.5 1457,-60.5 "/>
+<text text-anchor="middle" x="1386.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1316,-41.5 1457,-41.5 "/>
+<text text-anchor="start" x="1324" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongVariableID()</text>
+<text text-anchor="start" x="1324" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WrongVariableID()</text>
+<text text-anchor="start" x="1324" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~WrongVariableID()</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M740.925,-168.663C857.155,-162.172 1106.25,-141.68 1306.5,-80 1309.6,-79.0448 1312.73,-77.9839 1315.87,-76.841"/>
+<polygon fill="none" stroke="midnightblue" points="740.565,-165.178 730.769,-169.214 740.944,-172.167 740.565,-165.178"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="574.5,-265.5 574.5,-322.5 652.5,-322.5 652.5,-265.5 574.5,-265.5"/>
-<text text-anchor="middle" x="613.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::exception</text>
-<polyline fill="none" stroke="#bfbfbf" points="574.5,-303.5 652.5,-303.5 "/>
-<text text-anchor="middle" x="613.5" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="574.5,-284.5 652.5,-284.5 "/>
-<text text-anchor="middle" x="613.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polygon fill="white" stroke="#bfbfbf" points="636.5,-265.5 636.5,-322.5 714.5,-322.5 714.5,-265.5 636.5,-265.5"/>
+<text text-anchor="middle" x="675.5" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::exception</text>
+<polyline fill="none" stroke="#bfbfbf" points="636.5,-303.5 714.5,-303.5 "/>
+<text text-anchor="middle" x="675.5" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="#bfbfbf" points="636.5,-284.5 714.5,-284.5 "/>
+<text text-anchor="middle" x="675.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M613.5,-255.108C613.5,-246.748 613.5,-237.725 613.5,-228.834"/>
-<polygon fill="none" stroke="midnightblue" points="610,-255.284 613.5,-265.284 617,-255.284 610,-255.284"/>
+<path fill="none" stroke="midnightblue" d="M675.5,-255.108C675.5,-246.748 675.5,-237.725 675.5,-228.834"/>
+<polygon fill="none" stroke="midnightblue" points="672,-255.284 675.5,-265.284 679,-255.284 672,-255.284"/>
 </g>
 </g>
 </svg>

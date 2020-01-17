@@ -2,8 +2,8 @@ var searchData=
 [
   ['fitfraction',['FitFraction',['../structComPWA_1_1Tools_1_1FitFraction.html',1,'ComPWA::Tools']]],
   ['fitfractions',['FitFractions',['../classComPWA_1_1Tools_1_1FitFractions.html',1,'ComPWA::Tools']]],
-  ['fitparameter',['FitParameter',['../structComPWA_1_1FitParameter.html',1,'ComPWA']]],
   ['fitparameter',['FitParameter',['../classComPWA_1_1FunctionTree_1_1FitParameter.html',1,'ComPWA::FunctionTree']]],
+  ['fitparameter',['FitParameter',['../structComPWA_1_1FitParameter.html',1,'ComPWA']]],
   ['fitparameter_3c_20double_20_3e',['FitParameter&lt; double &gt;',['../structComPWA_1_1FitParameter.html',1,'ComPWA']]],
   ['fitresult',['FitResult',['../structComPWA_1_1FitResult.html',1,'ComPWA']]],
   ['flattestrategy',['FlatteStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html',1,'ComPWA::Physics::Dynamics']]],

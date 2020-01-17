@@ -10,6 +10,7 @@ var namespaceComPWA =
     [ "BadIndex", "classComPWA_1_1BadIndex.html", "classComPWA_1_1BadIndex" ],
     [ "BadParameter", "classComPWA_1_1BadParameter.html", "classComPWA_1_1BadParameter" ],
     [ "BeyondPhsp", "classComPWA_1_1BeyondPhsp.html", "classComPWA_1_1BeyondPhsp" ],
+    [ "CorruptFile", "classComPWA_1_1CorruptFile.html", "classComPWA_1_1CorruptFile" ],
     [ "DataPoint", "structComPWA_1_1DataPoint.html", "structComPWA_1_1DataPoint" ],
     [ "Efficiency", "classComPWA_1_1Efficiency.html", "classComPWA_1_1Efficiency" ],
     [ "Event", "structComPWA_1_1Event.html", "structComPWA_1_1Event" ],
