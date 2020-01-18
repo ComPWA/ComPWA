@@ -44,11 +44,11 @@ var NAVTREEINDEX =
 [
 "AsciiReader_8cpp.html",
 "HistTools_8hpp.html#a3506f5d71370170e5a49b35b2d68e162",
-"classComPWA_1_1CorruptFile.html",
-"classComPWA_1_1FunctionTree_1_1FunctionTree.html#add174daed62df15f45cf36b8babf90b9",
-"classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#aedf9ea50416886425290433a6a411b3c",
-"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac221f43999c31ba9e316900153550948",
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241"
+"classComPWA_1_1CorruptFile.html#a418cafd490f4255e362808e5e0e0f409",
+"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2468a87b77760c2ad04aa703c87998b3",
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a915179ddb1240f185cdbc12dad94ee62",
+"classComPWA_1_1Tools_1_1Plotting_1_1RootPlotData.html#a12c36a5e5e2b7e8b5efdf0cdec8aa6a0",
+"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a914037bd312e4e65febc797a3cdd17ea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

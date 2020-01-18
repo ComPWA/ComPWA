@@ -1,9 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241":[4,0,0,3,1,1,7],
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a893df3bede32316d89e976c613c8e802":[4,0,0,3,1,1,10],
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8d3fb92d7f25a10e4731270b76b7ea9e":[4,0,0,3,1,1,1],
-"structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a90838b1b7e70a1ec59697cc242fa59e4":[4,0,0,3,1,1,8],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a914037bd312e4e65febc797a3cdd17ea":[4,0,0,3,1,1,3],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac454b000ee170a355f57faf28f50f4f5":[4,0,0,3,1,1,9],
 "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac507bde391377616cef3a66a52775e7d":[4,0,0,3,1,1,11],

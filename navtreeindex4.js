@@ -1,9 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#aedf9ea50416886425290433a6a411b3c":[4,0,0,4,0,4,3],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html":[4,0,0,4,0,5],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a20a5963e0b4463ec13dc674db1c3ec80":[4,0,0,4,0,5,3],
-"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a3d092b53dc79a1cdfb187844d4643ddb":[4,0,0,4,0,5,2],
 "classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a915179ddb1240f185cdbc12dad94ee62":[4,0,0,4,0,5,1],
 "classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#acbdb94402627dfc9171f0f1401409226":[4,0,0,4,0,5,0],
 "classComPWA_1_1Physics_1_1Dynamics_1_1FormFactorStrategy.html":[4,0,0,4,0,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX4 =
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a5332d3cb88b748233b167a093934b8d8":[4,0,0,5,1,1,4],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a6f3e3b811ec099f8cbf9ff979b1936ad":[4,0,0,5,1,1,9],
 "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a81a0980fcc31f13afd2a9c5ec559cc9a":[4,0,0,5,1,1,7],
-"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac208c41b7d8dbeb318bca808cbd094dd":[4,0,0,5,1,1,3]
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac208c41b7d8dbeb318bca808cbd094dd":[4,0,0,5,1,1,3],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ac221f43999c31ba9e316900153550948":[4,0,0,5,1,1,6],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ad409253f8f7fc6faf82e13149c2dfb6c":[4,0,0,5,1,1,2],
+"classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#ae9af48a28d3568545b9b88482357cc60":[4,0,0,5,1,1,5],
+"classComPWA_1_1Tools_1_1Plotting_1_1RootPlotData.html":[4,0,0,5,1,2]
 };

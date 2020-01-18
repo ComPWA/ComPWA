@@ -35,7 +35,6 @@ var dir_c6310732a22f63c0c2fc5595561e68f1 =
     [ "Logging.hpp", "Logging_8hpp.html", [
       [ "Logging", "classComPWA_1_1Logging.html", "classComPWA_1_1Logging" ]
     ] ],
-    [ "Particle.cpp", "Particle_8cpp.html", null ],
     [ "Particle.hpp", "Particle_8hpp.html", [
       [ "FourMomentum", "classComPWA_1_1FourMomentum.html", "classComPWA_1_1FourMomentum" ],
       [ "Particle", "classComPWA_1_1Particle.html", "classComPWA_1_1Particle" ]

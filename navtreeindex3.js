@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classComPWA_1_1FunctionTree_1_1FunctionTree.html#add174daed62df15f45cf36b8babf90b9":[4,0,0,2,7,6],
-"classComPWA_1_1FunctionTree_1_1FunctionTree.html#aee07f6854ce3320b41d361e9ae2f0c71":[4,0,0,2,7,7],
-"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html":[4,0,0,2,8],
-"classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a1b2c0ea7f97be922c3b8f7281a47e934":[4,0,0,2,8,5],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2468a87b77760c2ad04aa703c87998b3":[4,0,0,2,8,10],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a2fe6a879300ece0de796636ca866e0a2":[4,0,0,2,8,9],
 "classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a59c479b8abff682c2c914ae0bcd365e5":[4,0,0,2,8,3],
@@ -208,17 +204,17 @@ var NAVTREEINDEX3 =
 "classComPWA_1_1ParameterOutOfBound.html#a78974c57028c77cab64e3c9eeb9fb456":[4,0,0,23,1],
 "classComPWA_1_1Particle.html":[4,0,0,24],
 "classComPWA_1_1Particle.html#a127db2f6e1cef13ed1e7ae2b95b2182d":[4,0,0,24,8],
-"classComPWA_1_1Particle.html#a163d4ee33f8a1bea743213a8e80776c1":[4,0,0,24,0],
 "classComPWA_1_1Particle.html#a22e0c79adc21e76fd50d91a0144f6fbe":[4,0,0,24,9],
-"classComPWA_1_1Particle.html#a397fddc34da4303052f7f77828c6c4b5":[4,0,0,24,4],
+"classComPWA_1_1Particle.html#a2f026adf0191f66d13e4accd6365c856":[4,0,0,24,6],
+"classComPWA_1_1Particle.html#a4395f007d9918cbc4b2a0cf5c643b8b1":[4,0,0,24,0],
 "classComPWA_1_1Particle.html#a59db544799840e7bbc610af4644d826f":[4,0,0,24,2],
-"classComPWA_1_1Particle.html#a7da3603591d04354ef932b29787d580c":[4,0,0,24,6],
+"classComPWA_1_1Particle.html#a7087d60639aa3526333601cfcb8d69a2":[4,0,0,24,1],
 "classComPWA_1_1Particle.html#a879ee936e6ce8593dac3aa18a66fcdc3":[4,0,0,24,10],
+"classComPWA_1_1Particle.html#a8a66fb09f7173a81d0a60cfe8250f82b":[4,0,0,24,4],
 "classComPWA_1_1Particle.html#a8fa6165c8b9907c1d2edaad2c3f7b3b5":[4,0,0,24,3],
 "classComPWA_1_1Particle.html#a900970c05719458b88d787614ffe617a":[4,0,0,24,7],
 "classComPWA_1_1Particle.html#ad467c5efbc435d7cd69a93668ac372e7":[4,0,0,24,11],
 "classComPWA_1_1Particle.html#adc84156265130bdfc8508f6668f108b4":[4,0,0,24,5],
-"classComPWA_1_1Particle.html#af536cfb69469bca976e04f7df921538f":[4,0,0,24,1],
 "classComPWA_1_1ParticleProperties.html":[4,0,0,25],
 "classComPWA_1_1ParticleProperties.html#a0d9e1996959f3644df1265d445ca4d6c":[4,0,0,25,14],
 "classComPWA_1_1ParticleProperties.html#a13183965e53635fcdb86ee2c6f1bac62":[4,0,0,25,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a6730f9a283178fb9b3fefe90bc1849f3":[4,0,0,4,0,4,1],
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a858047300a97bd1cc6ba9742262f7479":[4,0,0,4,0,4,5],
 "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a8a2b2af57a01ff42aabf35e787b08c3b":[4,0,0,4,0,4,2],
-"classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#ad283a4ee0d30987e24d9aa94546c6a49":[4,0,0,4,0,4,0]
+"classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#ad283a4ee0d30987e24d9aa94546c6a49":[4,0,0,4,0,4,0],
+"classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#aedf9ea50416886425290433a6a411b3c":[4,0,0,4,0,4,3],
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html":[4,0,0,4,0,5],
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a20a5963e0b4463ec13dc674db1c3ec80":[4,0,0,4,0,5,3],
+"classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html#a3d092b53dc79a1cdfb187844d4643ddb":[4,0,0,4,0,5,2]
 };

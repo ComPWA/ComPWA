@@ -24,7 +24,7 @@ var searchData=
   ['setstrategy',['setStrategy',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a8fa5e0fce28675843cb5329009c0950b',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
   ['setsystematics',['SetSystematics',['../classComPWA_1_1Data_1_1CorrectionTable.html#aad0a32c4993cf4b6704149174427faea',1,'ComPWA::Data::CorrectionTable']]],
   ['setsystematicserror',['SetSystematicsError',['../classComPWA_1_1Data_1_1CorrectionTable.html#ab820c063a523583c967c269800d22847',1,'ComPWA::Data::CorrectionTable']]],
-  ['settitle',['SetTitle',['../classComPWA_1_1Data_1_1CorrectionTable.html#a00670e3895b596b21053a1a4a0ec5114',1,'ComPWA::Data::CorrectionTable::SetTitle()'],['../classComPWA_1_1Data_1_1MomentumCorrection.html#a438002ef1429fc41c85a7aa610bc94a1',1,'ComPWA::Data::MomentumCorrection::setTitle()']]],
+  ['settitle',['setTitle',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a438002ef1429fc41c85a7aa610bc94a1',1,'ComPWA::Data::MomentumCorrection::setTitle()'],['../classComPWA_1_1Data_1_1CorrectionTable.html#a00670e3895b596b21053a1a4a0ec5114',1,'ComPWA::Data::CorrectionTable::SetTitle()']]],
   ['setvalue',['setValue',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a7b5c916a280fe3b2a8a6dd9699995884',1,'ComPWA::FunctionTree::FitParameter::setValue()'],['../classComPWA_1_1FunctionTree_1_1Value.html#a4ddd03156abd9b8d8c309d14be634a0f',1,'ComPWA::FunctionTree::Value::setValue()']]],
   ['shiftangle',['shiftAngle',['../namespaceComPWA_1_1Utils.html#a4d921d70430a20bac9084ec66ca3c9e0',1,'ComPWA::Utils']]],
   ['sinc',['sinc',['../Faddeeva_8cc.html#a0d8a24e5c334d77075fe71062e7dedfe',1,'Faddeeva.cc']]],

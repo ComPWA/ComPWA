@@ -3,7 +3,7 @@ var searchData=
   ['main',['main',['../DalitzFitD03K_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;DalitzFitD03K.cpp'],['../DalitzFitApp_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;DalitzFitApp.cpp'],['../EvtGenFit_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;EvtGenFit.cpp'],['../SimFit_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;SimFit.cpp']]],
   ['makefitparameterstring',['makeFitParameterString',['../namespaceComPWA.html#a34d0aa13f155474e808738fdbb7ffb6a',1,'ComPWA']]],
   ['mass',['mass',['../classComPWA_1_1Particle.html#adc84156265130bdfc8508f6668f108b4',1,'ComPWA::Particle']]],
-  ['masssq',['massSq',['../classComPWA_1_1Particle.html#a7da3603591d04354ef932b29787d580c',1,'ComPWA::Particle']]],
+  ['masssquared',['massSquared',['../classComPWA_1_1Particle.html#a2f026adf0191f66d13e4accd6365c856',1,'ComPWA::Particle']]],
   ['maximum',['maximum',['../namespaceComPWA_1_1Tools.html#a11f777a3198038fd4492c674f28d4176',1,'ComPWA::Tools']]],
   ['mcomplex',['MComplex',['../namespaceComPWA_1_1FunctionTree.html#a1c92bdd43dd1d5847f10458ac83f0170',1,'ComPWA::FunctionTree::MComplex(std::string name, size_t s, std::complex&lt; double &gt; el=std::complex&lt; double &gt;(0., 0.))'],['../namespaceComPWA_1_1FunctionTree.html#a27a698fcc7f0aaa75821f66c51215c9a',1,'ComPWA::FunctionTree::MComplex(std::string name, std::vector&lt; std::complex&lt; double &gt;&gt; v)']]],
   ['mcomplexvalue',['mComplexValue',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#adf32185cbfbecc074a7282e7603369cd',1,'ComPWA::FunctionTree::ParameterList']]],
