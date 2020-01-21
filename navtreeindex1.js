@@ -1,5 +1,15 @@
 var NAVTREEINDEX1 =
 {
+"GoodnessOfFit_8hpp_source.html":[5,0,6,4],
+"HelicityKinematics_8cpp.html":[5,0,5,2,0],
+"HelicityKinematics_8cpp_source.html":[5,0,5,2,0],
+"HelicityKinematics_8hpp.html":[5,0,5,2,1],
+"HelicityKinematics_8hpp_source.html":[5,0,5,2,1],
+"HistTools_8hpp.html":[5,0,6,1,2],
+"HistTools_8hpp.html#a3506f5d71370170e5a49b35b2d68e162":[5,0,6,1,2,9],
+"HistTools_8hpp.html#a35babcedc28756a408ac0868293d3c42":[5,0,6,1,2,6],
+"HistTools_8hpp.html#a4826203e969029bd7899c98d13f8a691":[5,0,6,1,2,7],
+"HistTools_8hpp.html#a48cad49cf5e8dc7cbf78f040e41098b2":[5,0,6,1,2,2],
 "HistTools_8hpp.html#a4e020d8c604bf8d65ae0e796f0614ffe":[5,0,6,1,2,8],
 "HistTools_8hpp.html#a56168f80cba786894cbecd7909be1f7b":[5,0,6,1,2,1],
 "HistTools_8hpp.html#a891e6069d2b16877384911a4499d217f":[5,0,6,1,2,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX1 =
 "classComPWA_1_1BadParameter.html#a085d4ff0ed9adfc3d3a269c58f4d555a":[4,0,0,8,1],
 "classComPWA_1_1BadParameter.html#abb545d15469fd25408cf06edfdbe5a4e":[4,0,0,8,2],
 "classComPWA_1_1BeyondPhsp.html":[4,0,0,9],
-"classComPWA_1_1BeyondPhsp.html#a13b3d5d8b6157b23d4749d7e1cc4a067":[4,0,0,9,1],
-"classComPWA_1_1BeyondPhsp.html#aa091c33c0849e64f16bdcd3e973a5017":[4,0,0,9,0],
-"classComPWA_1_1BeyondPhsp.html#aa155c5d8eceb766e4d9c2c63fe66df73":[4,0,0,9,2],
-"classComPWA_1_1CorruptFile.html":[4,0,0,10],
-"classComPWA_1_1CorruptFile.html#a363425c23295663ae76708128bfc99f4":[4,0,0,10,0],
-"classComPWA_1_1CorruptFile.html#a418cafd490f4255e362808e5e0e0f409":[4,0,0,10,1],
-"classComPWA_1_1CorruptFile.html#acf71e1dd91204fdcb45f33f10c7f4ee7":[4,0,0,10,2],
-"classComPWA_1_1Data_1_1AsciiReader.html":[4,0,0,0,2],
-"classComPWA_1_1Data_1_1AsciiReader.html#a23ae672034b093a9b74b6f9a9f5bef95":[4,0,0,0,2,2],
-"classComPWA_1_1Data_1_1AsciiReader.html#a5f05b8d48208272740691bc7609919d0":[4,0,0,0,2,3],
-"classComPWA_1_1Data_1_1AsciiReader.html#abfcc68d3a22d393e73932157407c869a":[4,0,0,0,2,0]
+"classComPWA_1_1BeyondPhsp.html#a13b3d5d8b6157b23d4749d7e1cc4a067":[4,0,0,9,1]
 };

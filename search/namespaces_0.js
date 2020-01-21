@@ -1,14 +1,15 @@
 var searchData=
 [
   ['adapter',['Adapter',['../namespaceComPWA_1_1Tools_1_1Adapter.html',1,'ComPWA::Tools']]],
+  ['ascii',['Ascii',['../namespaceComPWA_1_1Data_1_1Ascii.html',1,'ComPWA::Data']]],
   ['boss',['BOSS',['../namespaceComPWA_1_1Tools_1_1Adapter_1_1BOSS.html',1,'ComPWA::Tools::Adapter']]],
   ['chioned',['ChiOneD',['../namespaceComPWA_1_1Estimator_1_1ChiOneD.html',1,'ComPWA::Estimator']]],
   ['compwa',['ComPWA',['../namespaceComPWA.html',1,'']]],
   ['data',['Data',['../namespaceComPWA_1_1Data.html',1,'ComPWA']]],
   ['dynamics',['Dynamics',['../namespaceComPWA_1_1Physics_1_1Dynamics.html',1,'ComPWA::Physics']]],
   ['estimator',['Estimator',['../namespaceComPWA_1_1Estimator.html',1,'ComPWA']]],
-  ['evtgen',['EvtGen',['../namespaceComPWA_1_1Physics_1_1EvtGen.html',1,'ComPWA::Physics']]],
   ['evtgen',['EvtGen',['../namespaceComPWA_1_1Data_1_1EvtGen.html',1,'ComPWA::Data']]],
+  ['evtgen',['EvtGen',['../namespaceComPWA_1_1Physics_1_1EvtGen.html',1,'ComPWA::Physics']]],
   ['flatte',['Flatte',['../namespaceComPWA_1_1Physics_1_1Dynamics_1_1Flatte.html',1,'ComPWA::Physics::Dynamics']]],
   ['functiontree',['FunctionTree',['../namespaceComPWA_1_1FunctionTree.html',1,'ComPWA']]],
   ['geneva',['Geneva',['../namespaceComPWA_1_1Optimizer_1_1Geneva.html',1,'ComPWA::Optimizer']]],

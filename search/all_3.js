@@ -1,6 +1,7 @@
 var searchData=
 [
   ['adapter',['Adapter',['../namespaceComPWA_1_1Tools_1_1Adapter.html',1,'ComPWA::Tools']]],
+  ['ascii',['Ascii',['../namespaceComPWA_1_1Data_1_1Ascii.html',1,'ComPWA::Data']]],
   ['boss',['BOSS',['../namespaceComPWA_1_1Tools_1_1Adapter_1_1BOSS.html',1,'ComPWA::Tools::Adapter']]],
   ['calculateaic',['calculateAIC',['../GoodnessOfFit_8hpp.html#a50a1dc1dbb60b766524fa197c47bf1b8',1,'GoodnessOfFit.hpp']]],
   ['calculatebic',['calculateBIC',['../GoodnessOfFit_8hpp.html#a38d64d3065cec3c91b1d133f7353c491',1,'GoodnessOfFit.hpp']]],
@@ -14,9 +15,9 @@ var searchData=
   ['checkstrategy',['checkStrategy',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a56f8b59e601fde38306f7e5bd2e3ac60',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
   ['checktype',['checkType',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a32ade3523c081542c01450bcd7f6b490',1,'ComPWA::FunctionTree::Strategy']]],
   ['childnodes',['ChildNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a0690224c41174e59dd80ef511a31b22e',1,'ComPWA::FunctionTree::TreeNode']]],
+  ['chioned',['ChiOneD',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html',1,'ComPWA::Estimator::ChiOneD']]],
   ['chioned',['ChiOneD',['../classChiOneD.html',1,'ChiOneD'],['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#a7f21adc761edd18a8fdb3fbfb0756566',1,'ComPWA::Estimator::ChiOneD::ChiOneD::ChiOneD()']]],
   ['chioned',['ChiOneD',['../namespaceComPWA_1_1Estimator_1_1ChiOneD.html',1,'ComPWA::Estimator']]],
-  ['chioned',['ChiOneD',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html',1,'ComPWA::Estimator::ChiOneD']]],
   ['chioned_2ecpp',['ChiOneD.cpp',['../ChiOneD_8cpp.html',1,'']]],
   ['chioned_2ehpp',['ChiOneD.hpp',['../ChiOneD_8hpp.html',1,'']]],
   ['classname',['className',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aa4fcbeb80b2f400fae1a5a9a6901aaf0',1,'ComPWA::FunctionTree::FitParameter::className()'],['../classComPWA_1_1FunctionTree_1_1Parameter.html#a5d5cf95e490ff8dfbd3a1304038d0a97',1,'ComPWA::FunctionTree::Parameter::className()'],['../classComPWA_1_1FunctionTree_1_1Value.html#a1b605b49499c0569bb593f37d9cebd88',1,'ComPWA::FunctionTree::Value::className()']]],
@@ -47,8 +48,8 @@ var searchData=
   ['correctiontable_2ehpp',['CorrectionTable.hpp',['../CorrectionTable_8hpp.html',1,'']]],
   ['corruptfile',['CorruptFile',['../classComPWA_1_1CorruptFile.html',1,'ComPWA']]],
   ['corruptfile',['CorruptFile',['../classComPWA_1_1CorruptFile.html#a363425c23295663ae76708128bfc99f4',1,'ComPWA::CorruptFile::CorruptFile(const std::string &amp;error)'],['../classComPWA_1_1CorruptFile.html#a418cafd490f4255e362808e5e0e0f409',1,'ComPWA::CorruptFile::CorruptFile(const char *error)']]],
-  ['coupling',['Coupling',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html',1,'ComPWA::Physics::Dynamics']]],
   ['coupling',['Coupling',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#ad283a4ee0d30987e24d9aa94546c6a49',1,'ComPWA::Physics::Dynamics::Coupling::Coupling()'],['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a6730f9a283178fb9b3fefe90bc1849f3',1,'ComPWA::Physics::Dynamics::Coupling::Coupling(double c, double massA, double massB)'],['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a8a2b2af57a01ff42aabf35e787b08c3b',1,'ComPWA::Physics::Dynamics::Coupling::Coupling(const ComPWA::ParticleList &amp;partL, const boost::property_tree::ptree tr)']]],
+  ['coupling',['Coupling',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html',1,'ComPWA::Physics::Dynamics']]],
   ['coupling_2ehpp',['Coupling.hpp',['../Coupling_8hpp.html',1,'']]],
   ['couplingtowidth',['couplingToWidth',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a09330d28bd97f09aae6d43c80ed7fa47',1,'ComPWA::Physics::Dynamics::couplingToWidth(double mR, double g, std::complex&lt; double &gt; gamma, std::complex&lt; double &gt; phspFactor)'],['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a8003879710d7febac3b3b909ae490d47',1,'ComPWA::Physics::Dynamics::couplingToWidth(double sqrtS, double mR, double g, double ma, double mb, double orbitL, double mesonRadius, FormFactorType type)']]],
   ['covariancematrix',['CovarianceMatrix',['../structComPWA_1_1FitResult.html#a39849e8533626aefeeb8e83cf4071e37',1,'ComPWA::FitResult']]],

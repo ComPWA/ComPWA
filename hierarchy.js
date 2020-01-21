@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "ComPWA::Data::AsciiReader", "classComPWA_1_1Data_1_1AsciiReader.html", null ],
     [ "BoolTranslator", "structBoolTranslator.html", null ],
     [ "ChiOneD", "classChiOneD.html", null ],
     [ "ComPWA::Data::CorrectionTable", "classComPWA_1_1Data_1_1CorrectionTable.html", null ],

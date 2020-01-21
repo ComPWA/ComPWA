@@ -2,7 +2,6 @@ var searchData=
 [
   ['_7eabssquare',['~AbsSquare',['../classComPWA_1_1FunctionTree_1_1AbsSquare.html#a06c258369a3fca85f14a2cfbadbcab2c',1,'ComPWA::FunctionTree::AbsSquare']]],
   ['_7eaddall',['~AddAll',['../classComPWA_1_1FunctionTree_1_1AddAll.html#af09775a53ce62d2d3c91b2cd83e571c5',1,'ComPWA::FunctionTree::AddAll']]],
-  ['_7easciireader',['~AsciiReader',['../classComPWA_1_1Data_1_1AsciiReader.html#abfcc68d3a22d393e73932157407c869a',1,'ComPWA::Data::AsciiReader']]],
   ['_7ebadconfig',['~BadConfig',['../classComPWA_1_1BadConfig.html#a040b3adb4538f2b6541a7e90da193864',1,'ComPWA::BadConfig']]],
   ['_7ebadindex',['~BadIndex',['../classComPWA_1_1BadIndex.html#a20a45f16c455b9f1a917cd5daad2c2ef',1,'ComPWA::BadIndex']]],
   ['_7ebadparameter',['~BadParameter',['../classComPWA_1_1BadParameter.html#abb545d15469fd25408cf06edfdbe5a4e',1,'ComPWA::BadParameter']]],

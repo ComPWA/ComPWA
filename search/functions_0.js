@@ -22,7 +22,6 @@ var searchData=
   ['adduniqueparameter',['addUniqueParameter',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a874c4c9cc3ef8abdb43306df926ba8a7',1,'ComPWA::FunctionTree::ParameterList']]],
   ['addvalue',['addValue',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a28bea8c3ed3e67cfb52e9cccf0e2c898',1,'ComPWA::FunctionTree::ParameterList']]],
   ['addvalues',['addValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a86834aad322b4ba37dbb5999970fba04',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['asciireader',['AsciiReader',['../classComPWA_1_1Data_1_1AsciiReader.html#adafa25fd1f5183d3d381d63f189b02f8',1,'ComPWA::Data::AsciiReader']]],
   ['attach',['Attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a0e9a515b6bc02c001f65954608269b05',1,'ComPWA::FunctionTree::Parameter']]],
   ['avgerror',['avgError',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a23585b75feabd2668acee11f03709ae4',1,'ComPWA::FunctionTree::FitParameter']]]
 ];

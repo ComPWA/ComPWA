@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a347acc91baa888a15d74ac1d63f6afd5":[4,0,0,4,1,1,4],
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a46633aa13db585d7930aee3886b1268a":[4,0,0,4,1,1,14],
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a46cee3782e040f7709599c8af2b36f13":[4,0,0,4,1,1,1],
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a4ec97b0b04baf093d0beb0718aa49a4b":[4,0,0,4,1,1,16],
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a4f8792d100e1779e7d8e8ad7cabb7a70":[4,0,0,4,1,1,13],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a5c0f69a6e931743b2d755dcdaf555a95":[4,0,0,4,1,1,8],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a653a8836a2c47558b91060a2c85f2754":[4,0,0,4,1,1,15],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a6692b9fc2a0307ff666d0295b5685024":[4,0,0,4,1,1,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX4 =
 "classGenevaIF.html":[4,0,4],
 "classUniformRealDistribution.html":[4,0,5],
 "classes.html":[4,1],
-"deprecated.html":[2],
-"dir_03680f297d755c096b0a1ead13ee12b7.html":[5,0,3],
-"dir_0851d46a9235ae1eb6aa2c6ee3d9e41b.html":[5,0,4],
-"dir_0deecc5c13a2525e593fe15d5f9ae116.html":[5,0,4,0],
-"dir_1c3444c9e3a4eb1be4172cbec3187718.html":[5,0,3,0],
-"dir_38ede806b5a81417cb73c367dd92d89d.html":[5,0,1,2]
+"deprecated.html":[2]
 };

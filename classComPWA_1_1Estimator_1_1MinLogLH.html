@@ -159,9 +159,9 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Negative Log Likelihood-Estimator. </p>
 <p>This class calculates the negative log likelihood -log(LH) using an Intensity and data samples. <a class="el" href="namespaceComPWA_1_1Data.html">Data</a> data samples are retrieved from the DataStorage.</p>
 <dl class="section user"><dt>log likelihood</dt><dd>The negative log LH is given by: <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ -log \mathcal{L} = N_{\mathrm{obs}} * \log(\lambda) - \sum_i^{N_{\mathrm{obs}}} \log(I(x_i)) \]" src="form_2.png"/>
+<img class="formulaDsp" alt="\[ -log \mathcal{L} = N_{\mathrm{obs}} * \log(\lambda) - \sum_i^{N_{\mathrm{obs}}} \log(I(x_i)) \]" src="form_5.png"/>
 </p>
- with the Intensity <img class="formulaInl" alt="$I(x_i)$" src="form_3.png"/> for a given event <img class="formulaInl" alt="$x_i$" src="form_4.png"/> and the phase integral <img class="formulaInl" alt="$ \lambda = \frac{V}{\sum w_i}\sum_i^{N_{\mathrm{phsp}}} I(x_i)\cdot \epsilon_i \cdot w_i $" src="form_5.png"/> <img class="formulaInl" alt="$ \epsilon $" src="form_6.png"/> and <img class="formulaInl" alt="$ w $" src="form_7.png"/> are the efficiency and weight for each event <img class="formulaInl" alt="$ V $" src="form_8.png"/> is the phase space volume (in which the phase space events lie)</dd></dl>
+ with the Intensity <img class="formulaInl" alt="$I(x_i)$" src="form_6.png"/> for a given event <img class="formulaInl" alt="$x_i$" src="form_7.png"/> and the phase integral <img class="formulaInl" alt="$ \lambda = \frac{V}{\sum w_i}\sum_i^{N_{\mathrm{phsp}}} I(x_i)\cdot \epsilon_i \cdot w_i $" src="form_8.png"/> <img class="formulaInl" alt="$ \epsilon $" src="form_9.png"/> and <img class="formulaInl" alt="$ w $" src="form_10.png"/> are the efficiency and weight for each event <img class="formulaInl" alt="$ V $" src="form_11.png"/> is the phase space volume (in which the phase space events lie)</dd></dl>
 <p>The sum over all weights is necessary to normalize the weights to one. Otherwise the error estimate would be incorrect. The Intensity does not have to be normalized. This is done automatically by the phase space integral.</p>
 <dl class="section user"><dt>Efficiency correction</dt><dd>It is assumed that the data already includes the efficiency. </dd></dl>
 
@@ -381,7 +381,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Estimator.html">Estimator</a></li><li class="navelem"><a class="el" href="classComPWA_1_1Estimator_1_1MinLogLH.html">MinLogLH</a></li>
-    <li class="footer">Generated on Tue Jan 21 2020 14:23:28 for ComPWA by
+    <li class="footer">Generated on Tue Jan 21 2020 15:46:11 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
