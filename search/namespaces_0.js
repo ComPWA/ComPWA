@@ -14,7 +14,6 @@ var searchData=
   ['geneva',['Geneva',['../namespaceComPWA_1_1Optimizer_1_1Geneva.html',1,'ComPWA::Optimizer']]],
   ['helicityformalism',['HelicityFormalism',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html',1,'ComPWA::Physics']]],
   ['minuit2',['Minuit2',['../namespaceComPWA_1_1Optimizer_1_1Minuit2.html',1,'ComPWA::Optimizer']]],
-  ['nonresonant',['NonResonant',['../namespaceComPWA_1_1Physics_1_1Dynamics_1_1NonResonant.html',1,'ComPWA::Physics::Dynamics']]],
   ['optimizer',['Optimizer',['../namespaceComPWA_1_1Optimizer.html',1,'ComPWA']]],
   ['physics',['Physics',['../namespaceComPWA_1_1Physics.html',1,'ComPWA']]],
   ['plotting',['Plotting',['../namespaceComPWA_1_1Tools_1_1Plotting.html',1,'ComPWA::Tools']]],

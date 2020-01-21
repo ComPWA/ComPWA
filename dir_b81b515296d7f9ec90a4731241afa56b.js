@@ -6,8 +6,6 @@ var dir_b81b515296d7f9ec90a4731241afa56b =
     [ "Flatte.hpp", "Flatte_8hpp.html", "Flatte_8hpp" ],
     [ "FormFactor.cpp", "FormFactor_8cpp.html", "FormFactor_8cpp" ],
     [ "FormFactor.hpp", "FormFactor_8hpp.html", "FormFactor_8hpp" ],
-    [ "NonResonant.cpp", "NonResonant_8cpp.html", null ],
-    [ "NonResonant.hpp", "NonResonant_8hpp.html", "NonResonant_8hpp" ],
     [ "RelativisticBreitWigner.cpp", "RelativisticBreitWigner_8cpp.html", null ],
     [ "RelativisticBreitWigner.hpp", "RelativisticBreitWigner_8hpp.html", "RelativisticBreitWigner_8hpp" ],
     [ "Voigtian.cpp", "Voigtian_8cpp.html", null ],

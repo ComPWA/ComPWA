@@ -8,7 +8,7 @@ var searchData=
   ['readdata',['readData',['../classComPWA_1_1Data_1_1AsciiReader.html#a23ae672034b093a9b74b6f9a9f5bef95',1,'ComPWA::Data::AsciiReader::readData()'],['../namespaceComPWA_1_1Data_1_1Root.html#a064b292c426ae005078c5cf0dc7fcb6b',1,'ComPWA::Data::Root::readData()']]],
   ['readparticles',['readParticles',['../namespaceComPWA.html#a381a6fe8ccb17cc2463fba2ff388ba84',1,'ComPWA::readParticles(std::stringstream &amp;Stream)'],['../namespaceComPWA.html#a636f080937cdc35a280f3a286e52c5fc',1,'ComPWA::readParticles(std::string FileName)'],['../namespaceComPWA.html#a64579d27cfee064dbb386d6d10d1a9cd',1,'ComPWA::readParticles(boost::property_tree::ptree &amp;pt)']]],
   ['realquantumnumbers',['RealQuantumNumbers',['../classComPWA_1_1ParticleProperties.html#aed2628c8314192f83863c61201e972f9',1,'ComPWA::ParticleProperties']]],
-  ['recalculate',['recalculate',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a9767b98ecd60a242c4db43e670bff0de',1,'ComPWA::FunctionTree::TreeNode']]],
+  ['recalculate',['recalculate',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#ad629709f3301f88bcb4931b5622e5aa2',1,'ComPWA::FunctionTree::TreeNode']]],
   ['recoilfinalstate',['RecoilFinalState',['../classComPWA_1_1Physics_1_1SubSystem.html#aab5471aafe6fbbfa297152f93f88e8d1',1,'ComPWA::Physics::SubSystem']]],
   ['recophspsample',['RecoPhspSample',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aafdf30f9635e49ecf72c0346157d3911',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['redistributeindexlists',['redistributeIndexLists',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#abb69ba437a26abf44c57695511126128',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],

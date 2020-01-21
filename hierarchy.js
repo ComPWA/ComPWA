@@ -67,7 +67,6 @@ var hierarchy =
     [ "ComPWA::Function< OutputType >", "classComPWA_1_1Function.html", [
       [ "ComPWA::Estimator::Estimator< OutputType >", "classComPWA_1_1Estimator_1_1Estimator.html", null ]
     ] ],
-    [ "ComPWA::FunctionTree::FunctionTree", "classComPWA_1_1FunctionTree_1_1FunctionTree.html", null ],
     [ "GenevaIF", "classGenevaIF.html", null ],
     [ "ComPWA::Physics::Dynamics::InputInfo", "structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html", [
       [ "ComPWA::Physics::Dynamics::Flatte::InputInfo", "structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html", null ],
@@ -76,8 +75,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "ComPWA::Physics::IntensityBuilderXML", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html", null ],
-    [ "ComPWA::FunctionTree::KahanSummation", "structComPWA_1_1FunctionTree_1_1KahanSummation.html", null ],
     [ "ComPWA::Tools::KahanSummation", "structComPWA_1_1Tools_1_1KahanSummation.html", null ],
+    [ "ComPWA::FunctionTree::KahanSummation", "structComPWA_1_1FunctionTree_1_1KahanSummation.html", null ],
     [ "ComPWA::Kinematics", "classComPWA_1_1Kinematics.html", [
       [ "ComPWA::Physics::EvtGen::DalitzKinematics", "classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html", null ],
       [ "ComPWA::Physics::HelicityFormalism::HelicityKinematics", "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html", null ]
@@ -90,11 +89,11 @@ var hierarchy =
     [ "ComPWA::Optimizer::Optimizer< MinuitResult >", "classComPWA_1_1Optimizer_1_1Optimizer.html", [
       [ "ComPWA::Optimizer::Minuit2::MinuitIF", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html", null ]
     ] ],
-    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::Parameter", "classComPWA_1_1FunctionTree_1_1Parameter.html", [
       [ "ComPWA::FunctionTree::FitParameter", "classComPWA_1_1FunctionTree_1_1FitParameter.html", null ],
       [ "ComPWA::FunctionTree::Value< T >", "classComPWA_1_1FunctionTree_1_1Value.html", null ]
     ] ],
+    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::ParameterList", "classComPWA_1_1FunctionTree_1_1ParameterList.html", null ],
     [ "ComPWA::FunctionTree::ParObserver", "classComPWA_1_1FunctionTree_1_1ParObserver.html", [
       [ "ComPWA::FunctionTree::TreeNode", "classComPWA_1_1FunctionTree_1_1TreeNode.html", null ]
@@ -116,7 +115,6 @@ var hierarchy =
       [ "ComPWA::FunctionTree::AddAll", "classComPWA_1_1FunctionTree_1_1AddAll.html", null ],
       [ "ComPWA::FunctionTree::ComplexConjugate", "classComPWA_1_1FunctionTree_1_1ComplexConjugate.html", null ],
       [ "ComPWA::FunctionTree::Complexify", "classComPWA_1_1FunctionTree_1_1Complexify.html", null ],
-      [ "ComPWA::FunctionTree::Dummy", "classComPWA_1_1FunctionTree_1_1Dummy.html", null ],
       [ "ComPWA::FunctionTree::Exp", "classComPWA_1_1FunctionTree_1_1Exp.html", null ],
       [ "ComPWA::FunctionTree::Inverse", "classComPWA_1_1FunctionTree_1_1Inverse.html", null ],
       [ "ComPWA::FunctionTree::LogOf", "classComPWA_1_1FunctionTree_1_1LogOf.html", null ],

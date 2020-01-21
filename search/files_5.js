@@ -16,8 +16,6 @@ var searchData=
   ['function_2ehpp',['Function.hpp',['../Function_8hpp.html',1,'']]],
   ['functions_2ecpp',['Functions.cpp',['../Functions_8cpp.html',1,'']]],
   ['functions_2ehpp',['Functions.hpp',['../Functions_8hpp.html',1,'']]],
-  ['functiontree_2ecpp',['FunctionTree.cpp',['../FunctionTree_8cpp.html',1,'']]],
-  ['functiontree_2ehpp',['FunctionTree.hpp',['../FunctionTree_8hpp.html',1,'']]],
   ['functiontreeestimator_2ecpp',['FunctionTreeEstimator.cpp',['../FunctionTreeEstimator_8cpp.html',1,'']]],
   ['functiontreeestimator_2ehpp',['FunctionTreeEstimator.hpp',['../FunctionTreeEstimator_8hpp.html',1,'']]],
   ['functiontreeintensity_2ecpp',['FunctionTreeIntensity.cpp',['../FunctionTreeIntensity_8cpp.html',1,'']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['parameter',['Parameter',['../structComPWA_1_1Parameter.html',1,'ComPWA']]],
   ['parameter',['Parameter',['../classComPWA_1_1FunctionTree_1_1Parameter.html',1,'ComPWA::FunctionTree']]],
+  ['parameter',['Parameter',['../structComPWA_1_1Parameter.html',1,'ComPWA']]],
   ['parameterfixed',['ParameterFixed',['../classComPWA_1_1ParameterFixed.html',1,'ComPWA']]],
   ['parameterlist',['ParameterList',['../classComPWA_1_1FunctionTree_1_1ParameterList.html',1,'ComPWA::FunctionTree']]],
   ['parameteroutofbound',['ParameterOutOfBound',['../classComPWA_1_1ParameterOutOfBound.html',1,'ComPWA']]],

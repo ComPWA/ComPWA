@@ -5,6 +5,5 @@ var searchData=
   ['datasample',['DataSample',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aa80c6482a43afe0947a518ec6eaae2f8',1,'ComPWA::Estimator::ChiOneD::ChiOneD::DataSample()'],['../classComPWA_1_1Estimator_1_1MinLogLH.html#a3361b92f98afa14798431ea8253d156e',1,'ComPWA::Estimator::MinLogLH::DataSample()'],['../structenergyPar.html#a6cb00d0e2633deb121b5a32ffff8f666',1,'energyPar::DataSample()']]],
   ['daughtermasses',['DaughterMasses',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a08400d29530aadaaceb33013958957f2',1,'ComPWA::Physics::Dynamics::InputInfo']]],
   ['decayinfo',['DecayInfo',['../classComPWA_1_1ParticleProperties.html#a29e6dc20a0d37bbe68f854c535389602',1,'ComPWA::ParticleProperties']]],
-  ['doublevalues',['DoubleValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a62b0bb5c4ece5b9f5e6241c07f14dca3',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['dummynode',['DummyNode',['../classComPWA_1_1FunctionTree_1_1FunctionTree.html#a46292affe21f5a409e1fea5f3a58701d',1,'ComPWA::FunctionTree::FunctionTree']]]
+  ['doublevalues',['DoubleValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a62b0bb5c4ece5b9f5e6241c07f14dca3',1,'ComPWA::FunctionTree::ParameterList']]]
 ];

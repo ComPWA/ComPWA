@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 598;
+var viewWidth = 765;
 var viewHeight = 362;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,28 +54,28 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>/home/travis/build/ComPWA/ComPWA/Core/FunctionTree/Parameter.hpp</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-358 594,-358 594,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-358 761,-358 761,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="256,-312.5 256,-353.5 399,-353.5 399,-312.5 256,-312.5"/>
-<text text-anchor="start" x="264" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="264" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="327.5" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree/Parameter.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="304,-312.5 304,-353.5 447,-353.5 447,-312.5 304,-312.5"/>
+<text text-anchor="start" x="312" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="312" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="375.5" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree/Parameter.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="FunctionTree_2FitParameter_8hpp.html" target="_top" xlink:title="Implementations of Parameter for various data types. ">
-<polygon fill="white" stroke="black" points="250,-234.5 250,-275.5 405,-275.5 405,-234.5 250,-234.5"/>
-<text text-anchor="start" x="258" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
-<text text-anchor="start" x="258" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
-<text text-anchor="middle" x="327.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree/FitParameter.hpp</text>
+<polygon fill="white" stroke="black" points="298,-234.5 298,-275.5 453,-275.5 453,-234.5 298,-234.5"/>
+<text text-anchor="start" x="306" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="306" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Core</text>
+<text text-anchor="middle" x="375.5" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00">/FunctionTree/FitParameter.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M327.5,-302.297C327.5,-293.301 327.5,-283.653 327.5,-275.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="324,-302.428 327.5,-312.428 331,-302.428 324,-302.428"/>
+<path fill="none" stroke="midnightblue" d="M375.5,-302.297C375.5,-293.301 375.5,-283.653 375.5,-275.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="372,-302.428 375.5,-312.428 379,-302.428 372,-302.428"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -89,8 +89,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M253.297,-231.442C217.813,-220.655 175.747,-207.867 141.663,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="252.533,-234.868 263.119,-234.428 254.569,-228.171 252.533,-234.868"/>
+<path fill="none" stroke="midnightblue" d="M288.943,-231.925C246.255,-221.038 195.219,-208.022 153.982,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="288.203,-235.348 298.758,-234.428 289.933,-228.565 288.203,-235.348"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -104,8 +104,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M240.692,-230.892C225.564,-222.929 211.74,-212.265 202.5,-198 170.947,-149.289 192.683,-76.2547 206.104,-41.5977"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="239.201,-234.059 249.725,-235.275 242.256,-227.761 239.201,-234.059"/>
+<path fill="none" stroke="midnightblue" d="M288.041,-246.92C255.813,-239.565 222.358,-225.301 202.5,-198 168.271,-150.942 191.461,-76.7874 205.693,-41.6794"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="287.483,-250.379 297.986,-248.987 288.908,-243.525 287.483,-250.379"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -119,8 +119,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M309.662,-225.757C303.724,-216.354 297.245,-206.096 291.819,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="306.84,-227.842 315.139,-234.428 312.758,-224.104 306.84,-227.842"/>
+<path fill="none" stroke="midnightblue" d="M342.74,-228.065C330.099,-218.057 315.885,-206.804 304.139,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="340.765,-230.965 350.778,-234.428 345.11,-225.477 340.765,-230.965"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -134,8 +134,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node6 -->
 <g id="edge9" class="edge"><title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M345.663,-225.509C355.942,-205.62 365.012,-178.68 355.5,-156 349.491,-141.672 337.829,-129.162 326.612,-119.622"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="342.533,-223.938 340.758,-234.383 348.659,-227.324 342.533,-223.938"/>
+<path fill="none" stroke="midnightblue" d="M373.97,-224.225C371.872,-203.953 366.956,-177.081 355.5,-156 347.949,-142.104 335.82,-129.48 324.687,-119.749"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="370.505,-224.78 374.85,-234.443 377.479,-224.18 370.505,-224.78"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -149,8 +149,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node7 -->
 <g id="edge8" class="edge"><title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M353.994,-226.618C360.995,-218.042 367.879,-208.15 372.5,-198 396.479,-145.335 398.743,-75.4023 398.238,-41.748"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351.17,-224.534 347.315,-234.402 356.483,-229.092 351.17,-224.534"/>
+<path fill="none" stroke="midnightblue" d="M378.334,-224.111C382.902,-175.943 391.769,-82.4363 395.629,-41.7301"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="374.835,-223.934 377.376,-234.22 381.804,-224.595 374.835,-223.934"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -164,8 +164,23 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge10" class="edge"><title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M385.363,-230.609C411.603,-220.001 442.275,-207.602 467.249,-197.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="383.874,-227.435 375.915,-234.428 386.498,-233.925 383.874,-227.435"/>
+<path fill="none" stroke="midnightblue" d="M420.398,-229.627C439.529,-219.242 461.542,-207.292 479.569,-197.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="418.672,-226.581 411.553,-234.428 422.012,-232.733 418.672,-226.581"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="EvtGenIF_8hpp.html" target="_top" xlink:title="/home/travis/build\l/ComPWA/ComPWA/Physics\l/EvtGen/EvtGenIF.hpp">
+<polygon fill="white" stroke="red" points="608,-156.5 608,-197.5 757,-197.5 757,-156.5 608,-156.5"/>
+<text text-anchor="start" x="616" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/travis/build</text>
+<text text-anchor="start" x="616" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ComPWA/ComPWA/Physics</text>
+<text text-anchor="middle" x="682.5" y="-163.5" font-family="Helvetica,sans-Serif" font-size="10.00">/EvtGen/EvtGenIF.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge11" class="edge"><title>Node2&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M463.264,-232.273C508.974,-220.958 564.271,-207.268 607.894,-196.469"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="462.232,-228.923 453.366,-234.724 463.914,-235.718 462.232,-228.923"/>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>

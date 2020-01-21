@@ -7,6 +7,5 @@ var searchData=
   ['datacorrection',['DataCorrection',['../classComPWA_1_1Data_1_1DataCorrection.html',1,'ComPWA::Data']]],
   ['datapoint',['DataPoint',['../structComPWA_1_1DataPoint.html',1,'ComPWA']]],
   ['dataset',['DataSet',['../structComPWA_1_1Data_1_1DataSet.html',1,'ComPWA::Data']]],
-  ['derivativedata',['DerivativeData',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html',1,'ComPWA::Tools::FitFractions']]],
-  ['dummy',['Dummy',['../classComPWA_1_1FunctionTree_1_1Dummy.html',1,'ComPWA::FunctionTree']]]
+  ['derivativedata',['DerivativeData',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html',1,'ComPWA::Tools::FitFractions']]]
 ];

@@ -116,8 +116,8 @@ $(document).ready(function(){initNavTree('classComPWA_1_1FunctionTree_1_1TreeNod
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classComPWA_1_1FunctionTree_1_1TreeNode-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -125,63 +125,48 @@ $(document).ready(function(){initNavTree('classComPWA_1_1FunctionTree_1_1TreeNod
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the interface for elements of the FunctionTree This class acts as a container for a param...">TreeNode</a> is the interface for elements of the <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html" title="FunctionTree for automatically cashing of mathematical expressions. ">FunctionTree</a> This class acts as a container for a parameter in a function tree.  
+<p><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> is the basic building block of the <a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a>.  
  <a href="classComPWA_1_1FunctionTree_1_1TreeNode.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab0590c4cd674097982461c422cb262e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ab0590c4cd674097982461c422cb262e6">TreeNode</a> (std::string <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5319074bb50b9d61d172041bc5e9168">name</a>, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee">parameter</a>, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt; strategy, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; parent)</td></tr>
-<tr class="memdesc:ab0590c4cd674097982461c422cb262e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for tree using a <code>name</code>, a <code>parameter</code>, a <code>strategy</code> and an identifier for the parent node.  <a href="#ab0590c4cd674097982461c422cb262e6">More...</a><br /></td></tr>
-<tr class="separator:ab0590c4cd674097982461c422cb262e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f6585342cee6f4b049cf89e7b3558c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a08f6585342cee6f4b049cf89e7b3558c">TreeNode</a> (std::string <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5319074bb50b9d61d172041bc5e9168">name</a>, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt; strategy, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; parent)</td></tr>
-<tr class="memdesc:a08f6585342cee6f4b049cf89e7b3558c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for tree using a <code>name</code>, a <code>strategy</code> and an identifier for the parent node.  <a href="#a08f6585342cee6f4b049cf89e7b3558c">More...</a><br /></td></tr>
-<tr class="separator:a08f6585342cee6f4b049cf89e7b3558c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a295c8ed01a7161336504ce59334eaec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a295c8ed01a7161336504ce59334eaec0">TreeNode</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt; strategy)</td></tr>
+<tr class="memdesc:a295c8ed01a7161336504ce59334eaec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for tree using a <code>strategy</code>.  <a href="#a295c8ed01a7161336504ce59334eaec0">More...</a><br /></td></tr>
+<tr class="separator:a295c8ed01a7161336504ce59334eaec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287ca2ef8f06a0d58a71aca79d51ca27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a287ca2ef8f06a0d58a71aca79d51ca27">TreeNode</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee">parameter</a>, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt; strategy=nullptr)</td></tr>
+<tr class="memdesc:a287ca2ef8f06a0d58a71aca79d51ca27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for tree using a <code>parameter</code> and a <code>strategy</code>.  <a href="#a287ca2ef8f06a0d58a71aca79d51ca27">More...</a><br /></td></tr>
+<tr class="separator:a287ca2ef8f06a0d58a71aca79d51ca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb6db63cb7080a4e949c167b41ff13f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9bb6db63cb7080a4e949c167b41ff13f">~TreeNode</a> ()</td></tr>
 <tr class="separator:a9bb6db63cb7080a4e949c167b41ff13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5319074bb50b9d61d172041bc5e9168"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5319074bb50b9d61d172041bc5e9168">name</a> () const </td></tr>
-<tr class="separator:ac5319074bb50b9d61d172041bc5e9168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5082e0b31aced3a4221e5631a199079"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#af5082e0b31aced3a4221e5631a199079">setName</a> (std::string <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5319074bb50b9d61d172041bc5e9168">name</a>)</td></tr>
-<tr class="separator:af5082e0b31aced3a4221e5631a199079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93694e671bbe52573fd8f23c83a7b0ee"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee">parameter</a> ()</td></tr>
+<tr class="memitem:afd4519c5db7d26e3ee8363bc1ef530f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#afd4519c5db7d26e3ee8363bc1ef530f2">addNode</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; node)</td></tr>
+<tr class="separator:afd4519c5db7d26e3ee8363bc1ef530f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad305cb701ef2533da29ff86377181fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ad305cb701ef2533da29ff86377181fab">addNodes</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&gt; nodes)</td></tr>
+<tr class="separator:ad305cb701ef2533da29ff86377181fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7adfcc26f08b0b263ae4020ae6b7815"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#af7adfcc26f08b0b263ae4020ae6b7815">addParent</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; node)</td></tr>
+<tr class="separator:af7adfcc26f08b0b263ae4020ae6b7815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93694e671bbe52573fd8f23c83a7b0ee"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee">parameter</a> ()</td></tr>
 <tr class="memdesc:a93694e671bbe52573fd8f23c83a7b0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain parameter of node.  <a href="#a93694e671bbe52573fd8f23c83a7b0ee">More...</a><br /></td></tr>
 <tr class="separator:a93694e671bbe52573fd8f23c83a7b0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab04ad84f4905d108f93dfee6ea95047a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ab04ad84f4905d108f93dfee6ea95047a">fillParameters</a> (<a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
+<tr class="memitem:ab04ad84f4905d108f93dfee6ea95047a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ab04ad84f4905d108f93dfee6ea95047a">fillParameters</a> (<a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html">ParameterList</a> &amp;list)</td></tr>
 <tr class="memdesc:ab04ad84f4905d108f93dfee6ea95047a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html" title="This class provides a list of parameters and values of different types. ">ParameterList</a> with parameters.  <a href="#ab04ad84f4905d108f93dfee6ea95047a">More...</a><br /></td></tr>
 <tr class="separator:ab04ad84f4905d108f93dfee6ea95047a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e6caf4b4d9efec7d2bd09c0f8a56688"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9e6caf4b4d9efec7d2bd09c0f8a56688">update</a> ()</td></tr>
+<tr class="memitem:a9e6caf4b4d9efec7d2bd09c0f8a56688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9e6caf4b4d9efec7d2bd09c0f8a56688">update</a> ()</td></tr>
 <tr class="memdesc:a9e6caf4b4d9efec7d2bd09c0f8a56688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags the node as modified. Should only be called from its child nodes.  <a href="#a9e6caf4b4d9efec7d2bd09c0f8a56688">More...</a><br /></td></tr>
 <tr class="separator:a9e6caf4b4d9efec7d2bd09c0f8a56688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4aefa052e828496745fb1a0bd6906cf"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#af4aefa052e828496745fb1a0bd6906cf">childNodes</a> ()</td></tr>
-<tr class="memdesc:af4aefa052e828496745fb1a0bd6906cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of child nodes.  <a href="#af4aefa052e828496745fb1a0bd6906cf">More...</a><br /></td></tr>
-<tr class="separator:af4aefa052e828496745fb1a0bd6906cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ca007a37c0aff43bdafe7fb564d6df4"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a8ca007a37c0aff43bdafe7fb564d6df4">findNode</a> (std::string <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5319074bb50b9d61d172041bc5e9168">name</a>)</td></tr>
-<tr class="memdesc:a8ca007a37c0aff43bdafe7fb564d6df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find node with <code>name</code> within all downstream nodes.  <a href="#a8ca007a37c0aff43bdafe7fb564d6df4">More...</a><br /></td></tr>
-<tr class="separator:a8ca007a37c0aff43bdafe7fb564d6df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e85be7456afe1ba75f3cffb235a58a0"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9e85be7456afe1ba75f3cffb235a58a0">print</a> (int level=-1, std::string prefix=&quot;&quot;) const </td></tr>
-<tr class="memdesc:a9e85be7456afe1ba75f3cffb235a58a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print node and its child nodes to std::string.  <a href="#a9e85be7456afe1ba75f3cffb235a58a0">More...</a><br /></td></tr>
-<tr class="separator:a9e85be7456afe1ba75f3cffb235a58a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa26d1781e5aab40525142b226161b8e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#aa26d1781e5aab40525142b226161b8e1">print</a> (int level=-1, std::string prefix=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa26d1781e5aab40525142b226161b8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print node and its child nodes to std::string.  <a href="#aa26d1781e5aab40525142b226161b8e1">More...</a><br /></td></tr>
+<tr class="separator:aa26d1781e5aab40525142b226161b8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6b82a83e97591746eafadc1928c14525"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a6b82a83e97591746eafadc1928c14525">deleteParentLinks</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; parent)</td></tr>
-<tr class="memdesc:a6b82a83e97591746eafadc1928c14525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete links to child and parent nodes.  <a href="#a6b82a83e97591746eafadc1928c14525">More...</a><br /></td></tr>
-<tr class="separator:a6b82a83e97591746eafadc1928c14525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7f31df1c1e8d4e473580d158c5fa82d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac7f31df1c1e8d4e473580d158c5fa82d">fillParentNames</a> (std::vector&lt; std::string &gt; &amp;names) const </td></tr>
-<tr class="memdesc:ac7f31df1c1e8d4e473580d158c5fa82d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill list with names of parent nodes.  <a href="#ac7f31df1c1e8d4e473580d158c5fa82d">More...</a><br /></td></tr>
-<tr class="separator:ac7f31df1c1e8d4e473580d158c5fa82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a699f0510e20883401f6dedba9da562ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a699f0510e20883401f6dedba9da562ed">fillChildNames</a> (std::vector&lt; std::string &gt; &amp;names) const </td></tr>
-<tr class="memdesc:a699f0510e20883401f6dedba9da562ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill list with names of children nodes.  <a href="#a699f0510e20883401f6dedba9da562ed">More...</a><br /></td></tr>
-<tr class="separator:a699f0510e20883401f6dedba9da562ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9767b98ecd60a242c4db43e670bff0de"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">ComPWA::FunctionTree::Parameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9767b98ecd60a242c4db43e670bff0de">recalculate</a> () const </td></tr>
-<tr class="memdesc:a9767b98ecd60a242c4db43e670bff0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain parameter of node.  <a href="#a9767b98ecd60a242c4db43e670bff0de">More...</a><br /></td></tr>
-<tr class="separator:a9767b98ecd60a242c4db43e670bff0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad629709f3301f88bcb4931b5622e5aa2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">ComPWA::FunctionTree::Parameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ad629709f3301f88bcb4931b5622e5aa2">recalculate</a> ()</td></tr>
+<tr class="memdesc:ad629709f3301f88bcb4931b5622e5aa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain parameter of node.  <a href="#ad629709f3301f88bcb4931b5622e5aa2">More...</a><br /></td></tr>
+<tr class="separator:ad629709f3301f88bcb4931b5622e5aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a3778af8e54d689e617a93b632a55006b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a3778af8e54d689e617a93b632a55006b">Name</a></td></tr>
-<tr class="separator:a3778af8e54d689e617a93b632a55006b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a3a9477d76453dfa522b3aaf929eb990a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a3a9477d76453dfa522b3aaf929eb990a">Parents</a></td></tr>
 <tr class="memdesc:a3a9477d76453dfa522b3aaf929eb990a"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of parent nodes.  <a href="#a3a9477d76453dfa522b3aaf929eb990a">More...</a><br /></td></tr>
 <tr class="separator:a3a9477d76453dfa522b3aaf929eb990a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,7 +176,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a26709efb10c61373b6255e883fb41263"><td class="mdescLeft">&#160;</td><td class="mdescRight">(cached) node value  <a href="#a26709efb10c61373b6255e883fb41263">More...</a><br /></td></tr>
 <tr class="separator:a26709efb10c61373b6255e883fb41263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5848f4f42d82f5d45815a9cb73610cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ac5848f4f42d82f5d45815a9cb73610cb">HasChanged</a></td></tr>
-<tr class="memdesc:ac5848f4f42d82f5d45815a9cb73610cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node has changed and needs to call <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9767b98ecd60a242c4db43e670bff0de" title="Obtain parameter of node. ">recalculate()</a>  <a href="#ac5848f4f42d82f5d45815a9cb73610cb">More...</a><br /></td></tr>
+<tr class="memdesc:ac5848f4f42d82f5d45815a9cb73610cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node has changed and needs to call <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ad629709f3301f88bcb4931b5622e5aa2" title="Obtain parameter of node. ">recalculate()</a>  <a href="#ac5848f4f42d82f5d45815a9cb73610cb">More...</a><br /></td></tr>
 <tr class="separator:ac5848f4f42d82f5d45815a9cb73610cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d2d6aab67d2214ebeaa6ece395747a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a82d2d6aab67d2214ebeaa6ece395747a">Strat</a></td></tr>
 <tr class="memdesc:a82d2d6aab67d2214ebeaa6ece395747a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node strategy.  <a href="#a82d2d6aab67d2214ebeaa6ece395747a">More...</a><br /></td></tr>
@@ -199,25 +184,21 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a20f947c22b958528f0a60a7c7f810bbc"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a20f947c22b958528f0a60a7c7f810bbc">ComPWA::FunctionTree::FunctionTree</a></td></tr>
-<tr class="memdesc:a20f947c22b958528f0a60a7c7f810bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">We add <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html" title="FunctionTree for automatically cashing of mathematical expressions. ">FunctionTree</a> as a friend so we can declare some functionts as protected which deal with the linking between parents and children.  <a href="#a20f947c22b958528f0a60a7c7f810bbc">More...</a><br /></td></tr>
-<tr class="separator:a20f947c22b958528f0a60a7c7f810bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad583269c94199ce00d6d71f17b995492"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ad583269c94199ce00d6d71f17b995492">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &amp;p)</td></tr>
-<tr class="separator:ad583269c94199ce00d6d71f17b995492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69c686d62590150593ef91e66973a2ba"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a69c686d62590150593ef91e66973a2ba">operator&lt;&lt;</a> (std::ostream &amp;os, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; p)</td></tr>
 <tr class="separator:a69c686d62590150593ef91e66973a2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the interface for elements of the FunctionTree This class acts as a container for a param...">TreeNode</a> is the interface for elements of the <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html" title="FunctionTree for automatically cashing of mathematical expressions. ">FunctionTree</a> This class acts as a container for a parameter in a function tree. </p>
-<p>It has a <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html" title="Virtual base class for operations of FunctionTree nodes. ">Strategy</a> to calculate its value and a name. </p>
+<div class="textblock"><p><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> is the basic building block of the <a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a>. </p>
+<p>A <a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a> is merely a collection of TreeNodes that are connected to each other in a specific way via <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#afd4519c5db7d26e3ee8363bc1ef530f2">addNode()</a>. The <a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a> represents an arbitrary function. structure. Parts of the tree that were calculated before and have not been changed are cached. This reduces the amount of recalculation at evaluation time.</p>
+<p>There are normal TreeNodes which perform a calculation. They have a <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html" title="Virtual base class for operations of FunctionTree nodes. ">Strategy</a> to calculate its value. The other type of TreeNodes are leaves. They simply need an output parameter and acts as a data source. Leaves can be created via <a class="el" href="namespaceComPWA_1_1FunctionTree.html#a363739a3a01f67438abc98fe58ee8763">createLeaf()</a>. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00032">32</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00035">35</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ComPWA::FunctionTree::TreeNode:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1FunctionTree_1_1TreeNode__inherit__graph.svg" width="366" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1FunctionTree_1_1TreeNode__inherit__graph.svg" width="366" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -225,23 +206,38 @@ Friends</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1FunctionTree_1_1TreeNode__coll__graph.svg" width="366" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1FunctionTree_1_1TreeNode__coll__graph.svg" width="366" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab0590c4cd674097982461c422cb262e6"></a>
+<a class="anchor" id="a295c8ed01a7161336504ce59334eaec0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ComPWA::FunctionTree::TreeNode::TreeNode </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt;&#160;</td>
+          <td class="paramname"><em>strategy</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor for tree using a <code>strategy</code>. </p>
+<p>This will not cache the output value </p>
+
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00015">15</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a287ca2ef8f06a0d58a71aca79d51ca27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ComPWA::FunctionTree::TreeNode::TreeNode </td>
+          <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt;&#160;</td>
           <td class="paramname"><em>parameter</em>, </td>
         </tr>
@@ -249,13 +245,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt;&#160;</td>
-          <td class="paramname"><em>strategy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
+          <td class="paramname"><em>strategy</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -265,46 +255,10 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor for tree using a <code>name</code>, a <code>parameter</code>, a <code>strategy</code> and an identifier for the parent node. </p>
+<p>Constructor for tree using a <code>parameter</code> and a <code>strategy</code>. </p>
+<p>The output value will be cached. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00015">15</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a08f6585342cee6f4b049cf89e7b3558c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ComPWA::FunctionTree::TreeNode::TreeNode </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html">Strategy</a> &gt;&#160;</td>
-          <td class="paramname"><em>strategy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor for tree using a <code>name</code>, a <code>strategy</code> and an identifier for the parent node. </p>
-<p>Since no parameter is passed the values of this node are not cached and are recalculated every time <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee" title="Obtain parameter of node. ">parameter()</a> is called. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00029">29</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00021">21</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -329,100 +283,68 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00043">43</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00033">33</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af4aefa052e828496745fb1a0bd6906cf"></a>
+<a class="anchor" id="afd4519c5db7d26e3ee8363bc1ef530f2"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; &gt; &amp; ComPWA::FunctionTree::TreeNode::childNodes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get list of child nodes. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00172">172</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6b82a83e97591746eafadc1928c14525"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FunctionTree::TreeNode::deleteParentLinks </td>
+          <td class="memname">void ComPWA::FunctionTree::TreeNode::addNode </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td>
-          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Delete links to child and parent nodes. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00153">153</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00035">35</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a699f0510e20883401f6dedba9da562ed"></a>
+<a class="anchor" id="ad305cb701ef2533da29ff86377181fab"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ComPWA::FunctionTree::TreeNode::fillChildNames </td>
+          <td class="memname">void ComPWA::FunctionTree::TreeNode::addNodes </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>names</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>nodes</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Fill list with names of children nodes. </p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00040">40</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00176">176</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+</div>
+</div>
+<a class="anchor" id="af7adfcc26f08b0b263ae4020ae6b7815"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ComPWA::FunctionTree::TreeNode::addParent </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00048">48</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ab04ad84f4905d108f93dfee6ea95047a"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ComPWA::FunctionTree::TreeNode::fillParameters </td>
@@ -432,108 +354,18 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Fill <a class="el" href="classComPWA_1_1FunctionTree_1_1ParameterList.html" title="This class provides a list of parameters and values of different types. ">ParameterList</a> with parameters. </p>
 <p>The function is intended to be filled with fit parameters, so we add only FitParameters. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00098">98</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac7f31df1c1e8d4e473580d158c5fa82d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ComPWA::FunctionTree::TreeNode::fillParentNames </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>names</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Fill list with names of parent nodes. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00147">147</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8ca007a37c0aff43bdafe7fb564d6df4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt; ComPWA::FunctionTree::TreeNode::findNode </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Find node with <code>name</code> within all downstream nodes. </p>
-<p>The first match is returned. In case no node exists a NULL pointer is returned. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00105">105</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac5319074bb50b9d61d172041bc5e9168"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string ComPWA::FunctionTree::TreeNode::name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00054">54</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00106">106</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a93694e671bbe52573fd8f23c83a7b0ee"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt; ComPWA::FunctionTree::TreeNode::parameter </td>
@@ -542,26 +374,18 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Obtain parameter of node. </p>
 <p>In case child nodes have changed, child nodes are recalculated and <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html" title="Base class for internal parameter. ">Parameter</a> is updated </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00051">51</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00058">58</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9e85be7456afe1ba75f3cffb235a58a0"></a>
+<a class="anchor" id="aa26d1781e5aab40525142b226161b8e1"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string ComPWA::FunctionTree::TreeNode::print </td>
@@ -578,24 +402,19 @@ Friends</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Print node and its child nodes to std::string. </p>
 <p>The recursion goes down until <code>level</code> is reached. A <code>prefix</code> can be added inorder to create a tree like output. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00117">117</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00113">113</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9767b98ecd60a242c4db43e670bff0de"></a>
+<a class="anchor" id="ad629709f3301f88bcb4931b5622e5aa2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -606,12 +425,12 @@ Friends</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt; ComPWA::FunctionTree::TreeNode::recalculate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -619,33 +438,7 @@ Friends</h2></td></tr>
 <p>Obtain parameter of node. </p>
 <p>In case child nodes have changed, child nodes are recalculated and <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html" title="Base class for internal parameter. ">Parameter</a> is updated </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00070">70</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af5082e0b31aced3a4221e5631a199079"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ComPWA::FunctionTree::TreeNode::setName </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00056">56</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00077">77</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -674,71 +467,11 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html#a3e475b2d57a492dcedab9f1ee292721a">ComPWA::FunctionTree::ParObserver</a>.</p>
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00045">45</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00052">52</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="a20f947c22b958528f0a60a7c7f810bbc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html">ComPWA::FunctionTree::FunctionTree</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>We add <a class="el" href="classComPWA_1_1FunctionTree_1_1FunctionTree.html" title="FunctionTree for automatically cashing of mathematical expressions. ">FunctionTree</a> as a friend so we can declare some functionts as protected which deal with the linking between parents and children. </p>
-
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00036">36</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad583269c94199ce00d6d71f17b995492"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &amp;&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00076">76</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a69c686d62590150593ef91e66973a2ba"></a>
 <div class="memitem">
 <div class="memproto">
@@ -771,7 +504,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00080">80</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00063">63</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -789,12 +522,12 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00097">97</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00078">78</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -811,36 +544,14 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Node has changed and needs to call <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#a9767b98ecd60a242c4db43e670bff0de" title="Obtain parameter of node. ">recalculate()</a> </p>
+<p>Node has changed and needs to call <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html#ad629709f3301f88bcb4931b5622e5aa2" title="Obtain parameter of node. ">recalculate()</a> </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00103">103</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3778af8e54d689e617a93b632a55006b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ComPWA::FunctionTree::TreeNode::Name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00091">91</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00084">84</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -857,14 +568,14 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>(cached) node value </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00100">100</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00081">81</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -881,14 +592,14 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>List of parent nodes. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00094">94</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00075">75</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -905,7 +616,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -913,7 +624,7 @@ Friends</h2></td></tr>
 <p>Node strategy. </p>
 <p><a class="el" href="classComPWA_1_1FunctionTree_1_1Strategy.html" title="Virtual base class for operations of FunctionTree nodes. ">Strategy</a> defines how the node value calculated given its child nodes and child leafs. </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00107">107</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00088">88</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -928,7 +639,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a></li><li class="navelem"><a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a></li>
-    <li class="footer">Generated on Sat Jan 18 2020 08:38:42 for ComPWA by
+    <li class="footer">Generated on Tue Jan 21 2020 14:23:28 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

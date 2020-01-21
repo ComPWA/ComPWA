@@ -2,9 +2,7 @@ var searchData=
 [
   ['init',['init',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a2fbbfdb80bee47638d13333aa5a42ea5',1,'ComPWA::Data::Root::RootGenerator']]],
   ['initializewithfitresult',['initializeWithFitResult',['../namespaceComPWA.html#acccafc046b9e35272778e39f177faac3',1,'ComPWA']]],
-  ['insertnode',['insertNode',['../classComPWA_1_1FunctionTree_1_1FunctionTree.html#a1a26efacd96361151df40bf104235242',1,'ComPWA::FunctionTree::FunctionTree']]],
   ['insertparticles',['insertParticles',['../namespaceComPWA.html#a339218eb3dc55c220b85b09576ff3af6',1,'ComPWA::insertParticles(ParticleList &amp;list, const boost::property_tree::ptree &amp;pt)'],['../namespaceComPWA.html#a12e9e50c5cfeacaa484254026835d8df',1,'ComPWA::insertParticles(ParticleList &amp;list, std::stringstream &amp;Stream)'],['../namespaceComPWA.html#a47fc08eaf9a4a4fd7b7861cbb9d1c40f',1,'ComPWA::insertParticles(ParticleList &amp;list, std::string FileName)']]],
-  ['inserttree',['insertTree',['../classComPWA_1_1FunctionTree_1_1FunctionTree.html#ad628eca671f279c8c3c9518b5c310471',1,'ComPWA::FunctionTree::FunctionTree']]],
   ['integral',['integral',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a901ed967569f9631c720528b471f08c4',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
   ['integrate',['integrate',['../namespaceComPWA_1_1Tools.html#a979b8f9a51c41c1ba339ca335e08a695',1,'ComPWA::Tools']]],
   ['integratewitherror',['integrateWithError',['../namespaceComPWA_1_1Tools.html#a133cf9debcb77f7f892040f343234b2c',1,'ComPWA::Tools::integrateWithError(ComPWA::Function&lt; std::vector&lt; double &gt;, std::vector&lt; std::vector&lt; double &gt;&gt;&gt; &amp;intensity, const ComPWA::Data::DataSet &amp;phspsample, double phspVolume)'],['../namespaceComPWA_1_1Tools.html#a3df7785f1116f3fdfeb61175e37c7bea',1,'ComPWA::Tools::integrateWithError(ComPWA::Intensity &amp;intensity, const ComPWA::Data::DataSet &amp;phspsample, double phspVolume=1.0)']]],

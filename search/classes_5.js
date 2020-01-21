@@ -12,7 +12,6 @@ var searchData=
   ['function',['Function',['../classComPWA_1_1Function.html',1,'ComPWA']]],
   ['function_3c_20double_20_3e',['Function&lt; double &gt;',['../classComPWA_1_1Function.html',1,'ComPWA']]],
   ['function_3c_20outputtype_20_3e',['Function&lt; OutputType &gt;',['../classComPWA_1_1Function.html',1,'ComPWA']]],
-  ['functiontree',['FunctionTree',['../classComPWA_1_1FunctionTree_1_1FunctionTree.html',1,'ComPWA::FunctionTree']]],
   ['functiontreeestimator',['FunctionTreeEstimator',['../classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html',1,'ComPWA::FunctionTree']]],
   ['functiontreeintensity',['FunctionTreeIntensity',['../classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html',1,'ComPWA::FunctionTree']]]
 ];
