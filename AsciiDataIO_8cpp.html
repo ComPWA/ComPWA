@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Data/AsciiReader/AsciiReader.hpp File Reference</title>
+<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Data/Ascii/AsciiDataIO.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -94,7 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('AsciiReader_8hpp.html','');});
+$(document).ready(function(){initNavTree('AsciiDataIO_8cpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -116,30 +116,25 @@ $(document).ready(function(){initNavTree('AsciiReader_8hpp.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">AsciiReader.hpp File Reference</div>  </div>
+<div class="title">AsciiDataIO.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="Event_8hpp_source.html">Core/Event.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &quot;<a class="el" href="AsciiDataIO_8hpp_source.html">Data/Ascii/AsciiDataIO.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Exceptions_8hpp_source.html">Core/Exceptions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Logging_8hpp_source.html">Core/Logging.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for AsciiReader.hpp:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for AsciiDataIO.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="AsciiReader_8hpp__incl.svg" width="328" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="AsciiReader_8hpp__dep__incl.svg" width="208" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="AsciiDataIO_8cpp__incl.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
-<p><a href="AsciiReader_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="AsciiDataIO_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -164,8 +159,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_e3d743d0ec9b4013b28b5d69101bc7fb.html">Data</a></li><li class="navelem"><a class="el" href="dir_5d5bcffc91688794220ccdc0b9fec0fa.html">AsciiReader</a></li><li class="navelem"><a class="el" href="AsciiReader_8hpp.html">AsciiReader.hpp</a></li>
-    <li class="footer">Generated on Tue Jan 21 2020 15:46:11 for ComPWA by
+    <li class="navelem"><a class="el" href="dir_e3d743d0ec9b4013b28b5d69101bc7fb.html">Data</a></li><li class="navelem"><a class="el" href="dir_aa484c1228064a85f9f0c4e09a7e4220.html">Ascii</a></li><li class="navelem"><a class="el" href="AsciiDataIO_8cpp.html">AsciiDataIO.cpp</a></li>
+    <li class="footer">Generated on Wed Jan 22 2020 11:09:38 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

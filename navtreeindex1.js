@@ -1,11 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"GoodnessOfFit_8hpp_source.html":[5,0,6,4],
-"HelicityKinematics_8cpp.html":[5,0,5,2,0],
-"HelicityKinematics_8cpp_source.html":[5,0,5,2,0],
-"HelicityKinematics_8hpp.html":[5,0,5,2,1],
-"HelicityKinematics_8hpp_source.html":[5,0,5,2,1],
-"HistTools_8hpp.html":[5,0,6,1,2],
 "HistTools_8hpp.html#a3506f5d71370170e5a49b35b2d68e162":[5,0,6,1,2,9],
 "HistTools_8hpp.html#a35babcedc28756a408ac0868293d3c42":[5,0,6,1,2,6],
 "HistTools_8hpp.html#a4826203e969029bd7899c98d13f8a691":[5,0,6,1,2,7],
@@ -249,5 +243,11 @@ var NAVTREEINDEX1 =
 "classComPWA_1_1BadParameter.html#a085d4ff0ed9adfc3d3a269c58f4d555a":[4,0,0,8,1],
 "classComPWA_1_1BadParameter.html#abb545d15469fd25408cf06edfdbe5a4e":[4,0,0,8,2],
 "classComPWA_1_1BeyondPhsp.html":[4,0,0,9],
-"classComPWA_1_1BeyondPhsp.html#a13b3d5d8b6157b23d4749d7e1cc4a067":[4,0,0,9,1]
+"classComPWA_1_1BeyondPhsp.html#a13b3d5d8b6157b23d4749d7e1cc4a067":[4,0,0,9,1],
+"classComPWA_1_1BeyondPhsp.html#aa091c33c0849e64f16bdcd3e973a5017":[4,0,0,9,0],
+"classComPWA_1_1BeyondPhsp.html#aa155c5d8eceb766e4d9c2c63fe66df73":[4,0,0,9,2],
+"classComPWA_1_1CorruptFile.html":[4,0,0,10],
+"classComPWA_1_1CorruptFile.html#a363425c23295663ae76708128bfc99f4":[4,0,0,10,0],
+"classComPWA_1_1CorruptFile.html#a418cafd490f4255e362808e5e0e0f409":[4,0,0,10,1],
+"classComPWA_1_1CorruptFile.html#acf71e1dd91204fdcb45f33f10c7f4ee7":[4,0,0,10,2]
 };

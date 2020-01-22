@@ -31,8 +31,8 @@ var searchData=
   ['antisyserror',['antiSysError',['../classComPWA_1_1Data_1_1CorrectionTable.html#ae951939ffad383b7ba840008cc1214aa',1,'ComPWA::Data::CorrectionTable']]],
   ['arr',['Arr',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a5bc1d59fdf20e490fc783bad2980a348',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
   ['arr2d',['Arr2D',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a5c97c2d8f6dfb328ba14e2e8264a6cb9',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['asciireader_2ecpp',['AsciiReader.cpp',['../AsciiReader_8cpp.html',1,'']]],
-  ['asciireader_2ehpp',['AsciiReader.hpp',['../AsciiReader_8hpp.html',1,'']]],
+  ['asciidataio_2ecpp',['AsciiDataIO.cpp',['../AsciiDataIO_8cpp.html',1,'']]],
+  ['asciidataio_2ehpp',['AsciiDataIO.hpp',['../AsciiDataIO_8hpp.html',1,'']]],
   ['asym',['ASYM',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7a7777d1c0c1eb5363f6a9269b1eccddd5',1,'ComPWA::FunctionTree']]],
   ['attach',['Attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a0e9a515b6bc02c001f65954608269b05',1,'ComPWA::FunctionTree::Parameter']]],
   ['avgerror',['avgError',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a23585b75feabd2668acee11f03709ae4',1,'ComPWA::FunctionTree::FitParameter']]]
