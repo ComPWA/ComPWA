@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"structenergyPar.html#a41cc86d0346816610a3f91a8da8a7a82":[4,0,3,0],
 "structenergyPar.html#a4784154836298708063886bf17f3b4c1":[4,0,3,3],
 "structenergyPar.html#a6cb00d0e2633deb121b5a32ffff8f666":[4,0,3,1],
 "structenergyPar.html#ac52ae44124d7b7995b28c5ac595e9300":[4,0,3,5],

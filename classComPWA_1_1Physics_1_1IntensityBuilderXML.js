@@ -18,6 +18,7 @@ var classComPWA_1_1Physics_1_1IntensityBuilderXML =
     [ "createNormalizedIntensityFT", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a37b3355f0bded145d3f636a0724d3c3e", null ],
     [ "createSequentialAmplitudeFT", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a55add478e1164378349eaa9d72188651", null ],
     [ "createStrengthIntensityFT", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aabc03f626cfd14ae119eb5ef813f9326", null ],
+    [ "getAllComponentNames", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a2f6826f6f69defff1bc364288c013ea3", null ],
     [ "normalizeIntensityFT", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a0359a543cc218c2cecfac064f09347dc", null ],
     [ "updateDataContainerContent", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a6f983ed53c8938748e8477ce14c8cf51", null ],
     [ "updateDataContainerState", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a82fac4c99121d671e82fd1fee7e491eb", null ],
