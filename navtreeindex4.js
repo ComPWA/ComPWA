@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a653a8836a2c47558b91060a2c85f2754":[4,0,0,4,1,1,15],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a6692b9fc2a0307ff666d0295b5685024":[4,0,0,4,1,1,10],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a84a86b37e8d0ff1e2c06bd7b24c4a3d5":[4,0,0,4,1,1,3],
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#aa07fed42d2eef57676f2c0c6e8a7f1c4":[4,0,0,4,1,1,0],
@@ -41,9 +40,7 @@ var NAVTREEINDEX4 =
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#af95167a375a5cd2ecf051ad440f68595":[4,0,0,4,2,0,2],
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html":[4,0,0,4,2,1],
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#a0a0d752b7e311303f74d126fcca938ce":[4,0,0,4,2,1,1],
-"classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#a2a7294ad7473495dcc16847e7982545e":[4,0,0,4,2,1,2],
-"classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#a75b56fde8f25200cac7359c96707ffce":[4,0,0,4,2,1,0],
-"classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#a9ffba6557cd16b54ccdcd905deaea64a":[4,0,0,4,2,1,3],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#adf5e8e31cd3110cdd8d0c473fe66ff42":[4,0,0,4,2,1,0],
 "classComPWA_1_1Physics_1_1IntegrationSample.html":[4,0,0,4,3],
 "classComPWA_1_1Physics_1_1IntegrationSample.html#a8ffd36be5ae6c3227132571bc160ab96":[4,0,0,4,3,1],
 "classComPWA_1_1Physics_1_1IntegrationSample.html#ae012e63e7a3c02333f07c7e89300a027":[4,0,0,4,3,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX4 =
 "dir_0851d46a9235ae1eb6aa2c6ee3d9e41b.html":[5,0,4],
 "dir_0deecc5c13a2525e593fe15d5f9ae116.html":[5,0,4,0],
 "dir_1c3444c9e3a4eb1be4172cbec3187718.html":[5,0,3,0],
-"dir_38ede806b5a81417cb73c367dd92d89d.html":[5,0,1,2]
+"dir_38ede806b5a81417cb73c367dd92d89d.html":[5,0,1,2],
+"dir_44b7627bde8ff1a7faec3d8c47cdc701.html":[5,0,6,0],
+"dir_46718f8f30a2814c81d003e3b02393b4.html":[5,0,5,1],
+"dir_52d895fbf30778b876025c15dcde8728.html":[5,0,1,1]
 };

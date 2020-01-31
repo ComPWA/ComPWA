@@ -16,7 +16,7 @@ var searchData=
   ['addnodes',['addNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#ad305cb701ef2533da29ff86377181fab',1,'ComPWA::FunctionTree::TreeNode']]],
   ['addparameter',['addParameter',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#adbac60f278699e97685bad985ec3058f',1,'ComPWA::FunctionTree::ParameterList::addParameter(std::shared_ptr&lt; Parameter &gt; par)'],['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a92b3cb2ea0da531f1839246fa4edf57f',1,'ComPWA::FunctionTree::ParameterList::addParameter(std::shared_ptr&lt; FitParameter &gt; par)']]],
   ['addparameters',['addParameters',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#abc5125e8313604546b24a56de205cce5',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['addparent',['addParent',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#af7adfcc26f08b0b263ae4020ae6b7815',1,'ComPWA::FunctionTree::TreeNode']]],
+  ['addparent',['addParent',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a7ca02c067511bf48b988501e8c89ea11',1,'ComPWA::FunctionTree::TreeNode']]],
   ['addresonance',['addResonance',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a84a86b37e8d0ff1e2c06bd7b24c4a3d5',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['addresonances',['addResonances',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a347acc91baa888a15d74ac1d63f6afd5',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['addsubsystem',['addSubSystem',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a6506c07ecce680e3d5e34d0857331469',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::addSubSystem(const SubSystem &amp;newSys)'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a709ad461f343c2a008dc9a70fbc9e1c1',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::addSubSystem(const std::vector&lt; unsigned int &gt; &amp;FinalA, const std::vector&lt; unsigned int &gt; &amp;FinalB, const std::vector&lt; unsigned int &gt; &amp;Recoil, const std::vector&lt; unsigned int &gt; &amp;ParentRecoil)']]],
@@ -34,6 +34,6 @@ var searchData=
   ['asciidataio_2ecpp',['AsciiDataIO.cpp',['../AsciiDataIO_8cpp.html',1,'']]],
   ['asciidataio_2ehpp',['AsciiDataIO.hpp',['../AsciiDataIO_8hpp.html',1,'']]],
   ['asym',['ASYM',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7a7777d1c0c1eb5363f6a9269b1eccddd5',1,'ComPWA::FunctionTree']]],
-  ['attach',['Attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a0e9a515b6bc02c001f65954608269b05',1,'ComPWA::FunctionTree::Parameter']]],
+  ['attach',['attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a9ac852052c1c1877ddad4c99ef645ca7',1,'ComPWA::FunctionTree::Parameter']]],
   ['avgerror',['avgError',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a23585b75feabd2668acee11f03709ae4',1,'ComPWA::FunctionTree::FitParameter']]]
 ];

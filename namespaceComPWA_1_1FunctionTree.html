@@ -224,10 +224,10 @@ Functions</h2></td></tr>
 <tr class="separator:a3dec4982ca71cb3dbe5340326aa29937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363739a3a01f67438abc98fe58ee8763"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a363739a3a01f67438abc98fe58ee8763">createLeaf</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a> &gt; parameter)</td></tr>
 <tr class="separator:a363739a3a01f67438abc98fe58ee8763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afee1664b736451c90aaf3e84add47efa"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:afee1664b736451c90aaf3e84add47efa"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#afee1664b736451c90aaf3e84add47efa">createLeaf</a> (const T &amp;value)</td></tr>
-<tr class="memdesc:afee1664b736451c90aaf3e84add47efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to create <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> leaves which are constants  <a href="#afee1664b736451c90aaf3e84add47efa">More...</a><br /></td></tr>
-<tr class="separator:afee1664b736451c90aaf3e84add47efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f236223fe10140d686a60fc1fe3d7c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4f236223fe10140d686a60fc1fe3d7c0"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a4f236223fe10140d686a60fc1fe3d7c0">createLeaf</a> (const T &amp;value, std::string name=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4f236223fe10140d686a60fc1fe3d7c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to create <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> leaves which are constants  <a href="#a4f236223fe10140d686a60fc1fe3d7c0">More...</a><br /></td></tr>
+<tr class="separator:a4f236223fe10140d686a60fc1fe3d7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d0b468bf9f36ece06911bc68bf79397"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a2d0b468bf9f36ece06911bc68bf79397"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#a2d0b468bf9f36ece06911bc68bf79397">operator&lt;&lt;</a> (std::ostream &amp;stream, const std::vector&lt; T &gt; &amp;values)</td></tr>
 <tr class="separator:a2d0b468bf9f36ece06911bc68bf79397"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,7 +328,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afee1664b736451c90aaf3e84add47efa"></a>
+<a class="anchor" id="a4f236223fe10140d686a60fc1fe3d7c0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -338,15 +338,25 @@ template&lt;typename T &gt; </div>
           <td class="memname">std::shared_ptr&lt;<a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">TreeNode</a>&gt; ComPWA::FunctionTree::createLeaf </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>helper function to create <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> leaves which are constants </p>
 
-<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00104">104</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8hpp_source.html#l00106">106</a> of file <a class="el" href="TreeNode_8hpp_source.html">TreeNode.hpp</a>.</p>
 
 </div>
 </div>
@@ -364,7 +374,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00143">143</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="TreeNode_8cpp_source.html#l00156">156</a> of file <a class="el" href="TreeNode_8cpp_source.html">TreeNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -959,7 +969,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a></li>
-    <li class="footer">Generated on Wed Jan 29 2020 13:00:06 for ComPWA by
+    <li class="footer">Generated on Fri Jan 31 2020 09:29:11 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

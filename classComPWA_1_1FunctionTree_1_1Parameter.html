@@ -135,8 +135,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a765417079723e363198712b08c9112f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a765417079723e363198712b08c9112f2">Parameter</a> (std::string <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a6e449ad0133361b9da0b118d03bc3ab4">name</a>, <a class="el" href="namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2ba">ParType</a> <a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a3dde26e8236c84a518d5b39324ccd99a">type</a>=ParType::UNDEFINED)</td></tr>
 <tr class="memdesc:a765417079723e363198712b08c9112f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with name of parameter and optional type.  <a href="#a765417079723e363198712b08c9112f2">More...</a><br /></td></tr>
 <tr class="separator:a765417079723e363198712b08c9112f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0060bc408e79d0c0257577166ee6161"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#ab0060bc408e79d0c0257577166ee6161">~Parameter</a> ()</td></tr>
-<tr class="separator:ab0060bc408e79d0c0257577166ee6161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0a9202f68b62b5ffdb69863fd8f3a9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a9a0a9202f68b62b5ffdb69863fd8f3a9">~Parameter</a> ()=default</td></tr>
+<tr class="separator:a9a0a9202f68b62b5ffdb69863fd8f3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e449ad0133361b9da0b118d03bc3ab4"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a6e449ad0133361b9da0b118d03bc3ab4">name</a> () const </td></tr>
 <tr class="memdesc:a6e449ad0133361b9da0b118d03bc3ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for name of object.  <a href="#a6e449ad0133361b9da0b118d03bc3ab4">More...</a><br /></td></tr>
 <tr class="separator:a6e449ad0133361b9da0b118d03bc3ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,15 +151,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5d5cf95e490ff8dfbd3a1304038d0a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964d25070880bad1f0365c058af44173"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a964d25070880bad1f0365c058af44173">isParameter</a> () const </td></tr>
 <tr class="separator:a964d25070880bad1f0365c058af44173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e9a515b6bc02c001f65954608269b05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a0e9a515b6bc02c001f65954608269b05">Attach</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt; newObserver)</td></tr>
-<tr class="memdesc:a0e9a515b6bc02c001f65954608269b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches a new <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> as Observer.  <a href="#a0e9a515b6bc02c001f65954608269b05">More...</a><br /></td></tr>
-<tr class="separator:a0e9a515b6bc02c001f65954608269b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac27d5c6adf1cc79d2c456c172ac3d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#abac27d5c6adf1cc79d2c456c172ac3d0">Detach</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt; obsoleteObserver)</td></tr>
-<tr class="memdesc:abac27d5c6adf1cc79d2c456c172ac3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes TreeNodes not needed as Observer anymore.  <a href="#abac27d5c6adf1cc79d2c456c172ac3d0">More...</a><br /></td></tr>
-<tr class="separator:abac27d5c6adf1cc79d2c456c172ac3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa38e16c2bb5d9a5e396aa69088d7347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#afa38e16c2bb5d9a5e396aa69088d7347">Notify</a> ()</td></tr>
-<tr class="memdesc:afa38e16c2bb5d9a5e396aa69088d7347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify all observing TreeNodes that parameter changed.  <a href="#afa38e16c2bb5d9a5e396aa69088d7347">More...</a><br /></td></tr>
-<tr class="separator:afa38e16c2bb5d9a5e396aa69088d7347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac852052c1c1877ddad4c99ef645ca7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a9ac852052c1c1877ddad4c99ef645ca7">attach</a> (std::weak_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt; newObserver)</td></tr>
+<tr class="memdesc:a9ac852052c1c1877ddad4c99ef645ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches a new <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html" title="TreeNode is the basic building block of the FunctionTree. ">TreeNode</a> as Observer.  <a href="#a9ac852052c1c1877ddad4c99ef645ca7">More...</a><br /></td></tr>
+<tr class="separator:a9ac852052c1c1877ddad4c99ef645ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7fda50a846ecf51816ce7a353e5a9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a4e7fda50a846ecf51816ce7a353e5a9c">detachExpired</a> ()</td></tr>
+<tr class="memdesc:a4e7fda50a846ecf51816ce7a353e5a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes TreeNodes not needed as Observer anymore.  <a href="#a4e7fda50a846ecf51816ce7a353e5a9c">More...</a><br /></td></tr>
+<tr class="separator:a4e7fda50a846ecf51816ce7a353e5a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abf772fa44a6132a6c33726bd42cdf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a8abf772fa44a6132a6c33726bd42cdf9">notify</a> ()</td></tr>
+<tr class="memdesc:a8abf772fa44a6132a6c33726bd42cdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify all observing TreeNodes that parameter changed.  <a href="#a8abf772fa44a6132a6c33726bd42cdf9">More...</a><br /></td></tr>
+<tr class="separator:a8abf772fa44a6132a6c33726bd42cdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0c8c6e70a876a94cf44273797f504a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a5f0c8c6e70a876a94cf44273797f504a">to_str</a> () const =0</td></tr>
 <tr class="memdesc:a5f0c8c6e70a876a94cf44273797f504a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A public function returning a string with parameter information.  <a href="#a5f0c8c6e70a876a94cf44273797f504a">More...</a><br /></td></tr>
 <tr class="separator:a5f0c8c6e70a876a94cf44273797f504a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,9 +175,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab904f39ac1b246df9f69d7c3c36e2d91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2ba">ParType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#ab904f39ac1b246df9f69d7c3c36e2d91">Type</a></td></tr>
 <tr class="memdesc:ab904f39ac1b246df9f69d7c3c36e2d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of parameter (e.g. Double, Integer, ...)  <a href="#ab904f39ac1b246df9f69d7c3c36e2d91">More...</a><br /></td></tr>
 <tr class="separator:ab904f39ac1b246df9f69d7c3c36e2d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65041e9fb32fe59320aa45206685336"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#ac65041e9fb32fe59320aa45206685336">OberservingNodes</a></td></tr>
-<tr class="memdesc:ac65041e9fb32fe59320aa45206685336"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of observers, e.g. TreeNodes.  <a href="#ac65041e9fb32fe59320aa45206685336">More...</a><br /></td></tr>
-<tr class="separator:ac65041e9fb32fe59320aa45206685336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34666c703b05450ce99863ebd85b1b19"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::weak_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html#a34666c703b05450ce99863ebd85b1b19">ObservingNodes</a></td></tr>
+<tr class="memdesc:a34666c703b05450ce99863ebd85b1b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of observers, e.g. TreeNodes.  <a href="#a34666c703b05450ce99863ebd85b1b19">More...</a><br /></td></tr>
+<tr class="separator:a34666c703b05450ce99863ebd85b1b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -252,7 +252,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab0060bc408e79d0c0257577166ee6161"></a>
+<a class="anchor" id="a9a0a9202f68b62b5ffdb69863fd8f3a9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -268,17 +268,15 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00085">85</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0e9a515b6bc02c001f65954608269b05"></a>
+<a class="anchor" id="a9ac852052c1c1877ddad4c99ef645ca7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -286,9 +284,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ComPWA::FunctionTree::Parameter::Attach </td>
+          <td class="memname">void ComPWA::FunctionTree::Parameter::attach </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt;&#160;</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt;&#160;</td>
           <td class="paramname"><em>newObserver</em></td><td>)</td>
           <td></td>
         </tr>
@@ -333,7 +331,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abac27d5c6adf1cc79d2c456c172ac3d0"></a>
+<a class="anchor" id="a4e7fda50a846ecf51816ce7a353e5a9c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -341,10 +339,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ComPWA::FunctionTree::Parameter::Detach </td>
+          <td class="memname">void ComPWA::FunctionTree::Parameter::detachExpired </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a> &gt;&#160;</td>
-          <td class="paramname"><em>obsoleteObserver</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -415,7 +412,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afa38e16c2bb5d9a5e396aa69088d7347"></a>
+<a class="anchor" id="a8abf772fa44a6132a6c33726bd42cdf9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -423,7 +420,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ComPWA::FunctionTree::Parameter::Notify </td>
+          <td class="memname">void ComPWA::FunctionTree::Parameter::notify </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -438,7 +435,7 @@ Friends</h2></td></tr>
 
 <p>Notify all observing TreeNodes that parameter changed. </p>
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00120">120</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00117">117</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -476,7 +473,7 @@ template&lt;class archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00164">164</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00156">156</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -622,7 +619,7 @@ template&lt;class archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00131">131</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00123">123</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -658,7 +655,7 @@ template&lt;class archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00136">136</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00128">128</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -683,11 +680,11 @@ template&lt;class archive &gt; </div>
 
 <p>Name of parameter. </p>
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00153">153</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00145">145</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac65041e9fb32fe59320aa45206685336"></a>
+<a class="anchor" id="a34666c703b05450ce99863ebd85b1b19"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -695,7 +692,7 @@ template&lt;class archive &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a>&gt; &gt; ComPWA::FunctionTree::Parameter::OberservingNodes</td>
+          <td class="memname">std::vector&lt;std::weak_ptr&lt;<a class="el" href="classComPWA_1_1FunctionTree_1_1ParObserver.html">ParObserver</a>&gt; &gt; ComPWA::FunctionTree::Parameter::ObservingNodes</td>
         </tr>
       </table>
   </td>
@@ -707,7 +704,7 @@ template&lt;class archive &gt; </div>
 
 <p>List of observers, e.g. TreeNodes. </p>
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00159">159</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00151">151</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -731,7 +728,7 @@ template&lt;class archive &gt; </div>
 
 <p>Type of parameter (e.g. Double, Integer, ...) </p>
 
-<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00156">156</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Parameter_8hpp_source.html#l00148">148</a> of file <a class="el" href="Parameter_8hpp_source.html">Parameter.hpp</a>.</p>
 
 </div>
 </div>
@@ -745,7 +742,7 @@ template&lt;class archive &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1FunctionTree.html">FunctionTree</a></li><li class="navelem"><a class="el" href="classComPWA_1_1FunctionTree_1_1Parameter.html">Parameter</a></li>
-    <li class="footer">Generated on Wed Jan 29 2020 13:00:06 for ComPWA by
+    <li class="footer">Generated on Fri Jan 31 2020 09:29:11 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -14,6 +14,6 @@ var searchData=
   ['voigtian',['Voigtian',['../namespaceVoigtian.html',1,'']]],
   ['voigtian_2ecpp',['Voigtian.cpp',['../Voigtian_8cpp.html',1,'']]],
   ['voigtian_2ehpp',['Voigtian.hpp',['../Voigtian_8hpp.html',1,'']]],
-  ['voigtianstrategy',['VoigtianStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html#a3e578746fcf37d1e164e19f1d42fb96d',1,'ComPWA::Physics::Dynamics::VoigtianStrategy']]],
+  ['voigtianstrategy',['VoigtianStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html#a8f449696767928df774b168cfa0c2db4',1,'ComPWA::Physics::Dynamics::VoigtianStrategy']]],
   ['voigtianstrategy',['VoigtianStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html',1,'ComPWA::Physics::Dynamics']]]
 ];

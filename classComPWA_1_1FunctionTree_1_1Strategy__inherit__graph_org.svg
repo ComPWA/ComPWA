@@ -16,7 +16,7 @@
 <text text-anchor="middle" x="1080" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Strategy</text>
 <polyline fill="none" stroke="black" points="1018,-220.5 1142,-220.5 "/>
 <text text-anchor="start" x="1026" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00"># checkType</text>
-<text text-anchor="start" x="1026" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Op</text>
+<text text-anchor="start" x="1026" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00"># Name</text>
 <polyline fill="none" stroke="black" points="1018,-190.5 1142,-190.5 "/>
 <text text-anchor="start" x="1026" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Strategy()</text>
 <text text-anchor="start" x="1026" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Strategy()</text>
@@ -281,42 +281,40 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::VoigtianStrategy\n|# name\l|+ VoigtianStrategy()\l+ to_str()\l+ execute()\l}">
-<polygon fill="white" stroke="black" points="1978,-0.5 1978,-90.5 2130,-90.5 2130,-0.5 1978,-0.5"/>
-<text text-anchor="start" x="1986" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
-<text text-anchor="middle" x="2054" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">::VoigtianStrategy</text>
-<polyline fill="none" stroke="black" points="1978,-60.5 2130,-60.5 "/>
-<text text-anchor="start" x="1986" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"># name</text>
-<polyline fill="none" stroke="black" points="1978,-41.5 2130,-41.5 "/>
-<text text-anchor="start" x="1986" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ VoigtianStrategy()</text>
-<text text-anchor="start" x="1986" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ to_str()</text>
-<text text-anchor="start" x="1986" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
+<g id="a_node15"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::VoigtianStrategy\n||+ VoigtianStrategy()\l+ execute()\l}">
+<polygon fill="white" stroke="black" points="1978,-6 1978,-85 2130,-85 2130,-6 1978,-6"/>
+<text text-anchor="start" x="1986" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
+<text text-anchor="middle" x="2054" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">::VoigtianStrategy</text>
+<polyline fill="none" stroke="black" points="1978,-55 2130,-55 "/>
+<text text-anchor="middle" x="2054" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="1978,-36 2130,-36 "/>
+<text text-anchor="start" x="1986" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ VoigtianStrategy()</text>
+<text text-anchor="start" x="1986" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge14" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M1152.34,-183.587C1335.98,-171.83 1816.4,-137.453 1969,-91 1971.87,-90.1269 1974.75,-89.1566 1977.64,-88.107"/>
+<path fill="none" stroke="midnightblue" d="M1152.34,-183.587C1335.98,-171.83 1816.4,-137.453 1969,-91 1974.42,-89.3508 1979.9,-87.3547 1985.32,-85.133"/>
 <polygon fill="none" stroke="midnightblue" points="1152.01,-180.101 1142.25,-184.229 1152.45,-187.087 1152.01,-180.101"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Helicity\lFormalism::WignerDStrategy\n|# name\l|+ WignerDStrategy()\l+ to_str()\l+ execute()\l}">
-<polygon fill="white" stroke="black" points="2148.5,-0.5 2148.5,-90.5 2291.5,-90.5 2291.5,-0.5 2148.5,-0.5"/>
-<text text-anchor="start" x="2156.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Helicity</text>
-<text text-anchor="middle" x="2220" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Formalism::WignerDStrategy</text>
-<polyline fill="none" stroke="black" points="2148.5,-60.5 2291.5,-60.5 "/>
-<text text-anchor="start" x="2156.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"># name</text>
-<polyline fill="none" stroke="black" points="2148.5,-41.5 2291.5,-41.5 "/>
-<text text-anchor="start" x="2156.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ WignerDStrategy()</text>
-<text text-anchor="start" x="2156.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ to_str()</text>
-<text text-anchor="start" x="2156.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
+<g id="a_node16"><a xlink:href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Helicity\lFormalism::WignerDStrategy\n||+ WignerDStrategy()\l+ execute()\l}">
+<polygon fill="white" stroke="black" points="2148.5,-6 2148.5,-85 2291.5,-85 2291.5,-6 2148.5,-6"/>
+<text text-anchor="start" x="2156.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Helicity</text>
+<text text-anchor="middle" x="2220" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Formalism::WignerDStrategy</text>
+<polyline fill="none" stroke="black" points="2148.5,-55 2291.5,-55 "/>
+<text text-anchor="middle" x="2220" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2148.5,-36 2291.5,-36 "/>
+<text text-anchor="start" x="2156.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ WignerDStrategy()</text>
+<text text-anchor="start" x="2156.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node16 -->
 <g id="edge15" class="edge"><title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1152.47,-185.217C1360.02,-176.639 1953.66,-147.693 2139,-91 2142.07,-90.0613 2145.15,-88.9977 2148.23,-87.8344"/>
+<path fill="none" stroke="midnightblue" d="M1152.47,-185.217C1360.02,-176.639 1953.66,-147.693 2139,-91 2144.37,-89.3573 2149.79,-87.332 2155.13,-85.0594"/>
 <polygon fill="none" stroke="midnightblue" points="1152.14,-181.727 1142.29,-185.634 1152.42,-188.722 1152.14,-181.727"/>
 </g>
 </g>

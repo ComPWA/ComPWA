@@ -7,7 +7,7 @@ var searchData=
   ['dawson',['Dawson',['../Faddeeva_8cc.html#a9f9b8aa6d1143a656c0f27d1a6828e2e',1,'Dawson(double x):&#160;Faddeeva.cc'],['../Faddeeva_8cc.html#a3f435476f41c8cfeb7f3a9a379dc6130',1,'Dawson(cmplx z, double relerr):&#160;Faddeeva.cc']]],
   ['deepcopy',['DeepCopy',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a3310e3b6113d6154f7ce053d8b05d87a',1,'ComPWA::FunctionTree::ParameterList']]],
   ['delim',['delim',['../classComPWA_1_1TableFormatter.html#a7478c096355c35a9a7837d33b86b4812',1,'ComPWA::TableFormatter']]],
-  ['detach',['Detach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#abac27d5c6adf1cc79d2c456c172ac3d0',1,'ComPWA::FunctionTree::Parameter']]],
+  ['detachexpired',['detachExpired',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a4e7fda50a846ecf51816ce7a353e5a9c',1,'ComPWA::FunctionTree::Parameter']]],
   ['doubleparameter',['doubleParameter',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#af43a3689bb6d3fc2360118e8053a134c',1,'ComPWA::FunctionTree::ParameterList']]],
   ['doubleparameters',['doubleParameters',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#aedbd0f214bc924a54be6e8a0887ab4a8',1,'ComPWA::FunctionTree::ParameterList::doubleParameters()'],['../classComPWA_1_1FunctionTree_1_1ParameterList.html#af012a75520017afaf376e93b5d5eef34',1,'ComPWA::FunctionTree::ParameterList::doubleParameters() const ']]],
   ['doublevalue',['doubleValue',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#af8f5eb74621f7d36d4f9a925517819cc',1,'ComPWA::FunctionTree::ParameterList']]],
