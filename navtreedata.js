@@ -47,8 +47,8 @@ var NAVTREEINDEX =
 "classComPWA_1_1Data_1_1CorrectionTable.html",
 "classComPWA_1_1FunctionTree_1_1LogOf.html#a6f4f74243997c08be40f27545bfc4cda",
 "classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a6692b9fc2a0307ff666d0295b5685024",
-"dir_7e461070e7b716e896e0d97cd6a82321.html",
-"structenergyPar.html#ac52ae44124d7b7995b28c5ac595e9300"
+"dir_52d895fbf30778b876025c15dcde8728.html",
+"structenergyPar.html#a6cb00d0e2633deb121b5a32ffff8f666"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

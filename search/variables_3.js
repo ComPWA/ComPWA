@@ -8,6 +8,7 @@ var searchData=
   ['columntitle',['ColumnTitle',['../classComPWA_1_1TableFormatter.html#afd92db48590c054b0e580061c30877db',1,'ComPWA::TableFormatter']]],
   ['columnwidth',['ColumnWidth',['../classComPWA_1_1TableFormatter.html#a36eb1c984074e2a147495a4211787a30',1,'ComPWA::TableFormatter']]],
   ['complexvalues',['ComplexValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a7f58a37899a619fe967532ff9a3a349b',1,'ComPWA::FunctionTree::ParameterList']]],
+  ['componentregisteringenabled',['ComponentRegisteringEnabled',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a046ae8de18b46775d1dda620b6f394ad',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['configfiledir',['ConfigFileDir',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#aaf09f64f68b7b411df5d7ed00af3c0cc',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
   ['correction',['correction',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#ad0ed90796a5cfa01191a561188742482',1,'ComPWA::FunctionTree::KahanSummation::correction()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#af58d3c236b5488299a1c5cfaa47aebf2',1,'ComPWA::Tools::KahanSummation::correction()']]],
   ['corrections',['Corrections',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a3512be3be475403b205792b4a8ead5ed',1,'ComPWA::Data::MomentumCorrection']]],

@@ -23,6 +23,7 @@ var classComPWA_1_1Physics_1_1IntensityBuilderXML =
     [ "updateDataContainerContent", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a6f983ed53c8938748e8477ce14c8cf51", null ],
     [ "updateDataContainerState", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a82fac4c99121d671e82fd1fee7e491eb", null ],
     [ "updateDataContainerWeights", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a83b31f48bfb8a7936179cf8381509891", null ],
+    [ "ComponentRegisteringEnabled", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a046ae8de18b46775d1dda620b6f394ad", null ],
     [ "Data", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a1d9112d7de0dcea23a74d167935b3f4a", null ],
     [ "Kinematic", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a034842a1b149b34e67210c7bf2d2f14c", null ],
     [ "ModelTree", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a99422fd402f236b2ecbcf72f6b588945", null ],
