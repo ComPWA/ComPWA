@@ -24,11 +24,11 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html" target="_top" xlink:title="{ComPWA::FunctionTree\l::FunctionTreeIntensity\l\&lt; double \&gt;\&gt;\&gt;\n|&#45; Tree\l&#45; Parameters\l&#45; Data\l|+ FunctionTreeIntensity()\l+ FunctionTreeIntensity()\l+ FunctionTreeIntensity()\l+ evaluate()\l+ updateParametersFrom()\l+ getParameters()\l+ bind()\l+ print()\l&#45; updateDataContainers()\l}">
+<g id="a_node2"><a xlink:href="classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html" target="_top" xlink:title="{ComPWA::FunctionTree\l::FunctionTreeIntensity\l\&lt; double \&gt;, DataMap \&gt;\n|&#45; Tree\l&#45; Parameters\l&#45; Data\l|+ FunctionTreeIntensity()\l+ FunctionTreeIntensity()\l+ FunctionTreeIntensity()\l+ evaluate()\l+ updateParametersFrom()\l+ getParameters()\l+ bind()\l+ print()\l&#45; updateDataContainers()\l}">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-211.5 134,-211.5 134,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::FunctionTree</text>
 <text text-anchor="start" x="8" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">::FunctionTreeIntensity</text>
-<text text-anchor="middle" x="67" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; double &gt;&gt;&gt;</text>
+<text text-anchor="middle" x="67" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; double &gt;, DataMap &gt;</text>
 <polyline fill="none" stroke="black" points="0,-170.5 134,-170.5 "/>
 <text text-anchor="start" x="8" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Tree</text>
 <text text-anchor="start" x="8" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Parameters</text>
@@ -53,29 +53,29 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html" target="_top" xlink:title="{ComPWA::Physics::EvtGen\l::EvtGenIF\&lt; double \&gt;\&gt;\&gt;\n|&#45; PhspSample\l&#45; PhspVolume\l&#45; NormalizationValues\l&#45; evtPars\l&#45; DalitzPlot\l&#45; Resos\l|+ EvtGenIF()\l+ EvtGenIF()\l+ addResonance()\l+ addHeliResonance()\l+ addResonances()\l+ evaluate()\l+ updateParametersFrom()\l+ getParameters()\l+ setPhspSample()\l+ setPhspVolume()\l&#45; transformToEvt()\l}">
+<g id="a_node3"><a xlink:href="classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html" target="_top" xlink:title="{ComPWA::Physics::EvtGen\l::EvtGenIF\&lt; double \&gt;,\l DataMap \&gt;\n|&#45; PhspSample\l&#45; PhspVolume\l&#45; NormalizationValues\l&#45; evtPars\l&#45; DalitzPlot\l&#45; Resos\l|+ EvtGenIF()\l+ EvtGenIF()\l+ addResonance()\l+ addHeliResonance()\l+ addResonances()\l+ evaluate()\l+ updateParametersFrom()\l+ getParameters()\l+ setPhspSample()\l+ setPhspVolume()\l}">
 <polygon fill="white" stroke="black" points="152.5,-0.5 152.5,-233.5 293.5,-233.5 293.5,-0.5 152.5,-0.5"/>
 <text text-anchor="start" x="160.5" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::EvtGen</text>
-<text text-anchor="middle" x="223" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EvtGenIF&lt; double &gt;&gt;&gt;</text>
-<polyline fill="none" stroke="black" points="152.5,-203.5 293.5,-203.5 "/>
-<text text-anchor="start" x="160.5" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PhspSample</text>
-<text text-anchor="start" x="160.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PhspVolume</text>
-<text text-anchor="start" x="160.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; NormalizationValues</text>
-<text text-anchor="start" x="160.5" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; evtPars</text>
-<text text-anchor="start" x="160.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; DalitzPlot</text>
-<text text-anchor="start" x="160.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Resos</text>
-<polyline fill="none" stroke="black" points="152.5,-129.5 293.5,-129.5 "/>
-<text text-anchor="start" x="160.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EvtGenIF()</text>
+<text text-anchor="start" x="160.5" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00">::EvtGenIF&lt; double &gt;,</text>
+<text text-anchor="middle" x="223" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DataMap &gt;</text>
+<polyline fill="none" stroke="black" points="152.5,-192.5 293.5,-192.5 "/>
+<text text-anchor="start" x="160.5" y="-180.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PhspSample</text>
+<text text-anchor="start" x="160.5" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; PhspVolume</text>
+<text text-anchor="start" x="160.5" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; NormalizationValues</text>
+<text text-anchor="start" x="160.5" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; evtPars</text>
+<text text-anchor="start" x="160.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; DalitzPlot</text>
+<text text-anchor="start" x="160.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Resos</text>
+<polyline fill="none" stroke="black" points="152.5,-118.5 293.5,-118.5 "/>
 <text text-anchor="start" x="160.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EvtGenIF()</text>
-<text text-anchor="start" x="160.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addResonance()</text>
-<text text-anchor="start" x="160.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addHeliResonance()</text>
-<text text-anchor="start" x="160.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addResonances()</text>
-<text text-anchor="start" x="160.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ evaluate()</text>
-<text text-anchor="start" x="160.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ updateParametersFrom()</text>
-<text text-anchor="start" x="160.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getParameters()</text>
-<text text-anchor="start" x="160.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPhspSample()</text>
-<text text-anchor="start" x="160.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPhspVolume()</text>
-<text text-anchor="start" x="160.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; transformToEvt()</text>
+<text text-anchor="start" x="160.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EvtGenIF()</text>
+<text text-anchor="start" x="160.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addResonance()</text>
+<text text-anchor="start" x="160.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addHeliResonance()</text>
+<text text-anchor="start" x="160.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ addResonances()</text>
+<text text-anchor="start" x="160.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ evaluate()</text>
+<text text-anchor="start" x="160.5" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ updateParametersFrom()</text>
+<text text-anchor="start" x="160.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getParameters()</text>
+<text text-anchor="start" x="160.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPhspSample()</text>
+<text text-anchor="start" x="160.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ setPhspVolume()</text>
 </a>
 </g>
 </g>

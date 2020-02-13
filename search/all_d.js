@@ -15,6 +15,5 @@ var searchData=
   ['numevents',['numEvents',['../classComPWA_1_1ProgressBar.html#aa6adf4504d0e20fa9257625be4005334',1,'ComPWA::ProgressBar']]],
   ['numfreeparameters',['NumFreeParameters',['../structComPWA_1_1FitResult.html#aab6bee627da5af8163edfc8b16fe3b4b',1,'ComPWA::FitResult']]],
   ['numparameters',['numParameters',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a585aaafc8289ce559ae7fa039397f8a2',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['numvalues',['numValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#aa195207b1631897dcf13ddb2fd693e54',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['numvariables',['numVariables',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#ab7c912883bebbcc2a19f5b448be60eb5',1,'ComPWA::Physics::EvtGen::DalitzKinematics::numVariables()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ae1207528208a633ff8f4fa75fe123796',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::numVariables()']]]
+  ['numvalues',['numValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#aa195207b1631897dcf13ddb2fd693e54',1,'ComPWA::FunctionTree::ParameterList']]]
 ];

@@ -156,9 +156,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1CorruptFile.html">CorruptFile</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input data file is corrupt or incomplete.  <a href="classComPWA_1_1CorruptFile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceComPWA_1_1Data.html">Data</a> structure which contains a reduced set of the kinematic information of an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a>.  <a href="structComPWA_1_1DataPoint.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Efficiency.html">Efficiency</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for efficiency description over the phase space.  <a href="classComPWA_1_1Efficiency.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +177,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface template for a general <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> of the form OutputType Function(InputTypes) The concept closely follows the mathematical definition of a function/mapping.  <a href="classComPWA_1_1Function.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html">Kinematics</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a <a class="el" href="structComPWA_1_1DataPoint.html" title="Data structure which contains a reduced set of the kinematic information of an Event. ">DataPoint</a>.  <a href="classComPWA_1_1Kinematics.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a DataPoint.  <a href="classComPWA_1_1Kinematics.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Logging.html">Logging</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classComPWA_1_1Logging.html" title="Logging class provides an interface for logging all over the framework. ">Logging</a> class provides an interface for logging all over the framework.  <a href="classComPWA_1_1Logging.html#details">More...</a><br /></td></tr>
@@ -230,9 +227,11 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ac01ae5d2537b3632cdd0f303f1c8c5d2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ac01ae5d2537b3632cdd0f303f1c8c5d2">FitParameterList</a> = std::vector&lt; <a class="el" href="structComPWA_1_1FitParameter.html">FitParameter</a>&lt; double &gt;&gt;</td></tr>
 <tr class="separator:ac01ae5d2537b3632cdd0f303f1c8c5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">Intensity</a> = <a class="el" href="classComPWA_1_1Function.html">Function</a>&lt; std::vector&lt; double &gt;, std::vector&lt; std::vector&lt; double &gt;&gt;&gt;</td></tr>
-<tr class="memdesc:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Intensity is just a <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> that takes a list of data vectors and returns a list of intensities (double)  <a href="#ae8144e6c0e3cd37af9f8187acff5bb87">More...</a><br /></td></tr>
-<tr class="separator:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac585acf50723a31723c6d2aec1e159f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5">DataMap</a> = std::unordered_map&lt; std::string, std::vector&lt; double &gt;&gt;</td></tr>
+<tr class="separator:ac585acf50723a31723c6d2aec1e159f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">Intensity</a> = <a class="el" href="classComPWA_1_1Function.html">Function</a>&lt; std::vector&lt; double &gt;, <a class="el" href="namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5">DataMap</a> &gt;</td></tr>
+<tr class="memdesc:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Intensity is just a <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> that takes a list of data vectors and returns a list of intensities (double)  <a href="#a56c950642ed3efdda39d7b8cf6bd2a47">More...</a><br /></td></tr>
+<tr class="separator:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3ef176056dcc92637c53fcb810c7112"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a></td></tr>
 <tr class="memdesc:ae3ef176056dcc92637c53fcb810c7112"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classComPWA_1_1Particle.html" title="ComPWA particle class. ">Particle</a> ID.  <a href="#ae3ef176056dcc92637c53fcb810c7112">More...</a><br /></td></tr>
 <tr class="separator:ae3ef176056dcc92637c53fcb810c7112"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,15 +248,13 @@ Functions</h2></td></tr>
 <tr class="separator:a5cd9a8df9b3af399fe2751098033ff3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45bdb5459715fa0d3e497e5371605231"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a45bdb5459715fa0d3e497e5371605231">getMaximumSampleWeight</a> (const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">Event</a> &gt; &amp;sample)</td></tr>
 <tr class="separator:a45bdb5459715fa0d3e497e5371605231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4173c476e1eba30228cf4046cfb06ef9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a4173c476e1eba30228cf4046cfb06ef9">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a> &amp;p)</td></tr>
-<tr class="separator:a4173c476e1eba30228cf4046cfb06ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d2b7f48548a6139b78816acbe7da1c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a1d2b7f48548a6139b78816acbe7da1c8">isValid</a> (const <a class="el" href="namespaceComPWA.html#ac01ae5d2537b3632cdd0f303f1c8c5d2">FitParameterList</a> &amp;FitParameters, const std::vector&lt; <a class="el" href="structComPWA_1_1Parameter.html">ComPWA::Parameter</a> &gt; &amp;EstimatorParameters)</td></tr>
 <tr class="separator:a1d2b7f48548a6139b78816acbe7da1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d0aa13f155474e808738fdbb7ffb6a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a34d0aa13f155474e808738fdbb7ffb6a">makeFitParameterString</a> (<a class="el" href="structComPWA_1_1FitParameter.html">ComPWA::FitParameter</a>&lt; double &gt; p)</td></tr>
 <tr class="separator:a34d0aa13f155474e808738fdbb7ffb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02936cb68b40d6a19cab475b48bce6ca"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a02936cb68b40d6a19cab475b48bce6ca">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structComPWA_1_1FitResult.html">FitResult</a> &amp;Result)</td></tr>
 <tr class="separator:a02936cb68b40d6a19cab475b48bce6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acccafc046b9e35272778e39f177faac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#acccafc046b9e35272778e39f177faac3">initializeWithFitResult</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;Intens, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
+<tr class="memitem:acccafc046b9e35272778e39f177faac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#acccafc046b9e35272778e39f177faac3">initializeWithFitResult</a> (<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;Intens, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
 <tr class="separator:acccafc046b9e35272778e39f177faac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943bfaa3525d2dcc83790c5af1d76d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a943bfaa3525d2dcc83790c5af1d76d90">enableDisableLvl</a> (el::Logger *logger, std::array&lt; std::string, 5 &gt; levels)</td></tr>
 <tr class="memdesc:a943bfaa3525d2dcc83790c5af1d76d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable levels TRACE, DEBUG, INFO, WARNING, ERROR, FATAL.  <a href="#a943bfaa3525d2dcc83790c5af1d76d90">More...</a><br /></td></tr>
@@ -288,6 +285,20 @@ Functions</h2></td></tr>
 <tr class="separator:a3b0fe3ad9285c6a708a87130570b86dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ac585acf50723a31723c6d2aec1e159f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5">ComPWA::DataMap</a> = typedef std::unordered_map&lt;std::string, std::vector&lt;double&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Function_8hpp_source.html#l00015">15</a> of file <a class="el" href="Function_8hpp_source.html">Function.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac01ae5d2537b3632cdd0f303f1c8c5d2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -312,23 +323,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SubSystem_8hpp_source.html#l00018">18</a> of file <a class="el" href="SubSystem_8hpp_source.html">SubSystem.hpp</a>.</p>
+<p>Definition at line <a class="el" href="SubSystem_8hpp_source.html#l00020">20</a> of file <a class="el" href="SubSystem_8hpp_source.html">SubSystem.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae8144e6c0e3cd37af9f8187acff5bb87"></a>
+<a class="anchor" id="a56c950642ed3efdda39d7b8cf6bd2a47"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> = typedef <a class="el" href="classComPWA_1_1Function.html">Function</a>&lt;std::vector&lt;double&gt;, std::vector&lt;std::vector&lt;double&gt;&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> = typedef <a class="el" href="classComPWA_1_1Function.html">Function</a>&lt;std::vector&lt;double&gt;, <a class="el" href="namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5">DataMap</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>An Intensity is just a <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> that takes a list of data vectors and returns a list of intensities (double) </p>
 
-<p>Definition at line <a class="el" href="Function_8hpp_source.html#l00038">38</a> of file <a class="el" href="Function_8hpp_source.html">Function.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Function_8hpp_source.html#l00040">40</a> of file <a class="el" href="Function_8hpp_source.html">Function.hpp</a>.</p>
 
 </div>
 </div>
@@ -510,7 +521,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void ComPWA::initializeWithFitResult </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;&#160;</td>
           <td class="paramname"><em>Intens</em>, </td>
         </tr>
         <tr>
@@ -732,34 +743,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4173c476e1eba30228cf4046cfb06ef9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; ComPWA::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Event_8cpp_source.html#l00039">39</a> of file <a class="el" href="Event_8cpp_source.html">Event.cpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a1908178c27da1916ea59f85964991144"></a>
 <div class="memitem">
 <div class="memproto">
@@ -863,7 +846,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li>
-    <li class="footer">Generated on Tue Feb 11 2020 15:38:27 for ComPWA by
+    <li class="footer">Generated on Thu Feb 13 2020 11:25:13 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

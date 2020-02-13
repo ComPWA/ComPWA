@@ -142,7 +142,7 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a13902a3c2ec76e0900247f3568b79e37"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37">FitFractionList</a> = std::vector&lt; <a class="el" href="structComPWA_1_1Tools_1_1FitFraction.html">FitFraction</a> &gt;</td></tr>
 <tr class="separator:a13902a3c2ec76e0900247f3568b79e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc6f6850d3bfbe0b5c46c85d63f207fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">IntensityComponent</a> = std::pair&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">Intensity</a> &gt;&gt;</td></tr>
+<tr class="memitem:abc6f6850d3bfbe0b5c46c85d63f207fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">IntensityComponent</a> = std::pair&lt; std::string, std::shared_ptr&lt; <a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">Intensity</a> &gt;&gt;</td></tr>
 <tr class="separator:abc6f6850d3bfbe0b5c46c85d63f207fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -152,15 +152,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a9b2ace482f3dc3e36fff7ace6dfac055">KahanSum</a> (<a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> accumulation, double value)</td></tr>
 <tr class="memdesc:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structComPWA_1_1Tools_1_1KahanSummation.html">KahanSummation</a> keeps track of lost bits and reduced the uncertainty in the summation of many large/small numbers.  <a href="#a9b2ace482f3dc3e36fff7ace6dfac055">More...</a><br /></td></tr>
 <tr class="separator:a9b2ace482f3dc3e36fff7ace6dfac055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a133cf9debcb77f7f892040f343234b2c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a133cf9debcb77f7f892040f343234b2c">integrateWithError</a> (<a class="el" href="classComPWA_1_1Function.html">ComPWA::Function</a>&lt; std::vector&lt; double &gt;, std::vector&lt; std::vector&lt; double &gt;&gt;&gt; &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume)</td></tr>
-<tr class="separator:a133cf9debcb77f7f892040f343234b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a979b8f9a51c41c1ba339ca335e08a695"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a979b8f9a51c41c1ba339ca335e08a695">integrate</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume)</td></tr>
+<tr class="memitem:ab8c5e48032c9d15ae35a8dab9be8c164"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#ab8c5e48032c9d15ae35a8dab9be8c164">integrateWithError</a> (<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume=1.0)</td></tr>
+<tr class="memdesc:ab8c5e48032c9d15ae35a8dab9be8c164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate integral and its error.  <a href="#ab8c5e48032c9d15ae35a8dab9be8c164">More...</a><br /></td></tr>
+<tr class="separator:ab8c5e48032c9d15ae35a8dab9be8c164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979b8f9a51c41c1ba339ca335e08a695"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a979b8f9a51c41c1ba339ca335e08a695">integrate</a> (<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume)</td></tr>
 <tr class="separator:a979b8f9a51c41c1ba339ca335e08a695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11f777a3198038fd4492c674f28d4176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a11f777a3198038fd4492c674f28d4176">maximum</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
+<tr class="memitem:a11f777a3198038fd4492c674f28d4176"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a11f777a3198038fd4492c674f28d4176">maximum</a> (<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;sample)</td></tr>
 <tr class="separator:a11f777a3198038fd4492c674f28d4176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3df7785f1116f3fdfeb61175e37c7bea"><td class="memItemLeft" align="right" valign="top">std::pair&lt; double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a3df7785f1116f3fdfeb61175e37c7bea">integrateWithError</a> (<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;intensity, const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;phspsample, double phspVolume=1.0)</td></tr>
-<tr class="memdesc:a3df7785f1116f3fdfeb61175e37c7bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate integral and its error.  <a href="#a3df7785f1116f3fdfeb61175e37c7bea">More...</a><br /></td></tr>
-<tr class="separator:a3df7785f1116f3fdfeb61175e37c7bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a4e893a7198980186f901cea02e578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Tools.html#a86a4e893a7198980186f901cea02e578">updateParameterRangeByType</a> (boost::property_tree::ptree &amp;Tree, const std::string &amp;ParameterType, double Min, double Max)</td></tr>
 <tr class="memdesc:a86a4e893a7198980186f901cea02e578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update range of specified parameters of a ptree.  <a href="#a86a4e893a7198980186f901cea02e578">More...</a><br /></td></tr>
 <tr class="separator:a86a4e893a7198980186f901cea02e578"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,7 +201,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">ComPWA::Tools::IntensityComponent</a> = typedef std::pair&lt;std::string, std::shared_ptr&lt;<a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">Intensity</a>&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd">ComPWA::Tools::IntensityComponent</a> = typedef std::pair&lt;std::string, std::shared_ptr&lt;<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">Intensity</a>&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,7 +262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double ComPWA::Tools::integrate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;&#160;</td>
           <td class="paramname"><em>intensity</em>, </td>
         </tr>
         <tr>
@@ -287,18 +285,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00072">72</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00070">70</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3df7785f1116f3fdfeb61175e37c7bea"></a>
+<a class="anchor" id="ab8c5e48032c9d15ae35a8dab9be8c164"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt;double, double&gt; ComPWA::Tools::integrateWithError </td>
+          <td class="memname">std::pair&lt; double, double &gt; ComPWA::Tools::integrateWithError </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;&#160;</td>
           <td class="paramname"><em>intensity</em>, </td>
         </tr>
         <tr>
@@ -323,49 +321,17 @@ Functions</h2></td></tr>
 
 <p>Calculate integral and its error. </p>
 <p>We follow <a href="https://en.wikipedia.org/wiki/Monte_Carlo_integration">https://en.wikipedia.org/wiki/Monte_Carlo_integration</a>. The average intensity is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_29.png"/>
+<img class="formulaDsp" alt="\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]" src="form_25.png"/>
 </p>
 <p> and the integral estimate Q_N using a sample size of N events is given by: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_30.png"/>
+<img class="formulaDsp" alt="\[ I \approx Q_N = V*\langle f \rangle. \]" src="form_26.png"/>
 </p>
 <p> The variance is given by </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_31.png"/>
+<img class="formulaDsp" alt="\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]" src="form_27.png"/>
 </p>
-<p> We use a Kahan summation to improve numerical stability. We return <img class="formulaInl" alt="$ \sqrt{\mathrm{Var}(Q_N)} $" src="form_32.png"/> as error. </p>
+<p> We use a Kahan summation to improve numerical stability. We return <img class="formulaInl" alt="$ \sqrt{\mathrm{Var}(Q_N)} $" src="form_28.png"/> as error. </p>
 
-</div>
-</div>
-<a class="anchor" id="a133cf9debcb77f7f892040f343234b2c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt;double, double&gt; ComPWA::Tools::integrateWithError </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classComPWA_1_1Function.html">ComPWA::Function</a>&lt; std::vector&lt; double &gt;, std::vector&lt; std::vector&lt; double &gt;&gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>intensity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>phspsample</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>phspVolume</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00038">38</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00039">39</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
 
 </div>
 </div>
@@ -407,7 +373,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double ComPWA::Tools::maximum </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;&#160;</td>
           <td class="paramname"><em>intensity</em>, </td>
         </tr>
         <tr>
@@ -424,7 +390,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00077">77</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Integration_8cpp_source.html#l00075">75</a> of file <a class="el" href="Integration_8cpp_source.html">Integration.cpp</a>.</p>
 
 </div>
 </div>
@@ -783,7 +749,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Tools.html">Tools</a></li>
-    <li class="footer">Generated on Tue Feb 11 2020 15:38:27 for ComPWA by
+    <li class="footer">Generated on Thu Feb 13 2020 11:25:13 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

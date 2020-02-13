@@ -11,7 +11,8 @@ var searchData=
   ['intensitygradientdatamapping',['IntensityGradientDataMapping',['../classComPWA_1_1Tools_1_1FitFractions.html#a18c713f729c946db033e35a328ba628a',1,'ComPWA::Tools::FitFractions']]],
   ['intquantumnumbers',['IntQuantumNumbers',['../classComPWA_1_1ParticleProperties.html#afcbe619d331f680f3f0bf60b19bd01f1',1,'ComPWA::ParticleProperties']]],
   ['intvalues',['IntValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a8146b9eb182dda3c8855eb9d9557ab96',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['invmassbounds',['InvMassBounds',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4ac3cc70104e37afb7aa3cf9930864b1',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
+  ['invariantmassessquared',['InvariantMassesSquared',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#af4b31d4d12afb89c68d6aa8fe850cd04',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
+  ['invmassbounds',['InvMassBounds',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a5d2d1497e7141868e52d2844912dee84',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
   ['isfixed',['IsFixed',['../structComPWA_1_1FitParameter.html#a31a7639eb778e4c3bafa789e728a0b93',1,'ComPWA::FitParameter::IsFixed()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a1b3ce5c9cb34b8cf5397fa323226dccd',1,'ComPWA::FunctionTree::FitParameter::IsFixed()']]],
   ['isvalid',['IsValid',['../structComPWA_1_1FitResult.html#aac87f3cca2e4101b4958cc03dec23ce2',1,'ComPWA::FitResult']]]
 ];

@@ -11,7 +11,7 @@ var searchData=
   ['phspdata',['PhspData',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abfa584a1ccc381745c8f6035d4bdb0fd',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['phspdatasample',['PhspDataSample',['../classComPWA_1_1Estimator_1_1MinLogLH.html#aa430ba4774a2179af016256065c10e24',1,'ComPWA::Estimator::MinLogLH']]],
   ['phsprecodata',['PhspRecoData',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a04b2cab62a3477523b6f9b03561b66b6',1,'ComPWA::Physics::IntensityBuilderXML']]],
-  ['phspsample',['PhspSample',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a46633aa13db585d7930aee3886b1268a',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
+  ['phspsample',['PhspSample',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#afe665aad8041f497dcb1f81242da3414',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['phspvolume',['PhspVolume',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a035e5c7606c6ca4fbab916d2512b19d7',1,'ComPWA::Physics::EvtGen::DalitzKinematics::PhspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a653a8836a2c47558b91060a2c85f2754',1,'ComPWA::Physics::EvtGen::EvtGenIF::PhspVolume()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4572355c1a9cf65a43cbf622f6019013',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::PhspVolume()']]],
   ['pid',['Pid',['../classComPWA_1_1Particle.html#ad467c5efbc435d7cd69a93668ac372e7',1,'ComPWA::Particle']]],
   ['pm',['pm',['../classComPWA_1_1TableFormatter.html#af9656b75c4b69bb29b0439a608bab05e',1,'ComPWA::TableFormatter']]],

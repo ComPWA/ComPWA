@@ -121,13 +121,14 @@ $(document).ready(function(){initNavTree('Function_8hpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for Function.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Function_8hpp__incl.svg" width="191" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="Function_8hpp__incl.svg" width="284" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -156,9 +157,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">ComPWA::Intensity</a> = Function&lt; std::vector&lt; double &gt;, std::vector&lt; std::vector&lt; double &gt;&gt;&gt;</td></tr>
-<tr class="memdesc:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Intensity is just a <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> that takes a list of data vectors and returns a list of intensities (double)  <a href="namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87">More...</a><br /></td></tr>
-<tr class="separator:ae8144e6c0e3cd37af9f8187acff5bb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac585acf50723a31723c6d2aec1e159f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5">ComPWA::DataMap</a> = std::unordered_map&lt; std::string, std::vector&lt; double &gt;&gt;</td></tr>
+<tr class="separator:ac585acf50723a31723c6d2aec1e159f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> = Function&lt; std::vector&lt; double &gt;, DataMap &gt;</td></tr>
+<tr class="memdesc:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Intensity is just a <a class="el" href="classComPWA_1_1Function.html" title="Interface template for a general Function of the form OutputType Function(InputTypes) The concept clo...">Function</a> that takes a list of data vectors and returns a list of intensities (double)  <a href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">More...</a><br /></td></tr>
+<tr class="separator:a56c950642ed3efdda39d7b8cf6bd2a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -167,7 +170,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a class="el" href="Function_8hpp.html">Function.hpp</a></li>
-    <li class="footer">Generated on Tue Feb 11 2020 15:38:27 for ComPWA by
+    <li class="footer">Generated on Thu Feb 13 2020 11:25:13 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

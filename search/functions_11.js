@@ -15,7 +15,7 @@ var searchData=
   ['setloglevel',['setLogLevel',['../classComPWA_1_1Logging.html#a47f56bdcb53cedcabeebde10609ea593',1,'ComPWA::Logging']]],
   ['setname',['setName',['../classComPWA_1_1FunctionTree_1_1Parameter.html#ac995e95ce12f7754e9f76b95349dd712',1,'ComPWA::FunctionTree::Parameter']]],
   ['setparentrecoilstate',['setParentRecoilState',['../classComPWA_1_1Physics_1_1SubSystem.html#a24bd42f3171c99de5bec891a9a506206',1,'ComPWA::Physics::SubSystem']]],
-  ['setphspsample',['setPhspSample',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a0c56b14c70db32b132663884eadbb5b1',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
+  ['setphspsample',['setPhspSample',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#aeb1e89ea15af5d80e84d1ecb02f48af8',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['setphspvolume',['setPhspVolume',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a5c0f69a6e931743b2d755dcdaf555a95',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['setrandomnumbergenerator',['setRandomNumberGenerator',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html#a6ebae24350b84e46b064f74830039bdc',1,'ComPWA::Data::EvtGen::EvtGenStdRandomEngine']]],
   ['setrecoilstate',['setRecoilState',['../classComPWA_1_1Physics_1_1SubSystem.html#a118c641078ac91b68a47bbfcb4776f6d',1,'ComPWA::Physics::SubSystem']]],
@@ -29,7 +29,7 @@ var searchData=
   ['shiftangle',['shiftAngle',['../namespaceComPWA_1_1Utils.html#a4d921d70430a20bac9084ec66ca3c9e0',1,'ComPWA::Utils']]],
   ['sinc',['sinc',['../Faddeeva_8cc.html#a0d8a24e5c334d77075fe71062e7dedfe',1,'Faddeeva.cc']]],
   ['sinh_5ftaylor',['sinh_taylor',['../Faddeeva_8cc.html#aa4937b661a073ebdb9f5667224252358',1,'Faddeeva.cc']]],
-  ['sortsubsystem',['sortSubsystem',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a5bc28fad4b7813f71d11519e849cb297',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
+  ['sortsubsystem',['sortSubsystem',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#acbd44699420418017d67e3e697133150',1,'ComPWA::Physics::HelicityFormalism']]],
   ['splitstring',['splitString',['../namespaceComPWA_1_1Utils.html#aa3046aeb7bd7890ae10b0524dd8184f1',1,'ComPWA::Utils']]],
   ['sqr',['sqr',['../Faddeeva_8cc.html#a670452ed352cb7ce7601d9ae008bc4ca',1,'Faddeeva.cc']]],
   ['squareroot',['SquareRoot',['../classComPWA_1_1FunctionTree_1_1SquareRoot.html#a8284125fc62b96aa1a3833632d3ae6ac',1,'ComPWA::FunctionTree::SquareRoot']]],
@@ -38,7 +38,6 @@ var searchData=
   ['str',['str',['../classComPWA_1_1FunctionTree_1_1Strategy.html#ac81953bbd71d6fdb73cfce4bce27f8fe',1,'ComPWA::FunctionTree::Strategy']]],
   ['strategy',['Strategy',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a1b20ba1dd395d70099f15fd74af218e7',1,'ComPWA::FunctionTree::Strategy']]],
   ['stringtovectint',['stringToVectInt',['../namespaceComPWA_1_1Physics.html#a3eba68d6543b91b517a20c766a791986',1,'ComPWA::Physics']]],
-  ['subsystem',['subSystem',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a42d29d11ed5a1078e429dd44d6f3a8b5',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::subSystem()'],['../classComPWA_1_1Physics_1_1SubSystem.html#a43068e9ed8dc93b81d4fca3225700467',1,'ComPWA::Physics::SubSystem::SubSystem(const boost::property_tree::ptree &amp;pt)'],['../classComPWA_1_1Physics_1_1SubSystem.html#a0f99702e3dddf5d2e37ad91caa51266c',1,'ComPWA::Physics::SubSystem::SubSystem(const std::vector&lt; std::vector&lt; unsigned int &gt;&gt; &amp;FinalStates, const std::vector&lt; unsigned int &gt; &amp;Recoil, const std::vector&lt; unsigned int &gt; &amp;ParentRecoil)']]],
-  ['subsystems',['subSystems',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ab73e623f15283af5736f48e3bae42bd9',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
+  ['subsystem',['SubSystem',['../classComPWA_1_1Physics_1_1SubSystem.html#a43068e9ed8dc93b81d4fca3225700467',1,'ComPWA::Physics::SubSystem::SubSystem(const boost::property_tree::ptree &amp;pt)'],['../classComPWA_1_1Physics_1_1SubSystem.html#a0f99702e3dddf5d2e37ad91caa51266c',1,'ComPWA::Physics::SubSystem::SubSystem(const std::vector&lt; std::vector&lt; unsigned int &gt;&gt; &amp;FinalStates, const std::vector&lt; unsigned int &gt; &amp;Recoil, const std::vector&lt; unsigned int &gt; &amp;ParentRecoil)']]],
   ['summinloglh',['SumMinLogLH',['../classComPWA_1_1Estimator_1_1SumMinLogLH.html#ae08aed1c0403acf688eb9f9880345176',1,'ComPWA::Estimator::SumMinLogLH']]]
 ];

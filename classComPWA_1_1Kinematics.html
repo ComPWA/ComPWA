@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('classComPWA_1_1Kinematics.html','');})
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a <a class="el" href="structComPWA_1_1DataPoint.html" title="Data structure which contains a reduced set of the kinematic information of an Event. ">DataPoint</a>.  
+<p>The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a DataPoint.  
  <a href="classComPWA_1_1Kinematics.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="Kinematics_8hpp_source.html">Kinematics.hpp</a>&gt;</code></p>
@@ -131,26 +131,24 @@ $(document).ready(function(){initNavTree('classComPWA_1_1Kinematics.html','');})
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a576954bde6acb028a7d856839d4983c3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#a576954bde6acb028a7d856839d4983c3">~Kinematics</a> ()=default</td></tr>
 <tr class="separator:a576954bde6acb028a7d856839d4983c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8457635e077ac8d7c03bbaaadfb8f35e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#a8457635e077ac8d7c03bbaaadfb8f35e">convert</a> (const <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &amp;event) const =0</td></tr>
-<tr class="separator:a8457635e077ac8d7c03bbaaadfb8f35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6f035728148931d74eda39233141424"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#ae6f035728148931d74eda39233141424">getKinematicVariableNames</a> () const =0</td></tr>
-<tr class="separator:ae6f035728148931d74eda39233141424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c91d742a0c92344715eb89acf45e6c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#af3c91d742a0c92344715eb89acf45e6c">isWithinPhaseSpace</a> (const <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a> &amp;point) const =0</td></tr>
-<tr class="memdesc:af3c91d742a0c92344715eb89acf45e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if <a class="el" href="structComPWA_1_1DataPoint.html" title="Data structure which contains a reduced set of the kinematic information of an Event. ">DataPoint</a> is within phase space boundaries  <a href="#af3c91d742a0c92344715eb89acf45e6c">More...</a><br /></td></tr>
-<tr class="separator:af3c91d742a0c92344715eb89acf45e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1217a1350cb1b280d81b060a8f080b6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#af1217a1350cb1b280d81b060a8f080b6">convert</a> (const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;Events) const =0</td></tr>
+<tr class="separator:af1217a1350cb1b280d81b060a8f080b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b5c333885f291587c6cf2eb7fc1ab1"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#ab8b5c333885f291587c6cf2eb7fc1ab1">reduceToPhaseSpace</a> (const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;Events) const =0</td></tr>
+<tr class="memdesc:ab8b5c333885f291587c6cf2eb7fc1ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if DataPoint is within phase space boundaries  <a href="#ab8b5c333885f291587c6cf2eb7fc1ab1">More...</a><br /></td></tr>
+<tr class="separator:ab8b5c333885f291587c6cf2eb7fc1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08c3ac264f7abaa82ecb19da5649a28a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Kinematics.html#a08c3ac264f7abaa82ecb19da5649a28a">phspVolume</a> () const =0</td></tr>
 <tr class="separator:a08c3ac264f7abaa82ecb19da5649a28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a <a class="el" href="structComPWA_1_1DataPoint.html" title="Data structure which contains a reduced set of the kinematic information of an Event. ">DataPoint</a>. </p>
+<div class="textblock"><p>The <a class="el" href="classComPWA_1_1Kinematics.html" title="The Kinematics interface is responsible for converting an Event into a DataPoint. ...">Kinematics</a> interface is responsible for converting an <a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a> into a DataPoint. </p>
 
-<p>Definition at line <a class="el" href="Kinematics_8hpp_source.html#l00018">18</a> of file <a class="el" href="Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
+<p>Definition at line <a class="el" href="Kinematics_8hpp_source.html#l00021">21</a> of file <a class="el" href="Kinematics_8hpp_source.html">Kinematics.hpp</a>.</p>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ComPWA::Kinematics:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1Kinematics__inherit__graph.svg" width="443" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1Kinematics__inherit__graph.svg" width="448" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -158,7 +156,7 @@ Public Member Functions</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1Kinematics__coll__graph.svg" width="218" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classComPWA_1_1Kinematics__coll__graph.svg" width="182" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -186,7 +184,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8457635e077ac8d7c03bbaaadfb8f35e"></a>
+<a class="anchor" id="af1217a1350cb1b280d81b060a8f080b6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -194,10 +192,10 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a> ComPWA::Kinematics::convert </td>
+          <td class="memname">virtual <a class="el" href="structComPWA_1_1Data_1_1DataSet.html">ComPWA::Data::DataSet</a> ComPWA::Kinematics::convert </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &amp;&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>Events</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -208,60 +206,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4fb0a77cec9d08910d47f38c96393990">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>, and <a class="el" href="classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a0e63d4d24b4e1e990b57984c624f1dc0">ComPWA::Physics::EvtGen::DalitzKinematics</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae6f035728148931d74eda39233141424"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::vector&lt;std::string&gt; ComPWA::Kinematics::getKinematicVariableNames </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a97e163e076640b36944216ac95bfe7ce">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>, and <a class="el" href="classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a34975e8c63701b786115ffaa4aadfa03">ComPWA::Physics::EvtGen::DalitzKinematics</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af3c91d742a0c92344715eb89acf45e6c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool ComPWA::Kinematics::isWithinPhaseSpace </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structComPWA_1_1DataPoint.html">DataPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>checks if <a class="el" href="structComPWA_1_1DataPoint.html" title="Data structure which contains a reduced set of the kinematic information of an Event. ">DataPoint</a> is within phase space boundaries </p>
-
-<p>Implemented in <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ae822eeddef63a621c936b604c2964ec9">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>.</p>
+<p>Implemented in <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a3f949f3d7d8b80f1b53c9789cab3ed67">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>, and <a class="el" href="classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a5313ece0e84ce8da717a4a816d6d6a5e">ComPWA::Physics::EvtGen::DalitzKinematics</a>.</p>
 
 </div>
 </div>
@@ -290,6 +235,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab8b5c333885f291587c6cf2eb7fc1ab1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt;<a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a>&gt; ComPWA::Kinematics::reduceToPhaseSpace </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>Events</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if DataPoint is within phase space boundaries </p>
+
+<p>Implemented in <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ab8032740ee14e90f13f5fce96f1e97c4">ComPWA::Physics::HelicityFormalism::HelicityKinematics</a>, and <a class="el" href="classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#aa6a018cd38ee8e24c8c5b986efac4a08">ComPWA::Physics::EvtGen::DalitzKinematics</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/ComPWA/ComPWA/Core/<a class="el" href="Kinematics_8hpp_source.html">Kinematics.hpp</a></li>
 </ul>
@@ -300,7 +273,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="classComPWA_1_1Kinematics.html">Kinematics</a></li>
-    <li class="footer">Generated on Tue Feb 11 2020 15:38:27 for ComPWA by
+    <li class="footer">Generated on Thu Feb 13 2020 11:25:13 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

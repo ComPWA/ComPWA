@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ComPWA: Deprecated List</title>
+<title>ComPWA: std Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -54,8 +54,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -76,6 +76,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
+      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -88,7 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('deprecated.html','');});
+$(document).ready(function(){initNavTree('namespacestd.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,23 +112,66 @@ $(document).ready(function(){initNavTree('deprecated.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Deprecated List </div>  </div>
+<div class="title">std Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_deprecated000001"></a>Member <a class="el" href="classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#ab80ca6f54fe1f8dea64ebee3f916a741">ComPWA::Physics::EvtGen::DalitzKinematics::helicityAngle</a>  (double M, double m, double m2, double mSpec, double invMassSqA, double invMassSqB) const </dt>
-<dd>Only used as cross-check.  </dd>
-<dt><a class="anchor" id="_deprecated000002"></a>Member <a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#abdc94cc21335012898c39b956b8cd64f">ComPWA::Physics::HelicityFormalism::HelicityKinematics::helicityAngle</a>  (double M, double m, double m2, double mSpec, double invMassSqA, double invMassSqB) const </dt>
-<dd>Only used as cross-check. </dd>
-</dl>
-</div></div><!-- contents -->
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>hash&lt; ComPWA::IndexList &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>hash&lt; ComPWA::Physics::SubSystem &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4b946fedcfe58cfb7baf7653fa96582e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4b946fedcfe58cfb7baf7653fa96582e"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestd.html#a4b946fedcfe58cfb7baf7653fa96582e">combineHash</a> (size_t hash, const T &amp;v)</td></tr>
+<tr class="separator:a4b946fedcfe58cfb7baf7653fa96582e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a4b946fedcfe58cfb7baf7653fa96582e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t std::combineHash </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>hash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SubSystem_8hpp_source.html#l00086">86</a> of file <a class="el" href="SubSystem_8hpp_source.html">SubSystem.hpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 11 2020 15:38:27 for ComPWA by
+    <li class="navelem"><a class="el" href="namespacestd.html">std</a></li>
+    <li class="footer">Generated on Thu Feb 13 2020 11:25:13 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

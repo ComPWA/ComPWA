@@ -1,8 +1,8 @@
 var searchData=
 [
   ['indexlist',['IndexList',['../namespaceComPWA.html#ae6e7133b1bee4d3e7d0d01f1cdb49278',1,'ComPWA']]],
-  ['indexlisttuple',['IndexListTuple',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a7cbfefdfe8ae7563d691747b671d8e6a',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
-  ['intensity',['Intensity',['../namespaceComPWA.html#ae8144e6c0e3cd37af9f8187acff5bb87',1,'ComPWA']]],
+  ['indexlisttuple',['IndexListTuple',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#af8f32f251b05b3dc8a443d9f216764cc',1,'ComPWA::Physics::HelicityFormalism']]],
+  ['intensity',['Intensity',['../namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47',1,'ComPWA']]],
   ['intensitycomponent',['IntensityComponent',['../namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd',1,'ComPWA::Tools']]],
   ['internal_5ftype',['internal_type',['../structBoolTranslator.html#a938206cc2fbb688746d4b70a8a107653',1,'BoolTranslator']]]
 ];

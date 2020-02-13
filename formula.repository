@@ -1,33 +1,29 @@
-\form#0:$(s,\theta,\phi)$
-\form#1:$\pi^+$
-\form#2:$\pi^-$
-\form#3:$\gamma$
-\form#4:$\chi^{2}$
-\form#5:\[ -log \mathcal{L} = N_{\mathrm{obs}} * \log(\lambda) - \sum_i^{N_{\mathrm{obs}}} \log(I(x_i)) \]
-\form#6:$I(x_i)$
-\form#7:$x_i$
-\form#8:$ \lambda = \frac{V}{\sum w_i}\sum_i^{N_{\mathrm{phsp}}} I(x_i)\cdot \epsilon_i \cdot w_i $
-\form#9:$ \epsilon $
-\form#10:$ w $
-\form#11:$ V $
-\form#12:$ e^+e^- \to pi^+ pi^- J/psi $
-\form#13:\[ \mathcal{A}_R(s) = \frac{g_p*g}{s - M_R^2 + i \sqrt{s} \Gamma_R B^2} \]
-\form#14:$ g_p, g$
-\form#15:$ B^2$
-\form#16:\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right)^{2L+1} \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{F(\sqrt{s})}{F(\sqrt{s_R})} \right)^{2} \]
-\form#17:\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right) \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{B_L(\sqrt{s})}{B_L(\sqrt{s_R})} \right)^{2} \]
-\form#18:\[ \mathrm{Voig}(x; \sigma, \gamma) = \int Gaus(x';\sigma)BW(x - x';gamma) dx' = Re[w(z)]/(\sigma\sqrt{2\pi}) and z = (x + i\gamma)/(\sigma\sqrt{s}) \]
-\form#19:$m^2$
-\form#20:$cos\Theta$
-\form#21:$\phi$
-\form#22:$f_1,f_2$
-\form#23:$f_1$
-\form#24:$f_2$
-\form#25:$m^2, cos\Theta, \phi$
-\form#26:$m_i\rightarrow 0$
-\form#27:$s$
-\form#28:\[ f´(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]
-\form#29:\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]
-\form#30:\[ I \approx Q_N = V*\langle f \rangle. \]
-\form#31:\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]
-\form#32:$ \sqrt{\mathrm{Var}(Q_N)} $
+\form#0:$\pi^+$
+\form#1:$\pi^-$
+\form#2:$\gamma$
+\form#3:$\chi^{2}$
+\form#4:\[ -log \mathcal{L} = N_{\mathrm{obs}} * \log(\lambda) - \sum_i^{N_{\mathrm{obs}}} \log(I(x_i)) \]
+\form#5:$I(x_i)$
+\form#6:$x_i$
+\form#7:$ \lambda = \frac{V}{\sum w_i}\sum_i^{N_{\mathrm{phsp}}} I(x_i)\cdot \epsilon_i \cdot w_i $
+\form#8:$ \epsilon $
+\form#9:$ w $
+\form#10:$ V $
+\form#11:$ e^+e^- \to pi^+ pi^- J/psi $
+\form#12:\[ \mathcal{A}_R(s) = \frac{g_p*g}{s - M_R^2 + i \sqrt{s} \Gamma_R B^2} \]
+\form#13:$ g_p, g$
+\form#14:$ B^2$
+\form#15:\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right)^{2L+1} \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{F(\sqrt{s})}{F(\sqrt{s_R})} \right)^{2} \]
+\form#16:\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right) \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{B_L(\sqrt{s})}{B_L(\sqrt{s_R})} \right)^{2} \]
+\form#17:\[ \mathrm{Voig}(x; \sigma, \gamma) = \int Gaus(x';\sigma)BW(x - x';gamma) dx' = Re[w(z)]/(\sigma\sqrt{2\pi}) and z = (x + i\gamma)/(\sigma\sqrt{s}) \]
+\form#18:$m^2$
+\form#19:$\Theta$
+\form#20:$\phi$
+\form#21:$(\Theta, \phi)$
+\form#22:$m_i\rightarrow 0$
+\form#23:$s$
+\form#24:\[ f´(x) = \frac{f(x+h) - f(x-h)}{2h} + O(h^2) \]
+\form#25:\[ \langle f \rangle =\frac{1}{N} \sum_{i=1}^N f(\overline{\mathbf{x}}_i) \]
+\form#26:\[ I \approx Q_N = V*\langle f \rangle. \]
+\form#27:\[ \mathrm{Var}(Q_N) = \frac{V^2}{N} \frac{1}{(N-1)} \sum_{i=1}^N \left (f(\overline{\mathbf{x}}_i) - \langle f \rangle \right )^2 \]
+\form#28:$ \sqrt{\mathrm{Var}(Q_N)} $

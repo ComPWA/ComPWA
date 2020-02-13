@@ -11,7 +11,6 @@ var hierarchy =
       [ "ComPWA::Data::MomentumCorrection", "classComPWA_1_1Data_1_1MomentumCorrection.html", null ],
       [ "ComPWA::Data::UnitCorrection", "classComPWA_1_1Data_1_1UnitCorrection.html", null ]
     ] ],
-    [ "ComPWA::DataPoint", "structComPWA_1_1DataPoint.html", null ],
     [ "ComPWA::Data::DataSet", "structComPWA_1_1Data_1_1DataSet.html", null ],
     [ "ComPWA::Tools::FitFractions::DerivativeData", "structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html", null ],
     [ "ComPWA::Efficiency", "classComPWA_1_1Efficiency.html", [
@@ -74,8 +73,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "ComPWA::Physics::IntensityBuilderXML", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html", null ],
-    [ "ComPWA::Tools::KahanSummation", "structComPWA_1_1Tools_1_1KahanSummation.html", null ],
     [ "ComPWA::FunctionTree::KahanSummation", "structComPWA_1_1FunctionTree_1_1KahanSummation.html", null ],
+    [ "ComPWA::Tools::KahanSummation", "structComPWA_1_1Tools_1_1KahanSummation.html", null ],
     [ "ComPWA::Kinematics", "classComPWA_1_1Kinematics.html", [
       [ "ComPWA::Physics::EvtGen::DalitzKinematics", "classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html", null ],
       [ "ComPWA::Physics::HelicityFormalism::HelicityKinematics", "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html", null ]
@@ -88,11 +87,11 @@ var hierarchy =
     [ "ComPWA::Optimizer::Optimizer< MinuitResult >", "classComPWA_1_1Optimizer_1_1Optimizer.html", [
       [ "ComPWA::Optimizer::Minuit2::MinuitIF", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html", null ]
     ] ],
+    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::Parameter", "classComPWA_1_1FunctionTree_1_1Parameter.html", [
       [ "ComPWA::FunctionTree::FitParameter", "classComPWA_1_1FunctionTree_1_1FitParameter.html", null ],
       [ "ComPWA::FunctionTree::Value< T >", "classComPWA_1_1FunctionTree_1_1Value.html", null ]
     ] ],
-    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::ParameterList", "classComPWA_1_1FunctionTree_1_1ParameterList.html", null ],
     [ "ComPWA::FunctionTree::ParObserver", "classComPWA_1_1FunctionTree_1_1ParObserver.html", [
       [ "ComPWA::FunctionTree::TreeNode", "classComPWA_1_1FunctionTree_1_1TreeNode.html", null ]

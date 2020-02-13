@@ -13,5 +13,7 @@ var searchData=
   ['hessiangradientncycles',['HessianGradientNCycles',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ae978e83edd95a7ba858d63e3e9955510',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
   ['hessianncycles',['HessianNCycles',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ae4ac59576e484e97bf60a316fa10b0d4',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
   ['hessiansteptolerance',['HessianStepTolerance',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#a2a899299d5e3eef9d941306274a80a9f',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],
-  ['hiddencouplings',['HiddenCouplings',['../structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html#a5c1155ffd3b629c13abfa7d80e9ea008',1,'ComPWA::Physics::Dynamics::Flatte::InputInfo']]]
+  ['hiddencouplings',['HiddenCouplings',['../structComPWA_1_1Physics_1_1Dynamics_1_1Flatte_1_1InputInfo.html#a5c1155ffd3b629c13abfa7d80e9ea008',1,'ComPWA::Physics::Dynamics::Flatte::InputInfo']]],
+  ['hists1d',['Hists1D',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a67ca128a50ff0f29103f4aa11d7e1c24',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['hists2d',['Hists2D',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#abd89817a2071bf80d511cae0a7758f5b',1,'ComPWA::Tools::Plotting::DalitzHisto']]]
 ];
