@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('BuilderXML_8hpp.html','');});
 <code>#include &quot;<a class="el" href="Value_8hpp_source.html">Core/FunctionTree/Value.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="DataSet_8hpp_source.html">Data/DataSet.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ParticleStateTransitionKinematicsInfo_8hpp_source.html">Physics/ParticleStateTransitionKinematicsInfo.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="SubSystem_8hpp_source.html">Physics/SubSystem.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="FitFractions_8hpp_source.html">Tools/FitFractions.hpp</a>&quot;</code><br />
 <code>#include &lt;boost/property_tree/ptree_fwd.hpp&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
@@ -137,7 +138,7 @@ $(document).ready(function(){initNavTree('BuilderXML_8hpp.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="BuilderXML_8hpp__incl.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="BuilderXML_8hpp__incl.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -157,6 +158,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html">ComPWA::Physics::IntensityBuilderXML::DataContainer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html">ComPWA::Physics::TwoBodyDecayInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -173,6 +176,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ad244ba1ef3892c0ad14623344c0db89b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html">HelicityKinematics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#ad244ba1ef3892c0ad14623344c0db89b">ComPWA::Physics::createHelicityKinematics</a> (const <a class="el" href="namespaceComPWA.html#ac32ebe66cb052341dfbabe607551b502">ComPWA::ParticleList</a> &amp;PartList, const boost::property_tree::ptree &amp;pt)</td></tr>
 <tr class="separator:ad244ba1ef3892c0ad14623344c0db89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefdac3077b44661e2910211fba2ab593"><td class="memItemLeft" align="right" valign="top">TwoBodyDecayInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics.html#aefdac3077b44661e2910211fba2ab593">ComPWA::Physics::extractDecayInfo</a> (const boost::property_tree::ptree &amp;pt)</td></tr>
+<tr class="separator:aefdac3077b44661e2910211fba2ab593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -181,7 +186,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fd3a82303f5206df56505f8b5712131f.html">Physics</a></li><li class="navelem"><a class="el" href="BuilderXML_8hpp.html">BuilderXML.hpp</a></li>
-    <li class="footer">Generated on Tue Feb 18 2020 13:19:53 for ComPWA by
+    <li class="footer">Generated on Tue Feb 18 2020 15:36:00 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

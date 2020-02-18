@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['title',['title',['../classComPWA_1_1Data_1_1CorrectionTable.html#aa09150999db1aa1b28367ae4d1eb0efe',1,'ComPWA::Data::CorrectionTable::title()'],['../classComPWA_1_1Data_1_1MomentumCorrection.html#a19117a2318e27f2d71fc8896d63a6ba8',1,'ComPWA::Data::MomentumCorrection::Title()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#abe4a3864fe01abb586703bba18d8a009',1,'ComPWA::Tools::Plotting::DalitzHisto::Title()']]],
+  ['title',['Title',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a19117a2318e27f2d71fc8896d63a6ba8',1,'ComPWA::Data::MomentumCorrection::Title()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#abe4a3864fe01abb586703bba18d8a009',1,'ComPWA::Tools::Plotting::DalitzHisto::Title()'],['../classComPWA_1_1Data_1_1CorrectionTable.html#aa09150999db1aa1b28367ae4d1eb0efe',1,'ComPWA::Data::CorrectionTable::title()']]],
   ['totalsys',['totalSys',['../classComPWA_1_1Data_1_1CorrectionTable.html#a6f36fb01a91691af87299c760893325a',1,'ComPWA::Data::CorrectionTable']]],
   ['totalsyserror',['totalSysError',['../classComPWA_1_1Data_1_1CorrectionTable.html#afc834bc1bff479c36d880b79abae650d',1,'ComPWA::Data::CorrectionTable']]],
   ['totalwidth',['TotalWidth',['../classComPWA_1_1TableFormatter.html#a2707a1db61d86941659e98b568a6c427',1,'ComPWA::TableFormatter']]],

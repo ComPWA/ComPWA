@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1532;
+var viewWidth = 1593;
 var viewHeight = 229;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,286 +54,304 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>Physics/ParticleStateTransitionKinematicsInfo.hpp</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-225 1527.89,-225 1527.89,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-225 1588.5,-225 1588.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="531.887,-190.5 531.887,-220.5 685.887,-220.5 685.887,-190.5 531.887,-190.5"/>
-<text text-anchor="start" x="539.887" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/ParticleStateTransition</text>
-<text text-anchor="middle" x="608.887" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicsInfo.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="577.5,-190.5 577.5,-220.5 731.5,-220.5 731.5,-190.5 577.5,-190.5"/>
+<text text-anchor="start" x="585.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/ParticleStateTransition</text>
+<text text-anchor="middle" x="654.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicsInfo.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="EvtGenGenerator_8cpp.html" target="_top" xlink:title="Data/EvtGen/EvtGenGenerator.cpp">
-<polygon fill="white" stroke="black" points="43.3869,-129 43.3869,-148 214.387,-148 214.387,-129 43.3869,-129"/>
-<text text-anchor="middle" x="128.887" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Data/EvtGen/EvtGenGenerator.cpp</text>
+<polygon fill="white" stroke="black" points="0,-129 0,-148 171,-148 171,-129 0,-129"/>
+<text text-anchor="middle" x="85.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Data/EvtGen/EvtGenGenerator.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M521.251,-193.617C442.964,-183.756 325.181,-168.579 222.887,-154 209.973,-152.159 196.077,-150.074 183.036,-148.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="521.193,-197.137 531.552,-194.912 522.067,-190.192 521.193,-197.137"/>
+<path fill="none" stroke="midnightblue" d="M567.269,-196.469C471.882,-187.398 314.584,-171.59 179.5,-154 166.073,-152.252 151.603,-150.136 138.137,-148.067"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="567.16,-199.975 577.445,-197.434 567.82,-193.006 567.16,-199.975"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="RootGenerator_8cpp.html" target="_top" xlink:title="Data/Root/RootGenerator.cpp">
-<polygon fill="white" stroke="black" points="232.387,-129 232.387,-148 379.387,-148 379.387,-129 232.387,-129"/>
-<text text-anchor="middle" x="305.887" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Data/Root/RootGenerator.cpp</text>
+<polygon fill="white" stroke="black" points="189,-129 189,-148 336,-148 336,-129 189,-129"/>
+<text text-anchor="middle" x="262.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Data/Root/RootGenerator.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M533.405,-188.307C473.875,-175.537 393.21,-158.233 345.644,-148.029"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="533.002,-191.801 543.513,-190.476 534.47,-184.956 533.002,-191.801"/>
+<path fill="none" stroke="midnightblue" d="M567.197,-190.494C505.286,-180.497 420.26,-166.639 345.5,-154 334.25,-152.098 322.15,-150.009 310.763,-148.023"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="566.887,-193.989 577.317,-192.126 568.002,-187.078 566.887,-193.989"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="BuilderXML_8hpp.html" target="_top" xlink:title="Physics/BuilderXML.hpp">
-<polygon fill="white" stroke="black" points="397.887,-129 397.887,-148 521.887,-148 521.887,-129 397.887,-129"/>
-<text text-anchor="middle" x="459.887" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
+<polygon fill="white" stroke="black" points="354.5,-129 354.5,-148 478.5,-148 478.5,-129 354.5,-129"/>
+<text text-anchor="middle" x="416.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M567.156,-186.295C538.422,-173.76 501.566,-157.682 479.388,-148.007"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="565.991,-189.605 576.556,-190.396 568.79,-183.189 565.991,-189.605"/>
+<path fill="none" stroke="midnightblue" d="M593.464,-187.83C546.884,-175.109 484.627,-158.106 447.728,-148.029"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="592.582,-191.218 603.151,-190.476 594.426,-184.465 592.582,-191.218"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="HelicityKinematics_8hpp.html" target="_top" xlink:title="Physics/HelicityFormalism\l/HelicityKinematics.hpp">
-<polygon fill="white" stroke="black" points="541.887,-123.5 541.887,-153.5 675.887,-153.5 675.887,-123.5 541.887,-123.5"/>
-<text text-anchor="start" x="549.887" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/HelicityFormalism</text>
-<text text-anchor="middle" x="608.887" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityKinematics.hpp</text>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="HelicityKinematics_8hpp.html" target="_top" xlink:title="Physics/HelicityFormalism\l/HelicityKinematics.hpp">
+<polygon fill="white" stroke="black" points="587.5,-123.5 587.5,-153.5 721.5,-153.5 721.5,-123.5 587.5,-123.5"/>
+<text text-anchor="start" x="595.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/HelicityFormalism</text>
+<text text-anchor="middle" x="654.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityKinematics.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M608.887,-180.108C608.887,-171.154 608.887,-161.323 608.887,-153.577"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="605.387,-180.396 608.887,-190.396 612.387,-180.396 605.387,-180.396"/>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M654.5,-180.108C654.5,-171.154 654.5,-161.323 654.5,-153.577"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="651,-180.396 654.5,-190.396 658,-180.396 651,-180.396"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="DalitzKinematics_8hpp.html" target="_top" xlink:title="Contains DalitzKinematics class. ">
-<polygon fill="white" stroke="black" points="906.887,-129 906.887,-148 1090.89,-148 1090.89,-129 906.887,-129"/>
-<text text-anchor="middle" x="998.887" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/DalitzKinematics.hpp</text>
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="DalitzKinematics_8hpp.html" target="_top" xlink:title="Contains DalitzKinematics class. ">
+<polygon fill="white" stroke="black" points="896.5,-129 896.5,-148 1080.5,-148 1080.5,-129 896.5,-129"/>
+<text text-anchor="middle" x="988.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/DalitzKinematics.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node15 -->
-<g id="edge19" class="edge"><title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M696.153,-189.956C773.526,-177.06 883.879,-158.668 947.771,-148.019"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="695.227,-186.562 685.938,-191.658 696.378,-193.466 695.227,-186.562"/>
-</g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="ParticleStateTransitionKinematicsInfo_8cpp.html" target="_top" xlink:title="Physics/ParticleStateTransition\lKinematicsInfo.cpp">
-<polygon fill="white" stroke="black" points="1108.89,-123.5 1108.89,-153.5 1262.89,-153.5 1262.89,-123.5 1108.89,-123.5"/>
-<text text-anchor="start" x="1116.89" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/ParticleStateTransition</text>
-<text text-anchor="middle" x="1185.89" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicsInfo.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node18 -->
-<g id="edge24" class="edge"><title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M696.222,-197.232C794.562,-188.649 959.029,-173.098 1099.89,-154 1102.74,-153.613 1105.64,-153.204 1108.57,-152.778"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="695.694,-193.764 686.034,-198.116 696.299,-200.738 695.694,-193.764"/>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge20" class="edge"><title>Node1&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M736.487,-188.544C802.221,-175.752 891.918,-158.296 944.676,-148.029"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="735.709,-185.13 726.562,-190.476 737.046,-192.001 735.709,-185.13"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="RootPlotData_8cpp.html" target="_top" xlink:title="Tools/Plotting/RootPlotData.cpp">
-<polygon fill="white" stroke="black" points="1280.89,-129 1280.89,-148 1438.89,-148 1438.89,-129 1280.89,-129"/>
-<text text-anchor="middle" x="1359.89" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/RootPlotData.cpp</text>
+<g id="a_node19"><a xlink:href="ParticleStateTransitionKinematicsInfo_8cpp.html" target="_top" xlink:title="Physics/ParticleStateTransition\lKinematicsInfo.cpp">
+<polygon fill="white" stroke="black" points="1098.5,-123.5 1098.5,-153.5 1252.5,-153.5 1252.5,-123.5 1098.5,-123.5"/>
+<text text-anchor="start" x="1106.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/ParticleStateTransition</text>
+<text text-anchor="middle" x="1175.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">KinematicsInfo.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node19 -->
-<g id="edge25" class="edge"><title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M695.975,-200.295C822.937,-193.614 1066.14,-178.738 1271.89,-154 1285.26,-152.392 1299.71,-150.202 1312.96,-148.012"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="695.723,-196.803 685.919,-200.82 696.087,-203.794 695.723,-196.803"/>
+<g id="edge26" class="edge"><title>Node1&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M741.861,-195.693C829.817,-186.513 969.31,-171.097 1089.5,-154 1092.35,-153.595 1095.25,-153.17 1098.17,-152.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="741.245,-192.239 731.66,-196.754 741.969,-199.201 741.245,-192.239"/>
+</g>
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="RootPlotData_8cpp.html" target="_top" xlink:title="Tools/Plotting/RootPlotData.cpp">
+<polygon fill="white" stroke="black" points="1270.5,-129 1270.5,-148 1428.5,-148 1428.5,-129 1270.5,-129"/>
+<text text-anchor="middle" x="1349.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/RootPlotData.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node20 -->
+<g id="edge27" class="edge"><title>Node1&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M741.915,-199.439C860.07,-192.094 1077.18,-176.815 1261.5,-154 1274.72,-152.364 1288.98,-150.191 1302.1,-148.026"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="741.604,-195.952 731.839,-200.061 742.036,-202.938 741.604,-195.952"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="DalitzFitD03K_8cpp.html" target="_top" xlink:title="Executable for Dalitz plot analysis of the decay D0 &#45;&gt; K_S K+ K&#45;. ">
-<polygon fill="white" stroke="black" points="318.387,-56.5 318.387,-86.5 461.387,-86.5 461.387,-56.5 318.387,-56.5"/>
-<text text-anchor="start" x="326.387" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzAnalysis</text>
-<text text-anchor="middle" x="389.887" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_D0KsKK/DalitzFitD03K.cpp</text>
+<polygon fill="white" stroke="black" points="497,-56.5 497,-86.5 640,-86.5 640,-56.5 497,-56.5"/>
+<text text-anchor="start" x="505" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzAnalysis</text>
+<text text-anchor="middle" x="568.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_D0KsKK/DalitzFitD03K.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M443.117,-121.928C431.541,-111.179 416.274,-97.0024 405.06,-86.589"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="440.737,-124.494 450.446,-128.734 445.5,-119.364 440.737,-124.494"/>
+<path fill="none" stroke="midnightblue" d="M445.935,-124.913C471.673,-113.906 509.005,-97.9418 535.696,-86.5281"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="444.503,-121.718 436.684,-128.869 447.255,-128.155 444.503,-121.718"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="DalitzFitApp_8cpp.html" target="_top" xlink:title="Simple Dalitz plot analysis with ComPWA. ">
-<polygon fill="white" stroke="black" points="479.887,-56.5 479.887,-86.5 579.887,-86.5 579.887,-56.5 479.887,-56.5"/>
-<text text-anchor="start" x="487.887" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzFit</text>
-<text text-anchor="middle" x="529.887" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFitApp.cpp</text>
+<polygon fill="white" stroke="black" points="76.5,-56.5 76.5,-86.5 176.5,-86.5 176.5,-56.5 76.5,-56.5"/>
+<text text-anchor="start" x="84.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzFit</text>
+<text text-anchor="middle" x="126.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFitApp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M476.657,-121.928C488.233,-111.179 503.5,-97.0024 514.714,-86.589"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="474.274,-119.364 469.327,-128.734 479.037,-124.494 474.274,-119.364"/>
+<path fill="none" stroke="midnightblue" d="M366.053,-126.863C319.199,-116.89 247.529,-101.4 185.5,-87 182.623,-86.3321 179.67,-85.6369 176.691,-84.9283"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="365.443,-130.311 375.952,-128.966 366.898,-123.464 365.443,-130.311"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
-<polygon fill="white" stroke="black" points="15.8869,-62 15.8869,-81 157.887,-81 157.887,-62 15.8869,-62"/>
-<text text-anchor="middle" x="86.8869" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
+<polygon fill="white" stroke="black" points="194.5,-62 194.5,-81 336.5,-81 336.5,-62 194.5,-62"/>
+<text text-anchor="middle" x="265.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node4&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M408.702,-126.948C401.715,-125.579 394.63,-124.228 387.887,-123 289.98,-105.173 264.963,-103.875 166.887,-87 156.036,-85.1331 144.371,-83.0577 133.395,-81.0743"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="408.327,-130.442 418.817,-128.954 409.688,-123.575 408.327,-130.442"/>
+<path fill="none" stroke="midnightblue" d="M386.953,-124.781C357.049,-111.909 311.624,-92.3545 285.635,-81.1672"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="385.879,-128.129 396.448,-128.869 388.647,-121.7 385.879,-128.129"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="BuilderXML_8cpp.html" target="_top" xlink:title="Physics/BuilderXML.cpp">
-<polygon fill="white" stroke="black" points="175.887,-62 175.887,-81 299.887,-81 299.887,-62 175.887,-62"/>
-<text text-anchor="middle" x="237.887" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.cpp</text>
+<polygon fill="white" stroke="black" points="354.5,-62 354.5,-81 478.5,-81 478.5,-62 354.5,-62"/>
+<text text-anchor="middle" x="416.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node8 -->
 <g id="edge7" class="edge"><title>Node4&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M420.644,-126.01C376.707,-113.145 306.516,-92.5942 267.135,-81.0637"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="419.826,-129.417 430.407,-128.869 421.793,-122.699 419.826,-129.417"/>
+<path fill="none" stroke="midnightblue" d="M416.5,-118.537C416.5,-106.17 416.5,-90.6198 416.5,-81.1273"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="413,-118.734 416.5,-128.734 420,-118.734 413,-118.734"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="BOSSAdapter_8cpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.cpp">
-<polygon fill="white" stroke="black" points="251.887,-0.5 251.887,-19.5 417.887,-19.5 417.887,-0.5 251.887,-0.5"/>
-<text text-anchor="middle" x="334.887" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.cpp</text>
+<g id="a_node9"><a xlink:href="EvtGenIF_8cpp.html" target="_top" xlink:title="Physics/EvtGen/EvtGenIF.cpp">
+<polygon fill="white" stroke="black" points="780.5,-0.5 780.5,-19.5 932.5,-19.5 932.5,-0.5 780.5,-0.5"/>
+<text text-anchor="middle" x="856.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/EvtGenIF.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node9 -->
 <g id="edge8" class="edge"><title>Node4&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M411.129,-126.965C403.377,-125.497 395.43,-124.113 387.887,-123 345.82,-116.794 35.5053,-118.45 6.88689,-87 -2.38593,-76.8097 -2.1692,-66.3834 6.88689,-56 38.0554,-20.2634 165.304,-11.8996 251.831,-10.469"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="410.67,-130.441 421.156,-128.927 412.014,-123.571 410.67,-130.441"/>
+<path fill="none" stroke="midnightblue" d="M366.642,-126.992C359.234,-125.567 351.678,-124.188 344.5,-123 219.538,-102.322 -19.4757,-148.078 67.5,-56 91.7453,-30.3325 587.27,-16.8454 780.388,-12.5479"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="366.115,-130.455 376.603,-128.951 367.466,-123.587 366.115,-130.455"/>
 </g>
-<!-- Node10&#45;&gt;Node5 -->
-<g id="edge10" class="edge"><title>Node10&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M551.879,-120.58C516.309,-110.022 471.059,-96.5921 437.43,-86.6109"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="551.054,-123.986 561.637,-123.476 553.046,-117.275 551.054,-123.986"/>
-</g>
-<!-- Node10&#45;&gt;Node6 -->
-<g id="edge11" class="edge"><title>Node10&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M583.83,-116.883C571.824,-107.005 557.755,-95.4293 546.995,-86.5765"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="581.799,-119.745 591.745,-123.396 586.247,-114.34 581.799,-119.745"/>
-</g>
-<!-- Node10&#45;&gt;Node7 -->
-<g id="edge13" class="edge"><title>Node10&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M531.553,-123.095C531.33,-123.063 531.108,-123.031 530.887,-123 369.937,-100.123 327.887,-109.515 166.887,-87 155.005,-85.3383 142.193,-83.1816 130.38,-81.0417"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="531.311,-126.598 541.723,-124.639 532.361,-119.678 531.311,-126.598"/>
-</g>
-<!-- Node10&#45;&gt;Node8 -->
-<g id="edge14" class="edge"><title>Node10&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M531.549,-123.115C531.328,-123.077 531.107,-123.038 530.887,-123 432.411,-105.865 407.208,-105.004 308.887,-87 298.987,-85.1871 288.341,-83.0913 278.382,-81.0664"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="531.224,-126.612 541.681,-124.905 532.442,-119.719 531.224,-126.612"/>
-</g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="EvtGenFit_8cpp.html" target="_top" xlink:title="Examples/EvtGen/EvtGenFit.cpp">
-<polygon fill="white" stroke="black" points="1060.89,-0.5 1060.89,-19.5 1222.89,-19.5 1222.89,-0.5 1060.89,-0.5"/>
-<text text-anchor="middle" x="1141.89" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/EvtGen/EvtGenFit.cpp</text>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="BOSSAdapter_8cpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.cpp">
+<polygon fill="white" stroke="black" points="293.5,-0.5 293.5,-19.5 459.5,-19.5 459.5,-0.5 293.5,-0.5"/>
+<text text-anchor="middle" x="376.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge12" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M686.161,-136.744C753.895,-133.499 853.635,-122.34 932.887,-87 952.793,-78.1233 951.462,-65.8868 970.887,-56 1007,-37.619 1051.33,-26.2293 1085.81,-19.5081"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="685.829,-133.255 675.99,-137.184 686.132,-140.249 685.829,-133.255"/>
+<!-- Node4&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node4&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M367.179,-127.003C359.603,-125.554 351.856,-124.166 344.5,-123 276.003,-112.145 80.6241,-138.79 34.5,-87 25.3368,-76.7111 25.4153,-66.3584 34.5,-56 51.3316,-36.8086 197.446,-23.2198 293.169,-16.2836"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="366.508,-130.438 376.995,-128.929 367.856,-123.569 366.508,-130.438"/>
+</g>
+<!-- Node11&#45;&gt;Node5 -->
+<g id="edge11" class="edge"><title>Node11&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M627.599,-117.168C614.448,-107.228 598.95,-95.5144 587.124,-86.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="625.751,-120.158 635.839,-123.396 629.972,-114.574 625.751,-120.158"/>
+</g>
+<!-- Node11&#45;&gt;Node6 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M577.096,-130.434C463.897,-119.883 258.704,-99.877 185.5,-87 182.591,-86.4883 179.613,-85.9151 176.615,-85.3"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="576.807,-133.922 587.088,-131.363 577.455,-126.952 576.807,-133.922"/>
+</g>
+<!-- Node11&#45;&gt;Node7 -->
+<g id="edge14" class="edge"><title>Node11&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M577.055,-125.224C514.519,-115.219 424.279,-100.576 345.5,-87 334.65,-85.1303 322.985,-83.0538 312.009,-81.0702"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="576.808,-128.729 587.235,-126.851 577.912,-121.816 576.808,-128.729"/>
+</g>
+<!-- Node11&#45;&gt;Node8 -->
+<g id="edge15" class="edge"><title>Node11&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M593.464,-120.83C546.884,-108.109 484.627,-91.1062 447.728,-81.0287"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="592.582,-124.218 603.151,-123.476 594.426,-117.465 592.582,-124.218"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="HelicityKinematics_8cpp.html" target="_top" xlink:title="Physics/HelicityFormalism\l/HelicityKinematics.cpp">
-<polygon fill="white" stroke="black" points="979.887,-56.5 979.887,-86.5 1113.89,-86.5 1113.89,-56.5 979.887,-56.5"/>
-<text text-anchor="start" x="987.887" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/HelicityFormalism</text>
-<text text-anchor="middle" x="1046.89" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityKinematics.cpp</text>
+<g id="a_node12"><a xlink:href="EvtGenFit_8cpp.html" target="_top" xlink:title="Examples/EvtGen/EvtGenFit.cpp">
+<polygon fill="white" stroke="black" points="1253.5,-0.5 1253.5,-19.5 1415.5,-19.5 1415.5,-0.5 1253.5,-0.5"/>
+<text text-anchor="middle" x="1334.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/EvtGen/EvtGenFit.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node12 -->
-<g id="edge15" class="edge"><title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M686.062,-127.413C758.451,-117.755 869.665,-102.413 965.887,-87 970.401,-86.277 975.052,-85.5081 979.735,-84.7162"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="685.562,-123.949 676.111,-128.738 686.485,-130.888 685.562,-123.949"/>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge13" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M731.716,-132.78C903.77,-122.106 1304.46,-96.3199 1315.5,-87 1335.45,-70.1569 1336.16,-35.8284 1335.27,-19.7169"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="731.475,-129.288 721.711,-133.4 731.908,-136.275 731.475,-129.288"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="BOSSAdapter_8hpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.hpp">
-<polygon fill="white" stroke="black" points="597.887,-62 597.887,-81 763.887,-81 763.887,-62 597.887,-62"/>
-<text text-anchor="middle" x="680.887" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.hpp</text>
+<g id="a_node13"><a xlink:href="HelicityKinematics_8cpp.html" target="_top" xlink:title="Physics/HelicityFormalism\l/HelicityKinematics.cpp">
+<polygon fill="white" stroke="black" points="842.5,-56.5 842.5,-86.5 976.5,-86.5 976.5,-56.5 842.5,-56.5"/>
+<text text-anchor="start" x="850.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/HelicityFormalism</text>
+<text text-anchor="middle" x="909.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/HelicityKinematics.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node13 -->
-<g id="edge16" class="edge"><title>Node10&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M631.958,-116.672C645.252,-104.671 661.258,-90.2203 671.256,-81.1945"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="629.587,-114.097 624.51,-123.396 634.278,-119.293 629.587,-114.097"/>
+<!-- Node11&#45;&gt;Node13 -->
+<g id="edge16" class="edge"><title>Node11&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M719.292,-120.984C760.943,-110.367 814.483,-96.7201 854.142,-86.6109"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="718.343,-117.614 709.517,-123.476 720.072,-124.397 718.343,-117.614"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="DalitzPlot_8cpp.html" target="_top" xlink:title="Tools/Plotting/DalitzPlot.cpp">
-<polygon fill="white" stroke="black" points="782.387,-62 782.387,-81 923.387,-81 923.387,-62 782.387,-62"/>
-<text text-anchor="middle" x="852.887" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/DalitzPlot.cpp</text>
+<g id="a_node14"><a xlink:href="BOSSAdapter_8hpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.hpp">
+<polygon fill="white" stroke="black" points="658.5,-62 658.5,-81 824.5,-81 824.5,-62 658.5,-62"/>
+<text text-anchor="middle" x="741.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node14 -->
-<g id="edge18" class="edge"><title>Node10&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M671.462,-120.83C719.216,-108.109 783.042,-91.1062 820.872,-81.0287"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="670.293,-117.52 661.531,-123.476 672.095,-124.284 670.293,-117.52"/>
+<!-- Node11&#45;&gt;Node14 -->
+<g id="edge17" class="edge"><title>Node11&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M681.48,-117.343C697.715,-105.213 717.556,-90.389 729.863,-81.1945"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="679.294,-114.607 673.378,-123.396 683.484,-120.215 679.294,-114.607"/>
 </g>
-<!-- Node13&#45;&gt;Node9 -->
-<g id="edge17" class="edge"><title>Node13&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M621.335,-60.2591C554.384,-48.7459 446.887,-30.2602 384.368,-19.5091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="620.865,-63.7296 631.314,-61.9751 622.051,-56.8309 620.865,-63.7296"/>
-</g>
-<!-- Node15&#45;&gt;Node11 -->
-<g id="edge20" class="edge"><title>Node15&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M1056.5,-126.133C1080.14,-118.709 1105.89,-106.6 1122.89,-87 1139.82,-67.4794 1142.08,-35.0707 1142.13,-19.6574"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1055.5,-122.779 1046.88,-128.942 1057.46,-129.499 1055.5,-122.779"/>
-</g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="EvtGenIF_8hpp.html" target="_top" xlink:title="Physics/EvtGen/EvtGenIF.hpp">
-<polygon fill="white" stroke="red" points="1169.89,-62 1169.89,-81 1321.89,-81 1321.89,-62 1169.89,-62"/>
-<text text-anchor="middle" x="1245.89" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/EvtGenIF.hpp</text>
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="DalitzPlot_8cpp.html" target="_top" xlink:title="Tools/Plotting/DalitzPlot.cpp">
+<polygon fill="white" stroke="black" points="995,-62 995,-81 1136,-81 1136,-62 995,-62"/>
+<text text-anchor="middle" x="1065.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/DalitzPlot.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
-<g id="edge21" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1041.36,-126.323C1090.13,-113.489 1169.08,-92.7118 1213.27,-81.0834"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1040.21,-123.006 1031.43,-128.936 1041.99,-129.775 1040.21,-123.006"/>
+<!-- Node11&#45;&gt;Node15 -->
+<g id="edge19" class="edge"><title>Node11&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M731.862,-126.32C799.006,-116.468 898.785,-101.471 985.5,-87 996.638,-85.1413 1008.63,-83.0283 1019.85,-81.0014"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="731.173,-122.884 721.786,-127.796 732.188,-129.81 731.173,-122.884"/>
+</g>
+<!-- Node14&#45;&gt;Node10 -->
+<g id="edge18" class="edge"><title>Node14&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M679.112,-60.33C608.516,-48.8218 494.786,-30.2822 428.699,-19.5091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="678.772,-63.8205 689.204,-61.9751 679.898,-56.9117 678.772,-63.8205"/>
+</g>
+<!-- Node16&#45;&gt;Node12 -->
+<g id="edge21" class="edge"><title>Node16&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1057.64,-127.532C1068.31,-126.006 1079.2,-124.455 1089.5,-123 1147.04,-114.871 1310.34,-130.826 1348.5,-87 1365.24,-67.7742 1349.42,-35.2227 1340.15,-19.7162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1056.91,-124.101 1047.51,-128.983 1057.9,-131.03 1056.91,-124.101"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="DalitzKinematics_8cpp.html" target="_top" xlink:title="Physics/EvtGen/DalitzKinematics.cpp">
-<polygon fill="white" stroke="black" points="1339.89,-62 1339.89,-81 1523.89,-81 1523.89,-62 1339.89,-62"/>
-<text text-anchor="middle" x="1431.89" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/DalitzKinematics.cpp</text>
+<g id="a_node17"><a xlink:href="EvtGenIF_8hpp.html" target="_top" xlink:title="Physics/EvtGen/EvtGenIF.hpp">
+<polygon fill="white" stroke="black" points="1154.5,-62 1154.5,-81 1306.5,-81 1306.5,-62 1154.5,-62"/>
+<text text-anchor="middle" x="1230.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/EvtGenIF.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node17 -->
-<g id="edge23" class="edge"><title>Node15&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M1065.98,-127.428C1150.82,-114.693 1295.4,-92.9893 1375.05,-81.0317"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1065.31,-123.99 1055.94,-128.936 1066.35,-130.912 1065.31,-123.99"/>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge22" class="edge"><title>Node16&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M1030.11,-126.323C1077.9,-113.489 1155.25,-92.7118 1198.54,-81.0834"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1029.14,-122.961 1020.39,-128.936 1030.95,-129.722 1029.14,-122.961"/>
 </g>
-<!-- Node16&#45;&gt;Node11 -->
-<g id="edge22" class="edge"><title>Node16&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M1222.12,-56.9006C1202.01,-45.3957 1173.82,-29.2667 1156.76,-19.5091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1220.57,-60.0471 1230.99,-61.9751 1224.04,-53.9712 1220.57,-60.0471"/>
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="DalitzKinematics_8cpp.html" target="_top" xlink:title="Physics/EvtGen/DalitzKinematics.cpp">
+<polygon fill="white" stroke="black" points="1400.5,-62 1400.5,-81 1584.5,-81 1584.5,-62 1400.5,-62"/>
+<text text-anchor="middle" x="1492.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/DalitzKinematics.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node18 -->
+<g id="edge25" class="edge"><title>Node16&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M1056.45,-127.536C1067.5,-125.977 1078.81,-124.415 1089.5,-123 1221.32,-105.551 1254.63,-104.011 1386.5,-87 1401.05,-85.1227 1416.72,-83.0233 1431.42,-81.0175"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1055.83,-124.09 1046.42,-128.962 1056.81,-131.02 1055.83,-124.09"/>
+</g>
+<!-- Node17&#45;&gt;Node9 -->
+<g id="edge24" class="edge"><title>Node17&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1171.1,-60.2544C1162.51,-58.8062 1153.78,-57.3513 1145.5,-56 1064.69,-42.8164 971.019,-28.3872 912.752,-19.5122"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1170.63,-63.7251 1181.08,-61.9448 1171.8,-56.8235 1170.63,-63.7251"/>
+</g>
+<!-- Node17&#45;&gt;Node12 -->
+<g id="edge23" class="edge"><title>Node17&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1254.27,-56.9006C1274.38,-45.3957 1302.57,-29.2667 1319.63,-19.5091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1252.34,-53.9712 1245.4,-61.9751 1255.82,-60.0471 1252.34,-53.9712"/>
 </g>
 </g>
 </svg>

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 756;
+var viewWidth = 926;
 var viewHeight = 151;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,24 +54,24 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>Tools/FitFractions.hpp</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-147 751.5,-147 751.5,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-147 921.5,-147 921.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="244.5,-123.5 244.5,-142.5 358.5,-142.5 358.5,-123.5 244.5,-123.5"/>
-<text text-anchor="middle" x="301.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="284.5,-123.5 284.5,-142.5 398.5,-142.5 398.5,-123.5 284.5,-123.5"/>
+<text text-anchor="middle" x="341.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="BuilderXML_8hpp.html" target="_top" xlink:title="Physics/BuilderXML.hpp">
-<polygon fill="white" stroke="black" points="239.5,-67.5 239.5,-86.5 363.5,-86.5 363.5,-67.5 239.5,-67.5"/>
-<text text-anchor="middle" x="301.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
+<polygon fill="white" stroke="black" points="279.5,-67.5 279.5,-86.5 403.5,-86.5 403.5,-67.5 279.5,-67.5"/>
+<text text-anchor="middle" x="341.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M301.5,-112.805C301.5,-103.91 301.5,-93.7798 301.5,-86.7511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="298,-113.083 301.5,-123.083 305,-113.083 298,-113.083"/>
+<path fill="none" stroke="midnightblue" d="M341.5,-112.805C341.5,-103.91 341.5,-93.7798 341.5,-86.7511"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="338,-113.083 341.5,-123.083 345,-113.083 338,-113.083"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -83,9 +83,9 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M275.065,-118.725C231.307,-96.7509 144.217,-53.0165 99.469,-30.5453"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="273.705,-121.959 284.213,-123.319 276.847,-115.703 273.705,-121.959"/>
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M311.752,-119.274C260.821,-97.4875 157.305,-53.2053 104.333,-30.5453"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="310.635,-122.604 321.206,-123.319 313.389,-116.168 310.635,-122.604"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -97,84 +97,97 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M270.793,-118.982C256.625,-111.535 240.72,-100.883 230.5,-87 218.1,-70.1559 213.792,-45.7377 212.295,-30.5064"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="269.259,-122.128 279.775,-123.415 272.357,-115.851 269.259,-122.128"/>
-</g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="EvtGenFit_8cpp.html" target="_top" xlink:title="Examples/EvtGen/EvtGenFit.cpp">
-<polygon fill="white" stroke="black" points="381.5,-67.5 381.5,-86.5 543.5,-86.5 543.5,-67.5 381.5,-67.5"/>
-<text text-anchor="middle" x="462.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/EvtGen/EvtGenFit.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M336.765,-120.172C367.081,-110.004 410.07,-95.5852 437.108,-86.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="335.379,-116.945 327.011,-123.444 337.605,-123.582 335.379,-116.945"/>
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M316.253,-118.568C302.065,-110.41 284.457,-99.2274 270.5,-87 250.812,-69.7519 232.136,-45.6697 221.255,-30.5882"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="314.576,-121.641 325.011,-123.474 317.997,-115.533 314.576,-121.641"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="FitFractions_8cpp.html" target="_top" xlink:title="Tools/FitFractions.cpp">
-<polygon fill="white" stroke="black" points="561.5,-67.5 561.5,-86.5 675.5,-86.5 675.5,-67.5 561.5,-67.5"/>
-<text text-anchor="middle" x="618.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.cpp</text>
+<g id="a_node9"><a xlink:href="EvtGenFit_8cpp.html" target="_top" xlink:title="Examples/EvtGen/EvtGenFit.cpp">
+<polygon fill="white" stroke="black" points="421.5,-67.5 421.5,-86.5 583.5,-86.5 583.5,-67.5 421.5,-67.5"/>
+<text text-anchor="middle" x="502.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/EvtGen/EvtGenFit.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge10" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M361.803,-121.727C421.707,-111.523 512.491,-96.0583 568.505,-86.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="361,-118.314 351.73,-123.444 362.175,-125.214 361,-118.314"/>
+<path fill="none" stroke="midnightblue" d="M376.765,-120.172C407.081,-110.004 450.07,-95.5852 477.108,-86.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="375.379,-116.945 367.011,-123.444 377.605,-123.582 375.379,-116.945"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="FitFractions_8cpp.html" target="_top" xlink:title="Tools/FitFractions.cpp">
+<polygon fill="white" stroke="black" points="601.5,-67.5 601.5,-86.5 715.5,-86.5 715.5,-67.5 601.5,-67.5"/>
+<text text-anchor="middle" x="658.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M401.803,-121.727C461.707,-111.523 552.491,-96.0583 608.505,-86.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="401,-118.314 391.73,-123.444 402.175,-125.214 401,-118.314"/>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M258.434,-64.859C220.881,-55.1442 166.227,-41.0055 125.706,-30.523"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="257.989,-68.359 268.547,-67.4751 259.742,-61.5821 257.989,-68.359"/>
+<path fill="none" stroke="midnightblue" d="M292.909,-65.292C248.783,-55.568 183.413,-41.1623 135.134,-30.523"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="292.297,-68.7409 302.816,-67.4751 293.803,-61.905 292.297,-68.7409"/>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M279.929,-61.739C265.625,-52.2824 246.941,-39.9304 232.711,-30.523"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="278.333,-64.8798 288.605,-67.4751 282.194,-59.0405 278.333,-64.8798"/>
+<path fill="none" stroke="midnightblue" d="M313.534,-63.2003C292.525,-53.5845 263.769,-40.4232 242.138,-30.523"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="312.325,-66.4958 322.874,-67.4751 315.238,-60.1308 312.325,-66.4958"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
-<polygon fill="white" stroke="black" points="279.5,-6 279.5,-25 421.5,-25 421.5,-6 279.5,-6"/>
-<text text-anchor="middle" x="350.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
+<polygon fill="white" stroke="black" points="633.5,-6 633.5,-25 775.5,-25 775.5,-6 633.5,-6"/>
+<text text-anchor="middle" x="704.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M314.949,-59.6685C324.187,-48.452 336.075,-34.0161 343.493,-25.0091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="312.176,-57.5308 308.521,-67.4751 317.579,-61.9808 312.176,-57.5308"/>
+<path fill="none" stroke="midnightblue" d="M407.43,-65.9291C464.828,-57.063 550.242,-43.632 624.5,-31 635.493,-29.13 647.32,-27.0333 658.419,-25.0279"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="406.753,-62.4922 397.403,-67.4756 407.82,-69.4104 406.753,-62.4922"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="BuilderXML_8cpp.html" target="_top" xlink:title="Physics/BuilderXML.cpp">
-<polygon fill="white" stroke="black" points="439.5,-6 439.5,-25 563.5,-25 563.5,-6 439.5,-6"/>
-<text text-anchor="middle" x="501.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.cpp</text>
+<polygon fill="white" stroke="black" points="793.5,-6 793.5,-25 917.5,-25 917.5,-6 793.5,-6"/>
+<text text-anchor="middle" x="855.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M340.059,-64.5286C378.93,-52.9647 438.021,-35.3849 472.898,-25.0091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="338.742,-61.2689 330.155,-67.4751 340.738,-67.9782 338.742,-61.2689"/>
+<path fill="none" stroke="midnightblue" d="M413.858,-66.8845C579.291,-48.8189 623.442,-55.1709 784.5,-31 795.2,-29.3942 806.723,-27.231 817.309,-25.066"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="413.38,-63.4159 403.826,-67.9936 414.15,-70.3735 413.38,-63.4159"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="BOSSAdapter_8cpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.cpp">
-<polygon fill="white" stroke="black" points="581.5,-6 581.5,-25 747.5,-25 747.5,-6 581.5,-6"/>
-<text text-anchor="middle" x="664.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.cpp</text>
+<g id="a_node7"><a xlink:href="EvtGenIF_8cpp.html" target="_top" xlink:title="Physics/EvtGen/EvtGenIF.cpp">
+<polygon fill="white" stroke="black" points="279.5,-6 279.5,-25 431.5,-25 431.5,-6 279.5,-6"/>
+<text text-anchor="middle" x="355.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/EvtGen/EvtGenIF.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M363.546,-65.83C433.755,-54.3218 546.862,-35.7822 612.587,-25.0091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="362.811,-62.4036 353.509,-67.4751 363.944,-69.3114 362.811,-62.4036"/>
+<path fill="none" stroke="midnightblue" d="M345.816,-57.6575C348.377,-46.7724 351.503,-33.4863 353.498,-25.0091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="342.389,-56.9393 343.506,-67.4751 349.203,-58.5426 342.389,-56.9393"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="BOSSAdapter_8cpp.html" target="_top" xlink:title="Tools/Adapters/BOSSAdapter.cpp">
+<polygon fill="white" stroke="black" points="449.5,-6 449.5,-25 615.5,-25 615.5,-6 449.5,-6"/>
+<text text-anchor="middle" x="532.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Adapters/BOSSAdapter.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node2&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M378.799,-64.3806C415.925,-52.8152 472.02,-35.3407 505.185,-25.0091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="377.372,-61.1592 368.866,-67.4751 379.454,-67.8424 377.372,-61.1592"/>
 </g>
 </g>
 </svg>

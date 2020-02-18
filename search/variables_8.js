@@ -7,6 +7,7 @@ var searchData=
   ['hasstarted',['hasStarted',['../classComPWA_1_1ProgressBar.html#a73440a47f572e73adf3155c50f5f404d',1,'ComPWA::ProgressBar']]],
   ['hasvalidcov',['HasValidCov',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#ac507bde391377616cef3a66a52775e7d',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
   ['hasvalidparameters',['HasValidParameters',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a3bb490f202ddc3a8840bc20254fa0f53',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['helicities',['Helicities',['../structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html#ad152580a5754da9bbd49d1fef5af7b4d',1,'ComPWA::Physics::TwoBodyDecayInfo']]],
   ['helkin',['HelKin',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a29d1c1f706d2aa6e27edce73365c55e8',1,'ComPWA::Tools::Plotting::DalitzPlot']]],
   ['hessefailed',['HesseFailed',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a1e9a843ed119b6f8205b904071eac80e',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
   ['hessiang2tolerance',['HessianG2Tolerance',['../classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html#ad52c16181153965d7add5e9bcf035028',1,'ComPWA::Optimizer::Minuit2::MinuitIF']]],

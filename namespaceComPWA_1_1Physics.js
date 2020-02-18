@@ -6,5 +6,6 @@ var namespaceComPWA_1_1Physics =
     [ "IntegrationSample", "classComPWA_1_1Physics_1_1IntegrationSample.html", "classComPWA_1_1Physics_1_1IntegrationSample" ],
     [ "IntensityBuilderXML", "classComPWA_1_1Physics_1_1IntensityBuilderXML.html", "classComPWA_1_1Physics_1_1IntensityBuilderXML" ],
     [ "ParticleStateTransitionKinematicsInfo", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo" ],
-    [ "SubSystem", "classComPWA_1_1Physics_1_1SubSystem.html", "classComPWA_1_1Physics_1_1SubSystem" ]
+    [ "SubSystem", "classComPWA_1_1Physics_1_1SubSystem.html", "classComPWA_1_1Physics_1_1SubSystem" ],
+    [ "TwoBodyDecayInfo", "structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html", "structComPWA_1_1Physics_1_1TwoBodyDecayInfo" ]
 ];

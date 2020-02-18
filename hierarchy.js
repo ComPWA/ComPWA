@@ -132,6 +132,7 @@ var hierarchy =
     ] ],
     [ "ComPWA::Physics::SubSystem", "classComPWA_1_1Physics_1_1SubSystem.html", null ],
     [ "ComPWA::TableFormatter", "classComPWA_1_1TableFormatter.html", null ],
+    [ "ComPWA::Physics::TwoBodyDecayInfo", "structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html", null ],
     [ "UniformRealDistribution", "classUniformRealDistribution.html", null ],
     [ "ComPWA::UniformRealNumberGenerator", "classComPWA_1_1UniformRealNumberGenerator.html", [
       [ "ComPWA::Data::Root::RootUniformRealGenerator", "classComPWA_1_1Data_1_1Root_1_1RootUniformRealGenerator.html", null ],

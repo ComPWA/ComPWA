@@ -5,7 +5,7 @@ var searchData=
   ['lastupdate',['lastUpdate',['../classComPWA_1_1ProgressBar.html#acb40781f65162a830f07acae64cc7792',1,'ComPWA::ProgressBar']]],
   ['level',['Level',['../classComPWA_1_1Logging.html#a691404c4796b218ec860620afa17bdc8',1,'ComPWA::Logging']]],
   ['lhscan',['LHSCAN',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7abcc10694403ba8281342b9d70ad3f13c',1,'ComPWA::FunctionTree']]],
-  ['load',['load',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aebdd34e958201f61fbfb2c388111e38f',1,'ComPWA::FunctionTree::FitParameter::load()'],['../classComPWA_1_1Physics_1_1SubSystem.html#ae50e60edce4f2aba6a8b58cc6480dd34',1,'ComPWA::Physics::SubSystem::load()']]],
+  ['load',['load',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aebdd34e958201f61fbfb2c388111e38f',1,'ComPWA::FunctionTree::FitParameter']]],
   ['logging',['Logging',['../classComPWA_1_1Logging.html',1,'ComPWA']]],
   ['logging',['Logging',['../classComPWA_1_1Logging.html#a4d2d23a87a0b4ff3c316ee8dccf8355b',1,'ComPWA::Logging']]],
   ['logging_2ecpp',['Logging.cpp',['../Logging_8cpp.html',1,'']]],
