@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['indexlist',['IndexList',['../namespaceComPWA.html#ae6e7133b1bee4d3e7d0d01f1cdb49278',1,'ComPWA']]],
-  ['indexlisttuple',['IndexListTuple',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#af8f32f251b05b3dc8a443d9f216764cc',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['intensity',['Intensity',['../namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47',1,'ComPWA']]],
-  ['intensitycomponent',['IntensityComponent',['../namespaceComPWA_1_1Tools.html#abc6f6850d3bfbe0b5c46c85d63f207fd',1,'ComPWA::Tools']]],
-  ['internal_5ftype',['internal_type',['../structBoolTranslator.html#a938206cc2fbb688746d4b70a8a107653',1,'BoolTranslator']]]
+  ['fitfractionlist',['FitFractionList',['../namespaceComPWA_1_1Tools.html#a13902a3c2ec76e0900247f3568b79e37',1,'ComPWA::Tools']]],
+  ['fitparameterlist',['FitParameterList',['../namespaceComPWA.html#ac01ae5d2537b3632cdd0f303f1c8c5d2',1,'ComPWA']]]
 ];

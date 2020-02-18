@@ -1,5 +1,15 @@
 var NAVTREEINDEX4 =
 {
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#aeb1e89ea15af5d80e84d1ecb02f48af8":[3,0,0,4,1,1,7],
+"classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#afe665aad8041f497dcb1f81242da3414":[3,0,0,4,1,1,13],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html":[3,0,0,4,2,0],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a3f949f3d7d8b80f1b53c9789cab3ed67":[3,0,0,4,2,0,8],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a43ed47f2b3febe01dd70cf39e1728d49":[3,0,0,4,2,0,6],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4572355c1a9cf65a43cbf622f6019013":[3,0,0,4,2,0,21],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a47bda13a282c31742919a89846a9dfe2":[3,0,0,4,2,0,12],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4f73769f506f31fb384a614fdf1c1fc8":[3,0,0,4,2,0,10],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a5d2d1497e7141868e52d2844912dee84":[3,0,0,4,2,0,19],
+"classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a6b534dbb916ac0cbb77a63aea4007ecd":[3,0,0,4,2,0,4],
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a8049d6ca44cc373f88e9dd03c99f2263":[3,0,0,4,2,0,0],
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a827cb554f21c8cfbae10e13ca05e0353":[3,0,0,4,2,0,2],
 "classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a83f2aa2395327d545d579c83106f3b2a":[3,0,0,4,2,0,22],
@@ -239,15 +249,5 @@ var NAVTREEINDEX4 =
 "dir_db7498b03d5368fa3321dfdf97dd487a.html":[4,0,6,1],
 "dir_dba38d83a669f82d0ee1a3cc97eecb47.html":[4,0,5,0,0],
 "dir_e3918efd4a2ef94b00e1be625278c89d.html":[4,0,0,0],
-"dir_e3d743d0ec9b4013b28b5d69101bc7fb.html":[4,0,1],
-"dir_f027470ebaaffe758102519531280f91.html":[4,0,3,3],
-"dir_f5d0c046a3677bc908b9b94b66d5db7d.html":[4,0,3,1],
-"dir_fd3a82303f5206df56505f8b5712131f.html":[4,0,5],
-"files.html":[4,0],
-"functions.html":[3,3,0,0],
-"functions.html":[3,3,0],
-"functions_0x7e.html":[3,3,0,23],
-"functions_a.html":[3,3,0,1],
-"functions_b.html":[3,3,0,2],
-"functions_c.html":[3,3,0,3]
+"dir_e3d743d0ec9b4013b28b5d69101bc7fb.html":[4,0,1]
 };

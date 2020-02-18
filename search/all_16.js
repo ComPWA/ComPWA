@@ -9,7 +9,7 @@ var searchData=
   ['what',['what',['../classComPWA_1_1Exception.html#af7d606ebef539962a205e19e84d91060',1,'ComPWA::Exception']]],
   ['what_5f',['what_',['../classComPWA_1_1Exception.html#a73a94c34eebba67674124d3ea5de254b',1,'ComPWA::Exception']]],
   ['width',['Width',['../structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html#a6a4849b65a692d884151945428565971',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner::InputInfo']]],
-  ['widthtocoupling',['widthToCoupling',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#ac2da0fa84944ae1561036594d882df0b',1,'ComPWA::Physics::Dynamics::widthToCoupling(double mR, double width, std::complex&lt; double &gt; gamma, std::complex&lt; double &gt; phspFactor)'],['../namespaceComPWA_1_1Physics_1_1Dynamics.html#aef1b4d49d2902e86bdc6465526aabd8d',1,'ComPWA::Physics::Dynamics::widthToCoupling(double sqrtS, double mR, double width, double ma, double mb, double orbitL, double mesonRadius, FormFactorType type)']]],
+  ['widthtocoupling',['widthToCoupling',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#ac2da0fa84944ae1561036594d882df0b',1,'ComPWA::Physics::Dynamics']]],
   ['wignerd_2ecpp',['WignerD.cpp',['../WignerD_8cpp.html',1,'']]],
   ['wignerd_2ehpp',['WignerD.hpp',['../WignerD_8hpp.html',1,'']]],
   ['wignerdstrategy',['WignerDStrategy',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1WignerDStrategy.html#adf5e8e31cd3110cdd8d0c473fe66ff42',1,'ComPWA::Physics::HelicityFormalism::WignerDStrategy']]],

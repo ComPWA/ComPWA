@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['value',['Value',['../classComPWA_1_1FunctionTree_1_1Value.html',1,'ComPWA::FunctionTree']]],
-  ['voigtianstrategy',['VoigtianStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1VoigtianStrategy.html',1,'ComPWA::Physics::Dynamics']]]
+  ['uniformrealdistribution',['UniformRealDistribution',['../classUniformRealDistribution.html',1,'']]],
+  ['uniformrealnumbergenerator',['UniformRealNumberGenerator',['../classComPWA_1_1UniformRealNumberGenerator.html',1,'ComPWA']]],
+  ['unitcorrection',['UnitCorrection',['../classComPWA_1_1Data_1_1UnitCorrection.html',1,'ComPWA::Data']]],
+  ['unitefficiency',['UnitEfficiency',['../classComPWA_1_1UnitEfficiency.html',1,'ComPWA']]]
 ];

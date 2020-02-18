@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datamap',['DataMap',['../namespaceComPWA.html#ac585acf50723a31723c6d2aec1e159f5',1,'ComPWA']]]
+  ['cmplx',['cmplx',['../Faddeeva_8cc.html#a57f4abacd6cf20e044c249fb162f706c',1,'Faddeeva.cc']]]
 ];

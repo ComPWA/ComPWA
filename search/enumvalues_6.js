@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['integer',['INTEGER',['../namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2baa92ca961b3501c680ce1d8d5e1916070f',1,'ComPWA::FunctionTree']]]
+  ['lhscan',['LHSCAN',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7abcc10694403ba8281342b9d70ad3f13c',1,'ComPWA::FunctionTree']]]
 ];

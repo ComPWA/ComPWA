@@ -49,6 +49,11 @@ var hierarchy =
       [ "ComPWA::Optimizer::Geneva::GenevaResult", "structComPWA_1_1Optimizer_1_1Geneva_1_1GenevaResult.html", null ],
       [ "ComPWA::Optimizer::Minuit2::MinuitResult", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html", null ]
     ] ],
+    [ "ComPWA::Physics::Dynamics::FormFactor", "classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html", [
+      [ "ComPWA::Physics::Dynamics::BlattWeisskopfFormFactor", "classComPWA_1_1Physics_1_1Dynamics_1_1BlattWeisskopfFormFactor.html", null ],
+      [ "ComPWA::Physics::Dynamics::CrystalBarrelFormFactor", "classComPWA_1_1Physics_1_1Dynamics_1_1CrystalBarrelFormFactor.html", null ],
+      [ "ComPWA::Physics::Dynamics::NoFormFactor", "classComPWA_1_1Physics_1_1Dynamics_1_1NoFormFactor.html", null ]
+    ] ],
     [ "ComPWA::FourMomentum", "classComPWA_1_1FourMomentum.html", null ],
     [ "ComPWA::Function< OutputType, InputTypes >", "classComPWA_1_1Function.html", [
       [ "ComPWA::FunctionTree::FunctionTreeIntensity", "classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html", null ],
@@ -87,11 +92,11 @@ var hierarchy =
     [ "ComPWA::Optimizer::Optimizer< MinuitResult >", "classComPWA_1_1Optimizer_1_1Optimizer.html", [
       [ "ComPWA::Optimizer::Minuit2::MinuitIF", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html", null ]
     ] ],
-    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::Parameter", "classComPWA_1_1FunctionTree_1_1Parameter.html", [
       [ "ComPWA::FunctionTree::FitParameter", "classComPWA_1_1FunctionTree_1_1FitParameter.html", null ],
       [ "ComPWA::FunctionTree::Value< T >", "classComPWA_1_1FunctionTree_1_1Value.html", null ]
     ] ],
+    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::ParameterList", "classComPWA_1_1FunctionTree_1_1ParameterList.html", null ],
     [ "ComPWA::FunctionTree::ParObserver", "classComPWA_1_1FunctionTree_1_1ParObserver.html", [
       [ "ComPWA::FunctionTree::TreeNode", "classComPWA_1_1FunctionTree_1_1TreeNode.html", null ]

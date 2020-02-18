@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['squareroot',['SquareRoot',['../classComPWA_1_1FunctionTree_1_1SquareRoot.html',1,'ComPWA::FunctionTree']]],
-  ['stduniformrealgenerator',['StdUniformRealGenerator',['../classComPWA_1_1StdUniformRealGenerator.html',1,'ComPWA']]],
-  ['strategy',['Strategy',['../classComPWA_1_1FunctionTree_1_1Strategy.html',1,'ComPWA::FunctionTree']]],
-  ['subsystem',['SubSystem',['../classComPWA_1_1Physics_1_1SubSystem.html',1,'ComPWA::Physics']]],
-  ['summinloglh',['SumMinLogLH',['../classComPWA_1_1Estimator_1_1SumMinLogLH.html',1,'ComPWA::Estimator']]]
+  ['resolution',['Resolution',['../classComPWA_1_1Resolution.html',1,'ComPWA']]],
+  ['rootangleefficiency',['RootAngleEfficiency',['../classComPWA_1_1Data_1_1Root_1_1RootAngleEfficiency.html',1,'ComPWA::Data::Root']]],
+  ['rootefficiency',['RootEfficiency',['../classComPWA_1_1Data_1_1Root_1_1RootEfficiency.html',1,'ComPWA::Data::Root']]],
+  ['rootgenerator',['RootGenerator',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html',1,'ComPWA::Data::Root']]],
+  ['rootplotdata',['RootPlotData',['../classComPWA_1_1Tools_1_1Plotting_1_1RootPlotData.html',1,'ComPWA::Tools::Plotting']]],
+  ['rootuniformrealgenerator',['RootUniformRealGenerator',['../classComPWA_1_1Data_1_1Root_1_1RootUniformRealGenerator.html',1,'ComPWA::Data::Root']]]
 ];

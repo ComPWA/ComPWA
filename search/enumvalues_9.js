@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['noformfactor',['noFormFactor',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494bae7d6ed1e030a2e679f07076ae96babce',1,'ComPWA::Physics::Dynamics']]],
-  ['notdef',['NOTDEF',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7af76797d3e6bc6dd3d120e4c89e30bfcf',1,'ComPWA::FunctionTree']]]
+  ['particle_5fswarm',['PARTICLE_SWARM',['../namespaceComPWA_1_1Optimizer_1_1Geneva.html#a95c49eeff7bf2a0a6bc4e84c83d5b627a7f1a205245f67ce729c81494b447c56e',1,'ComPWA::Optimizer::Geneva']]]
 ];

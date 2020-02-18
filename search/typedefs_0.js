@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cmplx',['cmplx',['../Faddeeva_8cc.html#a57f4abacd6cf20e044c249fb162f706c',1,'Faddeeva.cc']]]
+  ['breitwignerfunction',['BreitWignerFunction',['../namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#a49d73375c8bc01d84aa066eabce986fb',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner']]]
 ];

@@ -4,7 +4,7 @@ var searchData=
   ['nan',['NaN',['../Faddeeva_8cc.html#a953f667fb27fb68dd74a487d002b19b5',1,'Faddeeva.cc']]],
   ['next',['next',['../classComPWA_1_1ProgressBar.html#a08ed8f3313a0018addae62287749190c',1,'ComPWA::ProgressBar']]],
   ['nfcn',['NFcn',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af74ba55e136d8e4f8308bb9db1ef6297',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
-  ['noformfactor',['noFormFactor',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494bae7d6ed1e030a2e679f07076ae96babce',1,'ComPWA::Physics::Dynamics']]],
+  ['noformfactor',['NoFormFactor',['../classComPWA_1_1Physics_1_1Dynamics_1_1NoFormFactor.html',1,'ComPWA::Physics::Dynamics']]],
   ['normalizationvalues',['NormalizationValues',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a4f8792d100e1779e7d8e8ad7cabb7a70',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
   ['normalizeintensityft',['normalizeIntensityFT',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a0359a543cc218c2cecfac064f09347dc',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['notdef',['NOTDEF',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7af76797d3e6bc6dd3d120e4c89e30bfcf',1,'ComPWA::FunctionTree']]],

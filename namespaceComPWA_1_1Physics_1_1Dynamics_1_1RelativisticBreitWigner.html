@@ -114,6 +114,7 @@ $(document).ready(function(){initNavTree('namespaceComPWA_1_1Physics_1_1Dynamics
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ComPWA::Physics::Dynamics::RelativisticBreitWigner Namespace Reference</div>  </div>
@@ -125,14 +126,37 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html">InputInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a49d73375c8bc01d84aa066eabce986fb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#a49d73375c8bc01d84aa066eabce986fb">BreitWignerFunction</a> = std::function&lt; std::complex&lt; double &gt;(double, double, double, double, double, unsigned int, double, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a> &gt;)&gt;</td></tr>
+<tr class="separator:a49d73375c8bc01d84aa066eabce986fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad43fd2522c5f806b435d42aa5d057df2"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#ad43fd2522c5f806b435d42aa5d057df2">dynamicalFunction</a> (double mSq, double mR, double ma, double mb, double width, unsigned int L, double mesonRadius, <a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494b">FormFactorType</a> ffType)</td></tr>
-<tr class="memdesc:ad43fd2522c5f806b435d42aa5d057df2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relativistic Breit-Wigner model with barrier factors.  <a href="#ad43fd2522c5f806b435d42aa5d057df2">More...</a><br /></td></tr>
-<tr class="separator:ad43fd2522c5f806b435d42aa5d057df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac27fe72fe4ea2a7fa75feef5de06327"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#aac27fe72fe4ea2a7fa75feef5de06327">relativisticBreitWigner</a> (double mSq, double mR, double ma, double mb, double width, unsigned int L, double mesonRadius, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a> &gt; FormFactorFunctor)</td></tr>
+<tr class="memdesc:aac27fe72fe4ea2a7fa75feef5de06327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relativistic Breit-Wigner model with barrier factors.  <a href="#aac27fe72fe4ea2a7fa75feef5de06327">More...</a><br /></td></tr>
+<tr class="separator:aac27fe72fe4ea2a7fa75feef5de06327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8598dfe2ffb7bc448e792648d5512a09"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#a8598dfe2ffb7bc448e792648d5512a09">relativisticBreitWignerAnalyticCont</a> (double mSq, double mR, double ma, double mb, double width, unsigned int L, double mesonRadius, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a> &gt; FormFactorFunctor)</td></tr>
+<tr class="memdesc:a8598dfe2ffb7bc448e792648d5512a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relativistic Breit-Wigner model with barrier factors.  <a href="#a8598dfe2ffb7bc448e792648d5512a09">More...</a><br /></td></tr>
+<tr class="separator:a8598dfe2ffb7bc448e792648d5512a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcf376af78d45ab5b5d80625745d211"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">ComPWA::FunctionTree::TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#a5fcf376af78d45ab5b5d80625745d211">createFunctionTree</a> (<a class="el" href="structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html">InputInfo</a> Params, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt;&gt;&gt; InvMassSquared)</td></tr>
 <tr class="separator:a5fcf376af78d45ab5b5d80625745d211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a49d73375c8bc01d84aa066eabce986fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html#a49d73375c8bc01d84aa066eabce986fb">ComPWA::Physics::Dynamics::RelativisticBreitWigner::BreitWignerFunction</a> = typedef std::function&lt;std::complex&lt;double&gt;( double, double, double, double, double, unsigned int, double, std::shared_ptr&lt;<a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a>&gt;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="RelativisticBreitWigner_8hpp_source.html#l00039">39</a> of file <a class="el" href="RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a5fcf376af78d45ab5b5d80625745d211"></a>
 <div class="memitem">
@@ -162,7 +186,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad43fd2522c5f806b435d42aa5d057df2"></a>
+<a class="anchor" id="aac27fe72fe4ea2a7fa75feef5de06327"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -170,7 +194,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::complex&lt;double&gt; ComPWA::Physics::Dynamics::RelativisticBreitWigner::dynamicalFunction </td>
+          <td class="memname">std::complex&lt;double&gt; ComPWA::Physics::Dynamics::RelativisticBreitWigner::relativisticBreitWigner </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>mSq</em>, </td>
@@ -214,8 +238,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494b">FormFactorType</a>&#160;</td>
-          <td class="paramname"><em>ffType</em>&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a> &gt;&#160;</td>
+          <td class="paramname"><em>FormFactorFunctor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -249,13 +273,110 @@ Functions</h2></td></tr>
     <tr><td class="paramname">width</td><td>Decay width </td></tr>
     <tr><td class="paramname">L</td><td>Orbital angular momentum between two daughters a and b </td></tr>
     <tr><td class="paramname">mesonRadius</td><td>Meson Radius </td></tr>
-    <tr><td class="paramname">ffType</td><td>Form factor type </td></tr>
+    <tr><td class="paramname">FormFactorFunctor</td><td>Form factor functor </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Amplitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="RelativisticBreitWigner_8hpp_source.html#l00072">72</a> of file <a class="el" href="RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+<p>Definition at line <a class="el" href="RelativisticBreitWigner_8hpp_source.html#l00077">77</a> of file <a class="el" href="RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8598dfe2ffb7bc448e792648d5512a09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::complex&lt;double&gt; ComPWA::Physics::Dynamics::RelativisticBreitWigner::relativisticBreitWignerAnalyticCont </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mSq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mesonRadius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">FormFactor</a> &gt;&#160;</td>
+          <td class="paramname"><em>FormFactorFunctor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Relativistic Breit-Wigner model with barrier factors. </p>
+<p>The dynamical function implemented here is taken from PDG2018 (Eq.48.22) for the one channel case. The dynamic reaction </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mathcal{A}_R(s) = \frac{g_p*g}{s - M_R^2 + i \sqrt{s} \Gamma_R B^2} \]" src="form_12.png"/>
+</p>
+<p> <img class="formulaInl" alt="$ g_p, g$" src="form_13.png"/> are the coupling constants for production and decay and the barrier term <img class="formulaInl" alt="$ B^2$" src="form_14.png"/> is parameterized according to Eq.48.23: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right)^{2L+1} \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{F(\sqrt{s})}{F(\sqrt{s_R})} \right)^{2} \]" src="form_15.png"/>
+</p>
+<p> This corresponds to the Blatt Weisskopf form factors B_L like </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ B^2 = \left( \frac{q(\sqrt{s})}{q(M_R)} \right) \times \left( \frac{M_R}{\sqrt{s}} \right) \times \left( \frac{B_L(\sqrt{s})}{B_L(\sqrt{s_R})} \right)^{2} \]" src="form_16.png"/>
+</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mSq</td><td>Invariant mass squared </td></tr>
+    <tr><td class="paramname">mR</td><td>Mass of the resonant state </td></tr>
+    <tr><td class="paramname">ma</td><td>Mass of daughter particle </td></tr>
+    <tr><td class="paramname">mb</td><td>Mass of daughter particle </td></tr>
+    <tr><td class="paramname">width</td><td>Decay width </td></tr>
+    <tr><td class="paramname">L</td><td>Orbital angular momentum between two daughters a and b </td></tr>
+    <tr><td class="paramname">mesonRadius</td><td>Meson Radius </td></tr>
+    <tr><td class="paramname">FormFactorFunctor</td><td>Form factor functor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Amplitude value </dd></dl>
+
+<p>Definition at line <a class="el" href="RelativisticBreitWigner_8hpp_source.html#l00146">146</a> of file <a class="el" href="RelativisticBreitWigner_8hpp_source.html">RelativisticBreitWigner.hpp</a>.</p>
 
 </div>
 </div>
@@ -266,7 +387,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Physics.html">Physics</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html">Dynamics</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner.html">RelativisticBreitWigner</a></li>
-    <li class="footer">Generated on Thu Feb 13 2020 16:31:17 for ComPWA by
+    <li class="footer">Generated on Tue Feb 18 2020 13:19:53 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

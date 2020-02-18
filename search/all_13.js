@@ -23,7 +23,7 @@ var searchData=
   ['treenode_2ehpp',['TreeNode.hpp',['../TreeNode_8hpp.html',1,'']]],
   ['trimstring',['trimString',['../classComPWA_1_1TableFormatter.html#a16167309650c74919bc8354fd838ae5e',1,'ComPWA::TableFormatter']]],
   ['truephspsample',['TruePhspSample',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a303bfd21dabfb13afc3a1e1dd4422f5b',1,'ComPWA::Physics::IntensityBuilderXML']]],
-  ['type',['type',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a3dde26e8236c84a518d5b39324ccd99a',1,'ComPWA::FunctionTree::Parameter::type() const '],['../classComPWA_1_1FunctionTree_1_1Parameter.html#ab904f39ac1b246df9f69d7c3c36e2d91',1,'ComPWA::FunctionTree::Parameter::Type()']]],
+  ['type',['Type',['../classComPWA_1_1FunctionTree_1_1Parameter.html#ab904f39ac1b246df9f69d7c3c36e2d91',1,'ComPWA::FunctionTree::Parameter::Type()'],['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a43cd9038f0d104cdf0d4118b9093045c',1,'ComPWA::Physics::Dynamics::InputInfo::Type()'],['../classComPWA_1_1FunctionTree_1_1Parameter.html#a3dde26e8236c84a518d5b39324ccd99a',1,'ComPWA::FunctionTree::Parameter::type()']]],
   ['typename',['typeName',['../namespaceComPWA_1_1FunctionTree.html#a59eeac9c430c20dd70f88136bb74d7a4',1,'ComPWA::FunctionTree']]],
   ['typename_3c_20double_20_3e',['typeName&lt; double &gt;',['../namespaceComPWA_1_1FunctionTree.html#acd668c0528fd5e06fbbf7969d3cf29c6',1,'ComPWA::FunctionTree']]],
   ['typename_3c_20int_20_3e',['typeName&lt; int &gt;',['../namespaceComPWA_1_1FunctionTree.html#a308a9a4ba08cc642ff1a9750bc83bf6e',1,'ComPWA::FunctionTree']]]

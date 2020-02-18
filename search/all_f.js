@@ -1,8 +1,8 @@
 var searchData=
 [
   ['p4',['P4',['../classComPWA_1_1FourMomentum.html#af628fd6c1e04250cf0cb2cb2441fd19a',1,'ComPWA::FourMomentum::P4()'],['../classComPWA_1_1Particle.html#a879ee936e6ce8593dac3aa18a66fcdc3',1,'ComPWA::Particle::P4()']]],
-  ['parameter',['Parameter',['../classComPWA_1_1FunctionTree_1_1Parameter.html',1,'ComPWA::FunctionTree']]],
   ['parameter',['Parameter',['../structComPWA_1_1Parameter.html',1,'ComPWA']]],
+  ['parameter',['Parameter',['../classComPWA_1_1FunctionTree_1_1Parameter.html',1,'ComPWA::FunctionTree']]],
   ['parameter',['Parameter',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a765417079723e363198712b08c9112f2',1,'ComPWA::FunctionTree::Parameter::Parameter()'],['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a93694e671bbe52573fd8f23c83a7b0ee',1,'ComPWA::FunctionTree::TreeNode::parameter()']]],
   ['parameter_2ehpp',['Parameter.hpp',['../Parameter_8hpp.html',1,'']]],
   ['parameterfixed',['ParameterFixed',['../classComPWA_1_1ParameterFixed.html',1,'ComPWA']]],
@@ -38,10 +38,11 @@ var searchData=
   ['phspcontour',['phspContour',['../namespaceComPWA_1_1Tools_1_1Plotting.html#abb8bd17f7b28cba007d0b681ad17af5c',1,'ComPWA::Tools::Plotting']]],
   ['phspdata',['PhspData',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abfa584a1ccc381745c8f6035d4bdb0fd',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['phspdatasample',['PhspDataSample',['../classComPWA_1_1Estimator_1_1MinLogLH.html#aa430ba4774a2179af016256065c10e24',1,'ComPWA::Estimator::MinLogLH']]],
-  ['phspfactor',['phspFactor',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a9ae889f4a9b1635016c325f233054cf9',1,'ComPWA::Physics::Dynamics']]],
+  ['phspfactor',['phspFactor',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#af6f99ef55410b5d74bce031a785744f1',1,'ComPWA::Physics::Dynamics']]],
+  ['phspfactorac',['phspFactorAC',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a38b8b288fd141cd1e6cedcdf6dc4782a',1,'ComPWA::Physics::Dynamics']]],
   ['phsprecodata',['PhspRecoData',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a04b2cab62a3477523b6f9b03561b66b6',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['phspsample',['PhspSample',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#afe665aad8041f497dcb1f81242da3414',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
-  ['phspvolume',['phspVolume',['../classComPWA_1_1Kinematics.html#a08c3ac264f7abaa82ecb19da5649a28a',1,'ComPWA::Kinematics::phspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a6e40df942c845e989c3bbcd734240944',1,'ComPWA::Physics::EvtGen::DalitzKinematics::phspVolume()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a47bda13a282c31742919a89846a9dfe2',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::phspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a035e5c7606c6ca4fbab916d2512b19d7',1,'ComPWA::Physics::EvtGen::DalitzKinematics::PhspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a653a8836a2c47558b91060a2c85f2754',1,'ComPWA::Physics::EvtGen::EvtGenIF::PhspVolume()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4572355c1a9cf65a43cbf622f6019013',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::PhspVolume()'],['../namespaceComPWA_1_1Physics.html#a503c889052b196aa28cf931b30655e53',1,'ComPWA::Physics::PhspVolume()']]],
+  ['phspvolume',['PhspVolume',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a035e5c7606c6ca4fbab916d2512b19d7',1,'ComPWA::Physics::EvtGen::DalitzKinematics::PhspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a653a8836a2c47558b91060a2c85f2754',1,'ComPWA::Physics::EvtGen::EvtGenIF::PhspVolume()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a4572355c1a9cf65a43cbf622f6019013',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::PhspVolume()'],['../classComPWA_1_1Kinematics.html#a08c3ac264f7abaa82ecb19da5649a28a',1,'ComPWA::Kinematics::phspVolume()'],['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a6e40df942c845e989c3bbcd734240944',1,'ComPWA::Physics::EvtGen::DalitzKinematics::phspVolume()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a47bda13a282c31742919a89846a9dfe2',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::phspVolume()'],['../namespaceComPWA_1_1Physics.html#a503c889052b196aa28cf931b30655e53',1,'ComPWA::Physics::PhspVolume()']]],
   ['phspvolume_2ecpp',['PhspVolume.cpp',['../PhspVolume_8cpp.html',1,'']]],
   ['phspvolume_2ehpp',['PhspVolume.hpp',['../PhspVolume_8hpp.html',1,'']]],
   ['phspvolumetwoparticles',['PhspVolumeTwoParticles',['../namespaceComPWA_1_1Physics.html#aa7f499b6166715bea08b92cbce59ffde',1,'ComPWA::Physics']]],

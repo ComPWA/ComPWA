@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ComPWA: /home/travis/build/ComPWA/ComPWA/Physics/Dynamics/FormFactor.hpp File Reference</title>
+<title>ComPWA: Physics/Dynamics/FormFactor.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -115,9 +115,7 @@ $(document).ready(function(){initNavTree('FormFactor_8hpp.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">FormFactor.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -139,7 +137,7 @@ $(document).ready(function(){initNavTree('FormFactor_8hpp.html','');});
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="FormFactor_8hpp__dep__incl.svg" width="660" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="FormFactor_8hpp__dep__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -147,6 +145,17 @@ $(document).ready(function(){initNavTree('FormFactor_8hpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html">ComPWA::Physics::Dynamics::FormFactor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines interface for form factors It should be noted that when exchanging various form factor implementations in the code, no correctness of the mathematical description is guaranteed.  <a href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1NoFormFactor.html">ComPWA::Physics::Dynamics::NoFormFactor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1BlattWeisskopfFormFactor.html">ComPWA::Physics::Dynamics::BlattWeisskopfFormFactor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blatt-Weisskopf form factors with normalization F(x=mR) = 1.  <a href="classComPWA_1_1Physics_1_1Dynamics_1_1BlattWeisskopfFormFactor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1CrystalBarrelFormFactor.html">ComPWA::Physics::Dynamics::CrystalBarrelFormFactor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Form factor for a0(980) used by Crystal Barrel (Phys.Rev.D78-074023)  <a href="classComPWA_1_1Physics_1_1Dynamics_1_1CrystalBarrelFormFactor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactorStrategy.html">ComPWA::Physics::Dynamics::FormFactorStrategy</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -159,38 +168,21 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceComPWA_1_1Physics_1_1Dynamics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html">ComPWA::Physics::Dynamics</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a94ae7c4c24eb8620cb40af029e1e494b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494b">ComPWA::Physics::Dynamics::FormFactorType</a> { <a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494bae7d6ed1e030a2e679f07076ae96babce">ComPWA::Physics::Dynamics::noFormFactor</a> = 0, 
-<a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494ba231cd33066ea876c30ab8f7d67f1aa01">ComPWA::Physics::Dynamics::BlattWeisskopf</a> = 1, 
-<a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494bae841995d42ec91e4cba1ce59e765c59f">ComPWA::Physics::Dynamics::CrystalBarrel</a> = 2
- }</td></tr>
-<tr class="separator:a94ae7c4c24eb8620cb40af029e1e494b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4ac6ef726ca9dc598f1e0c90c145c8fb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a4ac6ef726ca9dc598f1e0c90c145c8fb">ComPWA::Physics::Dynamics::qSqValue</a> (double sqrtS, double ma, double mb)</td></tr>
-<tr class="memdesc:a4ac6ef726ca9dc598f1e0c90c145c8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Break-up momentum squared.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a4ac6ef726ca9dc598f1e0c90c145c8fb">More...</a><br /></td></tr>
-<tr class="separator:a4ac6ef726ca9dc598f1e0c90c145c8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ae889f4a9b1635016c325f233054cf9"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a9ae889f4a9b1635016c325f233054cf9">ComPWA::Physics::Dynamics::phspFactor</a> (double sqrtS, double ma, double mb)</td></tr>
-<tr class="memdesc:a9ae889f4a9b1635016c325f233054cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two body phsp factor.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a9ae889f4a9b1635016c325f233054cf9">More...</a><br /></td></tr>
-<tr class="separator:a9ae889f4a9b1635016c325f233054cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89abee0f1b954f339728d7c572e6ecff"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a89abee0f1b954f339728d7c572e6ecff">ComPWA::Physics::Dynamics::qValue</a> (double sqrtS, double ma, double mb)</td></tr>
-<tr class="memdesc:a89abee0f1b954f339728d7c572e6ecff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Break-up momentum.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a89abee0f1b954f339728d7c572e6ecff">More...</a><br /></td></tr>
-<tr class="separator:a89abee0f1b954f339728d7c572e6ecff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fde373b63d5b55fa1f419ae25316c21"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a1fde373b63d5b55fa1f419ae25316c21">ComPWA::Physics::Dynamics::FormFactor</a> (std::complex&lt; double &gt; qValue, unsigned int orbitL, double mesonRadius, FormFactorType type)</td></tr>
-<tr class="memdesc:a1fde373b63d5b55fa1f419ae25316c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate form factor from the (complex) break-up momentum <code>qValue</code>.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a1fde373b63d5b55fa1f419ae25316c21">More...</a><br /></td></tr>
-<tr class="separator:a1fde373b63d5b55fa1f419ae25316c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc6e84c53f86d93c13a8d1308ce8ec90"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#adc6e84c53f86d93c13a8d1308ce8ec90">ComPWA::Physics::Dynamics::FormFactor</a> (double sqrtS, double ma, double mb, unsigned int orbitL, double mesonRadius, FormFactorType type)</td></tr>
-<tr class="memdesc:adc6e84c53f86d93c13a8d1308ce8ec90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate form factor from sqrt(s) and masses of the final state particles.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#adc6e84c53f86d93c13a8d1308ce8ec90">More...</a><br /></td></tr>
-<tr class="separator:adc6e84c53f86d93c13a8d1308ce8ec90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9051cab7e9038f03e4b2259831e2920f"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">ComPWA::FunctionTree::TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a9051cab7e9038f03e4b2259831e2920f">ComPWA::Physics::Dynamics::createFunctionTree</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; Daughter1Mass, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; Daughter2Mass, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; MesonRadius, unsigned int L, FormFactorType FFType, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt;&gt;&gt; InvMassSquared)</td></tr>
-<tr class="separator:a9051cab7e9038f03e4b2259831e2920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a0d74e7f8f850a68e088ad6a69709f104"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a0d74e7f8f850a68e088ad6a69709f104">ComPWA::Physics::Dynamics::formFactorTypeString</a> []</td></tr>
-<tr class="separator:a0d74e7f8f850a68e088ad6a69709f104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd227a1dd4625e39dd90238d3ea8a22"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a7bd227a1dd4625e39dd90238d3ea8a22">ComPWA::Physics::Dynamics::qSquared</a> (double S, double sqrtSA, double sqrtSB)</td></tr>
+<tr class="memdesc:a7bd227a1dd4625e39dd90238d3ea8a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Break-up momentum squared.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a7bd227a1dd4625e39dd90238d3ea8a22">More...</a><br /></td></tr>
+<tr class="separator:a7bd227a1dd4625e39dd90238d3ea8a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f99ef55410b5d74bce031a785744f1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#af6f99ef55410b5d74bce031a785744f1">ComPWA::Physics::Dynamics::phspFactor</a> (double sqrtS, double ma, double mb)</td></tr>
+<tr class="separator:af6f99ef55410b5d74bce031a785744f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b8b288fd141cd1e6cedcdf6dc4782a"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a38b8b288fd141cd1e6cedcdf6dc4782a">ComPWA::Physics::Dynamics::phspFactorAC</a> (double sqrtS, double ma, double mb)</td></tr>
+<tr class="memdesc:a38b8b288fd141cd1e6cedcdf6dc4782a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two body phsp factor.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a38b8b288fd141cd1e6cedcdf6dc4782a">More...</a><br /></td></tr>
+<tr class="separator:a38b8b288fd141cd1e6cedcdf6dc4782a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c2060262bef840f8768d634a6b58b6"><td class="memItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#aa2c2060262bef840f8768d634a6b58b6">ComPWA::Physics::Dynamics::qValueAC</a> (double sqrtS, double ma, double mb)</td></tr>
+<tr class="memdesc:aa2c2060262bef840f8768d634a6b58b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Break-up momentum.  <a href="namespaceComPWA_1_1Physics_1_1Dynamics.html#aa2c2060262bef840f8768d634a6b58b6">More...</a><br /></td></tr>
+<tr class="separator:aa2c2060262bef840f8768d634a6b58b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7039bfdc9ea44c5be17fb42e965ea4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1TreeNode.html">ComPWA::FunctionTree::TreeNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Physics_1_1Dynamics.html#a6d7039bfdc9ea44c5be17fb42e965ea4">ComPWA::Physics::Dynamics::createFunctionTree</a> (std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; Daughter1Mass, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; Daughter2Mass, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1FitParameter.html">ComPWA::FunctionTree::FitParameter</a> &gt; MesonRadius, unsigned int L, std::shared_ptr&lt; FormFactor &gt; FormFactorFunctor, std::shared_ptr&lt; <a class="el" href="classComPWA_1_1FunctionTree_1_1Value.html">ComPWA::FunctionTree::Value</a>&lt; std::vector&lt; double &gt;&gt;&gt; InvMassSquared)</td></tr>
+<tr class="separator:a6d7039bfdc9ea44c5be17fb42e965ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -199,7 +191,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_fd3a82303f5206df56505f8b5712131f.html">Physics</a></li><li class="navelem"><a class="el" href="dir_b81b515296d7f9ec90a4731241afa56b.html">Dynamics</a></li><li class="navelem"><a class="el" href="FormFactor_8hpp.html">FormFactor.hpp</a></li>
-    <li class="footer">Generated on Thu Feb 13 2020 16:31:16 for ComPWA by
+    <li class="footer">Generated on Tue Feb 18 2020 13:19:53 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

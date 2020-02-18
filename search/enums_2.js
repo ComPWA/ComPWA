@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['formfactortype',['FormFactorType',['../namespaceComPWA_1_1Physics_1_1Dynamics.html#a94ae7c4c24eb8620cb40af029e1e494b',1,'ComPWA::Physics::Dynamics']]]
+  ['partype',['ParType',['../namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2ba',1,'ComPWA::FunctionTree']]]
 ];

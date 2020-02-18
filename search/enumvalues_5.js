@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gradient_5fdecent',['GRADIENT_DECENT',['../namespaceComPWA_1_1Optimizer_1_1Geneva.html#a95c49eeff7bf2a0a6bc4e84c83d5b627a000ae0773334ae30326c3b96c2ff1533',1,'ComPWA::Optimizer::Geneva']]]
+  ['integer',['INTEGER',['../namespaceComPWA_1_1FunctionTree.html#aaa83a221399e408bae789ab6b24ff2baa92ca961b3501c680ce1d8d5e1916070f',1,'ComPWA::FunctionTree']]]
 ];

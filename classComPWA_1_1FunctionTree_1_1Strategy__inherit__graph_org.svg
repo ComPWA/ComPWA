@@ -224,31 +224,32 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::BreitWignerStrategy\n||+ BreitWignerStrategy()\l+ execute()\l}">
-<polygon fill="white" stroke="black" points="1468,-6 1468,-85 1620,-85 1620,-6 1468,-6"/>
-<text text-anchor="start" x="1476" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
-<text text-anchor="middle" x="1544" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">::BreitWignerStrategy</text>
-<polyline fill="none" stroke="black" points="1468,-55 1620,-55 "/>
-<text text-anchor="middle" x="1544" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="1468,-36 1620,-36 "/>
-<text text-anchor="start" x="1476" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ BreitWignerStrategy()</text>
-<text text-anchor="start" x="1476" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
+<g id="a_node12"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::BreitWignerStrategy\n|&#45; FormFactorFunctor\l&#45; BWFunction\l|+ BreitWignerStrategy()\l+ execute()\l}">
+<polygon fill="white" stroke="black" points="1468,-0.5 1468,-90.5 1620,-90.5 1620,-0.5 1468,-0.5"/>
+<text text-anchor="start" x="1476" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
+<text text-anchor="middle" x="1544" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BreitWignerStrategy</text>
+<polyline fill="none" stroke="black" points="1468,-60.5 1620,-60.5 "/>
+<text text-anchor="start" x="1476" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; FormFactorFunctor</text>
+<text text-anchor="start" x="1476" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; BWFunction</text>
+<polyline fill="none" stroke="black" points="1468,-30.5 1620,-30.5 "/>
+<text text-anchor="start" x="1476" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ BreitWignerStrategy()</text>
+<text text-anchor="start" x="1476" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node12 -->
 <g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M1152.2,-174.718C1229.62,-159.288 1355.38,-130.765 1459,-91 1463.67,-89.2096 1468.4,-87.2278 1473.14,-85.1239"/>
+<path fill="none" stroke="midnightblue" d="M1152.2,-174.718C1229.62,-159.288 1355.38,-130.765 1459,-91 1461.95,-89.8661 1464.94,-88.6554 1467.93,-87.3855"/>
 <polygon fill="none" stroke="midnightblue" points="1151.21,-171.347 1142.07,-176.717 1152.56,-178.215 1151.21,-171.347"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::FlatteStrategy\n||+ FlatteStrategy()\l+ execute()\l}">
+<g id="a_node13"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1FlatteStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::FlatteStrategy\n|&#45; FormFactorFunctor\l|+ FlatteStrategy()\l+ execute()\l}">
 <polygon fill="white" stroke="black" points="1638,-6 1638,-85 1790,-85 1790,-6 1638,-6"/>
 <text text-anchor="start" x="1646" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
 <text text-anchor="middle" x="1714" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">::FlatteStrategy</text>
 <polyline fill="none" stroke="black" points="1638,-55 1790,-55 "/>
-<text text-anchor="middle" x="1714" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="1646" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; FormFactorFunctor</text>
 <polyline fill="none" stroke="black" points="1638,-36 1790,-36 "/>
 <text text-anchor="start" x="1646" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ FlatteStrategy()</text>
 <text text-anchor="start" x="1646" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
@@ -262,12 +263,12 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactorStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::FormFactorStrategy\n||+ FormFactorStrategy()\l+ execute()\l}">
+<g id="a_node14"><a xlink:href="classComPWA_1_1Physics_1_1Dynamics_1_1FormFactorStrategy.html" target="_top" xlink:title="{ComPWA::Physics::Dynamics\l::FormFactorStrategy\n|&#45; FormFactorFunctor\l|+ FormFactorStrategy()\l+ execute()\l}">
 <polygon fill="white" stroke="black" points="1808,-6 1808,-85 1960,-85 1960,-6 1808,-6"/>
 <text text-anchor="start" x="1816" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ComPWA::Physics::Dynamics</text>
 <text text-anchor="middle" x="1884" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">::FormFactorStrategy</text>
 <polyline fill="none" stroke="black" points="1808,-55 1960,-55 "/>
-<text text-anchor="middle" x="1884" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="1816" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; FormFactorFunctor</text>
 <polyline fill="none" stroke="black" points="1808,-36 1960,-36 "/>
 <text text-anchor="start" x="1816" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">+ FormFactorStrategy()</text>
 <text text-anchor="start" x="1816" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">+ execute()</text>
