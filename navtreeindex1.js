@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"HistTools_8hpp.html#aeb990653d33076643ed3e75278ad4b5a":[4,0,6,1,2,0],
+"HistTools_8hpp_source.html":[4,0,6,1,2],
 "Integration_8cpp.html":[4,0,6,5],
 "Integration_8cpp.html#a11f777a3198038fd4492c674f28d4176":[4,0,6,5,4],
 "Integration_8cpp.html#a979b8f9a51c41c1ba339ca335e08a695":[4,0,6,5,1],
@@ -34,9 +36,11 @@ var NAVTREEINDEX1 =
 "MinuitIF_8hpp_source.html":[4,0,4,1,2],
 "MinuitResult_8cpp.html":[4,0,4,1,3],
 "MinuitResult_8cpp.html#a26291701a919bc9618aeed7483744ca2":[4,0,4,1,3,0],
-"MinuitResult_8cpp.html#a39980783462d465693b68d8332743c12":[4,0,4,1,3,1],
+"MinuitResult_8cpp.html#a39980783462d465693b68d8332743c12":[4,0,4,1,3,2],
+"MinuitResult_8cpp.html#a69f79b9b19942659bb09c5b13234eba5":[4,0,4,1,3,1],
 "MinuitResult_8cpp_source.html":[4,0,4,1,3],
 "MinuitResult_8hpp.html":[4,0,4,1,4],
+"MinuitResult_8hpp.html#a69f79b9b19942659bb09c5b13234eba5":[4,0,4,1,4,1],
 "MinuitResult_8hpp_source.html":[4,0,4,1,4],
 "Optimizer_8hpp.html":[4,0,4,2],
 "Optimizer_8hpp_source.html":[4,0,4,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "classComPWA_1_1CorruptFile.html#acf71e1dd91204fdcb45f33f10c7f4ee7":[3,0,0,10,2],
 "classComPWA_1_1Data_1_1CorrectionTable.html":[3,0,0,0,2],
 "classComPWA_1_1Data_1_1CorrectionTable.html#a00670e3895b596b21053a1a4a0ec5114":[3,0,0,0,2,29],
-"classComPWA_1_1Data_1_1CorrectionTable.html#a028d4e99fcb285901d770cf6bfe56e49":[3,0,0,0,2,21],
-"classComPWA_1_1Data_1_1CorrectionTable.html#a0f7107e43c0768bc61108490e88b2e2f":[3,0,0,0,2,10],
-"classComPWA_1_1Data_1_1CorrectionTable.html#a10493e4ddac09c8d098a6e04830e79c2":[3,0,0,0,2,11],
-"classComPWA_1_1Data_1_1CorrectionTable.html#a179cd6ff5430586a446e27bd931c0e8a":[3,0,0,0,2,16],
-"classComPWA_1_1Data_1_1CorrectionTable.html#a2155ce796775f7e4fb2ee046e718a8a9":[3,0,0,0,2,17]
+"classComPWA_1_1Data_1_1CorrectionTable.html#a028d4e99fcb285901d770cf6bfe56e49":[3,0,0,0,2,21]
 };

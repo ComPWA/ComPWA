@@ -141,12 +141,14 @@ var NAVTREEINDEX0 =
 "FitParameter_8hpp.html#ac01ae5d2537b3632cdd0f303f1c8c5d2":[4,0,0,6,1],
 "FitParameter_8hpp_source.html":[4,0,0,6],
 "FitResult_8cpp.html":[4,0,0,7],
-"FitResult_8cpp.html#a02936cb68b40d6a19cab475b48bce6ca":[4,0,0,7,2],
-"FitResult_8cpp.html#a34d0aa13f155474e808738fdbb7ffb6a":[4,0,0,7,1],
+"FitResult_8cpp.html#a02936cb68b40d6a19cab475b48bce6ca":[4,0,0,7,3],
+"FitResult_8cpp.html#a34d0aa13f155474e808738fdbb7ffb6a":[4,0,0,7,2],
+"FitResult_8cpp.html#a9b053639c6ca018bd79eeaa3a3d38743":[4,0,0,7,1],
 "FitResult_8cpp.html#acccafc046b9e35272778e39f177faac3":[4,0,0,7,0],
 "FitResult_8cpp_source.html":[4,0,0,7],
 "FitResult_8hpp.html":[4,0,0,8],
-"FitResult_8hpp.html#a34d0aa13f155474e808738fdbb7ffb6a":[4,0,0,8,2],
+"FitResult_8hpp.html#a34d0aa13f155474e808738fdbb7ffb6a":[4,0,0,8,3],
+"FitResult_8hpp.html#a9b053639c6ca018bd79eeaa3a3d38743":[4,0,0,8,2],
 "FitResult_8hpp.html#acccafc046b9e35272778e39f177faac3":[4,0,0,8,1],
 "FitResult_8hpp_source.html":[4,0,0,8],
 "Flatte_8cpp.html":[4,0,5,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "HistTools_8hpp.html#a56168f80cba786894cbecd7909be1f7b":[4,0,6,1,2,1],
 "HistTools_8hpp.html#a891e6069d2b16877384911a4499d217f":[4,0,6,1,2,4],
 "HistTools_8hpp.html#aa01bfba92b9f8e5d82d0af4ae5ccaa35":[4,0,6,1,2,3],
-"HistTools_8hpp.html#ae14f25e6a585c814b3745686e9c6d0b7":[4,0,6,1,2,5],
-"HistTools_8hpp.html#aeb990653d33076643ed3e75278ad4b5a":[4,0,6,1,2,0],
-"HistTools_8hpp_source.html":[4,0,6,1,2]
+"HistTools_8hpp.html#ae14f25e6a585c814b3745686e9c6d0b7":[4,0,6,1,2,5]
 };

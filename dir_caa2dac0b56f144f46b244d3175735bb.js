@@ -6,7 +6,5 @@ var dir_caa2dac0b56f144f46b244d3175735bb =
       [ "MinuitIF", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF" ]
     ] ],
     [ "MinuitResult.cpp", "MinuitResult_8cpp.html", "MinuitResult_8cpp" ],
-    [ "MinuitResult.hpp", "MinuitResult_8hpp.html", [
-      [ "MinuitResult", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult" ]
-    ] ]
+    [ "MinuitResult.hpp", "MinuitResult_8hpp.html", "MinuitResult_8hpp" ]
 ];

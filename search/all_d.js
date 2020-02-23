@@ -12,7 +12,7 @@ var searchData=
   ['notify',['notify',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a8abf772fa44a6132a6c33726bd42cdf9',1,'ComPWA::FunctionTree::Parameter']]],
   ['nresos',['nResos',['../EvtGenFit_8cpp.html#a781093adc762a073470da606d33ac177',1,'EvtGenFit.cpp']]],
   ['numbergenerator',['NumberGenerator',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html#adf7b6d68aa9d8796e9cfaa3a70b80adb',1,'ComPWA::Data::EvtGen::EvtGenStdRandomEngine']]],
-  ['numbins',['numBins',['../classComPWA_1_1Data_1_1CorrectionTable.html#ad6994e80722002af74949d9170d62664',1,'ComPWA::Data::CorrectionTable::numBins()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#af934c7108ee78ffb090fcf5a1ce2feff',1,'ComPWA::Tools::Plotting::DalitzHisto::NumBins()']]],
+  ['numbins',['NumBins',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#af934c7108ee78ffb090fcf5a1ce2feff',1,'ComPWA::Tools::Plotting::DalitzHisto::NumBins()'],['../classComPWA_1_1Data_1_1CorrectionTable.html#ad6994e80722002af74949d9170d62664',1,'ComPWA::Data::CorrectionTable::numBins()']]],
   ['numevents',['numEvents',['../classComPWA_1_1ProgressBar.html#aa6adf4504d0e20fa9257625be4005334',1,'ComPWA::ProgressBar']]],
   ['numfreeparameters',['NumFreeParameters',['../structComPWA_1_1FitResult.html#aab6bee627da5af8163edfc8b16fe3b4b',1,'ComPWA::FitResult']]],
   ['numparameters',['numParameters',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a585aaafc8289ce559ae7fa039397f8a2',1,'ComPWA::FunctionTree::ParameterList']]],

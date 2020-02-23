@@ -120,12 +120,14 @@ $(document).ready(function(){initNavTree('FitResult_8cpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="FitResult_8hpp_source.html">Core/FitResult.hpp</a>&quot;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
 <code>#include &quot;<a class="el" href="Logging_8hpp_source.html">Core/Logging.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TableFormatter_8hpp_source.html">Core/TableFormatter.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Utils_8hpp_source.html">Core/Utils.hpp</a>&quot;</code><br />
+<code>#include &lt;boost/archive/xml_iarchive.hpp&gt;</code><br />
+<code>#include &lt;boost/archive/xml_oarchive.hpp&gt;</code><br />
 <code>#include &lt;boost/serialization/nvp.hpp&gt;</code><br />
 <code>#include &lt;boost/serialization/vector.hpp&gt;</code><br />
-<code>#include &lt;iomanip&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for FitResult.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -148,6 +150,8 @@ Functions</h2></td></tr>
 <tr class="separator:a34d0aa13f155474e808738fdbb7ffb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02936cb68b40d6a19cab475b48bce6ca"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a02936cb68b40d6a19cab475b48bce6ca">ComPWA::operator&lt;&lt;</a> (std::ostream &amp;os, const FitResult &amp;Result)</td></tr>
 <tr class="separator:a02936cb68b40d6a19cab475b48bce6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b053639c6ca018bd79eeaa3a3d38743"><td class="memItemLeft" align="right" valign="top">FitResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#a9b053639c6ca018bd79eeaa3a3d38743">ComPWA::load</a> (std::string filename)</td></tr>
+<tr class="separator:a9b053639c6ca018bd79eeaa3a3d38743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccafc046b9e35272778e39f177faac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA.html#acccafc046b9e35272778e39f177faac3">ComPWA::initializeWithFitResult</a> (<a class="el" href="namespaceComPWA.html#a56c950642ed3efdda39d7b8cf6bd2a47">ComPWA::Intensity</a> &amp;Intens, <a class="el" href="structComPWA_1_1FitResult.html">ComPWA::FitResult</a> Result)</td></tr>
 <tr class="separator:acccafc046b9e35272778e39f177faac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -158,7 +162,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a class="el" href="FitResult_8cpp.html">FitResult.cpp</a></li>
-    <li class="footer">Generated on Tue Feb 18 2020 16:04:01 for ComPWA by
+    <li class="footer">Generated on Sun Feb 23 2020 14:58:52 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
