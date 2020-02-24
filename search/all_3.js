@@ -98,7 +98,7 @@ var searchData=
   ['functiontree',['FunctionTree',['../namespaceComPWA_1_1FunctionTree.html',1,'ComPWA']]],
   ['geneva',['Geneva',['../namespaceComPWA_1_1Optimizer_1_1Geneva.html',1,'ComPWA::Optimizer']]],
   ['helicityformalism',['HelicityFormalism',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html',1,'ComPWA::Physics']]],
-  ['common_20partial_2dwave_2danalysis_20framework_20_28_25compwa_29',['Common Partial-Wave-Analysis Framework (%ComPWA)',['../index.html',1,'']]],
+  ['common_20partial_2dwave_2danalysis_20framework_20_28compwa_29',['Common Partial-Wave-Analysis Framework (ComPWA)',['../index.html',1,'']]],
   ['minuit2',['Minuit2',['../namespaceComPWA_1_1Optimizer_1_1Minuit2.html',1,'ComPWA::Optimizer']]],
   ['optimizer',['Optimizer',['../namespaceComPWA_1_1Optimizer.html',1,'ComPWA']]],
   ['physics',['Physics',['../namespaceComPWA_1_1Physics.html',1,'ComPWA']]],
