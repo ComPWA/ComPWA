@@ -11,6 +11,6 @@ var searchData=
   ['logging_2ecpp',['Logging.cpp',['../Logging_8cpp.html',1,'']]],
   ['logging_2ehpp',['Logging.hpp',['../Logging_8hpp.html',1,'']]],
   ['loglikelihoods',['LogLikelihoods',['../classComPWA_1_1Estimator_1_1SumMinLogLH.html#a9740c535ffd9ebd0b8ced7c1d2bc90ec',1,'ComPWA::Estimator::SumMinLogLH']]],
-  ['logof',['LogOf',['../classComPWA_1_1FunctionTree_1_1LogOf.html#a326ca2ebf1b06e46a03c9e623421ff7c',1,'ComPWA::FunctionTree::LogOf']]],
+  ['logof',['LogOf',['../classComPWA_1_1FunctionTree_1_1LogOf.html#afd47e079f891a41b1de7796c101516a9',1,'ComPWA::FunctionTree::LogOf']]],
   ['logof',['LogOf',['../classComPWA_1_1FunctionTree_1_1LogOf.html',1,'ComPWA::FunctionTree']]]
 ];

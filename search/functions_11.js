@@ -29,11 +29,11 @@ var searchData=
   ['sortsubsystem',['sortSubsystem',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#acbd44699420418017d67e3e697133150',1,'ComPWA::Physics::HelicityFormalism']]],
   ['splitstring',['splitString',['../namespaceComPWA_1_1Utils.html#aa3046aeb7bd7890ae10b0524dd8184f1',1,'ComPWA::Utils']]],
   ['sqr',['sqr',['../Faddeeva_8cc.html#a670452ed352cb7ce7601d9ae008bc4ca',1,'Faddeeva.cc']]],
-  ['squareroot',['SquareRoot',['../classComPWA_1_1FunctionTree_1_1SquareRoot.html#a8284125fc62b96aa1a3833632d3ae6ac',1,'ComPWA::FunctionTree::SquareRoot']]],
+  ['squareroot',['SquareRoot',['../classComPWA_1_1FunctionTree_1_1SquareRoot.html#a3abfcd9b746b2646f7d39562a7d9cacb',1,'ComPWA::FunctionTree::SquareRoot']]],
   ['srange',['SRange',['../namespaceComPWA_1_1Physics.html#a6484b50f664761743b5e25dff5ed3380',1,'ComPWA::Physics']]],
   ['stduniformrealgenerator',['StdUniformRealGenerator',['../classComPWA_1_1StdUniformRealGenerator.html#a6bd217a965f71841720588bcd6272d26',1,'ComPWA::StdUniformRealGenerator']]],
   ['str',['str',['../classComPWA_1_1FunctionTree_1_1Strategy.html#ac81953bbd71d6fdb73cfce4bce27f8fe',1,'ComPWA::FunctionTree::Strategy']]],
-  ['strategy',['Strategy',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a1b20ba1dd395d70099f15fd74af218e7',1,'ComPWA::FunctionTree::Strategy']]],
+  ['strategy',['Strategy',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a60333219a5d3964dd44e19c8e803c9a0',1,'ComPWA::FunctionTree::Strategy']]],
   ['stringtovectint',['stringToVectInt',['../namespaceComPWA_1_1Physics.html#a3eba68d6543b91b517a20c766a791986',1,'ComPWA::Physics']]],
   ['subsystem',['SubSystem',['../classComPWA_1_1Physics_1_1SubSystem.html#a0f99702e3dddf5d2e37ad91caa51266c',1,'ComPWA::Physics::SubSystem']]],
   ['summinloglh',['SumMinLogLH',['../classComPWA_1_1Estimator_1_1SumMinLogLH.html#ae08aed1c0403acf688eb9f9880345176',1,'ComPWA::Estimator::SumMinLogLH']]]
