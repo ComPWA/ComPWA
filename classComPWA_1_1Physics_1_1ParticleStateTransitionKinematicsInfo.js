@@ -10,6 +10,7 @@ var classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo =
     [ "getFinalStateIDToNameMapping", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#af4d113c5cbb2056c562db4e7094d08e5", null ],
     [ "getFinalStateMasses", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#ad70965a9724de0a5893fe12a4bdfecdb", null ],
     [ "getFinalStateParticleCount", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a421cd4c16c8605cb132ceecf9d432b40", null ],
+    [ "getFinalStatePIDs", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a4167382406f29a8626972fc0c0f51f24", null ],
     [ "getInitialStateFourMomentum", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a5c31b06c1c2d9028526691325256bd57", null ],
     [ "getInitialStateInvariantMassSquared", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a9b5b11987586b2bb579ea66d78264e50", null ],
     [ "operator<<", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#a3fb467b9b06cacfe94a7b9b5185c6987", null ],

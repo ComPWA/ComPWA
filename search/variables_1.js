@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['algorithmorder',['AlgorithmOrder',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#a17973dfe12404494a80506f430280e98',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
-  ['amplitudemodel',['amplitudeModel',['../DalitzFitApp_8cpp.html#a16de9f35f6f5a5f69975dd3fce512b75',1,'amplitudeModel():&#160;DalitzFitApp.cpp'],['../EvtGenFit_8cpp.html#a16de9f35f6f5a5f69975dd3fce512b75',1,'amplitudeModel():&#160;EvtGenFit.cpp']]],
-  ['antisys',['antiSys',['../classComPWA_1_1Data_1_1CorrectionTable.html#af38cba5b65c1e07036b1f39f19d6a437',1,'ComPWA::Data::CorrectionTable']]],
-  ['antisyserror',['antiSysError',['../classComPWA_1_1Data_1_1CorrectionTable.html#ae951939ffad383b7ba840008cc1214aa',1,'ComPWA::Data::CorrectionTable']]]
+  ['bins',['Bins',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a6e7de9e6983ec17efea2bb77d817f9aa',1,'ComPWA::Tools::Plotting::DalitzPlot']]],
+  ['binsize',['BinSize',['../classComPWA_1_1Physics_1_1IntegrationSample.html#a8ffd36be5ae6c3227132571bc160ab96',1,'ComPWA::Physics::IntegrationSample']]],
+  ['bounds',['Bounds',['../structComPWA_1_1FitParameter.html#ab614e7c0e5a89c2f56048444138f6166',1,'ComPWA::FitParameter::Bounds()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a79c04590cda8cf54213470accc84e8b3',1,'ComPWA::FunctionTree::FitParameter::Bounds()']]],
+  ['brancheff',['BranchEff',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#ad0b5f737603184ac86eafd3486717df6',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['branchpoint',['BranchPoint',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a09169563d4f971214784e09c20cd039a',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['branchweight',['BranchWeight',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a98ec9ba4656ed9f06a59a8a9e8dd1aa2',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['bwfunction',['BWFunction',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#abb329c9c8caee3e5fcd24071ae566c02',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]]
 ];

@@ -1,10 +1,20 @@
 var searchData=
 [
-  ['bins',['Bins',['../classComPWA_1_1Data_1_1CorrectionTable.html#a96fa603133a528f6dbd14e0a41b4fc40',1,'ComPWA::Data::CorrectionTable']]],
-  ['binsize',['BinSize',['../classComPWA_1_1Physics_1_1IntegrationSample.html#a8ffd36be5ae6c3227132571bc160ab96',1,'ComPWA::Physics::IntegrationSample']]],
-  ['bounds',['Bounds',['../structComPWA_1_1FitParameter.html#ab614e7c0e5a89c2f56048444138f6166',1,'ComPWA::FitParameter::Bounds()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a79c04590cda8cf54213470accc84e8b3',1,'ComPWA::FunctionTree::FitParameter::Bounds()']]],
-  ['brancheff',['BranchEff',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#ad0b5f737603184ac86eafd3486717df6',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['branchpoint',['BranchPoint',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a09169563d4f971214784e09c20cd039a',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['branchweight',['BranchWeight',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a98ec9ba4656ed9f06a59a8a9e8dd1aa2',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['bwfunction',['BWFunction',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#abb329c9c8caee3e5fcd24071ae566c02',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]]
+  ['checktype',['checkType',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a32ade3523c081542c01450bcd7f6b490',1,'ComPWA::FunctionTree::Strategy']]],
+  ['childnodes',['ChildNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a0690224c41174e59dd80ef511a31b22e',1,'ComPWA::FunctionTree::TreeNode']]],
+  ['cmsboostvector',['CMSBoostVector',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a7b2c0b6365d90f3cae2e14c11f289f33',1,'ComPWA::Data::Root::RootGenerator']]],
+  ['cmsenergyminusmasses',['CMSEnergyMinusMasses',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a8a2cace09453652eba0d8deb409731ac',1,'ComPWA::Data::Root::RootGenerator']]],
+  ['cmsp4',['CMSP4',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenGenerator.html#a9009250f11a2e705e6ce65d2d1ba8d9e',1,'ComPWA::Data::EvtGen::EvtGenGenerator::CMSP4()'],['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a28a94eedfc521a284f30f984ee223caa',1,'ComPWA::Data::Root::RootGenerator::CMSP4()']]],
+  ['columntitle',['ColumnTitle',['../classComPWA_1_1TableFormatter.html#afd92db48590c054b0e580061c30877db',1,'ComPWA::TableFormatter']]],
+  ['columnwidth',['ColumnWidth',['../classComPWA_1_1TableFormatter.html#a36eb1c984074e2a147495a4211787a30',1,'ComPWA::TableFormatter']]],
+  ['complexvalues',['ComplexValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a7f58a37899a619fe967532ff9a3a349b',1,'ComPWA::FunctionTree::ParameterList']]],
+  ['componentregisteringenabled',['ComponentRegisteringEnabled',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a046ae8de18b46775d1dda620b6f394ad',1,'ComPWA::Physics::IntensityBuilderXML']]],
+  ['configfiledir',['ConfigFileDir',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#aaf09f64f68b7b411df5d7ed00af3c0cc',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
+  ['correction',['correction',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#ad0ed90796a5cfa01191a561188742482',1,'ComPWA::FunctionTree::KahanSummation::correction()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#af58d3c236b5488299a1c5cfaa47aebf2',1,'ComPWA::Tools::KahanSummation::correction()']]],
+  ['covariancematrix',['CovarianceMatrix',['../structComPWA_1_1FitResult.html#a39849e8533626aefeeb8e83cf4071e37',1,'ComPWA::FitResult']]],
+  ['covposdef',['CovPosDef',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a613c4554aff48a4fc96a6464ca28a9eb',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['curcol',['CurCol',['../classComPWA_1_1TableFormatter.html#a74d6b0a9db66f3bd68b392e7fee75264',1,'ComPWA::TableFormatter']]],
+  ['currentevent',['currentEvent',['../classComPWA_1_1ProgressBar.html#ac2cfc9e1d525ea779e1047b05262d7fa',1,'ComPWA::ProgressBar']]],
+  ['currentpercent',['currentPercent',['../classComPWA_1_1ProgressBar.html#a5304202168ea4ea0aa8f226f3b8be801',1,'ComPWA::ProgressBar']]],
+  ['currow',['CurRow',['../classComPWA_1_1TableFormatter.html#ac804dc05b19925e46cdf270e286c9aae',1,'ComPWA::TableFormatter']]]
 ];

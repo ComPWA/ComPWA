@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['seed',['Seed',['../classComPWA_1_1StdUniformRealGenerator.html#a074751ef321361ce7d6fd9de52cb0e22',1,'ComPWA::StdUniformRealGenerator::Seed()'],['../classComPWA_1_1Data_1_1Root_1_1RootUniformRealGenerator.html#acc3addf54711ac9147a61af4ddb4e0d1',1,'ComPWA::Data::Root::RootUniformRealGenerator::Seed()']]],
-  ['sep',['sep',['../classComPWA_1_1TableFormatter.html#a6566448d68709282dbeadb342a3deea5',1,'ComPWA::TableFormatter']]],
-  ['sigma',['Sigma',['../structComPWA_1_1Physics_1_1Dynamics_1_1Voigtian_1_1InputInfo.html#a24891b8d58b6ee326acd38fd9b89c6cf',1,'ComPWA::Physics::Dynamics::Voigtian::InputInfo']]],
-  ['starttime',['startTime',['../classComPWA_1_1ProgressBar.html#a7a18470d483e4dc3d2bf59fe74485f09',1,'ComPWA::ProgressBar']]],
-  ['stepsize',['StepSize',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html#a228265b2a9d919a9f9ce8b813c74a0bc',1,'ComPWA::Tools::FitFractions::DerivativeData']]],
-  ['strat',['Strat',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a82d2d6aab67d2214ebeaa6ece395747a',1,'ComPWA::FunctionTree::TreeNode']]],
-  ['subsys',['SubSys',['../structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html#ab674da95bf32312b079645774ac534e8',1,'ComPWA::Physics::TwoBodyDecayInfo']]],
-  ['subsystems',['Subsystems',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a83f2aa2395327d545d579c83106f3b2a',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
-  ['sum',['sum',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#a72d2078d24ac2c72dd539f72d9f4326e',1,'ComPWA::FunctionTree::KahanSummation::sum()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#acbbf98f007af16dcd217f0bf71723257',1,'ComPWA::Tools::KahanSummation::sum()']]],
-  ['sys',['sys',['../classComPWA_1_1Data_1_1CorrectionTable.html#adfc7907f21ce9abd8609950310d8f44c',1,'ComPWA::Data::CorrectionTable']]],
-  ['syserror',['sysError',['../classComPWA_1_1Data_1_1CorrectionTable.html#a7ee0cf94b97cad0352f84c000fe8e177',1,'ComPWA::Data::CorrectionTable']]]
+  ['title',['Title',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#abe4a3864fe01abb586703bba18d8a009',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['totalwidth',['TotalWidth',['../classComPWA_1_1TableFormatter.html#a2707a1db61d86941659e98b568a6c427',1,'ComPWA::TableFormatter']]],
+  ['tree',['Tree',['../classComPWA_1_1FunctionTree_1_1FunctionTreeEstimator.html#a846590ebf5b11fc4e0364aeb208b5eac',1,'ComPWA::FunctionTree::FunctionTreeEstimator::Tree()'],['../classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html#a41d62f2f54f8fbe5a4a12dca512dca69',1,'ComPWA::FunctionTree::FunctionTreeIntensity::Tree()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a8a07bf547fd891bfda038ff72ed826ca',1,'ComPWA::Tools::Plotting::DalitzHisto::Tree()']]],
+  ['truephspsample',['TruePhspSample',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a93aac4c16934c7c4b650189fe166458f',1,'ComPWA::Physics::IntensityBuilderXML']]],
+  ['type',['Type',['../classComPWA_1_1FunctionTree_1_1Parameter.html#ab904f39ac1b246df9f69d7c3c36e2d91',1,'ComPWA::FunctionTree::Parameter::Type()'],['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a43cd9038f0d104cdf0d4118b9093045c',1,'ComPWA::Physics::Dynamics::InputInfo::Type()']]]
 ];

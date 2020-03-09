@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 867;
+var viewWidth = 1221;
 var viewHeight = 84;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,11 +54,11 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>Core/ProgressBar.hpp</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-80 862.5,-80 862.5,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-80 1216.5,-80 1216.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="336,-56.5 336,-75.5 449,-75.5 449,-56.5 336,-56.5"/>
-<text text-anchor="middle" x="392.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/ProgressBar.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="535,-56.5 535,-75.5 648,-75.5 648,-56.5 535,-56.5"/>
+<text text-anchor="middle" x="591.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/ProgressBar.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -70,73 +70,99 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M329.368,-54.8537C265.884,-44.6509 169.108,-29.0977 109.491,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="328.831,-58.3123 339.26,-56.4435 329.942,-51.401 328.831,-58.3123"/>
+<path fill="none" stroke="midnightblue" d="M524.795,-59.5042C433.604,-51.7877 264.96,-36.792 121.5,-20 118.784,-19.6821 116.007,-19.3448 113.202,-18.9943"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="524.729,-63.0109 534.988,-60.3636 525.317,-56.0357 524.729,-63.0109"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="Generate_8cpp.html" target="_top" xlink:title="Data/Generate.cpp">
-<polygon fill="white" stroke="black" points="131,-0.5 131,-19.5 230,-19.5 230,-0.5 131,-0.5"/>
-<text text-anchor="middle" x="180.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Data/Generate.cpp</text>
+<g id="a_node3"><a xlink:href="EvtGenGenerator_8cpp.html" target="_top" xlink:title="Data/EvtGen/EvtGenGenerator.cpp">
+<polygon fill="white" stroke="black" points="131,-0.5 131,-19.5 302,-19.5 302,-0.5 131,-0.5"/>
+<text text-anchor="middle" x="216.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Data/EvtGen/EvtGenGenerator.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M349.154,-53.959C309.113,-43.7598 250.467,-28.8217 213.935,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="348.353,-57.3668 358.908,-56.4435 350.081,-50.5834 348.353,-57.3668"/>
+<path fill="none" stroke="midnightblue" d="M524.817,-55.3977C454.089,-45.2128 343.412,-29.2753 275.678,-19.5216"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="524.556,-58.8961 534.953,-56.8572 525.554,-51.9675 524.556,-58.8961"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
-<polygon fill="white" stroke="black" points="248.5,-0.5 248.5,-19.5 390.5,-19.5 390.5,-0.5 248.5,-0.5"/>
-<text text-anchor="middle" x="319.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
+<g id="a_node4"><a xlink:href="Generate_8cpp.html" target="_top" xlink:title="Data/Generate.cpp">
+<polygon fill="white" stroke="black" points="320,-0.5 320,-19.5 419,-19.5 419,-0.5 320,-0.5"/>
+<text text-anchor="middle" x="369.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Data/Generate.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M372.358,-50.1008C359.221,-40.3824 342.518,-28.0269 331.442,-19.8339"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="370.65,-53.1907 380.771,-56.324 374.813,-47.5631 370.65,-53.1907"/>
+<path fill="none" stroke="midnightblue" d="M546.375,-54.0237C504.44,-43.8232 442.848,-28.8414 404.512,-19.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="545.78,-57.4808 556.323,-56.4435 547.434,-50.6791 545.78,-57.4808"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="FitFractions_8cpp.html" target="_top" xlink:title="Tools/FitFractions.cpp">
-<polygon fill="white" stroke="black" points="408.5,-0.5 408.5,-19.5 522.5,-19.5 522.5,-0.5 408.5,-0.5"/>
-<text text-anchor="middle" x="465.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.cpp</text>
+<g id="a_node5"><a xlink:href="RootGenerator_8cpp.html" target="_top" xlink:title="Data/Root/RootGenerator.cpp">
+<polygon fill="white" stroke="black" points="437,-0.5 437,-19.5 584,-19.5 584,-0.5 437,-0.5"/>
+<text text-anchor="middle" x="510.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Data/Root/RootGenerator.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M412.642,-50.1008C425.779,-40.3824 442.482,-28.0269 453.558,-19.8339"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="410.187,-47.5631 404.229,-56.324 414.35,-53.1907 410.187,-47.5631"/>
+<path fill="none" stroke="midnightblue" d="M569.933,-50.6221C555.136,-40.7574 535.988,-27.9919 523.482,-19.6545"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="568.224,-53.6891 578.486,-56.324 572.107,-47.8647 568.224,-53.6891"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="DalitzPlot_8cpp.html" target="_top" xlink:title="Tools/Plotting/DalitzPlot.cpp">
-<polygon fill="white" stroke="black" points="541,-0.5 541,-19.5 682,-19.5 682,-0.5 541,-0.5"/>
-<text text-anchor="middle" x="611.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/DalitzPlot.cpp</text>
+<g id="a_node6"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
+<polygon fill="white" stroke="black" points="602.5,-0.5 602.5,-19.5 744.5,-19.5 744.5,-0.5 602.5,-0.5"/>
+<text text-anchor="middle" x="673.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M437.015,-54.0237C478.384,-43.8232 539.143,-28.8414 576.961,-19.5164"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="436.072,-50.6512 427.201,-56.4435 437.748,-57.4476 436.072,-50.6512"/>
+<path fill="none" stroke="midnightblue" d="M613.333,-50.6221C628.313,-40.7574 647.697,-27.9919 660.358,-19.6545"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="611.101,-47.9009 604.675,-56.324 614.951,-53.7471 611.101,-47.9009"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="RootPlotData_8cpp.html" target="_top" xlink:title="Tools/Plotting/RootPlotData.cpp">
-<polygon fill="white" stroke="black" points="700.5,-0.5 700.5,-19.5 858.5,-19.5 858.5,-0.5 700.5,-0.5"/>
-<text text-anchor="middle" x="779.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/RootPlotData.cpp</text>
+<g id="a_node7"><a xlink:href="FitFractions_8cpp.html" target="_top" xlink:title="Tools/FitFractions.cpp">
+<polygon fill="white" stroke="black" points="762.5,-0.5 762.5,-19.5 876.5,-19.5 876.5,-0.5 762.5,-0.5"/>
+<text text-anchor="middle" x="819.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/FitFractions.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M459.181,-55.6956C532.091,-45.5221 647.928,-29.3588 718.508,-19.5106"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="458.608,-52.2416 449.188,-57.0901 459.575,-59.1745 458.608,-52.2416"/>
+<path fill="none" stroke="midnightblue" d="M637.571,-54.0884C680.646,-43.8865 744.086,-28.8612 783.542,-19.5164"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="636.551,-50.733 627.627,-56.4435 638.165,-57.5446 636.551,-50.733"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="DalitzPlot_8cpp.html" target="_top" xlink:title="Tools/Plotting/DalitzPlot.cpp">
+<polygon fill="white" stroke="black" points="895,-0.5 895,-19.5 1036,-19.5 1036,-0.5 895,-0.5"/>
+<text text-anchor="middle" x="965.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/DalitzPlot.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M658.423,-55.3374C729.028,-45.143 839.209,-29.2345 906.617,-19.5018"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="657.7,-51.9054 648.303,-56.7986 658.7,-58.8335 657.7,-51.9054"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="RootPlotData_8cpp.html" target="_top" xlink:title="Tools/Plotting/RootPlotData.cpp">
+<polygon fill="white" stroke="black" points="1054.5,-0.5 1054.5,-19.5 1212.5,-19.5 1212.5,-0.5 1054.5,-0.5"/>
+<text text-anchor="middle" x="1133.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Tools/Plotting/RootPlotData.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M658.298,-58.4449C746.834,-49.7414 907.913,-33.8544 1045.5,-20 1048.4,-19.7077 1051.36,-19.4091 1054.35,-19.107"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="657.738,-54.983 648.128,-59.4444 658.423,-61.9494 657.738,-54.983"/>
 </g>
 </g>
 </svg>

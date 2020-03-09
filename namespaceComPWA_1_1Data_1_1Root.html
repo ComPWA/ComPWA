@@ -138,22 +138,44 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a064b292c426ae005078c5cf0dc7fcb6b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#a064b292c426ae005078c5cf0dc7fcb6b">readData</a> (const std::string &amp;InputFileName, const std::string &amp;TreeName, long long NumberEventsToRead=-1)</td></tr>
-<tr class="memdesc:a064b292c426ae005078c5cf0dc7fcb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s from a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="#a064b292c426ae005078c5cf0dc7fcb6b">More...</a><br /></td></tr>
-<tr class="separator:a064b292c426ae005078c5cf0dc7fcb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf207f1613afbf62d37d510ec10249f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#aaf207f1613afbf62d37d510ec10249f4">writeData</a> (const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;Events, const std::string &amp;OutputFilePath, const std::string &amp;TreeName, bool OverwriteFile=true)</td></tr>
-<tr class="memdesc:aaf207f1613afbf62d37d510ec10249f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s to a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="#aaf207f1613afbf62d37d510ec10249f4">More...</a><br /></td></tr>
-<tr class="separator:aaf207f1613afbf62d37d510ec10249f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7713c9b788aabfd98623c34915d1aaab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#a7713c9b788aabfd98623c34915d1aaab">pidsToUniqueStrings</a> (std::vector&lt; <a class="el" href="namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a> &gt; Pids)</td></tr>
+<tr class="separator:a7713c9b788aabfd98623c34915d1aaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73bba95613705dde3fbf9983f4a40217"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#a73bba95613705dde3fbf9983f4a40217">uniqueStringsToPids</a> (std::vector&lt; std::string &gt; UniqueStrings)</td></tr>
+<tr class="separator:a73bba95613705dde3fbf9983f4a40217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f589502dfb1b4e0d5be0ea6b1c2475a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1EventCollection.html">ComPWA::EventCollection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#a1f589502dfb1b4e0d5be0ea6b1c2475a">readData</a> (const std::string &amp;InputFileName, const std::string &amp;TreeName, long long NumberEventsToRead=-1)</td></tr>
+<tr class="memdesc:a1f589502dfb1b4e0d5be0ea6b1c2475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s from a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="#a1f589502dfb1b4e0d5be0ea6b1c2475a">More...</a><br /></td></tr>
+<tr class="separator:a1f589502dfb1b4e0d5be0ea6b1c2475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b88a919a18b0d6fa4256ea8dc412cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html#ae5b88a919a18b0d6fa4256ea8dc412cf">writeData</a> (const <a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a> &amp;OutputSample, const std::string &amp;OutputFilePath, const std::string &amp;TreeName, bool OverwriteFile=true)</td></tr>
+<tr class="memdesc:ae5b88a919a18b0d6fa4256ea8dc412cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s to a <a href="https://root.cern.ch/input-and-output">ROOT file</a>.  <a href="#ae5b88a919a18b0d6fa4256ea8dc412cf">More...</a><br /></td></tr>
+<tr class="separator:ae5b88a919a18b0d6fa4256ea8dc412cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace with read/write functions for <a href="https://root.cern.ch/input-and-output">ROOT files</a>. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a064b292c426ae005078c5cf0dc7fcb6b"></a>
+<a class="anchor" id="a7713c9b788aabfd98623c34915d1aaab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; ComPWA::Data::Root::readData </td>
+          <td class="memname">std::vector&lt;std::string&gt; ComPWA::Data::Root::pidsToUniqueStrings </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a> &gt;&#160;</td>
+          <td class="paramname"><em>Pids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00024">24</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1f589502dfb1b4e0d5be0ea6b1c2475a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structComPWA_1_1EventCollection.html">ComPWA::EventCollection</a> ComPWA::Data::Root::readData </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>InputFileName</em>, </td>
@@ -180,7 +202,7 @@ Functions</h2></td></tr>
 
 <p>Create a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s from a <a href="https://root.cern.ch/input-and-output">ROOT file</a>. </p>
 <p>The input file should have at least one event-based <a href="https://root.cern.ch/doc/master/classTTree.html"><code>TTree</code></a> with:</p><ul>
-<li>A branche named <code>"Particles"</code> containing <a href="https://root.cern.ch/doc/master/classTClonesArray.html"><code>TClonesArray</code></a>s. These arrays should contain <a href="https://root.cern.ch/doc/master/classTParticle.html"><code>TParticle</code></a> objects with a defined 4-momentum.</li>
+<li>A branch named <code>"Particles"</code> containing <a href="https://root.cern.ch/doc/master/classTClonesArray.html"><code>TClonesArray</code></a>s. These arrays should contain <a href="https://root.cern.ch/doc/master/classTParticle.html"><code>TParticle</code></a> objects with a defined 4-momentum.</li>
 <li>A branch of <code>double</code>s called <code>"Weight"</code>. <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">InputFileName</td><td>Input ROOT file(s); can take wildcards, see <a href="https://root.cern.ch/doc/master/classTChain.html"><code>TChain::Add</code></a>. </td></tr>
@@ -191,20 +213,46 @@ Functions</h2></td></tr>
 </dl>
 </li>
 </ul>
+<ol type="1">
+<li>Ignore custom streamer warning and error message for missing trees</li>
+<li>Use TChain to add files through wildcards if necessary</li>
+<li>Test TChain quality</li>
+<li>Get PIDs</li>
+<li>Set branch addresses</li>
+<li>Import data sample </li>
+</ol>
 
-<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00027">27</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
+<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00060">60</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aaf207f1613afbf62d37d510ec10249f4"></a>
+<a class="anchor" id="a73bba95613705dde3fbf9983f4a40217"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceComPWA.html#ae3ef176056dcc92637c53fcb810c7112">pid</a>&gt; ComPWA::Data::Root::uniqueStringsToPids </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>UniqueStrings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00046">46</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5b88a919a18b0d6fa4256ea8dc412cf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void ComPWA::Data::Root::writeData </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structComPWA_1_1Event.html">ComPWA::Event</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>Events</em>, </td>
+          <td class="paramtype">const <a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a> &amp;&#160;</td>
+          <td class="paramname"><em>OutputSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -235,15 +283,22 @@ Functions</h2></td></tr>
 <p>Write a vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s to a <a href="https://root.cern.ch/input-and-output">ROOT file</a>. </p>
 <p>See <code>readData</code> for the structure of the output file. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Events</td><td>Vector of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s </td></tr>
+    <tr><td class="paramname">OutputSample</td><td>List of <code><a class="el" href="structComPWA_1_1Event.html" title="Data structure containing all kinematic information of a physics event. ">Event</a></code>s including a info header </td></tr>
     <tr><td class="paramname">OutputFilePath</td><td>Path to the output ROOT file </td></tr>
     <tr><td class="paramname">TreeName</td><td>Name of the event-based output <code>TTree</code> in the file </td></tr>
     <tr><td class="paramname">OverwriteFile</td><td>Set to <code>true</code> if you do <em>not</em> want to append </td></tr>
   </table>
   </dd>
 </dl>
+<ol type="1">
+<li>Ignore custom streamer warning</li>
+<li>Check <a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a> quality</li>
+<li>Open or create ROOT file</li>
+<li>Define TTree its branches</li>
+<li>Fill tree </li>
+</ol>
 
-<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00088">88</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
+<p>Definition at line <a class="el" href="RootDataIO_8cpp_source.html#l00145">145</a> of file <a class="el" href="RootDataIO_8cpp_source.html">RootDataIO.cpp</a>.</p>
 
 </div>
 </div>
@@ -254,7 +309,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Data.html">Data</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Data_1_1Root.html">Root</a></li>
-    <li class="footer">Generated on Sun Mar 8 2020 14:15:08 for ComPWA by
+    <li class="footer">Generated on Mon Mar 9 2020 13:42:00 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['val',['Val',['../classComPWA_1_1FunctionTree_1_1Value.html#a7a4bf06678055f63454fee992929605b',1,'ComPWA::FunctionTree::Value']]],
-  ['value',['Value',['../structComPWA_1_1FitParameter.html#ae237c958f604474efc53c7437876b185',1,'ComPWA::FitParameter::Value()'],['../structComPWA_1_1Parameter.html#ad1d27e26b1e15d81a61576dcde73fd8f',1,'ComPWA::Parameter::Value()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aa1313a6f6e5e5cc19d2cd7d160061828',1,'ComPWA::FunctionTree::FitParameter::Value()'],['../structComPWA_1_1Tools_1_1FitFraction.html#a632ff0a613f08722da76a17659e811af',1,'ComPWA::Tools::FitFraction::Value()']]],
-  ['valueatparameterminusepsilon',['ValueAtParameterMinusEpsilon',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html#ab66bcc9f790b41653598cda82938e125',1,'ComPWA::Tools::FitFractions::DerivativeData']]],
-  ['valueatparameterplusepsilon',['ValueAtParameterPlusEpsilon',['../structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html#af725fcefc3d5b2da5bc4ba98321c7c27',1,'ComPWA::Tools::FitFractions::DerivativeData']]]
+  ['weight',['Weight',['../structComPWA_1_1Event.html#a8a130412ee6d2c531a7aed66c70cb166',1,'ComPWA::Event']]],
+  ['weights',['Weights',['../structComPWA_1_1Data_1_1DataSet.html#a2c0570e8627c9e94639fe6f74322146c',1,'ComPWA::Data::DataSet::Weights()'],['../structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html#a2fc0008484e866620c262baf96f95055',1,'ComPWA::Physics::IntensityBuilderXML::DataContainer::Weights()']]],
+  ['weightsum',['WeightSum',['../structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html#a3cf4ab033f5fa0aaea95103d740747ab',1,'ComPWA::Physics::IntensityBuilderXML::DataContainer']]],
+  ['what_5f',['what_',['../classComPWA_1_1Exception.html#a73a94c34eebba67674124d3ea5de254b',1,'ComPWA::Exception']]],
+  ['width',['Width',['../structComPWA_1_1Physics_1_1Dynamics_1_1RelativisticBreitWigner_1_1InputInfo.html#a6a4849b65a692d884151945428565971',1,'ComPWA::Physics::Dynamics::RelativisticBreitWigner::InputInfo']]]
 ];

@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['m2',['M2',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a313a939ab8d76ea9f6fcff2614905732',1,'ComPWA::Physics::EvtGen::DalitzKinematics']]],
-  ['mass',['Mass',['../classComPWA_1_1ParticleProperties.html#a9b48aadaaacc0052c13a01979127cfbb',1,'ComPWA::ParticleProperties::Mass()'],['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#ad05195c98881bf5a04c7aa9804782c74',1,'ComPWA::Physics::Dynamics::InputInfo::Mass()']]],
-  ['massa',['MassA',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a4245853b5839e3b6439ff699584aa0b1',1,'ComPWA::Physics::Dynamics::Coupling']]],
-  ['massb',['MassB',['../classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html#a858047300a97bd1cc6ba9742262f7479',1,'ComPWA::Physics::Dynamics::Coupling']]],
-  ['maximumweight',['MaximumWeight',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a1672bd4b5a7b8b340b0128a8012e382b',1,'ComPWA::Data::Root::RootGenerator']]],
-  ['mcsample',['McSample',['../structenergyPar.html#a06f27d3e571b8f98f6734b083e1ce8f1',1,'energyPar']]],
-  ['mersennetwisterrandomgenerator',['MersenneTwisterRandomGenerator',['../classComPWA_1_1StdUniformRealGenerator.html#a61882c62ad39c6b638457a72671ae236',1,'ComPWA::StdUniformRealGenerator']]],
-  ['mesonradius',['MesonRadius',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#a920e649ccd6a3205b137ed1d511593cb',1,'ComPWA::Physics::Dynamics::InputInfo']]],
-  ['modelsqrts4230',['modelSqrtS4230',['../SimFit_8cpp.html#a5989f51f1ddd9a2de43aa789a5ee5c4d',1,'SimFit.cpp']]],
-  ['modelsqrts4260',['modelSqrtS4260',['../SimFit_8cpp.html#a285854036589de05762384f3a351125a',1,'SimFit.cpp']]],
-  ['modeltree',['ModelTree',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a99422fd402f236b2ecbcf72f6b588945',1,'ComPWA::Physics::IntensityBuilderXML']]],
-  ['multicomplexvalues',['MultiComplexValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a036f4bbbb4b6a62eab2db27a76ab878b',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['multidoublevalues',['MultiDoubleValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#ad3e57eb945e75652a3007bad7420aa97',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['multiintvalues',['MultiIntValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a39df34d273523e5e0164a9c332e91ffa',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['myparticles',['myParticles',['../DalitzFitApp_8cpp.html#ae3e28ed6f4dfdd5aa2c356355381d7bb',1,'myParticles():&#160;DalitzFitApp.cpp'],['../EvtGenFit_8cpp.html#ae3e28ed6f4dfdd5aa2c356355381d7bb',1,'myParticles():&#160;EvtGenFit.cpp']]]
+  ['name',['Name',['../structComPWA_1_1FitParameter.html#ac32b826fad359659ec4d9e0f390e5355',1,'ComPWA::FitParameter::Name()'],['../structComPWA_1_1Parameter.html#a32f1b5c10c72f7082838ad44460baebc',1,'ComPWA::Parameter::Name()'],['../classComPWA_1_1FunctionTree_1_1Strategy.html#a25ee73bac8800cc25d1152f9df5e8bd8',1,'ComPWA::FunctionTree::Strategy::Name()'],['../classComPWA_1_1FunctionTree_1_1Parameter.html#a4fb21508cc88a11bc3fcfea608d811cd',1,'ComPWA::FunctionTree::Parameter::Name()'],['../classComPWA_1_1ParticleProperties.html#a0d9e1996959f3644df1265d445ca4d6c',1,'ComPWA::ParticleProperties::Name()'],['../structComPWA_1_1Tools_1_1FitFraction.html#ac23fb1b6b5c892a91e6738df9bc7034d',1,'ComPWA::Tools::FitFraction::Name()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#afa46aa7dc9ae2b63967ddb216fb763c1',1,'ComPWA::Tools::Plotting::DalitzHisto::Name()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a17961d51551fbe7d88165607a8d051a5',1,'ComPWA::Tools::Plotting::DalitzPlot::Name()']]],
+  ['names',['Names',['../structComPWA_1_1Physics_1_1TwoBodyDecayInfo.html#ae54f44487294d7f265230e374083d322',1,'ComPWA::Physics::TwoBodyDecayInfo']]],
+  ['nfcn',['NFcn',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af74ba55e136d8e4f8308bb9db1ef6297',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['normalizationvalues',['NormalizationValues',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a4f8792d100e1779e7d8e8ad7cabb7a70',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
+  ['numbergenerator',['NumberGenerator',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html#adf7b6d68aa9d8796e9cfaa3a70b80adb',1,'ComPWA::Data::EvtGen::EvtGenStdRandomEngine']]],
+  ['numberofevents',['NumberOfEvents',['../structEnergyParameters.html#afedec6b015d764bf32181381f89e3a41',1,'EnergyParameters']]],
+  ['numbins',['NumBins',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#af934c7108ee78ffb090fcf5a1ce2feff',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
+  ['numevents',['numEvents',['../classComPWA_1_1ProgressBar.html#aa6adf4504d0e20fa9257625be4005334',1,'ComPWA::ProgressBar']]],
+  ['numfreeparameters',['NumFreeParameters',['../structComPWA_1_1FitResult.html#aab6bee627da5af8163edfc8b16fe3b4b',1,'ComPWA::FitResult']]]
 ];

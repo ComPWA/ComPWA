@@ -5,7 +5,6 @@ var searchData=
   ['estimator_2ehpp',['Estimator.hpp',['../Estimator_8hpp.html',1,'']]],
   ['event_2ecpp',['Event.cpp',['../Event_8cpp.html',1,'']]],
   ['event_2ehpp',['Event.hpp',['../Event_8hpp.html',1,'']]],
-  ['evtgenfit_2ecpp',['EvtGenFit.cpp',['../EvtGenFit_8cpp.html',1,'']]],
   ['evtgengenerator_2ecpp',['EvtGenGenerator.cpp',['../EvtGenGenerator_8cpp.html',1,'']]],
   ['evtgengenerator_2ehpp',['EvtGenGenerator.hpp',['../EvtGenGenerator_8hpp.html',1,'']]],
   ['evtgenif_2ecpp',['EvtGenIF.cpp',['../EvtGenIF_8cpp.html',1,'']]],

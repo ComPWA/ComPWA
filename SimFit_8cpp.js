@@ -1,9 +1,9 @@
 var SimFit_8cpp =
 [
-    [ "energyPar", "structenergyPar.html", "structenergyPar" ],
-    [ "createEnergyPar", "SimFit_8cpp.html#a05633cff18bab4b39682de4fac5aabfc", null ],
+    [ "EnergyParameters", "structEnergyParameters.html", "structEnergyParameters" ],
+    [ "createEnergyPar", "SimFit_8cpp.html#a358ff28168f643ad22ecb28a29c60465", null ],
     [ "main", "SimFit_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
-    [ "modelSqrtS4230", "SimFit_8cpp.html#a5989f51f1ddd9a2de43aa789a5ee5c4d", null ],
-    [ "modelSqrtS4260", "SimFit_8cpp.html#a285854036589de05762384f3a351125a", null ],
-    [ "partList", "SimFit_8cpp.html#a2810843bc18ddfb0640a6f08975d85e2", null ]
+    [ "ModelSqrtS4230", "SimFit_8cpp.html#a5458886716d572e3a56e377999c21f04", null ],
+    [ "ModelSqrtS4260", "SimFit_8cpp.html#a74358b8d0d1b1dfee6bad02218729198", null ],
+    [ "MyParticleList", "SimFit_8cpp.html#ad02b963cadd3be725147fb3bee0b82e7", null ]
 ];

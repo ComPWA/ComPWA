@@ -2,15 +2,10 @@ var hierarchy =
 [
     [ "BoolTranslator", "structBoolTranslator.html", null ],
     [ "ChiOneD", "classChiOneD.html", null ],
-    [ "ComPWA::Data::CorrectionTable", "classComPWA_1_1Data_1_1CorrectionTable.html", null ],
     [ "ComPWA::Physics::Dynamics::Coupling", "classComPWA_1_1Physics_1_1Dynamics_1_1Coupling.html", null ],
     [ "ComPWA::Tools::Plotting::DalitzHisto", "classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html", null ],
     [ "ComPWA::Tools::Plotting::DalitzPlot", "classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html", null ],
     [ "ComPWA::Physics::IntensityBuilderXML::DataContainer", "structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html", null ],
-    [ "ComPWA::Data::DataCorrection", "classComPWA_1_1Data_1_1DataCorrection.html", [
-      [ "ComPWA::Data::MomentumCorrection", "classComPWA_1_1Data_1_1MomentumCorrection.html", null ],
-      [ "ComPWA::Data::UnitCorrection", "classComPWA_1_1Data_1_1UnitCorrection.html", null ]
-    ] ],
     [ "ComPWA::Data::DataSet", "structComPWA_1_1Data_1_1DataSet.html", null ],
     [ "ComPWA::Tools::FitFractions::DerivativeData", "structComPWA_1_1Tools_1_1FitFractions_1_1DerivativeData.html", null ],
     [ "ComPWA::Efficiency", "classComPWA_1_1Efficiency.html", [
@@ -22,8 +17,9 @@ var hierarchy =
     [ "enable_shared_from_this", null, [
       [ "ComPWA::FunctionTree::TreeNode", "classComPWA_1_1FunctionTree_1_1TreeNode.html", null ]
     ] ],
-    [ "energyPar", "structenergyPar.html", null ],
+    [ "EnergyParameters", "structEnergyParameters.html", null ],
     [ "ComPWA::Event", "structComPWA_1_1Event.html", null ],
+    [ "ComPWA::EventCollection", "structComPWA_1_1EventCollection.html", null ],
     [ "EvtRandomEngine", null, [
       [ "ComPWA::Data::EvtGen::EvtGenStdRandomEngine", "classComPWA_1_1Data_1_1EvtGen_1_1EvtGenStdRandomEngine.html", null ]
     ] ],
@@ -92,16 +88,15 @@ var hierarchy =
     [ "ComPWA::Optimizer::Optimizer< MinuitResult >", "classComPWA_1_1Optimizer_1_1Optimizer.html", [
       [ "ComPWA::Optimizer::Minuit2::MinuitIF", "classComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitIF.html", null ]
     ] ],
+    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::Parameter", "classComPWA_1_1FunctionTree_1_1Parameter.html", [
       [ "ComPWA::FunctionTree::FitParameter", "classComPWA_1_1FunctionTree_1_1FitParameter.html", null ],
       [ "ComPWA::FunctionTree::Value< T >", "classComPWA_1_1FunctionTree_1_1Value.html", null ]
     ] ],
-    [ "ComPWA::Parameter", "structComPWA_1_1Parameter.html", null ],
     [ "ComPWA::FunctionTree::ParameterList", "classComPWA_1_1FunctionTree_1_1ParameterList.html", null ],
     [ "ComPWA::FunctionTree::ParObserver", "classComPWA_1_1FunctionTree_1_1ParObserver.html", [
       [ "ComPWA::FunctionTree::TreeNode", "classComPWA_1_1FunctionTree_1_1TreeNode.html", null ]
     ] ],
-    [ "ComPWA::Particle", "classComPWA_1_1Particle.html", null ],
     [ "ComPWA::ParticleProperties", "classComPWA_1_1ParticleProperties.html", null ],
     [ "ComPWA::Physics::ParticleStateTransitionKinematicsInfo", "classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html", null ],
     [ "ComPWA::PhaseSpaceEventGenerator", "classComPWA_1_1PhaseSpaceEventGenerator.html", [

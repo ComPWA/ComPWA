@@ -1,21 +1,10 @@
 var searchData=
 [
-  ['checktype',['checkType',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a32ade3523c081542c01450bcd7f6b490',1,'ComPWA::FunctionTree::Strategy']]],
-  ['childnodes',['ChildNodes',['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a0690224c41174e59dd80ef511a31b22e',1,'ComPWA::FunctionTree::TreeNode']]],
-  ['cmsboostvector',['CMSBoostVector',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a7b2c0b6365d90f3cae2e14c11f289f33',1,'ComPWA::Data::Root::RootGenerator']]],
-  ['cmsenergyminusmasses',['CMSEnergyMinusMasses',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a8a2cace09453652eba0d8deb409731ac',1,'ComPWA::Data::Root::RootGenerator']]],
-  ['cmsp4',['CMSP4',['../classComPWA_1_1Data_1_1EvtGen_1_1EvtGenGenerator.html#a9009250f11a2e705e6ce65d2d1ba8d9e',1,'ComPWA::Data::EvtGen::EvtGenGenerator::CMSP4()'],['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a28a94eedfc521a284f30f984ee223caa',1,'ComPWA::Data::Root::RootGenerator::CMSP4()']]],
-  ['columntitle',['ColumnTitle',['../classComPWA_1_1TableFormatter.html#afd92db48590c054b0e580061c30877db',1,'ComPWA::TableFormatter']]],
-  ['columnwidth',['ColumnWidth',['../classComPWA_1_1TableFormatter.html#a36eb1c984074e2a147495a4211787a30',1,'ComPWA::TableFormatter']]],
-  ['complexvalues',['ComplexValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a7f58a37899a619fe967532ff9a3a349b',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['componentregisteringenabled',['ComponentRegisteringEnabled',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a046ae8de18b46775d1dda620b6f394ad',1,'ComPWA::Physics::IntensityBuilderXML']]],
-  ['configfiledir',['ConfigFileDir',['../classComPWA_1_1Optimizer_1_1Geneva_1_1GenevaIF.html#aaf09f64f68b7b411df5d7ed00af3c0cc',1,'ComPWA::Optimizer::Geneva::GenevaIF']]],
-  ['correction',['correction',['../structComPWA_1_1FunctionTree_1_1KahanSummation.html#ad0ed90796a5cfa01191a561188742482',1,'ComPWA::FunctionTree::KahanSummation::correction()'],['../structComPWA_1_1Tools_1_1KahanSummation.html#af58d3c236b5488299a1c5cfaa47aebf2',1,'ComPWA::Tools::KahanSummation::correction()']]],
-  ['corrections',['Corrections',['../classComPWA_1_1Data_1_1MomentumCorrection.html#a3512be3be475403b205792b4a8ead5ed',1,'ComPWA::Data::MomentumCorrection']]],
-  ['covariancematrix',['CovarianceMatrix',['../structComPWA_1_1FitResult.html#a39849e8533626aefeeb8e83cf4071e37',1,'ComPWA::FitResult']]],
-  ['covposdef',['CovPosDef',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a613c4554aff48a4fc96a6464ca28a9eb',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
-  ['curcol',['CurCol',['../classComPWA_1_1TableFormatter.html#a74d6b0a9db66f3bd68b392e7fee75264',1,'ComPWA::TableFormatter']]],
-  ['currentevent',['currentEvent',['../classComPWA_1_1ProgressBar.html#ac2cfc9e1d525ea779e1047b05262d7fa',1,'ComPWA::ProgressBar']]],
-  ['currentpercent',['currentPercent',['../classComPWA_1_1ProgressBar.html#a5304202168ea4ea0aa8f226f3b8be801',1,'ComPWA::ProgressBar']]],
-  ['currow',['CurRow',['../classComPWA_1_1TableFormatter.html#ac804dc05b19925e46cdf270e286c9aae',1,'ComPWA::TableFormatter']]]
+  ['dalitzplot',['DalitzPlot',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#ad8e3a822234a0adb93641f0d5e64fdeb',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
+  ['data',['Data',['../classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html#aa0b04a89a4943a72dffc7c8eb7b4331d',1,'ComPWA::FunctionTree::FunctionTreeIntensity::Data()'],['../structComPWA_1_1Data_1_1DataSet.html#a137f0d1b3cdf6a82a02c6d29c0aaf812',1,'ComPWA::Data::DataSet::Data()'],['../structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html#a07558b8e6241e2f5bf5fcc0652005a40',1,'ComPWA::Physics::IntensityBuilderXML::DataContainer::Data()'],['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a1d9112d7de0dcea23a74d167935b3f4a',1,'ComPWA::Physics::IntensityBuilderXML::Data()']]],
+  ['datasample',['DataSample',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aa80c6482a43afe0947a518ec6eaae2f8',1,'ComPWA::Estimator::ChiOneD::ChiOneD::DataSample()'],['../classComPWA_1_1Estimator_1_1MinLogLH.html#a3361b92f98afa14798431ea8253d156e',1,'ComPWA::Estimator::MinLogLH::DataSample()'],['../structEnergyParameters.html#ae27434f7ca7d1384d4bbeb39e91dfe78',1,'EnergyParameters::DataSample()']]],
+  ['daughterinvariantmasses',['DaughterInvariantMasses',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#ab58ad1f99c8c3406bb18c8c5af6a0daa',1,'ComPWA::Physics::Dynamics::InputInfo']]],
+  ['decayinfo',['DecayInfo',['../classComPWA_1_1ParticleProperties.html#a29e6dc20a0d37bbe68f854c535389602',1,'ComPWA::ParticleProperties']]],
+  ['decayproductfinalstates',['DecayProductFinalStates',['../classComPWA_1_1Physics_1_1SubSystem.html#af589668161782f400127f544226c0b9f',1,'ComPWA::Physics::SubSystem']]],
+  ['doublevalues',['DoubleValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a62b0bb5c4ece5b9f5e6241c07f14dca3',1,'ComPWA::FunctionTree::ParameterList']]]
 ];

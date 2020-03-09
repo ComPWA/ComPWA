@@ -1,18 +1,6 @@
 var searchData=
 [
-  ['id',['Id',['../classComPWA_1_1ParticleProperties.html#aa6d5970c14af8222a6306672d668a1df',1,'ComPWA::ParticleProperties']]],
-  ['initialestimatorvalue',['InitialEstimatorValue',['../structComPWA_1_1FitResult.html#a90a9b04cabb69ccba38cc7c27bd781ed',1,'ComPWA::FitResult']]],
-  ['initialparameters',['InitialParameters',['../structComPWA_1_1FitResult.html#a48fdad208da3a7682842668b5f0a7453',1,'ComPWA::FitResult']]],
-  ['initialstate',['InitialState',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#aa045c3131b703223d93f88a6f0544ebd',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
-  ['initialstatep4',['InitialStateP4',['../classComPWA_1_1Physics_1_1ParticleStateTransitionKinematicsInfo.html#abd0e2d58b72568941f8a9fc7a9a65126',1,'ComPWA::Physics::ParticleStateTransitionKinematicsInfo']]],
-  ['integral',['Integral',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#afdb91f9cebb7415b16b697e07a33ceaa',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
-  ['intens',['Intens',['../structenergyPar.html#a124661e7422b3de9f18dd3cea17878d5',1,'energyPar']]],
-  ['intensity',['Intensity',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#ab40cf8747b7253958d78d8edc8ce89ed',1,'ComPWA::Estimator::ChiOneD::ChiOneD::Intensity()'],['../classComPWA_1_1Estimator_1_1MinLogLH.html#a50a7d7a580a921f72cd99ffb5e31d113',1,'ComPWA::Estimator::MinLogLH::Intensity()']]],
-  ['intensitygradientdatamapping',['IntensityGradientDataMapping',['../classComPWA_1_1Tools_1_1FitFractions.html#a18c713f729c946db033e35a328ba628a',1,'ComPWA::Tools::FitFractions']]],
-  ['intquantumnumbers',['IntQuantumNumbers',['../classComPWA_1_1ParticleProperties.html#afcbe619d331f680f3f0bf60b19bd01f1',1,'ComPWA::ParticleProperties']]],
-  ['intvalues',['IntValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a8146b9eb182dda3c8855eb9d9557ab96',1,'ComPWA::FunctionTree::ParameterList']]],
-  ['invariantmassessquared',['InvariantMassesSquared',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#af4b31d4d12afb89c68d6aa8fe850cd04',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
-  ['invmassbounds',['InvMassBounds',['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#a5d2d1497e7141868e52d2844912dee84',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics']]],
-  ['isfixed',['IsFixed',['../structComPWA_1_1FitParameter.html#a31a7639eb778e4c3bafa789e728a0b93',1,'ComPWA::FitParameter::IsFixed()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a1b3ce5c9cb34b8cf5397fa323226dccd',1,'ComPWA::FunctionTree::FitParameter::IsFixed()']]],
-  ['isvalid',['IsValid',['../structComPWA_1_1FitResult.html#aac87f3cca2e4101b4958cc03dec23ce2',1,'ComPWA::FitResult']]]
+  ['kinematic',['Kinematic',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a034842a1b149b34e67210c7bf2d2f14c',1,'ComPWA::Physics::IntensityBuilderXML']]],
+  ['kinematics',['Kinematics',['../structEnergyParameters.html#ac313d5690d54b3b84238d1bb14b923c3',1,'EnergyParameters::Kinematics()'],['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzPlot.html#a4c6fb6695e40df3a29a233b6a69d6a5f',1,'ComPWA::Tools::Plotting::DalitzPlot::Kinematics()']]],
+  ['kinematicsinfo',['KinematicsInfo',['../classComPWA_1_1Physics_1_1EvtGen_1_1DalitzKinematics.html#a464c5a893b76f2bb603329d5cfffacab',1,'ComPWA::Physics::EvtGen::DalitzKinematics::KinematicsInfo()'],['../classComPWA_1_1Physics_1_1HelicityFormalism_1_1HelicityKinematics.html#ada3dc5449a57758109c99dcf4ae4b269',1,'ComPWA::Physics::HelicityFormalism::HelicityKinematics::KinematicsInfo()']]]
 ];

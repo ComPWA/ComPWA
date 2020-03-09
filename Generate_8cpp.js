@@ -1,8 +1,9 @@
 var Generate_8cpp =
 [
-    [ "generate", "Generate_8cpp.html#ad8ad4decd5af23bf80276f302e711a80", null ],
-    [ "generate", "Generate_8cpp.html#aebfcb2d7de30914e4bb761ea2988dc26", null ],
-    [ "generateBunch", "Generate_8cpp.html#af0b8abf78d8bbab0b9d3e099b1cf920e", null ],
-    [ "generateImportanceSampledPhsp", "Generate_8cpp.html#add03e9fd9390b5954db5eb16d94265d8", null ],
-    [ "generatePhsp", "Generate_8cpp.html#a160cbd28045f7468b32537b9d7d98074", null ]
+    [ "generate", "Generate_8cpp.html#a87fce844fa9be482019bfcbefb4fc13d", null ],
+    [ "generate", "Generate_8cpp.html#a89465c15e1010207b985bb67e0cf7ba2", null ],
+    [ "generateBunch", "Generate_8cpp.html#a90df37a336579acb6b42143e06794356", null ],
+    [ "generateImportanceSampledPhsp", "Generate_8cpp.html#a3335b9ca082f30325a1748d33162e38c", null ],
+    [ "generatePhsp", "Generate_8cpp.html#a9d272ef055dbad0b19af47ea17e0a33e", null ],
+    [ "uniform", "Generate_8cpp.html#a7d81626f4d4a2b62b12477b7342e6aa5", null ]
 ];

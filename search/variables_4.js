@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['dalitzplot',['DalitzPlot',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#ad8e3a822234a0adb93641f0d5e64fdeb',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
-  ['data',['Data',['../classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html#aa0b04a89a4943a72dffc7c8eb7b4331d',1,'ComPWA::FunctionTree::FunctionTreeIntensity::Data()'],['../structComPWA_1_1Data_1_1DataSet.html#a137f0d1b3cdf6a82a02c6d29c0aaf812',1,'ComPWA::Data::DataSet::Data()'],['../structComPWA_1_1Physics_1_1IntensityBuilderXML_1_1DataContainer.html#a07558b8e6241e2f5bf5fcc0652005a40',1,'ComPWA::Physics::IntensityBuilderXML::DataContainer::Data()'],['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a1d9112d7de0dcea23a74d167935b3f4a',1,'ComPWA::Physics::IntensityBuilderXML::Data()']]],
-  ['datasample',['DataSample',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html#aa80c6482a43afe0947a518ec6eaae2f8',1,'ComPWA::Estimator::ChiOneD::ChiOneD::DataSample()'],['../classComPWA_1_1Estimator_1_1MinLogLH.html#a3361b92f98afa14798431ea8253d156e',1,'ComPWA::Estimator::MinLogLH::DataSample()'],['../structenergyPar.html#a6cb00d0e2633deb121b5a32ffff8f666',1,'energyPar::DataSample()']]],
-  ['daughterinvariantmasses',['DaughterInvariantMasses',['../structComPWA_1_1Physics_1_1Dynamics_1_1InputInfo.html#ab58ad1f99c8c3406bb18c8c5af6a0daa',1,'ComPWA::Physics::Dynamics::InputInfo']]],
-  ['decayinfo',['DecayInfo',['../classComPWA_1_1ParticleProperties.html#a29e6dc20a0d37bbe68f854c535389602',1,'ComPWA::ParticleProperties']]],
-  ['decayproductfinalstates',['DecayProductFinalStates',['../classComPWA_1_1Physics_1_1SubSystem.html#af589668161782f400127f544226c0b9f',1,'ComPWA::Physics::SubSystem']]],
-  ['doublevalues',['DoubleValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a62b0bb5c4ece5b9f5e6241c07f14dca3',1,'ComPWA::FunctionTree::ParameterList']]]
+  ['edm',['Edm',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8272acdbc526d6347f18276ccec2d5db',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['edmabovemax',['EdmAboveMax',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a41ea33002877d6df6de0ac5309f73a5d',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['effhist',['effHist',['../classComPWA_1_1Data_1_1Root_1_1RootEfficiency.html#abdaf9420b1ec6e25e1386329548d9da0',1,'ComPWA::Data::Root::RootEfficiency']]],
+  ['error',['Error',['../structComPWA_1_1FitParameter.html#af9d53a9ca9d5f0ecfe3fd769d05d806f',1,'ComPWA::FitParameter::Error()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a5616fd91997aae4539fb3e8693f88716',1,'ComPWA::FunctionTree::FitParameter::Error()'],['../structComPWA_1_1Tools_1_1FitFraction.html#aeb77d1bd3aadf83366929be38edae798',1,'ComPWA::Tools::FitFraction::Error()']]],
+  ['errordef',['ErrorDef',['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a82755759407e4c59f581e5c196477241',1,'ComPWA::Optimizer::Minuit2::MinuitResult']]],
+  ['errtype',['ErrType',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#adac7907a484f435fb5490a51bf868e2a',1,'ComPWA::FunctionTree::FitParameter']]],
+  ['events',['Events',['../structComPWA_1_1EventCollection.html#ae046211ede6817d51d769b372aab67dc',1,'ComPWA::EventCollection']]],
+  ['evtpars',['evtPars',['../classComPWA_1_1Physics_1_1EvtGen_1_1EvtGenIF.html#a09e41347bed599b203209b97d89ba9e8',1,'ComPWA::Physics::EvtGen::EvtGenIF']]],
+  ['expa2n2',['expa2n2',['../Faddeeva_8cc.html#a979fa40eea71b30eece8bbec27dba3c4',1,'Faddeeva.cc']]]
 ];

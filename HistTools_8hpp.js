@@ -1,13 +1,13 @@
 var HistTools_8hpp =
 [
-    [ "adaptiveBinning", "HistTools_8hpp.html#aeb990653d33076643ed3e75278ad4b5a", null ],
-    [ "drawHist", "HistTools_8hpp.html#a56168f80cba786894cbecd7909be1f7b", null ],
-    [ "drawPull", "HistTools_8hpp.html#a48cad49cf5e8dc7cbf78f040e41098b2", null ],
-    [ "drawPull", "HistTools_8hpp.html#aa01bfba92b9f8e5d82d0af4ae5ccaa35", null ],
-    [ "drawResidual", "HistTools_8hpp.html#a891e6069d2b16877384911a4499d217f", null ],
-    [ "drawResidual", "HistTools_8hpp.html#ae14f25e6a585c814b3745686e9c6d0b7", null ],
-    [ "getPull", "HistTools_8hpp.html#a35babcedc28756a408ac0868293d3c42", null ],
-    [ "getResidual", "HistTools_8hpp.html#a4826203e969029bd7899c98d13f8a691", null ],
-    [ "getTH2PolyChi2", "HistTools_8hpp.html#a4e020d8c604bf8d65ae0e796f0614ffe", null ],
-    [ "getTH2PolyPull", "HistTools_8hpp.html#a3506f5d71370170e5a49b35b2d68e162", null ]
+    [ "adaptiveBinning", "HistTools_8hpp.html#a91bce09c99f67754f565a9d3a183dcf8", null ],
+    [ "drawHist", "HistTools_8hpp.html#a24b8c2ce1e336f06e3572f21ca0bcdfe", null ],
+    [ "drawPull", "HistTools_8hpp.html#a80ef7acccb9dba4c040239c1fdb2d4bc", null ],
+    [ "drawPull", "HistTools_8hpp.html#afe67e7be35693a6244360bcc17842cf8", null ],
+    [ "drawResidual", "HistTools_8hpp.html#a6a46807aa1665ffb14f2aa38810beafb", null ],
+    [ "drawResidual", "HistTools_8hpp.html#a3589dfba752fb0cd08d0e1cc9da27365", null ],
+    [ "getPull", "HistTools_8hpp.html#ab09c1cfc792593798b5d84e9c875686a", null ],
+    [ "getResidual", "HistTools_8hpp.html#a3298880eee4ae83a198ca69dadd80def", null ],
+    [ "getTH2PolyChi2", "HistTools_8hpp.html#a1cef5c107b184dd02997e4459b818eff", null ],
+    [ "getTH2PolyPull", "HistTools_8hpp.html#a11953bb91dd91e0eb1103fe592e7f3d0", null ]
 ];

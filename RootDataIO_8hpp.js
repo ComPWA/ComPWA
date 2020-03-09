@@ -1,5 +1,5 @@
 var RootDataIO_8hpp =
 [
-    [ "readData", "RootDataIO_8hpp.html#a064b292c426ae005078c5cf0dc7fcb6b", null ],
-    [ "writeData", "RootDataIO_8hpp.html#aaf207f1613afbf62d37d510ec10249f4", null ]
+    [ "readData", "RootDataIO_8hpp.html#a1f589502dfb1b4e0d5be0ea6b1c2475a", null ],
+    [ "writeData", "RootDataIO_8hpp.html#ae5b88a919a18b0d6fa4256ea8dc412cf", null ]
 ];
