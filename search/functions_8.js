@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['importyaml',['importYAML',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#ab4f5176905696305c7da79a07b28e3fc',1,'ComPWA::Data::Ascii::AsciiHeader::importYAML(const std::string &amp;HeaderContent)'],['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#af0477e18156b533e89be5da2a46ca814',1,'ComPWA::Data::Ascii::AsciiHeader::importYAML(std::istream &amp;InputStream)']]],
   ['init',['init',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a2fbbfdb80bee47638d13333aa5a42ea5',1,'ComPWA::Data::Root::RootGenerator']]],
   ['initializewithfitresult',['initializeWithFitResult',['../namespaceComPWA.html#acccafc046b9e35272778e39f177faac3',1,'ComPWA']]],
   ['insertparticles',['insertParticles',['../namespaceComPWA.html#a339218eb3dc55c220b85b09576ff3af6',1,'ComPWA::insertParticles(ParticleList &amp;list, const boost::property_tree::ptree &amp;pt)'],['../namespaceComPWA.html#a12e9e50c5cfeacaa484254026835d8df',1,'ComPWA::insertParticles(ParticleList &amp;list, std::stringstream &amp;Stream)'],['../namespaceComPWA.html#a47fc08eaf9a4a4fd7b7861cbb9d1c40f',1,'ComPWA::insertParticles(ParticleList &amp;list, std::string FileName)']]],
@@ -13,6 +14,7 @@ var searchData=
   ['invariantmass',['invariantMass',['../classComPWA_1_1FourMomentum.html#a289a9945344d564c8ec5dda1c8a8babf',1,'ComPWA::FourMomentum']]],
   ['invariantmasssquared',['invariantMassSquared',['../classComPWA_1_1FourMomentum.html#a8ef5e1c72cffb3ad6df101e2483c33ed',1,'ComPWA::FourMomentum']]],
   ['inverse',['Inverse',['../classComPWA_1_1FunctionTree_1_1Inverse.html#a147e4c21c8b9e76931612414f96730ed',1,'ComPWA::FunctionTree::Inverse']]],
+  ['isenergyfirst',['isEnergyFirst',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#aaed98eaacd888934f23202e9a61c8306',1,'ComPWA::Data::Ascii::AsciiHeader']]],
   ['isfixed',['isFixed',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a793cc0f326dc041c9d2969cf298d9a97',1,'ComPWA::FunctionTree::FitParameter']]],
   ['isparameter',['isParameter',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a031f0f106ab8f1441b359f60bb74b0fb',1,'ComPWA::FunctionTree::FitParameter::isParameter()'],['../classComPWA_1_1FunctionTree_1_1Parameter.html#a964d25070880bad1f0365c058af44173',1,'ComPWA::FunctionTree::Parameter::isParameter()']]],
   ['isvalid',['isValid',['../namespaceComPWA.html#a1d2b7f48548a6139b78816acbe7da1c8',1,'ComPWA']]]

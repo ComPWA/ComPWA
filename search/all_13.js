@@ -7,6 +7,7 @@ var searchData=
   ['uniformrealnumbergenerator',['UniformRealNumberGenerator',['../classComPWA_1_1UniformRealNumberGenerator.html',1,'ComPWA']]],
   ['uniquecomponentftmapping',['UniqueComponentFTMapping',['../classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a4d6b78096e6c8249c2e4330617dfee12',1,'ComPWA::Physics::IntensityBuilderXML']]],
   ['uniquestringstopids',['uniqueStringsToPids',['../namespaceComPWA_1_1Data_1_1Root.html#a73bba95613705dde3fbf9983f4a40217',1,'ComPWA::Data::Root']]],
+  ['unit',['Unit',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#a064d9a78516b0fb7a6f1d4199d13e6c3',1,'ComPWA::Data::Ascii::AsciiHeader']]],
   ['unitefficiency',['UnitEfficiency',['../classComPWA_1_1UnitEfficiency.html#ac432d19c01e31656459eee9a6b5575d1',1,'ComPWA::UnitEfficiency']]],
   ['unitefficiency',['UnitEfficiency',['../classComPWA_1_1UnitEfficiency.html',1,'ComPWA']]],
   ['update',['update',['../classComPWA_1_1FunctionTree_1_1ParObserver.html#a3e475b2d57a492dcedab9f1ee292721a',1,'ComPWA::FunctionTree::ParObserver::update()'],['../classComPWA_1_1FunctionTree_1_1TreeNode.html#a9e6caf4b4d9efec7d2bd09c0f8a56688',1,'ComPWA::FunctionTree::TreeNode::update()'],['../classComPWA_1_1ProgressBar.html#a8e55a63395ae46e00b0c2975ae1a8a84',1,'ComPWA::ProgressBar::update()']]],

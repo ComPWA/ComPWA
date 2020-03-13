@@ -24,6 +24,10 @@ var searchData=
   ['amplitudemodel',['AmplitudeModel',['../DalitzFitApp_8cpp.html#ac737ded33b9bc8900ab49c15140a13ce',1,'DalitzFitApp.cpp']]],
   ['asciidataio_2ecpp',['AsciiDataIO.cpp',['../AsciiDataIO_8cpp.html',1,'']]],
   ['asciidataio_2ehpp',['AsciiDataIO.hpp',['../AsciiDataIO_8hpp.html',1,'']]],
+  ['asciiheader',['AsciiHeader',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#a3487668e52991228d6021e2edba36e7d',1,'ComPWA::Data::Ascii::AsciiHeader']]],
+  ['asciiheader',['AsciiHeader',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html',1,'ComPWA::Data::Ascii']]],
+  ['asciiheaderio_2ecpp',['AsciiHeaderIO.cpp',['../AsciiHeaderIO_8cpp.html',1,'']]],
+  ['asciiheaderio_2ehpp',['AsciiHeaderIO.hpp',['../AsciiHeaderIO_8hpp.html',1,'']]],
   ['asym',['ASYM',['../namespaceComPWA_1_1FunctionTree.html#a79171aef8288391d7bc3b4ae729578a7a7777d1c0c1eb5363f6a9269b1eccddd5',1,'ComPWA::FunctionTree']]],
   ['attach',['attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a9ac852052c1c1877ddad4c99ef645ca7',1,'ComPWA::FunctionTree::Parameter']]],
   ['avgerror',['avgError',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a23585b75feabd2668acee11f03709ae4',1,'ComPWA::FunctionTree::FitParameter']]]

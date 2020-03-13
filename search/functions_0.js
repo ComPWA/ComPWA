@@ -17,6 +17,7 @@ var searchData=
   ['adduniqueparameter',['addUniqueParameter',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a874c4c9cc3ef8abdb43306df926ba8a7',1,'ComPWA::FunctionTree::ParameterList']]],
   ['addvalue',['addValue',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a28bea8c3ed3e67cfb52e9cccf0e2c898',1,'ComPWA::FunctionTree::ParameterList']]],
   ['addvalues',['addValues',['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a86834aad322b4ba37dbb5999970fba04',1,'ComPWA::FunctionTree::ParameterList']]],
+  ['asciiheader',['AsciiHeader',['../classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#a3487668e52991228d6021e2edba36e7d',1,'ComPWA::Data::Ascii::AsciiHeader']]],
   ['attach',['attach',['../classComPWA_1_1FunctionTree_1_1Parameter.html#a9ac852052c1c1877ddad4c99ef645ca7',1,'ComPWA::FunctionTree::Parameter']]],
   ['avgerror',['avgError',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a23585b75feabd2668acee11f03709ae4',1,'ComPWA::FunctionTree::FitParameter']]]
 ];

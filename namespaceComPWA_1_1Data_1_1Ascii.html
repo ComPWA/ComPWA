@@ -113,19 +113,26 @@ $(document).ready(function(){initNavTree('namespaceComPWA_1_1Data_1_1Ascii.html'
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ComPWA::Data::Ascii Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html">AsciiHeader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of data contained in an ASCII header.  <a href="classComPWA_1_1Data_1_1Ascii_1_1AsciiHeader.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2393f6763218089de82c477f033376f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Ascii.html#a2393f6763218089de82c477f033376f5">readData</a> (const std::string &amp;InputFilePath, long long NumberEventsToRead=-1)</td></tr>
 <tr class="memdesc:a2393f6763218089de82c477f033376f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read momentum tuples from an ASCII file.  <a href="#a2393f6763218089de82c477f033376f5">More...</a><br /></td></tr>
 <tr class="separator:a2393f6763218089de82c477f033376f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada296350e355e9d4e8d73ab06045d151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Ascii.html#ada296350e355e9d4e8d73ab06045d151">writeData</a> (const <a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a> &amp;DataSample, const std::string &amp;OutputFilePath, bool AppendToFile)</td></tr>
-<tr class="separator:ada296350e355e9d4e8d73ab06045d151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afbc89714b2fa813987b82a21acc366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceComPWA_1_1Data_1_1Ascii.html#a6afbc89714b2fa813987b82a21acc366">writeData</a> (const <a class="el" href="structComPWA_1_1EventCollection.html">EventCollection</a> &amp;DataSample, const std::string &amp;OutputFilePath, bool OverwriteFile)</td></tr>
+<tr class="separator:a6afbc89714b2fa813987b82a21acc366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a2393f6763218089de82c477f033376f5"></a>
@@ -153,20 +160,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Read momentum tuples from an ASCII file. </p>
-<p>The file should start with a header that defines the final state, like so: </p><div class="fragment"><div class="line">Header</div><div class="line">  Pid: 211</div><div class="line">  Pid: -211</div><div class="line">  Pid: 22</div><div class="line">Header</div></div><!-- fragment --><p> This header is followed by rows of momentum tuples, grouped per event. In this case, you would have a row for the <img class="formulaInl" alt="$\pi^+$" src="form_0.png"/>, then for the <img class="formulaInl" alt="$\pi^-$" src="form_1.png"/>, then one for the <img class="formulaInl" alt="$\gamma$" src="form_2.png"/>, and finally back to <img class="formulaInl" alt="$\pi^+$" src="form_0.png"/>. You may choose to start each event group with a weight value, but you don't need to. </p>
+<p>The file should start with a header that defines the final state, like so: </p><div class="fragment"><div class="line">&lt;header&gt;</div><div class="line">  Pids: [211, -211, 22]</div><div class="line">  Order: E px Py pz</div><div class="line">  Unit: GeV</div><div class="line">&lt;/header&gt;</div></div><!-- fragment --><p> Note that the section within the <code>header</code> tags is YAML syntax.This header is followed by rows of momentum tuples, grouped per event. In this case, you would have a row for the <img class="formulaInl" alt="$\pi^+$" src="form_0.png"/>, then for the <img class="formulaInl" alt="$\pi^-$" src="form_1.png"/>, then one for the <img class="formulaInl" alt="$\gamma$" src="form_2.png"/>, and finally back to <img class="formulaInl" alt="$\pi^+$" src="form_0.png"/>. You may choose to start each event group with a weight value, but you don't need to. </p>
 <ol type="1">
 <li>Open file</li>
 <li>Extract header</li>
+<li>Determine whether has header</li>
 <li>Determine whether weights or not</li>
-<li>Determine E,p or p,E</li>
+<li>Check number of particles (if it has weights)</li>
+<li>Check E,p or p,E</li>
 <li>Import events </li>
 </ol>
 
-<p>Definition at line <a class="el" href="AsciiDataIO_8cpp_source.html#l00071">71</a> of file <a class="el" href="AsciiDataIO_8cpp_source.html">AsciiDataIO.cpp</a>.</p>
+<p>Definition at line <a class="el" href="AsciiDataIO_8cpp_source.html#l00018">18</a> of file <a class="el" href="AsciiDataIO_8cpp_source.html">AsciiDataIO.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ada296350e355e9d4e8d73ab06045d151"></a>
+<a class="anchor" id="a6afbc89714b2fa813987b82a21acc366"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -186,7 +195,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>AppendToFile</em>&#160;</td>
+          <td class="paramname"><em>OverwriteFile</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -202,7 +211,7 @@ Functions</h2></td></tr>
 <li>Write events </li>
 </ol>
 
-<p>Definition at line <a class="el" href="AsciiDataIO_8cpp_source.html#l00134">134</a> of file <a class="el" href="AsciiDataIO_8cpp_source.html">AsciiDataIO.cpp</a>.</p>
+<p>Definition at line <a class="el" href="AsciiDataIO_8cpp_source.html#l00114">114</a> of file <a class="el" href="AsciiDataIO_8cpp_source.html">AsciiDataIO.cpp</a>.</p>
 
 </div>
 </div>
@@ -213,7 +222,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceComPWA.html">ComPWA</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Data.html">Data</a></li><li class="navelem"><a class="el" href="namespaceComPWA_1_1Data_1_1Ascii.html">Ascii</a></li>
-    <li class="footer">Generated on Thu Mar 12 2020 15:05:52 for ComPWA by
+    <li class="footer">Generated on Fri Mar 13 2020 15:27:52 for ComPWA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
