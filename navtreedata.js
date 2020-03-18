@@ -42,7 +42,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AsciiDataIO_8cpp.html",
-"Logging_8cpp.html#a943bfaa3525d2dcc83790c5af1d76d90",
+"Kinematics_8hpp_source.html",
 "classComPWA_1_1Data_1_1EvtGen_1_1EvtGenGenerator.html#a9009250f11a2e705e6ce65d2d1ba8d9e",
 "classComPWA_1_1FunctionTree_1_1ParameterList.html#adf32185cbfbecc074a7282e7603369cd",
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abfa584a1ccc381745c8f6035d4bdb0fd",

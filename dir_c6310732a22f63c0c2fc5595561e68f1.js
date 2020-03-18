@@ -24,6 +24,9 @@ var dir_c6310732a22f63c0c2fc5595561e68f1 =
     [ "FitParameter.hpp", "FitParameter_8hpp.html", "FitParameter_8hpp" ],
     [ "FitResult.cpp", "FitResult_8cpp.html", "FitResult_8cpp" ],
     [ "FitResult.hpp", "FitResult_8hpp.html", "FitResult_8hpp" ],
+    [ "FourMomentum.hpp", "FourMomentum_8hpp.html", [
+      [ "FourMomentum", "classComPWA_1_1FourMomentum.html", "classComPWA_1_1FourMomentum" ]
+    ] ],
     [ "Function.hpp", "Function_8hpp.html", "Function_8hpp" ],
     [ "Generator.hpp", "Generator_8hpp.html", [
       [ "PhaseSpaceEventGenerator", "classComPWA_1_1PhaseSpaceEventGenerator.html", "classComPWA_1_1PhaseSpaceEventGenerator" ]
@@ -34,9 +37,6 @@ var dir_c6310732a22f63c0c2fc5595561e68f1 =
     [ "Logging.cpp", "Logging_8cpp.html", "Logging_8cpp" ],
     [ "Logging.hpp", "Logging_8hpp.html", [
       [ "Logging", "classComPWA_1_1Logging.html", "classComPWA_1_1Logging" ]
-    ] ],
-    [ "Particle.hpp", "Particle_8hpp.html", [
-      [ "FourMomentum", "classComPWA_1_1FourMomentum.html", "classComPWA_1_1FourMomentum" ]
     ] ],
     [ "ProgressBar.cpp", "ProgressBar_8cpp.html", null ],
     [ "ProgressBar.hpp", "ProgressBar_8hpp.html", [
