@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aae2b47ca71eab41ffd9bd6af14794711":[3,0,0,4,4,10],
+"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aaf80bf1a56da92317cfdcb83d38e3979":[3,0,0,4,4,13],
+"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ab3e37d499b8579f6f3a275dcf1f35814":[3,0,0,4,4,31],
+"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abcedafcf27eb80ef5bec468be1e7b7ad":[3,0,0,4,4,9],
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abfa584a1ccc381745c8f6035d4bdb0fd":[3,0,0,4,4,29],
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ae2e013217dbbc8d09951370b53e1b325":[3,0,0,4,4,4],
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ae7402fc5586eb420b92bf72a569fc985":[3,0,0,4,4,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "functions_vars_i.html":[3,3,2,8],
 "functions_vars_k.html":[3,3,2,9],
 "functions_vars_l.html":[3,3,2,10],
-"functions_vars_m.html":[3,3,2,11],
-"functions_vars_n.html":[3,3,2,12],
-"functions_vars_o.html":[3,3,2,13],
-"functions_vars_p.html":[3,3,2,14],
-"functions_vars_r.html":[3,3,2,15]
+"functions_vars_m.html":[3,3,2,11]
 };

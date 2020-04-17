@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"classComPWA_1_1FunctionTree_1_1ParameterList.html#ad3b790999b29f5db7f6b7e08899e9a02":[3,0,0,2,13,12],
+"classComPWA_1_1FunctionTree_1_1ParameterList.html#ad3e57eb945e75652a3007bad7420aa97":[3,0,0,2,13,42],
+"classComPWA_1_1FunctionTree_1_1ParameterList.html#ad6e2e74ea0b62e70d29c709fc211079b":[3,0,0,2,13,3],
+"classComPWA_1_1FunctionTree_1_1ParameterList.html#adbac60f278699e97685bad985ec3058f":[3,0,0,2,13,4],
 "classComPWA_1_1FunctionTree_1_1ParameterList.html#adf32185cbfbecc074a7282e7603369cd":[3,0,0,2,13,23],
 "classComPWA_1_1FunctionTree_1_1ParameterList.html#adffe344d12202259147074dd8b616872":[3,0,0,2,13,35],
 "classComPWA_1_1FunctionTree_1_1ParameterList.html#ae5fa47d6c27dd0b40d21779e49ac3b0e":[3,0,0,2,13,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a937fbbe89ab82c5824a2eab4b32ef577":[3,0,0,4,4,2],
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a93aac4c16934c7c4b650189fe166458f":[3,0,0,4,4,32],
 "classComPWA_1_1Physics_1_1IntensityBuilderXML.html#a99422fd402f236b2ecbcf72f6b588945":[3,0,0,4,4,26],
-"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aabc03f626cfd14ae119eb5ef813f9326":[3,0,0,4,4,17],
-"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aae2b47ca71eab41ffd9bd6af14794711":[3,0,0,4,4,10],
-"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aaf80bf1a56da92317cfdcb83d38e3979":[3,0,0,4,4,13],
-"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#ab3e37d499b8579f6f3a275dcf1f35814":[3,0,0,4,4,31],
-"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#abcedafcf27eb80ef5bec468be1e7b7ad":[3,0,0,4,4,9]
+"classComPWA_1_1Physics_1_1IntensityBuilderXML.html#aabc03f626cfd14ae119eb5ef813f9326":[3,0,0,4,4,17]
 };
