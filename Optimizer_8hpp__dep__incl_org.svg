@@ -11,89 +11,89 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-158 582,-158 582,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="282,-134.5 282,-153.5 404,-153.5 404,-134.5 282,-134.5"/>
-<text text-anchor="middle" x="343" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Optimizer.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="162,-134.5 162,-153.5 284,-153.5 284,-134.5 162,-134.5"/>
+<text text-anchor="middle" x="223" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Optimizer.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="MinuitIF_8hpp.html" target="_top" xlink:title="Optimizer/Minuit2/Minuit\lIF.hpp">
-<polygon fill="white" stroke="black" points="165,-67.5 165,-97.5 287,-97.5 287,-67.5 165,-67.5"/>
-<text text-anchor="start" x="173" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Minuit2/Minuit</text>
-<text text-anchor="middle" x="226" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">IF.hpp</text>
+<g id="a_node2"><a xlink:href="GenevaIF_8hpp.html" target="_top" xlink:title="This class provides a wrapper around the Geneva library. ">
+<polygon fill="white" stroke="black" points="32,-73 32,-92 192,-92 192,-73 32,-73"/>
+<text text-anchor="middle" x="112" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Geneva/GenevaIF.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M317.316,-129.938C298.455,-120.347 272.866,-107.334 253.575,-97.523"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="315.737,-133.062 326.237,-134.475 318.91,-126.822 315.737,-133.062"/>
+<path fill="none" stroke="midnightblue" d="M198.21,-129.712C176.712,-118.188 146.242,-101.855 127.874,-92.0091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="196.629,-132.835 207.096,-134.475 199.936,-126.666 196.629,-132.835"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="GenevaIF_8hpp.html" target="_top" xlink:title="This class provides a wrapper around the Geneva library. ">
-<polygon fill="white" stroke="black" points="380,-73 380,-92 540,-92 540,-73 380,-73"/>
-<text text-anchor="middle" x="460" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Geneva/GenevaIF.hpp</text>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="MinuitIF_8hpp.html" target="_top" xlink:title="Optimizer/Minuit2/Minuit\lIF.hpp">
+<polygon fill="white" stroke="black" points="274,-67.5 274,-97.5 396,-97.5 396,-67.5 274,-67.5"/>
+<text text-anchor="start" x="282" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Minuit2/Minuit</text>
+<text text-anchor="middle" x="335" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">IF.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M368.826,-129.867C391.501,-118.335 423.82,-101.899 443.268,-92.0091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="367.09,-126.822 359.763,-134.475 370.263,-133.062 367.09,-126.822"/>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M248.332,-129.542C266.312,-119.991 290.39,-107.199 308.604,-97.523"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="246.236,-126.693 239.047,-134.475 249.52,-132.874 246.236,-126.693"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="DalitzFitApp_8cpp.html" target="_top" xlink:title="Simple Dalitz plot analysis with ComPWA. ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 100,-30.5 100,-0.5 0,-0.5"/>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzFit</text>
-<text text-anchor="middle" x="50" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFitApp.cpp</text>
+<g id="a_node3"><a xlink:href="GenevaIF_8cpp.html" target="_top" xlink:title="Optimizer/Geneva/GenevaIF.cpp">
+<polygon fill="white" stroke="black" points="0,-6 0,-25 160,-25 160,-6 0,-6"/>
+<text text-anchor="middle" x="80" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Geneva/GenevaIF.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M178.124,-63.8185C149.834,-53.3707 114.506,-40.3231 88.1148,-30.5765"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="177.217,-67.2147 187.811,-67.396 179.643,-60.6482 177.217,-67.2147"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
-<polygon fill="white" stroke="black" points="118,-6 118,-25 260,-25 260,-6 118,-6"/>
-<text text-anchor="middle" x="189" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M212.983,-58.6315C206.4,-47.0671 198.799,-33.7142 193.949,-25.1945"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="209.983,-60.4368 217.972,-67.396 216.066,-56.9738 209.983,-60.4368"/>
+<path fill="none" stroke="midnightblue" d="M103.219,-63.6635C97.0477,-51.1281 89.0636,-34.9104 84.2473,-25.1273"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="100.127,-65.308 107.684,-72.7338 106.408,-62.2162 100.127,-65.308"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="MinuitIF_8cpp.html" target="_top" xlink:title="Optimizer/Minuit2/Minuit\lIF.cpp">
-<polygon fill="white" stroke="black" points="278,-0.5 278,-30.5 400,-30.5 400,-0.5 278,-0.5"/>
-<text text-anchor="start" x="286" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Minuit2/Minuit</text>
-<text text-anchor="middle" x="339" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">IF.cpp</text>
+<g id="a_node5"><a xlink:href="DalitzFitApp_8cpp.html" target="_top" xlink:title="Simple Dalitz plot analysis with ComPWA. ">
+<polygon fill="white" stroke="black" points="178,-0.5 178,-30.5 278,-30.5 278,-0.5 178,-0.5"/>
+<text text-anchor="start" x="186" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/DalitzFit</text>
+<text text-anchor="middle" x="228" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DalitzFitApp.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M259.386,-62.2956C277.068,-52.1248 298.398,-39.8549 314.529,-30.5765"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="257.442,-59.3759 250.519,-67.396 260.933,-65.4437 257.442,-59.3759"/>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M302.925,-62.0151C286.274,-51.8999 266.306,-39.7698 251.172,-30.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="301.419,-65.1954 311.783,-67.396 305.053,-59.2127 301.419,-65.1954"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
+<polygon fill="white" stroke="black" points="296,-6 296,-25 438,-25 438,-6 296,-6"/>
+<text text-anchor="middle" x="367" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M346.428,-58.2875C352.082,-46.8032 358.567,-33.6298 362.72,-25.1945"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="343.22,-56.8783 341.944,-67.396 349.501,-59.9702 343.22,-56.8783"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="GenevaIF_8cpp.html" target="_top" xlink:title="Optimizer/Geneva/GenevaIF.cpp">
-<polygon fill="white" stroke="black" points="418,-6 418,-25 578,-25 578,-6 418,-6"/>
-<text text-anchor="middle" x="498" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Geneva/GenevaIF.cpp</text>
+<g id="a_node7"><a xlink:href="MinuitIF_8cpp.html" target="_top" xlink:title="Optimizer/Minuit2/Minuit\lIF.cpp">
+<polygon fill="white" stroke="black" points="456,-0.5 456,-30.5 578,-30.5 578,-0.5 456,-0.5"/>
+<text text-anchor="start" x="464" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Optimizer/Minuit2/Minuit</text>
+<text text-anchor="middle" x="517" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">IF.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M470.21,-64.0347C477.568,-51.4499 487.18,-35.0072 492.956,-25.1273"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="467.15,-62.3344 465.125,-72.7338 473.193,-65.8673 467.15,-62.3344"/>
+<!-- Node4&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node4&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M384.125,-63.9553C413.443,-53.4847 450.176,-40.3656 477.586,-30.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="382.732,-60.7364 374.491,-67.396 385.086,-67.3286 382.732,-60.7364"/>
 </g>
 </g>
 </svg>

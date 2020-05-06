@@ -157,29 +157,29 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="BuilderXML_8hpp.html" target="_top" xlink:title="Physics/BuilderXML.hpp">
-<polygon fill="white" stroke="black" points="917,-73 917,-92 1041,-92 1041,-73 917,-73"/>
-<text text-anchor="middle" x="979" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M979,-124.317C979,-113.496 979,-100.398 979,-92.0091"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="975.5,-124.475 979,-134.475 982.5,-124.475 975.5,-124.475"/>
-</g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
+<g id="a_node9"><a xlink:href="SimFit_8cpp.html" target="_top" xlink:title="Examples/SimFit/SimFit.cpp">
 <polygon fill="white" stroke="black" points="736,-6 736,-25 878,-25 878,-6 736,-6"/>
 <text text-anchor="middle" x="807" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Examples/SimFit/SimFit.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge14" class="edge"><title>Node1&#45;&gt;Node10</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M955.677,-129.145C941.607,-120.56 923.47,-109.09 908,-98 873.389,-73.1901 834.832,-40.5912 817.021,-25.2272"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="953.898,-132.159 964.267,-134.337 957.519,-126.169 953.898,-132.159"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="BuilderXML_8hpp.html" target="_top" xlink:title="Physics/BuilderXML.hpp">
+<polygon fill="white" stroke="black" points="917,-73 917,-92 1041,-92 1041,-73 917,-73"/>
+<text text-anchor="middle" x="979" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">Physics/BuilderXML.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M979,-124.317C979,-113.496 979,-100.398 979,-92.0091"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="975.5,-124.475 979,-134.475 982.5,-124.475 975.5,-124.475"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
@@ -286,18 +286,18 @@ var sectionId = 'dynsection-1';
 <path fill="none" stroke="midnightblue" d="M1036.57,-142.967C1195.3,-142.351 1652.48,-137.041 2030,-98 2043.86,-96.5665 2058.85,-94.3488 2072.47,-92.0755"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1036.54,-139.467 1026.55,-143.001 1036.56,-146.467 1036.54,-139.467"/>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node8</title>
+<!-- Node10&#45;&gt;Node8 -->
+<g id="edge10" class="edge"><title>Node10&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M923.488,-71.09C872.33,-61.3274 794.367,-46.0209 727,-31 724.117,-30.3573 721.16,-29.6817 718.177,-28.9881"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="922.873,-74.5357 933.351,-72.9669 924.181,-67.6591 922.873,-74.5357"/>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge11" class="edge"><title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M946.639,-69.2706C912.502,-56.3699 859.594,-36.3757 829.661,-25.0637"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="945.568,-72.6074 956.16,-72.8685 948.043,-66.0594 945.568,-72.6074"/>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node11</title>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge12" class="edge"><title>Node10&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M1010.08,-69.1041C1042.45,-56.1984 1092.28,-36.3272 1120.52,-25.0637"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1008.64,-65.9133 1000.65,-72.8685 1011.23,-72.4154 1008.64,-65.9133"/>
 </g>
@@ -309,8 +309,8 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
-<g id="edge12" class="edge"><title>Node9&#45;&gt;Node12</title>
+<!-- Node10&#45;&gt;Node12 -->
+<g id="edge13" class="edge"><title>Node10&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M1031.12,-70.8792C1093.95,-58.0772 1198.28,-36.8191 1256.13,-25.0317"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1030.13,-67.5093 1021.03,-72.9355 1031.53,-74.3684 1030.13,-67.5093"/>
 </g>
@@ -322,8 +322,8 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node13 -->
-<g id="edge13" class="edge"><title>Node9&#45;&gt;Node13</title>
+<!-- Node10&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node10&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M979,-62.537C979,-50.1703 979,-34.6198 979,-25.1273"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="975.5,-62.7338 979,-72.7338 982.5,-62.7338 975.5,-62.7338"/>
 </g>

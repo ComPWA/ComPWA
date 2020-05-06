@@ -11,34 +11,34 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-270 803,-270 803,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="260,-246.5 260,-265.5 424,-265.5 424,-246.5 260,-246.5"/>
-<text text-anchor="middle" x="342" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Parameter.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="322,-246.5 322,-265.5 486,-265.5 486,-246.5 322,-246.5"/>
+<text text-anchor="middle" x="404" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Parameter.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="FunctionTree_2FitParameter_8hpp.html" target="_top" xlink:title="Implementations of Parameter for various data types. ">
-<polygon fill="white" stroke="black" points="254,-190.5 254,-209.5 430,-209.5 430,-190.5 254,-190.5"/>
-<text text-anchor="middle" x="342" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/FitParameter.hpp</text>
+<polygon fill="white" stroke="black" points="316,-190.5 316,-209.5 492,-209.5 492,-190.5 316,-190.5"/>
+<text text-anchor="middle" x="404" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/FitParameter.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M342,-235.805C342,-226.91 342,-216.78 342,-209.751"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="338.5,-236.083 342,-246.083 345.5,-236.083 338.5,-236.083"/>
+<path fill="none" stroke="midnightblue" d="M404,-235.805C404,-226.91 404,-216.78 404,-209.751"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="400.5,-236.083 404,-246.083 407.5,-236.083 400.5,-236.083"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="FitParameter_8cpp.html" target="_top" xlink:title="Core/FunctionTree/FitParameter.cpp">
-<polygon fill="white" stroke="black" points="0,-134.5 0,-153.5 176,-153.5 176,-134.5 0,-134.5"/>
+<polygon fill="white" stroke="black" points="-1.42109e-14,-134.5 -1.42109e-14,-153.5 176,-153.5 176,-134.5 -1.42109e-14,-134.5"/>
 <text text-anchor="middle" x="88" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/FitParameter.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M291.885,-188.346C243.883,-178.141 172.385,-162.94 128.059,-153.516"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="291.244,-191.787 301.753,-190.444 292.699,-184.94 291.244,-191.787"/>
+<path fill="none" stroke="midnightblue" d="M343.887,-188.727C284.172,-178.523 193.675,-163.058 137.837,-153.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="343.482,-192.209 353.929,-190.444 344.661,-185.309 343.482,-192.209"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -50,49 +50,49 @@
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M300.064,-186.726C283.086,-179.735 264.755,-169.244 253,-154 222.475,-114.415 230.991,-48.384 235.257,-25.0142"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="299.254,-190.162 309.845,-190.447 301.743,-183.62 299.254,-190.162"/>
+<path fill="none" stroke="midnightblue" d="M323.291,-188.782C281.17,-181.615 235.786,-170.354 223,-154 192.26,-114.681 220.715,-48.4839 232.466,-25.0423"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="322.905,-192.265 333.339,-190.427 324.036,-185.357 322.905,-192.265"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="ParameterList_8hpp.html" target="_top" xlink:title="ParameterList class. ">
+<g id="a_node5"><a xlink:href="Value_8hpp.html" target="_top" xlink:title="Template implementation of Parameter for simple values. ">
+<polygon fill="white" stroke="red" points="232,-134.5 232,-153.5 376,-153.5 376,-134.5 232,-134.5"/>
+<text text-anchor="middle" x="304" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Value.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M378.912,-185.453C360.451,-175.483 335.903,-162.228 320.027,-153.655"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="377.471,-188.652 387.933,-190.324 380.797,-182.493 377.471,-188.652"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="ParameterList_8hpp.html" target="_top" xlink:title="ParameterList class. ">
 <polygon fill="white" stroke="red" points="250,-67.5 250,-97.5 396,-97.5 396,-67.5 250,-67.5"/>
 <text text-anchor="start" x="258" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Parameter</text>
 <text text-anchor="middle" x="323" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">List.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M301.478,-186.536C285.989,-179.574 269.918,-169.156 261,-154 248.188,-132.226 273.619,-110.974 295.68,-97.5943"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="300.397,-189.876 310.977,-190.436 303.056,-183.4 300.397,-189.876"/>
+<!-- Node2&#45;&gt;Node6 -->
+<g id="edge9" class="edge"><title>Node2&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M401.553,-180.141C399.079,-166.437 394.243,-147.929 385,-134 375.175,-119.193 359.675,-106.568 346.631,-97.6449"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="398.139,-180.965 403.121,-190.316 405.057,-179.899 398.139,-180.965"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="ParameterList_8cpp.html" target="_top" xlink:title="Core/FunctionTree/Parameter\lList.cpp">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="ParameterList_8cpp.html" target="_top" xlink:title="Core/FunctionTree/Parameter\lList.cpp">
 <polygon fill="white" stroke="black" points="352,-0.5 352,-30.5 498,-30.5 498,-0.5 352,-0.5"/>
 <text text-anchor="start" x="360" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Parameter</text>
 <text text-anchor="middle" x="425" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">List.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge9" class="edge"><title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M382.414,-186.472C397.885,-179.499 413.972,-169.091 423,-154 446.532,-114.663 435.891,-56.988 429.1,-30.6088"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="380.841,-183.334 372.929,-190.381 383.508,-189.806 380.841,-183.334"/>
-</g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="Value_8hpp.html" target="_top" xlink:title="Template implementation of Parameter for simple values. ">
-<polygon fill="white" stroke="red" points="270,-134.5 270,-153.5 414,-153.5 414,-134.5 270,-134.5"/>
-<text text-anchor="middle" x="342" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Core/FunctionTree/Value.hpp</text>
-</a>
-</g>
-</g>
 <!-- Node2&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M342,-179.805C342,-170.91 342,-160.78 342,-153.751"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="338.5,-180.083 342,-190.083 345.5,-180.083 338.5,-180.083"/>
+<g id="edge8" class="edge"><title>Node2&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M406.2,-179.881C410.434,-143.088 419.626,-63.2059 423.367,-30.6947"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="402.679,-179.863 405.013,-190.198 409.633,-180.663 402.679,-179.863"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -104,8 +104,8 @@
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge10" class="edge"><title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M384.822,-187.829C423.906,-177.633 480.835,-162.782 516.354,-153.516"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="383.592,-184.533 374.8,-190.444 385.359,-191.306 383.592,-184.533"/>
+<path fill="none" stroke="midnightblue" d="M436.475,-186.906C463.736,-176.754 501.992,-162.506 526.132,-153.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="435.125,-183.674 426.976,-190.444 437.568,-190.233 435.125,-183.674"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
@@ -117,23 +117,23 @@
 </g>
 <!-- Node2&#45;&gt;Node9 -->
 <g id="edge11" class="edge"><title>Node2&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M412.701,-188.979C484.67,-178.779 595.032,-163.137 662.912,-153.516"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="411.78,-185.575 402.371,-190.444 412.763,-192.506 411.78,-185.575"/>
+<path fill="none" stroke="midnightblue" d="M464.684,-188.727C524.966,-178.523 616.322,-163.058 672.69,-153.516"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="463.822,-185.324 454.546,-190.444 464.99,-192.225 463.822,-185.324"/>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M309.807,-124.816C312.609,-116.041 315.919,-105.676 318.522,-97.523"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="306.43,-123.884 306.722,-134.475 313.098,-126.014 306.43,-123.884"/>
+</g>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M296.33,-61.3425C280.281,-49.2128 260.668,-34.389 248.504,-25.1945"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="294.251,-64.1585 304.339,-67.396 298.472,-58.5741 294.251,-64.1585"/>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M353.576,-62.0151C369.449,-51.8999 388.484,-39.7698 402.911,-30.5765"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="351.685,-59.0702 345.132,-67.396 355.447,-64.9734 351.685,-59.0702"/>
-</g>
-<!-- Node7&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M336.193,-124.816C333.391,-116.041 330.081,-105.676 327.478,-97.523"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="332.902,-126.014 339.278,-134.475 339.57,-123.884 332.902,-126.014"/>
 </g>
 </g>
 </svg>
