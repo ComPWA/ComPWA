@@ -1,7 +1,7 @@
 var structComPWA_1_1FitResult =
 [
     [ "serialize", "structComPWA_1_1FitResult.html#a4e1abd637d53a438cb8276bdc6309e84", null ],
-    [ "write", "structComPWA_1_1FitResult.html#a7fd72d5b8d99a9f6dbd86dcbb6dcca92", null ],
+    [ "write", "structComPWA_1_1FitResult.html#ae32aeaf0cabf12ee7ecbaab20c128092", null ],
     [ "operator<<", "structComPWA_1_1FitResult.html#ab3af730abcf9b52ccf8775ed0b265a72", null ],
     [ "CovarianceMatrix", "structComPWA_1_1FitResult.html#a39849e8533626aefeeb8e83cf4071e37", null ],
     [ "FinalEstimatorValue", "structComPWA_1_1FitResult.html#a27b6c00d3cf66b430a4933afb67a50ac", null ],

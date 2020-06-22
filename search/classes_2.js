@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['chioned',['ChiOneD',['../classChiOneD.html',1,'']]],
-  ['chioned',['ChiOneD',['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html',1,'ComPWA::Estimator::ChiOneD']]],
+  ['chioned',['ChiOneD',['../classChiOneD.html',1,'ChiOneD'],['../classComPWA_1_1Estimator_1_1ChiOneD_1_1ChiOneD.html',1,'ComPWA::Estimator::ChiOneD::ChiOneD']]],
   ['complexconjugate',['ComplexConjugate',['../classComPWA_1_1FunctionTree_1_1ComplexConjugate.html',1,'ComPWA::FunctionTree']]],
   ['complexify',['Complexify',['../classComPWA_1_1FunctionTree_1_1Complexify.html',1,'ComPWA::FunctionTree']]],
   ['corruptfile',['CorruptFile',['../classComPWA_1_1CorruptFile.html',1,'ComPWA']]],

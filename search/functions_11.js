@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['save',['save',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a0cd59c26cb92149475235dfd5021170e',1,'ComPWA::FunctionTree::FitParameter']]],
+  ['save',['save',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a0e8a29db178e3adecefd0df0f16f08d5',1,'ComPWA::FunctionTree::FitParameter']]],
   ['scale',['scale',['../classComPWA_1_1Tools_1_1Plotting_1_1DalitzHisto.html#a80a1e3be6e7d8acb16396dd0eedb7780',1,'ComPWA::Tools::Plotting::DalitzHisto']]],
   ['serialize',['serialize',['../structComPWA_1_1FitResult.html#a4e1abd637d53a438cb8276bdc6309e84',1,'ComPWA::FitResult::serialize()'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a5e94c0b9854c1d99bf1d350a45e7dca9',1,'ComPWA::FunctionTree::FitParameter::serialize()'],['../classComPWA_1_1FunctionTree_1_1Parameter.html#ac2c97bbdd129a95bc2d3c2b6de4d17b9',1,'ComPWA::FunctionTree::Parameter::serialize()'],['../classComPWA_1_1FunctionTree_1_1ParameterList.html#a7b703aa24c3d6f7f14cffdd018b6e332',1,'ComPWA::FunctionTree::ParameterList::serialize()'],['../structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af6412ad08e17e7b312b864bd633150cd',1,'ComPWA::Optimizer::Minuit2::MinuitResult::serialize()']]],
   ['setbounds',['setBounds',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aec420fc9625442c264d14ff5c297f932',1,'ComPWA::FunctionTree::FitParameter::setBounds(const double min, const double max)'],['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a9bcc10ea219b03adf67ec6e866813590',1,'ComPWA::FunctionTree::FitParameter::setBounds(const std::pair&lt; double, double &gt; r)']]],
@@ -21,12 +21,12 @@ var searchData=
   ['sinc',['sinc',['../Faddeeva_8cc.html#a0d8a24e5c334d77075fe71062e7dedfe',1,'Faddeeva.cc']]],
   ['sinh_5ftaylor',['sinh_taylor',['../Faddeeva_8cc.html#aa4937b661a073ebdb9f5667224252358',1,'Faddeeva.cc']]],
   ['sortsubsystem',['sortSubsystem',['../namespaceComPWA_1_1Physics_1_1HelicityFormalism.html#acbd44699420418017d67e3e697133150',1,'ComPWA::Physics::HelicityFormalism']]],
-  ['splitstring',['splitString',['../namespaceComPWA_1_1Utils.html#aa3046aeb7bd7890ae10b0524dd8184f1',1,'ComPWA::Utils']]],
+  ['splitstring',['splitString',['../namespaceComPWA_1_1Utils.html#ad621a0c79e90ebbfd6c90cb2df84e0e1',1,'ComPWA::Utils']]],
   ['sqr',['sqr',['../Faddeeva_8cc.html#a670452ed352cb7ce7601d9ae008bc4ca',1,'Faddeeva.cc']]],
   ['squareroot',['SquareRoot',['../classComPWA_1_1FunctionTree_1_1SquareRoot.html#a3abfcd9b746b2646f7d39562a7d9cacb',1,'ComPWA::FunctionTree::SquareRoot']]],
   ['srange',['SRange',['../namespaceComPWA_1_1Physics.html#a6484b50f664761743b5e25dff5ed3380',1,'ComPWA::Physics']]],
   ['stduniformrealgenerator',['StdUniformRealGenerator',['../classComPWA_1_1StdUniformRealGenerator.html#a6bd217a965f71841720588bcd6272d26',1,'ComPWA::StdUniformRealGenerator']]],
-  ['str',['str',['../classComPWA_1_1FunctionTree_1_1Strategy.html#ac81953bbd71d6fdb73cfce4bce27f8fe',1,'ComPWA::FunctionTree::Strategy']]],
+  ['str',['str',['../classComPWA_1_1FunctionTree_1_1Strategy.html#ad98f5cc7b5166f628393f4e7db95fb59',1,'ComPWA::FunctionTree::Strategy']]],
   ['strategy',['Strategy',['../classComPWA_1_1FunctionTree_1_1Strategy.html#a60333219a5d3964dd44e19c8e803c9a0',1,'ComPWA::FunctionTree::Strategy']]],
   ['stringtovectint',['stringToVectInt',['../namespaceComPWA_1_1Physics.html#a3eba68d6543b91b517a20c766a791986',1,'ComPWA::Physics']]],
   ['subsystem',['SubSystem',['../classComPWA_1_1Physics_1_1SubSystem.html#a0f99702e3dddf5d2e37ad91caa51266c',1,'ComPWA::Physics::SubSystem']]],

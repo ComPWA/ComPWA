@@ -5,8 +5,8 @@ var searchData=
   ['badparameter',['BadParameter',['../classComPWA_1_1BadParameter.html#a042ed8cf63749815525cd0ec719a4854',1,'ComPWA::BadParameter::BadParameter(const std::string &amp;error)'],['../classComPWA_1_1BadParameter.html#a085d4ff0ed9adfc3d3a269c58f4d555a',1,'ComPWA::BadParameter::BadParameter(const char *error)']]],
   ['beyondphsp',['BeyondPhsp',['../classComPWA_1_1BeyondPhsp.html#aa091c33c0849e64f16bdcd3e973a5017',1,'ComPWA::BeyondPhsp::BeyondPhsp(const std::string &amp;error=&quot;Data beyond phsp!&quot;)'],['../classComPWA_1_1BeyondPhsp.html#a13b3d5d8b6157b23d4749d7e1cc4a067',1,'ComPWA::BeyondPhsp::BeyondPhsp(const char *error)']]],
   ['bind',['bind',['../classComPWA_1_1FunctionTree_1_1FunctionTreeIntensity.html#ad2adcf85777dcbc37a656c8370b1418b',1,'ComPWA::FunctionTree::FunctionTreeIntensity']]],
-  ['boostalongy',['BoostAlongY',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#aeeebccda5de13ad8a47410436027e302',1,'ComPWA::Data::Root::RootGenerator']]],
-  ['bounds',['bounds',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#aa535da3ea6b20f10e6bbf2a68d4512c8',1,'ComPWA::FunctionTree::FitParameter']]],
+  ['boostalongy',['BoostAlongY',['../classComPWA_1_1Data_1_1Root_1_1RootGenerator.html#a2c34c6b9a2b00d4e46ea949d69cca8d2',1,'ComPWA::Data::Root::RootGenerator']]],
+  ['bounds',['bounds',['../classComPWA_1_1FunctionTree_1_1FitParameter.html#a628f9a425143bc18a7769797afcd8a8a',1,'ComPWA::FunctionTree::FitParameter']]],
   ['breitwignerstrategy',['BreitWignerStrategy',['../classComPWA_1_1Physics_1_1Dynamics_1_1BreitWignerStrategy.html#a559a4a1f45b3429c4e5f950dfc44e4c1',1,'ComPWA::Physics::Dynamics::BreitWignerStrategy']]],
   ['buildjacobiandcovariance',['buildJacobiAndCovariance',['../classComPWA_1_1Tools_1_1FitFractions.html#a9dc6d2d40158008dd76c2a4717229ba5',1,'ComPWA::Tools::FitFractions']]]
 ];

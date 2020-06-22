@@ -1,10 +1,10 @@
 var HistTools_8hpp =
 [
     [ "adaptiveBinning", "HistTools_8hpp.html#a91bce09c99f67754f565a9d3a183dcf8", null ],
-    [ "drawHist", "HistTools_8hpp.html#a24b8c2ce1e336f06e3572f21ca0bcdfe", null ],
-    [ "drawPull", "HistTools_8hpp.html#a80ef7acccb9dba4c040239c1fdb2d4bc", null ],
+    [ "drawHist", "HistTools_8hpp.html#a41b9981e592cff1b70081fad09255123", null ],
+    [ "drawPull", "HistTools_8hpp.html#a6d449c2d08284c9ae96f09da1d8335af", null ],
     [ "drawPull", "HistTools_8hpp.html#afe67e7be35693a6244360bcc17842cf8", null ],
-    [ "drawResidual", "HistTools_8hpp.html#a6a46807aa1665ffb14f2aa38810beafb", null ],
+    [ "drawResidual", "HistTools_8hpp.html#a19b0a0b2aeb2c11be521bdb43c2f81dc", null ],
     [ "drawResidual", "HistTools_8hpp.html#a3589dfba752fb0cd08d0e1cc9da27365", null ],
     [ "getPull", "HistTools_8hpp.html#ab09c1cfc792593798b5d84e9c875686a", null ],
     [ "getResidual", "HistTools_8hpp.html#a3298880eee4ae83a198ca69dadd80def", null ],

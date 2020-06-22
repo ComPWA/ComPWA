@@ -3,7 +3,7 @@ var structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult =
     [ "MinuitResult", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a0bdc7560ca1d6653d281e04502ab43d3", null ],
     [ "MinuitResult", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8d3fb92d7f25a10e4731270b76b7ea9e", null ],
     [ "serialize", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#af6412ad08e17e7b312b864bd633150cd", null ],
-    [ "write", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a17400bbc065f378331748cb7e4ed4cfe", null ],
+    [ "write", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a192e82eb0072a8172f0ae7aa3589fb11", null ],
     [ "operator<<", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a914037bd312e4e65febc797a3cdd17ea", null ],
     [ "CovPosDef", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a613c4554aff48a4fc96a6464ca28a9eb", null ],
     [ "Edm", "structComPWA_1_1Optimizer_1_1Minuit2_1_1MinuitResult.html#a8272acdbc526d6347f18276ccec2d5db", null ],
